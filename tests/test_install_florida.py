@@ -50,6 +50,8 @@ class FloridaInstallerTests(unittest.TestCase):
         self.app = self.tmp / "app-root"
         files = {"app/js/lib/content.js": CONTENT_JS, "app/js/views/outlines.js": OUTLINES_JS, "tools/validate_content.py": VALIDATOR,
                  "app/js/lib/planner.js": PLANNER, "app/js/views/welcome.js": WELCOME, "app/js/views/mbe.js": MBE_JS,
+                 "app/js/ui/shell.js": "function navList(path, onPick) {\n  return h('ul.nav', NAV.map(item => item.group ? 1 : 2));\n}\n",
+                 "app/js/views/essays.js": "export const title = 'MEE Essays';\nheader({\n      title: 'MEE Essays',\n      lede: 'Thirty minutes each, written on pleading paper against a running clock. Then grade.',\n});\n",
                  "content/guide.json": json.dumps({"sections": [{"id": "mee-method"}, {"id": "florida-old"}]}),
                  "app/js/main.js": "route('/', x);\nroute('*', y);\n", "app/index.html": '<link rel="stylesheet" href="css/views.css">\n', "content/catalog.json": json.dumps(CATALOG)}
         for rel, text in files.items():
@@ -88,6 +90,8 @@ class FloridaInstallerTests(unittest.TestCase):
         guide = json.loads((self.app / "content/guide.json").read_text())
         self.assertEqual([x["id"] for x in guide["sections"]], ["mee-method", "florida-how"])
         self.assertIn(".then(forTrackGuide)", (self.app / "app/js/lib/content.js").read_text())
+        self.assertIn("trackNav().map(item => item.group", (self.app / "app/js/ui/shell.js").read_text())
+        self.assertIn("floridaTrack() ? 'Part A Essays' : 'MEE Essays'", (self.app / "app/js/views/essays.js").read_text())
         self.assertEqual(cat["subjects"][1]["group"], "florida")
         self.assertTrue((self.app / "content/subjects/fl-wills/outline.json").exists())
         self.assertIn('"FL"', (self.app / "tools/validate_content.py").read_text())
@@ -110,7 +114,7 @@ class FloridaInstallerTests(unittest.TestCase):
 
         code, out = self.run_inst()
         self.assertEqual(code, 0, out)
-        self.assertEqual(out.count("unchanged"), 13, out)
+        self.assertEqual(out.count("unchanged"), 15, out)
 
         self.run_inst("--uninstall")
         self.assertEqual((self.app / "app/js/lib/content.js").read_text(), CONTENT_JS)

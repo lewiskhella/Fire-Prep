@@ -15,6 +15,7 @@ What it does (every changed file is backed up to <app>/.florida-backup/<time>/):
   * app/js/views/outlines.js    a "Florida Part A" shelf in the binder
   * content/guide.json + catalog  Florida Bench Book sections (florida/guide-florida.json) and the
                                 Florida exam profile; content.js shows them on the Florida track
+  * app/js/ui/shell.js + views/essays.js  Florida track: "Part A Essays", no Performance Test
   * app/js/views/welcome.js     labels Florida subjects in onboarding
   * app/js/lib/planner.js       study-time weights for the Florida subjects, and (via the new
                                 lib/florida-plan.js) a Florida calendar: Part A question sets and
@@ -190,6 +191,25 @@ PATCHES = [
          "  return floridaize(buildPlanBase(profile, subjects, today), profile, subjects);\n"
          "}\n\n"
          "function buildPlanBase(profile, subjects, today = new Date()) {"),
+    ]),
+    Replace("app/js/ui/shell.js", "trackNav", "Florida navigation (Part A Essays; no Performance Test)", [
+        ("function navList(path, onPick) {",
+         "// Florida track: essays are Part A essays and there is no MPT.\n"
+         "function trackNav() {\n"
+         "  const fl = /florida|^fl\\.?$/.test(String(store.state.profile.jurisdiction || '').trim().toLowerCase());\n"
+         "  if (!fl) return NAV;\n"
+         "  return NAV.filter(i => i.path !== '/mpt').map(i => (i.path === '/essays' ? { ...i, label: 'Part A Essays' } : i));\n"
+         "}\n\n"
+         "function navList(path, onPick) {"),
+        ("return h('ul.nav', NAV.map(item => item.group", "return h('ul.nav', trackNav().map(item => item.group"),
+    ]),
+    Replace("app/js/views/essays.js", "floridaTrack", "Part A essays heading on the Florida track", [
+        ("export const title = 'MEE Essays';",
+         "export const title = 'MEE Essays';\n"
+         "const floridaTrack = () => { try { return /florida|^fl\\.?$/.test(String((JSON.parse(localStorage.getItem('ruled:v1') || '{}').profile || {}).jurisdiction || '').trim().toLowerCase()); } catch { return false; } };"),
+        ("      title: 'MEE Essays',", "      title: floridaTrack() ? 'Part A Essays' : 'MEE Essays',"),
+        ("lede: 'Thirty minutes each, written on pleading paper against a running clock.",
+         "lede: floridaTrack() ? 'An hour each for Florida Part A, written on pleading paper against a running clock. Then grade yourself issue by issue against what a grader looks for, and read the model answer beside your own.' : 'Thirty minutes each, written on pleading paper against a running clock."),
     ]),
     InsertAfterLine("app/js/lib/planner.js", "'fl-wills'", "Florida study-time weights",
                     "'conflict-of-laws': 0.45,", WEIGHTS),
