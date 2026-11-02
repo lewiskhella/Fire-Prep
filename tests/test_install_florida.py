@@ -20,6 +20,7 @@ export function catalog() {
   if (!catalogPromise) catalogPromise = getJSON('catalog.json', { subjects: [], exam: { components: [] } });
   return catalogPromise;
 }
+export const guide = () => getJSON('guide.json', { sections: [] });
 """
 OUTLINES_JS = """  const mbe = subs.filter(s => s.meta.group === 'mbe');
   const mee = subs.filter(s => s.meta.group !== 'mbe');
@@ -49,6 +50,7 @@ class FloridaInstallerTests(unittest.TestCase):
         self.app = self.tmp / "app-root"
         files = {"app/js/lib/content.js": CONTENT_JS, "app/js/views/outlines.js": OUTLINES_JS, "tools/validate_content.py": VALIDATOR,
                  "app/js/lib/planner.js": PLANNER, "app/js/views/welcome.js": WELCOME, "app/js/views/mbe.js": MBE_JS,
+                 "content/guide.json": json.dumps({"sections": [{"id": "mee-method"}, {"id": "florida-old"}]}),
                  "app/js/main.js": "route('/', x);\nroute('*', y);\n", "app/index.html": '<link rel="stylesheet" href="css/views.css">\n', "content/catalog.json": json.dumps(CATALOG)}
         for rel, text in files.items():
             p = self.app / rel
@@ -59,6 +61,7 @@ class FloridaInstallerTests(unittest.TestCase):
         (self.pack / "content/subjects/fl-wills").mkdir(parents=True)
         (self.pack / "content/subjects/fl-wills/outline.json").write_text('{"subject": "fl-wills", "topics": []}')
         shutil.copy(ROOT / "florida/catalog-florida.json", self.pack / "catalog-florida.json")
+        (self.pack / "guide-florida.json").write_text(json.dumps({"exam": {"name": "Florida", "short": "FL", "components": []}, "hide": ["mee-method"], "sections": [{"id": "florida-how", "title": "T", "kicker": "k", "body": ["b"]}]}))
         self._pack, fl.PACK = fl.PACK, self.pack
         self._validate, fl.validate = fl.validate, lambda app, subjects: True
         self._repo = fl.kit.REPO
@@ -81,6 +84,10 @@ class FloridaInstallerTests(unittest.TestCase):
         self.assertEqual(code, 0, out)
         cat = json.loads((self.app / "content/catalog.json").read_text())
         self.assertEqual([s["id"] for s in cat["subjects"]], ["torts", "fl-wills"])
+        self.assertEqual(cat["examFlorida"]["hideGuide"], ["mee-method"])
+        guide = json.loads((self.app / "content/guide.json").read_text())
+        self.assertEqual([x["id"] for x in guide["sections"]], ["mee-method", "florida-how"])
+        self.assertIn(".then(forTrackGuide)", (self.app / "app/js/lib/content.js").read_text())
         self.assertEqual(cat["subjects"][1]["group"], "florida")
         self.assertTrue((self.app / "content/subjects/fl-wills/outline.json").exists())
         self.assertIn('"FL"', (self.app / "tools/validate_content.py").read_text())
@@ -103,7 +110,7 @@ class FloridaInstallerTests(unittest.TestCase):
 
         code, out = self.run_inst()
         self.assertEqual(code, 0, out)
-        self.assertEqual(out.count("unchanged"), 10, out)
+        self.assertEqual(out.count("unchanged"), 13, out)
 
         self.run_inst("--uninstall")
         self.assertEqual((self.app / "app/js/lib/content.js").read_text(), CONTENT_JS)

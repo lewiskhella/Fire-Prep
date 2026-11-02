@@ -13,6 +13,8 @@ What it does (every changed file is backed up to <app>/.florida-backup/<time>/):
                                 shows MBE + Florida Part A (hides the MEE-only subjects);
                                 any other jurisdiction hides Florida; blank shows all
   * app/js/views/outlines.js    a "Florida Part A" shelf in the binder
+  * content/guide.json + catalog  Florida Bench Book sections (florida/guide-florida.json) and the
+                                Florida exam profile; content.js shows them on the Florida track
   * app/js/views/welcome.js     labels Florida subjects in onboarding
   * app/js/lib/planner.js       study-time weights for the Florida subjects, and (via the new
                                 lib/florida-plan.js) a Florida calendar: Part A question sets and
@@ -57,14 +59,33 @@ CATALOG_NEW = """export function catalog() {
 // Jurisdiction track (Settings -> jurisdiction): "Florida" studies the MBE subjects plus
 // Florida Part A; any other jurisdiction studies the UBE (MBE + MEE); blank shows everything.
 // Read straight from storage to avoid importing the store here. Takes effect on reload.
-function forTrack(cat) {
+function trackOf() {
   let j = '';
   try { j = (JSON.parse(localStorage.getItem('ruled:v1') || '{}').profile || {}).jurisdiction || ''; } catch { /* storage unavailable */ }
   j = String(j).trim().toLowerCase();
-  if (!j) return cat;
-  const florida = /florida|^fl\\.?$/.test(j);
+  return !j ? '' : /florida|^fl\\.?$/.test(j) ? 'florida' : 'ube';
+}
+
+function forTrack(cat) {
+  const t = trackOf();
+  if (!t) return cat;
+  const florida = t === 'florida';
   const keep = s => (florida ? s.group !== 'mee' : s.group !== 'florida');
-  return { ...cat, subjects: (cat.subjects || []).filter(keep) };
+  return { ...cat, exam: florida && cat.examFlorida ? cat.examFlorida : cat.exam, subjects: (cat.subjects || []).filter(keep) };
+}
+
+// Bench Book: Florida sections first for the Florida track (UBE-only sections hidden);
+// hidden for other jurisdictions; everything when no jurisdiction is set.
+async function forTrackGuide(g) {
+  const t = trackOf();
+  const secs = (g && g.sections) || [];
+  const isFl = s => String(s.id).startsWith('florida-');
+  if (t === 'florida') {
+    const cat = await getJSON('catalog.json', {});
+    const hide = new Set((cat.examFlorida && cat.examFlorida.hideGuide) || []);
+    return { ...g, sections: [...secs.filter(isFl), ...secs.filter(s => !isFl(s) && !hide.has(s.id))] };
+  }
+  return t ? { ...g, sections: secs.filter(s => !isFl(s)) } : g;
 }"""
 
 
@@ -86,6 +107,32 @@ def merge_catalog(data: dict) -> dict:
     return out
 
 
+def _guide_pack():
+    p = PACK / "guide-florida.json"
+    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
+
+
+def add_exam_profile(data: dict) -> dict:
+    g = _guide_pack()
+    if not g or "exam" not in g:
+        return data
+    exam = dict(g["exam"])
+    exam["hideGuide"] = list(g.get("hide", []))
+    out = dict(data)
+    out["examFlorida"] = exam
+    return out
+
+
+def merge_guide(data: dict) -> dict:
+    g = _guide_pack()
+    if not g:
+        return data
+    out = dict(data)
+    kept = [s for s in data.get("sections", []) if not str(s.get("id", "")).startswith("florida-")]
+    out["sections"] = kept + list(g.get("sections", []))
+    return out
+
+
 class CatalogEdit(JsonEdit):
     def apply(self, text):
         try:
@@ -101,6 +148,12 @@ PATCHES = [
     Replace("tools/validate_content.py", '"FL"', "FL exam tag in the validator",
             [('EXAMS = {"MBE", "MEE"}', 'EXAMS = {"MBE", "MEE", "FL"}')]),
     Replace("app/js/lib/content.js", "forTrack", "jurisdiction track filter", [(CATALOG_OLD, CATALOG_NEW)]),
+    Replace("app/js/lib/content.js", "forTrackGuide)", "Florida Bench Book sections", [
+        ("export const guide = () => getJSON('guide.json', { sections: [] });",
+         "export const guide = () => getJSON('guide.json', { sections: [] }).then(forTrackGuide);"),
+    ]),
+    CatalogEdit("content/catalog.json", "Florida exam profile in the catalog", lambda d: add_exam_profile(d)),
+    CatalogEdit("content/guide.json", "Florida Bench Book sections", lambda d: merge_guide(d)),
     Replace("app/js/views/outlines.js", "group === 'florida'", "Florida Part A shelf", [
         ("const mee = subs.filter(s => s.meta.group !== 'mbe');",
          "const mee = subs.filter(s => s.meta.group !== 'mbe' && s.meta.group !== 'florida');\n"
