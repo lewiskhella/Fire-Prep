@@ -404,7 +404,7 @@
           "id": "fl-wills.homestead.descent",
           "title": "Descent when the devise is invalid or there is no will",
           "weight": 3,
-          "rule": "Homestead not validly devised descends like other intestate property, except that if the decedent is survived by a spouse and one or more descendants, the spouse takes a life estate with a vested remainder to the descendants in being at death, per stirpes. Instead of the life estate, the spouse may elect to take an undivided one-half interest as a tenant in common, with the other one-half vesting in the descendants per stirpes; the election must be made within 2 years after the decedent's death and is irrevocable.",
+          "rule": "Homestead not validly devised descends like other intestate property, except that if the decedent is survived by a spouse and one or more descendants, the spouse takes a life estate with a vested remainder to the descendants in being at death, per stirpes. Instead of the life estate, the spouse may elect to take an undivided one-half interest as a tenant in common, with the other one-half vesting in the descendants per stirpes; the election must be made within 6 months after the decedent's death and is irrevocable.",
           "elements": [
             "Spouse and descendants: spouse life estate (or elected one-half tenancy in common), descendants the remainder",
             "Spouse, no descendants: passes by intestacy (spouse takes it all)",

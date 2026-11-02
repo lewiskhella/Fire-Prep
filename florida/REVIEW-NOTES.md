@@ -177,7 +177,7 @@ relying on the pack for anything beyond study.
 - **Amounts and deadlines:**
   - exempt property: $20,000 of furniture and two vehicles, petition by the later of 4 months or 40 days;
   - family allowance: $18,000;
-  - the 2-year, irrevocable tenancy-in-common election for homestead;
+  - the irrevocable tenancy-in-common election for homestead (now 6 months, see below);
   - Snyder v. Davis; § 732.7025 waiver language.
 - **Construction:**
   - Anti-lapse: survivorship words and stepchildren (§ 732.603).
@@ -218,7 +218,7 @@ relying on the pack for anything beyond study.
 
 - **Homestead:**
   - 2024 Amendment 5 indexing of the second $25,000 exemption; the March 1 deadline; the $500,000 portability figure.
-  - The spouse's 6-month tenancy-in-common election under § 732.401(2) (q002, e01). The fl-wills notes say 2 years; reconcile the two.
+  - The spouse's tenancy-in-common election under § 732.401(2) (q002, e01). The authors disagreed (6 months vs. 2 years). Both subjects now say 6 months after death, which matches the editor's reading of the statute; the 2-year figure appears to come from the elective-share deadline. **Verify.**
   - Snyder v. Davis; Havoco v. Hill (q001).
 - **Conveyancing:**
   - § 95.231 curative statute; § 695.26 witness addresses; remote witnessing (e01).
