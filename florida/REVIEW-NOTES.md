@@ -412,3 +412,39 @@ through the notes above. Where marked, they checked current statutes and 2025–
   - e01 breach-of-the-peace analysis.
 - **Still uncertain:** whether § 679.626's rebuttable presumption extends to consumer transactions (the content states only the non-consumer rule).
 - **Added:** spotters s01 and s02.
+
+## fl-family-law: reviewed
+
+- **Blind check:** 15/15.
+- **Confirmed online:**
+  - 2023 alimony numbers (all correct).
+  - Equal time-sharing presumption (rebuttable by a preponderance).
+  - "Unanticipated" removed from the modification test in 2023.
+  - § 39.501(4) 21-day petition deadline.
+  - Older permanent awards are unaffected by the 2023 reform (tip added).
+- **Corrected:**
+  - Residency tip.
+  - "Reasonable retirement" wording.
+  - Best-interests wording ("neither parent is favored because of his or her sex"; "specific written findings of fact").
+  - TPR: all three elements need clear and convincing proof (q015).
+- **Still uncertain:**
+  - Whether the presumption applies to modifications (nothing in the content depends on it).
+  - Whether the 2023 act applies by filing date or judgment date.
+- **Added:** spotters s01 and s02.
+
+## fl-professional-responsibility: reviewed
+
+- **Blind check:** 15/15.
+- **Corrected — Florida departures that had been stated as the ABA rule:**
+  - Mandatory withdrawal for persistent client crime or fraud (4-1.16(a)(4)–(5)).
+  - Candor duties continue beyond the proceeding (4-3.3(d); q015).
+  - Nonlawyer compensation: no bonus based on cases or clients brought in (4-5.4(a); q005, e02).
+- **Also corrected:**
+  - ABA direct-mail comparison (the labeling rule was dropped in 2018).
+  - 25% referral cap wording (e01).
+  - Monthly trust reconciliation.
+  - Mandatory pro bono reporting.
+- **Still uncertain:**
+  - ABA 1.8(e)(3) gifts to indigent clients (the content follows Florida's rule with no living-expense exception).
+  - How often the client-ledger comparison is required.
+- **Added:** spotters s01 and s02.
