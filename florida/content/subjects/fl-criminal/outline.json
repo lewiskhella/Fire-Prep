@@ -35,7 +35,7 @@
      "exceptions": [
       "Independent act: a co-felon's killing that the defendant did not intend, did not participate in, and that was not a reasonably foreseeable consequence of the common plan is not attributed to the defendant."
      ],
-     "split": "The MBE treats felony murder as a single offense tied to inherently dangerous felonies. Florida uses a statutory list and grades the offense: section 782.04(3) makes certain killings during an enumerated felony second-degree murder when committed by a person other than the person engaged in the felony, and section 782.04(4) makes an unintended killing during a non-enumerated felony third-degree murder.",
+     "split": "The MBE treats felony murder as a single offense tied to inherently dangerous felonies. Florida uses a statutory list and grades the offense: under section 782.04(3), when a person is killed during an enumerated felony by someone other than the person engaged in the felony (for example, a store owner or police officer who shoots at the robbers and kills a bystander), the felon commits second-degree murder; section 782.04(4) makes an unintended killing during a non-enumerated felony third-degree murder.",
      "tip": "The killing must be part of the same continuous episode as the felony. Florida asks whether there was a break in the chain of circumstances; reaching a place of safety after the felony is strong evidence of a break.",
      "authority": "Fla. Stat. § 782.04(1)(a)2., (3), (4)"
     },
@@ -49,7 +49,7 @@
       "A depraved mind: an act that a person of ordinary judgment would know is reasonably certain to kill or do serious bodily injury, done from ill will, hatred, spite or an evil intent, and of a nature that shows indifference to human life",
       "Death caused by the act"
      ],
-     "tip": "Second-degree murder is the usual result for a killing in a sudden, angry confrontation (for example, firing into a crowd or shooting during a heated argument). A single unexpected fatal punch often fails the depraved-mind element and is better analyzed as manslaughter.",
+     "tip": "Second-degree murder is the usual result for a reckless or impulsive killing without premeditation, such as shooting someone during a heated argument or firing into a crowd. A single unexpected fatal punch often fails the depraved-mind element and is better analyzed as manslaughter.",
      "authority": "Fla. Stat. § 782.04(2)"
     },
     {
@@ -64,7 +64,10 @@
      "split": "Florida does not separately label voluntary and involuntary manslaughter. A heat-of-passion killing on adequate provocation, which the MBE calls voluntary manslaughter, is prosecuted in Florida as manslaughter by act; an unintended killing through gross negligence is manslaughter by culpable negligence.",
      "tip": "Vehicular homicide (§ 782.071) covers a killing caused by operating a motor vehicle in a reckless manner likely to cause death or great bodily harm. Recklessness is a lower standard than culpable negligence, which is why vehicular homicide exists as a separate offense.",
      "trap": "In State v. Montgomery the Florida Supreme Court held that the standard jury instruction was fundamentally erroneous because it required an intent to kill for manslaughter by act. The State must prove only an intentional act that caused death.",
-     "authority": "Fla. Stat. §§ 782.07, 782.071; State v. Montgomery, 39 So. 3d 252 (Fla. 2010)"
+     "authority": "Fla. Stat. §§ 782.03, 782.07, 782.071; State v. Montgomery, 39 So. 3d 252 (Fla. 2010)",
+     "exceptions": [
+      "Excusable homicide is no crime: a killing by accident and misfortune in doing a lawful act by lawful means with usual ordinary caution and without unlawful intent, or by accident and misfortune in the heat of passion on sudden and sufficient provocation or on sudden combat, without a dangerous weapon and not in a cruel or unusual manner (§ 782.03)."
+     ]
     },
     {
      "id": "fl-criminal.homicide-and-person.assault-and-battery",
@@ -114,6 +117,7 @@
      "rule": "A person commits theft if he or she knowingly obtains or uses, or endeavors to obtain or use, the property of another with intent to, either temporarily or permanently, (1) deprive the other person of a right to the property or a benefit from it, or (2) appropriate the property to his or her own use or to the use of any person not entitled to it.",
      "elements": [
       "Grand theft of the third degree begins at property valued at $750 and also includes certain items regardless of value, such as a firearm or a motor vehicle.",
+      "Theft of property worth $40 or more but less than $750 taken from a dwelling or its unenclosed curtilage is also third-degree grand theft (the floor was $100 before a 2024 amendment).",
       "Theft of property valued at $20,000 or more but less than $100,000 is second-degree grand theft; $100,000 or more is first-degree grand theft.",
       "Theft of property below the grand-theft threshold is petit theft."
      ],
@@ -141,12 +145,12 @@
      "weight": 3,
      "rule": "Burglary is (1) entering a dwelling, structure or conveyance with the intent to commit an offense therein, unless the premises are at the time open to the public or the defendant is licensed or invited to enter; or (2) notwithstanding a licensed or invited entry, remaining in a dwelling, structure or conveyance surreptitiously with intent to commit an offense therein, after permission to remain has been withdrawn with intent to commit an offense therein, or to commit or attempt a forcible felony.",
      "elements": [
-      "'Dwelling' and 'structure' include their curtilage; 'conveyance' includes motor vehicles, vessels, trailers, aircraft and railroad cars.",
+      "'Dwelling' and 'structure' include their curtilage, which requires some form of enclosure around the area next to the building (State v. Hamilton, 660 So. 2d 1038 (Fla. 1995)); 'conveyance' includes motor vehicles, vessels, trailers, aircraft and railroad cars.",
       "Entry may be by any part of the body or by an instrument.",
       "Proof that the defendant entered stealthily and without consent is prima facie evidence of intent to commit an offense (§ 810.07)."
      ],
      "split": "Common-law burglary required breaking and entering the dwelling of another at night with intent to commit a felony. Florida requires no breaking and no nighttime, covers structures and vehicles, and is satisfied by intent to commit any offense, including a misdemeanor.",
-     "tip": "Grading: burglary in which the offender makes an assault or battery, or is or becomes armed with a dangerous weapon or explosive, is a first-degree felony punishable by life; burglary of a dwelling (occupied or not) is a second-degree felony; burglary of an unoccupied structure or conveyance is generally a third-degree felony.",
+     "tip": "Grading: burglary in which the offender makes an assault or battery, or is or becomes armed with a dangerous weapon or explosive, is a first-degree felony punishable by life; burglary of a dwelling (occupied or not), or of a structure or conveyance with a person inside, is a second-degree felony; burglary of an unoccupied structure or conveyance is generally a third-degree felony.",
      "trap": "The 'open to the public' exception protects an entry during business hours, but not a customer who hides in a restroom to remain after closing intending to steal; that is burglary by remaining surreptitiously.",
      "authority": "Fla. Stat. §§ 810.011, 810.02, 810.07"
     },
@@ -183,7 +187,7 @@
    "exams": [
     "FL"
    ],
-   "intro": "Section 777.04 defines attempt, solicitation and conspiracy and provides a renunciation defense for each; section 777.011 makes every aider and abettor a principal. The testable Florida points are that conspiracy needs no overt act, that accomplices are punished as principals, and that close relatives are generally exempt from accessory-after-the-fact liability.",
+   "intro": "Section 777.04 defines attempt, solicitation and conspiracy and provides a renunciation defense for each; section 777.011 makes every aider and abettor a principal. The testable Florida points are that conspiracy needs no overt act, that accomplices are punished as principals, and that close relatives are exempt from accessory-after-the-fact liability only when the underlying crime is a third-degree felony.",
    "rules": [
     {
      "id": "fl-criminal.inchoate-and-parties.attempt",
@@ -247,10 +251,10 @@
      "weight": 1,
      "rule": "A person who, knowing that another has committed a felony, maintains, assists or gives any other aid to the offender with intent that the offender avoid or escape detection, arrest, trial or punishment is an accessory after the fact. It is a separate offense, graded below the underlying felony, not a form of principal liability.",
      "exceptions": [
-      "The statute generally exempts the offender's spouse, parent, grandparent, child, grandchild, brother or sister, by blood or by marriage, subject to limited statutory exceptions."
+      "The offender's spouse, parent, grandparent, child, grandchild, brother or sister, by blood or by marriage, is exempt only when the offender's crime was a third-degree felony. There is no relative exemption when the crime was a capital, life, first-degree or second-degree felony, and none for helping a person who committed child abuse, aggravated child abuse, neglect of a child, or the aggravated manslaughter or murder of a child under 18 (unless the court finds the helper is a domestic-violence victim)."
      ],
      "tip": "The accessory must know a felony was committed and must intend to help the felon escape justice; giving a ride to someone without knowing of the felony is not enough.",
-     "authority": "Fla. Stat. § 777.03"
+     "authority": "Fla. Stat. § 777.03(1)(a)–(c)"
     }
    ]
   },
@@ -305,16 +309,17 @@
      "id": "fl-criminal.defenses.stand-your-ground-immunity",
      "title": "Stand-your-ground immunity",
      "weight": 3,
-     "rule": "A person who uses or threatens force as permitted by sections 776.012, 776.013 or 776.031 is justified and immune from criminal prosecution and civil action, unless the person against whom force was used was a law enforcement officer acting in the performance of official duties whom the defender knew or reasonably should have known was an officer. 'Criminal prosecution' includes arresting, detaining in custody, and charging or prosecuting the defendant.",
+     "rule": "A person who uses or threatens force as permitted by sections 776.012, 776.013 or 776.031 is justified and immune from criminal prosecution and civil action, unless the person against whom force was used was a law enforcement officer acting in the performance of official duties who identified himself or herself, or whom the defender knew or reasonably should have known was an officer. 'Criminal prosecution' includes arresting, detaining in custody, and charging or prosecuting the defendant.",
      "elements": [
       "The defendant raises immunity by a pretrial motion to dismiss under Rule 3.190(b) and is entitled to an evidentiary hearing at which the judge resolves disputed facts; a State traverse does not defeat the motion.",
       "Once the defendant makes a prima facie claim of self-defense immunity, the State must overcome it by clear and convincing evidence.",
       "If immunity is denied, the defendant may still argue self-defense at trial, where the State must prove beyond a reasonable doubt that the defendant did not act in lawful self-defense.",
+      "A pretrial order denying immunity may be reviewed before trial by petition for a writ of prohibition in the district court of appeal.",
       "Law enforcement may not arrest a person for using or threatening force unless it has probable cause that the force was unlawful."
      ],
      "split": "Most jurisdictions treat self-defense only as a trial defense decided by the jury. Florida provides pretrial immunity decided by the judge. Before a 2017 amendment the defendant bore the burden by a preponderance of the evidence (Bretherick v. State, 2015); the Florida Supreme Court has held that the amendment shifting the burden to the State applies to immunity hearings held on or after its effective date (Love v. State, 2019).",
      "tip": "In a civil action, a defendant found immune recovers reasonable attorney's fees, court costs, compensation for lost income and other expenses of the defense.",
-     "authority": "Fla. Stat. § 776.032; Dennis v. State (Fla. 2010); Love v. State (Fla. 2019)"
+     "authority": "Fla. Stat. § 776.032; Dennis v. State, 51 So. 3d 456 (Fla. 2010); Bretherick v. State, 170 So. 3d 766 (Fla. 2015); Love v. State, 286 So. 3d 177 (Fla. 2019)"
     },
     {
      "id": "fl-criminal.defenses.insanity",
@@ -347,7 +352,7 @@
       "The question then becomes predisposition; once the defendant produces evidence of no predisposition, the State must prove predisposition beyond a reasonable doubt."
      ],
      "split": "Section 777.201 adopts the subjective (predisposition) test. Separately, the Florida Supreme Court recognizes an 'objective entrapment' defense under the due-process clause of Article I, section 9, decided by the judge, when law enforcement conduct is so outrageous that it violates due process regardless of predisposition, such as paying an informant a fee contingent on obtaining convictions and testifying.",
-     "authority": "Fla. Stat. § 777.201; Munoz v. State (Fla. 1993); State v. Glosson (Fla. 1985)"
+     "authority": "Fla. Stat. § 777.201; Munoz v. State, 629 So. 2d 90 (Fla. 1993); State v. Glosson, 462 So. 2d 1082 (Fla. 1985)"
     },
     {
      "id": "fl-criminal.defenses.duress-necessity-independent-act",
@@ -425,7 +430,7 @@
       "Good faith: objectively reasonable reliance on a facially valid warrant, a statute later held invalid, or binding appellate precedent.",
       "Illegally obtained evidence may be used to impeach the defendant's own trial testimony."
      ],
-     "authority": "Mapp v. Ohio, 367 U.S. 643 (1961); Art. I, § 12, Fla. Const.; Rodriguez v. State (Fla. 2015)"
+     "authority": "Mapp v. Ohio, 367 U.S. 643 (1961); Art. I, § 12, Fla. Const.; Rodriguez v. State, 187 So. 3d 841 (Fla. 2015)"
     },
     {
      "id": "fl-criminal.search-seizure-confessions.miranda-custody",
@@ -438,7 +443,7 @@
      ],
      "split": "Florida grounds the warnings independently in Article I, section 9 of the Florida Constitution, and the Florida Supreme Court has said suspects must be told of the right to a lawyer's help during questioning. The United States Supreme Court has held, in a Florida case, that warnings need not follow a precise script so long as they reasonably convey the rights (Florida v. Powell, 2010).",
      "tip": "A voluntary statement obtained in violation of Miranda may still be used to impeach a defendant who testifies inconsistently.",
-     "authority": "Miranda v. Arizona, 384 U.S. 436 (1966); Art. I, § 9, Fla. Const.; Traylor v. State (Fla. 1992); Ramirez v. State (Fla. 1999)"
+     "authority": "Miranda v. Arizona, 384 U.S. 436 (1966); Art. I, § 9, Fla. Const.; Traylor v. State, 596 So. 2d 957 (Fla. 1992); Ramirez v. State, 739 So. 2d 568 (Fla. 1999); Florida v. Powell, 559 U.S. 50 (2010)"
     },
     {
      "id": "fl-criminal.search-seizure-confessions.invocation-and-voluntariness",
@@ -452,7 +457,7 @@
       "Threats, physical coercion, or promises of leniency that induce a confession render it involuntary; the State must prove voluntariness by a preponderance of the evidence."
      ],
      "split": "Florida follows Davis v. United States under its own constitution: in State v. Owen (1997) the Florida Supreme Court held that police need not stop questioning in response to an equivocal request for counsel or to remain silent.",
-     "authority": "Edwards v. Arizona, 451 U.S. 477 (1981); Davis v. United States, 512 U.S. 452 (1994); State v. Owen (Fla. 1997); Almeida v. State (Fla. 1999)"
+     "authority": "Edwards v. Arizona, 451 U.S. 477 (1981); Davis v. United States, 512 U.S. 452 (1994); State v. Owen, 696 So. 2d 715 (Fla. 1997); Almeida v. State, 737 So. 2d 520 (Fla. 1999)"
     }
    ]
   },
@@ -472,11 +477,12 @@
      "rule": "Every arrested person who is not released must be taken before a judge for a first appearance within 24 hours of arrest. At first appearance the judge informs the defendant of the charge and provides a copy of the complaint, advises of the right to remain silent and the right to counsel, appoints counsel for an indigent defendant who wants it, and determines conditions of pretrial release.",
      "elements": [
       "A person arrested without a warrant is entitled to a nonadversary judicial determination of probable cause within 48 hours of arrest; it may be made at first appearance.",
-      "A defendant held on a felony complaint who has not been charged by information or indictment within 21 days of arrest is entitled, on request, to an adversary preliminary hearing on probable cause."
+      "A defendant who has not been charged by information or indictment within 21 days of arrest (or service of a capias) is entitled to an adversary preliminary hearing on any felony charge then pending; filing an information or indictment afterward does not eliminate that entitlement.",
+      "The State must formally charge a defendant in custody within 30 days of arrest. If it has not, the court on the 30th day orders the defendant released on his or her own recognizance on the 33rd day unless charges are filed by then, or on the 40th day if the State shows good cause (Rule 3.134)."
      ],
      "split": "Federal law requires a judicial probable-cause determination within 48 hours of a warrantless arrest (County of Riverside v. McLaughlin). Florida's rules match that requirement and add the 24-hour first appearance.",
      "trap": "A delayed first appearance does not by itself require suppression of a confession or dismissal; the defendant must show the delay induced the statement or otherwise caused prejudice.",
-     "authority": "Fla. R. Crim. P. 3.130, 3.133"
+     "authority": "Fla. R. Crim. P. 3.130, 3.133, 3.134"
     },
     {
      "id": "fl-criminal.florida-rules.pretrial-release",
@@ -486,6 +492,7 @@
      "elements": [
       "At an Arthur hearing on a capital or life offense, the State bears the burden of showing that the proof of guilt is evident or the presumption great; even if it does, the court retains discretion to grant release.",
       "For other offenses, the State may seek pretrial detention by motion under Rule 3.132 and section 907.041, which list the grounds, such as a dangerous crime with a substantial probability that the defendant committed it and no conditions that would reasonably protect the community.",
+      "Since January 1, 2024, a person arrested for a 'dangerous crime' listed in section 907.041 may not be granted nonmonetary pretrial release at first appearance once the court finds probable cause.",
       "In setting conditions the court considers the nature of the charge, the weight of the evidence, family and community ties, employment, past conduct and record of appearances, and danger to the community, and may impose nonmonetary conditions or monetary bail."
      ],
      "split": "The Eighth Amendment forbids excessive bail but does not create a right to release. Florida's Article I, section 14 creates a presumptive right to pretrial release, subject to the listed exceptions.",
@@ -531,7 +538,7 @@
       "Richardson hearing: when a discovery violation is brought to the court's attention, the court must inquire whether the violation was willful or inadvertent, trivial or substantial, and whether it procedurally prejudiced the opposing party's ability to prepare for trial. Remedies include a continuance, an order compelling disclosure, or, as a last resort, exclusion of the evidence.",
       "Failure to hold an adequate Richardson inquiry is reversible unless the appellate court can say beyond a reasonable doubt that the defense was not procedurally prejudiced."
      ],
-     "authority": "Fla. R. Crim. P. 3.200, 3.220; Richardson v. State (Fla. 1971); State v. Schopp (Fla. 1995)"
+     "authority": "Fla. R. Crim. P. 3.200, 3.220; Richardson v. State, 246 So. 2d 771 (Fla. 1971); State v. Schopp, 653 So. 2d 1016 (Fla. 1995)"
     },
     {
      "id": "fl-criminal.florida-rules.speedy-trial",
@@ -545,7 +552,7 @@
      ],
      "split": "The constitutional speedy-trial right (Sixth Amendment; Article I, section 16) uses the Barker v. Wingo balancing test and has no fixed deadline. Florida's rule supplies fixed periods, but discharge is available only through the notice-of-expiration and recapture procedure.",
      "tip": "The State cannot avoid the rule by dropping the charge (nolle prosequi) and refiling after the period runs; the period continues to run from the original arrest. A notice of expiration filed before the period has actually expired is a nullity.",
-     "authority": "Fla. R. Crim. P. 3.191; State v. Agee (Fla. 1993)"
+     "authority": "Fla. R. Crim. P. 3.191; State v. Agee, 622 So. 2d 473 (Fla. 1993)"
     },
     {
      "id": "fl-criminal.florida-rules.pleas",
@@ -636,7 +643,8 @@
       "Every death sentence is reviewed by the Florida Supreme Court."
      ],
      "split": "Hurst v. Florida (2016) invalidated Florida's former scheme because the judge, rather than the jury, made the findings that made the defendant death-eligible. Florida then required a unanimous jury recommendation (2017), and a 2023 statute reduced the vote needed for a death recommendation to eight of twelve while keeping unanimity for the aggravating-factor finding. Nearly every other death-penalty state requires a unanimous jury for death.",
-     "authority": "Fla. Stat. § 921.141; Hurst v. Florida, 577 U.S. 92 (2016)"
+     "authority": "Fla. Stat. § 921.141; ch. 2023-23, Laws of Fla.; Hurst v. Florida, 577 U.S. 92 (2016)",
+     "tip": "In 2023 Florida also made sexual battery by an adult on a child under 12 punishable by death, with its own penalty-phase procedure in section 921.1425. That statute is in direct tension with Kennedy v. Louisiana (2008), which held the death penalty unconstitutional for the rape of a child that did not result, and was not intended to result, in the victim's death."
     },
     {
      "id": "fl-criminal.trial-rights.double-jeopardy",
@@ -645,7 +653,7 @@
      "rule": "The Fifth Amendment and Article I, section 9 of the Florida Constitution bar a second prosecution for the same offense after acquittal or conviction, and multiple punishments for the same offense. Jeopardy attaches when the jury is sworn or, in a bench trial, when the first witness is sworn.",
      "elements": [
       "Same offense: under Blockburger, two offenses are different if each requires proof of an element the other does not.",
-      "Florida codifies the test in section 775.021(4): a defendant may be convicted and sentenced for each offense committed in one criminal episode, except (a) offenses requiring identical elements of proof, (b) offenses that are degrees of the same offense as provided by statute, and (c) offenses that are lesser offenses whose statutory elements are subsumed by the greater offense.",
+      "Florida codifies the test in section 775.021(4): a defendant may be convicted and sentenced for each offense committed in one criminal episode, except (1) offenses requiring identical elements of proof, (2) offenses that are degrees of the same offense as provided by statute, and (3) offenses that are lesser offenses whose statutory elements are subsumed by the greater offense (§ 775.021(4)(b)1.–3.).",
       "Retrial after a mistrial is barred unless the defendant consented or there was manifest necessity; when the defendant moves for the mistrial, retrial is barred only if the prosecutor intended to provoke the motion.",
       "Retrial after reversal on appeal is allowed, except when the reversal is for legally insufficient evidence."
      ],

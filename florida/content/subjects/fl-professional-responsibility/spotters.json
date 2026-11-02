@@ -1,0 +1,238 @@
+{
+ "subject": "fl-professional-responsibility",
+ "spotters": [
+  {
+   "id": "fl-professional-responsibility.s01",
+   "title": "The Spill in Aisle Nine",
+   "intro": "A Gainesville personal-injury file. Flag every professional-responsibility issue; some details are there only to distract.",
+   "segments": [
+    {
+     "t": "Attorney Vance, who handles only real estate closings, sent his neighbor Odette to Attorney Pryor after she slipped on a spill at a grocery store and broke her wrist. "
+    },
+    {
+     "t": "At their first meeting Pryor went over the Statement of Client's Rights, and he and Odette both signed it. Odette then signed a contingent fee contract; Pryor meant to sign it later but never did. ",
+     "issues": [
+      "a"
+     ]
+    },
+    {
+     "t": "The contract gives Vance one-third of the fee for the referral, and Vance signed it and agreed to be jointly responsible for the case. ",
+     "issues": [
+      "b"
+     ]
+    },
+    {
+     "t": "Ten days later Odette mentioned that she had briefly thought about cancelling the contract, but she decided to stay with Pryor. "
+    },
+    {
+     "t": "While negotiations dragged on, Pryor lent Odette $2,500 for rent so that she would not feel pressured to accept a low offer. ",
+     "issues": [
+      "c"
+     ]
+    },
+    {
+     "t": "Before any suit was filed, the store's insurer paid $300,000. Pryor deposited the check in his trust account and, once it cleared, moved 40 percent to his operating account as his fee. ",
+     "issues": [
+      "d"
+     ]
+    },
+    {
+     "t": "Because the rest would be paid out within days, he left it in the firm's pooled IOTA account. "
+    },
+    {
+     "t": "Odette's surgeon treated her under a letter of protection that Pryor signed and is owed $18,000, but Odette tells Pryor to send her everything and let the surgeon 'sue me.' ",
+     "issues": [
+      "e"
+     ]
+    },
+    {
+     "t": "Pryor has also kept $4,000 of his own money in the trust account for years 'in case a deposit bounces.' ",
+     "issues": [
+      "f"
+     ]
+    },
+    {
+     "t": "Odette, a building contractor, then agreed to buy a 20 percent share of Pryor's new office building. Pryor described the terms over coffee and they shook hands; nothing was put in writing. ",
+     "issues": [
+      "g"
+     ]
+    }
+   ],
+   "issues": [
+    {
+     "id": "a",
+     "label": "Lawyer must sign the contingent fee contract",
+     "rules": [
+      "fl-professional-responsibility.client-relationship.contingent-fees"
+     ],
+     "explain": "Rule 4-1.5(f)(2) requires a contingent fee contract to be signed by the client and by a lawyer for the firm. Pryor's failure to sign is a violation even though he handled the Statement of Client's Rights correctly."
+    },
+    {
+     "id": "b",
+     "label": "Referral share above 25 percent",
+     "rules": [
+      "fl-professional-responsibility.client-relationship.fee-division"
+     ],
+     "explain": "A referring lawyer who does no work may share the fee if the client consents in writing and the lawyer assumes joint legal responsibility. In a personal-injury case, however, the lawyer with secondary responsibility may receive no more than 25 percent of the total fee, so Vance's one-third share is presumed clearly excessive."
+    },
+    {
+     "id": "c",
+     "label": "Financial assistance to a litigation client",
+     "rules": [
+      "fl-professional-responsibility.confidentiality-and-conflicts.specific-transactions"
+     ],
+     "explain": "Rule 4-1.8(e) lets a lawyer advance court costs and litigation expenses, but not living expenses such as rent, in pending or contemplated litigation. Pryor's good motive does not excuse the loan."
+    },
+    {
+     "id": "d",
+     "label": "Fee above the personal-injury schedule",
+     "rules": [
+      "fl-professional-responsibility.client-relationship.personal-injury-schedule",
+      "fl-professional-responsibility.client-relationship.reasonable-fees"
+     ],
+     "explain": "The claim settled before an answer was filed, so the schedule allows 33 1/3 percent of a recovery up to $1 million, here $100,000. Taking 40 percent ($120,000) without prior court approval is presumed clearly excessive."
+    },
+    {
+     "id": "e",
+     "label": "Third-party claim to settlement funds",
+     "rules": [
+      "fl-professional-responsibility.trust-accounting.delivery-and-disputes"
+     ],
+     "explain": "The letter of protection Pryor signed gives the surgeon a matured claim to $18,000. Pryor must hold that amount in trust until the claim is paid or resolved and promptly deliver the undisputed balance to Odette."
+    },
+    {
+     "id": "f",
+     "label": "Commingling the lawyer's own money",
+     "rules": [
+      "fl-professional-responsibility.trust-accounting.commingling"
+     ],
+     "explain": "A lawyer may keep only enough personal money in trust to cover bank charges. A $4,000 cushion against bounced deposits is commingling, even though no client has lost anything."
+    },
+    {
+     "id": "g",
+     "label": "Business transaction with a client",
+     "rules": [
+      "fl-professional-responsibility.confidentiality-and-conflicts.specific-transactions"
+     ],
+     "explain": "Rule 4-1.8(a) requires fair terms fully disclosed in writing, written advice to seek independent counsel with a reasonable chance to do so, and the client's informed consent in a signed writing to the essential terms and the lawyer's role. A handshake deal meets none of the writing requirements."
+    }
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.s02",
+   "title": "Billboards and Back Channels",
+   "intro": "A week in a Miami litigation practice. Flag every professional-responsibility issue; not every detail is a problem.",
+   "segments": [
+    {
+     "t": "Attorney Delgado's new billboard on the Dolphin Expressway reads 'DELGADO: Miami's Toughest Trial Lawyer,' with his name, phone number and Miami office address. ",
+     "issues": [
+      "a"
+     ]
+    },
+    {
+     "t": "His firm website lists only the lawyers' names, office address, practice areas and bar admissions, and it has never been filed with The Florida Bar. "
+    },
+    {
+     "t": "Delgado represents Brisco, a restaurant owner, in a lease dispute. During a meeting, Brisco says that next week he will report his delivery van stolen and collect the insurance, although he actually sold it for cash. Delgado urges him to reconsider, but Brisco says his mind is made up. ",
+     "issues": [
+      "b"
+     ]
+    },
+    {
+     "t": "In the same meeting Brisco admits that, years ago, he set a small fire at a former business to collect insurance, and no one ever found out. ",
+     "issues": [
+      "c"
+     ]
+    },
+    {
+     "t": "The landlord is represented by Attorney Neve, who is slow to return calls, so Delgado phones the landlord directly to propose a settlement. ",
+     "issues": [
+      "d"
+     ]
+    },
+    {
+     "t": "When the landlord hangs up, Delgado emails him: 'Settle by Friday or I will ask the State Attorney to take a close look at your books.' ",
+     "issues": [
+      "d",
+      "e"
+     ]
+    },
+    {
+     "t": "The landlord has just added Delgado's wife, Attorney Rosa Delgado, as co-counsel in the lease dispute; Delgado has not mentioned this to Brisco. ",
+     "issues": [
+      "f"
+     ]
+    },
+    {
+     "t": "In an unrelated slip-and-fall trial Delgado lost last month, he has asked his paralegal to call the jurors and find out what they thought of his closing argument. Nobody has suggested that anything improper happened in the jury room. ",
+     "issues": [
+      "g"
+     ]
+    },
+    {
+     "t": "That afternoon Delgado had lunch with a former law clerk of the trial judge, an old friend, and they talked only about fishing. "
+    }
+   ],
+   "issues": [
+    {
+     "id": "a",
+     "label": "Unverifiable claim of quality in an advertisement",
+     "rules": [
+      "fl-professional-responsibility.advocacy-and-advertising.advertising-content",
+      "fl-professional-responsibility.advocacy-and-advertising.filing-and-review"
+     ],
+     "explain": "'Miami's Toughest Trial Lawyer' characterizes the quality of Delgado's services in a way that cannot be objectively verified, so the billboard is inherently misleading under Florida's content rules. Because it goes beyond presumptively valid information, it also had to be filed with the Bar for review."
+    },
+    {
+     "id": "b",
+     "label": "Mandatory disclosure of a planned client crime",
+     "rules": [
+      "fl-professional-responsibility.confidentiality-and-conflicts.mandatory-disclosure"
+     ],
+     "explain": "Brisco plans to commit insurance fraud, a crime. Florida's Rule 4-1.6(b) requires Delgado to reveal confidential information to the extent reasonably necessary to prevent it, ideally after trying to talk Brisco out of it; the duty does not depend on whether Delgado's services are used."
+    },
+    {
+     "id": "c",
+     "label": "A completed crime stays confidential",
+     "rules": [
+      "fl-professional-responsibility.confidentiality-and-conflicts.confidentiality-scope",
+      "fl-professional-responsibility.confidentiality-and-conflicts.mandatory-disclosure"
+     ],
+     "explain": "The old arson is a completed crime with no ongoing threat, so no exception applies and Delgado must keep it confidential. Florida's mandatory-disclosure duty is preventive; it is not a duty to report past crimes."
+    },
+    {
+     "id": "d",
+     "label": "Contact with a represented party",
+     "rules": [
+      "fl-professional-responsibility.advocacy-and-advertising.represented-and-unrepresented"
+     ],
+     "explain": "Delgado knows the landlord is represented by Neve, so he may not communicate with the landlord about the dispute without Neve's consent. Neve's slowness is no excuse, and the follow-up email is a second violation."
+    },
+    {
+     "id": "e",
+     "label": "Threatening criminal charges for civil advantage",
+     "rules": [
+      "fl-professional-responsibility.advocacy-and-advertising.fairness-and-threats"
+     ],
+     "explain": "Rule 4-3.4(g) forbids threatening to present criminal charges solely to gain an advantage in a civil matter, whether or not the charges would be well founded. Conditioning a State Attorney referral on settlement by Friday is exactly that threat."
+    },
+    {
+     "id": "f",
+     "label": "Opposing counsel is the lawyer's spouse",
+     "rules": [
+      "fl-professional-responsibility.confidentiality-and-conflicts.concurrent-conflicts"
+     ],
+     "explain": "Under Florida's Rule 4-1.7(d), a lawyer may not represent a client directly adverse to a person he knows is represented by his spouse unless the client consents after consultation about the relationship. Delgado must tell Brisco and obtain his consent or withdraw."
+    },
+    {
+     "id": "g",
+     "label": "Post-verdict contact with jurors",
+     "rules": [
+      "fl-professional-responsibility.advocacy-and-advertising.impartiality-and-jurors"
+     ],
+     "explain": "A Florida lawyer may not initiate, or cause another to initiate, contact with discharged jurors except to find out whether the verdict may be subject to legal challenge, and then only with reason to believe grounds exist and after filing a notice of intent. Sending a paralegal to ask about a closing argument violates Rule 4-3.5(d)(4)."
+    }
+   ]
+  }
+ ]
+}

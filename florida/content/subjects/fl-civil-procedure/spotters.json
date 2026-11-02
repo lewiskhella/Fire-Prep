@@ -1,0 +1,261 @@
+{
+  "subject": "fl-civil-procedure",
+  "spotters": [
+    {
+      "id": "fl-civil-procedure.s01",
+      "title": "The Snapped Fin",
+      "intro": "A beach-rental injury suit filed in the wrong place and served at the wrong time. Flag each Florida civil procedure issue, and watch for facts that only look like problems.",
+      "segments": [
+        {
+          "t": "Priya Nandakumar, who lives in Duval County, rented a paddleboard from Sunline Outfitters, Inc., a Georgia corporation whose only Florida location is a beach kiosk in St. Johns County, where its registered agent also lives. "
+        },
+        {
+          "t": "Sunline advertises the kiosk on Florida radio stations and rents several hundred boards there each summer. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "Priya signed Sunline's written rental agreement, which promised a board 'inspected before every rental.' On her first outing the fin snapped, she was thrown onto a sandbar, and she ran up $42,000 in medical bills and lost wages. "
+        },
+        {
+          "t": "Her lawyer filed suit in the circuit court for Duval County, demanding $42,000 plus prejudgment interest and costs, ",
+          "issues": [
+            "b",
+            "c"
+          ]
+        },
+        {
+          "t": "and pleaded two counts, negligence and breach of the rental agreement, without attaching or quoting the agreement. ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "The clerk issued a summons the same day, and thirty-one days later a process server handed the summons and complaint to Sunline's registered agent at her home "
+        },
+        {
+          "t": "at nine o'clock on a Sunday morning. ",
+          "issues": [
+            "d"
+          ]
+        },
+        {
+          "t": "Eighteen days after that, "
+        },
+        {
+          "t": "Sunline served a motion to dismiss arguing only that the contract count was defective because the agreement was not attached. ",
+          "issues": [
+            "e",
+            "f"
+          ]
+        },
+        {
+          "t": "The court denied the motion, and Sunline then served an answer asserting that the court lacked personal jurisdiction over it, that venue in Duval County was improper, and that the Sunday service was void. ",
+          "issues": [
+            "e"
+          ]
+        },
+        {
+          "t": "A month later, without asking for leave of court or Sunline's consent, Priya filed an amended complaint ",
+          "issues": [
+            "g"
+          ]
+        },
+        {
+          "t": "that added a count for punitive damages, alleging that the kiosk manager knew the fins were cracked and rented the boards anyway. ",
+          "issues": [
+            "h"
+          ]
+        },
+        {
+          "t": "Sunline moved to strike the amended complaint."
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Long-arm jurisdiction over a nonresident corporation",
+          "rules": [
+            "fl-civil-procedure.jurisdiction-and-venue.long-arm"
+          ],
+          "explain": "A nonresident that operates or carries on a business venture in Florida is reachable on claims arising from that business (§ 48.193(1)(a)1), and a kiosk that advertises locally and rents hundreds of boards each season qualifies. Those purposeful Florida contacts also satisfy due process. The point turns out to be academic, because Sunline waived the defense (issue e)."
+        },
+        {
+          "id": "b",
+          "label": "County court, not circuit court, has subject-matter jurisdiction",
+          "rules": [
+            "fl-civil-procedure.jurisdiction-and-venue.trial-court-jurisdiction"
+          ],
+          "explain": "County courts hear actions at law up to $50,000, measured without interest, costs or attorney's fees, and circuit courts hear actions at law that are not cognizable in county court. A $42,000 damages claim belongs in county court. Unlike the other defects here, subject-matter jurisdiction cannot be waived or conferred by consent, so the case must go to county court whatever Sunline did."
+        },
+        {
+          "id": "c",
+          "label": "Venue against a foreign corporation",
+          "rules": [
+            "fl-civil-procedure.jurisdiction-and-venue.venue"
+          ],
+          "explain": "A foreign corporation doing business in Florida may be sued only where it has an agent or other representative, where the cause of action accrued, or where the property in litigation is located (§ 47.051), and every one of those points to St. Johns County. The plaintiff's own county of residence is not a basis for venue. The objection was nonetheless lost when Sunline left it out of its Rule 1.140 motion."
+        },
+        {
+          "id": "d",
+          "label": "Sunday service is void",
+          "rules": [
+            "fl-civil-procedure.service.validity-and-return"
+          ],
+          "explain": "Service of process on a Sunday is void under § 48.20 unless a judge has ordered it on an affidavit that the defendant means to flee the state, and the agent's actual receipt of the papers does not cure the defect. Insufficiency of service, however, is a waivable defense that must appear in the defendant's first Rule 1.140 motion."
+        },
+        {
+          "id": "e",
+          "label": "Waiver of personal jurisdiction, venue and service defenses",
+          "rules": [
+            "fl-civil-procedure.pleadings-and-motions.rule-1140-defenses"
+          ],
+          "explain": "Lack of personal jurisdiction, improper venue, insufficiency of process and insufficiency of service of process are waived if a party makes a Rule 1.140 motion and omits them. Sunline's first motion raised only the pleading defect, so its answer came too late on all three defenses. Only subject-matter jurisdiction (issue b) survives, because it can be raised at any time."
+        },
+        {
+          "id": "f",
+          "label": "Contract count without the contract attached",
+          "rules": [
+            "fl-civil-procedure.pleadings-and-motions.fact-pleading"
+          ],
+          "explain": "A contract or other document on which an action is based must be incorporated in or attached to the pleading (Rule 1.130), so the contract count was deficient and should have been dismissed with leave to amend. The negligence count does not rest on the agreement and needed no attachment."
+        },
+        {
+          "id": "g",
+          "label": "Amendment after an answer has been served",
+          "rules": [
+            "fl-civil-procedure.pleadings-and-motions.amendment"
+          ],
+          "explain": "A party may amend once as a matter of course only before a responsive pleading is served. Sunline had answered, so Priya needed leave of court or Sunline's written consent. Leave would be freely given for most changes, but an amended complaint filed without it can be stricken."
+        },
+        {
+          "id": "h",
+          "label": "Punitive damages pleaded without leave",
+          "rules": [
+            "fl-civil-procedure.pleadings-and-motions.punitive-damages"
+          ],
+          "explain": "Under § 768.72 a punitive damages claim may be added only by leave of court after a reasonable showing, by record evidence or proffer, of a basis for recovery, with the motion and proffer served at least 20 days before the hearing (Rule 1.190(f)). A punitive count filed without that showing is subject to being stricken, and no discovery of Sunline's financial worth may proceed until leave is granted."
+        }
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.s02",
+      "title": "Water Through the Roof",
+      "intro": "A condominium's suit against its roofer moves through settlement proposals, discovery fights and a summary judgment motion. Flag each Florida civil procedure issue, and watch for facts that only look like problems.",
+      "segments": [
+        {
+          "t": "On January 15, Gulfview Condominium Association sued Apex Roofing, LLC in the Pinellas County circuit court, alleging that Apex's negligent reroofing let water into forty units and seeking $400,000 in damages. Apex was served on February 3. "
+        },
+        {
+          "t": "On March 20, Apex served the association with a $90,000 proposal for settlement under § 768.79 that did not say whether it included attorney's fees, and the association let it lapse. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "In discovery, the association asked for the notes of an interview that Apex's insurance adjuster conducted, after the association's lawyer sent a claim letter, with Apex's former job foreman, who has since moved overseas and cannot be subpoenaed. Apex objected that the notes were work product. ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "Apex also refused to produce photographs its investigator took of the association's president walking the dry roof, saying it would 'save them for cross-examination at trial.' ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "The association served 35 requests for admission without seeking leave of court. ",
+          "issues": [
+            "d"
+          ]
+        },
+        {
+          "t": "When Apex ignored a request for its job file, the court granted the association's motion to compel and ordered Apex to pay the fees the association incurred on the motion, over Apex's protest that the court had made no finding of bad faith. ",
+          "issues": [
+            "e"
+          ]
+        },
+        {
+          "t": "Apex then moved for summary judgment, relying on its engineer's affidavit that the water entered through defective windows the association had installed. "
+        },
+        {
+          "t": "The association served its response 35 days after the motion was served, "
+        },
+        {
+          "t": "citing the deposition of its own engineer, who traced the leaks to roof flashing that Apex installed. ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "The hearing was set for six weeks later. Five days before it, the association served a notice of voluntary dismissal without prejudice, and two months after that it refiled the same claim against Apex in the same court. ",
+          "issues": [
+            "g"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Premature and incomplete proposal for settlement",
+          "rules": [
+            "fl-civil-procedure.sanctions-and-settlement.proposal-procedure",
+            "fl-civil-procedure.sanctions-and-settlement.proposal-entitlement"
+          ],
+          "explain": "A proposal to a plaintiff may not be served until 90 days after the action was commenced, and Apex served this one barely two months after suit was filed. It also failed to state whether it included attorney's fees, as Rule 1.442(c)(2)(F) requires. Because the statute and rule are strictly construed, either defect makes the proposal unenforceable no matter how the case ends."
+        },
+        {
+          "id": "b",
+          "label": "Fact work product and an unavailable witness",
+          "rules": [
+            "fl-civil-procedure.discovery.work-product"
+          ],
+          "explain": "Notes taken for a party's insurer after a claim letter are prepared in anticipation of litigation and are work product. Fact work product is discoverable when the requesting party shows need and cannot obtain the substantial equivalent without undue hardship, and a witness beyond subpoena meets that test. The court should order the factual content produced while protecting the adjuster's mental impressions and opinions."
+        },
+        {
+          "id": "c",
+          "label": "Surveillance material intended for trial",
+          "rules": [
+            "fl-civil-procedure.discovery.work-product"
+          ],
+          "explain": "Surveillance material is protected only while it is held for trial preparation. Once a party reasonably expects or intends to use it at trial, even solely for impeachment, it must be disclosed before trial (Dodson v. Persell; Northup v. Acken). Apex's plan to save the photographs for cross-examination is exactly what Florida forbids."
+        },
+        {
+          "id": "d",
+          "label": "Too many requests for admission",
+          "rules": [
+            "fl-civil-procedure.discovery.requests-for-admission"
+          ],
+          "explain": "Requests for admission are limited to 30, including subparts, unless the court permits more on motion and for good cause. The association needed leave to serve more than 30, so Apex may object to the excess; any request Apex simply leaves unanswered, without objection, is deemed admitted once the response period runs."
+        },
+        {
+          "id": "e",
+          "label": "Expenses on a granted motion to compel",
+          "rules": [
+            "fl-civil-procedure.discovery.sanctions"
+          ],
+          "explain": "When a motion to compel is granted, the court must award the movant its reasonable expenses, including attorney's fees, unless the opposition was substantially justified or other circumstances make an award unjust. No finding of bad faith or willfulness is needed for this fee award; that finding is required only for severe sanctions such as striking pleadings or entering a default."
+        },
+        {
+          "id": "f",
+          "label": "Summary judgment with competing expert evidence",
+          "rules": [
+            "fl-civil-procedure.summary-judgment-and-trial.summary-judgment-standard",
+            "fl-civil-procedure.summary-judgment-and-trial.summary-judgment-procedure"
+          ],
+          "explain": "Under the federal standard Florida adopted in 2021, summary judgment is proper only if there is no genuine dispute of material fact. Each side cited sworn expert evidence on causation, so a reasonable jury could find for the association and the motion should be denied. The association's response, served within the 40-day deadline, was timely."
+        },
+        {
+          "id": "g",
+          "label": "Voluntary dismissal and refiling",
+          "rules": [
+            "fl-civil-procedure.dismissal-and-class.voluntary-dismissal"
+          ],
+          "explain": "A plaintiff may dismiss by notice at any time before a hearing on a motion for summary judgment, so the notice was timely and, as a first dismissal, is without prejudice. On refiling, the court must order the association to pay Apex's costs of the first action and may stay the new case until they are paid (Rule 1.420(d)). A second notice dismissal of the same claim would operate as an adjudication on the merits."
+        }
+      ]
+    }
+  ]
+}

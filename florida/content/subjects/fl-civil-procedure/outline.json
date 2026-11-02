@@ -18,7 +18,8 @@
           "exceptions": [
             "County courts also hear landlord-tenant possession (eviction) cases (Fla. Stat. § 34.011).",
             "County judges may hear equitable matters involved in a case that is within the county court's jurisdictional amount (Fla. Stat. § 34.01).",
-            "If a counterclaim or crossclaim demands more than the county court's limit, the whole action is transferred to the circuit court of the same county (Fla. R. Civ. P. 1.170(j))."
+            "If a counterclaim or crossclaim demands more than the county court's limit, the whole action is transferred to the circuit court of the same county (Fla. R. Civ. P. 1.170(j)).",
+            "Appeals from final county court judgments go to the district courts of appeal, not the circuit court; 2020 legislation made that change effective January 1, 2021."
           ],
           "split": "UBE civil procedure tests federal subject-matter jurisdiction (diversity with more than $75,000 in controversy, or a federal question). Florida's allocation is different in kind: it divides cases between two state trial courts by amount and subject matter, with no citizenship element.",
           "tip": "Strip out interest, costs and fees before comparing the claim to $50,000; examiners like to add a contractual fee claim to tempt you into circuit court.",
@@ -101,7 +102,8 @@
           "weight": 2,
           "rule": "Statutes governing service of process are strictly construed, and the party invoking the court's jurisdiction bears the burden of proving valid service. The return must show the date and time the server received the process, the date and time of service, the manner of service, and the name of the person served; a return regular on its face is presumed valid, and a party challenging it must prove the defect by clear and convincing evidence. Service of process on a Sunday is void.",
           "exceptions": [
-            "A return that omits required facts may be amended on application to the court to state them; the omission does not void service that was actually proper."
+            "A return that omits a required fact invalidates the service, but the return may be amended at any time, on application to the court, to state the omitted facts; once amended, the service is as effective as if the return had been complete originally (§ 48.21(2)).",
+            "Sunday service is valid only if the trial judge orders it on an affidavit that the person to be served intends to leave the state under protection of Sunday (§ 48.20)."
           ],
           "trap": "Service on a Saturday or on a holiday is valid; only Sunday service is void.",
           "authority": "Fla. Stat. §§ 48.20, 48.21"
@@ -264,8 +266,8 @@
             "The statute generally does not apply to an action that seeks nonmonetary (equitable) relief in addition to damages (Diamond Aircraft Indus. v. Horowitch)."
           ],
           "split": "Federal Rule 68 is available only to a party defending against a claim and shifts only post-offer costs (not fees, unless the underlying fee statute treats fees as costs) when the judgment is not more favorable than the offer. Florida lets either side make a proposal, uses a 25% margin, and shifts attorney's fees.",
-          "tip": "Run the numbers: a defendant's $100,000 offer shifts fees if the plaintiff's judgment is $75,000 or less; a plaintiff's $100,000 demand shifts fees if the judgment is $125,000 or more.",
-          "authority": "Fla. Stat. § 768.79; Diamond Aircraft Indus., Inc. v. Horowitch, 107 So. 3d 362 (Fla. 2013)"
+          "tip": "Run the numbers: a defendant's $100,000 offer shifts fees if the plaintiff's judgment is $75,000 or less; a plaintiff's $100,000 demand shifts fees if the judgment is $125,000 or more. When the proposal includes costs (or fees), compare it with the 'judgment obtained': the net judgment plus the offeree's taxable costs, and any attorney's fees it could recover, accrued up to the date of the proposal (White v. Steak & Ale).",
+          "authority": "Fla. Stat. § 768.79; Diamond Aircraft Indus., Inc. v. Horowitch, 107 So. 3d 362 (Fla. 2013); White v. Steak & Ale of Fla., Inc., 816 So. 2d 546 (Fla. 2002)"
         },
         {
           "id": "fl-civil-procedure.sanctions-and-settlement.proposal-procedure",
@@ -275,7 +277,6 @@
           "elements": [
             "In writing and identifying the Florida law under which it is made",
             "Names the party making it and the party to whom it is made",
-            "Identifies the claim or claims it would resolve",
             "States that it resolves all damages that would otherwise be awarded in a final judgment",
             "States with particularity any relevant conditions and all nonmonetary terms",
             "States the total amount and any amount proposed to settle a punitive damages claim",
@@ -288,7 +289,7 @@
           ],
           "tip": "Otherwise, joint proposals must be apportioned so each offeree can evaluate and accept independently (Lamb v. Matetzschk); an unapportioned joint proposal is unenforceable.",
           "trap": "A proposal that is perfect in content but served too early or too late is invalid; lack of prejudice does not save it.",
-          "authority": "Fla. R. Civ. P. 1.442; Lamb v. Matetzschk, 906 So. 2d 1037 (Fla. 2005)"
+          "authority": "Fla. R. Civ. P. 1.442; Lamb v. Matetzschk, 906 So. 2d 1037 (Fla. 2005); Grip Dev., Inc. v. Coldwell Banker Residential Real Estate, Inc. (Fla. 4th DCA 2000) (premature proposal invalid)"
         }
       ]
     },
@@ -313,9 +314,9 @@
           "id": "fl-civil-procedure.discovery.initial-disclosures",
           "title": "Initial disclosures and the duty to supplement (2025)",
           "weight": 2,
-          "rule": "In cases governed by the amendments effective January 1, 2025, each party must, without awaiting a discovery request, disclose basic information: the people likely to have discoverable information, documents and electronically stored information, a computation of each category of damages claimed, and any insurance agreement that may cover a judgment, generally within 60 days after service of the complaint or joinder. A party must also timely supplement or correct its disclosures and discovery responses when it learns they are incomplete or incorrect.",
+          "rule": "In cases governed by the amendments effective January 1, 2025, each party must, without awaiting a discovery request, disclose basic information: the people likely to have discoverable information, documents and electronically stored information, a computation of each category of damages claimed, and any insurance agreement that may cover a judgment, generally within 60 days after service of the complaint or joinder. Unless the parties stipulate or the court orders otherwise, a party may not seek discovery from any source until it has served its own initial disclosures. A party must also timely supplement or correct its disclosures and discovery responses when it learns they are incomplete or incorrect.",
           "split": "Florida previously had no initial-disclosure requirement and expressly imposed no duty to supplement a response that was complete when made. The 2025 amendments moved Florida close to Federal Rules 26(a)(1) and 26(e).",
-          "tip": "Treat older practice questions that assume there is no duty to supplement as outdated.",
+          "tip": "Treat older practice questions that assume there is no duty to supplement as outdated, and remember the sequencing rule: a party that has not served its initial disclosures cannot yet notice depositions or serve interrogatories or requests for production.",
           "authority": "Fla. R. Civ. P. 1.280 (as amended eff. Jan. 1, 2025)"
         },
         {
@@ -356,17 +357,17 @@
           "id": "fl-civil-procedure.discovery.depositions",
           "title": "Depositions and their use at trial",
           "weight": 3,
-          "rule": "The plaintiff needs leave of court to take a deposition within 30 days after service of process and the initial pleading on any defendant, unless that defendant has noticed a deposition or otherwise sought discovery. At trial an adverse party may use the deposition of a party, or of a party's officer, director, managing agent or designee, for any purpose; and any party may use any witness's deposition for any purpose if the court finds the witness is dead, more than 100 miles from the place of trial or out of state (unless the offering party procured the absence), unable to attend because of age, illness, infirmity or imprisonment, unobtainable by subpoena, or an expert or skilled witness.",
+          "rule": "Under the 2025 amendments a party generally may not take depositions (or any other discovery) until it has served its initial disclosures. At trial an adverse party may use the deposition of a party, or of a party's officer, director, managing agent or designee, for any purpose; and any party may use any witness's deposition for any purpose if the court finds the witness is dead, more than 100 miles from the place of trial or out of state (unless the offering party procured the absence), unable to attend because of age, illness, infirmity or imprisonment, unobtainable by subpoena, or an expert or skilled witness.",
           "split": "Federal Rule 32(a)(4) has no expert-witness category, so a federal litigant must show the expert is unavailable. Florida lets any party use an expert's deposition at trial without showing unavailability.",
           "trap": "Objecting that the expert works across town and could be subpoenaed. Under Rule 1.330(a)(3)(F) that does not matter.",
-          "authority": "Fla. R. Civ. P. 1.310(a), 1.330(a)"
+          "authority": "Fla. R. Civ. P. 1.280, 1.330(a)"
         },
         {
           "id": "fl-civil-procedure.discovery.examinations",
           "title": "Physical and mental examinations",
           "weight": 2,
-          "rule": "When the condition of a party (or of a person in a party's custody or legal control) is in controversy, another party may obtain an examination by a qualified expert by serving a request, with no court order needed to start the process, that specifies a reasonable time, place, manner, conditions and scope and names the examiner. The requesting party must have good cause, and if the request is contested it bears the burden of showing that the condition is in controversy and that good cause exists.",
-          "split": "Federal Rule 35 requires a court order on motion for good cause. Florida lets the examination begin by request, while keeping the in-controversy and good-cause limits.",
+          "rule": "When the condition of a party (or of a person in a party's custody or legal control) is in controversy, another party may obtain an examination by a qualified expert. For a physical condition, the process starts with a request, served without a court order, that specifies a reasonable time, place, manner, conditions and scope and names the examiner; for a condition that is not physical, such as a mental condition, the party must move for a court order after notice. Either way the requesting party must have good cause, and if challenged it bears the burden of showing that the condition is in controversy and that good cause exists.",
+          "split": "Federal Rule 35 requires a court order on motion for good cause for every examination. Florida lets a physical examination begin by request, but still requires a court order for a mental or other nonphysical examination, and keeps the in-controversy and good-cause limits.",
           "authority": "Fla. R. Civ. P. 1.360"
         },
         {
@@ -410,15 +411,16 @@
           "id": "fl-civil-procedure.summary-judgment-and-trial.summary-judgment-procedure",
           "title": "Summary judgment: supporting factual positions",
           "weight": 2,
-          "rule": "A party asserting that a fact cannot be, or is, genuinely disputed must cite particular materials in the record, such as depositions, documents, electronically stored information, affidavits or declarations, stipulations, admissions or interrogatory answers, or show that the materials cited do not establish the presence or absence of a genuine dispute. Supporting affidavits or declarations must be made on personal knowledge, set out facts that would be admissible in evidence, and show that the declarant is competent to testify. The movant serves its supporting factual position with the motion, and the nonmovant must serve a response containing its own supporting factual position within the deadline the rule sets (the timing provisions were revised effective January 1, 2025).",
+          "rule": "A party asserting that a fact cannot be, or is, genuinely disputed must cite particular materials in the record, such as depositions, documents, electronically stored information, affidavits or declarations, stipulations, admissions or interrogatory answers, or show that the materials cited do not establish the presence or absence of a genuine dispute. Supporting affidavits or declarations must be made on personal knowledge, set out facts that would be admissible in evidence, and show that the declarant is competent to testify. The movant serves its supporting factual position with the motion, which must be filed and served consistent with any court-ordered deadlines. For motions filed on or after January 1, 2025, the nonmovant must serve a response containing its own supporting factual position no later than 40 days after service of the motion, and any hearing must be set at least 10 days after that response deadline unless the parties stipulate or the court orders otherwise.",
           "tip": "The court need consider only the cited materials, though it may consider other materials in the record.",
-          "authority": "Fla. R. Civ. P. 1.510(b)–(c)"
+          "trap": "Using the pre-2025 timing, under which deadlines were counted backward from the hearing date. The response deadline now runs forward from service of the motion.",
+          "authority": "Fla. R. Civ. P. 1.510(b)–(c) (as amended eff. Jan. 1, 2025)"
         },
         {
           "id": "fl-civil-procedure.summary-judgment-and-trial.case-management",
           "title": "Case management orders and continuances (2025)",
           "weight": 2,
-          "rule": "Under the amendments effective January 1, 2025, the court must issue a case management order in most civil actions that sets deadlines for the key stages of the case and a projected trial period, and the parties must comply with those deadlines unless the court modifies them for good cause. Continuances of trial are disfavored: a motion to continue must be in writing, state specific reasons, and show good cause, and a lack of diligence in preparing for trial is not good cause.",
+          "rule": "Under the amendments effective January 1, 2025, the court must issue a case management order in most civil actions that sets deadlines for the key stages of the case and a projected trial period, and the parties must comply with those deadlines unless the court modifies them for good cause. Continuances of trial are disfavored and should rarely be granted: a motion to continue must be in writing, be signed by the party requesting it (absent good cause), state its grounds, and show good cause, and a lack of diligence in preparing for trial is not good cause.",
           "tip": "Expect questions to reward the party that met case-management deadlines and to treat extensions as the exception.",
           "authority": "Fla. R. Civ. P. 1.200, 1.460 (as amended eff. Jan. 1, 2025)"
         },
@@ -428,7 +430,7 @@
           "weight": 2,
           "rule": "The right of trial by jury 'shall be secure to all and remain inviolate' for issues triable of right by a jury, but a party must serve a written demand no later than 10 days after service of the last pleading directed to the issue, or the right is waived. Florida civil juries have six members, and there is no jury right on purely equitable claims.",
           "split": "Federal Rule 38(b) allows 14 days after service of the last pleading directed to the issue; Florida allows 10.",
-          "authority": "Art. I, § 22, Fla. Const.; Fla. R. Civ. P. 1.430"
+          "authority": "Art. I, § 22, Fla. Const.; Fla. Stat. § 69.071; Fla. R. Civ. P. 1.430"
         },
         {
           "id": "fl-civil-procedure.summary-judgment-and-trial.directed-verdict-and-new-trial",
@@ -443,7 +445,7 @@
           "id": "fl-civil-procedure.summary-judgment-and-trial.remittitur-and-additur",
           "title": "Remittitur and additur",
           "weight": 2,
-          "rule": "In negligence actions for personal injury or wrongful death, the trial court, on proper motion, must review the award and, if it is clearly excessive or inadequate in light of the facts and circumstances presented to the trier of fact, order a remittitur or additur. A party adversely affected may reject it and elect a new trial on damages only.",
+          "rule": "In negligence actions for personal injury or wrongful death, the trial court, on proper motion, must review the award and, if it is excessive or inadequate in light of the facts and circumstances presented to the trier of fact, order a remittitur or additur. A party adversely affected may reject it and elect a new trial on damages only.",
           "elements": [
             "Whether the amount indicates that prejudice, passion or corruption influenced the trier of fact",
             "Whether the trier of fact ignored the evidence or misconceived the merits",

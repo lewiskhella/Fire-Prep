@@ -382,3 +382,33 @@ through the notes above. Where marked, they checked current statutes and 2025–
   - Chapter 738 is now the Uniform Fiduciary Income and Principal Act (effective 1/1/2025); q013 wording.
 - **Still uncertain:** "wasteful" as a cy pres ground; Florida authority on secret trusts.
 - **Added:** spotters s01 and s02.
+
+## fl-business-entities: reviewed
+
+- **Blind check:** 15/15.
+- **Corrected:**
+  - q005 had a second defensible answer under § 607.0204; the stem is rewritten.
+  - Promoter / § 607.0204 split.
+  - § 607.0830 care wording (outline and e01).
+  - § 607.0832 qualified-director approval (e01 reanalyzed).
+  - Short-form merger at 80% of each class's voting power, plus notice and appraisal.
+  - Wrongful dissociation under § 605.0601(2)(b) (q009).
+  - Statement-of-partnership-authority precision.
+  - § 607.0831 "willful or intentional misconduct" (q002).
+- **Confirmed:** the rest. Several are at moderate confidence (quorum and proxies, §§ 607.0741–.0744, § 607.1430/.1436, LLC distributions, §§ 605.0706/.0714).
+- **Still uncertain:** market-out thresholds (deliberately not stated).
+- **Added:** spotters s01 and s02.
+
+## fl-ucc: reviewed
+
+- **Blind check:** 15/15.
+- **Florida adopted the 2022 UCC amendments** (ch. 2025-92, HB 515, effective 7/1/2025). Article 9 now says "signed" instead of "authenticated", and controllable electronic records are added; § 673.1041 now allows choice-of-law and forum terms.
+- **Article 9 citations converted to Florida numbers:** older sections take a trailing 1 (e.g. 679.3171); newer ones don't (e.g. 679.320, 679.609).
+- **Corrected:**
+  - § 673.3091 split (it tracks 2002 UCC § 3-309) and § 702.11.
+  - Consumer-note rule (2002 text not adopted).
+  - Vehicle lien perfection.
+  - q005 shelter-rule facts.
+  - e01 breach-of-the-peace analysis.
+- **Still uncertain:** whether § 679.626's rebuttable presumption extends to consumer transactions (the content states only the non-consumer rule).
+- **Added:** spotters s01 and s02.

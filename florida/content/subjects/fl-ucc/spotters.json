@@ -1,0 +1,237 @@
+{
+  "subject": "fl-ucc",
+  "spotters": [
+    {
+      "id": "fl-ucc.s01",
+      "title": "The Pool That Was Never Finished",
+      "intro": "A Naples homeowner's note and checks travel through several hands. Flag each segment that raises a negotiable-instruments issue.",
+      "segments": [
+        {
+          "t": "Pia hired Pelican Pools to build a pool at her Naples home for $25,000, payable when the work was finished. Instead of paying cash, she signed a writing that read: 'On June 1, 2027, I promise to pay to the order of Pelican Pools $25,000 with interest at 8 percent. This note is secured by a mortgage of even date.' ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "She signed it with her initials, 'P.R.,' as she signs all her business papers. "
+        },
+        {
+          "t": "Before Pelican accepted the note, it insisted on more security, so Pia's neighbor Quentin signed his name on the back. Quentin received nothing for signing. ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "Pelican indorsed the note 'Pay to Coastline Finance, Pelican Pools, by Ray Ortiz, owner' and sold it to Coastline for $21,000, paying $10,500 at once and promising the remaining $10,500 in 30 days. ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "Two weeks later Pia wrote to Coastline that Pelican had walked off the job after digging the hole and refused to come back. Coastline paid Pelican the second installment anyway and now demands the full $25,000 from Pia. ",
+          "issues": [
+            "d",
+            "e"
+          ]
+        },
+        {
+          "t": "Meanwhile Pia paid Pelican's tile subcontractor, Sergio, with a $3,000 check drawn on Gulfstream Bank, which she dated three days after the day she wrote it. "
+        },
+        {
+          "t": "A thief stole the check from Sergio's mailbox, signed 'Sergio Vela' on the back, and cashed it at a check-cashing store, which deposited it in its account at Tarpon Bank. Gulfstream paid the check and charged Pia's account. ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "Finally, Pia disputed a $4,000 landscaping bill and mailed the landscaper a $2,500 check with a cover letter stating, in bold capitals, that the check was tendered in full satisfaction of the disputed bill. The landscaper wrote 'under protest' on the check and cashed it. ",
+          "issues": [
+            "g"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Negotiability: reference to collateral",
+          "rules": [
+            "fl-ucc.negotiable-instruments.requirements",
+            "fl-ucc.negotiable-instruments.unconditional-and-definite-time"
+          ],
+          "explain": "The writing is an unconditional promise to pay a fixed amount of money to order at a definite time. A statement that the note is secured by a mortgage is a permitted reference to collateral and does not make the promise conditional, unlike language making it 'subject to' another record."
+        },
+        {
+          "id": "b",
+          "label": "Accommodation party",
+          "rules": [
+            "fl-ucc.liability-of-parties.accommodation-parties"
+          ],
+          "explain": "Quentin signed to lend his credit without receiving any of the value, and his signature outside the chain of title is an anomalous indorsement that marks him as an accommodation party. He is liable as an indorser, subject to the conditions of indorser liability, and may recover from Pia if he pays."
+        },
+        {
+          "id": "c",
+          "label": "Negotiation by special indorsement",
+          "rules": [
+            "fl-ucc.negotiable-instruments.negotiation-and-indorsement",
+            "fl-ucc.negotiable-instruments.person-entitled-to-enforce"
+          ],
+          "explain": "Pelican's special indorsement to Coastline plus delivery negotiated the note, making Coastline its holder. The representative signature for Pelican is effective because it is made with authority on behalf of the named payee."
+        },
+        {
+          "id": "d",
+          "label": "Holder in due course only to the extent of value given",
+          "rules": [
+            "fl-ucc.holder-in-due-course.value",
+            "fl-ucc.holder-in-due-course.requirements"
+          ],
+          "explain": "An executory promise is not value, so when Coastline learned of the defense it had paid only half of the agreed price. It is a holder in due course only for the same fraction of the note, $12,500 of the $25,000, and takes the rest subject to Pia's defense."
+        },
+        {
+          "id": "e",
+          "label": "Nonperformance is a personal defense",
+          "rules": [
+            "fl-ucc.holder-in-due-course.personal-defenses-and-claims"
+          ],
+          "explain": "Pelican's abandonment of the job is an ordinary contract defense, not a real defense. It is cut off as to the portion for which Coastline is a holder in due course but may be asserted against the rest."
+        },
+        {
+          "id": "f",
+          "label": "Forged indorsement: recredit and warranty chain",
+          "rules": [
+            "fl-ucc.liability-of-parties.forgery-and-conversion",
+            "fl-ucc.liability-of-parties.warranties"
+          ],
+          "explain": "A check paid over a forged indorsement is not properly payable, so Gulfstream must recredit Pia. Gulfstream recovers from Tarpon Bank for breach of the presentment warranty of entitlement to enforce, and the loss moves back to the check-cashing store that took from the thief; Sergio, who received delivery, may also sue in conversion."
+        },
+        {
+          "id": "g",
+          "label": "Accord and satisfaction",
+          "rules": [
+            "fl-ucc.negotiable-instruments.underlying-obligation"
+          ],
+          "explain": "Pia tendered the check in good faith on a disputed claim with a conspicuous full-satisfaction statement, and the landscaper obtained payment. Writing 'under protest' does not defeat the accord; absent a designated-office rule, the landscaper could have avoided the accord by repaying the $2,500 within 90 days after cashing the check."
+        }
+      ]
+    },
+    {
+      "id": "fl-ucc.s02",
+      "title": "Outboards, a Truck and a Padlock",
+      "intro": "A Florida marine dealer's lenders, buyers and creditors collide. Flag each segment that raises a secured-transactions issue.",
+      "segments": [
+        {
+          "t": "Tidewater Marine Sales, Inc., a Florida corporation, sells outboard motors from a showroom in Stuart. "
+        },
+        {
+          "t": "Its president, who signs all company papers, lives across the state line in Georgia and runs the business from a home office there. "
+        },
+        {
+          "t": "In 2024 Anchor Bank lent Tidewater $500,000, and Tidewater signed, through an electronic-signature platform, a security agreement covering 'all inventory and equipment, now owned or hereafter acquired.' Anchor filed a financing statement with the Florida Secured Transaction Registry. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "In January 2026 Tidewater bought a delivery truck with a loan from Gulf Credit, signed a security agreement covering the truck, and Gulf filed a financing statement with the Registry, but no lien was ever noted on the truck's certificate of title. ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "In March a judgment creditor of Tidewater had the sheriff levy on the truck. ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "In April Tidewater bought 30 outboard motors on credit from Keel Motors, which retained a security interest to secure the price, filed a financing statement before delivery, and two weeks before delivery sent Anchor a signed notice describing the motors and its purchase-money interest. ",
+          "issues": [
+            "d"
+          ]
+        },
+        {
+          "t": "Tidewater displayed the new motors on metal stands bolted to the showroom floor. "
+        },
+        {
+          "t": "A retiree, Walt, bought one of the Keel motors from the showroom for cash. He noticed a sign reading 'Inventory financed by Anchor Bank' but had no reason to think the sale breached any agreement. ",
+          "issues": [
+            "e"
+          ]
+        },
+        {
+          "t": "In August Tidewater defaulted on the Anchor loan. At 2 a.m. Anchor's repossession agent cut the padlock on Tidewater's closed warehouse and removed a forklift. ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "Anchor emailed Tidewater a notice that the forklift would be sold privately after five days, sold it on the sixth day for well below its usual resale price, and now sues for a deficiency. ",
+          "issues": [
+            "g"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Attachment, after-acquired collateral and perfection by filing",
+          "rules": [
+            "fl-ucc.attachment-and-perfection.attachment",
+            "fl-ucc.attachment-and-perfection.after-acquired-and-future-advances",
+            "fl-ucc.attachment-and-perfection.filing-in-florida",
+            "fl-ucc.attachment-and-perfection.choice-of-law-and-relocation"
+          ],
+          "explain": "Anchor gave value, Tidewater has rights in the collateral, and the security agreement describes the collateral by type; an electronic signature counted as 'authentication' when given in 2024 and is a signature under Florida's current Article 9. The after-acquired clause reaches new inventory and equipment, and because Tidewater is a Florida registered organization, filing with the Registry perfects Anchor's interest."
+        },
+        {
+          "id": "b",
+          "label": "Titled motor vehicle: filing is ineffective",
+          "rules": [
+            "fl-ucc.attachment-and-perfection.motor-vehicles"
+          ],
+          "explain": "A security interest in a titled vehicle that is not dealer inventory is perfected only under chapter 319, by having the lien filed with the department and noted on the title. Gulf's financing statement, like Anchor's, does nothing for the truck, so both interests are unperfected as to it."
+        },
+        {
+          "id": "c",
+          "label": "Lien creditor versus unperfected security interests",
+          "rules": [
+            "fl-ucc.priority-and-default.lien-creditors-and-bankruptcy"
+          ],
+          "explain": "An unperfected security interest is subordinate to a person who becomes a lien creditor before perfection. The levying judgment creditor therefore takes priority in the truck over both Gulf Credit and Anchor."
+        },
+        {
+          "id": "d",
+          "label": "Inventory purchase-money priority",
+          "rules": [
+            "fl-ucc.priority-and-default.pmsi-priority",
+            "fl-ucc.priority-and-default.first-to-file-or-perfect"
+          ],
+          "explain": "Keel holds a purchase-money security interest in inventory, perfected before Tidewater received the motors, and it sent Anchor, an earlier filer, a signed notice describing the inventory before delivery. Keel therefore beats Anchor's earlier-filed interest in the motors."
+        },
+        {
+          "id": "e",
+          "label": "Buyer in ordinary course of business",
+          "rules": [
+            "fl-ucc.priority-and-default.buyers"
+          ],
+          "explain": "Walt bought from a dealer in the ordinary course, in good faith and without knowing that the sale violated anyone's rights. He takes free of security interests created by Tidewater even though they were perfected and he knew of Anchor's financing."
+        },
+        {
+          "id": "f",
+          "label": "Breach of the peace in self-help repossession",
+          "rules": [
+            "fl-ucc.priority-and-default.repossession"
+          ],
+          "explain": "Self-help repossession must proceed without breach of the peace, and cutting a lock to enter a closed building is the classic example of crossing that line. Anchor is responsible for its agent's conduct and is exposed to damages for the wrongful repossession."
+        },
+        {
+          "id": "g",
+          "label": "Notice, commercial reasonableness and deficiency",
+          "rules": [
+            "fl-ucc.priority-and-default.disposition-and-deficiency"
+          ],
+          "explain": "In a non-consumer case, notice sent 10 or more days before the disposition is a safe harbor, and five days' notice is open to challenge as unreasonable; a low price also invites scrutiny. If Tidewater puts compliance in issue and Anchor cannot prove it, Anchor's deficiency is reduced unless it proves a proper sale would have brought no more."
+        }
+      ]
+    }
+  ]
+}

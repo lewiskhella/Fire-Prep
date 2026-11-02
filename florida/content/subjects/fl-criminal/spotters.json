@@ -1,0 +1,249 @@
+{
+ "subject": "fl-criminal",
+ "spotters": [
+  {
+   "id": "fl-criminal.s01",
+   "title": "The Walk-In Cooler",
+   "intro": "Flag every Florida substantive criminal-law issue in these facts. Some details are there only to distract.",
+   "segments": [
+    {
+     "t": "Over beers in Rick's Tampa apartment, Dana and her cousin Rick agreed to rob the convenience store where Dana used to work. They bought nothing and told no one, but both meant to go through with it. ",
+     "issues": [
+      "a"
+     ]
+    },
+    {
+     "t": "Two nights later, at 10:45 p.m., while the store was still open, Rick walked in, bought a pack of gum, and slipped into a storage room to wait until closing. ",
+     "issues": [
+      "b"
+     ]
+    },
+    {
+     "t": "The parking-lot lights were off, and there was no moon. "
+    },
+    {
+     "t": "After the clerk locked up at 11, Rick came out with a knife and forced the clerk and a stock boy into the walk-in cooler, jamming the door shut with a mop handle so they could not reach a phone or see what happened next. ",
+     "issues": [
+      "c",
+      "d"
+     ]
+    },
+    {
+     "t": "He then let Dana in through the back door, and together they emptied the safe. ",
+     "issues": [
+      "d"
+     ]
+    },
+    {
+     "t": "As they ran to the car, the store's owner pulled into the lot. Dana shoved him out of her way; he fell, struck his head on the pavement, and died two days later. ",
+     "issues": [
+      "d",
+      "e"
+     ]
+    },
+    {
+     "t": "Rick, already at the car, did not see the shove and never intended that anyone be hurt. ",
+     "issues": [
+      "e"
+     ]
+    },
+    {
+     "t": "Dana says she had drunk six beers before the robbery and was too drunk to form any intent to steal. ",
+     "issues": [
+      "f"
+     ]
+    },
+    {
+     "t": "Rick drove to his brother Sam's farm in Ocala. Sam, who had heard on the news about the robbery and the owner's death, hid Rick's car in his barn and told deputies he had not seen Rick in months. ",
+     "issues": [
+      "g"
+     ]
+    },
+    {
+     "t": "Neither Dana nor Rick had ever been arrested before. "
+    }
+   ],
+   "issues": [
+    {
+     "id": "a",
+     "label": "Conspiracy without an overt act",
+     "rules": [
+      "fl-criminal.inchoate-and-parties.conspiracy"
+     ],
+     "explain": "Florida conspiracy is complete when two people agree to commit an offense intending that it be committed; no overt act is required. Dana and Rick committed conspiracy to commit robbery in the apartment, and the conspiracy is a separate offense from the robbery itself."
+    },
+    {
+     "id": "b",
+     "label": "Burglary by remaining after a lawful entry",
+     "rules": [
+      "fl-criminal.property-crimes.burglary"
+     ],
+     "explain": "Entering a store while it is open to the public is not burglary, but hiding in the storage room to stay past closing with intent to steal is burglary by remaining surreptitiously, notwithstanding the licensed entry. Nighttime is not an element, and Rick's being armed with a knife inside makes it a first-degree felony punishable by life."
+    },
+    {
+     "id": "c",
+     "label": "Kidnapping: locking the employees in the cooler",
+     "rules": [
+      "fl-criminal.homicide-and-person.kidnapping"
+     ],
+     "explain": "Confinement to facilitate a felony is kidnapping only if it passes the Faison test. Forcing the employees into a cooler and jamming the door was not slight or inherent in robbery; it had independent significance because it kept them from calling for help and lessened the risk of detection, so Rick can be convicted of kidnapping as well as robbery."
+    },
+    {
+     "id": "d",
+     "label": "Robbery with a deadly weapon, and force during flight",
+     "rules": [
+      "fl-criminal.property-crimes.robbery"
+     ],
+     "explain": "Taking the store's money from the employees' custody after threatening them with a knife is robbery with a deadly weapon, a first-degree felony punishable by life. Dana's shove of the owner during the escape also counts as force 'in the course of the taking' because it was part of a continuous series of events."
+    },
+    {
+     "id": "e",
+     "label": "Felony murder for both participants",
+     "rules": [
+      "fl-criminal.homicide-and-person.felony-murder",
+      "fl-criminal.inchoate-and-parties.principals"
+     ],
+     "explain": "The owner died from force used while the robbers were escaping from an enumerated felony, so the killing is first-degree felony murder without any intent to kill. Rick is a principal in the robbery and is equally liable; force against someone met during the getaway is a foreseeable consequence of the plan, so the independent-act doctrine does not help him."
+    },
+    {
+     "id": "f",
+     "label": "Voluntary intoxication",
+     "rules": [
+      "fl-criminal.defenses.voluntary-intoxication"
+     ],
+     "explain": "Under section 775.051 voluntary intoxication is not a defense, and evidence of it is inadmissible to show that Dana lacked the specific intent to steal. Her six beers do not matter."
+    },
+    {
+     "id": "g",
+     "label": "Brother as accessory after the fact",
+     "rules": [
+      "fl-criminal.inchoate-and-parties.accessory-after-the-fact"
+     ],
+     "explain": "Sam knew Rick had committed a felony and hid the car and lied to deputies so that Rick would avoid arrest. A brother is exempt only when the underlying crime is a third-degree felony; armed robbery and murder are far more serious, so Sam can be convicted as an accessory after the fact."
+    }
+   ]
+  },
+  {
+   "id": "fl-criminal.s02",
+   "title": "The Door Off Its Hinges",
+   "intro": "Flag every Florida justification and criminal-procedure issue in these facts. Some details are there only to distract.",
+   "segments": [
+    {
+     "t": "At 2 a.m., Lena Cruz woke to pounding on the door of her Daytona Beach apartment. Her former boyfriend, Ty, who had never lived there and was not on the lease, was shouting that she owed him money. ",
+     "issues": [
+      "a"
+     ]
+    },
+    {
+     "t": "Lena had lived in the apartment for only three weeks. "
+    },
+    {
+     "t": "Ty kicked the door off its hinges and stepped inside, and Lena, standing in the hallway, shot him once in the shoulder. ",
+     "issues": [
+      "a"
+     ]
+    },
+    {
+     "t": "Ty turned out to be unarmed. "
+    },
+    {
+     "t": "Deputies arrived, saw the splintered door frame, and arrested Lena on the spot because, as one put it, 'somebody got shot.' ",
+     "issues": [
+      "b"
+     ]
+    },
+    {
+     "t": "At the station, after Miranda warnings, Lena asked, 'What good would a lawyer do me right now?' The detective ignored the question and kept asking about the shooting until she admitted that she kept the gun loaded beside her bed. ",
+     "issues": [
+      "c"
+     ]
+    },
+    {
+     "t": "Meanwhile, another deputy went back to the empty apartment without a warrant and searched Lena's closet, finding a box of ammunition and a second handgun. No one had begun to apply for a warrant, but the State argues that one would eventually have been issued. ",
+     "issues": [
+      "d"
+     ]
+    },
+    {
+     "t": "Lena remained in jail. Twenty-five days after her arrest the State still had not filed an information, and her lawyer asked for an adversary preliminary hearing. ",
+     "issues": [
+      "e"
+     ]
+    },
+    {
+     "t": "Once charged with attempted second-degree murder, Lena moved to dismiss on the ground of stand-your-ground immunity. The State argues that the judge must deny the motion because Ty's friend will testify that Lena had invited Ty over that night. ",
+     "issues": [
+      "f"
+     ]
+    },
+    {
+     "t": "Lena never asked for a continuance. When 180 days had passed since her arrest without a trial, she filed a notice of expiration of speedy-trial time and demanded to be discharged immediately. ",
+     "issues": [
+      "g"
+     ]
+    }
+   ],
+   "issues": [
+    {
+     "id": "a",
+     "label": "Castle-doctrine presumption",
+     "rules": [
+      "fl-criminal.defenses.castle-doctrine",
+      "fl-criminal.defenses.justifiable-force"
+     ],
+     "explain": "Ty was unlawfully and forcibly entering Lena's dwelling, and he was not a resident, owner or titleholder, so Lena is presumed to have held a reasonable fear of death or great bodily harm. Whether he was armed does not affect the presumption, and she had no duty to retreat."
+    },
+    {
+     "id": "b",
+     "label": "Arrest despite an apparently justified use of force",
+     "rules": [
+      "fl-criminal.defenses.stand-your-ground-immunity"
+     ],
+     "explain": "Immunity from 'criminal prosecution' includes arrest, and section 776.032 bars officers from arresting a person for using force unless they have probable cause that the force was unlawful. The broken door supported justification, and the bare fact that someone was shot is not probable cause that the force was unlawful."
+    },
+    {
+     "id": "c",
+     "label": "A clear question about the right to counsel",
+     "rules": [
+      "fl-criminal.search-seizure-confessions.invocation-and-voluntariness"
+     ],
+     "explain": "Lena's question was not an unambiguous request for counsel, so Davis and State v. Owen did not require the detective to stop. But under Almeida v. State, when a suspect asks a genuine, clear question about her rights, the officer must stop and give a simple, straightforward answer; ignoring the question and pressing on taints the admission that followed."
+    },
+    {
+     "id": "d",
+     "label": "Warrantless search of the home and inevitable discovery",
+     "rules": [
+      "fl-criminal.search-seizure-confessions.warrant-exceptions",
+      "fl-criminal.search-seizure-confessions.exclusionary-rule"
+     ],
+     "explain": "No warrant exception justified returning to search an empty, secured apartment. Under Rodriguez v. State, inevitable discovery does not apply when police were not actively pursuing a warrant before the illegal search, so the ammunition and second gun should be suppressed."
+    },
+    {
+     "id": "e",
+     "label": "Adversary preliminary hearing after 21 days",
+     "rules": [
+      "fl-criminal.florida-rules.first-appearance"
+     ],
+     "explain": "A defendant who has not been charged by information or indictment within 21 days of arrest is entitled to an adversary preliminary hearing on pending felony charges. Lena's request on day 25 is timely, and a later-filed information would not take the hearing away."
+    },
+    {
+     "id": "f",
+     "label": "Immunity hearing: who decides and the burden",
+     "rules": [
+      "fl-criminal.defenses.stand-your-ground-immunity",
+      "fl-criminal.florida-rules.pretrial-motions"
+     ],
+     "explain": "A factual dispute does not defeat an immunity motion; the judge holds an evidentiary hearing and resolves the conflict, unlike a Rule 3.190(c)(4) motion that a traverse defeats. Once Lena makes a prima facie claim of self-defense, the State must overcome immunity by clear and convincing evidence."
+    },
+    {
+     "id": "g",
+     "label": "Notice of expiration and the recapture window",
+     "rules": [
+      "fl-criminal.florida-rules.speedy-trial"
+     ],
+     "explain": "The 175-day felony period ran without any delay attributable to Lena, but discharge is not immediate. The court must hold a hearing within 5 days and, absent an exception, order trial within 10 days; Lena is forever discharged only if she is not tried within that window."
+    }
+   ]
+  }
+ ]
+}

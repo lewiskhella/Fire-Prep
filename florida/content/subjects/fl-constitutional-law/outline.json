@@ -104,9 +104,9 @@
           "id": "fl-constitutional-law.legislature.composition-and-sessions",
           "title": "Composition, terms and sessions",
           "weight": 2,
-          "rule": "The Senate has 40 members serving four-year terms and the House has 120 members serving two-year terms, and no one may appear on the ballot for re-election to either office after serving (or, but for resignation, having served) eight consecutive years in it. A regular session may not exceed 60 consecutive days and a special session 20 consecutive days unless extended by a three-fifths vote of each house. The governor by proclamation, or the presiding officers by joint proclamation, may convene a special session, which may consider only business within the call or a communication from the governor unless two-thirds of the membership of each house consents.",
+          "rule": "The Senate has 40 members serving four-year terms and the House has 120 members serving two-year terms, and no one may appear on the ballot for re-election to either office if, by the end of the current term, he or she will have served (or, but for resignation, would have served) eight consecutive years in it. A regular session may not exceed 60 consecutive days and a special session 20 consecutive days unless extended by a three-fifths vote of each house. The governor by proclamation, or the presiding officers by joint proclamation, may convene a special session, which may consider only business within the call or a communication from the governor unless two-thirds of the membership of each house consents.",
           "tip": "The constitution permits 30 to 40 senators and 80 to 120 representatives; the Legislature has used the maximums.",
-          "authority": "Art. III, §§ 3, 15, 16, Art. VI, § 4(b), Fla. Const."
+          "authority": "Art. III, §§ 3, 15, 16, Art. VI, § 4, Fla. Const."
         },
         {
           "id": "fl-constitutional-law.legislature.separation-of-powers",
@@ -120,9 +120,9 @@
           "id": "fl-constitutional-law.legislature.single-subject",
           "title": "Single subject and title (Art. III, § 6)",
           "weight": 3,
-          "rule": "Every law must embrace but one subject and matter properly connected with it, and the subject must be briefly expressed in the title; a law may not be revised or amended by reference to its title only. Provisions satisfy the rule if they have a natural or logical connection to one subject, and the purposes are to prevent logrolling and to give legislators and the public fair notice. A single-subject defect is cured when the Legislature reenacts the law in its biennial adoption of the Florida Statutes, so a challenge must be raised in the window before reenactment.",
+          "rule": "Every law must embrace but one subject and matter properly connected with it, and the subject must be briefly expressed in the title; a law may not be revised or amended by reference to its title only. Provisions satisfy the rule if they have a natural or logical connection to one subject, and the purposes are to prevent logrolling and to give legislators and the public fair notice. A law that violates the rule is generally void in its entirety, not merely as to the stray provision, until the defect is cured; it is cured when the Legislature reenacts the law in its biennial adoption of the Florida Statutes, so a challenge must be raised in the window before reenactment.",
           "trap": "Do not apply the stricter citizen-initiative single-subject test (Art. XI, § 3) to legislation. A broad, comprehensive act with a broad title can satisfy Art. III, § 6 so long as its parts are logically connected.",
-          "authority": "Art. III, § 6, Fla. Const.; State v. Johnson, 616 So. 2d 1 (Fla. 1993)"
+          "authority": "Art. III, § 6, Fla. Const.; State v. Johnson, 616 So. 2d 1 (Fla. 1993); Heggs v. State, 759 So. 2d 620 (Fla. 2000)"
         },
         {
           "id": "fl-constitutional-law.legislature.passage-and-veto",
@@ -153,7 +153,7 @@
           "id": "fl-constitutional-law.legislature.impeachment",
           "title": "Impeachment",
           "weight": 1,
-          "rule": "The House may impeach the governor, lieutenant governor, Cabinet members, Supreme Court justices, and judges of the district courts of appeal, circuit courts and county courts for misdemeanor in office by a two-thirds vote of the members present; the officer may not perform official duties until acquitted. The Senate tries the impeachment with the chief justice (or a justice the chief justice designates) presiding, except that the governor presides at the trial of the chief justice. Conviction requires two-thirds of the senators present, and the judgment extends only to removal from office and disqualification from holding office.",
+          "rule": "The House may impeach the governor, lieutenant governor, Cabinet members, Supreme Court justices, and judges of the district courts of appeal, circuit courts and county courts for misdemeanor in office by a two-thirds vote; the officer may not perform official duties until acquitted. The Senate tries the impeachment with the chief justice (or a justice the chief justice designates) presiding, except that the governor presides at the trial of the chief justice. Conviction requires two-thirds of the senators present; the judgment removes the officer from office and, in the Senate's discretion, may also disqualify the officer from holding any other office of honor, trust or profit.",
           "tip": "Officers who are not subject to impeachment (for example, state attorneys and sheriffs) are disciplined instead through the governor's suspension power under Art. IV, § 7.",
           "authority": "Art. III, § 17, Fla. Const."
         }
@@ -202,7 +202,7 @@
           "id": "fl-constitutional-law.executive.clemency",
           "title": "Clemency",
           "weight": 3,
-          "rule": "Except in cases of treason and of impeachment resulting in conviction, the governor acting alone, by executive order, may suspend collection of fines and forfeitures and grant reprieves of up to 60 days; full or conditional pardons, restoration of civil rights, commutation of punishment, and remission of fines and forfeitures require the governor's action with the approval of two members of the Cabinet. In treason cases the governor may grant reprieves until the Legislature's next regular session, which may then grant a pardon or further reprieve.",
+          "rule": "Except in cases of treason and of impeachment resulting in conviction, the governor acting alone, by executive order, may suspend collection of fines and forfeitures and grant reprieves of up to 60 days; full or conditional pardons, restoration of civil rights, commutation of punishment, and remission of fines and forfeitures require the governor's action with the approval of two members of the Cabinet. In treason cases the governor may grant reprieves until the adjournment of the first regular legislative session convening after the conviction, and at that session the Legislature may grant a pardon or further reprieve.",
           "split": "The President's pardon power is plenary and personal. Florida's governor shares most clemency powers with the Cabinet, and under the clemency rules the governor's own approval is also required.",
           "authority": "Art. IV, § 8, Fla. Const."
         },
@@ -211,7 +211,7 @@
           "title": "Felon voting rights (Amendment 4, 2018)",
           "weight": 2,
           "rule": "A person convicted of a felony is disqualified from voting until civil rights are restored, but under the 2018 amendment the disqualification ends upon completion of all terms of sentence, including parole or probation, except for persons convicted of murder or a felony sexual offense, who must obtain restoration through clemency. The Florida Supreme Court has advised that 'all terms of sentence' includes legal financial obligations, such as fines, fees, costs and restitution, imposed as part of the sentence.",
-          "authority": "Art. VI, § 4(a), Fla. Const.; Advisory Op. to the Governor re: Implementation of Amendment 4, 288 So. 3d 1070 (Fla. 2020)"
+          "authority": "Art. VI, § 4, Fla. Const.; Advisory Op. to the Governor re: Implementation of Amendment 4, 288 So. 3d 1070 (Fla. 2020)"
         },
         {
           "id": "fl-constitutional-law.executive.vacancies-and-advisory-opinions",
@@ -233,7 +233,7 @@
           "id": "fl-constitutional-law.judiciary.structure-and-qualifications",
           "title": "Court structure and judicial qualifications",
           "weight": 2,
-          "rule": "Judicial power is vested in the Supreme Court, the district courts of appeal, circuit courts and county courts, and no other courts may be established, although administrative officers may be given quasi-judicial power in matters connected with their offices. The Supreme Court has seven justices, five constitute a quorum, and the concurrence of four is needed for a decision; there are six district courts of appeal (the Sixth District began operating January 1, 2023) and twenty judicial circuits. Justices and district court judges must have been members of The Florida Bar for the preceding ten years and circuit and county judges for five (with a statutory exception for county judges in small counties), and no justice or judge may serve after reaching age 75 except on temporary assignment or to complete a term of which at least half has been served.",
+          "rule": "Judicial power is vested in the Supreme Court, the district courts of appeal, circuit courts and county courts, and no other courts may be established, although administrative officers may be given quasi-judicial power in matters connected with their offices. The Supreme Court has seven justices, five constitute a quorum, and the concurrence of four is needed for a decision; there are six district courts of appeal (the Sixth District began operating January 1, 2023) and twenty judicial circuits. Justices and district court judges must have been members of The Florida Bar for the preceding ten years and circuit and county judges for five (though, unless general law provides otherwise, a Bar member in good standing may be a county judge in a county of 40,000 or fewer people), and no justice or judge may serve after reaching age 75 except on temporary assignment or to complete a term of which at least half has been served.",
           "trap": "Older materials give a mandatory retirement age of 70 and five district courts of appeal; the 2018 amendment raised the age to 75, and the Sixth District was added in 2023.",
           "authority": "Art. V, §§ 1, 3(a), 8, Fla. Const."
         },
@@ -261,13 +261,14 @@
           "title": "District courts, trial courts and binding precedent",
           "weight": 2,
           "rule": "District courts of appeal hear appeals as of right from final judgments and orders of trial courts not directly appealable to the Supreme Court or a circuit court, including orders entered on review of administrative action, and may issue writs including certiorari, prohibition, mandamus, quo warranto and habeas corpus. Circuit courts have original jurisdiction not vested in the county courts, jurisdiction of appeals when provided by general law, and power to issue the extraordinary writs; county courts exercise the jurisdiction prescribed by general law. A district court decision binds every Florida trial court unless another district court disagrees, in which case a trial court follows the decision of its own district (Pardo v. State).",
+          "tip": "Since January 1, 2021, appeals from final county court judgments go to the district courts of appeal rather than the circuit courts; general law no longer gives circuit courts that appellate jurisdiction.",
           "authority": "Art. V, §§ 4(b), 5(b), 6(b), Fla. Const.; Pardo v. State, 596 So. 2d 665 (Fla. 1992)"
         },
         {
           "id": "fl-constitutional-law.judiciary.selection-and-retention",
           "title": "Judicial selection and merit retention",
           "weight": 3,
-          "rule": "A vacancy on the Supreme Court or a district court of appeal is filled by the governor from a list of three to six nominees certified by a judicial nominating commission, with the appointment made within 60 days after certification; the appointee then stands for a yes-or-no merit-retention vote at the next general election held more than one year after appointment, and every six years after that. Circuit judges (who serve six-year terms) and county judges are chosen in nonpartisan elections, and vacancies in those offices are filled by the governor from nominating-commission lists.",
+          "rule": "A vacancy on the Supreme Court or a district court of appeal is filled by the governor from a list of three to six nominees certified by a judicial nominating commission, with the appointment made within 60 days after certification; the appointee then stands for a yes-or-no merit-retention vote at the next general election held more than one year after appointment, and every six years after that. Circuit and county judges, who both serve six-year terms, are chosen in nonpartisan elections, and vacancies in those offices are filled by the governor from nominating-commission lists.",
           "tip": "The constitution lets each circuit or county opt by local vote to use merit selection and retention for its trial judges; voters have not adopted that option, so trial judges remain elected.",
           "authority": "Art. V, §§ 10, 11, Fla. Const."
         },
@@ -346,7 +347,7 @@
           "id": "fl-constitutional-law.local-government-and-finance.homestead-tax-relief",
           "title": "Homestead tax exemption and Save Our Homes",
           "weight": 2,
-          "rule": "A person who holds legal or equitable title to real estate and makes it his or her permanent residence (or the permanent residence of a legal or natural dependent) as of January 1 receives a $25,000 homestead exemption from all taxing authorities, plus a second exemption (set at $25,000 in 2008) on assessed value between $50,000 and $75,000 that does not apply to school taxes. Under 'Save Our Homes,' annual increases in a homestead's assessed value are capped at the lesser of 3% or the change in the Consumer Price Index; the property is reassessed at just value after a change of ownership, and up to $500,000 of the accumulated difference may be transferred ('ported') to a new homestead.",
+          "rule": "A person who holds legal or equitable title to real estate and makes it his or her permanent residence (or the permanent residence of a legal or natural dependent) as of January 1 receives a $25,000 homestead exemption from all taxing authorities, plus a second $25,000 exemption on assessed value between $50,000 and $75,000 that does not apply to school taxes; under a 2024 amendment, the second exemption is adjusted each year for inflation, beginning with 2025 assessments. Under 'Save Our Homes,' annual increases in a homestead's assessed value are capped at the lesser of 3% or the change in the Consumer Price Index; the property is reassessed at just value after a change of ownership, and up to $500,000 of the accumulated difference may be transferred ('ported') to a new homestead.",
           "tip": "Non-homestead property also has an assessment-increase cap (10% a year for non-school levies), so do not assume only homesteads are protected.",
           "authority": "Art. VII, §§ 4, 6, Fla. Const."
         },
@@ -394,10 +395,10 @@
           "id": "fl-constitutional-law.amendment.ballot-review",
           "title": "Supreme Court review and the ballot summary",
           "weight": 3,
-          "rule": "The Attorney General must petition the Supreme Court for an advisory opinion on a citizen initiative, and the Court must rule by April 1 of the election year; the review addresses whether the proposal complies with the single-subject requirement and whether the ballot title and summary comply with § 101.161, not the proposal's merits or wisdom. The ballot summary (generally 75 words or fewer) and title (15 words or fewer) must state the chief purpose of the measure in clear and unambiguous language and may not mislead voters, for example by omitting a material effect or 'flying under false colors.'",
+          "rule": "The Attorney General must petition the Supreme Court for an advisory opinion on a citizen initiative, and the Court must rule by April 1 of the election year; the review addresses whether the proposal complies with the single-subject requirement, whether the ballot title and summary comply with § 101.161, and (under a 2020 statute) whether the proposal is facially invalid under the U.S. Constitution, but not the proposal's merits or wisdom. The ballot summary (generally 75 words or fewer) and title (15 words or fewer) must state the chief purpose of the measure in clear and unambiguous language and may not mislead voters, for example by omitting a material effect or 'flying under false colors.'",
           "tip": "A financial impact statement for each initiative also appears on the ballot; it is prepared under general law, separately from the sponsor's summary.",
           "trap": "Choosing an answer that has the Court reject a proposal because it is bad policy or conflicts with existing statutes; neither is a ground for keeping it off the ballot.",
-          "authority": "Art. IV, § 10, Art. V, § 3(b)(10), Art. XI, § 5, Fla. Const.; Fla. Stat. § 101.161"
+          "authority": "Art. IV, § 10, Art. V, § 3(b)(10), Art. XI, § 5, Fla. Const.; Fla. Stat. §§ 16.061, 101.161"
         },
         {
           "id": "fl-constitutional-law.amendment.approval",

@@ -24,7 +24,7 @@
             "No other undertaking or instruction, except permitted terms"
           ],
           "exceptions": [
-            "Permitted extra terms: an undertaking to give, maintain or protect collateral; an authorization to confess judgment or realize on collateral; and a waiver of any law intended to benefit the obligor.",
+            "Permitted extra terms: an undertaking to give, maintain or protect collateral; an authorization to confess judgment or realize on collateral; a waiver of any law intended to benefit the obligor; and, since Florida adopted the 2022 UCC amendments (effective July 1, 2025), a term choosing the governing law and an undertaking to resolve disputes in a specified forum.",
             "Except for a check, a promise or order is not negotiable if, when issued, it conspicuously states that it is not negotiable or not an instrument governed by Article 3."
           ],
           "mnemonic": {
@@ -100,7 +100,7 @@
             "Proof of the instrument's terms and the right to enforce",
             "Adequate protection for the obligor (for example, a bond or indemnity)"
           ],
-          "split": "Florida amended § 673.3091 to let a person who acquired ownership of the note from someone who was entitled to enforce it at the time of loss enforce the lost note, a departure from the uniform text that matters in foreclosures by note purchasers.",
+          "split": "Florida amended § 673.3091 to let a person who directly or indirectly acquired ownership of the note from someone entitled to enforce it when possession was lost enforce the lost note. That language tracks the 2002 amendment to UCC § 3-309 (Florida did not adopt the rest of the 2002 Article 3 amendments) and matters in foreclosures by note purchasers; § 702.11 lists the forms of adequate protection a foreclosure court may require.",
           "authority": "Fla. Stat. § 673.3091 (UCC § 3-309); see Fla. Stat. § 702.11"
         },
         {
@@ -238,7 +238,7 @@
           "id": "fl-ucc.holder-in-due-course.consumer-notes",
           "title": "Consumer credit notes and the FTC holder rule",
           "weight": 2,
-          "rule": "The FTC's holder-in-due-course rule requires a seller who finances a consumer's purchase of goods or services, or arranges a purchase-money loan, to include in the consumer credit contract a notice that any holder is subject to all claims and defenses the consumer could assert against the seller. When an instrument contains that notice (or is required by law to contain it and omits it), there cannot be a holder in due course of the instrument, and the consumer may assert seller-related defenses against any holder.",
+          "rule": "The FTC's holder-in-due-course rule requires a seller who finances a consumer's purchase of goods or services, or arranges a purchase-money loan, to include in the consumer credit contract a notice that any holder is subject to all claims and defenses the consumer could assert against the seller. When an instrument contains that notice, there cannot be a holder in due course of the instrument, and the consumer may assert seller-related defenses against any holder.",
           "exceptions": [
             "Under the FTC notice, the consumer's affirmative recovery against the holder is limited to amounts the consumer has paid under the contract."
           ],
@@ -382,7 +382,7 @@
       "exams": [
         "FL"
       ],
-      "intro": "Florida's Article 9 is chapter 679 (UCC § 9-203 is Fla. Stat. § 679.2031). A Part A essay almost always asks you to classify the collateral, decide whether the security interest attached, and then decide whether and how it was perfected, including Florida's own filing office, the Florida Secured Transaction Registry, and certificate-of-title perfection for motor vehicles under chapter 319.",
+      "intro": "Florida's Article 9 is chapter 679. Many sections add a final 1 to the UCC number (UCC § 9-203 is Fla. Stat. § 679.2031; § 9-317 is § 679.3171; § 9-502 is § 679.5021), but many others do not (§ 9-320 is § 679.320; § 9-509 is § 679.509; § 9-609 is § 679.609), so check each cite. Florida adopted the 2022 UCC amendments effective July 1, 2025, which speak of 'signed' records where older materials say 'authenticated.' A Part A essay almost always asks you to classify the collateral, decide whether the security interest attached, and then decide whether and how it was perfected, including Florida's own filing office, the Florida Secured Transaction Registry, and certificate-of-title perfection for motor vehicles under chapter 319.",
       "rules": [
         {
           "id": "fl-ucc.attachment-and-perfection.scope-and-classification",
@@ -399,24 +399,25 @@
             "Excluded transactions include most interests in or liens on real property (other than fixtures), landlord's liens, statutory liens other than agricultural liens, wage assignments, and assignments of deposit accounts in consumer transactions."
           ],
           "trap": "Classifying a laptop as inventory because the debtor runs a store. Classify by this debtor's use of this item: the store's display stock is inventory, but the laptop at the register is equipment.",
-          "authority": "Fla. Stat. §§ 671.201 (definition of security interest), 679.1021, 679.1091 (UCC §§ 1-203, 9-102, 9-109)"
+          "authority": "Fla. Stat. ch. 671 (definition of 'security interest'; lease-versus-security-interest test; UCC §§ 1-201, 1-203); Fla. Stat. §§ 679.1021, 679.1091 (UCC §§ 9-102, 9-109)"
         },
         {
           "id": "fl-ucc.attachment-and-perfection.attachment",
           "title": "Attachment",
           "weight": 3,
-          "rule": "A security interest attaches and becomes enforceable against the debtor and third parties when (1) value has been given, (2) the debtor has rights in the collateral or the power to transfer rights in it, and (3) either the debtor has authenticated (signed) a security agreement that describes the collateral, the secured party has possession of the collateral under the debtor's security agreement, or, for deposit accounts, investment property, letter-of-credit rights or electronic chattel paper, the secured party has control under the debtor's security agreement.",
+          "rule": "A security interest attaches and becomes enforceable against the debtor and third parties when (1) value has been given, (2) the debtor has rights in the collateral or the power to transfer rights in it, and (3) either the debtor has signed a security agreement that describes the collateral, the secured party has possession of the collateral under the debtor's security agreement, or, for deposit accounts, investment property, letter-of-credit rights, electronic chattel paper or controllable electronic records, the secured party has control under the debtor's security agreement.",
           "elements": [
             "Value (includes a binding commitment to extend credit and an antecedent debt)",
             "Debtor's rights in the collateral",
-            "Authenticated security agreement describing the collateral, or possession or control by agreement"
+            "Signed security agreement describing the collateral, or possession or control by agreement"
           ],
           "exceptions": [
             "A description is sufficient if it reasonably identifies the collateral, for example by category or UCC type; a supergeneric description such as 'all the debtor's assets' does not suffice in the security agreement (although it is allowed in a financing statement).",
             "In a consumer transaction, a description only by UCC type is insufficient for consumer goods, and a commercial tort claim must be described specifically rather than by type."
           ],
-          "trap": "Finding attachment because a financing statement was filed. A financing statement is notice, not a security agreement; without an authenticated agreement granting a security interest (or possession or control), nothing has attached.",
-          "authority": "Fla. Stat. §§ 679.1081, 679.2031 (UCC §§ 9-108, 9-203)"
+          "trap": "Finding attachment because a financing statement was filed. A financing statement is notice, not a security agreement; without a signed agreement granting a security interest (or possession or control), nothing has attached.",
+          "authority": "Fla. Stat. §§ 679.1081, 679.2031 (UCC §§ 9-108, 9-203)",
+          "tip": "Florida's 2025 adoption of the 2022 UCC amendments replaced 'authenticate' with 'sign' throughout Article 9; a signature may be an electronic symbol or process adopted with intent to sign, so an e-signed security agreement satisfies the rule just as an 'authenticated' one did."
         },
         {
           "id": "fl-ucc.attachment-and-perfection.after-acquired-and-future-advances",
@@ -441,13 +442,13 @@
           "id": "fl-ucc.attachment-and-perfection.methods-of-perfection",
           "title": "Methods of perfection and automatic perfection",
           "weight": 3,
-          "rule": "Filing a financing statement is the default way to perfect, but a security interest may also be perfected by the secured party's possession (goods, instruments, negotiable documents, money, tangible chattel paper, certificated securities), by control (deposit accounts, investment property, letter-of-credit rights, electronic chattel paper), or automatically on attachment in specified cases. A purchase-money security interest in consumer goods is perfected automatically when it attaches, without filing, except for goods covered by a certificate-of-title statute such as motor vehicles.",
+          "rule": "Filing a financing statement is the default way to perfect, but a security interest may also be perfected by the secured party's possession (goods, instruments, negotiable documents, money, tangible chattel paper, certificated securities), by control (deposit accounts, investment property, letter-of-credit rights, electronic chattel paper and controllable electronic records), or automatically on attachment in specified cases. A purchase-money security interest in consumer goods is perfected automatically when it attaches, without filing, except for goods covered by a certificate-of-title statute such as motor vehicles.",
           "elements": [
             "Deposit accounts as original collateral: control only",
             "Money: possession only",
             "Letter-of-credit rights: control only (except as supporting obligations)",
             "Automatic perfection also covers an assignment of accounts or payment intangibles that does not transfer a significant part of the assignor's outstanding accounts or payment intangibles, and sales of payment intangibles and promissory notes",
-            "Temporary automatic perfection for 20 days for instruments, certificated securities and negotiable documents when new value is given under an authenticated security agreement"
+            "Temporary automatic perfection for 20 days for instruments, certificated securities and negotiable documents when new value is given under a signed security agreement"
           ],
           "exceptions": [
             "PMSI means the seller retained an interest to secure the price, or a lender gave value that enabled the debtor to acquire the goods and the value was in fact so used."
@@ -459,7 +460,7 @@
           "id": "fl-ucc.attachment-and-perfection.filing-in-florida",
           "title": "Financing statements and filing in Florida",
           "weight": 3,
-          "rule": "A financing statement is sufficient if it provides the debtor's name, the name of the secured party or its representative, and an indication of the collateral (which may be 'all assets'); the debtor must authorize the filing, and authenticating a security agreement authorizes a filing covering the collateral it describes. In Florida, financing statements generally are filed with the Florida Secured Transaction Registry, while fixture filings and filings covering timber to be cut or as-extracted collateral are recorded in the official records of the county where a mortgage on the related real property would be recorded.",
+          "rule": "A financing statement is sufficient if it provides the debtor's name, the name of the secured party or its representative, and an indication of the collateral (which may be 'all assets'); the debtor must authorize the filing, and signing a security agreement authorizes a filing covering the collateral it describes. In Florida, financing statements generally are filed with the Florida Secured Transaction Registry, while fixture filings and filings covering timber to be cut or as-extracted collateral are recorded in the official records of the county where a mortgage on the related real property would be recorded.",
           "elements": [
             "Name of a registered organization: as shown on its public organic record filed with its state of organization",
             "Minor errors are harmless unless they make the statement seriously misleading; an error in the debtor's name is seriously misleading unless a search under the debtor's correct name using the filing office's standard search logic would disclose the record",
@@ -468,13 +469,13 @@
           ],
           "tip": "Florida's financing statement must also bear a notation that the documentary stamp tax due on the secured obligation has been paid or is not required (Fla. Stat. § 201.22); look for it if the question concerns a Florida filing being refused.",
           "trap": "Filing a fixture filing with the Secured Transaction Registry or an equipment financing statement in the county records. The office matters: Registry for most collateral, county official records for fixture filings.",
-          "authority": "Fla. Stat. ch. 679, pt. V (UCC §§ 9-501, 9-502, 9-503, 9-506, 9-509, 9-515); Fla. Stat. § 201.22"
+          "authority": "Fla. Stat. §§ 679.5011, 679.5021, 679.5031, 679.5061, 679.509, 679.515 (UCC §§ 9-501, 9-502, 9-503, 9-506, 9-509, 9-515); Fla. Stat. § 201.22"
         },
         {
           "id": "fl-ucc.attachment-and-perfection.motor-vehicles",
           "title": "Motor vehicles and other titled goods",
           "weight": 3,
-          "rule": "A security interest in a motor vehicle covered by Florida's certificate-of-title law is perfected only by compliance with that law, which means notation of the lien on the certificate of title under chapter 319; filing a financing statement is neither necessary nor effective to perfect it. The exception is a vehicle held as inventory for sale or lease by a person in the business of selling goods of that kind, which is perfected by filing a financing statement.",
+          "rule": "A security interest in a motor vehicle covered by Florida's certificate-of-title law is perfected only by compliance with that law, which means filing notice of the lien with the Department of Highway Safety and Motor Vehicles and having it noted on the certificate of title under chapter 319; filing a financing statement is neither necessary nor effective to perfect it. The exception is a vehicle held as inventory for sale or lease by a person in the business of selling goods of that kind, which is perfected by filing a financing statement.",
           "exceptions": [
             "A purchase-money security interest in a consumer's car is not automatically perfected; the consumer-goods automatic-perfection rule excludes goods subject to a certificate-of-title statute."
           ],
@@ -519,20 +520,20 @@
             "A qualifying purchase-money security interest has priority over an earlier-filed interest (see the PMSI rule)."
           ],
           "trap": "Awarding priority to the lender who attached or made its loan first. Under the first-to-file-or-perfect rule, a lender who filed earlier wins even if its loan came later.",
-          "authority": "Fla. Stat. ch. 679 (UCC §§ 9-322, 9-323, 9-327, 9-330)"
+          "authority": "Fla. Stat. §§ 679.322, 679.323, 679.327, 679.330 (UCC §§ 9-322, 9-323, 9-327, 9-330)"
         },
         {
           "id": "fl-ucc.priority-and-default.pmsi-priority",
           "title": "Purchase-money priority",
           "weight": 3,
-          "rule": "A perfected purchase-money security interest in goods other than inventory or livestock has priority over a conflicting security interest in the same goods if the PMSI is perfected when the debtor receives possession of the collateral or within 20 days afterward. A PMSI in inventory has priority only if it is perfected when the debtor receives possession and, before then, the purchase-money secured party sends an authenticated notification describing the inventory to each holder of a conflicting security interest who filed a financing statement covering the same type of inventory, and that holder receives the notification within five years before the debtor receives possession.",
+          "rule": "A perfected purchase-money security interest in goods other than inventory or livestock has priority over a conflicting security interest in the same goods if the PMSI is perfected when the debtor receives possession of the collateral or within 20 days afterward. A PMSI in inventory has priority only if it is perfected when the debtor receives possession and, before then, the purchase-money secured party sends a signed notification describing the inventory to each holder of a conflicting security interest who filed a financing statement covering the same type of inventory, and that holder receives the notification within five years before the debtor receives possession.",
           "elements": [
             "Equipment and other non-inventory goods: perfect at or within 20 days after the debtor receives possession",
-            "Inventory: perfect by the time the debtor receives possession, plus advance authenticated notice to earlier filers",
+            "Inventory: perfect by the time the debtor receives possession, plus advance signed notice to earlier filers",
             "The inventory PMSI's priority extends only to limited proceeds (identifiable cash proceeds received on or before delivery to a buyer, and certain chattel paper and instruments)"
           ],
           "trap": "Applying the 20-day grace period to inventory. Inventory PMSIs get no grace period and require advance notice to earlier filers.",
-          "authority": "Fla. Stat. ch. 679 (UCC § 9-324); Fla. Stat. § 679.1031 (UCC § 9-103)"
+          "authority": "Fla. Stat. §§ 679.324, 679.1031 (UCC §§ 9-324, 9-103)"
         },
         {
           "id": "fl-ucc.priority-and-default.buyers",
@@ -549,15 +550,15 @@
             "A person buying farm products from a person engaged in farming operations is not protected by the ordinary-course rule; federal law governs those buyers."
           ],
           "trap": "Holding that a buyer who knew of the bank's floor-plan lien on the dealer's inventory takes subject to it. Knowledge of the security interest does not matter; only knowledge that the sale violates the secured party's rights does.",
-          "authority": "Fla. Stat. § 679.3171; Fla. Stat. ch. 679 (UCC §§ 9-317(b), 9-320); Fla. Stat. § 671.201 (buyer in ordinary course)"
+          "authority": "Fla. Stat. §§ 679.3171, 679.320 (UCC §§ 9-317(b), 9-320); Fla. Stat. § 671.201 (buyer in ordinary course)"
         },
         {
           "id": "fl-ucc.priority-and-default.lien-creditors-and-bankruptcy",
           "title": "Lien creditors and the bankruptcy trustee",
           "weight": 2,
-          "rule": "An unperfected security interest is subordinate to the rights of a person who becomes a lien creditor (a creditor that acquires a lien on the collateral by attachment, levy or the like, or a bankruptcy trustee) before the interest is perfected, or before a financing statement is filed and the security agreement is authenticated. A purchase-money secured party that files within 20 days after the debtor receives delivery of the collateral takes priority over a lien creditor whose rights arose between attachment and filing.",
+          "rule": "An unperfected security interest is subordinate to the rights of a person who becomes a lien creditor (a creditor that acquires a lien on the collateral by attachment, levy or the like, or a bankruptcy trustee) before the interest is perfected, or before a financing statement is filed and the security agreement is signed. A purchase-money secured party that files within 20 days after the debtor receives delivery of the collateral takes priority over a lien creditor whose rights arose between attachment and filing.",
           "elements": [
-            "Compare the date the lien creditor's lien arose with the date of perfection (or filing plus an authenticated security agreement)",
+            "Compare the date the lien creditor's lien arose with the date of perfection (or filing plus a signed security agreement)",
             "A trustee in bankruptcy has the rights of a hypothetical lien creditor as of the petition date and can avoid an unperfected security interest"
           ],
           "tip": "In Florida a judgment creditor becomes a lien creditor by a sheriff's levy under a writ of execution, and can also acquire a lien on most of the debtor's personal property by filing a judgment lien certificate with the Department of State (§ 55.202). Date the lien from the levy or the certificate filing and compare it with the secured party's perfection.",
@@ -574,7 +575,7 @@
             "A construction mortgage recorded before the goods become fixtures has priority over a purchase-money fixture interest if the goods become fixtures before the construction is completed."
           ],
           "tip": "In Florida a fixture filing is recorded in the official records of the county where a mortgage on the land would be recorded, not filed with the Secured Transaction Registry.",
-          "authority": "Fla. Stat. ch. 679 (UCC §§ 9-102(a)(40), 9-334, 9-501)"
+          "authority": "Fla. Stat. §§ 679.1021, 679.334, 679.5011 (UCC §§ 9-102(a)(40), 9-334, 9-501)"
         },
         {
           "id": "fl-ucc.priority-and-default.repossession",
@@ -587,13 +588,13 @@
             "The secured party remains liable for a breach of the peace committed by a repossession agent it hires"
           ],
           "trap": "Approving a repossession that continued after the debtor ran outside and objected. A contemporaneous objection generally makes further self-help a breach of the peace; the secured party must use judicial process.",
-          "authority": "Fla. Stat. ch. 679 (UCC §§ 9-601, 9-602, 9-609); Fla. Stat. ch. 78 (replevin)"
+          "authority": "Fla. Stat. §§ 679.601, 679.602, 679.609 (UCC §§ 9-601, 9-602, 9-609); Fla. Stat. ch. 78 (replevin)"
         },
         {
           "id": "fl-ucc.priority-and-default.disposition-and-deficiency",
           "title": "Disposition, deficiency and surplus",
           "weight": 3,
-          "rule": "After default a secured party may sell, lease, license or otherwise dispose of the collateral by public or private disposition, but every aspect of the disposition, including its method, manner, time, place and terms, must be commercially reasonable, and the secured party generally must send a reasonable authenticated notification of disposition to the debtor, any secondary obligor, and (except for consumer goods) other secured parties of record and lienholders who meet the statutory conditions. Proceeds are applied first to reasonable expenses of repossession and sale (and, if the agreement provides and the law allows, attorney's fees), then to the secured obligation, then to subordinate interests that made a timely demand; the debtor gets any surplus and is liable for any deficiency.",
+          "rule": "After default a secured party may sell, lease, license or otherwise dispose of the collateral by public or private disposition, but every aspect of the disposition, including its method, manner, time, place and terms, must be commercially reasonable, and the secured party generally must send a reasonable signed notification of disposition to the debtor, any secondary obligor, and (except for consumer goods) other secured parties of record and lienholders who meet the statutory conditions. Proceeds are applied first to reasonable expenses of repossession and sale (and, if the agreement provides and the law allows, attorney's fees), then to the secured obligation, then to subordinate interests that made a timely demand; the debtor gets any surplus and is liable for any deficiency.",
           "elements": [
             "In a non-consumer transaction, notification sent 10 days or more before the earliest time of disposition is sent within a reasonable time",
             "The secured party may buy at a public disposition, but at a private disposition only if the collateral is customarily sold on a recognized market or is subject to widely distributed standard price quotations",
@@ -604,20 +605,20 @@
             "Noncompliance in a non-consumer transaction: under the rebuttable-presumption rule, the deficiency is reduced to the extent the secured party fails to prove that a compliant disposition would have yielded no more than the amount actually received.",
             "For consumer goods, the debtor may recover at least a statutory minimum (the credit service charge plus 10 percent of the principal, or the time-price differential plus 10 percent of the cash price) for the secured party's noncompliance."
           ],
-          "authority": "Fla. Stat. ch. 679 (UCC §§ 9-610, 9-611, 9-612, 9-613, 9-615, 9-625, 9-626)"
+          "authority": "Fla. Stat. §§ 679.610, 679.611, 679.612, 679.613, 679.615, 679.625, 679.626 (UCC §§ 9-610, 9-611, 9-612, 9-613, 9-615, 9-625, 9-626)"
         },
         {
           "id": "fl-ucc.priority-and-default.strict-foreclosure-and-redemption",
           "title": "Acceptance in satisfaction and redemption",
           "weight": 2,
-          "rule": "A secured party may accept collateral in full or partial satisfaction of the obligation only with the debtor's consent: for partial satisfaction, the debtor must agree in a record authenticated after default; for full satisfaction, consent also arises if the secured party sends a proposal and receives no objection within 20 days, provided no other person entitled to notice objects. Before the secured party has disposed of the collateral, contracted to dispose of it, or accepted it in satisfaction, the debtor, any secondary obligor, or any other secured party or lienholder may redeem by tendering fulfillment of all obligations secured (including the full accelerated balance) plus reasonable expenses.",
+          "rule": "A secured party may accept collateral in full or partial satisfaction of the obligation only with the debtor's consent: for partial satisfaction, the debtor must agree in a record signed after default; for full satisfaction, consent also arises if the secured party sends a proposal and receives no objection within 20 days, provided no other person entitled to notice objects. Before the secured party has disposed of the collateral, contracted to dispose of it, or accepted it in satisfaction, the debtor, any secondary obligor, or any other secured party or lienholder may redeem by tendering fulfillment of all obligations secured (including the full accelerated balance) plus reasonable expenses.",
           "exceptions": [
             "Partial strict foreclosure is not allowed in a consumer transaction.",
-            "If the debtor has paid 60 percent of the cash price (purchase-money) or of the loan (non-purchase-money) in consumer goods, the secured party who has taken possession must dispose of the collateral within 90 days unless the debtor waives that right in a record authenticated after default.",
-            "The right of redemption may be waived only by an agreement authenticated after default, and not at all in a consumer-goods transaction."
+            "If the debtor has paid 60 percent of the cash price (purchase-money) or of the loan (non-purchase-money) in consumer goods, the secured party who has taken possession must dispose of the collateral within 90 days unless the debtor waives that right in a record signed after default.",
+            "The right of redemption may be waived only by an agreement signed after default, and not at all in a consumer-goods transaction."
           ],
           "trap": "Letting a debtor redeem by paying only the missed installments. Redemption requires tender of the entire secured obligation (as accelerated) plus expenses; reinstatement by curing arrears is not an Article 9 right.",
-          "authority": "Fla. Stat. ch. 679 (UCC §§ 9-620, 9-621, 9-622, 9-623, 9-624)"
+          "authority": "Fla. Stat. §§ 679.620, 679.621, 679.622, 679.623, 679.624 (UCC §§ 9-620 to 9-624)"
         }
       ]
     }

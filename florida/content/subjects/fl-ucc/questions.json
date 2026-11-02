@@ -108,7 +108,7 @@
         "fl-ucc.holder-in-due-course.personal-defenses-and-claims"
       ],
       "difficulty": 2,
-      "stem": "Owens signed a $7,000 negotiable note payable to the order of Atlas Roofing after Atlas lied about the quality of the shingles it would install. Atlas promptly negotiated the note for value to Pelican Bank, which took it in good faith and without notice of any defense. Pelican's loan officer later gave the note as a gift to her nephew, Sol, after a newspaper story revealed Atlas's fraud on many homeowners, including Owens. Sol, who read the story, demands payment from Owens.",
+      "stem": "Owens signed a $7,000 negotiable note payable to the order of Atlas Roofing after Atlas lied about the quality of the shingles it would install. Atlas promptly negotiated the note for value to Pelican Bank, which took it in good faith and without notice of any defense. Months later, after a newspaper story revealed Atlas's fraud on many homeowners, including Owens, Pelican indorsed the note and gave it to Sol, its retiring president, as a farewell gift. Sol, who had read the story, demands payment from Owens.",
       "call": "Can Sol enforce the note against Owens free of the fraud defense?",
       "choices": [
         "Yes, because Sol acquired Pelican's rights as a holder in due course under the shelter rule.",
@@ -259,11 +259,11 @@
       "choices": [
         "Seaside has a perfected security interest, because it filed a sufficient financing statement authorized by the debtor.",
         "Seaside has an attached but unperfected security interest, because the agreement was oral.",
-        "Seaside has no security interest, because there is no authenticated security agreement granting one, and Seaside does not possess the collateral.",
+        "Seaside has no security interest, because there is no signed security agreement granting one, and Seaside does not possess the collateral.",
         "Seaside has a perfected security interest, because the financing statement and the authorizing email together satisfy the attachment requirements."
       ],
       "answer": 2,
-      "explanation": "A security interest in equipment attaches only if value is given, the debtor has rights in the collateral, and the debtor authenticates a security agreement describing the collateral (or the secured party takes possession under the agreement). The oral agreement does not count, and an email that merely authorizes a filing does not grant a security interest. A filed financing statement gives notice but cannot substitute for a security agreement. Without attachment there is nothing to perfect, so Seaside is an unsecured creditor.",
+      "explanation": "A security interest in equipment attaches only if value is given, the debtor has rights in the collateral, and the debtor signs (authenticates) a security agreement describing the collateral (or the secured party takes possession under the agreement). The oral agreement does not count, and an email that merely authorizes a filing does not grant a security interest. A filed financing statement gives notice but cannot substitute for a security agreement. Without attachment there is nothing to perfect, so Seaside is an unsecured creditor.",
       "whyNot": [
         "Perfection requires attachment plus a perfection step; filing alone does not create a security interest.",
         "An oral agreement without possession does not satisfy the attachment requirements, so there is no attached interest.",
@@ -361,7 +361,7 @@
         "Deny the deficiency to the extent Heron cannot prove that a properly noticed disposition would have yielded no more than $70,000; on this record, it recovers nothing."
       ],
       "answer": 3,
-      "explanation": "Before a private disposition, the secured party must send a reasonable authenticated notification to the debtor; no exception applies because the bulldozer is not perishable and is not sold on a recognized market. In a non-consumer transaction, under the rebuttable-presumption rule, when the debtor puts compliance in issue and the secured party fails to prove compliance, the amount that compliance would have yielded is presumed to equal the secured obligation plus expenses, unless the secured party proves a smaller amount. Heron offered no such proof, so the presumed recovery wipes out the deficiency.",
+      "explanation": "Before a private disposition, the secured party must send a reasonable signed notification to the debtor; no exception applies because the bulldozer is not perishable and is not sold on a recognized market. In a non-consumer transaction, under the rebuttable-presumption rule, when the debtor puts compliance in issue and the secured party fails to prove compliance, the amount that compliance would have yielded is presumed to equal the secured obligation plus expenses, unless the secured party proves a smaller amount. Heron offered no such proof, so the presumed recovery wipes out the deficiency.",
       "whyNot": [
         "Notice is a separate requirement; failing it triggers the rebuttable presumption regardless of other aspects of the sale.",
         "Notice to the debtor is required in commercial transactions too, with limited exceptions that do not apply.",
