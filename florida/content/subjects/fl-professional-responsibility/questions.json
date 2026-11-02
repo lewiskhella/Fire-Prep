@@ -1,0 +1,368 @@
+{
+ "subject": "fl-professional-responsibility",
+ "questions": [
+  {
+   "id": "fl-professional-responsibility.q001",
+   "topic": "fl-professional-responsibility.client-relationship",
+   "rules": [
+    "fl-professional-responsibility.client-relationship.contingent-fees"
+   ],
+   "difficulty": 1,
+   "stem": "Attorney Rhee agreed to represent Delphine, a small-business owner, in a breach-of-contract suit against a supplier for one-third of any recovery. Rhee prepared a written fee agreement stating the percentage, how costs would be handled, and whether costs would be deducted before or after the fee was calculated. Delphine signed it and Rhee gave her a copy. Rhee never signed the agreement because he considered his signature unnecessary.",
+   "call": "Does the fee agreement comply with the Rules Regulating The Florida Bar?",
+   "choices": [
+    "Yes, because a contingent fee agreement need only be signed by the client.",
+    "Yes, because the special contingent-fee requirements apply only to personal injury and wrongful death cases.",
+    "No, because a Florida contingent fee contract must be signed by the client and by a lawyer for the firm.",
+    "No, because contingent fees are not permitted in commercial contract disputes."
+   ],
+   "answer": 2,
+   "explanation": "Rule 4-1.5(f)(2) requires every contingent fee arrangement to be reduced to a written contract signed by the client and by a lawyer for the lawyer or firm representing the client, with a copy to the client. The agreement's content is fine, but the missing lawyer signature is a violation.",
+   "whyNot": [
+    "That is the ABA Model Rule 1.5(c) requirement; Florida also requires the lawyer's signature.",
+    "The signed-writing requirement applies to all contingent fees; the Statement of Client's Rights and the fee schedule are the PI-specific requirements.",
+    "",
+    "Contingent fees are allowed in civil matters generally; they are prohibited only in criminal defense and in domestic relations matters contingent on divorce, alimony, support or property settlement."
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.q002",
+   "topic": "fl-professional-responsibility.client-relationship",
+   "rules": [
+    "fl-professional-responsibility.client-relationship.personal-injury-schedule"
+   ],
+   "difficulty": 3,
+   "stem": "Attorney Vasquez represents Pell in a negligence action arising from a truck collision under a contingent fee contract that complies with Rule 4-1.5(f)(4) and charges the maximum percentages the rule allows. After the defendant filed its answer denying liability, but before trial, the case settled for $1,500,000. No appeal or post-judgment proceedings occurred, Vasquez did not seek court approval of a higher fee, and you should ignore costs.",
+   "call": "What is the largest fee Vasquez may charge without being presumed to have charged a clearly excessive fee?",
+   "choices": [
+    "$550,000",
+    "$600,000",
+    "$483,333",
+    "$500,000"
+   ],
+   "answer": 0,
+   "explanation": "Once an answer has been filed, the schedule allows 40 percent of the first $1 million ($400,000) plus 30 percent of the portion between $1 million and $2 million (30% of $500,000 = $150,000), for a total of $550,000. A fee above the schedule is presumed clearly excessive absent prior court approval.",
+   "whyNot": [
+    "",
+    "Applying 40 percent to the entire recovery ignores the lower 30 percent tier for the portion above $1 million.",
+    "This applies the pre-answer 33 1/3 percent tier, but the answer had already been filed.",
+    "One-third of the whole recovery uses the wrong tier and ignores the tiered structure."
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.q003",
+   "topic": "fl-professional-responsibility.client-relationship",
+   "rules": [
+    "fl-professional-responsibility.client-relationship.personal-injury-schedule"
+   ],
+   "difficulty": 2,
+   "stem": "On a Monday, Trista signed a contingent fee contract and the Statement of Client's Rights with Attorney Okafor for a slip-and-fall claim. On Tuesday, Okafor spent six hours interviewing witnesses and paid $300 for the incident report and medical records. On Wednesday, Trista delivered written notice that she was cancelling the contract because she had decided to hire her cousin, also a lawyer. Okafor sends Trista a bill.",
+   "call": "What may Okafor recover from Trista?",
+   "choices": [
+    "The reasonable value of six hours of work, plus the $300.",
+    "Nothing, because a client who cancels within the cancellation period owes neither fees nor costs.",
+    "A fee for the six hours, capped at the contract percentage and payable only if Trista later recovers, plus the $300.",
+    "Only the $300 he reasonably advanced on her behalf."
+   ],
+   "answer": 3,
+   "explanation": "A Florida personal-injury contingent fee contract must let the client cancel by written notice within three business days of signing without any obligation to pay fees for work performed during that time. The lawyer is entitled to reimbursement of amounts reasonably advanced to others on the client's behalf. Trista cancelled within two business days, so Okafor may recover only the $300.",
+   "whyNot": [
+    "Cancellation within three business days eliminates any fee for work done during that period.",
+    "The rule preserves the lawyer's right to be reimbursed for funds advanced to others on the client's behalf.",
+    "Quantum meruit, capped by the contract and payable on the contingency, applies to a discharge after the cancellation period, not to a timely cancellation.",
+    ""
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.q004",
+   "topic": "fl-professional-responsibility.client-relationship",
+   "rules": [
+    "fl-professional-responsibility.client-relationship.fee-division"
+   ],
+   "difficulty": 2,
+   "stem": "Attorney Lund, who handles only real estate closings, referred an injured client to Attorney Gray, a trial lawyer. The client signed a compliant contingent fee contract with both firms, consenting in writing to a 50/50 division of the fee, and both lawyers signed and agreed to assume joint legal responsibility. Gray did all the work and settled the case. Lund never met with the client after the referral. No court approved the division.",
+   "call": "Is the agreed division of the fee proper?",
+   "choices": [
+    "Yes, because the client consented in writing and both lawyers assumed joint legal responsibility.",
+    "No, because without court approval the lawyer with secondary responsibility may receive no more than 25 percent of the total fee.",
+    "No, because Florida prohibits paying any fee to a lawyer who performs no legal work on the matter.",
+    "Yes, as long as the total fee does not exceed the schedule in Rule 4-1.5(f)(4)."
+   ],
+   "answer": 1,
+   "explanation": "In personal-injury contingent fee cases, Rule 4-1.5(f)(4)(D) requires that the lawyer with primary responsibility receive at least 75 percent of the total fee and the lawyer with secondary responsibility no more than 25 percent, absent court authorization. Lund's 50 percent share for a referral exceeds that limit even though the client consented and both lawyers assumed joint responsibility.",
+   "whyNot": [
+    "Consent and joint responsibility satisfy the general fee-division rule, but the personal-injury 75/25 limit also applies.",
+    "",
+    "A referring lawyer may share the fee without doing proportional work if the client consents in writing and the lawyer assumes joint legal responsibility, subject to the 25 percent cap.",
+    "Staying within the overall fee schedule does not cure an improper division between the two firms."
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.q005",
+   "topic": "fl-professional-responsibility.discipline-and-practice",
+   "rules": [
+    "fl-professional-responsibility.discipline-and-practice.independence",
+    "fl-professional-responsibility.advocacy-and-advertising.solicitation"
+   ],
+   "difficulty": 1,
+   "stem": "Attorney Sato's office manager, Gwen, is not a lawyer. Through her church and neighborhood contacts, Gwen regularly brings personal-injury clients to the firm. Sato pays Gwen a salary plus, when each case she brought in concludes, a bonus equal to 10 percent of Sato's fee in that case. Sato tells each client about the arrangement, and none objects. Gwen never gives legal advice or sets fees.",
+   "call": "Is Sato's compensation arrangement with Gwen proper?",
+   "choices": [
+    "No, because it shares legal fees with a nonlawyer and pays her for recommending Sato's services.",
+    "Yes, because the clients were told of the arrangement and did not object.",
+    "Yes, because nonlawyer employees may participate in compensation plans based on profits.",
+    "Yes, as long as the total fee charged to each client is not clearly excessive."
+   ],
+   "answer": 0,
+   "explanation": "Rule 4-5.4 prohibits sharing legal fees with a nonlawyer, and Rule 4-7.17 bars giving anything of value to a person for recommending the lawyer's services. A bonus measured by the fee in each case the employee brings in is both. Nonlawyer staff may share in a general compensation or retirement plan, even one based on firm profits, but not in payments tied to particular fees or referrals.",
+   "whyNot": [
+    "",
+    "Client consent does not cure fee sharing with a nonlawyer or paying for referrals.",
+    "A general profit-based plan is allowed, but this bonus is tied to the fee in specific cases Gwen brought in, which makes it fee sharing and payment for referrals.",
+    "The reasonableness of the total fee is irrelevant to whether part of it may be shared with a nonlawyer."
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.q006",
+   "topic": "fl-professional-responsibility.trust-accounting",
+   "rules": [
+    "fl-professional-responsibility.trust-accounting.commingling"
+   ],
+   "difficulty": 1,
+   "stem": "Attorney Prado deposited $5,000 of her own money into her firm's trust account 'as a cushion in case a client check bounces.' Her bank's monthly service charge on the account is $25. Prado also earned a $15,000 fee on a closed estate matter last spring, with the client's full agreement, but has left that $15,000 in the trust account for the past eight months because she likes having 'a reserve.' No client has lost any money.",
+   "call": "Which of Prado's actions violate the trust-accounting rules?",
+   "choices": [
+    "Neither, because no client funds were harmed.",
+    "Both the $5,000 deposit and leaving the earned $15,000 fee in the trust account.",
+    "Only leaving the earned fee in trust, because a lawyer may keep personal funds in trust to protect against overdrafts.",
+    "Only the $5,000 deposit, because earned fees may remain in trust until the lawyer needs them."
+   ],
+   "answer": 1,
+   "explanation": "A lawyer may keep only enough personal money in the trust account to cover bank charges; $5,000 against a $25 monthly charge, deposited as an overdraft cushion, is commingling. Earned fees must be withdrawn within a reasonable time after they become due unless disputed; leaving an undisputed fee in trust for eight months as a reserve is also commingling. Harm to clients is not an element.",
+   "whyNot": [
+    "Commingling is a violation whether or not any client loses money.",
+    "",
+    "The only permitted personal funds are those reasonably sufficient to pay bank charges, not a cushion against bounced checks.",
+    "Undisputed earned fees must be withdrawn within a reasonable time; leaving them in trust is commingling."
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.q007",
+   "topic": "fl-professional-responsibility.trust-accounting",
+   "rules": [
+    "fl-professional-responsibility.trust-accounting.delivery-and-disputes"
+   ],
+   "difficulty": 2,
+   "stem": "Attorney Haskins settled a client's property-damage claim for $90,000 and deposited the check into his trust account. Under the written fee agreement, Haskins claims a $30,000 fee. The client agrees that Haskins earned at least $20,000 but insists that $30,000 is too much and refuses to authorize more. There are no liens or other claims to the money, and the check has cleared.",
+   "call": "What should Haskins do?",
+   "choices": [
+    "Hold the entire $90,000 in trust until the fee dispute is resolved.",
+    "Withdraw the $30,000 fee, because the client signed the fee agreement, and send the client $60,000.",
+    "Pay the client $60,000, withdraw $20,000 as his fee, and keep $10,000 in trust until the dispute is resolved.",
+    "Pay the client $60,000 and move the remaining $30,000 into the firm's operating account pending resolution of the dispute."
+   ],
+   "answer": 2,
+   "explanation": "When a lawyer and client both claim funds, the lawyer must keep the disputed portion in trust and promptly distribute the undisputed portions. The client's $60,000 and Haskins's undisputed $20,000 may be paid out; only the $10,000 in dispute stays in trust until the disagreement is resolved, by agreement or court determination.",
+   "whyNot": [
+    "Only the disputed portion may be held; withholding undisputed funds from the client violates the duty of prompt delivery.",
+    "A lawyer may not unilaterally take a disputed fee, even under a signed agreement.",
+    "",
+    "Disputed funds remain trust property and may not be moved into the operating account until the dispute is resolved."
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.q008",
+   "topic": "fl-professional-responsibility.trust-accounting",
+   "rules": [
+    "fl-professional-responsibility.trust-accounting.iota"
+   ],
+   "difficulty": 2,
+   "stem": "Attorney Lindqvist, who practices in Naples, received a $400,000 deposit from a client to be held in escrow under a commercial land contract that will not close for about ten months. Banks in the area offer interest-bearing trust accounts for individual clients at modest cost. Lindqvist placed the funds in the firm's pooled IOTA account with other client money, reasoning that this was simpler and that he would not keep any of the interest.",
+   "call": "Did Lindqvist handle the deposit properly?",
+   "choices": [
+    "Yes, because all client funds held in Florida must be placed in an IOTA account.",
+    "Yes, because Lindqvist will not receive any of the interest.",
+    "No, because the funds should have been placed in the firm's operating account until closing.",
+    "No, because funds that can earn net income for the client must be placed in a separate interest-bearing trust account for the client's benefit."
+   ],
+   "answer": 3,
+   "explanation": "IOTA accounts are for nominal or short-term funds that could not earn the client income above the cost of earning it. A $400,000 deposit held for ten months, where individual interest-bearing trust accounts are available at modest cost, can plainly earn net income for the client and must be placed in a separate interest-bearing trust account whose interest goes to the client.",
+   "whyNot": [
+    "Only nominal or short-term funds go into IOTA; funds capable of earning net income belong in a separate account for the client.",
+    "The question is not whether the lawyer profits but whether the client is deprived of interest the funds could earn; IOTA interest goes to The Florida Bar Foundation.",
+    "Escrowed client funds are trust property and may never be placed in the operating account.",
+    ""
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.q009",
+   "topic": "fl-professional-responsibility.confidentiality-and-conflicts",
+   "rules": [
+    "fl-professional-responsibility.confidentiality-and-conflicts.mandatory-disclosure"
+   ],
+   "difficulty": 2,
+   "stem": "Attorney Bjorn represents Castellano in a licensing dispute with a state agency. During a meeting, Castellano tells Bjorn that next week he will submit backdated inspection certificates, which he knows are forged, to the agency to obtain a permit. Submitting forged documents to a state agency is a crime. No one's physical safety is at risk. Bjorn urges him not to do it, but Castellano says his mind is made up and that Bjorn's services will not be used.",
+   "call": "What does Rule 4-1.6 require of Bjorn?",
+   "choices": [
+    "Bjorn must reveal the information to the extent reasonably necessary to prevent the crime.",
+    "Bjorn may reveal the information, but is not required to.",
+    "Bjorn must keep the information confidential and may only withdraw.",
+    "Bjorn must reveal only if the crime would cause substantial financial injury and Castellano used Bjorn's services to commit it."
+   ],
+   "answer": 0,
+   "explanation": "Under Florida's Rule 4-1.6(b), a lawyer must reveal confidential information to the extent the lawyer reasonably believes necessary to prevent a client from committing a crime. The duty applies to any intended client crime, not just violent ones, and it does not depend on whether the lawyer's services are used.",
+   "whyNot": [
+    "",
+    "That is the ABA Model Rule approach; Florida makes disclosure to prevent a client's crime mandatory.",
+    "Withdrawal does not satisfy Florida's mandatory-disclosure duty for an intended client crime.",
+    "The financial-injury and use-of-services limits come from ABA Model Rule 1.6(b)(2), which is permissive; Florida's duty covers any client crime."
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.q010",
+   "topic": "fl-professional-responsibility.confidentiality-and-conflicts",
+   "rules": [
+    "fl-professional-responsibility.confidentiality-and-conflicts.confidentiality-scope",
+    "fl-professional-responsibility.confidentiality-and-conflicts.mandatory-disclosure"
+   ],
+   "difficulty": 1,
+   "stem": "Attorney Mbeki represents Sorensen in a civil suit over a failed construction contract. While preparing for a deposition, Sorensen tearfully admits that two years ago he struck and killed a pedestrian while driving drunk and fled the scene. The crime was never solved. Sorensen no longer drives and has entered treatment. Mbeki is troubled and believes the victim's family deserves to know.",
+   "call": "What should Mbeki do with this information?",
+   "choices": [
+    "Report it to law enforcement, because it involved a death.",
+    "Report it, because Florida requires lawyers to disclose any crime committed by a client.",
+    "Keep it confidential, because it concerns a completed crime and no exception applies.",
+    "Disclose it to the victim's family, but not to the police."
+   ],
+   "answer": 2,
+   "explanation": "The duty of confidentiality covers all information relating to the representation. Florida's mandatory disclosure duty is preventive: it applies to prevent a client from committing a crime or to prevent death or substantial bodily harm. Sorensen's crime is complete and there is no ongoing threat, so no exception applies and Mbeki must keep it confidential.",
+   "whyNot": [
+    "The death-or-bodily-harm exception is aimed at preventing future harm, not at disclosing harm that has already occurred.",
+    "Florida's mandatory disclosure applies to preventing a client's future crime, not to reporting a past one.",
+    "",
+    "Disclosure to anyone, including the family, would violate Rule 4-1.6 because no exception applies."
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.q011",
+   "topic": "fl-professional-responsibility.confidentiality-and-conflicts",
+   "rules": [
+    "fl-professional-responsibility.confidentiality-and-conflicts.specific-transactions"
+   ],
+   "difficulty": 2,
+   "stem": "Attorney Galloway has handled estate planning for Ferris, a retired accountant, for years. Galloway is opening a restaurant and invites Ferris to invest $50,000 for a 10 percent share. An independent appraiser later confirms the terms were fair. Galloway explained the terms orally over lunch and mentioned that Ferris 'might want to run it by another lawyer.' Ferris wrote a check and signed a short subscription form describing only the amount invested.",
+   "call": "Did Galloway comply with the Rules Regulating The Florida Bar?",
+   "choices": [
+    "Yes, because the terms were fair and reasonable to Ferris.",
+    "No, because the terms were not disclosed in writing, the advice to seek independent counsel was not in writing, and Ferris did not give signed written consent to the essential terms and Galloway's role.",
+    "Yes, because Ferris is a sophisticated businessperson and an existing client.",
+    "No, because a lawyer may never enter into a business transaction with a current client."
+   ],
+   "answer": 1,
+   "explanation": "Rule 4-1.8(a) permits a business transaction with a client only if the terms are fair and reasonable and fully disclosed in writing in a manner the client can understand, the client is advised in writing of the desirability of independent counsel and given a reasonable opportunity to obtain it, and the client gives informed consent in a signed writing to the essential terms and the lawyer's role. Fairness alone is not enough.",
+   "whyNot": [
+    "Fair terms satisfy only one of the rule's requirements; the writing, advice and consent requirements were not met.",
+    "",
+    "Client sophistication does not excuse the writing, advice and signed consent requirements.",
+    "Business transactions with clients are permitted when the rule's safeguards are followed."
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.q012",
+   "topic": "fl-professional-responsibility.advocacy-and-advertising",
+   "rules": [
+    "fl-professional-responsibility.advocacy-and-advertising.fairness-and-threats"
+   ],
+   "difficulty": 2,
+   "stem": "Attorney Quist represents a landlord in a civil action to collect $8,000 in unpaid rent. The tenant, who has no lawyer, paid one month's rent with a check that was returned for insufficient funds. Quist sends the tenant a letter stating: 'If my client does not receive the full $8,000 by Friday, we will file a criminal complaint against you for passing a worthless check.' The tenant did in fact pass a worthless check.",
+   "call": "Was Quist's letter proper?",
+   "choices": [
+    "Yes, because the threatened criminal charge is well founded and related to the civil claim.",
+    "Yes, because Quist only threatened charges and did not actually file a complaint.",
+    "No, because a lawyer may not communicate directly with an opposing party in a civil action.",
+    "No, because a Florida lawyer may not threaten to present criminal charges solely to obtain an advantage in a civil matter."
+   ],
+   "answer": 3,
+   "explanation": "Rule 4-3.4(g) prohibits a Florida lawyer from presenting, participating in presenting, or threatening to present criminal charges solely to obtain an advantage in a civil matter. Using the threat of prosecution to force payment of the civil debt is exactly what the rule forbids, whether or not the charge would be well founded.",
+   "whyNot": [
+    "That reflects ABA Formal Opinion 92-363 under the Model Rules; Florida retains an express prohibition.",
+    "The rule prohibits threats as well as actually presenting charges.",
+    "The tenant is unrepresented, so the no-contact rule does not apply; Quist may write to the tenant if he does not mislead him about his role.",
+    ""
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.q013",
+   "topic": "fl-professional-responsibility.advocacy-and-advertising",
+   "rules": [
+    "fl-professional-responsibility.advocacy-and-advertising.direct-mail"
+   ],
+   "difficulty": 1,
+   "stem": "Attorney Ruskin reviews crash reports filed with the sheriff's office. Twelve days after a highway collision, she mails a letter to one of the injured drivers offering to represent him in a personal injury claim. The letter is plainly marked as an advertisement, begins with the required statement about disregarding it if he already has a lawyer, explains how she learned of the accident, and was filed with The Florida Bar. It contains no false or misleading statements.",
+   "call": "Did Ruskin violate the Rules Regulating The Florida Bar?",
+   "choices": [
+    "No, because the letter met the labeling, disclosure and filing requirements.",
+    "No, because written communications are not solicitation.",
+    "Yes, because the letter was mailed within 30 days of the accident.",
+    "Yes, because a lawyer may never send targeted letters to accident victims."
+   ],
+   "answer": 2,
+   "explanation": "Rule 4-7.18(b) bars a lawyer from sending a written communication to a prospective client about a personal injury claim or otherwise relating to an accident involving the recipient unless the accident occurred more than 30 days before the mailing. The U.S. Supreme Court upheld this moratorium in Florida Bar v. Went For It, Inc. Ruskin mailed her letter 12 days after the crash.",
+   "whyNot": [
+    "Compliance with the formal requirements does not cure a letter sent during the 30-day moratorium.",
+    "Targeted written communications are regulated by Rule 4-7.18(b), and those that fail its requirements are treated as prohibited solicitation.",
+    "",
+    "Targeted letters are permitted after the 30-day period if they meet the rule's requirements."
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.q014",
+   "topic": "fl-professional-responsibility.advocacy-and-advertising",
+   "rules": [
+    "fl-professional-responsibility.advocacy-and-advertising.impartiality-and-jurors"
+   ],
+   "difficulty": 3,
+   "stem": "After a week-long civil trial, the jury returned a defense verdict and was discharged. Plaintiff's counsel, Attorney Delacroix, has no reason to believe any juror misconduct occurred, but he wants to telephone several jurors to ask what they thought of his closing argument so he can improve his trial skills. The trial judge entered no order about juror contact, and Delacroix plans to end any call immediately if a juror does not wish to talk.",
+   "call": "May Delacroix call the jurors?",
+   "choices": [
+    "No, because a Florida lawyer may initiate post-verdict contact with jurors only to determine whether the verdict may be subject to legal challenge.",
+    "Yes, because the jury has been discharged and no court order prohibits contact.",
+    "Yes, as long as he stops when a juror declines to talk and does not harass anyone.",
+    "Yes, if he first gives opposing counsel notice of the jurors he intends to contact."
+   ],
+   "answer": 0,
+   "explanation": "Rule 4-3.5(d)(4) prohibits a lawyer from initiating communication with a discharged juror about the trial except to determine whether the verdict may be subject to legal challenge, and only if the lawyer has reason to believe grounds for a challenge may exist and has filed a notice of intent to interview. Delacroix wants feedback on his performance and has no basis for a challenge.",
+   "whyNot": [
+    "",
+    "That is the ABA Model Rule 3.5(c) approach; Florida restricts post-verdict juror contact to investigating a possible legal challenge.",
+    "Avoiding harassment does not satisfy Florida's purpose limitation on initiating juror contact.",
+    "Notice is necessary but not sufficient; the contact must also be for a permitted purpose, with reason to believe grounds for challenge exist."
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.q015",
+   "topic": "fl-professional-responsibility.advocacy-and-advertising",
+   "rules": [
+    "fl-professional-responsibility.advocacy-and-advertising.candor",
+    "fl-professional-responsibility.confidentiality-and-conflicts.confidentiality-scope"
+   ],
+   "difficulty": 3,
+   "stem": "In a civil trial over a car accident, Attorney Hollis's client, Brandt, testified on direct examination that she had never received treatment for back pain before the accident. That evening, before the defense has rested, Hollis finds records showing Brandt was treated for chronic back pain for years before the crash. Confronted, Brandt admits she lied and forbids Hollis from telling anyone. The testimony is material to damages.",
+   "call": "What must Hollis do?",
+   "choices": [
+    "Keep the information confidential, because Brandt has forbidden disclosure and Rule 4-1.6 protects it.",
+    "Take reasonable remedial measures, including disclosure to the tribunal if necessary, even though the information is otherwise confidential.",
+    "Withdraw immediately, without disclosing anything, and let successor counsel decide how to proceed.",
+    "Continue the trial but avoid referring to the false testimony in closing argument."
+   ],
+   "answer": 1,
+   "explanation": "When a lawyer's client has offered material evidence the lawyer comes to know is false, Rule 4-3.3 requires reasonable remedial measures: remonstrate with the client, seek withdrawal if that will remedy the problem, and if necessary disclose to the tribunal. The duty continues to the conclusion of the proceeding and overrides the confidentiality rule.",
+   "whyNot": [
+    "The candor duty applies even if compliance requires disclosure of information otherwise protected by Rule 4-1.6.",
+    "",
+    "Withdrawal alone does not undo the effect of false evidence already before the jury; disclosure may be required if remonstration fails.",
+    "Merely avoiding the testimony leaves the false evidence uncorrected, which the candor rule does not permit."
+   ]
+  }
+ ]
+}

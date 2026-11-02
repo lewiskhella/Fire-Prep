@@ -1,0 +1,195 @@
+{
+  "subject": "fl-constitutional-law",
+  "essays": [
+    {
+      "id": "fl-constitutional-law.e01",
+      "title": "Music, Meetings and a Fire Fee",
+      "minutes": 60,
+      "topics": [
+        "fl-constitutional-law.local-government-and-finance",
+        "fl-constitutional-law.declaration-of-rights"
+      ],
+      "facts": [
+        "Mangrove County is a non-charter county on Florida's Gulf coast, and the City of Coral Haven is a municipality within it. In 2026 the county commission adopted an ordinance prohibiting outdoor amplified music at commercial establishments anywhere in the county after 10 p.m. Coral Haven's code expressly allows licensed waterfront restaurants inside the city to play outdoor amplified music until midnight. The county sheriff has begun citing Coral Haven restaurants that play music between 10 p.m. and midnight. Assume that no state statute addresses outdoor amplified music.",
+        "Meanwhile, Coral Haven's five-member city commission was considering a new 'fire rescue assessment' on every improved parcel in the city. Three commissioners met one evening at Commissioner Alvarez's home, with no public notice, and spent two hours agreeing on the assessment rate and on how to respond to expected objections. At the next regularly noticed commission meeting, the commission adopted the assessment ordinance by a 4–1 vote after five minutes of discussion, during which one of the three said that they had 'already worked it all out.'",
+        "The ordinance apportions the assessment among improved parcels by building square footage and use category (residential, commercial or industrial), relying on a consultant's study showing that demand for fire protection correlates with those factors. Vacant land is not assessed. The ordinance recites that fire protection specially benefits improved property by protecting structures and lowering insurance premiums. The city manager now proposes amending the ordinance so that half of the assessment revenue will fund the city's ambulance and emergency medical service."
+      ],
+      "calls": [
+        "Can Mangrove County enforce its ordinance against restaurants inside Coral Haven? Would the answer change if the county adopted a charter?",
+        "Did the meeting at Commissioner Alvarez's home violate Florida's open-meetings requirements, and what is the effect on the assessment ordinance?",
+        "Is the fire rescue assessment a valid special assessment, and may the city use it to fund ambulance and emergency medical services?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "County ordinance conflicting with a municipal ordinance",
+          "rules": [
+            "fl-constitutional-law.local-government-and-finance.counties",
+            "fl-constitutional-law.local-government-and-finance.preemption-and-conflict"
+          ],
+          "points": 4,
+          "mustSay": [
+            "A non-charter county may enact ordinances not inconsistent with general or special law, but an ordinance that conflicts with a municipal ordinance is not effective within the municipality to the extent of the conflict (Art. VIII, § 1(f))",
+            "The ordinances conflict between 10 p.m. and midnight because the county forbids what the city expressly authorizes",
+            "The county ordinance still applies in unincorporated areas and in cities without a conflicting ordinance",
+            "In a charter county, the charter must specify which prevails when county and municipal ordinances conflict (§ 1(g)), so the result would depend on the charter",
+            "No state preemption question arises because no statute addresses the subject"
+          ],
+          "conclusion": "No. Inside Coral Haven the city ordinance controls from 10 p.m. to midnight; if the county adopted a charter, the charter's conflict provision would decide."
+        },
+        {
+          "id": "i2",
+          "call": 2,
+          "label": "Sunshine violation and its effect on the ordinance",
+          "rules": ["fl-constitutional-law.declaration-of-rights.public-records-and-meetings"],
+          "points": 4,
+          "mustSay": [
+            "Art. I, § 24(b) and the Sunshine Law (§ 286.011) require meetings of municipal collegial bodies at which public business is discussed to be open and noticed",
+            "A meeting occurs whenever two or more members discuss a matter that will foreseeably come before the body; three of five commissioners settling the assessment rate qualifies, with no notice and no public access",
+            "Action taken in violation of the Sunshine Law is void (Town of Palm Beach v. Gradison)",
+            "A later vote cures the violation only if it is an independent, full and open final action, not a perfunctory ratification of a decision made in secret (Tolar); five minutes of discussion and 'already worked it all out' is perfunctory",
+            "Remedies include invalidating the ordinance, injunctive relief, attorney's fees, and penalties against the officials who violated the law"
+          ],
+          "conclusion": "Yes. The private meeting violated the open-meetings requirements, and because the public vote merely ratified the secret decision, the ordinance is likely void unless the commission readopts it after full and open deliberation."
+        },
+        {
+          "id": "i3",
+          "call": 3,
+          "label": "Special assessment versus tax; using the assessment for emergency medical services",
+          "rules": [
+            "fl-constitutional-law.local-government-and-finance.special-assessments",
+            "fl-constitutional-law.local-government-and-finance.taxation"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Two-part test: the property must receive a special benefit, and the assessment must be fairly and reasonably apportioned among benefited properties; the government's findings stand unless arbitrary (City of Boca Raton v. State)",
+            "Fire protection can specially benefit improved property (Lake County v. Water Oak); apportionment by square footage and use, supported by a study, with vacant land excluded, is reasonable",
+            "Emergency medical services benefit people, not property, so they cannot be funded by special assessment (City of North Lauderdale v. SMM Properties)",
+            "The ambulance portion would be a tax; a municipality may impose non-ad valorem taxes only as general law authorizes (Art. VII, § 1(a)), and its ad valorem taxes are capped at 10 mills (Art. VII, § 9)"
+          ],
+          "conclusion": "The fire portion is a valid special assessment (assuming it is validly adopted), but the city may not use the assessment to fund ambulance and EMS service; that portion would be an unauthorized tax."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Rule. Under Article VIII, § 1(f), a county that does not operate under a charter has the powers of self-government provided by general or special law and may enact ordinances not inconsistent with general or special law, but an ordinance in conflict with a municipal ordinance is not effective within the municipality to the extent of the conflict. A charter county, by contrast, has all powers of local self-government not inconsistent with general law, and its charter must provide which ordinance prevails when county and municipal ordinances conflict (§ 1(g)). Separately, any local ordinance yields to state law where the Legislature has preempted the field or the ordinance conflicts with a statute; the facts state that no statute addresses this subject, so only the county-city conflict matters.",
+            "Application. The ordinances conflict for the hours between 10 p.m. and midnight: the county forbids outdoor amplified music that Coral Haven expressly permits for licensed waterfront restaurants. Because Mangrove County has no charter, its ordinance is not effective inside Coral Haven to the extent of that conflict, and the sheriff's citations of city restaurants for playing music before midnight cannot be enforced. The county ordinance remains fully effective in unincorporated Mangrove County and in any municipality that has no conflicting rule.",
+            "If the county adopted a charter, the answer would turn on the charter. Section 1(g) requires the charter to state which ordinance prevails in a conflict. If the charter made countywide ordinances on this subject controlling, the county ordinance would apply inside Coral Haven; if it gave municipal ordinances priority, the city's rule would still govern."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Rule. Article I, § 24(b) requires that all meetings of any collegial public body of a county, municipality, school district or special district at which official acts are to be taken or public business is to be transacted or discussed be open and noticed to the public, and the Sunshine Law, § 286.011, implements that command. A meeting subject to these requirements occurs whenever two or more members of the same board discuss a matter that will foreseeably come before the board for action; no quorum or formal vote is needed. Action taken in violation is void (Town of Palm Beach v. Gradison). A violation can be cured only by independent, full and open final action, not by a perfunctory ratification of a decision already made in private (Tolar v. School Board of Liberty County).",
+            "Application. Three of the five commissioners, a majority, met privately without notice and spent two hours agreeing on the assessment rate and on their responses to objections, a matter certain to come before the commission. That is a meeting at which public business was transacted, and it was neither open nor noticed, so it violated § 24(b) and § 286.011. The later public meeting did not cure the violation: the ordinance passed after five minutes, with a participant announcing that the outcome had 'already been worked out.' That is the kind of perfunctory ratification of a secret decision that Florida courts refuse to treat as a cure.",
+            "Effect. The assessment ordinance is likely void, and a court may enjoin its enforcement and award attorney's fees to the challengers. The commissioners who participated also face statutory civil and criminal penalties. To impose the assessment validly, the commission must start over and adopt it after genuine, full and open public deliberation."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Rule. A special assessment is not a tax if (1) the property assessed derives a special benefit from the service or improvement and (2) the assessment is fairly and reasonably apportioned among the properties that receive the benefit (City of Boca Raton v. State). Both determinations are legislative, and a court upholds them unless they are arbitrary. A charge that fails the test is a tax, and under Article VII, § 1(a) all forms of taxation other than ad valorem taxes are preempted to the state except as provided by general law; a municipality's ad valorem taxes are capped at 10 mills by Article VII, § 9.",
+            "Fire protection. The Florida Supreme Court has held that fire protection services can provide a special benefit to improved property, because they protect structures and can lower insurance costs (Lake County v. Water Oak Management Corp.). Coral Haven's ordinance makes that finding, assesses only improved parcels, and apportions the charge by building square footage and use category based on a study showing that those factors track fire-protection demand. That apportionment is reasonable, not arbitrary. Assuming the commission readopts the ordinance in compliance with the Sunshine Law, the fire assessment is a valid special assessment.",
+            "Emergency medical services. The city manager's proposal fails. The Court has held that emergency medical and ambulance services benefit people rather than property, so they do not confer the special benefit on real property that a special assessment requires (City of North Lauderdale v. SMM Properties). Using half of the revenue for EMS would convert that portion into a tax. Because no general law authorizes this kind of non-ad valorem tax, it would be invalid. The city must fund ambulance service from general revenues, such as ad valorem taxes within its millage cap, or from another source that general law authorizes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.e02",
+      "title": "The Residential Construction Act",
+      "minutes": 60,
+      "topics": [
+        "fl-constitutional-law.legislature",
+        "fl-constitutional-law.declaration-of-rights"
+      ],
+      "facts": [
+        "In 2026 the Legislature passed, and the governor signed, a law titled 'An act relating to residential construction.' Section 1 updates licensing and continuing-education requirements for residential contractors. Section 2 provides that 'no action for damages for personal injury may be brought against a licensed residential contractor by any person, other than an employee of the contractor, who is injured on or adjacent to an active residential construction site.' The Act creates no substitute remedy. Its legislative findings state that rising liability insurance costs are driving up the price of new homes.",
+        "Section 3 requires every employee of a licensed residential contractor to provide a DNA sample to the Department of Business and Professional Regulation, which will analyze the samples and keep the resulting genetic profiles in a permanent database for 'workforce health planning.' Section 4 caps campaign contributions to candidates for county school boards.",
+        "Soon after the Act took effect, Luis Romero was walking on a public sidewalk when a pallet of roof tiles fell from a crane at a home construction site and broke his leg. He sued the contractor for negligence, and the contractor moved to dismiss under Section 2. Separately, Hannah Cole, a carpenter employed by a residential contractor, refused to provide a DNA sample and sued the Department, claiming that Section 3 violates her right of privacy. A school board candidate has challenged the whole Act on single-subject grounds. The Legislature has not yet adopted a new edition of the Florida Statutes that reenacts the Act."
+      ],
+      "calls": [
+        "Does the Act violate the Florida Constitution's single-subject requirement, and if so, with what consequence?",
+        "Should the court dismiss Romero's negligence action under Section 2?",
+        "Does Section 3 violate Cole's right of privacy under the Florida Constitution?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Single subject and title (Art. III, § 6)",
+          "rules": ["fl-constitutional-law.legislature.single-subject"],
+          "points": 3,
+          "mustSay": [
+            "Every law must embrace one subject and matter properly connected with it, briefly expressed in the title; the rule prevents logrolling and gives notice",
+            "Sections 1 through 3 have a natural or logical connection to residential construction; Section 4 (campaign contributions to school board candidates) has none and is not fairly expressed in the title",
+            "The defect is cured only by reenactment in the biennial adoption of the Florida Statutes, which has not happened, so the challenge is timely",
+            "Florida courts have treated a single-subject violation as invalidating the chapter law as enacted, rather than simply severing the stray section"
+          ],
+          "conclusion": "Yes. Section 4 is unrelated to residential construction, so the Act violates Art. III, § 6 and is vulnerable as a whole until the Legislature cures the defect."
+        },
+        {
+          "id": "i2",
+          "call": 2,
+          "label": "Access to courts: abolition of a pre-1968 negligence claim",
+          "rules": [
+            "fl-constitutional-law.declaration-of-rights.access-to-courts",
+            "fl-constitutional-law.declaration-of-rights.basic-rights"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Art. I, § 21 guarantees access to the courts for redress of any injury",
+            "Kluger v. White: a right of action that existed at common law or by statute when the 1968 Declaration of Rights was adopted may not be abolished unless the Legislature provides a reasonable alternative, or shows an overpowering public necessity and that no alternative method of meeting it exists",
+            "A passerby's negligence action for personal injury existed at common law long before 1968; Section 2 abolishes it for non-employees and provides no alternative remedy (unlike workers' compensation for employees)",
+            "Rising insurance costs may be a legitimate concern, but less drastic options (damages limits, insurance requirements, procedural reforms) show that total abolition is not the only way to meet it",
+            "Possible equal protection argument under Art. I, § 2 (singling out construction-site victims), reviewed for a rational basis, is secondary"
+          ],
+          "conclusion": "No. Section 2 likely violates the access-to-courts clause as applied to Romero, so the motion to dismiss should be denied."
+        },
+        {
+          "id": "i3",
+          "call": 3,
+          "label": "Right of privacy: compelled DNA database",
+          "rules": ["fl-constitutional-law.declaration-of-rights.privacy"],
+          "points": 4,
+          "mustSay": [
+            "Art. I, § 23 protects every natural person from governmental intrusion into private life; the Department's mandate is governmental action even though Cole works for a private contractor",
+            "Threshold: a legitimate expectation of privacy; a person's genetic information is intensely personal and revealing, so the expectation is strong (contrast City of North Miami v. Kurtz, where job applicants had no legitimate expectation of privacy in disclosing tobacco use)",
+            "Strict scrutiny: the State must prove a compelling interest and the least intrusive means (Winfield)",
+            "'Workforce health planning' is vague and not shown to be compelling, and a permanent database of every worker's genetic profile is far broader than necessary; less intrusive means (aggregate or voluntary data, targeted safety rules) are available"
+          ],
+          "conclusion": "Yes. Section 3 likely violates § 23 because the State cannot show that a permanent genetic database serves a compelling interest by the least intrusive means."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Rule. Article III, § 6 requires that every law embrace but one subject and matter properly connected with it, and that the subject be briefly expressed in the title. The rule prevents logrolling, in which unrelated measures ride together to collect votes, and gives legislators and the public notice of what a bill contains. Provisions satisfy the rule if they have a natural or logical connection to a single subject. A violation is cured when the Legislature reenacts the law as part of its biennial adoption of the Florida Statutes, so a challenge must be brought before that happens.",
+            "Application. Sections 1 through 3 relate to residential construction: licensing contractors, limiting contractors' liability for construction-site injuries, and regulating the contractor workforce. Section 4, which caps campaign contributions to candidates for county school boards, has no natural or logical connection to residential construction, and nothing in the title 'An act relating to residential construction' would alert anyone that it regulates campaign finance. The Act therefore violates Art. III, § 6. The Legislature has not yet reenacted the Act, so the defect is uncured and the candidate's challenge is timely.",
+            "Consequence. Florida courts have held entire chapter laws unconstitutional for single-subject violations rather than merely severing the unrelated provision, because the logrolling taints the whole enactment. The Act as passed is therefore vulnerable in its entirety until the Legislature reenacts it or passes the subjects separately. Because a court might instead decide the remaining challenges on their merits, or the Legislature might reenact the Act, the other sections are analyzed below."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Rule. Article I, § 21 provides that the courts shall be open to every person for redress of any injury. Under Kluger v. White, when a right of access to the courts for a particular injury existed by statute or at common law when the 1968 Declaration of Rights was adopted, the Legislature may not abolish it unless it (1) provides a reasonable alternative remedy, or (2) shows an overpowering public necessity for abolishing the right and that no alternative method of meeting that necessity exists. Reasonable regulation of a claim is permissible; outright abolition triggers this test.",
+            "Application. A pedestrian's negligence action for personal injury caused by a contractor's careless work existed at common law long before 1968. Section 2 does not merely regulate that action; it abolishes it entirely for everyone except the contractor's employees, and it provides no substitute remedy. Employees are differently situated because workers' compensation gives them an alternative, but Romero, a member of the public, gets nothing. The Act therefore survives only if the Legislature has shown an overpowering public necessity and that no alternative method exists. The findings point to rising insurance costs and home prices. Even if that concern is serious, the Legislature had many less drastic options, such as limiting damages, requiring insurance, or adopting procedural reforms, so it cannot show that abolishing every non-employee's claim was the only way to address the problem.",
+            "Romero might also argue that singling out construction-site victims for loss of their remedy violates equal protection under Art. I, § 2, which would be reviewed for a rational basis; but the access-to-courts claim is the stronger ground. Section 2 is likely unconstitutional as applied to Romero, and the court should deny the motion to dismiss."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Rule. Article I, § 23 gives every natural person the right to be let alone and free from governmental intrusion into his or her private life. A claimant must first show a legitimate expectation of privacy in the matter, judged by the circumstances and societal norms. If she does, the State must justify the intrusion by showing a compelling state interest and that it used the least intrusive means to achieve it (Winfield v. Division of Pari-Mutuel Wagering). The clause applies only to government action.",
+            "Application. Cole is a natural person, and the intrusion is governmental: a state statute compels her to give a DNA sample to a state agency that will analyze it and keep her genetic profile permanently. That her employer is private does not matter, because the State itself is requiring and receiving the sample. Cole has a strong, legitimate expectation of privacy in her genetic information, which can reveal health conditions, ancestry and family relationships. This differs sharply from City of North Miami v. Kurtz, where the court found no legitimate expectation of privacy in a job applicant's disclosure of tobacco use, a widely regulated and publicly visible habit.",
+            "Strict scrutiny therefore applies, and the State is unlikely to satisfy it. 'Workforce health planning' is a vague goal that the State has not shown to be compelling, and nothing explains why individual genetic profiles, rather than aggregate or voluntary health data or targeted safety regulations, are needed to plan for workforce health. A permanent database containing the genetic profile of every employee in an industry is far from the least intrusive means. Section 3 likely violates Cole's right of privacy."
+          ]
+        }
+      ]
+    }
+  ]
+}

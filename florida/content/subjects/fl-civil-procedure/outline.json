@@ -1,0 +1,592 @@
+{
+  "subject": "fl-civil-procedure",
+  "topics": [
+    {
+      "id": "fl-civil-procedure.jurisdiction-and-venue",
+      "title": "Court jurisdiction, long-arm and venue",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida splits trial jurisdiction between county and circuit courts by amount and subject, and it reaches nonresidents through a long-arm statute that is narrower than due process. Questions usually ask which court hears a claim, whether a nonresident can be haled in, and which county is proper.",
+      "rules": [
+        {
+          "id": "fl-civil-procedure.jurisdiction-and-venue.trial-court-jurisdiction",
+          "title": "County court vs. circuit court",
+          "weight": 3,
+          "rule": "For actions filed on or after January 1, 2023, county courts have original jurisdiction of actions at law in which the amount in controversy does not exceed $50,000, exclusive of interest, costs and attorney's fees. Circuit courts are courts of general jurisdiction: they hear actions at law above that amount and matters not cognizable by county courts, such as ejectment and actions involving title to or boundaries of real property, and they are the principal courts of equity. Parties cannot confer subject-matter jurisdiction by consent or waiver, and its absence can be raised at any time.",
+          "exceptions": [
+            "County courts also hear landlord-tenant possession (eviction) cases (Fla. Stat. § 34.011).",
+            "County judges may hear equitable matters involved in a case that is within the county court's jurisdictional amount (Fla. Stat. § 34.01).",
+            "If a counterclaim or crossclaim demands more than the county court's limit, the whole action is transferred to the circuit court of the same county (Fla. R. Civ. P. 1.170(j))."
+          ],
+          "split": "UBE civil procedure tests federal subject-matter jurisdiction (diversity with more than $75,000 in controversy, or a federal question). Florida's allocation is different in kind: it divides cases between two state trial courts by amount and subject matter, with no citizenship element.",
+          "tip": "Strip out interest, costs and fees before comparing the claim to $50,000; examiners like to add a contractual fee claim to tempt you into circuit court.",
+          "trap": "Older outlines use superseded thresholds ($15,000 before 2020; $30,000 for filings in 2020 through 2022). Use $50,000 for current filings.",
+          "authority": "Art. V, §§ 5(b), 6(b), Fla. Const.; Fla. Stat. §§ 26.012, 34.01"
+        },
+        {
+          "id": "fl-civil-procedure.jurisdiction-and-venue.long-arm",
+          "title": "Long-arm jurisdiction: the two-step test and burden shifting",
+          "weight": 3,
+          "rule": "Jurisdiction over a nonresident requires (1) facts bringing the action within Florida's long-arm statute and (2) minimum contacts sufficient to satisfy due process. The plaintiff may plead the statutory basis by tracking the statute's language; a defendant who contests it must file a legally sufficient affidavit or other sworn proof, which shifts the burden back to the plaintiff to prove jurisdiction by affidavit or other sworn proof. If the sworn submissions conflict and cannot be reconciled, the court resolves the dispute at a limited evidentiary hearing.",
+          "elements": [
+            "Statutory step, specific jurisdiction (§ 48.193(1)): the claim arises from a listed act, such as operating or carrying on a business or business venture in Florida, committing a tortious act within Florida, owning or using Florida real property, contracting to insure a Florida person, property or risk, causing injury in Florida through out-of-state conduct while soliciting or servicing here or when the defendant's products are used here in the ordinary course of commerce, or breaching a contract by failing to perform acts the contract requires to be done in Florida",
+            "Statutory step, general jurisdiction (§ 48.193(2)): substantial and not isolated activity in Florida, whether or not the claim arises from it",
+            "Constitutional step: purposeful minimum contacts, so that the suit does not offend traditional notions of fair play and substantial justice"
+          ],
+          "split": "Many states read their long-arm statutes as reaching the limits of due process, so the analysis collapses into minimum contacts. Florida's statute is strictly construed and narrower than due process, so a defendant with constitutionally adequate contacts can still fall outside it. Always analyze the statute first.",
+          "tip": "Telephone, e-mail or written communications into Florida can be a 'tortious act within Florida' when the cause of action arises from them (Wendt v. Horowitz), and defamatory material about a Florida resident posted online and accessed in Florida qualifies (Internet Solutions Corp. v. Marshall).",
+          "trap": "Denying the motion because the complaint's allegations must be taken as true. Once the defendant files a sufficient affidavit, bare allegations no longer carry the plaintiff's burden.",
+          "authority": "Fla. Stat. § 48.193; Venetian Salami Co. v. Parthenais, 554 So. 2d 499 (Fla. 1989); Wendt v. Horowitz, 822 So. 2d 1252 (Fla. 2002); Internet Solutions Corp. v. Marshall, 39 So. 3d 1201 (Fla. 2010)"
+        },
+        {
+          "id": "fl-civil-procedure.jurisdiction-and-venue.venue",
+          "title": "Proper venue",
+          "weight": 3,
+          "rule": "An action may be brought only in the county where the defendant resides, where the cause of action accrued, or where the property in litigation is located; when defendants reside in different counties, suit may be brought in any county where any of them resides. A domestic corporation may also be sued where it has or usually keeps an office for transacting its customary business, and a foreign corporation where it has an agent or other representative. The general venue statute does not apply to actions against nonresidents, and among proper venues the plaintiff's choice is presumed correct.",
+          "exceptions": [
+            "Local action rule: an action affecting title to or an interest in real property must be brought in the county where the land lies.",
+            "Home venue privilege: the State, its agencies and its subdivisions are presumptively entitled to be sued in the county of their principal headquarters, subject to judicially recognized exceptions.",
+            "An improper-venue objection is waived unless raised in the first Rule 1.140 motion or, if none, the responsive pleading."
+          ],
+          "tip": "The defendant bears the burden of showing that the plaintiff's chosen county is improper.",
+          "authority": "Fla. Stat. §§ 47.011, 47.021, 47.051; Carlile v. Game & Fresh Water Fish Comm'n, 354 So. 2d 362 (Fla. 1977)"
+        },
+        {
+          "id": "fl-civil-procedure.jurisdiction-and-venue.transfer-and-forum-non-conveniens",
+          "title": "Transfer of venue and forum non conveniens",
+          "weight": 2,
+          "rule": "When a case is filed in the wrong county, the court may transfer it to a proper county instead of dismissing it; the plaintiff must pay the receiving clerk's service charge within 30 days of the transfer order or the action is dismissed without prejudice. Even when venue is proper, a court may transfer a case to another Florida court where it could have been brought, for the convenience of the parties or witnesses or in the interest of justice. Dismissal in favor of another state's or country's courts is governed by Rule 1.061, which adopts the federal forum non conveniens analysis.",
+          "elements": [
+            "An adequate alternative forum exists that has jurisdiction over the whole case",
+            "The private-interest factors, weighed with a strong presumption in favor of the plaintiff's chosen forum, favor the alternative forum",
+            "If the private interests are at or near equipoise, the public-interest factors tip the balance toward the alternative forum",
+            "The plaintiff can reinstate the suit in the alternative forum without undue inconvenience or prejudice"
+          ],
+          "split": "Florida adopted the federal Gulf Oil / Piper Aircraft framework in Kinney System (1996), so the UBE forum non conveniens analysis carries over. The intrastate convenience transfer is a separate statutory device (§ 47.122), roughly parallel to 28 U.S.C. § 1404(a).",
+          "authority": "Fla. R. Civ. P. 1.060, 1.061; Fla. Stat. § 47.122; Kinney Sys., Inc. v. Continental Ins. Co., 674 So. 2d 86 (Fla. 1996)"
+        }
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.service",
+      "title": "Process and service",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Service of process in Florida is governed mainly by Chapter 48 and Rule 1.070, and the statutes are strictly construed against the party serving. Expect fact patterns about who may receive abode service, substituted service on a spouse, Sunday service, the 120-day deadline, and when publication is allowed.",
+      "rules": [
+        {
+          "id": "fl-civil-procedure.service.individuals",
+          "title": "Personal and abode service on individuals",
+          "weight": 3,
+          "rule": "An individual is served by delivering a copy of the process, with a copy of the initial pleading, to the person, or by leaving the copies at the person's usual place of abode with any person residing there who is 15 years of age or older and informing that person of their contents. A person outside Florida may be served in the same manner by an officer authorized to serve process where the person is found, but valid service does not by itself establish personal jurisdiction; the long-arm and due process requirements still apply.",
+          "split": "Federal Rule 4(e)(2)(B) permits abode service on 'someone of suitable age and discretion who resides there.' Florida sets a bright line of 15 and also requires the server to tell the recipient what the papers are.",
+          "trap": "A babysitter, a weekend guest, or a 14-year-old resident is not a proper abode recipient even if the papers reach the defendant; actual notice does not cure defective service.",
+          "authority": "Fla. Stat. §§ 48.031(1)(a), 48.194"
+        },
+        {
+          "id": "fl-civil-procedure.service.substituted-service",
+          "title": "Substituted service on a spouse or at a sole proprietor's business",
+          "weight": 2,
+          "rule": "Process may be served on the defendant's spouse anywhere in the county if the action is not an adversary proceeding between the spouses, the spouse requests such service, and the spouses reside together in the same dwelling. An individual doing business as a sole proprietorship may be served at the place of business, during regular business hours, by serving the person in charge, after two or more attempts to serve the owner there have failed.",
+          "tip": "All three spousal conditions must appear in the facts: the spouses are not adverse, the spouse asks for the service, and they live together.",
+          "authority": "Fla. Stat. § 48.031(2)"
+        },
+        {
+          "id": "fl-civil-procedure.service.validity-and-return",
+          "title": "Strict compliance, Sunday service and the return",
+          "weight": 2,
+          "rule": "Statutes governing service of process are strictly construed, and the party invoking the court's jurisdiction bears the burden of proving valid service. The return must show the date and time the server received the process, the date and time of service, the manner of service, and the name of the person served; a return regular on its face is presumed valid, and a party challenging it must prove the defect by clear and convincing evidence. Service of process on a Sunday is void.",
+          "exceptions": [
+            "A return that omits required facts may be amended on application to the court to state them; the omission does not void service that was actually proper."
+          ],
+          "trap": "Service on a Saturday or on a holiday is valid; only Sunday service is void.",
+          "authority": "Fla. Stat. §§ 48.20, 48.21"
+        },
+        {
+          "id": "fl-civil-procedure.service.time-limit",
+          "title": "The 120-day service deadline",
+          "weight": 2,
+          "rule": "If the initial process and initial pleading are not served within 120 days after the initial pleading is filed, the court, on its own initiative after notice or on motion, must either direct that service be made within a specified time or dismiss the action without prejudice (or drop that defendant). If the plaintiff shows good cause or excusable neglect for the failure, the court must extend the time for service for an appropriate period.",
+          "split": "Federal Rule 4(m) allows 90 days and mandates an extension only for good cause. Florida keeps 120 days and makes excusable neglect a ground for a mandatory extension as well.",
+          "trap": "The dismissal is without prejudice, but if the limitations period has run in the meantime it can be fatal in practice.",
+          "authority": "Fla. R. Civ. P. 1.070(j)"
+        },
+        {
+          "id": "fl-civil-procedure.service.constructive-service",
+          "title": "Constructive service by publication",
+          "weight": 2,
+          "rule": "Service by publication is available only in the kinds of actions the statute lists, such as actions to enforce a lien on or foreclose a mortgage on property in Florida, to quiet title, for partition, and for dissolution of marriage, and only after a sworn statement showing a diligent search and inquiry for the defendant. Because it gives only constructive notice, publication supports relief against the property or status before the court (in rem or quasi in rem), not a personal money judgment.",
+          "trap": "Publication cannot support a judgment for damages, alimony or child support against a defendant who cannot be personally served.",
+          "authority": "Fla. Stat. §§ 49.011, 49.041"
+        }
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.pleadings-and-motions",
+      "title": "Pleadings, motions and amendment",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida is a fact-pleading state with its own deadlines (20 days to answer, 10 days after a motion is denied) and its own waiver rules under Rule 1.140. The most-tested Florida features are amendment as of right after a motion to dismiss, the punitive damages gatekeeping statute, and default practice.",
+      "rules": [
+        {
+          "id": "fl-civil-procedure.pleadings-and-motions.fact-pleading",
+          "title": "Fact pleading and attached documents",
+          "weight": 3,
+          "rule": "A pleading that sets forth a claim for relief must contain a short and plain statement of the grounds for the court's jurisdiction, a short and plain statement of the ultimate facts showing that the pleader is entitled to relief, and a demand for judgment. Any contract, note, account or other document on which the action or defense is based must be incorporated in or attached to the pleading, and when an attached exhibit contradicts the allegations, the exhibit controls. Fraud and mistake must be pleaded with particularity, while intent, knowledge and other conditions of mind may be averred generally.",
+          "split": "Federal courts use notice pleading as tightened by the Twombly/Iqbal plausibility standard. Florida is a fact-pleading jurisdiction: the complaint must allege ultimate facts supporting each element of the cause of action, not legal conclusions, but Florida has not adopted the federal plausibility test.",
+          "authority": "Fla. R. Civ. P. 1.110(b), 1.120(b), 1.130"
+        },
+        {
+          "id": "fl-civil-procedure.pleadings-and-motions.response-deadlines",
+          "title": "Time to answer and reply",
+          "weight": 3,
+          "rule": "A defendant must serve an answer within 20 days after service of the original process and initial pleading; the State, its agencies, and officers or employees sued in an official capacity have 40 days. Serving a Rule 1.140 motion suspends that deadline: if the motion is denied, the responsive pleading is due within 10 days after the order is filed, and if a more definite statement is ordered, within 10 days after it is served. A reply is required only when the opposing party seeks to avoid an affirmative defense pleaded in the answer.",
+          "split": "Federal Rule 12 allows 21 days to answer and 14 days after a motion is denied; Florida uses 20 and 10.",
+          "authority": "Fla. R. Civ. P. 1.100(a), 1.140(a)"
+        },
+        {
+          "id": "fl-civil-procedure.pleadings-and-motions.rule-1140-defenses",
+          "title": "Rule 1.140 defenses and waiver",
+          "weight": 3,
+          "rule": "Seven defenses may be raised by motion before pleading. Lack of personal jurisdiction, improper venue, insufficiency of process and insufficiency of service of process are waived if omitted from a Rule 1.140 motion the party makes or, if no motion is made, from the responsive pleading. Failure to state a cause of action and failure to join an indispensable party may be raised as late as trial, and lack of subject-matter jurisdiction may be raised at any time.",
+          "elements": [
+            "Lack of jurisdiction over the subject matter",
+            "Lack of jurisdiction over the person",
+            "Improper venue",
+            "Insufficiency of process",
+            "Insufficiency of service of process",
+            "Failure to state a cause of action",
+            "Failure to join indispensable parties"
+          ],
+          "tip": "On a motion to dismiss for failure to state a cause of action, the court stays within the four corners of the complaint and its attachments and accepts well-pleaded facts as true. An affirmative defense such as the statute of limitations supports dismissal only if it appears on the face of the complaint.",
+          "trap": "A defendant whose first motion raises only failure to state a cause of action cannot contest personal jurisdiction later in the answer; that defense is gone.",
+          "authority": "Fla. R. Civ. P. 1.110(d), 1.140(b), (h)"
+        },
+        {
+          "id": "fl-civil-procedure.pleadings-and-motions.affirmative-defenses",
+          "title": "Affirmative defenses and nonparty fault",
+          "weight": 2,
+          "rule": "The answer must plead affirmatively every avoidance or affirmative defense, such as accord and satisfaction, arbitration and award, assumption of risk, contributory or comparative negligence, duress, estoppel, failure of consideration, fraud, illegality, laches, license, payment, release, res judicata, statute of frauds, statute of limitations and waiver; an unpleaded defense is generally waived. A defendant who wants the jury to allocate fault to a nonparty must plead the nonparty's fault and identify or describe the nonparty as specifically as practicable, and then prove that fault at trial.",
+          "tip": "Nonparties placed on the verdict form are called Fabre defendants. Without a pleaded and proved affirmative defense, the jury may not apportion fault to them.",
+          "authority": "Fla. R. Civ. P. 1.110(d); Fla. Stat. § 768.81(3); Fabre v. Marin, 623 So. 2d 1182 (Fla. 1993); Nash v. Wells Fargo Guard Servs., Inc., 678 So. 2d 1262 (Fla. 1996)"
+        },
+        {
+          "id": "fl-civil-procedure.pleadings-and-motions.counterclaims-and-third-parties",
+          "title": "Counterclaims, crossclaims and third-party practice",
+          "weight": 2,
+          "rule": "A counterclaim arising out of the transaction or occurrence that is the subject of the opposing party's claim is compulsory and is barred if not asserted, unless it requires parties the court cannot reach or was already the subject of another pending action; Florida tests 'transaction or occurrence' by asking whether the claims are logically related. Crossclaims against coparties are permissive. A defendant may implead a nonparty who is or may be liable to it for all or part of the plaintiff's claim, without leave if the third-party complaint is filed within 20 days after the defendant serves its original answer, and may join any other claim against that party arising from the same transaction or occurrence.",
+          "split": "Federal Rule 14 allows impleader without leave within 14 days after the original answer is served; Florida allows 20.",
+          "authority": "Fla. R. Civ. P. 1.170, 1.180; Londono v. Turkey Creek, Inc., 609 So. 2d 14 (Fla. 1992)"
+        },
+        {
+          "id": "fl-civil-procedure.pleadings-and-motions.amendment",
+          "title": "Amendment of pleadings and relation back",
+          "weight": 3,
+          "rule": "A party may amend a pleading once as a matter of course at any time before a responsive pleading is served, or, if the pleading requires no response and the case is not on the trial calendar, within 20 days after serving it; otherwise amendment requires leave of court or the adverse party's written consent, and leave must be given freely when justice so requires. An amendment relates back to the date of the original pleading when the claim or defense arises from the conduct, transaction, or occurrence set forth, or attempted to be set forth, in the original pleading.",
+          "split": "Federal Rule 15(a)(1) cuts off amendment as of right 21 days after service of a Rule 12(b) motion. In Florida a motion to dismiss is not a responsive pleading, so the right lasts until an answer is served. Federal Rule 15(c)(1)(C) also lets an amendment that changes the defendant relate back if notice conditions are met; Florida's rule has no such clause, so adding a new party generally does not relate back unless it corrects a misnomer or the new party shares an identity of interest with an original party and is not prejudiced.",
+          "tip": "Denying leave is an abuse of discretion unless the privilege to amend has been abused, the amendment would be futile, or it would prejudice the opposing party.",
+          "authority": "Fla. R. Civ. P. 1.190(a), (c)"
+        },
+        {
+          "id": "fl-civil-procedure.pleadings-and-motions.punitive-damages",
+          "title": "Pleading punitive damages",
+          "weight": 3,
+          "rule": "A complaint may not include a claim for punitive damages until the court grants leave to amend on a reasonable showing, by evidence in the record or evidence proffered by the claimant, that provides a reasonable basis for recovering such damages. No discovery of the defendant's financial worth may proceed until the punitive damages pleading is permitted.",
+          "elements": [
+            "A motion for leave to amend, which may be filed before the supporting evidence or proffer, but both must be served at least 20 days before the hearing (Rule 1.190(f))",
+            "A reasonable evidentiary showing or proffer of a basis for punitive damages",
+            "An order granting leave before any financial-worth discovery",
+            "At trial, clear and convincing evidence that the defendant was personally guilty of intentional misconduct or gross negligence"
+          ],
+          "exceptions": [
+            "An employer or principal is liable for punitive damages based on an employee's or agent's conduct only if it actively and knowingly participated, its officers, directors or managers knowingly condoned, ratified or consented to the conduct, or it engaged in conduct constituting gross negligence that contributed to the loss (§ 768.72(3))."
+          ],
+          "split": "In most jurisdictions a plaintiff may demand punitive damages in the original complaint. Florida adds an evidentiary gatekeeping step. (The Eleventh Circuit has held that the pleading requirement does not apply in federal diversity cases because it conflicts with Federal Rule 8(a)(3).)",
+          "trap": "A punitive damages claim in the original complaint is subject to dismissal or to being stricken, and objections to net-worth discovery should be sustained until leave is granted.",
+          "authority": "Fla. Stat. § 768.72; Fla. R. Civ. P. 1.190(f); Cohen v. Office Depot, Inc., 184 F.3d 1292 (11th Cir. 1999)"
+        },
+        {
+          "id": "fl-civil-procedure.pleadings-and-motions.default",
+          "title": "Default and setting it aside",
+          "weight": 2,
+          "rule": "The clerk may enter a default against a party who has failed to file or serve any document in the action; if the party has filed or served any document, the default must be sought from the court, and the party must be served with notice of the application. A party may plead or otherwise defend at any time before a default is entered. To set aside a default, the movant must show excusable neglect, a meritorious defense, and due diligence in seeking relief after learning of the default; a default final judgment is attacked under Rule 1.540(b).",
+          "tip": "A default admits the well-pleaded allegations of liability but not the amount of unliquidated damages, on which the defaulted party is entitled to notice and an opportunity to be heard.",
+          "authority": "Fla. R. Civ. P. 1.500, 1.540(b)"
+        }
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.sanctions-and-settlement",
+      "title": "Sanctions, proposals for settlement and fees",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida follows the American rule but has two powerful fee-shifting tools that the exam loves: § 57.105 sanctions for unsupported claims and the offer-of-judgment statute, § 768.79, implemented by Rule 1.442. Proposals for settlement are strictly construed, so timing and content defects are the usual issue.",
+      "rules": [
+        {
+          "id": "fl-civil-procedure.sanctions-and-settlement.fee-basics",
+          "title": "Attorney's fees: pleading, timing and reciprocity",
+          "weight": 2,
+          "rule": "Each side bears its own attorney's fees unless a statute, rule, or contract provides otherwise; a party seeking fees under a statute or contract must plead the claim, or it is waived unless the opponent recognized the claim and acquiesced or failed to object. A motion for fees or costs must be served within 30 days after the judgment (including a judgment of dismissal) is filed or a notice of voluntary dismissal is served. When a contract allows fees to one party for enforcing it, the court may also award fees to the other party if that party prevails in any action on the contract, and the prevailing party is the one that prevails on the significant issues.",
+          "exceptions": [
+            "A defendant is the prevailing party for fee purposes when the plaintiff voluntarily dismisses the action (Thornber v. City of Fort Walton Beach)."
+          ],
+          "split": "Without a reciprocity statute, a one-sided contractual fee clause is enforced as written. Florida's § 57.105(7) turns a one-way fee clause into a two-way clause.",
+          "authority": "Fla. Stat. § 57.105(7); Fla. R. Civ. P. 1.525; Stockman v. Downs, 573 So. 2d 835 (Fla. 1991); Moritz v. Hoyt Enters., Inc., 604 So. 2d 807 (Fla. 1992); Thornber v. City of Fort Walton Beach, 568 So. 2d 914 (Fla. 1990)"
+        },
+        {
+          "id": "fl-civil-procedure.sanctions-and-settlement.section-57105",
+          "title": "Sanctions for unsupported claims and defenses (§ 57.105)",
+          "weight": 3,
+          "rule": "The court must award a reasonable attorney's fee, paid in equal amounts by the losing party and the losing party's attorney, on any claim or defense that the party or attorney knew or should have known, when initially presented or at any time before trial, was not supported by the material facts necessary to establish it or would not be supported by the application of then-existing law to those facts. A party's motion must first be served but not filed; it may be filed only if the challenged paper, claim, defense, contention, allegation or denial is not withdrawn or appropriately corrected within 21 days after service.",
+          "exceptions": [
+            "No sanction under the legal-support prong for a claim or defense presented as a good-faith argument to extend, modify or reverse existing law, or to establish new law, with a reasonable expectation of success.",
+            "The attorney is not liable under the factual-support prong if he or she acted in good faith on the client's representations about the material facts.",
+            "Separately, the court may award damages, including fees, when an action was taken primarily for unreasonable delay (§ 57.105(2))."
+          ],
+          "split": "Federal Rule 11 sanctions are discretionary and aimed at deterrence. Section 57.105 fees are mandatory once the required findings are made and are split equally between client and lawyer; the 21-day safe harbor mirrors Rule 11(c)(2).",
+          "trap": "Filing the motion the same day it is served defeats it: the opponent must get the full 21 days to withdraw or correct.",
+          "authority": "Fla. Stat. § 57.105(1)–(4)"
+        },
+        {
+          "id": "fl-civil-procedure.sanctions-and-settlement.proposal-entitlement",
+          "title": "Proposals for settlement: when fees shift",
+          "weight": 3,
+          "rule": "In a civil action for damages, if a defendant's offer is not accepted within 30 days and the judgment is one of no liability or is at least 25% less than the offer, the defendant recovers the reasonable costs and attorney's fees it incurred from the date of the offer. If a plaintiff's demand is not accepted within 30 days and the plaintiff recovers a judgment at least 25% greater than the demand, the plaintiff recovers its costs and fees from the date of the demand. The court may disallow an award if it determines that the offer was not made in good faith.",
+          "exceptions": [
+            "The statute generally does not apply to an action that seeks nonmonetary (equitable) relief in addition to damages (Diamond Aircraft Indus. v. Horowitch)."
+          ],
+          "split": "Federal Rule 68 is available only to a party defending against a claim and shifts only post-offer costs (not fees, unless the underlying fee statute treats fees as costs) when the judgment is not more favorable than the offer. Florida lets either side make a proposal, uses a 25% margin, and shifts attorney's fees.",
+          "tip": "Run the numbers: a defendant's $100,000 offer shifts fees if the plaintiff's judgment is $75,000 or less; a plaintiff's $100,000 demand shifts fees if the judgment is $125,000 or more.",
+          "authority": "Fla. Stat. § 768.79; Diamond Aircraft Indus., Inc. v. Horowitch, 107 So. 3d 362 (Fla. 2013)"
+        },
+        {
+          "id": "fl-civil-procedure.sanctions-and-settlement.proposal-procedure",
+          "title": "Proposals for settlement: timing, content and strict construction",
+          "weight": 3,
+          "rule": "A proposal may be served on a defendant no earlier than 90 days after service of process on that defendant, on a plaintiff no earlier than 90 days after the action was commenced, and on anyone no later than 45 days before the date set for trial or the first day of the trial docket, whichever is earlier. It is deemed rejected unless accepted by written notice delivered within 30 days after service, and it is not filed unless necessary to enforce the rule. Because § 768.79 and Rule 1.442 are in derogation of the common law, they are strictly construed: a proposal that is untimely, ambiguous, or missing required content cannot support a fee award.",
+          "elements": [
+            "In writing and identifying the Florida law under which it is made",
+            "Names the party making it and the party to whom it is made",
+            "Identifies the claim or claims it would resolve",
+            "States that it resolves all damages that would otherwise be awarded in a final judgment",
+            "States with particularity any relevant conditions and all nonmonetary terms",
+            "States the total amount and any amount proposed to settle a punitive damages claim",
+            "States whether it includes attorney's fees and whether fees are part of the legal claim",
+            "Includes a certificate of service",
+            "If joint, states the amount and terms attributable to each party"
+          ],
+          "exceptions": [
+            "A joint proposal made by or to a party alleged to be only vicariously, constructively, derivatively or technically liable need not apportion the amount as to that party (Rule 1.442(c)(4))."
+          ],
+          "tip": "Otherwise, joint proposals must be apportioned so each offeree can evaluate and accept independently (Lamb v. Matetzschk); an unapportioned joint proposal is unenforceable.",
+          "trap": "A proposal that is perfect in content but served too early or too late is invalid; lack of prejudice does not save it.",
+          "authority": "Fla. R. Civ. P. 1.442; Lamb v. Matetzschk, 906 So. 2d 1037 (Fla. 2005)"
+        }
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.discovery",
+      "title": "Discovery",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida discovery looks federal but has its own numbers (30 interrogatories, 30 requests for admission, 45 days for a new defendant) and its own doctrines on work product, expert depositions and sanctions. The amendments effective January 1, 2025 added proportionality, initial disclosures and a duty to supplement, so older materials are out of date on those points.",
+      "rules": [
+        {
+          "id": "fl-civil-procedure.discovery.scope-and-proportionality",
+          "title": "Scope of discovery and proportionality",
+          "weight": 3,
+          "rule": "Parties may obtain discovery of any nonprivileged matter that is relevant to any party's claim or defense and proportional to the needs of the case, and information need not be admissible in evidence to be discoverable. Proportionality, added effective January 1, 2025, weighs considerations such as the importance of the issues, the amount in controversy, the parties' relative access to information and their resources, the importance of the discovery, and whether its burden or expense outweighs its likely benefit. For good cause the court may enter a protective order shielding a party or person from annoyance, embarrassment, oppression, or undue burden or expense.",
+          "split": "Before 2025 Florida permitted discovery of anything relevant to the subject matter of the pending action, without an express proportionality limit. The 2025 amendments adopted the narrower formulation of Federal Rule 26(b)(1).",
+          "authority": "Fla. R. Civ. P. 1.280 (as amended eff. Jan. 1, 2025)"
+        },
+        {
+          "id": "fl-civil-procedure.discovery.initial-disclosures",
+          "title": "Initial disclosures and the duty to supplement (2025)",
+          "weight": 2,
+          "rule": "In cases governed by the amendments effective January 1, 2025, each party must, without awaiting a discovery request, disclose basic information: the people likely to have discoverable information, documents and electronically stored information, a computation of each category of damages claimed, and any insurance agreement that may cover a judgment, generally within 60 days after service of the complaint or joinder. A party must also timely supplement or correct its disclosures and discovery responses when it learns they are incomplete or incorrect.",
+          "split": "Florida previously had no initial-disclosure requirement and expressly imposed no duty to supplement a response that was complete when made. The 2025 amendments moved Florida close to Federal Rules 26(a)(1) and 26(e).",
+          "tip": "Treat older practice questions that assume there is no duty to supplement as outdated.",
+          "authority": "Fla. R. Civ. P. 1.280 (as amended eff. Jan. 1, 2025)"
+        },
+        {
+          "id": "fl-civil-procedure.discovery.work-product",
+          "title": "Work product and trial materials",
+          "weight": 3,
+          "rule": "Documents and tangible things prepared in anticipation of litigation by or for a party or its representative are discoverable only if the requesting party shows need and that it cannot obtain the substantial equivalent without undue hardship, and the court must protect against disclosure of mental impressions, conclusions, opinions and legal theories. Once a party reasonably expects or intends to use work-product material at trial, including surveillance video or other material intended for impeachment, the protection ends and the material must be disclosed before trial.",
+          "exceptions": [
+            "A party may obtain a copy of its own prior statement about the action without any special showing."
+          ],
+          "trap": "Assuming a defendant can hold back surveillance footage to ambush the plaintiff at trial; if it will be used, it must be disclosed.",
+          "authority": "Fla. R. Civ. P. 1.280; Dodson v. Persell, 390 So. 2d 704 (Fla. 1980); Northup v. Acken, 865 So. 2d 1267 (Fla. 2004)"
+        },
+        {
+          "id": "fl-civil-procedure.discovery.interrogatories-and-production",
+          "title": "Interrogatories and requests for production",
+          "weight": 2,
+          "rule": "Interrogatories may not exceed 30, including all subparts, without leave of court for good cause; when the Supreme Court has approved form interrogatories for the type of action, the initial set must be taken from the form, and added questions count toward the 30. Answers to interrogatories and responses to requests for production are due within 30 days after service, except that a defendant need not respond until 45 days after service of the process and initial pleading on it.",
+          "exceptions": [
+            "To obtain documents from a nonparty without a deposition (Rule 1.351), a party must notify every other party of its intent to serve a subpoena at least 10 days before the subpoena issues (15 days if notice is served by mail); an objection by any party prevents issuance until the court rules."
+          ],
+          "split": "Federal Rule 33 allows 25 interrogatories and has no mandatory form sets; Florida allows 30 and requires approved forms where they exist.",
+          "authority": "Fla. R. Civ. P. 1.340, 1.350, 1.351"
+        },
+        {
+          "id": "fl-civil-procedure.discovery.requests-for-admission",
+          "title": "Requests for admission",
+          "weight": 3,
+          "rule": "A matter is admitted unless the responding party serves a written answer or objection within 30 days after service of the request (a defendant need not respond before 45 days after service of process on it), and requests are limited to 30, including subparts, absent leave of court. An admission is conclusively established unless the court permits withdrawal or amendment, which it may allow when presentation of the merits will be served and the party who obtained the admission fails to show that withdrawal would prejudice it in maintaining its action or defense.",
+          "exceptions": [
+            "If a party fails to admit a matter that the requesting party later proves, the court may order the party to pay the reasonable expenses of that proof, including fees, unless the request was objectionable, the admission sought was of no substantial importance, the party had reasonable ground to believe it might prevail, or there was other good reason (Rule 1.380(c))."
+          ],
+          "split": "Federal Rule 36 sets no numerical limit; Florida caps requests for admission at 30.",
+          "tip": "Florida courts are reluctant to decide cases on technical, deemed admissions when the record shows the matters were genuinely disputed. The prejudice that counts is difficulty proving the case caused by the change, not simply losing the benefit of the admission.",
+          "authority": "Fla. R. Civ. P. 1.370, 1.380(c)"
+        },
+        {
+          "id": "fl-civil-procedure.discovery.depositions",
+          "title": "Depositions and their use at trial",
+          "weight": 3,
+          "rule": "The plaintiff needs leave of court to take a deposition within 30 days after service of process and the initial pleading on any defendant, unless that defendant has noticed a deposition or otherwise sought discovery. At trial an adverse party may use the deposition of a party, or of a party's officer, director, managing agent or designee, for any purpose; and any party may use any witness's deposition for any purpose if the court finds the witness is dead, more than 100 miles from the place of trial or out of state (unless the offering party procured the absence), unable to attend because of age, illness, infirmity or imprisonment, unobtainable by subpoena, or an expert or skilled witness.",
+          "split": "Federal Rule 32(a)(4) has no expert-witness category, so a federal litigant must show the expert is unavailable. Florida lets any party use an expert's deposition at trial without showing unavailability.",
+          "trap": "Objecting that the expert works across town and could be subpoenaed. Under Rule 1.330(a)(3)(F) that does not matter.",
+          "authority": "Fla. R. Civ. P. 1.310(a), 1.330(a)"
+        },
+        {
+          "id": "fl-civil-procedure.discovery.examinations",
+          "title": "Physical and mental examinations",
+          "weight": 2,
+          "rule": "When the condition of a party (or of a person in a party's custody or legal control) is in controversy, another party may obtain an examination by a qualified expert by serving a request, with no court order needed to start the process, that specifies a reasonable time, place, manner, conditions and scope and names the examiner. The requesting party must have good cause, and if the request is contested it bears the burden of showing that the condition is in controversy and that good cause exists.",
+          "split": "Federal Rule 35 requires a court order on motion for good cause. Florida lets the examination begin by request, while keeping the in-controversy and good-cause limits.",
+          "authority": "Fla. R. Civ. P. 1.360"
+        },
+        {
+          "id": "fl-civil-procedure.discovery.sanctions",
+          "title": "Motions to compel and discovery sanctions",
+          "weight": 3,
+          "rule": "When a motion to compel is granted, the court must award the movant its reasonable expenses, including attorney's fees, unless the opposition was substantially justified or other circumstances make an award unjust. Sanctions for disobeying a discovery order range from fees and orders establishing facts to striking pleadings, dismissal or default, but the severe sanctions require an express finding that the noncompliance was willful or deliberate rather than the product of neglect or inability. Before dismissing a case because of the attorney's misconduct, the court must weigh the Kozel factors.",
+          "elements": [
+            "Whether the attorney's disobedience was willful, deliberate or contumacious rather than a matter of neglect or inexperience",
+            "Whether the attorney has been sanctioned before",
+            "Whether the client was personally involved in the misconduct",
+            "Whether the delay prejudiced the opposing party through undue expense, loss of evidence or otherwise",
+            "Whether the attorney offered a reasonable justification for the noncompliance",
+            "Whether the delay created significant problems of judicial administration"
+          ],
+          "tip": "Dismissal or default is the most severe sanction and is reserved for extreme cases; a good answer discusses lesser alternatives first.",
+          "authority": "Fla. R. Civ. P. 1.380; Mercer v. Raine, 443 So. 2d 944 (Fla. 1983); Kozel v. Ostendorf, 629 So. 2d 817 (Fla. 1993)"
+        }
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.summary-judgment-and-trial",
+      "title": "Summary judgment, trial and post-trial motions",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Since May 1, 2021 Florida applies the federal summary judgment standard, so the old 'slightest doubt' rule is a trap. Trial and post-trial practice has shorter Florida deadlines (10 days to demand a jury, 15 days for post-trial motions), Florida-specific remittitur and additur, and a Rule 1.540 that lacks the federal catch-all.",
+      "rules": [
+        {
+          "id": "fl-civil-procedure.summary-judgment-and-trial.summary-judgment-standard",
+          "title": "Summary judgment: the federal standard",
+          "weight": 3,
+          "rule": "The court must grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and that the movant is entitled to judgment as a matter of law, and the rule must be construed and applied in accordance with the federal summary judgment standard for motions decided on or after May 1, 2021. The court must state on the record its reasons for granting or denying the motion.",
+          "split": "Florida's old standard (Holl v. Talcott) required the movant to conclusively disprove the nonmovant's theory and denied summary judgment if the 'slightest doubt' remained. That standard is gone; Florida now follows the Celotex/Anderson/Matsushita standard tested on the MBE.",
+          "tip": "A movant that will not bear the burden of proof at trial can win by showing the absence of evidence on an essential element; the nonmovant must then point to record evidence from which a reasonable jury could find in its favor. The inquiry mirrors the directed-verdict standard.",
+          "trap": "Choosing an answer that denies summary judgment because the complaint alleges the disputed fact, or because some doubt about the facts remains.",
+          "authority": "Fla. R. Civ. P. 1.510(a); In re Amends. to Fla. Rule of Civ. Proc. 1.510, 317 So. 3d 72 (Fla. 2021)"
+        },
+        {
+          "id": "fl-civil-procedure.summary-judgment-and-trial.summary-judgment-procedure",
+          "title": "Summary judgment: supporting factual positions",
+          "weight": 2,
+          "rule": "A party asserting that a fact cannot be, or is, genuinely disputed must cite particular materials in the record, such as depositions, documents, electronically stored information, affidavits or declarations, stipulations, admissions or interrogatory answers, or show that the materials cited do not establish the presence or absence of a genuine dispute. Supporting affidavits or declarations must be made on personal knowledge, set out facts that would be admissible in evidence, and show that the declarant is competent to testify. The movant serves its supporting factual position with the motion, and the nonmovant must serve a response containing its own supporting factual position within the deadline the rule sets (the timing provisions were revised effective January 1, 2025).",
+          "tip": "The court need consider only the cited materials, though it may consider other materials in the record.",
+          "authority": "Fla. R. Civ. P. 1.510(b)–(c)"
+        },
+        {
+          "id": "fl-civil-procedure.summary-judgment-and-trial.case-management",
+          "title": "Case management orders and continuances (2025)",
+          "weight": 2,
+          "rule": "Under the amendments effective January 1, 2025, the court must issue a case management order in most civil actions that sets deadlines for the key stages of the case and a projected trial period, and the parties must comply with those deadlines unless the court modifies them for good cause. Continuances of trial are disfavored: a motion to continue must be in writing, state specific reasons, and show good cause, and a lack of diligence in preparing for trial is not good cause.",
+          "tip": "Expect questions to reward the party that met case-management deadlines and to treat extensions as the exception.",
+          "authority": "Fla. R. Civ. P. 1.200, 1.460 (as amended eff. Jan. 1, 2025)"
+        },
+        {
+          "id": "fl-civil-procedure.summary-judgment-and-trial.jury-trial",
+          "title": "Jury trial demand",
+          "weight": 2,
+          "rule": "The right of trial by jury 'shall be secure to all and remain inviolate' for issues triable of right by a jury, but a party must serve a written demand no later than 10 days after service of the last pleading directed to the issue, or the right is waived. Florida civil juries have six members, and there is no jury right on purely equitable claims.",
+          "split": "Federal Rule 38(b) allows 14 days after service of the last pleading directed to the issue; Florida allows 10.",
+          "authority": "Art. I, § 22, Fla. Const.; Fla. R. Civ. P. 1.430"
+        },
+        {
+          "id": "fl-civil-procedure.summary-judgment-and-trial.directed-verdict-and-new-trial",
+          "title": "Directed verdict, new trial and rehearing",
+          "weight": 3,
+          "rule": "A motion for directed verdict may be made at the close of the opposing party's evidence and should be granted only if, viewing the evidence and all reasonable inferences in the light most favorable to the nonmovant, no reasonable jury could find for that party. Within 15 days after the verdict, a party who moved for a directed verdict may move to set aside the verdict and enter judgment in accordance with that motion; a motion for new trial (or, in a nonjury case, for rehearing) must be served within 15 days after the verdict or the filing of the judgment, and the court may order a new trial on its own initiative within the same period.",
+          "split": "Federal Rules 50(b) and 59 allow 28 days; Florida allows 15. Florida also still calls the motion a 'directed verdict' rather than a motion for judgment as a matter of law.",
+          "trap": "The trial court cannot extend the time for a motion for new trial, rehearing, or to alter or amend a judgment, a motion for relief under Rule 1.540(b), a motion for directed verdict, or the time to appeal (Rule 1.090(b)).",
+          "authority": "Fla. R. Civ. P. 1.090(b), 1.480, 1.530"
+        },
+        {
+          "id": "fl-civil-procedure.summary-judgment-and-trial.remittitur-and-additur",
+          "title": "Remittitur and additur",
+          "weight": 2,
+          "rule": "In negligence actions for personal injury or wrongful death, the trial court, on proper motion, must review the award and, if it is clearly excessive or inadequate in light of the facts and circumstances presented to the trier of fact, order a remittitur or additur. A party adversely affected may reject it and elect a new trial on damages only.",
+          "elements": [
+            "Whether the amount indicates that prejudice, passion or corruption influenced the trier of fact",
+            "Whether the trier of fact ignored the evidence or misconceived the merits",
+            "Whether the trier of fact took improper elements of damages into account or arrived at the amount by speculation and conjecture",
+            "Whether the amount bears a reasonable relation to the damages proved and the injuries suffered",
+            "Whether the amount is supported by the evidence and could be reached in a logical manner by reasonable persons"
+          ],
+          "split": "Additur is unavailable in federal court because of the Seventh Amendment (Dimick v. Schiedt), which does not govern state civil trials. Florida authorizes both remittitur and additur by statute.",
+          "authority": "Fla. Stat. § 768.74"
+        },
+        {
+          "id": "fl-civil-procedure.summary-judgment-and-trial.relief-from-judgment",
+          "title": "Relief from judgment (Rule 1.540)",
+          "weight": 3,
+          "rule": "Clerical mistakes may be corrected at any time. On motion, the court may relieve a party from a final judgment, decree, order or proceeding for (1) mistake, inadvertence, surprise or excusable neglect; (2) newly discovered evidence that by due diligence could not have been discovered in time to move for a new trial or rehearing; (3) fraud (intrinsic or extrinsic), misrepresentation or other misconduct of an adverse party; (4) a void judgment; or (5) a judgment that has been satisfied, released or discharged, whose underlying judgment was reversed, or that is no longer equitable to apply prospectively. The motion must be filed within a reasonable time, and for grounds (1) through (3) not more than 1 year after the judgment or order was entered.",
+          "exceptions": [
+            "A void judgment, such as one entered without valid service of process, may be attacked at any time.",
+            "The rule does not limit an independent action for relief or the court's power to set aside a judgment for fraud on the court."
+          ],
+          "split": "Federal Rule 60(b)(6) has a catch-all for 'any other reason that justifies relief.' Florida's rule has no catch-all.",
+          "trap": "A Rule 1.540 motion does not affect the finality of the judgment and does not toll the time to appeal it.",
+          "authority": "Fla. R. Civ. P. 1.540"
+        }
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.dismissal-and-class",
+      "title": "Dismissal, failure to prosecute and class actions",
+      "weight": 2,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida's voluntary-dismissal window is much wider than the federal one, and its two-dismissal rule counts a prior dismissal in any court. Failure to prosecute uses a 10-month inactivity period followed by notice and a 60-day grace period; class actions track Federal Rule 23 with extra Florida pleading requirements.",
+      "rules": [
+        {
+          "id": "fl-civil-procedure.dismissal-and-class.voluntary-dismissal",
+          "title": "Voluntary dismissal and the two-dismissal rule",
+          "weight": 3,
+          "rule": "Without a court order, a plaintiff may dismiss an action or claim by serving or filing a notice of dismissal at any time before a hearing on a motion for summary judgment or, if none is served or the motion is denied, before the jury retires in a jury trial or before a nonjury case is submitted to the court for decision; all current parties may also stipulate to dismissal. Unless the notice or stipulation says otherwise, the dismissal is without prejudice, but a notice of dismissal operates as an adjudication on the merits when served by a plaintiff who has once dismissed in any court an action based on or including the same claim.",
+          "exceptions": [
+            "Not available without a court order in actions in which property has been seized or is in the custody of the court.",
+            "If the plaintiff refiles a previously dismissed claim against the same adverse party, the court must order payment of the costs of the earlier action and may stay the new action until they are paid (Rule 1.420(d))."
+          ],
+          "split": "Federal Rule 41(a)(1)(A)(i) allows dismissal by notice only before the opposing party serves an answer or a motion for summary judgment. Florida's window stays open far longer: until a summary judgment hearing or until the case goes to the factfinder.",
+          "tip": "A notice of voluntary dismissal is self-executing and ends the court's jurisdiction over the dismissed claims; the trial court cannot reinstate them (absent fraud on the court), though it keeps jurisdiction to award costs and fees.",
+          "authority": "Fla. R. Civ. P. 1.420(a), (d); Randle-Eastern Ambulance Serv., Inc. v. Vasta, 360 So. 2d 68 (Fla. 1978)"
+        },
+        {
+          "id": "fl-civil-procedure.dismissal-and-class.involuntary-dismissal",
+          "title": "Involuntary dismissal",
+          "weight": 2,
+          "rule": "A party may move to dismiss an action or claim against it for an adverse party's failure to comply with the rules or a court order, and in a nonjury trial, after the plaintiff rests, on the ground that on the facts and the law the plaintiff has shown no right to relief. Unless the court specifies otherwise, an involuntary dismissal, other than one for lack of jurisdiction, improper venue or lack of an indispensable party, operates as an adjudication on the merits.",
+          "tip": "In a jury trial the parallel motion at the close of the plaintiff's case is a motion for directed verdict.",
+          "authority": "Fla. R. Civ. P. 1.420(b)"
+        },
+        {
+          "id": "fl-civil-procedure.dismissal-and-class.failure-to-prosecute",
+          "title": "Dismissal for lack of prosecution",
+          "weight": 3,
+          "rule": "If the record shows no activity, by filing of pleadings, order of court or otherwise, for 10 months, and no stay is in effect, any interested person, the court or the clerk may serve notice on all parties that no activity has occurred. If no record activity occurs within the 60 days after that notice, and no stay is issued or approved during that period, the court must dismiss the action, unless a party shows good cause in writing at least 5 days before the hearing why the action should remain pending.",
+          "trap": "Off-the-record activity such as settlement talks or letters between counsel is not record activity; and after notice is served, only record activity within the 60-day window (or a written good-cause showing) saves the case.",
+          "tip": "Mere inactivity never justifies dismissal by itself: the notice and the 60-day grace period must come first.",
+          "authority": "Fla. R. Civ. P. 1.420(e)"
+        },
+        {
+          "id": "fl-civil-procedure.dismissal-and-class.class-actions",
+          "title": "Class actions",
+          "weight": 2,
+          "rule": "A claim may be maintained on behalf of a class only if the court finds numerosity (separate joinder impracticable), commonality, typicality and adequacy of representation, plus one of Rule 1.220(b)'s categories: separate actions would risk inconsistent adjudications or impair absent members' interests; the opposing party acted or refused to act on grounds generally applicable to the class, making class-wide injunctive or declaratory relief appropriate; or common questions predominate and class treatment is superior. A class pleading must carry the designation 'Class Representation' and set out, under a separate heading, specific allegations supporting each requirement, and the court decides certification by order after a hearing.",
+          "split": "The criteria track Federal Rule 23, and Florida courts look to federal decisions in applying them. But Florida imposes specific pleading requirements in Rule 1.220(c), and an order on class certification is appealable as of right under Fla. R. App. P. 9.130 (compare the discretionary federal Rule 23(f) petition).",
+          "authority": "Fla. R. Civ. P. 1.220; Fla. R. App. P. 9.130(a)(3)"
+        }
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.judicial-administration-and-appeals",
+      "title": "Judicial administration, time and appeals",
+      "weight": 2,
+      "exams": [
+        "FL"
+      ],
+      "intro": "The Florida Rules of General Practice and Judicial Administration (so named since 2021) govern computing time, e-filing and e-service, and disqualification of judges. Appellate questions focus on the 30-day jurisdictional deadline, what delays rendition, which nonfinal orders are appealable, and certiorari.",
+      "rules": [
+        {
+          "id": "fl-civil-procedure.judicial-administration-and-appeals.computing-time",
+          "title": "Computing time (Rule 2.514)",
+          "weight": 3,
+          "rule": "For a period stated in days or a longer unit, begin counting from the next day that is not a Saturday, Sunday or legal holiday; count every day after that, including intermediate weekends and holidays; and include the last day, but if it falls on a Saturday, Sunday or legal holiday (or within a period extended by order of the chief justice), the period runs until the end of the next day that is not. When service is made by mail, 5 days are added; no extra days are added for e-mail service.",
+          "split": "Federal Rule 6(a) excludes the trigger day and counts the very next calendar day as day one. Florida does not start counting until the next day that is not a weekend or holiday, so a Friday trigger starts the count on Monday.",
+          "tip": "Compute carefully when the trigger falls before a weekend; Florida's start rule can add two or three days compared with a federal count.",
+          "authority": "Fla. R. Gen. Prac. & Jud. Admin. 2.514"
+        },
+        {
+          "id": "fl-civil-procedure.judicial-administration-and-appeals.e-filing-and-service",
+          "title": "E-filing and service of documents",
+          "weight": 2,
+          "rule": "Attorneys must file documents electronically through the statewide e-filing portal and must serve documents on other parties by e-mail (service through the portal satisfies this), designating a primary e-mail address and up to two secondary addresses; e-mail service is complete when sent. A party without counsel who has not designated an e-mail address is served by mail or hand delivery. These rules govern documents served after the initial process; original process is still served under Chapter 48.",
+          "authority": "Fla. R. Gen. Prac. & Jud. Admin. 2.516, 2.525"
+        },
+        {
+          "id": "fl-civil-procedure.judicial-administration-and-appeals.disqualification",
+          "title": "Disqualifying a trial judge",
+          "weight": 3,
+          "rule": "A party may move to disqualify a trial judge by a written motion, sworn to by the party, that alleges specific facts showing the party fears it will not receive a fair trial or hearing because of the judge's prejudice or bias (or another ground provided by rule or statute), accompanied by counsel's certificate of good faith and filed within a reasonable time not to exceed 20 days after the grounds are discovered. The judge against whom an initial motion is directed decides only whether it is legally sufficient (whether the facts alleged would place a reasonably prudent person in fear of not receiving a fair and impartial trial) and may not pass on the truth of the allegations; if the motion is sufficient, the judge must immediately disqualify. A motion not ruled on within 30 days after service is deemed granted.",
+          "exceptions": [
+            "A successor judge facing a successive motion by the same party may rule on the truth of the facts alleged and is not disqualified unless he or she rules that he or she is in fact not fair or impartial."
+          ],
+          "trap": "A judge who holds an evidentiary hearing, takes testimony, or disputes the allegations in the order has passed on their truth and thereby committed error.",
+          "authority": "Fla. R. Gen. Prac. & Jud. Admin. 2.330; Fla. Stat. § 38.10"
+        },
+        {
+          "id": "fl-civil-procedure.judicial-administration-and-appeals.final-appeals",
+          "title": "Final orders, rendition and the notice of appeal",
+          "weight": 3,
+          "rule": "Appellate jurisdiction is invoked by filing a notice of appeal with the clerk of the lower tribunal within 30 days of rendition of the order; the deadline is jurisdictional and cannot be extended. An order is rendered when a signed, written order is filed with the clerk, but a timely and authorized motion (such as a motion for new trial, for rehearing, to alter or amend, or for judgment in accordance with a prior directed-verdict motion) postpones rendition until the signed order disposing of the last such motion is filed. An order is final when it ends judicial labor in the case so that nothing remains but enforcement; an order that merely grants a motion for summary judgment, without entering judgment, is not final.",
+          "trap": "A Rule 1.540 motion for relief from judgment, or an unauthorized motion for rehearing of a nonfinal order, does not postpone rendition. The order disposing of a 1.540 motion is separately appealable, but that appeal does not reach the merits of the underlying judgment.",
+          "authority": "Fla. R. App. P. 9.020, 9.110(b)"
+        },
+        {
+          "id": "fl-civil-procedure.judicial-administration-and-appeals.nonfinal-orders",
+          "title": "Appealable nonfinal orders and partial final judgments",
+          "weight": 2,
+          "rule": "Only the nonfinal orders listed in Rule 9.130 may be appealed before final judgment (notice due within 30 days of rendition), including orders that concern venue; grant, continue, modify, deny or dissolve injunctions; or determine personal jurisdiction, the right to immediate possession of property, entitlement to arbitration, whether to certify a class, forum non conveniens, or certain immunity issues. A partial final judgment that disposes of a separate and distinct cause of action, or that ends the case as to a party, is appealable, and one that totally disposes of the case as to a party must be appealed within 30 days of rendition.",
+          "split": "Federal interlocutory appeals are limited mainly to injunction orders (28 U.S.C. § 1292(a)) and certified questions (§ 1292(b)). Florida's Rule 9.130 lists many more nonfinal orders appealable as of right, such as orders on personal jurisdiction and venue.",
+          "authority": "Fla. R. App. P. 9.110(k), 9.130(a)(3)"
+        },
+        {
+          "id": "fl-civil-procedure.judicial-administration-and-appeals.certiorari",
+          "title": "Certiorari review of nonfinal orders",
+          "weight": 2,
+          "rule": "A nonfinal order not listed in Rule 9.130 may be reviewed only by petition for writ of certiorari, filed within 30 days of rendition, and the petitioner must show (1) a departure from the essential requirements of law (2) resulting in material injury for the rest of the case (3) that cannot be corrected on post-judgment appeal. The irreparable-harm elements are jurisdictional, so the court examines them first.",
+          "tip": "Orders compelling disclosure of privileged or work-product material are classic certiorari candidates because the harm cannot be undone; orders denying discovery usually are not, because the error can be fixed on appeal.",
+          "authority": "Fla. R. App. P. 9.030, 9.100"
+        },
+        {
+          "id": "fl-civil-procedure.judicial-administration-and-appeals.review-principles",
+          "title": "Preservation, tipsy coachman and harmless error",
+          "weight": 2,
+          "rule": "To preserve an issue, a party must make a timely and specific objection or motion in the trial court, unless the error is fundamental. Under the 'tipsy coachman' doctrine, an appellate court affirms a ruling that reached the right result for the wrong reason if any basis supported by the record sustains it. In civil appeals, the beneficiary of an error must show there is no reasonable possibility that the error contributed to the verdict; otherwise the judgment is reversed.",
+          "split": "Federal harmless-error review asks whether the error affected a party's substantial rights, and the party seeking reversal ordinarily bears the burden of showing harm. Florida's Special test places the burden on the party that benefited from the error.",
+          "authority": "Fla. Stat. § 59.041; Dade Cnty. Sch. Bd. v. Radio Station WQBA, 731 So. 2d 638 (Fla. 1999); Special v. W. Boca Med. Ctr., 160 So. 3d 1251 (Fla. 2014)"
+        }
+      ]
+    }
+  ]
+}

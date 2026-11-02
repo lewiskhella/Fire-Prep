@@ -1,0 +1,366 @@
+{
+  "subject": "fl-constitutional-law",
+  "questions": [
+    {
+      "id": "fl-constitutional-law.q001",
+      "topic": "fl-constitutional-law.declaration-of-rights",
+      "rules": [
+        "fl-constitutional-law.declaration-of-rights.privacy"
+      ],
+      "difficulty": 1,
+      "stem": "Coastline Logistics, a privately owned Florida company with no government contracts or funding, adopted a policy requiring all warehouse employees to submit to random drug testing by urinalysis. Rafael Ibarra, a warehouse employee, refused to be tested and was fired. He sued Coastline in state court, claiming that the testing policy violated his right of privacy under Article I, Section 23 of the Florida Constitution because Coastline could not show a compelling interest pursued by the least intrusive means.",
+      "call": "Is Ibarra likely to prevail on his constitutional claim?",
+      "choices": [
+        "Yes, because the Florida privacy clause, unlike the federal Constitution, applies to any intrusion into a person's private life.",
+        "Yes, because urine testing intrudes on a legitimate expectation of privacy and Coastline cannot satisfy strict scrutiny.",
+        "No, because Article I, Section 23 protects only against governmental intrusion, and Coastline is a private employer.",
+        "No, because the Florida privacy clause must be construed in conformity with the Fourth Amendment."
+      ],
+      "answer": 2,
+      "explanation": "Section 23 guarantees every natural person the right to be let alone and free from governmental intrusion into private life. It restrains only government action. Coastline is a private company acting without government involvement, so the clause does not apply and the strict-scrutiny analysis is never reached; any remedy would have to come from statute or contract.",
+      "whyNot": [
+        "The clause applies stricter scrutiny than federal privacy doctrine, but it still reaches only governmental intrusion.",
+        "Strict scrutiny applies only once there is a governmental intrusion; a private employer's policy does not trigger § 23.",
+        "",
+        "The conformity requirement belongs to the search-and-seizure clause (§ 12), not the privacy clause. Ibarra loses because there is no state action."
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.q002",
+      "topic": "fl-constitutional-law.declaration-of-rights",
+      "rules": [
+        "fl-constitutional-law.declaration-of-rights.search-and-seizure",
+        "fl-constitutional-law.declaration-of-rights.privacy"
+      ],
+      "difficulty": 2,
+      "stem": "Florida police obtained a warrant to search Celia Navarro's home for stolen jewelry. A reviewing court later concluded that the supporting affidavit fell just short of probable cause, but the officers relied on the warrant in objective good faith, and under U.S. Supreme Court precedent the good-faith exception would make the jewelry admissible. Navarro moved to suppress, arguing that the Florida Constitution's search-and-seizure clause, read together with Florida's express right of privacy, gives her greater protection than the Fourth Amendment and that Florida courts should reject the good-faith exception.",
+      "call": "How should the court rule on the motion to suppress?",
+      "choices": [
+        "Deny it, because Florida's search-and-seizure clause must be construed in conformity with the Fourth Amendment as interpreted by the U.S. Supreme Court, and the privacy clause does not expand it.",
+        "Grant it, because Florida's express right of privacy requires the State to show a compelling interest and the least intrusive means for any search of a home.",
+        "Grant it, because a state court may always read its own constitution to give more protection than the federal Constitution.",
+        "Deny it, but only because Navarro had no legitimate expectation of privacy in stolen property."
+      ],
+      "answer": 0,
+      "explanation": "Article I, § 12 must be construed in conformity with the Fourth Amendment as interpreted by the U.S. Supreme Court, and it excludes evidence only if the evidence would be inadmissible under those decisions. Because the jewelry is admissible under the federal good-faith exception, it is admissible in Florida. The § 23 privacy clause does not enlarge § 12 protection in the criminal search-and-seizure context.",
+      "whyNot": [
+        "",
+        "The privacy clause does not override the conformity clause in criminal search-and-seizure cases; § 12 controls.",
+        "That is true in many states, but Florida's 1982 conformity amendment forbids Florida courts to expand search-and-seizure protection beyond federal law.",
+        "The result is right but the reasoning is not: Navarro had a privacy interest in her home. The evidence comes in because of the conformity clause and the good-faith exception."
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.q003",
+      "topic": "fl-constitutional-law.declaration-of-rights",
+      "rules": [
+        "fl-constitutional-law.declaration-of-rights.access-to-courts"
+      ],
+      "difficulty": 2,
+      "stem": "In 2026 the Legislature enacted a statute providing that no person may bring an action for personal injury against a licensed home inspector for negligence in performing an inspection. The statute creates no substitute remedy, such as a compensation fund. Its legislative findings state that rising liability insurance premiums are driving inspectors out of business. A home buyer who was hurt when a deck collapsed, after an inspector negligently reported it sound, sued the inspector for negligence. Negligence actions of this kind were recognized at common law long before 1968.",
+      "call": "Is the statute likely constitutional as applied to the buyer's claim?",
+      "choices": [
+        "Yes, because the Legislature may abolish any common-law cause of action if it has a rational basis for doing so.",
+        "Yes, because the statute regulates an occupation, a matter committed to the Legislature's police power.",
+        "No, because the right to jury trial forbids the Legislature to limit any common-law claim.",
+        "No, unless the Legislature can show an overpowering public necessity for abolishing the claim and that no alternative method of meeting that necessity exists."
+      ],
+      "answer": 3,
+      "explanation": "Under Kluger v. White, when a right of access to the courts for a particular injury existed at common law or by statute when the 1968 Declaration of Rights was adopted, the Legislature may not abolish it without providing a reasonable alternative remedy, unless it shows an overpowering public necessity for abolishing the right and that no alternative method of meeting that necessity exists. This statute abolishes a pre-1968 common-law negligence claim and provides no alternative, so it is unconstitutional unless that demanding showing is made.",
+      "whyNot": [
+        "A rational basis is not enough. Kluger requires a reasonable alternative remedy or an overpowering public necessity with no alternative means.",
+        "The power to regulate occupations does not override the access-to-courts guarantee; abolishing an existing remedy triggers the Kluger test.",
+        "The jury-trial guarantee does not bar every limitation on common-law claims; the controlling limit here is the access-to-courts clause and the Kluger test.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.q004",
+      "topic": "fl-constitutional-law.declaration-of-rights",
+      "rules": [
+        "fl-constitutional-law.declaration-of-rights.public-records-and-meetings"
+      ],
+      "difficulty": 3,
+      "stem": "The Legislature created a new state agency to recruit businesses to Florida. In the same bill, which passed 70 to 48 in the House and 22 to 17 in the Senate, it provided that 'all records of the agency are confidential and exempt from public inspection.' The bill contains no statement explaining why the exemption is needed. A newspaper asked to inspect the agency's travel and expense records, and the agency refused, citing the exemption.",
+      "call": "Is the agency entitled to withhold the records under the exemption?",
+      "choices": [
+        "Yes, because the Legislature has plenary power to decide which of its agencies' records are public.",
+        "No, because an exemption must be enacted by a two-thirds vote of each house in a law that states with specificity the public necessity justifying it and is no broader than necessary.",
+        "Yes, because the constitutional right of access applies only to the records of counties and municipalities.",
+        "No, because the Florida Constitution forbids any exemption for the records of executive-branch agencies."
+      ],
+      "answer": 1,
+      "explanation": "Article I, § 24(a) gives every person the right to inspect or copy public records of all branches of state government and of local governments. Under § 24(c), the Legislature may create exemptions only by general law passed by a two-thirds vote of each house that states with specificity the public necessity justifying the exemption, is no broader than necessary, and contains only exemptions and enforcement provisions relating to one subject. This exemption passed by less than two-thirds in each house, states no necessity, sweeps in every agency record, and was bundled with the law creating the agency.",
+      "whyNot": [
+        "The constitution, not legislative discretion, defines the right of access, and it limits how the Legislature may create exemptions.",
+        "",
+        "The right of access covers records of the legislative, executive and judicial branches of state government as well as local governments.",
+        "Exemptions are allowed if they meet § 24(c)'s requirements; the problem is that this one does not."
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.q005",
+      "topic": "fl-constitutional-law.declaration-of-rights",
+      "rules": [
+        "fl-constitutional-law.declaration-of-rights.public-records-and-meetings"
+      ],
+      "difficulty": 1,
+      "stem": "The seven-member city commission of Palm Hollow is scheduled to vote next month on a developer's application to rezone a waterfront parcel. Two commissioners met for lunch at a private club, with no notice to the public, and spent an hour discussing whether the rezoning should be approved and what conditions to impose. They took no vote and did not purport to bind the commission. A resident who learned of the lunch claims it violated Florida's open-meetings requirements.",
+      "call": "Did the lunch discussion violate Florida's open-meetings requirements?",
+      "choices": [
+        "No, because no formal action or vote was taken at the lunch.",
+        "No, because two members of a seven-member commission are less than a quorum.",
+        "Yes, because two or more members of the commission discussed a matter that would foreseeably come before the commission for action.",
+        "No, because the open-meetings requirement applies to state agencies but not to municipal bodies."
+      ],
+      "answer": 2,
+      "explanation": "Article I, § 24(b) requires that meetings of collegial public bodies of counties, municipalities, school districts and special districts at which public business is discussed be open and noticed, and the Sunshine Law (§ 286.011) implements that requirement. A covered meeting occurs whenever two or more members of the same board discuss a matter that will foreseeably come before the board for action. No quorum or vote is required.",
+      "whyNot": [
+        "The requirement covers discussion of public business, not just formal votes.",
+        "No quorum is needed; any two members of the same board discussing foreseeable board business trigger the requirement.",
+        "",
+        "Section 24(b) expressly covers collegial bodies of municipalities, and the Sunshine Law applies to municipal boards."
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.q006",
+      "topic": "fl-constitutional-law.legislature",
+      "rules": [
+        "fl-constitutional-law.legislature.single-subject"
+      ],
+      "difficulty": 2,
+      "stem": "In its 2026 session the Legislature passed a bill titled 'An act relating to boating safety.' Most sections set new requirements for life jackets, navigation lights and boater education. One section, however, amended the adoption statutes to change when a birth parent's consent to adoption becomes irrevocable. The governor signed the bill, and it took effect July 1, 2026. Later that year, before the Legislature had adopted a new edition of the Florida Statutes reenacting the law, a birth mother challenged the adoption provision as unconstitutional.",
+      "call": "Is the birth mother's challenge likely to succeed?",
+      "choices": [
+        "Yes, because the adoption provision has no natural or logical connection to boating safety, and its subject is not expressed in the title.",
+        "No, because the single-subject rule applies only to citizen initiatives, not to legislation.",
+        "No, because the governor's signature cured any defect in the bill.",
+        "Yes, but only if she shows that the Legislature acted in bad faith in combining the provisions."
+      ],
+      "answer": 0,
+      "explanation": "Article III, § 6 requires every law to embrace but one subject and matter properly connected with it, with the subject briefly expressed in the title. Adoption consent has no natural or logical connection to boating safety, and the title gives no notice of it. Because the challenge was brought before the Legislature reenacted the law in its biennial adoption of the Florida Statutes, the defect has not been cured.",
+      "whyNot": [
+        "",
+        "Article III, § 6 imposes a single-subject requirement on every law; the initiative rule in Art. XI, § 3 is a separate and stricter requirement.",
+        "The governor's approval does not cure a single-subject violation; only the Legislature's reenactment does.",
+        "The test is objective (a natural or logical connection), not whether legislators acted in bad faith."
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.q007",
+      "topic": "fl-constitutional-law.amendment",
+      "rules": [
+        "fl-constitutional-law.amendment.ballot-review"
+      ],
+      "difficulty": 3,
+      "stem": "A citizens' group gathered enough signatures for an initiative amendment requiring every state agency to publish its budget online. The Attorney General petitioned the Florida Supreme Court for an advisory opinion. Opponents filed briefs making four arguments: the proposal is unwise because it will cost too much; the ballot summary says the amendment 'adds a new transparency requirement' but does not disclose that it would also repeal an existing constitutional provision letting agencies keep certain security plans confidential; the proposal conflicts with several existing Florida statutes; and it duplicates protections already found in the public records statutes.",
+      "call": "Which argument is the Supreme Court most likely to consider in deciding whether the proposal may appear on the ballot?",
+      "choices": [
+        "That the proposal is unwise because it will cost too much.",
+        "That the ballot summary is misleading because it fails to disclose the repeal of an existing constitutional provision.",
+        "That the proposal conflicts with several existing Florida statutes.",
+        "That the proposal duplicates protections already provided by statute."
+      ],
+      "answer": 1,
+      "explanation": "In an initiative advisory opinion the Court reviews whether the proposal complies with the single-subject requirement of Art. XI, § 3 and whether the ballot title and summary comply with § 101.161 by stating the chief purpose clearly and unambiguously without misleading voters. A summary that hides a material effect, such as the repeal of an existing constitutional provision, can mislead voters. The Court does not judge the proposal's wisdom, and an amendment may supersede or duplicate statutes.",
+      "whyNot": [
+        "The Court does not review the merits or wisdom of a proposed amendment.",
+        "",
+        "A constitutional amendment may change or override existing statutes; conflict with current statutes is not a ground for keeping it off the ballot.",
+        "Redundancy with statutes goes to policy wisdom, which the Court does not review."
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.q008",
+      "topic": "fl-constitutional-law.legislature",
+      "rules": [
+        "fl-constitutional-law.legislature.appropriations-and-line-item-veto"
+      ],
+      "difficulty": 2,
+      "stem": "The general appropriations act included a specific appropriation of $12 million to the Department of Transportation for road resurfacing, followed by proviso language stating that '$4 million of these funds shall be spent only in counties with populations under 100,000.' The governor supported the resurfacing money but objected to the restriction, so he signed the act after vetoing only the proviso sentence. A small county that would have benefited from the proviso sued.",
+      "call": "What is the likely result?",
+      "choices": [
+        "The veto is valid, because the governor may veto any portion of a general appropriations bill.",
+        "The veto is valid, because a proviso in an appropriations act is a separate substantive law that the governor may veto on its own.",
+        "The veto is invalid, because the governor has no line-item veto power.",
+        "The veto is invalid, because the governor may not veto a qualification or restriction without also vetoing the appropriation to which it relates."
+      ],
+      "answer": 3,
+      "explanation": "Article III, § 8(a) allows the governor to veto any specific appropriation in a general appropriations bill but forbids vetoing a qualification or restriction without also vetoing the appropriation to which it relates. The governor struck the restriction while keeping the $12 million, which the constitution does not allow.",
+      "whyNot": [
+        "The line-item veto reaches specific appropriations, not any portion the governor chooses; qualifications stand or fall with their appropriations.",
+        "A proviso that qualifies an appropriation is not a freestanding law that the governor may veto separately.",
+        "The governor does have a line-item veto over specific appropriations in a general appropriations bill.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.q009",
+      "topic": "fl-constitutional-law.executive",
+      "rules": [
+        "fl-constitutional-law.executive.suspension"
+      ],
+      "difficulty": 2,
+      "stem": "The governor issued an executive order, filed with the custodian of state records, suspending the elected sheriff of Bayfront County for neglect of duty and incompetence. The order describes the sheriff's alleged failures to staff the county jail and to respond to repeated audit findings, and the governor appointed an interim sheriff. The suspended sheriff petitioned the Florida Supreme Court for a writ of quo warranto, arguing that the evidence does not support the accusations and asking the Court to weigh the audit reports for itself.",
+      "call": "How is the Court likely to proceed?",
+      "choices": [
+        "It will weigh the evidence and reinstate the sheriff if the record does not prove neglect of duty.",
+        "It will dismiss the petition because the suspension of county officers is never subject to judicial review.",
+        "It will consider only whether the order, on its face, alleges facts reasonably related to a constitutional ground for suspension, leaving the merits to the Senate.",
+        "It will order a jury trial on the charges, because the sheriff is an elected official."
+      ],
+      "answer": 2,
+      "explanation": "Article IV, § 7 allows the governor to suspend a county officer for listed grounds, including neglect of duty and incompetence, by an executive order stating the grounds, and the Senate then decides whether to remove or reinstate the officer. Judicial review is limited to facial sufficiency: whether the order alleges facts bearing a reasonable relation to a constitutional ground (Israel v. DeSantis). The Court does not weigh the evidence.",
+      "whyNot": [
+        "Weighing the evidence is the Senate's role; the Court's review is limited to facial sufficiency.",
+        "Review is narrow but available; the Court checks whether the order is facially sufficient.",
+        "",
+        "There is no jury trial on a suspension; the constitution assigns the merits to the Senate."
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.q010",
+      "topic": "fl-constitutional-law.executive",
+      "rules": [
+        "fl-constitutional-law.executive.clemency"
+      ],
+      "difficulty": 1,
+      "stem": "Lorraine Hale was convicted of a nonviolent felony in 2015, served her prison term, and completed probation. She later applied for a full pardon so that she could qualify for a professional license. The governor reviewed her file, met with her, and signed an executive order granting a full pardon. Of the Cabinet members, only the Attorney General approved the pardon; the Chief Financial Officer and the Commissioner of Agriculture voted against it.",
+      "call": "Is the pardon valid?",
+      "choices": [
+        "Yes, because the governor's pardon power, like the President's, is plenary.",
+        "No, because a full pardon requires the approval of at least two members of the Cabinet.",
+        "No, because pardons must be approved by a two-thirds vote of the Legislature.",
+        "Yes, because only the Attorney General's approval is required for pardons of nonviolent offenses."
+      ],
+      "answer": 1,
+      "explanation": "Under Article IV, § 8(a), the governor acting alone may only suspend collection of fines and forfeitures and grant reprieves of up to 60 days. Full or conditional pardons, restoration of civil rights, commutation of punishment, and remission of fines and forfeitures require the governor's action with the approval of two members of the Cabinet. Only one Cabinet member approved, so the pardon is invalid.",
+      "whyNot": [
+        "Unlike the President, Florida's governor shares the pardon power with the Cabinet.",
+        "",
+        "The Legislature has a clemency role only in treason cases; ordinary pardons belong to the governor with Cabinet approval.",
+        "There is no special rule for nonviolent offenses; every full pardon needs the approval of two Cabinet members."
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.q011",
+      "topic": "fl-constitutional-law.judiciary",
+      "rules": [
+        "fl-constitutional-law.judiciary.supreme-court-discretionary"
+      ],
+      "difficulty": 2,
+      "stem": "After losing a negligence trial, Dorian Webb appealed to the Fifth District Court of Appeal, arguing that the trial court misapplied the law of comparative fault. The district court affirmed in a one-word decision: 'Affirmed.' Webb's lawyer has found a Second District decision that he believes conflicts with the trial court's ruling, and he wants to seek review in the Florida Supreme Court on the ground of express and direct conflict.",
+      "call": "Does the Florida Supreme Court have jurisdiction to review the Fifth District's decision?",
+      "choices": [
+        "No, because a per curiam affirmance without opinion cannot expressly and directly conflict with another decision.",
+        "Yes, because the Supreme Court may review any district court decision that conflicts with another district's decision.",
+        "Yes, because every civil litigant is entitled to one appeal to the Supreme Court.",
+        "No, because the Supreme Court has no jurisdiction over civil cases."
+      ],
+      "answer": 0,
+      "explanation": "Article V, § 3(b)(3) gives the Supreme Court discretionary jurisdiction over a district court decision that expressly and directly conflicts with a decision of another district court or of the Supreme Court. A per curiam affirmance without opinion contains nothing that expressly conflicts with anything, so the Supreme Court lacks jurisdiction to review it (Jenkins v. State).",
+      "whyNot": [
+        "",
+        "Conflict jurisdiction requires express and direct conflict appearing in the district court's decision itself; an unexplained affirmance has none.",
+        "There is no right to a second appeal; the Supreme Court's jurisdiction is limited to the categories in Art. V, § 3(b).",
+        "The Supreme Court reviews many civil cases, for example on express and direct conflict or on questions certified to be of great public importance."
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.q012",
+      "topic": "fl-constitutional-law.judiciary",
+      "rules": [
+        "fl-constitutional-law.judiciary.agency-deference"
+      ],
+      "difficulty": 1,
+      "stem": "A Florida licensing board denied Teresa Kwan's application for a contractor's license, reading an ambiguous statute to require four years of supervised experience rather than the three years Kwan had. At the administrative hearing, the administrative law judge concluded that Kwan's reading of the statute was the better one but upheld the denial because the board's interpretation was 'reasonable and entitled to deference as the agency charged with enforcing the statute.' Kwan sought review in the district court of appeal.",
+      "call": "Did the administrative law judge err?",
+      "choices": [
+        "No, because courts and hearing officers must defer to an agency's reasonable interpretation of an ambiguous statute it administers.",
+        "No, because deference is required unless the agency's interpretation is clearly erroneous.",
+        "Yes, because agencies may not interpret statutes at all; only courts may do so.",
+        "Yes, because a state court or administrative law judge interpreting a statute or rule may not defer to the agency's interpretation and must interpret it de novo."
+      ],
+      "answer": 3,
+      "explanation": "Article V, § 21, added in 2018, provides that in interpreting a state statute or rule, a state court or an officer hearing an administrative action under general law may not defer to an administrative agency's interpretation and must interpret the statute or rule de novo. The judge's reliance on deference was error; he should have applied the reading he found correct.",
+      "whyNot": [
+        "That describes the Chevron-style approach, which Florida abolished by constitutional amendment in 2018.",
+        "Florida no longer gives an agency's interpretation any deference, whether framed as 'clearly erroneous' review or otherwise.",
+        "Agencies must interpret statutes to apply them; § 21 simply requires the reviewing tribunal to decide the meaning independently.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.q013",
+      "topic": "fl-constitutional-law.local-government-and-finance",
+      "rules": [
+        "fl-constitutional-law.local-government-and-finance.counties"
+      ],
+      "difficulty": 2,
+      "stem": "Pelican County does not operate under a county charter. Its board of county commissioners adopted an ordinance prohibiting outdoor amplified music at commercial establishments anywhere in the county after 10 p.m. The City of Sandport, located in Pelican County, has an ordinance expressly allowing licensed waterfront restaurants in the city to play outdoor amplified music until midnight. A Sandport restaurant that played music until 11:30 p.m. was cited for violating the county ordinance. Assume that no state statute addresses the subject.",
+      "call": "Is the county ordinance enforceable against the Sandport restaurant?",
+      "choices": [
+        "Yes, because a county ordinance prevails over a conflicting municipal ordinance anywhere within the county.",
+        "Yes, unless the city's ordinance was adopted after the county's ordinance.",
+        "No, because a non-charter county's ordinance that conflicts with a municipal ordinance is not effective within the municipality to the extent of the conflict.",
+        "No, because counties may enact ordinances only when a special law specifically authorizes them."
+      ],
+      "answer": 2,
+      "explanation": "Under Article VIII, § 1(f), a county not operating under a charter may enact ordinances not inconsistent with general or special law, but an ordinance that conflicts with a municipal ordinance is not effective within the municipality to the extent of the conflict. Sandport expressly allows what the county forbids, so the county ordinance does not apply inside the city during the hours of conflict. (In a charter county, the charter would determine which ordinance prevails.)",
+      "whyNot": [
+        "That is not the rule for a non-charter county; inside a city, the municipal ordinance controls to the extent of a conflict.",
+        "The order of enactment does not matter; the constitution resolves the conflict in favor of the municipal ordinance within the city.",
+        "",
+        "Non-charter counties have the self-government powers provided by general or special law, and general law authorizes county ordinances; no special law is needed."
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.q014",
+      "topic": "fl-constitutional-law.amendment",
+      "rules": [
+        "fl-constitutional-law.amendment.approval"
+      ],
+      "difficulty": 3,
+      "stem": "A citizen initiative proposed a constitutional amendment imposing a new statewide fee on single-use plastic bags, with the revenue dedicated to beach cleanup. The Supreme Court approved the ballot title and summary, and the measure appeared on the November general-election ballot. In that election, 9,000,000 voters cast ballots. Of those, 8,400,000 voted on the plastic-bag amendment: 5,460,000 (65% of those voting on it) voted yes, and 2,940,000 voted no.",
+      "call": "Was the amendment adopted?",
+      "choices": [
+        "No, because an amendment imposing a new state tax or fee requires approval by two-thirds of the voters voting in the election.",
+        "Yes, because it received more than 60% of the votes cast on the measure.",
+        "Yes, because it received a majority of the votes cast on the measure.",
+        "No, because citizen initiatives may not address taxation."
+      ],
+      "answer": 0,
+      "explanation": "Ordinarily an amendment is adopted if at least 60% of the voters voting on the measure approve it (Art. XI, § 5). But under Art. XI, § 7, an amendment that imposes a new state tax or fee must be approved by at least two-thirds of the voters voting in the election. Two-thirds of 9,000,000 is 6,000,000, and the amendment received only 5,460,000 yes votes, so it failed.",
+      "whyNot": [
+        "",
+        "Sixty percent is the general rule, but a new state tax or fee requires two-thirds of all voters voting in the election.",
+        "A simple majority has not been enough since 2006; the general threshold is 60%, and two-thirds for a new state tax or fee.",
+        "Initiatives may address taxation (the single-subject rule even exempts proposals limiting the government's power to raise revenue); the problem is the higher approval threshold."
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.q015",
+      "topic": "fl-constitutional-law.homestead-and-property",
+      "rules": [
+        "fl-constitutional-law.homestead-and-property.forced-sale-exemption"
+      ],
+      "difficulty": 2,
+      "stem": "Gloria Fenn owns and lives in a house on a 0.4-acre lot inside the city limits of Lake Marigold, Florida. Four creditors have obtained money judgments against her: a hospital, for emergency-room bills; a roofing contractor, for replacing the roof on the house last year; a bank, on an unsecured personal loan she used for a vacation; and a driver she injured in a car accident. Each creditor seeks to force a sale of the house to satisfy its judgment.",
+      "call": "Which creditor may force a sale of the homestead?",
+      "choices": [
+        "The hospital, because medical expenses are a necessity.",
+        "The roofing contractor, because the obligation was contracted for the repair or improvement of the homestead.",
+        "The bank, because the loan was voluntarily incurred.",
+        "The injured driver, because tort judgments are not subject to the homestead exemption."
+      ],
+      "answer": 1,
+      "explanation": "Article X, § 4(a) exempts a natural person's homestead (up to one-half acre of contiguous land within a municipality) from forced sale, and no judgment may become a lien on it, except for taxes and assessments on the property, obligations contracted for its purchase, improvement or repair, and obligations for house, field or other labor performed on it. The roofer's claim arises from repairing and improving the house, so it falls within an exception; the other judgments do not.",
+      "whyNot": [
+        "Medical debts are not among the constitutional exceptions, so the hospital cannot reach the homestead.",
+        "",
+        "Voluntary unsecured debts are not excepted; only obligations for purchase, improvement, repair or labor on the property are.",
+        "Tort judgments are not excepted from the homestead exemption."
+      ]
+    }
+  ]
+}

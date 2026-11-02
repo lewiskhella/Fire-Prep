@@ -1,0 +1,530 @@
+{
+  "subject": "fl-real-property",
+  "topics": [
+    {
+      "id": "fl-real-property.homestead",
+      "title": "Homestead",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida homestead is the single most tested Florida-only property topic, and it usually appears inside a wills, family-law or creditor essay. Article X, § 4 does three separate jobs — shielding the home from creditors, restricting how it may be devised or conveyed, and (with Article VII) lowering property taxes — and each job has its own test. Train yourself to name the function before you apply a rule.",
+      "rules": [
+        {
+          "id": "fl-real-property.homestead.three-functions",
+          "title": "The three functions of homestead",
+          "weight": 3,
+          "rule": "Florida homestead law serves three distinct functions: (1) exemption from forced sale and judgment liens, (2) restrictions on devise and on lifetime alienation by a married owner, and (3) an ad valorem tax exemption and assessment cap. Each function has its own requirements, so the same property can qualify for one purpose and not another.",
+          "elements": [
+            "Creditor protection — Art. X, § 4(a)–(b)",
+            "Restrictions on devise and alienation — Art. X, § 4(c)",
+            "Tax exemption and Save Our Homes cap — Art. VII, §§ 4(d), 6"
+          ],
+          "tip": "When an essay mentions a house, a death, a debt or a spouse, organise the homestead discussion under these three headings and apply each test separately.",
+          "trap": "Concluding that a home is not protected from creditors or from devise because the owner never applied for the tax exemption. Only the tax function requires an application.",
+          "authority": "Art. X, § 4, Fla. Const.; Art. VII, §§ 4(d), 6, Fla. Const."
+        },
+        {
+          "id": "fl-real-property.homestead.forced-sale-exemption",
+          "title": "Exemption from forced sale: who and how much",
+          "weight": 3,
+          "rule": "Homestead owned by a natural person is exempt from forced sale and no judgment lien attaches to it. Outside a municipality the exemption covers up to 160 contiguous acres with improvements; inside a municipality it covers up to one-half acre of contiguous land, limited to the residence of the owner or the owner's family. There is no dollar cap on the value protected.",
+          "elements": [
+            "Owned by a natural person (not a corporation or other entity)",
+            "Actually occupied as a residence by the owner or the owner's family, with intent to make it a permanent home",
+            "Within the area limit: 160 contiguous acres outside a municipality, one-half acre inside"
+          ],
+          "exceptions": [
+            "A homestead that later becomes part of a municipality keeps its 160-acre protection unless the owner consents to a reduction",
+            "Abandonment of the residence ends the protection",
+            "Federal bankruptcy law (11 U.S.C. § 522(o)–(q)) can cap the exemption for homestead value acquired within a statutory look-back period"
+          ],
+          "split": "Most states protect a fixed dollar amount of home equity. Florida measures the exemption by area, not value, so a very valuable house on a half-acre city lot is fully protected.",
+          "trap": "Applying a dollar cap, or protecting a house titled in the owner's corporation. The constitution protects homestead 'owned by a natural person.'",
+          "authority": "Art. X, § 4(a)–(b), Fla. Const."
+        },
+        {
+          "id": "fl-real-property.homestead.creditor-exceptions",
+          "title": "Debts that can reach homestead",
+          "weight": 3,
+          "rule": "The forced-sale exemption does not protect against (1) taxes and assessments on the property, (2) obligations contracted for its purchase, improvement or repair, or (3) obligations for house, field or other labor performed on the realty. Beyond those exceptions, converting non-exempt assets into homestead with intent to hinder creditors does not forfeit the exemption; an equitable lien is imposed only where the funds used to acquire or improve the home were obtained through fraud or egregious conduct.",
+          "exceptions": [
+            "Taxes and assessments on the homestead",
+            "Purchase-money, improvement and repair obligations (including a mortgage given for those purposes)",
+            "Labor performed on the realty (e.g., a contractor's or worker's lien)",
+            "Equitable lien where the home was bought or improved with fraudulently obtained money"
+          ],
+          "tip": "The exemption limits forced sale by creditors; it does not stop an owner from voluntarily mortgaging the home (with spousal joinder), and the mortgagee may foreclose on default.",
+          "trap": "Letting a general judgment creditor (credit card, personal-injury judgment, unsecured loan) force a sale because the debtor moved cash into the house. Under Havoco that is not an exception.",
+          "authority": "Art. X, § 4(a), Fla. Const.; Havoco of America, Ltd. v. Hill, 790 So. 2d 1018 (Fla. 2001)"
+        },
+        {
+          "id": "fl-real-property.homestead.alienation-joinder",
+          "title": "Lifetime transfers: spouse must join",
+          "weight": 3,
+          "rule": "The owner of homestead may sell, give away or mortgage it during life, but if married the owner's spouse must join in the deed or mortgage, even when the spouse holds no title. A conveyance or mortgage of homestead without the required joinder is ineffective to pass the homestead. Minor children do not restrict lifetime alienation.",
+          "elements": [
+            "Owner may alienate by mortgage, sale or gift",
+            "If married, spouse joins the instrument",
+            "Owner may also convey to himself or herself and the spouse as tenants by the entirety"
+          ],
+          "trap": "Thinking that a minor child blocks a sale or mortgage. Minor children restrict only devise; lifetime transfers need only the spouse's joinder.",
+          "tip": "Exam pattern: husband holds sole title to the marital home and mortgages or deeds it alone. The instrument fails as to the homestead because the wife did not join.",
+          "authority": "Art. X, § 4(c), Fla. Const."
+        },
+        {
+          "id": "fl-real-property.homestead.devise-restrictions",
+          "title": "Restrictions on devise",
+          "weight": 3,
+          "rule": "Homestead is not subject to devise if the owner is survived by a spouse or a minor child, except that it may be devised to the spouse if there is no minor child. If no spouse or minor child survives, the owner may devise it to anyone, and the creditor exemption passes to the owner's heirs.",
+          "elements": [
+            "Survived by a minor child: no devise at all, not even to the spouse",
+            "Survived by a spouse and no minor child: may devise only to the spouse (outright)",
+            "Survived by neither: freely devisable"
+          ],
+          "exceptions": [
+            "A spouse may waive homestead rights by a valid written prenuptial or postnuptial agreement or waiver (fair disclosure required if signed after marriage)",
+            "Property held as tenants by the entirety passes to the surviving spouse by operation of law and is not 'devised' at all"
+          ],
+          "split": "Common-law and UBE jurisdictions let an owner devise the family home freely, subject only to an elective share. Florida restricts the devise of the home itself.",
+          "trap": "Upholding a devise to the spouse when a minor child also survives. With a minor child, any devise of homestead fails.",
+          "tip": "The exemption from creditors 'inures to the surviving spouse or heirs.' The Florida Supreme Court reads 'heirs' as anyone in the class of potential intestate heirs, so a devise to a grandchild or sibling can still carry creditor protection (Snyder v. Davis, 699 So. 2d 999 (Fla. 1997)).",
+          "authority": "Art. X, § 4(b)–(c), Fla. Const.; Fla. Stat. §§ 732.4015, 732.702"
+        },
+        {
+          "id": "fl-real-property.homestead.invalid-devise-descent",
+          "title": "What happens when a devise of homestead fails",
+          "weight": 2,
+          "rule": "A homestead not devised as the constitution permits descends as intestate property, except that if the owner leaves a spouse and descendants, the spouse takes a life estate with a vested remainder to the descendants in being at death, per stirpes. Instead of the life estate, the spouse may elect to take an undivided one-half interest as a tenant in common, with the other half vesting in the descendants; the election must be made within 6 months after the death.",
+          "tip": "Typical facts: a will leaves the house to the decedent's adult child from a first marriage; the second spouse survives. The devise fails; the spouse gets a life estate (or elects a one-half tenancy in common) and the descendants take the remainder.",
+          "trap": "Treating a failed homestead devise as passing under the residuary clause. It passes outside the will under § 732.401.",
+          "authority": "Fla. Stat. § 732.401"
+        },
+        {
+          "id": "fl-real-property.homestead.tax-exemption",
+          "title": "Homestead tax exemption and Save Our Homes",
+          "weight": 2,
+          "rule": "A person who holds legal or beneficial title and, as of January 1, makes the property his or her permanent residence (or that of a legal or natural dependent) may apply for the homestead tax exemption: $25,000 off assessed value for all levies, plus an additional exemption of up to $25,000 on assessed value between $50,000 and $75,000 for non-school levies. Under Save Our Homes, annual increases in a homestead's assessed value are capped at the lesser of 3% or the change in the Consumer Price Index, and up to $500,000 of the accumulated benefit is portable to a new Florida homestead.",
+          "elements": [
+            "Legal or beneficial title",
+            "Permanent residence of the owner or a dependent on January 1",
+            "Timely application to the property appraiser (generally by March 1)"
+          ],
+          "trap": "Importing the tax test into the creditor or devise analysis. The tax exemption needs permanent residence and an application; forced-sale and devise protection need neither an application nor January 1 status.",
+          "authority": "Art. VII, §§ 4(d), 6, Fla. Const.; Fla. Stat. §§ 196.011, 196.031"
+        }
+      ]
+    },
+    {
+      "id": "fl-real-property.conveyancing",
+      "title": "Deeds, recording and title",
+      "weight": 2,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida adds a few statutory twists to the conveyancing rules you learned for the MBE: two witnesses on a deed, a pure notice recording act, a 30-year Marketable Record Title Act, and a seller's duty to disclose latent defects in a home. Questions usually turn on which of two competing grantees wins, or on whether an old interest survived MRTA.",
+      "rules": [
+        {
+          "id": "fl-real-property.conveyancing.deed-formalities",
+          "title": "Execution of a deed",
+          "weight": 3,
+          "rule": "A deed conveying a freehold estate must be in writing and signed by the grantor in the presence of two subscribing witnesses, and it passes title only on delivery with present intent to transfer and acceptance by the grantee (presumed when the gift is beneficial). An acknowledgment before a notary is not needed for validity between the parties but is needed to record the deed.",
+          "elements": [
+            "Writing identifying the parties and describing the land",
+            "Grantor's signature",
+            "Two subscribing witnesses who sign in the grantor's presence",
+            "Delivery with intent that the deed take effect now",
+            "Acceptance"
+          ],
+          "exceptions": [
+            "Curative statute: once a deed has been of record for 5 years, no one may challenge the grantee's title on the ground that it lacked witnesses, a seal or a proper acknowledgment (§ 95.231)",
+            "Since 2020, a deed may be notarized and witnessed by audio-video communication under the remote online notarization provisions of chapter 117"
+          ],
+          "split": "The MBE and common law require only a signed writing plus delivery. The two-witness requirement is a Florida statutory formality.",
+          "tip": "The recording statute (§ 695.26) also calls for the printed names of those who signed, post-office addresses (of the grantee and, under current law, of the witnesses), and the name and address of the preparer; those are conditions for recording, not for validity between the parties.",
+          "trap": "Holding a deed void for lack of a notary. Notarization matters for recording, not for passing title.",
+          "authority": "Fla. Stat. §§ 689.01, 695.03, 695.26, 95.231"
+        },
+        {
+          "id": "fl-real-property.conveyancing.deed-warranties",
+          "title": "Types of deeds and after-acquired title",
+          "weight": 2,
+          "rule": "A general warranty deed carries the six covenants of title (seisin, right to convey, against encumbrances, quiet enjoyment, general warranty and further assurances); Florida's statutory form with the words 'fully warrants the title' imports them. A special warranty deed warrants only against defects arising through the grantor, and a quitclaim deed conveys only whatever interest the grantor has, with no warranties. If a grantor conveys by warranty deed land he does not yet own and later acquires title, the title passes automatically to the grantee (estoppel by deed).",
+          "trap": "Applying estoppel by deed to a quitclaim deed. A quitclaim promises nothing, so after-acquired title stays with the grantor.",
+          "tip": "Present covenants (seisin, right to convey, against encumbrances) are breached, if at all, at delivery; future covenants (quiet enjoyment, warranty, further assurances) are breached on actual or constructive eviction.",
+          "authority": "Fla. Stat. §§ 689.02, 689.03"
+        },
+        {
+          "id": "fl-real-property.conveyancing.recording-notice-act",
+          "title": "Florida's notice recording statute",
+          "weight": 3,
+          "rule": "Florida has a pure notice recording act: an unrecorded conveyance, transfer, mortgage, or lease for more than one year is not good against creditors or subsequent purchasers for valuable consideration who take without notice. A later bona fide purchaser prevails over the earlier unrecorded interest even if the later purchaser records second or never records.",
+          "elements": [
+            "Subsequent purchaser (or creditor)",
+            "Paid valuable consideration (a donee or devisee is not protected)",
+            "Without actual, constructive or inquiry notice of the earlier interest when the purchase was made"
+          ],
+          "split": "The MBE tests race, notice and race-notice acts. Florida is notice: there is no requirement that the later purchaser record first.",
+          "trap": "Using race-notice logic on a Florida question — awarding priority to the first grantee because the second grantee had not yet recorded when the first finally did.",
+          "tip": "Shelter rule: a person who takes from a bona fide purchaser stands in that purchaser's shoes, even with notice.",
+          "authority": "Fla. Stat. § 695.01"
+        },
+        {
+          "id": "fl-real-property.conveyancing.notice-types",
+          "title": "Actual, record and inquiry notice",
+          "weight": 2,
+          "rule": "A purchaser is charged with actual notice, with constructive notice of instruments properly recorded in the chain of title, and with inquiry notice of whatever a reasonable investigation would reveal. Open, visible possession by someone other than the record owner puts a buyer on inquiry about the possessor's rights.",
+          "trap": "Charging a buyer with notice of a 'wild deed' recorded outside the chain of title. A search of the grantor-grantee indexes would not find it, so it gives no constructive notice.",
+          "tip": "Classic fact: a tenant in possession holds an unrecorded lease with an option to buy. A purchaser who never asked the tenant takes subject to the option.",
+          "authority": "Fla. Stat. §§ 695.01, 695.11"
+        },
+        {
+          "id": "fl-real-property.conveyancing.mrta",
+          "title": "Marketable Record Title Act",
+          "weight": 3,
+          "rule": "A person who has an unbroken chain of record title for at least 30 years has marketable record title. The chain begins at the 'root of title' — the most recent title transaction purporting to create or transfer the estate claimed that was recorded at least 30 years before marketability is determined — and every interest, claim or charge that depends on an act, event or omission before the root is extinguished unless a statutory exception preserves it.",
+          "elements": [
+            "Identify the root of title (most recent qualifying transaction recorded 30 or more years ago)",
+            "Confirm an unbroken record chain from the root to the present",
+            "Ask whether the older interest falls within a § 712.03 exception or was preserved by notice"
+          ],
+          "split": "Marketable title acts vary by state (several use 40 years) and are seldom tested on the MBE. On the Florida exam use 30 years.",
+          "trap": "Choosing the oldest deed as the root of title. The root is the most recent transaction that is at least 30 years old.",
+          "authority": "Fla. Stat. §§ 712.01–712.04"
+        },
+        {
+          "id": "fl-real-property.conveyancing.mrta-exceptions",
+          "title": "Interests MRTA does not extinguish",
+          "weight": 2,
+          "rule": "MRTA does not cut off interests specifically identified in the muniments of title (a general reference such as 'subject to restrictions of record' is not enough; there must be a specific reference such as book and page), interests preserved by a notice recorded within the 30-year period, rights of a person in possession while the possession continues, interests arising from transactions recorded after the root, easements that are in use, or the State's title to sovereignty submerged lands.",
+          "exceptions": [
+            "Specific reference in the muniments of title",
+            "Notice of preservation recorded under § 712.05",
+            "Rights of persons in possession",
+            "Interests arising after the root of title",
+            "Easements in use",
+            "State title to sovereignty submerged lands"
+          ],
+          "tip": "Homeowners' associations may preserve covenants by recording a notice, and chapter 720 provides a procedure to revive covenants that MRTA has already extinguished.",
+          "trap": "Treating a deed clause 'subject to easements and restrictions of record' as preserving a 40-year-old covenant. MRTA requires specific identification.",
+          "authority": "Fla. Stat. §§ 712.03, 712.05; §§ 720.403–720.407"
+        },
+        {
+          "id": "fl-real-property.conveyancing.seller-disclosure",
+          "title": "Seller's duty to disclose (Johnson v. Davis)",
+          "weight": 3,
+          "rule": "In the sale of a home, a seller who knows of facts materially affecting the value of the property that are not readily observable and are not known to the buyer must disclose them. Nondisclosure supports rescission or damages for fraud.",
+          "elements": [
+            "Residential property",
+            "Seller knows of the defect or fact",
+            "The fact materially affects value",
+            "Not readily observable to the buyer and not known to the buyer"
+          ],
+          "split": "The traditional rule (often the MBE answer) is caveat emptor absent active concealment or a fiduciary relationship. Florida abandoned caveat emptor for residential sales.",
+          "trap": "Extending the Johnson duty to a commercial property sale. Florida appellate courts have declined to do so.",
+          "tip": "Real estate licensees owe a separate statutory duty to disclose known facts that materially affect the value of residential property (§ 475.278).",
+          "authority": "Johnson v. Davis, 480 So. 2d 625 (Fla. 1985); Fla. Stat. § 475.278"
+        }
+      ]
+    },
+    {
+      "id": "fl-real-property.landlord-tenant",
+      "title": "Residential landlord and tenant (chapter 83, part II)",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Part II of chapter 83 governs residential tenancies and is tested through notice periods and remedies: who must give what notice, how many days, and what happens if a step is skipped. Learn the numbers (3, 7, 15, 30, 60 days; 24 hours; 3 months' rent) and the two traps the examiners love — self-help eviction and the rent-into-registry requirement.",
+      "rules": [
+        {
+          "id": "fl-real-property.landlord-tenant.landlord-maintenance",
+          "title": "Landlord's maintenance obligations",
+          "weight": 3,
+          "rule": "The landlord must comply with applicable building, housing and health codes or, where no code applies, keep the roof, windows, doors, floors, steps, porches, exterior walls, foundations and other structural components in good repair and the plumbing in reasonable working condition; for a single-family home or duplex these duties may be altered in writing. Unless otherwise agreed in writing, the landlord of a unit other than a single-family home or duplex must also make reasonable provision for extermination, locks and keys, clean and safe common areas, garbage removal, and functioning heat during winter, running water and hot water.",
+          "exceptions": [
+            "The landlord is not responsible for conditions caused by the negligent or wrongful act of the tenant, the tenant's family or guests"
+          ],
+          "trap": "Assuming air conditioning is on the statutory list. It is not; whether it is owed depends on the lease or a local code.",
+          "tip": "Entry: the landlord may enter to inspect or repair on at least 24 hours' notice, between 7:30 a.m. and 8:00 p.m., and at any time in an emergency (§ 83.53).",
+          "authority": "Fla. Stat. §§ 83.51, 83.53"
+        },
+        {
+          "id": "fl-real-property.landlord-tenant.tenant-remedies",
+          "title": "Tenant's remedies: 7-day notice, termination or withholding",
+          "weight": 3,
+          "rule": "If the landlord materially fails to comply with § 83.51(1) or material provisions of the lease, the tenant must deliver written notice specifying the noncompliance and stating an intent to terminate or to withhold rent. If the failure is not cured within 7 days after delivery, the tenant may terminate the rental agreement or withhold rent, and in an action for possession the noncompliance is a defense with rent reduced in proportion to the loss of rental value.",
+          "elements": [
+            "Material noncompliance by the landlord",
+            "Written notice to the landlord specifying the noncompliance and the intended remedy",
+            "7 days elapse after delivery without cure"
+          ],
+          "trap": "Letting a tenant stop paying rent with no prior written 7-day notice. Without the notice the withholding defense is not available.",
+          "tip": "The statutory rent-withholding defense is keyed to the landlord's § 83.51(1) duties (codes, structure, plumbing). Check which subsection the defect falls under.",
+          "authority": "Fla. Stat. §§ 83.56(1), 83.60(1)"
+        },
+        {
+          "id": "fl-real-property.landlord-tenant.tenant-default-notices",
+          "title": "Landlord's termination notices: 3-day and 7-day",
+          "weight": 3,
+          "rule": "For nonpayment, the landlord serves a 3-day notice (excluding Saturdays, Sundays and legal holidays) demanding payment of the rent or possession. For other material noncompliance, the landlord serves a 7-day notice to cure if the breach is curable (e.g., an unauthorized pet), or a 7-day notice to vacate without opportunity to cure for conduct that cannot be cured (such as destruction or misuse of the property or continued unreasonable disturbance) or for a repeat of the same conduct within 12 months after a written warning.",
+          "elements": [
+            "Nonpayment: 3-day notice to pay or vacate",
+            "Curable noncompliance: 7-day notice to cure",
+            "Incurable noncompliance or repeat within 12 months after written warning: 7-day notice to vacate"
+          ],
+          "trap": "Counting weekends and holidays in the 3-day notice, or forgetting waiver: a landlord who accepts rent with actual knowledge of a noncompliance waives the right to terminate for that noncompliance, though not for a later or continuing one (§ 83.56(5)).",
+          "authority": "Fla. Stat. § 83.56(2)–(3), (5)"
+        },
+        {
+          "id": "fl-real-property.landlord-tenant.eviction-registry",
+          "title": "Eviction procedure and the rent-into-registry rule",
+          "weight": 3,
+          "rule": "A residential eviction is brought in county court under summary procedure, and the tenant has 5 days (excluding weekends and legal holidays) after service to respond. A tenant who raises any defense other than payment must pay into the court registry the rent alleged due in the complaint and the rent that accrues while the case is pending (or timely move the court to determine the rent); failure to do so waives all defenses other than payment and entitles the landlord to an immediate default judgment for possession without further notice or hearing. After judgment the clerk issues a writ of possession, which the sheriff executes after posting 24 hours' notice.",
+          "elements": [
+            "Proper pre-suit notice (3-day or 7-day)",
+            "Complaint for possession in county court under § 51.011 summary procedure",
+            "Tenant answers within 5 days and deposits rent into the registry if asserting any defense other than payment",
+            "Judgment, writ of possession, 24-hour posting, removal by the sheriff"
+          ],
+          "trap": "Letting a tenant with a strong habitability or retaliation defense skip the registry deposit. Even a meritorious defense is waived if the rent is not deposited.",
+          "authority": "Fla. Stat. §§ 51.011, 83.59, 83.60(2), 83.62"
+        },
+        {
+          "id": "fl-real-property.landlord-tenant.self-help-prohibited",
+          "title": "No self-help eviction",
+          "weight": 3,
+          "rule": "A landlord may recover possession of a dwelling unit only through the judicial process. The landlord may not interrupt or cause interruption of utilities, change or add locks or otherwise prevent the tenant's access, remove doors, windows, roofs, walls or appliances, or remove the tenant's personal property, unless the tenant has surrendered or abandoned the unit. A landlord who violates the statute is liable for actual and consequential damages or 3 months' rent, whichever is greater, plus costs and attorney's fees, and repeated non-contemporaneous violations support separate awards.",
+          "trap": "Excusing a lockout because the tenant was far behind on rent. Nonpayment never authorizes self-help; the landlord must sue for possession.",
+          "tip": "Compute the statutory floor: if monthly rent is $1,500 and actual damages are $800, the tenant recovers at least $4,500 plus fees.",
+          "authority": "Fla. Stat. § 83.67"
+        },
+        {
+          "id": "fl-real-property.landlord-tenant.security-deposits",
+          "title": "Security deposits: 15 days, 30 days, certified mail",
+          "weight": 3,
+          "rule": "The landlord must hold deposits as the statute directs and give the tenant written disclosure of how they are held within 30 days of receipt. When the tenant vacates, the landlord must either return the deposit within 15 days or, within 30 days, send written notice by certified mail to the tenant's last known mailing address stating its intent to impose a claim and the reason. A landlord who misses the 30-day notice forfeits the right to impose a claim on the deposit (though it may sue separately for damages); the tenant has 15 days after receiving the notice to object, failing which the landlord may deduct the claim and must remit the balance within 30 days after the notice.",
+          "elements": [
+            "No claim: return within 15 days",
+            "Claim: certified-mail notice within 30 days",
+            "Tenant objection within 15 days of receipt",
+            "Deductions only for amounts beyond normal wear and tear and unpaid sums owed"
+          ],
+          "trap": "Allowing the landlord to keep the deposit to cover damage when the notice went out on day 40. The claim against the deposit is forfeited; the landlord must return it and sue for damages.",
+          "tip": "The prevailing party in a deposit dispute recovers court costs and reasonable attorney's fees.",
+          "authority": "Fla. Stat. § 83.49"
+        },
+        {
+          "id": "fl-real-property.landlord-tenant.termination-holdover",
+          "title": "Periodic tenancies and holdovers",
+          "weight": 2,
+          "rule": "A tenancy without a specific duration is terminated by written notice given before the end of a rental period: at least 7 days for week-to-week, 30 days for month-to-month (lengthened from 15 days by 2023 legislation), 30 days for quarter-to-quarter, and 60 days for year-to-year. A tenant who holds over without the landlord's consent after the tenancy ends may be removed by an action for possession, and the landlord may also recover double the rent for the period the tenant refuses to surrender possession.",
+          "elements": [
+            "Week-to-week: 7 days",
+            "Month-to-month: 30 days",
+            "Quarter-to-quarter: 30 days",
+            "Year-to-year: 60 days"
+          ],
+          "split": "The common-law/MBE month-to-month notice is one full period; the Florida exam wants the statutory number (now 30 days for month-to-month).",
+          "trap": "Using the pre-2023 15-day month-to-month notice period.",
+          "tip": "A lease for a fixed term ends on its own without notice, though a lease may require up to 60 days' advance notice of non-renewal if it imposes the same notice duty on the landlord (§ 83.575).",
+          "authority": "Fla. Stat. §§ 83.57, 83.575, 83.58"
+        },
+        {
+          "id": "fl-real-property.landlord-tenant.retaliation",
+          "title": "Retaliatory conduct",
+          "weight": 2,
+          "rule": "A landlord may not discriminatorily raise rent, reduce services, or bring or threaten an action for possession primarily because the tenant in good faith complained to a governmental agency about a code violation, organized or joined a tenant organization, complained to the landlord under § 83.56(1), or exercised other protected rights (such as fair-housing rights or a servicemember's statutory termination). Retaliation is a defense to eviction, but not when the landlord proves the eviction is for good cause, such as good-faith nonpayment proceedings or a violation of the lease or the statute.",
+          "trap": "Assuming any eviction filed soon after a complaint is retaliatory. If the tenant has not paid rent, the landlord has good cause.",
+          "authority": "Fla. Stat. § 83.64"
+        }
+      ]
+    },
+    {
+      "id": "fl-real-property.mortgages",
+      "title": "Mortgages and foreclosure",
+      "weight": 2,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida is a lien-theory, judicial-foreclosure state, so every Florida foreclosure question runs through a circuit-court lawsuit, a clerk's sale and a short equitable redemption window. Expect questions on who must be joined, when redemption ends, when a deficiency is available, and how the 5-year limitations period works after Bartram.",
+      "rules": [
+        {
+          "id": "fl-real-property.mortgages.lien-theory",
+          "title": "Lien theory and equitable mortgages",
+          "weight": 2,
+          "rule": "A Florida mortgage creates only a lien; the mortgagor keeps legal title and the right to possession until the foreclosure sale. Any instrument that conveys property to secure the payment of money — including a deed absolute on its face — is treated as a mortgage and must be foreclosed like one.",
+          "split": "The MBE describes title, lien and intermediate theories. Under Florida's lien theory the mortgagee has no right to take possession on default without a court order.",
+          "trap": "Treating a deed given to a lender 'as security' as an outright sale that lets the lender keep the land on default. It is an equitable mortgage.",
+          "tip": "An assignment of rents in a recorded mortgage is perfected on recording; after default the mortgagee may ask the court to sequester the rents (§ 697.07).",
+          "authority": "Fla. Stat. §§ 697.01, 697.02, 697.07"
+        },
+        {
+          "id": "fl-real-property.mortgages.judicial-foreclosure",
+          "title": "Judicial foreclosure procedure",
+          "weight": 3,
+          "rule": "All mortgages are foreclosed by a lawsuit in circuit court. The plaintiff must be entitled to enforce the note when it files, should record a notice of lis pendens, and must join every junior interest holder it wants to cut off; after final judgment the clerk sells the property at public sale and, if no timely objection is filed, issues a certificate of title to the purchaser.",
+          "elements": [
+            "Complaint by the holder or other person entitled to enforce the note",
+            "Notice of lis pendens recorded",
+            "Junior lienholders and tenants joined",
+            "Final judgment setting the amount due and the sale date",
+            "Clerk's sale, certificate of sale, then certificate of title"
+          ],
+          "trap": "Assuming an omitted junior lienholder is wiped out. A junior who was not joined keeps its lien and its right to redeem; the purchaser's remedy is a re-foreclosure.",
+          "tip": "Under § 45.031 the sale is ordinarily set 20 to 35 days after the judgment, and objections to the sale are due within 10 days after the certificate of sale is filed. Holders of unrecorded interests must intervene within 30 days after the lis pendens is recorded or be bound (§ 48.23).",
+          "authority": "Fla. Stat. §§ 702.01, 702.015, 48.23, 45.031"
+        },
+        {
+          "id": "fl-real-property.mortgages.redemption",
+          "title": "Equitable right of redemption",
+          "weight": 3,
+          "rule": "The mortgagor or the holder of any subordinate interest may redeem by paying the full amount specified in the foreclosure judgment at any time before the later of the clerk's filing of the certificate of sale or the time specified in the judgment. Florida gives no statutory right to redeem after the sale.",
+          "split": "Some states allow statutory redemption for months after the sale. Florida's right is equitable only and ends at the certificate of sale (unless the judgment sets a later time).",
+          "trap": "Allowing the borrower to redeem after the certificate of sale has been filed, or letting the mortgagor redeem by paying only the missed installments when the note has been accelerated.",
+          "tip": "A clause in the mortgage waiving the right to redeem is an unenforceable clog on the equity of redemption.",
+          "authority": "Fla. Stat. § 45.0315"
+        },
+        {
+          "id": "fl-real-property.mortgages.deficiency",
+          "title": "Deficiency judgments",
+          "weight": 2,
+          "rule": "Whether to enter a deficiency judgment is within the foreclosure court's sound discretion; if the court neither grants nor denies one, the lender may sue at law for the deficiency. For owner-occupied residential property the deficiency may not exceed the judgment amount (or, after a short sale, the outstanding debt) minus the property's fair market value on the date of sale, and an action for a deficiency on a one-to-four-family residential mortgage must be brought within one year after the clerk issues the certificate of title (or the lender accepts a deed in lieu).",
+          "trap": "Measuring the deficiency on an owner-occupied home as the judgment minus a low auction price when the fair market value was higher.",
+          "tip": "A property that carried a homestead tax exemption on the latest roll is presumed owner-occupied for this purpose.",
+          "authority": "Fla. Stat. §§ 702.06, 95.11(5)(h)"
+        },
+        {
+          "id": "fl-real-property.mortgages.priority",
+          "title": "Priority of mortgages and liens",
+          "weight": 2,
+          "rule": "Priority generally follows the recording act: a later mortgagee for value without notice takes priority over an earlier unrecorded mortgage. A purchase-money mortgage given when the buyer acquires title has priority over judgment liens and other claims that attach through the buyer. Foreclosure of a senior mortgage cuts off properly joined juniors, while foreclosure of a junior leaves the senior lien intact, so the sale purchaser takes subject to it.",
+          "trap": "Having a junior's foreclosure wipe out the senior mortgage.",
+          "authority": "Fla. Stat. § 695.01"
+        },
+        {
+          "id": "fl-real-property.mortgages.transfers",
+          "title": "Assumption, 'subject to' and due-on-sale",
+          "weight": 2,
+          "rule": "A buyer who assumes the mortgage becomes personally liable for the debt, while a buyer who takes 'subject to' the mortgage is not personally liable though the land stays encumbered; either way the original mortgagor remains liable unless the lender releases it by novation. Due-on-sale clauses are enforceable under federal law, so a transfer without the lender's consent allows acceleration, subject to federal exceptions for certain family and trust transfers of residential property.",
+          "trap": "Letting the original borrower escape liability merely because the buyer assumed the loan.",
+          "authority": "12 U.S.C. § 1701j-3 (Garn–St Germain Act)"
+        },
+        {
+          "id": "fl-real-property.mortgages.limitations",
+          "title": "Limitations and expiration of the lien",
+          "weight": 2,
+          "rule": "An action to foreclose a mortgage must be brought within 5 years. When an earlier foreclosure is dismissed, each later default gives rise to a new 5-year period, so the lender may foreclose based on defaults within the 5 years before the new suit (Bartram). Separately, the lien itself terminates 5 years after the maturity date shown in the recorded mortgage, or 20 years after the mortgage's date if the maturity is not ascertainable from the record.",
+          "trap": "Holding the entire debt time-barred because the lender accelerated more than 5 years ago in a suit that was later dismissed.",
+          "authority": "Fla. Stat. §§ 95.11(2)(c), 95.281; Bartram v. U.S. Bank Nat'l Ass'n, 211 So. 3d 1009 (Fla. 2016)"
+        }
+      ]
+    },
+    {
+      "id": "fl-real-property.ownership-and-possession",
+      "title": "Concurrent ownership, adverse possession and community associations",
+      "weight": 2,
+      "exams": [
+        "FL"
+      ],
+      "intro": "This topic collects the Florida variations on co-ownership and possession: the strong tenancy-by-the-entirety presumption, the statutory abolition of implied survivorship, the two 7-year adverse-possession statutes, the 20-year prescriptive period, and the basics of condominium and homeowners' associations. Tenancy by the entirety is the piece most often tested, usually alongside homestead and a creditor.",
+      "rules": [
+        {
+          "id": "fl-real-property.ownership-and-possession.tenancy-by-entirety",
+          "title": "Tenancy by the entirety",
+          "weight": 3,
+          "rule": "A tenancy by the entirety exists only between spouses and requires the unities of possession, interest, title and time plus marriage; Florida recognizes it in both real and personal property, and property (including a bank account) titled jointly in the names of spouses is presumed to be held by the entirety unless the instrument expressly disclaims it. Neither spouse alone can convey or encumber it, a creditor of only one spouse cannot reach it (a joint creditor of both can), the survivor takes the whole on the other's death, and dissolution of marriage converts it to a tenancy in common.",
+          "elements": [
+            "Unity of possession",
+            "Unity of interest",
+            "Unity of title",
+            "Unity of time",
+            "Unity of marriage (plus survivorship)"
+          ],
+          "split": "Many states have abolished tenancy by the entirety or limit it to real property. Florida keeps it for real and personal property and presumes it for spousal joint accounts (Beal Bank).",
+          "trap": "Letting a judgment creditor of the husband alone levy on entireties property, or treating an entireties home as passing under the deceased spouse's will.",
+          "authority": "Beal Bank, SSB v. Almand & Assocs., 780 So. 2d 45 (Fla. 2001); Fla. Stat. § 689.15"
+        },
+        {
+          "id": "fl-real-property.ownership-and-possession.joint-tenancy",
+          "title": "Joint tenancy, tenancy in common and partition",
+          "weight": 2,
+          "rule": "Florida abolishes survivorship among co-owners other than spouses holding by the entirety unless the instrument expressly provides for a right of survivorship, so a conveyance to two or more people without that express language creates a tenancy in common. A joint tenant with right of survivorship may sever by conveying his or her share, and any co-tenant may sue for partition.",
+          "split": "At common law and on the MBE, 'to A and B as joint tenants' creates a joint tenancy with survivorship. In Florida, survivorship must be expressly stated.",
+          "tip": "A co-tenant in sole possession owes the others no rent absent ouster or agreement, but must account for rents collected from third parties and may seek contribution for taxes and mortgage payments.",
+          "trap": "Awarding the whole property to the surviving co-owner when the deed said only 'as joint tenants'.",
+          "authority": "Fla. Stat. § 689.15; Fla. Stat. ch. 64 (partition)"
+        },
+        {
+          "id": "fl-real-property.ownership-and-possession.adverse-possession-color",
+          "title": "Adverse possession under color of title",
+          "weight": 2,
+          "rule": "A claimant who enters under a written instrument or judgment that purports to convey title, and who is in actual, continued possession for 7 years under that claim exclusive of any other right, acquires title. Land is possessed when it is usually cultivated or improved or protected by a substantial enclosure, and when part of a tract described in the instrument is actually possessed the claimant constructively possesses the rest of the described tract.",
+          "elements": [
+            "Claim founded on a written instrument or judgment (color of title)",
+            "Actual, open, continuous, exclusive and hostile possession",
+            "7 years",
+            "Possession shown by cultivation, improvement or substantial enclosure"
+          ],
+          "split": "Many states require 10–21 years. Florida requires 7 years under either statute.",
+          "tip": "Contrast the without-color statute: only the color-of-title claimant gets constructive possession of the whole tract described in the instrument, and only the without-color claimant must file a return and pay the taxes.",
+          "authority": "Fla. Stat. § 95.16"
+        },
+        {
+          "id": "fl-real-property.ownership-and-possession.adverse-possession-without-color",
+          "title": "Adverse possession without color of title",
+          "weight": 2,
+          "rule": "A claimant without a written instrument acquires title only to the land actually possessed after 7 years of continuous adverse possession, and only if, within 1 year after entering possession, the claimant files a return describing the property with the county property appraiser and pays all outstanding taxes and matured special-assessment installments, and then pays the taxes for each remaining year of the 7-year period. The land must be cultivated or improved, or protected by a substantial enclosure.",
+          "elements": [
+            "Actual, continued possession for 7 years under a claim of title exclusive of others",
+            "Return filed with the property appraiser within 1 year of entry",
+            "All outstanding taxes and matured special assessments paid within 1 year of entry",
+            "Taxes paid for the rest of the 7 years",
+            "Cultivation, improvement or substantial enclosure"
+          ],
+          "trap": "Awarding title to a squatter who used the land openly for 7 years but never filed the return or paid the taxes. Without color of title, the return and tax payments are mandatory.",
+          "tip": "If the record owner also pays the taxes, the owner's payment is given priority and the possessor's payment is refunded (§ 197.3335), which defeats the possessor's tax element.",
+          "authority": "Fla. Stat. §§ 95.18, 197.3335"
+        },
+        {
+          "id": "fl-real-property.ownership-and-possession.easements",
+          "title": "Prescriptive easements and ways of necessity",
+          "weight": 2,
+          "rule": "A prescriptive easement requires actual, continuous and uninterrupted use for 20 years, adverse to the owner under a claim of right, with the owner's actual knowledge or use so open and notorious that knowledge is imputed; it must be proved by clear and positive evidence, and permissive use never ripens. Land shut off from any practicable route to a public road may have a common-law way of necessity across the grantor's land, and a statutory way of necessity, on payment of compensation, is available for landlocked land used or to be used for a dwelling or for agricultural, timber or stock-raising purposes.",
+          "split": "In most states the prescriptive period matches the adverse-possession period. Florida uses 20 years for prescription though adverse possession takes only 7.",
+          "trap": "Using 7 years for a prescriptive easement.",
+          "authority": "Downing v. Bird, 100 So. 2d 57 (Fla. 1958); Fla. Stat. §§ 704.01, 704.04"
+        },
+        {
+          "id": "fl-real-property.ownership-and-possession.condominium",
+          "title": "Condominiums (chapter 718)",
+          "weight": 2,
+          "rule": "A condominium is created by recording a declaration; each unit owner holds title to the unit plus an undivided share of the common elements that is appurtenant to the unit and cannot be separated from it. The association, governed by an elected board, maintains the common elements, levies assessments, enforces the declaration and rules, and must give owners access to official records and notice of board meetings. Since the 2022 post-Surfside legislation, buildings of three or more stories must undergo milestone structural inspections, and associations must obtain structural integrity reserve studies and fund the required structural reserves, which owners can no longer waive.",
+          "tip": "A buyer purchasing from the developer may cancel within 15 days after signing the contract and receiving the required documents (§ 718.503).",
+          "trap": "Treating a unit owner's share of the common elements as separately conveyable or partitionable.",
+          "authority": "Fla. Stat. §§ 718.104, 718.106, 718.112, 718.503, 553.899"
+        },
+        {
+          "id": "fl-real-property.ownership-and-possession.hoa-governance",
+          "title": "Homeowners' associations (chapter 720)",
+          "weight": 1,
+          "rule": "A homeowners' association governs a residential community through a recorded declaration of covenants that runs with the land and binds later owners. Each member and the member's tenants and guests must comply with chapter 720, the governing documents and the association's rules, and the association or any member may sue to enforce them, with the prevailing party recovering reasonable attorney's fees and costs.",
+          "tip": "Covenant disputes between an owner and the association often require pre-suit mediation or arbitration under § 720.311 before filing.",
+          "trap": "Assuming HOA covenants are immune from the Marketable Record Title Act. They can lapse after 30 years unless preserved or revived.",
+          "authority": "Fla. Stat. §§ 720.305, 720.311"
+        },
+        {
+          "id": "fl-real-property.ownership-and-possession.association-liens",
+          "title": "Assessment liens and the first-mortgagee safe harbor",
+          "weight": 2,
+          "rule": "Condominium and HOA assessments are personal obligations of the owner and are secured by a lien on the parcel that the association may foreclose like a mortgage. A first mortgagee that acquires title by foreclosure or deed in lieu is liable only for the lesser of 12 months of assessments that came due before it took title or 1% of the original mortgage debt.",
+          "exceptions": [
+            "The safe harbor protects the first mortgagee (and its successors or assignees), not a third-party purchaser at the sale",
+            "A new owner other than a protected first mortgagee is jointly and severally liable with the prior owner for all unpaid assessments due when title transfers"
+          ],
+          "trap": "Making a foreclosing first-mortgage lender pay three years of delinquent assessments.",
+          "authority": "Fla. Stat. §§ 718.116, 720.3085"
+        }
+      ]
+    }
+  ]
+}

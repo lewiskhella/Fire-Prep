@@ -1,0 +1,370 @@
+{
+ "subject": "fl-family-law",
+ "questions": [
+  {
+   "id": "fl-family-law.q001",
+   "topic": "fl-family-law.dissolution",
+   "rules": [
+    "fl-family-law.dissolution.residency"
+   ],
+   "difficulty": 1,
+   "stem": "Marisol and Theo married in Georgia and lived there for eight years. In March, Marisol moved alone to Tampa, rented an apartment, obtained a Florida driver license, and registered to vote in Hillsborough County. Theo stayed in Georgia. In late July, Marisol filed a petition for dissolution in Hillsborough County, alleging that the marriage is irretrievably broken. Theo, served in Georgia, moves to dismiss, arguing that the Florida court cannot dissolve the marriage.",
+   "call": "How should the court rule on Theo's motion?",
+   "choices": [
+    "Deny it, because Marisol's Florida driver license and voter registration corroborate her residency.",
+    "Grant it, because neither party had resided in Florida for six months before the petition was filed.",
+    "Grant it, because the marriage was celebrated in Georgia and both spouses lived there throughout the marriage.",
+    "Deny it, because residency is measured at the final hearing, by which time Marisol will have lived in Florida for more than six months."
+   ],
+   "answer": 1,
+   "explanation": "At least one party must have resided in Florida for six months before the petition is filed. Marisol moved in March and filed in late July, roughly four to five months later, and Theo never lived in Florida. Corroboration matters only once the six-month period has run, so the petition is premature and should be dismissed (she may refile once eligible).",
+   "whyNot": [
+    "Corroborating documents prove residency but cannot shorten the required six-month period.",
+    "",
+    "Where the marriage was celebrated is irrelevant; a Florida court can dissolve any marriage once a party satisfies the residency requirement.",
+    "The six months is measured back from the filing of the petition, not from the date of the final hearing."
+   ]
+  },
+  {
+   "id": "fl-family-law.q002",
+   "topic": "fl-family-law.dissolution",
+   "rules": [
+    "fl-family-law.dissolution.personal-jurisdiction"
+   ],
+   "difficulty": 2,
+   "stem": "Dana and Rafe lived together in Ohio for their entire 11-year marriage. Dana moved to Orlando with no intention of returning to Ohio and, after living there for seven months, filed a petition for dissolution in Orange County seeking alimony and equitable distribution of the parties' Ohio bank accounts. Rafe has never been to Florida, owns no property here, and was served only by publication. He has not appeared.",
+   "call": "What relief may the Florida court grant?",
+   "choices": [
+    "None, because the court lacks personal jurisdiction over Rafe.",
+    "A dissolution of the marriage, an alimony award, and a division of the Ohio accounts, because Dana satisfied the residency requirement.",
+    "A dissolution of the marriage and an alimony award, but not a division of the Ohio accounts.",
+    "A dissolution of the marriage only."
+   ],
+   "answer": 3,
+   "explanation": "Under divisible divorce, a court with a resident petitioner may change the marital status on constructive service, but alimony and division of property outside Florida require personal jurisdiction over the respondent. Florida's long-arm statute does not reach Rafe: the parties never kept a matrimonial domicile in Florida and he never resided here. The court may dissolve the marriage but may not enter money or property orders against him.",
+   "whyNot": [
+    "Status jurisdiction does not depend on personal jurisdiction; a resident petitioner can obtain the dissolution itself.",
+    "Residency supports only the dissolution; alimony and a division of out-of-state assets need personal jurisdiction over Rafe.",
+    "An alimony award is a personal obligation and requires personal jurisdiction over the payor, which the court lacks.",
+    ""
+   ]
+  },
+  {
+   "id": "fl-family-law.q003",
+   "topic": "fl-family-law.dissolution",
+   "rules": [
+    "fl-family-law.dissolution.void-voidable-common-law"
+   ],
+   "difficulty": 1,
+   "stem": "Lena and Okon began living together in Fort Lauderdale in 1995. They never obtained a marriage license or held a ceremony, but they wore wedding rings, filed joint tax returns as a married couple, and introduced each other as spouses. They have never lived outside Florida. The relationship has ended, and Lena files a petition for dissolution of marriage seeking equitable distribution and alimony.",
+   "call": "How should the court rule?",
+   "choices": [
+    "Dismiss the petition, because Lena and Okon are not legally married.",
+    "Grant relief under Chapter 61, because they held themselves out as married for decades.",
+    "Grant relief under Chapter 61, but only as to property acquired in joint names.",
+    "Deny alimony but grant equitable distribution, because cohabitants are entitled to divide jointly accumulated assets."
+   ],
+   "answer": 0,
+   "explanation": "Florida does not recognize common-law marriages entered into after January 1, 1968. Because the couple never formalized a marriage and never lived in a state that recognizes common-law marriage, there is no marriage to dissolve, and Chapter 61 remedies (alimony and equitable distribution) are unavailable. Any property claims must proceed under ordinary contract or co-ownership theories.",
+   "whyNot": [
+    "",
+    "Holding out does not create a marriage in Florida for relationships formed after 1967.",
+    "Chapter 61 does not apply to any of their property because there is no marriage; jointly titled property is divided under co-ownership law, such as partition.",
+    "Equitable distribution is a Chapter 61 remedy available only to spouses; cohabitants must use contract, partnership or co-ownership claims."
+   ]
+  },
+  {
+   "id": "fl-family-law.q004",
+   "topic": "fl-family-law.property-and-alimony",
+   "rules": [
+    "fl-family-law.property-and-alimony.classification",
+    "fl-family-law.property-and-alimony.commingling"
+   ],
+   "difficulty": 2,
+   "stem": "During the marriage, Priya inherited $120,000 from her aunt. She deposited it into the joint checking account she shared with her husband, Gil, into which both spouses' paychecks were deposited and from which all household bills were paid. Over the next six years, the account balance rose and fell repeatedly, and it was used to buy cars, pay the mortgage, and fund vacations. At the time of filing, the account holds $95,000. Priya has no records allowing her to trace any particular funds to the inheritance.",
+   "call": "How should the court treat the $95,000 balance?",
+   "choices": [
+    "As Priya's nonmarital asset, because an inheritance is nonmarital regardless of how it is later held.",
+    "As Priya's nonmarital asset up to $95,000, because the account never dropped below that figure in any month.",
+    "As a marital asset subject to equitable distribution.",
+    "As a marital asset, but Priya must automatically receive a credit for $120,000 before the rest is divided."
+   ],
+   "answer": 2,
+   "explanation": "An inheritance received individually is nonmarital when received, but it can lose that character when commingled with marital funds so that it can no longer be traced. Priya placed the money in a joint account funded by both spouses' wages and used it for family expenses for years, and she cannot trace any portion of the balance to the inheritance. The balance is marital and is divided starting from an equal split.",
+   "whyNot": [
+    "Nonmarital character can be lost through commingling and untraceable use for marital purposes.",
+    "The facts state the balance rose and fell repeatedly and Priya has no records; she bears the burden of tracing and cannot meet it.",
+    "",
+    "Florida has no automatic credit for untraceable commingled nonmarital funds; any unequal division must rest on the statutory factors."
+   ]
+  },
+  {
+   "id": "fl-family-law.q005",
+   "topic": "fl-family-law.property-and-alimony",
+   "rules": [
+    "fl-family-law.property-and-alimony.appreciation"
+   ],
+   "difficulty": 3,
+   "stem": "Before marrying Joaquin, Bettina bought a house in her own name subject to a mortgage. The parties lived in the house throughout their 9-year marriage, and the mortgage payments were made from their joint account, which held only their wages. Title was never changed. Neither spouse made improvements; the house rose in value solely because of the local real estate market. In the dissolution, Joaquin claims a share of the house's increase in value.",
+   "call": "How should the court treat the house?",
+   "choices": [
+    "The home is nonmarital, but the marital estate shares in the passive appreciation in proportion to the mortgage principal paid down with marital funds.",
+    "The entire house is marital, because the mortgage was paid with marital funds and the parties used it as the marital home.",
+    "The entire house, including all appreciation, is Bettina's nonmarital asset because title remained in her name and the increase was purely passive.",
+    "The house is nonmarital, but Joaquin is entitled to half of the house's entire appreciation since the marriage."
+   ],
+   "answer": 0,
+   "explanation": "Passive appreciation of a nonmarital asset generally stays nonmarital, but when marital funds pay down the mortgage on a nonmarital home, the marital estate shares in the passive appreciation proportionally to the paydown (Kaaa). The house itself and Bettina's premarital equity remain nonmarital; the marital share is the paydown plus the appropriate portion of the appreciation.",
+   "whyNot": [
+    "",
+    "Using marital funds and living in the home do not convert the entire nonmarital house into a marital asset.",
+    "Title and the passive nature of the increase do not defeat the marital estate's claim to the share of appreciation tied to marital mortgage payments.",
+    "The marital share is proportional to the marital paydown, not an automatic half of all appreciation."
+   ]
+  },
+  {
+   "id": "fl-family-law.q006",
+   "topic": "fl-family-law.property-and-alimony",
+   "rules": [
+    "fl-family-law.property-and-alimony.alimony-threshold-and-types",
+    "fl-family-law.property-and-alimony.durational"
+   ],
+   "difficulty": 2,
+   "stem": "Corinne and Abbott married 22 years before Corinne filed for dissolution in 2025. Corinne, now 58, left her nursing career early in the marriage at Abbott's request to raise their children and has not worked outside the home since; her license lapsed long ago. Abbott earns a high salary as a hospital administrator. The court finds that Corinne has an actual need for support, that Abbott has the ability to pay, and that retraining Corinne is not realistic given her age and health.",
+   "call": "Which award is available to Corinne?",
+   "choices": [
+    "Permanent periodic alimony, because the marriage is long-term and Corinne cannot become self-supporting.",
+    "Durational alimony lasting no longer than 75 percent of the length of the marriage, absent exceptional circumstances.",
+    "Rehabilitative alimony only, because it is the only form of long-term support that survived the 2023 reform.",
+    "No alimony, because an equal distribution of a long-term marital estate presumptively meets both spouses' needs."
+   ],
+   "answer": 1,
+   "explanation": "Since July 1, 2023, permanent alimony may not be awarded. A 22-year marriage is long-term (20 years or more), so durational alimony is available but capped at 75 percent of the marriage's length (16.5 years) unless the court finds exceptional circumstances. Once need and ability to pay are found, durational alimony is the appropriate vehicle for a spouse who cannot be rehabilitated.",
+   "whyNot": [
+    "The 2023 amendments eliminated permanent alimony for new awards.",
+    "",
+    "Rehabilitative alimony requires a specific plan for self-support and is capped at five years; the court found rehabilitation unrealistic.",
+    "Property distribution is considered in assessing need, but there is no presumption that it eliminates alimony; the court already found actual need and ability to pay."
+   ]
+  },
+  {
+   "id": "fl-family-law.q007",
+   "topic": "fl-family-law.property-and-alimony",
+   "rules": [
+    "fl-family-law.property-and-alimony.durational"
+   ],
+   "difficulty": 2,
+   "stem": "Wendell and Harriet were married for exactly 12 years when Harriet petitioned for dissolution. Wendell's monthly net income is $10,000 and Harriet's is $2,000. The court finds that Harriet has a reasonable need for $3,500 per month in support, that Wendell can pay, and that durational alimony is the appropriate form. There are no exceptional circumstances, and neither party asks for any other form of alimony. Harriet has not remarried.",
+   "call": "What is the maximum durational alimony award the court may make?",
+   "choices": [
+    "$3,500 per month for up to 6 years.",
+    "$2,800 per month for up to 9 years.",
+    "$2,800 per month for up to 7.2 years.",
+    "$4,000 per month for up to 6 years."
+   ],
+   "answer": 2,
+   "explanation": "A 12-year marriage is moderate-term (10 to under 20 years), so durational alimony may last no more than 60 percent of the marriage: 7.2 years. The amount may not exceed the lesser of the recipient's reasonable need ($3,500) or 35 percent of the difference in net incomes (35% x $8,000 = $2,800). The cap is therefore $2,800 per month for up to 7.2 years.",
+   "whyNot": [
+    "The amount is capped at the lesser of need or 35 percent of the income difference, which is $2,800, and 6 years understates the 60 percent duration limit.",
+    "Nine years is 75 percent of the marriage, the limit for a long-term marriage, not a moderate-term one.",
+    "",
+    "Half the income difference is not the statutory measure, and $4,000 exceeds both Harriet's need and the 35 percent cap."
+   ]
+  },
+  {
+   "id": "fl-family-law.q008",
+   "topic": "fl-family-law.property-and-alimony",
+   "rules": [
+    "fl-family-law.property-and-alimony.modification"
+   ],
+   "difficulty": 2,
+   "stem": "A 2016 Florida judgment ordered Lorne to pay his former wife permanent periodic alimony. In 2025, Lorne, then 47 and in good health, resigned from his job as a structural engineer to become a part-time surfing instructor, cutting his income by 70 percent. He petitions to terminate alimony, arguing that his income has permanently declined and that Florida abolished permanent alimony in 2023. His former wife has not remarried and lives alone.",
+   "call": "How should the court rule?",
+   "choices": [
+    "Terminate alimony, because the 2023 reform ended all permanent alimony obligations.",
+    "Reduce alimony, because Lorne's income decline is substantial and permanent.",
+    "Convert the award to durational alimony capped by the length of the marriage.",
+    "Deny the petition, because a voluntary reduction in income is not a qualifying change in circumstances."
+   ],
+   "answer": 3,
+   "explanation": "Modification requires a substantial change in circumstances that was not contemplated at the time of the judgment and is sufficient, material, involuntary and permanent. Lorne chose to leave his profession at 47; a self-induced income drop does not qualify, and the court may impute income at his earning capacity. The 2023 reform barred new permanent awards but did not automatically terminate existing ones.",
+   "whyNot": [
+    "The 2023 law prevents courts from awarding permanent alimony going forward; it did not automatically end existing permanent awards.",
+    "The change must be involuntary; quitting a well-paying job is voluntary.",
+    "There is no automatic conversion of existing permanent awards to durational alimony.",
+    ""
+   ]
+  },
+  {
+   "id": "fl-family-law.q009",
+   "topic": "fl-family-law.children",
+   "rules": [
+    "fl-family-law.children.best-interests"
+   ],
+   "difficulty": 2,
+   "stem": "In a 2025 dissolution, Nadia and Curtis both seek time-sharing with their 6-year-old son. Nadia proposes that the boy live with her 70 percent of the time because she was the primary caregiver while Curtis worked long hours. Curtis, who now works remotely with a flexible schedule, asks for equal time-sharing. Both are loving, fit parents who live 10 minutes apart in the same school zone. Neither offers other evidence bearing on the child's best interests.",
+   "call": "What time-sharing schedule should the court adopt?",
+   "choices": [
+    "Equal time-sharing, because Nadia has not proved by a preponderance of the evidence that equal time-sharing is not in the child's best interests.",
+    "The 70/30 schedule, because Florida favors the parent who served as primary caregiver during the marriage.",
+    "The 70/30 schedule, because a child of tender years should spend the majority of time with the mother.",
+    "Equal time-sharing, but only if Curtis proves by clear and convincing evidence that it is in the child's best interests."
+   ],
+   "answer": 0,
+   "explanation": "Since July 1, 2023, Florida presumes that equal time-sharing is in the child's best interests. The party opposing equal time-sharing must rebut the presumption by a preponderance of the evidence under the statutory factors. Nadia's history as primary caregiver is relevant, but on these facts (two fit parents, close homes, flexible schedules) she has not rebutted the presumption.",
+   "whyNot": [
+    "",
+    "Past caregiving is one consideration among the statutory factors, not a rule that controls the outcome; it does not by itself rebut the presumption.",
+    "Florida decides time-sharing without regard to the sex of the parent; there is no tender-years preference.",
+    "The presumption favors equal time-sharing; Curtis bears no burden, and the rebuttal standard is preponderance, not clear and convincing evidence."
+   ]
+  },
+  {
+   "id": "fl-family-law.q010",
+   "topic": "fl-family-law.children",
+   "rules": [
+    "fl-family-law.children.support-guidelines"
+   ],
+   "difficulty": 3,
+   "stem": "Ines and Bram have one child. Bram's net income is $6,000 per month and Ines's is $4,000. Under the guidelines schedule, the basic monthly obligation for one child at a combined net income of $10,000 is $1,500. The parenting plan gives Ines 219 overnights a year and Bram 146. There are no child-care, health-insurance, or noncovered medical costs, and the court finds no reason to deviate from the guidelines.",
+   "call": "What monthly child support should Bram pay Ines?",
+   "choices": [
+    "$900",
+    "$1,350",
+    "$450",
+    "Nothing, because each parent has substantial time-sharing and the obligations offset."
+   ],
+   "answer": 2,
+   "explanation": "Each parent has at least 20 percent of overnights, so the substantial time-sharing formula applies. Multiply the basic obligation by 1.5 ($2,250). Bram's 60 percent share is $1,350; Ines's 40 percent share is $900. Multiply each by the other parent's share of overnights: Bram $1,350 x 60% = $810; Ines $900 x 40% = $360. Bram pays the difference: $450.",
+   "whyNot": [
+    "$900 is Bram's income share of the unadjusted basic obligation; it ignores the required substantial time-sharing adjustment.",
+    "$1,350 is Bram's share of the 1.5-multiplied obligation before weighting by overnights and offsetting.",
+    "",
+    "Substantial time-sharing changes the calculation but does not eliminate support; the higher-earning parent with fewer overnights still owes the net difference."
+   ]
+  },
+  {
+   "id": "fl-family-law.q011",
+   "topic": "fl-family-law.children",
+   "rules": [
+    "fl-family-law.children.relocation"
+   ],
+   "difficulty": 2,
+   "stem": "Under a Florida parenting plan, Selma and Jonah share time-sharing of their daughter in Pensacola. Selma receives a job offer in Atlanta. Jonah refuses to sign a relocation agreement, so Selma files a sworn petition to relocate that contains all the information the statute requires, attaches the written job offer, and includes the statutory notice in capital letters. Jonah is personally served but files nothing. Forty days later Selma asks the court to approve the move.",
+   "call": "How should the court proceed?",
+   "choices": [
+    "Set an evidentiary hearing, because there is no presumption for or against relocation.",
+    "Presume the relocation is in the child's best interests and, absent good cause, enter an order permitting it.",
+    "Deny the petition, because a parent may not relocate more than 50 miles without the other parent's written consent.",
+    "Set the matter for trial, because the relocating parent always bears the burden of proving the move serves the child's best interests."
+   ],
+   "answer": 1,
+   "explanation": "When a properly served parent fails to file a timely sworn objection to a compliant petition to relocate, the relocation is presumed to be in the child's best interests and the court should, absent good cause, enter an order permitting it, with the proposed time-sharing schedule and transportation arrangements.",
+   "whyNot": [
+    "The no-presumption rule and the burden-shifting framework apply only when the other parent files a timely objection.",
+    "",
+    "Written agreement is one route; a petition to relocate is the alternative when the other parent will not agree.",
+    "Selma would bear that burden at a contested trial, but Jonah's failure to object triggers the presumption and makes a trial unnecessary."
+   ]
+  },
+  {
+   "id": "fl-family-law.q012",
+   "topic": "fl-family-law.interstate-jurisdiction",
+   "rules": [
+    "fl-family-law.interstate-jurisdiction.uccjea-initial"
+   ],
+   "difficulty": 2,
+   "stem": "Ottilie and Benedikt lived in Jacksonville with their son from his birth until he was four. No court has ever entered a custody order. In January, Ottilie took the boy to Texas, where her family lives, and enrolled him in school there. Benedikt stayed in Jacksonville. In April, Benedikt filed a petition for dissolution and a parenting plan in Duval County. Ottilie, served in Texas, moves to dismiss the parenting claims for lack of jurisdiction.",
+   "call": "Does the Florida court have jurisdiction to determine time-sharing?",
+   "choices": [
+    "No, because the child now lives in Texas and is enrolled in school there.",
+    "No, because no state is the home state until the child has lived in Texas for six months.",
+    "Yes, but only if the court also has personal jurisdiction over Ottilie.",
+    "Yes, because Florida was the child's home state within six months before filing and a parent still lives in Florida."
+   ],
+   "answer": 3,
+   "explanation": "Under the UCCJEA, Florida has initial jurisdiction if it was the child's home state within six months before the proceeding began and a parent continues to live here. The child lived in Florida for four years until January, Benedikt filed in April, and Benedikt still lives in Jacksonville. Florida has home-state jurisdiction; Texas does not, because the child has not lived there for six months.",
+   "whyNot": [
+    "Current residence does not control; Florida's home-state status carries forward for six months after the child leaves while a parent remains.",
+    "Florida remains the home state under the six-month extension rule, so the case does not fall into a no-home-state gap.",
+    "Custody determinations do not require personal jurisdiction over the parent, only notice and an opportunity to be heard.",
+    ""
+   ]
+  },
+  {
+   "id": "fl-family-law.q013",
+   "topic": "fl-family-law.agreements-and-protection",
+   "rules": [
+    "fl-family-law.agreements-and-protection.premarital-enforcement",
+    "fl-family-law.agreements-and-protection.premarital-formation"
+   ],
+   "difficulty": 3,
+   "stem": "Three weeks before their 2015 wedding, Nora and Felix signed a premarital agreement in which Nora waived alimony and any interest in Felix's businesses. Nora had her own lawyer. Felix gave her a one-page summary of his holdings, and the agreement contained a separate, signed paragraph in which Nora expressly waived any disclosure beyond that summary. Nora now earns a solid salary as a pharmacist. In the dissolution, she argues the agreement is so one-sided that it was unconscionable when signed. She alleges no fraud, duress or coercion.",
+   "call": "Is the premarital agreement enforceable?",
+   "choices": [
+    "No, because an agreement that was unconscionable when executed is unenforceable.",
+    "No, because Nora received no consideration for waiving her rights.",
+    "Yes, because Nora voluntarily and expressly waived in writing any disclosure beyond what she received.",
+    "Yes as to the business interests, but no as to alimony, because spousal support cannot be waived before marriage."
+   ],
+   "answer": 2,
+   "explanation": "Under § 61.079(7), unconscionability makes a premarital agreement unenforceable only if, in addition, the challenger was not given fair and reasonable disclosure, did not voluntarily and expressly waive further disclosure in writing, and lacked adequate knowledge of the other's finances. Nora signed an express written waiver, had counsel, and alleges no fraud, duress, coercion or overreaching, so the agreement is enforceable.",
+   "whyNot": [
+    "Unconscionability alone is insufficient; it must be paired with all three disclosure-related failures, and Nora's written waiver defeats one of them.",
+    "A premarital agreement is enforceable without consideration.",
+    "",
+    "Premarital agreements may modify or eliminate spousal support; the court can override the waiver only to keep a party from becoming eligible for public assistance, which is not the case for Nora."
+   ]
+  },
+  {
+   "id": "fl-family-law.q014",
+   "topic": "fl-family-law.agreements-and-protection",
+   "rules": [
+    "fl-family-law.agreements-and-protection.dv-standing",
+    "fl-family-law.agreements-and-protection.other-injunctions"
+   ],
+   "difficulty": 1,
+   "stem": "Tamsin dated Royce for eight months. They saw each other several times a week but always kept separate apartments, never lived together, and have no children. Two weeks after Tamsin ended the relationship, Royce confronted her in a parking lot and struck her in the face, leaving a bruise. A witness called the police. Tamsin files a petition for an injunction for protection against domestic violence under section 741.30.",
+   "call": "Is Tamsin entitled to the injunction she has requested?",
+   "choices": [
+    "Yes, because any person battered by a current or former intimate partner may obtain a domestic violence injunction.",
+    "No, because she and Royce are not family or household members, though she may qualify for a dating violence injunction.",
+    "Yes, because the dating relationship existed within the six months before the petition.",
+    "No, because a single incident of violence is not enough for any protective injunction."
+   ],
+   "answer": 1,
+   "explanation": "A domestic violence injunction is limited to family or household members. Except for parents of a child in common, the parties must live or have lived together in a single dwelling. Tamsin and Royce never lived together and have no child, so section 741.30 does not apply. Their continuing romantic relationship within the last six months, plus his act of violence, fits the dating violence injunction under section 784.046.",
+   "whyNot": [
+    "The domestic violence statute requires a family or household relationship, not just an intimate one.",
+    "",
+    "The six-month dating relationship is the test for a dating violence injunction, not a domestic violence injunction.",
+    "One act of violence supports a dating violence injunction; two incidents are required only for a repeat violence injunction."
+   ]
+  },
+  {
+   "id": "fl-family-law.q015",
+   "topic": "fl-family-law.dependency",
+   "rules": [
+    "fl-family-law.dependency.tpr-standard",
+    "fl-family-law.dependency.tpr-grounds"
+   ],
+   "difficulty": 2,
+   "stem": "After Kenji was adjudicated dependent, his father received a case plan requiring substance-abuse treatment and stable housing. Fourteen months later, the Department of Children and Families petitioned to terminate the father's rights for failure to substantially comply with the case plan. After a nonjury trial, the court found that the Department had proved that ground by a preponderance of the evidence, that termination was in Kenji's manifest best interests, and that it was the least restrictive means of protecting him. The father appeals.",
+   "call": "How should the appellate court rule?",
+   "choices": [
+    "Reverse, because the statutory ground had to be proved by clear and convincing evidence.",
+    "Affirm, because a preponderance of the evidence governs all Chapter 39 adjudications.",
+    "Reverse, because the father was entitled to a jury trial on termination.",
+    "Affirm, because failure to comply with a case plan for 12 months requires termination without further findings."
+   ],
+   "answer": 0,
+   "explanation": "Termination of parental rights requires proof of a statutory ground by clear and convincing evidence, along with findings that termination is in the child's manifest best interests and is the least restrictive means of protecting the child. Preponderance is the standard for a dependency adjudication, not for termination, so the judgment must be reversed.",
+   "whyNot": [
+    "",
+    "Preponderance applies to dependency adjudications; termination requires clear and convincing evidence as a matter of statute and due process.",
+    "Dependency and termination proceedings are tried to the judge without a jury.",
+    "Twelve months of noncompliance is evidence of a ground, not an automatic result; the court must still find manifest best interests and least restrictive means, and the ground must be proved by clear and convincing evidence."
+   ]
+  }
+ ]
+}

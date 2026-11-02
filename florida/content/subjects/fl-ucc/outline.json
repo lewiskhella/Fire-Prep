@@ -1,0 +1,625 @@
+{
+  "subject": "fl-ucc",
+  "topics": [
+    {
+      "id": "fl-ucc.negotiable-instruments",
+      "title": "Negotiable instruments: negotiability, negotiation and enforcement (Article 3)",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida enacted revised Article 3 as chapter 673, numbering each section by adding a final digit to the UCC section (UCC § 3-104 is Fla. Stat. § 673.1041). Part A questions start here: is the writing a negotiable instrument, was it properly negotiated, and is the plaintiff a person entitled to enforce it? In Florida mortgage foreclosure practice these same rules decide standing on the note.",
+      "rules": [
+        {
+          "id": "fl-ucc.negotiable-instruments.requirements",
+          "title": "Requirements of a negotiable instrument",
+          "weight": 3,
+          "rule": "A negotiable instrument is an unconditional promise or order to pay a fixed amount of money, with or without interest or other charges described in the promise or order, that is payable to bearer or to order when issued or when it first comes into a holder's possession, is payable on demand or at a definite time, and does not state any other undertaking or instruction by the person promising or ordering payment to do any act in addition to paying money.",
+          "elements": [
+            "Writing: a promise (note) or order (draft)",
+            "Unconditional",
+            "Fixed amount of money (interest may be fixed or variable)",
+            "Payable to bearer or to order (a check is excused from this requirement)",
+            "Payable on demand or at a definite time",
+            "No other undertaking or instruction, except permitted terms"
+          ],
+          "exceptions": [
+            "Permitted extra terms: an undertaking to give, maintain or protect collateral; an authorization to confess judgment or realize on collateral; and a waiver of any law intended to benefit the obligor.",
+            "Except for a check, a promise or order is not negotiable if, when issued, it conspicuously states that it is not negotiable or not an instrument governed by Article 3."
+          ],
+          "mnemonic": {
+            "cue": "U-FOMB-DT-NO",
+            "stands": "Unconditional, Fixed amount Of Money, Bearer or order, Demand or definite Time, No other promises"
+          },
+          "trap": "Treating a check that omits 'order' words ('Pay John Smith') as nonnegotiable. A check is negotiable even without words of order; a note so worded is not.",
+          "authority": "Fla. Stat. § 673.1041 (UCC § 3-104)"
+        },
+        {
+          "id": "fl-ucc.negotiable-instruments.unconditional-and-definite-time",
+          "title": "Unconditional promise; demand or definite time",
+          "weight": 2,
+          "rule": "A promise or order is conditional, and therefore not negotiable, if it states an express condition to payment, says it is subject to or governed by another writing, or says that rights or obligations with respect to it are stated in another writing; a mere reference to another writing does not make it conditional. An instrument is payable at a definite time if it is payable on elapse of a definite period after sight or acceptance, or at a fixed date or dates, even if subject to prepayment, acceleration, extension at the holder's option, or extension to a further definite time at the maker's option or on a stated event.",
+          "exceptions": [
+            "A reference to another writing for a statement of rights with respect to collateral, prepayment or acceleration does not make the promise conditional.",
+            "A promise is not conditional because payment is limited to a particular fund or source.",
+            "Interest may be stated as a variable rate, and the amount may be determined by reference to information outside the instrument."
+          ],
+          "trap": "Calling a note nonnegotiable because it 'is secured by a mortgage of even date.' A reference to collateral is allowed; 'subject to the terms of the mortgage' is what destroys negotiability.",
+          "authority": "Fla. Stat. §§ 673.1061, 673.1081, 673.1121 (UCC §§ 3-106, 3-108, 3-112)"
+        },
+        {
+          "id": "fl-ucc.negotiable-instruments.types-and-parties",
+          "title": "Notes, drafts, checks and their parties",
+          "weight": 2,
+          "rule": "A note is a promise to pay made by a maker to a payee; a draft is an order by a drawer directing a drawee to pay a payee; and a check is a draft drawn on a bank and payable on demand (including a cashier's check and a teller's check). A check or other draft does not itself operate as an assignment of funds in the drawer's account, and the drawee is not liable on it until the drawee accepts (for a check, certifies) it.",
+          "elements": [
+            "Note: maker (promisor) and payee",
+            "Draft: drawer, drawee, payee",
+            "Check: draft drawn on a bank, payable on demand",
+            "Cashier's check: drawer and drawee are the same bank; teller's check: drawn by one bank on another bank"
+          ],
+          "trap": "Letting the payee sue the drawee bank for refusing to pay an uncertified check. The drawee has no liability on the instrument until acceptance; the payee's claim is against the drawer.",
+          "authority": "Fla. Stat. §§ 673.1041, 673.4081, 673.4091 (UCC §§ 3-104, 3-408, 3-409)"
+        },
+        {
+          "id": "fl-ucc.negotiable-instruments.negotiation-and-indorsement",
+          "title": "Negotiation and kinds of indorsement",
+          "weight": 3,
+          "rule": "Negotiation is a transfer of possession of an instrument by a person other than the issuer to a person who thereby becomes its holder. An instrument payable to an identified person is negotiated by transfer of possession plus that person's indorsement; an instrument payable to bearer is negotiated by transfer of possession alone. A special indorsement names the person to whom the instrument becomes payable and makes it payable to that person's order, while a blank indorsement (a signature alone) makes the instrument payable to bearer until it is specially indorsed.",
+          "elements": [
+            "Special indorsement: 'Pay to Ana Lopez, [signed] B' — further negotiation requires Ana's indorsement",
+            "Blank indorsement: signature alone — bearer paper, negotiable by delivery",
+            "Restrictive indorsement: 'for deposit only' and similar collection indorsements limit how a depositary bank may apply payment; conditions and prohibitions on further transfer are ineffective to stop negotiation",
+            "Qualified indorsement ('without recourse'): disclaims the indorser's obligation to pay on dishonor",
+            "Anomalous indorsement: by a person who is not a holder, typically an accommodation party"
+          ],
+          "trap": "Holding that a thief who steals bearer paper cannot negotiate it. A thief of bearer paper can negotiate it to a holder in due course; a thief of order paper cannot, because a forged indorsement is not the payee's indorsement.",
+          "authority": "Fla. Stat. §§ 673.2011, 673.2041, 673.2051, 673.2061 (UCC §§ 3-201, 3-204, 3-205, 3-206)"
+        },
+        {
+          "id": "fl-ucc.negotiable-instruments.person-entitled-to-enforce",
+          "title": "Holder and person entitled to enforce",
+          "weight": 3,
+          "rule": "A person entitled to enforce an instrument is (1) its holder, (2) a nonholder in possession who has the rights of a holder (for example, by a transfer without the needed indorsement, or by subrogation), or (3) a person not in possession who may enforce under the lost-instrument or payment-by-mistake provisions. A holder is the person in possession of an instrument that is payable to bearer or payable to an identified person who is that person in possession; a person may be entitled to enforce even if not the owner of the instrument or in wrongful possession of it.",
+          "exceptions": [
+            "A transferee who takes order paper without the transferor's indorsement is not a holder, but under the shelter principle receives the transferor's right to enforce and may compel the unqualified indorsement it paid value for; negotiation, and any holder-in-due-course status, occurs only when the indorsement is made."
+          ],
+          "tip": "In a Florida residential foreclosure, the plaintiff must prove it was the person entitled to enforce the note when it filed the complaint, typically by attaching the original note specially indorsed to it or indorsed in blank, or by proving its rights as a nonholder in possession.",
+          "trap": "Equating ownership with the right to enforce. Article 3 asks who has possession and the right to enforce, not who owns the economic interest.",
+          "authority": "Fla. Stat. §§ 671.201, 673.2031, 673.3011 (UCC §§ 1-201, 3-203, 3-301)"
+        },
+        {
+          "id": "fl-ucc.negotiable-instruments.lost-instruments",
+          "title": "Enforcing a lost, destroyed or stolen instrument",
+          "weight": 2,
+          "rule": "A person not in possession may enforce a lost, destroyed or stolen instrument if the person was entitled to enforce it when possession was lost (or, under Florida's version, directly or indirectly acquired ownership from one who was so entitled), the loss was not the result of a transfer or a lawful seizure, and the person cannot reasonably obtain possession because the instrument was destroyed, its whereabouts cannot be determined, or it is in the wrongful possession of an unknown or unreachable person. The person must prove the instrument's terms and the right to enforce, and the court may not enter judgment unless the obligor is adequately protected against loss from another person's later claim to enforce.",
+          "elements": [
+            "Entitled to enforce when possession was lost (or Florida's acquired-ownership alternative)",
+            "Loss not due to transfer or lawful seizure",
+            "Cannot reasonably obtain possession",
+            "Proof of the instrument's terms and the right to enforce",
+            "Adequate protection for the obligor (for example, a bond or indemnity)"
+          ],
+          "split": "Florida amended § 673.3091 to let a person who acquired ownership of the note from someone who was entitled to enforce it at the time of loss enforce the lost note, a departure from the uniform text that matters in foreclosures by note purchasers.",
+          "authority": "Fla. Stat. § 673.3091 (UCC § 3-309); see Fla. Stat. § 702.11"
+        },
+        {
+          "id": "fl-ucc.negotiable-instruments.underlying-obligation",
+          "title": "Effect of an instrument on the underlying obligation; accord and satisfaction",
+          "weight": 2,
+          "rule": "If an uncertified check or a note is taken for an obligation, the obligation is suspended until the instrument is dishonored or paid; payment discharges the obligation to the extent of the payment, and on dishonor the obligee may sue on either the instrument or the underlying obligation. If a certified, cashier's or teller's check is taken, the obligation is discharged to the same extent as if that amount of money had been paid. A claim is discharged by accord and satisfaction when the debtor in good faith tenders an instrument in full satisfaction of a claim that is unliquidated or subject to a bona fide dispute, with a conspicuous statement that it is tendered in full satisfaction, and the claimant obtains payment of the instrument.",
+          "elements": [
+            "Good-faith tender in full satisfaction",
+            "Claim unliquidated or subject to a bona fide dispute",
+            "Conspicuous 'payment in full' statement on the instrument or an accompanying writing",
+            "Claimant obtains payment"
+          ],
+          "exceptions": [
+            "An organization may require that full-payment communications go to a designated person or office, and the claimant may avoid the accord by repaying the amount of the check within 90 days after payment, subject to statutory limits.",
+            "Striking out the 'paid in full' legend or writing 'under protest' before cashing does not prevent the accord."
+          ],
+          "authority": "Fla. Stat. §§ 673.3101, 673.3111 (UCC §§ 3-310, 3-311)"
+        },
+        {
+          "id": "fl-ucc.negotiable-instruments.worthless-check-damages",
+          "title": "Florida civil remedy for dishonored checks",
+          "weight": 1,
+          "rule": "Florida adds a statutory remedy outside chapter 673: when a check or other payment instrument is dishonored for lack of funds, lack of credit, or lack of an account, and the maker or drawer fails to pay the amount owing within 30 days after a written demand that meets the statute, the payee may recover the face amount plus treble damages, along with court costs and reasonable attorney fees as the statute allows.",
+          "elements": [
+            "Payment instrument dishonored for insufficient funds, no credit or no account",
+            "Statutory written demand delivered to the maker or drawer",
+            "Failure to pay within 30 days after the demand"
+          ],
+          "tip": "If a Florida question involves a bounced check and a demand letter, mention § 68.065 after the Article 3 analysis; it supplements the drawer's liability under § 673.4141.",
+          "authority": "Fla. Stat. § 68.065"
+        }
+      ]
+    },
+    {
+      "id": "fl-ucc.holder-in-due-course",
+      "title": "Holder in due course, the shelter rule and defenses",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Added to the lecture taxonomy (the lecture tag for these passages is fl-ucc.negotiable-instruments) because holder-in-due-course analysis is the core of most Florida Article 3 questions. Work in order: is the plaintiff a holder, did it take for value, in good faith and without notice, does the shelter rule help, and is the obligor's defense real or personal?",
+      "rules": [
+        {
+          "id": "fl-ucc.holder-in-due-course.requirements",
+          "title": "Who is a holder in due course",
+          "weight": 3,
+          "rule": "A holder in due course is a holder of an instrument that, when issued or negotiated to the holder, did not bear apparent evidence of forgery or alteration and was not so irregular or incomplete as to call its authenticity into question, and who took it for value, in good faith, and without notice that it is overdue or has been dishonored or that there is an uncured default on another instrument in the same series, that it contains an unauthorized signature or has been altered, of any claim to the instrument, or that any party has a defense or claim in recoupment.",
+          "elements": [
+            "Holder (proper negotiation)",
+            "No apparent evidence of forgery, alteration or irregularity",
+            "Value",
+            "Good faith: honesty in fact and observance of reasonable commercial standards of fair dealing",
+            "Without notice of the listed problems"
+          ],
+          "exceptions": [
+            "A person does not become a holder in due course by purchasing an instrument at a judicial sale or by legal process, by acquiring it in a bulk transaction outside the ordinary course of the transferor's business, or as a successor in interest to an estate or other organization (though the shelter rule may still apply)."
+          ],
+          "mnemonic": {
+            "cue": "Holder + VGN",
+            "stands": "a Holder who took for Value, in Good faith, without Notice"
+          },
+          "authority": "Fla. Stat. §§ 671.201, 673.1031, 673.3021 (UCC §§ 1-201, 3-103, 3-302)"
+        },
+        {
+          "id": "fl-ucc.holder-in-due-course.value",
+          "title": "Value for holder-in-due-course purposes",
+          "weight": 2,
+          "rule": "A holder takes for value to the extent the agreed promise of performance has been performed, the holder acquires a security interest or other lien in the instrument other than one obtained by judicial proceeding, the instrument is taken in payment of or as security for an antecedent claim, the holder gives a negotiable instrument for it, or the holder makes an irrevocable commitment to a third person. An executory promise is not value until performed, and a holder who has partly performed is a holder in due course only in proportion to the performance.",
+          "split": "Article 3 'value' is narrower than general UCC value under Article 1 (and for Article 9 attachment), where a binding commitment to extend credit counts. For holder-in-due-course status, an unperformed promise is not value.",
+          "trap": "Treating a buyer who promised to pay later as a holder in due course before paying. If the buyer learns of the maker's defense before performing, the buyer takes subject to it.",
+          "authority": "Fla. Stat. § 673.3031 (UCC § 3-303)"
+        },
+        {
+          "id": "fl-ucc.holder-in-due-course.notice-and-overdue",
+          "title": "Notice, good faith and overdue instruments",
+          "weight": 2,
+          "rule": "A person has notice of a fact if the person has actual knowledge of it, has received a notice or notification of it, or, from all the facts and circumstances known at the time, has reason to know it exists. An instrument payable on demand becomes overdue the day after a demand for payment is made or, if no demand, when it has been outstanding for an unreasonably long time after its date (for a check, 90 days after its date); an instrument payable at a definite time is overdue the day after its due date, and an installment instrument is overdue on default in payment of an installment until the default is cured.",
+          "exceptions": [
+            "Notice must be received at a time and in a manner that gives a reasonable opportunity to act on it.",
+            "Notice that a party has been discharged (other than in insolvency proceedings) is not notice of a defense, although the discharge is effective against a holder in due course who had notice of it when taking the instrument.",
+            "An instrument does not become overdue because of a default in paying interest when there is no default in paying principal, unless the due date of principal has been accelerated.",
+            "Buying at a discount is not by itself notice, though a steep discount combined with other suspicious facts can defeat good faith."
+          ],
+          "authority": "Fla. Stat. §§ 671.202, 673.3021, 673.3041 (UCC §§ 1-202, 3-302, 3-304)"
+        },
+        {
+          "id": "fl-ucc.holder-in-due-course.shelter-rule",
+          "title": "The shelter rule",
+          "weight": 3,
+          "rule": "Transfer of an instrument, whether or not it is a negotiation, vests in the transferee any right of the transferor to enforce the instrument, including the transferor's rights as a holder in due course. A transferee therefore 'shelters' in a prior holder in due course's status even if the transferee took with notice of a defense or gave no value.",
+          "exceptions": [
+            "A transferee who engaged in fraud or illegality affecting the instrument cannot acquire holder-in-due-course rights by shelter.",
+            "A holder who reacquires the instrument does not improve its position by passing it through a holder in due course."
+          ],
+          "tip": "Run the chain: find the first holder in due course; everyone after that person (other than a participant in the fraud) takes free of personal defenses.",
+          "trap": "Denying holder-in-due-course rights to a donee or to someone who knew of the maker's defense. If the transferor was a holder in due course, the transferee shelters in that status.",
+          "authority": "Fla. Stat. § 673.2031 (UCC § 3-203)"
+        },
+        {
+          "id": "fl-ucc.holder-in-due-course.real-defenses",
+          "title": "Real defenses good against a holder in due course",
+          "weight": 3,
+          "rule": "Even a holder in due course takes subject to the obligor's real defenses: infancy to the extent it is a defense to a simple contract; duress, lack of legal capacity, or illegality of the transaction that, under other law, nullifies the obligation; fraud that induced the obligor to sign with neither knowledge nor reasonable opportunity to learn of the instrument's character or essential terms (fraud in the factum); and discharge of the obligor in insolvency proceedings.",
+          "elements": [
+            "Infancy",
+            "Duress, incapacity or illegality that makes the obligation void (not merely voidable)",
+            "Fraud in the factum (real), as opposed to fraud in the inducement (personal)",
+            "Discharge in bankruptcy or other insolvency proceedings"
+          ],
+          "exceptions": [
+            "Forgery: an unauthorized signature is ineffective as the signature of the person whose name is signed, so that person is not liable even to a holder in due course unless the person ratified it or is precluded by negligence.",
+            "Material alteration: a holder in due course may enforce an altered instrument according to its original terms, and an incomplete instrument that was later completed may be enforced as completed."
+          ],
+          "mnemonic": {
+            "cue": "I-DID-F",
+            "stands": "Infancy; Duress, Incapacity, illegality (void); Discharge in insolvency; Fraud in the factum"
+          },
+          "authority": "Fla. Stat. §§ 673.3051, 673.4031, 673.4071 (UCC §§ 3-305, 3-403, 3-407)"
+        },
+        {
+          "id": "fl-ucc.holder-in-due-course.personal-defenses-and-claims",
+          "title": "Personal defenses, claims in recoupment and claims to the instrument",
+          "weight": 3,
+          "rule": "A holder in due course takes free of the obligor's personal defenses (ordinary contract defenses such as failure or lack of consideration, nonperformance, breach of warranty, fraud in the inducement, unauthorized completion and nondelivery), of claims in recoupment arising from other transactions, and of all claims to the instrument by other persons. A person who is not a holder in due course, but who is entitled to enforce, takes subject to all of them, though recoupment can only reduce the amount owed, not produce an affirmative recovery.",
+          "elements": [
+            "Personal defenses: any defense that would be available in an action on a simple contract",
+            "Claim in recoupment: a claim against the original payee arising from the transaction that gave rise to the instrument",
+            "Claim to the instrument: a property or possessory claim, including rescission"
+          ],
+          "tip": "The decisive question in most fact patterns is whether the fraud was in the inducement (personal, cut off) or in the factum (real, good against everyone).",
+          "authority": "Fla. Stat. §§ 673.3051, 673.3061 (UCC §§ 3-305, 3-306)"
+        },
+        {
+          "id": "fl-ucc.holder-in-due-course.consumer-notes",
+          "title": "Consumer credit notes and the FTC holder rule",
+          "weight": 2,
+          "rule": "The FTC's holder-in-due-course rule requires a seller who finances a consumer's purchase of goods or services, or arranges a purchase-money loan, to include in the consumer credit contract a notice that any holder is subject to all claims and defenses the consumer could assert against the seller. When an instrument contains that notice (or is required by law to contain it and omits it), there cannot be a holder in due course of the instrument, and the consumer may assert seller-related defenses against any holder.",
+          "exceptions": [
+            "Under the FTC notice, the consumer's affirmative recovery against the holder is limited to amounts the consumer has paid under the contract."
+          ],
+          "split": "The UCC itself leaves consumer protection mostly to other law; the FTC rule and § 673.1061(4) are why a finance company that buys a consumer's note usually cannot claim holder-in-due-course protection.",
+          "authority": "16 C.F.R. § 433.2; Fla. Stat. § 673.1061(4) (UCC § 3-106(d))"
+        }
+      ]
+    },
+    {
+      "id": "fl-ucc.liability-of-parties",
+      "title": "Liability of parties, warranties, forgery and discharge",
+      "weight": 2,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Added to the lecture taxonomy (the lecture tag is fl-ucc.negotiable-instruments) to hold the rules on who must pay an instrument and who bears the loss from forgery or fraud. Florida questions typically ask whether an indorser or accommodation party is liable, whether a bank must recredit its customer, and which party ends up with a forger's loss.",
+      "rules": [
+        {
+          "id": "fl-ucc.liability-of-parties.signatures-and-representatives",
+          "title": "Signatures and representatives",
+          "weight": 2,
+          "rule": "A person is not liable on an instrument unless the person (or the person's authorized representative) signed it, and a signature may be any word, mark or symbol adopted with present intent to authenticate a writing. If a representative signs with authority and the form of the signature unambiguously shows that it is made on behalf of a principal identified in the instrument, the representative is not liable; otherwise the representative is liable to a holder in due course who took without notice that the representative was not intended to be liable, and is liable to anyone else unless the representative proves the original parties did not intend that liability.",
+          "exceptions": [
+            "A representative who signs the representative's own name to a check drawn on the principal's account, without indicating representative status, is not liable if the check is payable from an account of an identified principal.",
+            "An unauthorized signature binds the person whose name is signed only if that person ratifies it or is precluded from denying it."
+          ],
+          "trap": "Holding the treasurer personally liable on a company check signed only 'Ted Ruiz.' A check drawn on the company's account identifies the principal, so the representative is protected.",
+          "authority": "Fla. Stat. §§ 673.4011, 673.4021, 673.4031 (UCC §§ 3-401, 3-402, 3-403)"
+        },
+        {
+          "id": "fl-ucc.liability-of-parties.issuers-and-drawees",
+          "title": "Obligations of makers, drawers, drawees and acceptors",
+          "weight": 3,
+          "rule": "The maker of a note (and the issuer of a cashier's check) must pay the instrument according to its terms when issued, or as completed if it was incomplete, to a person entitled to enforce it; an acceptor is obligated the same way on the draft as accepted. The drawer of an unaccepted draft, including an ordinary check, is obligated to pay it if it is dishonored, while the drawee has no obligation on the instrument unless and until it accepts (certifies) it.",
+          "elements": [
+            "Primary obligors: maker, acceptor, issuer of a cashier's check",
+            "Secondary obligor: drawer of an unaccepted draft, liable on dishonor",
+            "Drawee: no liability on the instrument before acceptance (it may owe its own customer under the deposit contract and Article 4)"
+          ],
+          "exceptions": [
+            "The drawer of a check cannot disclaim liability by drawing 'without recourse.'",
+            "If a check is not presented within 30 days after its date and the drawee bank suspends payments, the drawer who had funds on deposit is discharged to the extent the delay deprived the drawer of those funds, by assigning its rights against the bank to the person entitled to enforce."
+          ],
+          "authority": "Fla. Stat. §§ 673.4121, 673.4131, 673.4141 (UCC §§ 3-412, 3-413, 3-414)"
+        },
+        {
+          "id": "fl-ucc.liability-of-parties.indorsers-and-dishonor",
+          "title": "Indorser liability, presentment and notice of dishonor",
+          "weight": 3,
+          "rule": "An indorser is obligated to pay the instrument according to its terms at the time of indorsement if it is dishonored, unless the indorsement is 'without recourse.' The indorser's obligation is conditioned on dishonor and, unless excused, on presentment and on timely notice of dishonor; notice must be given by a collecting bank before its midnight deadline and by any other person within 30 days after the dishonor or after receiving notice of it.",
+          "elements": [
+            "Presentment: demand for payment or acceptance by a person entitled to enforce",
+            "Dishonor: for example, a payor bank's timely return of a check, or a maker's failure to pay a note when due",
+            "Notice of dishonor: by any commercially reasonable means, oral, written or electronic",
+            "Check indorser: discharged if the check is not presented for payment or given to a depositary bank for collection within 30 days after the indorsement"
+          ],
+          "exceptions": [
+            "Presentment and notice are excused if waived (a waiver in the instrument binds all indorsers), if the party had no reason to expect or right to require payment, or if, despite reasonable diligence, they cannot be made."
+          ],
+          "trap": "Holding an indorser liable on a check the holder sat on for two months. A check indorser is discharged if presentment or deposit for collection does not occur within 30 days after the indorsement.",
+          "authority": "Fla. Stat. §§ 673.4151, 673.5011, 673.5021, 673.5031, 673.5041 (UCC §§ 3-415, 3-501 to 3-504)"
+        },
+        {
+          "id": "fl-ucc.liability-of-parties.accommodation-parties",
+          "title": "Accommodation parties and suretyship defenses",
+          "weight": 3,
+          "rule": "An accommodation party signs an instrument to incur liability for the benefit of another party (the accommodated party) without being a direct beneficiary of the value given, and is liable in the capacity in which it signed (as maker, drawer or indorser), even to a holder who knew of the accommodation. An accommodation party who pays is entitled to reimbursement from the accommodated party and may enforce the instrument against it, while the accommodated party has no right of recourse against the accommodation party.",
+          "elements": [
+            "An indorsement that is not in the chain of title (an anomalous indorsement) is notice that the signer is an accommodation party",
+            "Signature with words of guaranty of collection: liable only if execution of a judgment against the accommodated party is returned unsatisfied, the accommodated party is insolvent, cannot be served, or it is otherwise apparent payment cannot be obtained"
+          ],
+          "exceptions": [
+            "Suretyship defenses: if the person entitled to enforce grants the accommodated party an extension, agrees to a material modification of the obligation, or impairs the collateral, the accommodation party is discharged to the extent the action causes it a loss (or, for impaired collateral, to the extent of the impairment), unless it consented to the action or waived the defense."
+          ],
+          "trap": "Letting an accommodation maker raise the accommodation as a defense against a holder who knew of it. The accommodation party is liable in the capacity in which it signed; its protection is reimbursement and the suretyship defenses.",
+          "authority": "Fla. Stat. §§ 673.4191, 673.6051 (UCC §§ 3-419, 3-605)"
+        },
+        {
+          "id": "fl-ucc.liability-of-parties.warranties",
+          "title": "Transfer and presentment warranties",
+          "weight": 2,
+          "rule": "A person who transfers an instrument for consideration warrants to the transferee (and, if the transfer is by indorsement, to every later transferee) that the warrantor is entitled to enforce it, all signatures are authentic and authorized, it has not been altered, it is not subject to any defense or claim in recoupment of any party that can be asserted against the warrantor, and the warrantor has no knowledge of any insolvency proceeding against the maker, acceptor or drawer of an unaccepted draft. A person who obtains payment or acceptance of an unaccepted draft warrants to the drawee who pays or accepts in good faith only that the warrantor is (or is authorized to obtain payment for) a person entitled to enforce, the draft has not been altered, and the warrantor has no knowledge that the drawer's signature is unauthorized.",
+          "elements": [
+            "Transfer warranties run to transferees; presentment warranties run to the payor or acceptor",
+            "Warranties on checks cannot be disclaimed",
+            "The claimant must give notice of a breach within 30 days after having reason to know of it, or the warrantor's liability is reduced by the loss the delay caused"
+          ],
+          "tip": "The presentment warranty of entitlement to enforce is how a payor bank shifts the loss from a forged indorsement back up the collection chain; there is no presentment warranty that the drawer's signature is genuine, absent knowledge.",
+          "authority": "Fla. Stat. §§ 673.4161, 673.4171 (UCC §§ 3-416, 3-417)"
+        },
+        {
+          "id": "fl-ucc.liability-of-parties.forgery-and-conversion",
+          "title": "Forged drawer signatures, forged indorsements and conversion",
+          "weight": 3,
+          "rule": "A payor bank may charge its customer's account only for items that are properly payable, so a check bearing a forged drawer's signature or a forged indorsement must be recredited unless the customer is precluded. For a forged drawer's signature, the payor bank generally bears the loss, because the presenter makes no warranty that the drawer's signature is genuine (absent knowledge) and payment is final in favor of one who took in good faith and for value; for a forged indorsement, the payor bank recredits the drawer and recovers from the presenting bank for breach of the warranty of entitlement to enforce, and the loss moves back to the person who took from the forger.",
+          "elements": [
+            "Conversion: an instrument is converted if it is taken by transfer other than negotiation from a person not entitled to enforce it, or a bank pays or makes payment with respect to it for a person not entitled to enforce it",
+            "The payee whose indorsement was forged may sue the depositary bank or the paying bank in conversion"
+          ],
+          "exceptions": [
+            "The issuer of the instrument (for example, the drawer) cannot sue in conversion, and neither can a payee who never received delivery of the instrument, directly or through an agent or co-payee.",
+            "A customer who fails to examine bank statements with reasonable promptness and report unauthorized signatures or alterations may be precluded from asserting them, including later items by the same wrongdoer, subject to comparative fault if the bank also failed to use ordinary care and to an outer time limit on any claim."
+          ],
+          "trap": "Letting the payor bank recover from the depositary bank when the drawer's signature (not an indorsement) was forged. Under the rule of Price v. Neal the drawee is expected to know its customer's signature and bears that loss.",
+          "authority": "Fla. Stat. §§ 673.4181, 673.4201, 674.4011, 674.4061 (UCC §§ 3-418, 3-420, 4-401, 4-406)"
+        },
+        {
+          "id": "fl-ucc.liability-of-parties.impostors-and-employees",
+          "title": "Impostors, fictitious payees, employee fraud and negligence",
+          "weight": 2,
+          "rule": "If an impostor, by impersonating the payee or the payee's agent, induces the issuer to issue an instrument, or if the person whose intent determines the payee does not intend the named payee to have any interest (or the payee is fictitious), an indorsement by any person in the payee's name is effective in favor of a person who in good faith pays it or takes it for value or for collection. An employer is likewise bound by an employee's fraudulent indorsement of an instrument if the employer entrusted that employee with responsibility for the instrument, and anyone whose failure to exercise ordinary care substantially contributes to an alteration or forged signature is precluded from asserting it against a good-faith payor or taker for value.",
+          "elements": [
+            "Impostor rule: issuer deceived about the payee's identity",
+            "Fictitious-payee rule: the signer or the person whose intent controls never meant the payee to take",
+            "Employer responsibility: employee with responsibility for the instrument (not a mere mail clerk with access)",
+            "Negligence preclusion: failure of ordinary care that substantially contributes to the forgery or alteration"
+          ],
+          "exceptions": [
+            "Comparative fault: if the bank or other person paying or taking the instrument also failed to exercise ordinary care that contributed to the loss, the loss is allocated between the parties according to their respective fault."
+          ],
+          "tip": "These rules make the forged indorsement effective, so the drawer, not the bank, usually bears the loss, reversing the ordinary forged-indorsement result.",
+          "authority": "Fla. Stat. §§ 673.4041, 673.4051, 673.4061 (UCC §§ 3-404, 3-405, 3-406)"
+        },
+        {
+          "id": "fl-ucc.liability-of-parties.payment-and-discharge",
+          "title": "Payment, cancellation and other discharge",
+          "weight": 1,
+          "rule": "An instrument is paid, and the obligation of the party who pays is discharged to the extent of the payment, when payment is made by or for that party to a person entitled to enforce the instrument, even if the payment is made with knowledge of another person's claim to the instrument (unless the payor is enjoined, receives adequate indemnity, or knowingly pays a thief or someone in wrongful possession). A person entitled to enforce may also discharge a party, even without consideration, by an intentional voluntary act such as surrendering, destroying, mutilating or cancelling the instrument or striking the party's signature, or by agreeing not to sue in a signed record.",
+          "exceptions": [
+            "Discharge of a party is not effective against a person acquiring rights of a holder in due course who took without notice of the discharge."
+          ],
+          "trap": "Treating a lender's oral promise to 'forget about the note' as a discharge. Without consideration, renunciation requires an intentional act on the instrument (cancelling, destroying, surrendering it or striking the signature) or an agreement not to sue in a signed record.",
+          "authority": "Fla. Stat. §§ 673.6011, 673.6021, 673.6041 (UCC §§ 3-601, 3-602, 3-604)"
+        }
+      ]
+    },
+    {
+      "id": "fl-ucc.attachment-and-perfection",
+      "title": "Scope, attachment and perfection (Article 9)",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida's Article 9 is chapter 679 (UCC § 9-203 is Fla. Stat. § 679.2031). A Part A essay almost always asks you to classify the collateral, decide whether the security interest attached, and then decide whether and how it was perfected, including Florida's own filing office, the Florida Secured Transaction Registry, and certificate-of-title perfection for motor vehicles under chapter 319.",
+      "rules": [
+        {
+          "id": "fl-ucc.attachment-and-perfection.scope-and-classification",
+          "title": "Scope of Article 9 and classifying collateral",
+          "weight": 3,
+          "rule": "Article 9 applies to any transaction, regardless of form, that creates a security interest in personal property or fixtures by contract, and also to agricultural liens, sales of accounts, chattel paper, payment intangibles and promissory notes, and consignments. Goods are classified by the debtor's primary use at the time the interest attaches: consumer goods (personal, family or household use), equipment (business use not otherwise classified), inventory (held for sale or lease, or raw materials and materials used up in a business), or farm products.",
+          "elements": [
+            "Goods: consumer goods, equipment, inventory, farm products",
+            "Intangibles and paper: accounts, chattel paper, instruments, documents, investment property, deposit accounts, letter-of-credit rights, general intangibles (including payment intangibles), commercial tort claims",
+            "Proceeds and fixtures"
+          ],
+          "exceptions": [
+            "A 'lease' is a disguised security interest if the lessee cannot terminate and the term equals or exceeds the goods' remaining economic life, the lessee must renew for that life or become the owner, or the lessee may become the owner or renew for that life for nominal or no additional consideration.",
+            "Excluded transactions include most interests in or liens on real property (other than fixtures), landlord's liens, statutory liens other than agricultural liens, wage assignments, and assignments of deposit accounts in consumer transactions."
+          ],
+          "trap": "Classifying a laptop as inventory because the debtor runs a store. Classify by this debtor's use of this item: the store's display stock is inventory, but the laptop at the register is equipment.",
+          "authority": "Fla. Stat. §§ 671.201 (definition of security interest), 679.1021, 679.1091 (UCC §§ 1-203, 9-102, 9-109)"
+        },
+        {
+          "id": "fl-ucc.attachment-and-perfection.attachment",
+          "title": "Attachment",
+          "weight": 3,
+          "rule": "A security interest attaches and becomes enforceable against the debtor and third parties when (1) value has been given, (2) the debtor has rights in the collateral or the power to transfer rights in it, and (3) either the debtor has authenticated (signed) a security agreement that describes the collateral, the secured party has possession of the collateral under the debtor's security agreement, or, for deposit accounts, investment property, letter-of-credit rights or electronic chattel paper, the secured party has control under the debtor's security agreement.",
+          "elements": [
+            "Value (includes a binding commitment to extend credit and an antecedent debt)",
+            "Debtor's rights in the collateral",
+            "Authenticated security agreement describing the collateral, or possession or control by agreement"
+          ],
+          "exceptions": [
+            "A description is sufficient if it reasonably identifies the collateral, for example by category or UCC type; a supergeneric description such as 'all the debtor's assets' does not suffice in the security agreement (although it is allowed in a financing statement).",
+            "In a consumer transaction, a description only by UCC type is insufficient for consumer goods, and a commercial tort claim must be described specifically rather than by type."
+          ],
+          "trap": "Finding attachment because a financing statement was filed. A financing statement is notice, not a security agreement; without an authenticated agreement granting a security interest (or possession or control), nothing has attached.",
+          "authority": "Fla. Stat. §§ 679.1081, 679.2031 (UCC §§ 9-108, 9-203)"
+        },
+        {
+          "id": "fl-ucc.attachment-and-perfection.after-acquired-and-future-advances",
+          "title": "After-acquired property and future advances",
+          "weight": 2,
+          "rule": "A security agreement may create a security interest in after-acquired collateral and may secure future advances or other value, whether or not given under a commitment. An after-acquired property clause does not reach consumer goods (other than accessions) unless the debtor acquires rights in them within 10 days after the secured party gives value, and does not reach a commercial tort claim.",
+          "tip": "Inventory and accounts financing almost always uses after-acquired clauses; the interest attaches to each new item as the debtor acquires rights in it, and a single financing statement perfects it without refiling.",
+          "authority": "Fla. Stat. § 679.2041 (UCC § 9-204)"
+        },
+        {
+          "id": "fl-ucc.attachment-and-perfection.proceeds",
+          "title": "Proceeds",
+          "weight": 2,
+          "rule": "A security interest continues in collateral despite its sale or other disposition unless the secured party authorized the disposition free of the interest, and it automatically attaches to any identifiable proceeds of the collateral. A security interest in proceeds is perfected if the interest in the original collateral was perfected, but the perfection lapses on the 21st day after attachment unless the proceeds are identifiable cash proceeds, or a filed financing statement covers the original collateral and the proceeds are collateral in which a security interest may be perfected by filing in the same office (and were not acquired with cash proceeds), or the interest in the proceeds is perfected within the 20 days.",
+          "elements": [
+            "Proceeds: whatever is acquired on sale, lease, license, exchange or other disposition of collateral, plus collections and insurance or claims for loss or damage",
+            "Identifiability: commingled cash proceeds may be traced by a method such as the lowest intermediate balance rule"
+          ],
+          "authority": "Fla. Stat. §§ 679.1021, 679.3151 (UCC §§ 9-102, 9-315)"
+        },
+        {
+          "id": "fl-ucc.attachment-and-perfection.methods-of-perfection",
+          "title": "Methods of perfection and automatic perfection",
+          "weight": 3,
+          "rule": "Filing a financing statement is the default way to perfect, but a security interest may also be perfected by the secured party's possession (goods, instruments, negotiable documents, money, tangible chattel paper, certificated securities), by control (deposit accounts, investment property, letter-of-credit rights, electronic chattel paper), or automatically on attachment in specified cases. A purchase-money security interest in consumer goods is perfected automatically when it attaches, without filing, except for goods covered by a certificate-of-title statute such as motor vehicles.",
+          "elements": [
+            "Deposit accounts as original collateral: control only",
+            "Money: possession only",
+            "Letter-of-credit rights: control only (except as supporting obligations)",
+            "Automatic perfection also covers an assignment of accounts or payment intangibles that does not transfer a significant part of the assignor's outstanding accounts or payment intangibles, and sales of payment intangibles and promissory notes",
+            "Temporary automatic perfection for 20 days for instruments, certificated securities and negotiable documents when new value is given under an authenticated security agreement"
+          ],
+          "exceptions": [
+            "PMSI means the seller retained an interest to secure the price, or a lender gave value that enabled the debtor to acquire the goods and the value was in fact so used."
+          ],
+          "trap": "Requiring a filing to perfect a store's purchase-money interest in a refrigerator sold to a consumer. Perfection is automatic, although filing still matters against a later consumer buyer of the refrigerator.",
+          "authority": "Fla. Stat. §§ 679.1031, 679.3091, 679.3101, 679.3121, 679.3131, 679.3141 (UCC §§ 9-103, 9-309, 9-310, 9-312, 9-313, 9-314)"
+        },
+        {
+          "id": "fl-ucc.attachment-and-perfection.filing-in-florida",
+          "title": "Financing statements and filing in Florida",
+          "weight": 3,
+          "rule": "A financing statement is sufficient if it provides the debtor's name, the name of the secured party or its representative, and an indication of the collateral (which may be 'all assets'); the debtor must authorize the filing, and authenticating a security agreement authorizes a filing covering the collateral it describes. In Florida, financing statements generally are filed with the Florida Secured Transaction Registry, while fixture filings and filings covering timber to be cut or as-extracted collateral are recorded in the official records of the county where a mortgage on the related real property would be recorded.",
+          "elements": [
+            "Name of a registered organization: as shown on its public organic record filed with its state of organization",
+            "Minor errors are harmless unless they make the statement seriously misleading; an error in the debtor's name is seriously misleading unless a search under the debtor's correct name using the filing office's standard search logic would disclose the record",
+            "A filed financing statement is effective for five years and lapses unless a continuation statement is filed within six months before lapse",
+            "A financing statement may be filed before the security agreement is made or the interest attaches"
+          ],
+          "tip": "Florida's financing statement must also bear a notation that the documentary stamp tax due on the secured obligation has been paid or is not required (Fla. Stat. § 201.22); look for it if the question concerns a Florida filing being refused.",
+          "trap": "Filing a fixture filing with the Secured Transaction Registry or an equipment financing statement in the county records. The office matters: Registry for most collateral, county official records for fixture filings.",
+          "authority": "Fla. Stat. ch. 679, pt. V (UCC §§ 9-501, 9-502, 9-503, 9-506, 9-509, 9-515); Fla. Stat. § 201.22"
+        },
+        {
+          "id": "fl-ucc.attachment-and-perfection.motor-vehicles",
+          "title": "Motor vehicles and other titled goods",
+          "weight": 3,
+          "rule": "A security interest in a motor vehicle covered by Florida's certificate-of-title law is perfected only by compliance with that law, which means notation of the lien on the certificate of title under chapter 319; filing a financing statement is neither necessary nor effective to perfect it. The exception is a vehicle held as inventory for sale or lease by a person in the business of selling goods of that kind, which is perfected by filing a financing statement.",
+          "exceptions": [
+            "A purchase-money security interest in a consumer's car is not automatically perfected; the consumer-goods automatic-perfection rule excludes goods subject to a certificate-of-title statute."
+          ],
+          "trap": "Treating a filed UCC-1 as perfecting a lender's interest in a consumer's or business's car. Unless the vehicle is a dealer's inventory, only lien notation on the title works.",
+          "authority": "Fla. Stat. §§ 319.27, 679.3111 (UCC § 9-311)"
+        },
+        {
+          "id": "fl-ucc.attachment-and-perfection.choice-of-law-and-relocation",
+          "title": "Where to file: debtor location and changes",
+          "weight": 2,
+          "rule": "For most collateral, perfection by filing (and the effect of perfection or nonperfection) is governed by the law of the jurisdiction where the debtor is located: a registered organization (corporation, LLC, limited partnership) is located in the state under whose law it was organized, an individual at the individual's principal residence, and another organization at its place of business or chief executive office. If the debtor relocates to another state, a perfected interest remains perfected for four months (or until earlier lapse), and if collateral is transferred to a person located in another state, for one year, unless the secured party perfects in the new jurisdiction within that time.",
+          "exceptions": [
+            "Possessory security interests, fixture filings, and interests in timber and as-extracted collateral are governed by the law of the location of the collateral.",
+            "Goods covered by a certificate of title are governed by the law of the jurisdiction that issued the title."
+          ],
+          "trap": "Filing in Florida against a Delaware LLC because its only office and assets are in Miami. A registered organization is located in its state of organization, so the filing belongs in Delaware.",
+          "authority": "Fla. Stat. §§ 679.3011, 679.3031, 679.3071, 679.3161 (UCC §§ 9-301, 9-303, 9-307, 9-316)"
+        }
+      ]
+    },
+    {
+      "id": "fl-ucc.priority-and-default",
+      "title": "Priority and enforcement after default (Article 9)",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Priority questions pit the secured party against another secured party, a buyer, a lien creditor or a real-estate interest; default questions test self-help repossession, a commercially reasonable sale with proper notice, and the debtor's deficiency, surplus and redemption rights. In a Florida essay, decide priority first, then walk through enforcement step by step.",
+      "rules": [
+        {
+          "id": "fl-ucc.priority-and-default.first-to-file-or-perfect",
+          "title": "Conflicting security interests: first to file or perfect",
+          "weight": 3,
+          "rule": "Conflicting perfected security interests rank according to priority in time of filing or perfection, measured from the earlier of the time a financing statement covering the collateral is first filed or the interest is first perfected, provided there is no later period when there is neither filing nor perfection. A perfected security interest has priority over a conflicting unperfected one, and between unperfected interests the first to attach wins.",
+          "elements": [
+            "The time of filing or perfection for collateral also applies to its proceeds",
+            "A secured party who files first takes priority even over an earlier-attaching interest, and even if it knew of that interest",
+            "Advances under a perfected interest generally share the priority of the original filing or perfection"
+          ],
+          "exceptions": [
+            "Control beats filing for deposit accounts and investment property, and possession can beat filing for instruments and chattel paper bought by purchasers who meet the statutory conditions.",
+            "A qualifying purchase-money security interest has priority over an earlier-filed interest (see the PMSI rule)."
+          ],
+          "trap": "Awarding priority to the lender who attached or made its loan first. Under the first-to-file-or-perfect rule, a lender who filed earlier wins even if its loan came later.",
+          "authority": "Fla. Stat. ch. 679 (UCC §§ 9-322, 9-323, 9-327, 9-330)"
+        },
+        {
+          "id": "fl-ucc.priority-and-default.pmsi-priority",
+          "title": "Purchase-money priority",
+          "weight": 3,
+          "rule": "A perfected purchase-money security interest in goods other than inventory or livestock has priority over a conflicting security interest in the same goods if the PMSI is perfected when the debtor receives possession of the collateral or within 20 days afterward. A PMSI in inventory has priority only if it is perfected when the debtor receives possession and, before then, the purchase-money secured party sends an authenticated notification describing the inventory to each holder of a conflicting security interest who filed a financing statement covering the same type of inventory, and that holder receives the notification within five years before the debtor receives possession.",
+          "elements": [
+            "Equipment and other non-inventory goods: perfect at or within 20 days after the debtor receives possession",
+            "Inventory: perfect by the time the debtor receives possession, plus advance authenticated notice to earlier filers",
+            "The inventory PMSI's priority extends only to limited proceeds (identifiable cash proceeds received on or before delivery to a buyer, and certain chattel paper and instruments)"
+          ],
+          "trap": "Applying the 20-day grace period to inventory. Inventory PMSIs get no grace period and require advance notice to earlier filers.",
+          "authority": "Fla. Stat. ch. 679 (UCC § 9-324); Fla. Stat. § 679.1031 (UCC § 9-103)"
+        },
+        {
+          "id": "fl-ucc.priority-and-default.buyers",
+          "title": "Buyers of collateral",
+          "weight": 3,
+          "rule": "A buyer in ordinary course of business takes free of a security interest created by the buyer's seller, even if the interest is perfected and the buyer knows of its existence. A buyer of consumer goods from a consumer seller (a consumer-to-consumer sale) takes free of a security interest, including an automatically perfected PMSI, if the buyer buys without knowledge of the interest, for value, primarily for personal, family or household use, and before a financing statement covering the goods is filed. Any buyer of goods (other than a secured party) who gives value and receives delivery without knowledge of an unperfected security interest takes free of it.",
+          "elements": [
+            "Buyer in ordinary course: buys in good faith, without knowledge that the sale violates the rights of another, in the ordinary course from a person in the business of selling goods of that kind",
+            "Consumer-to-consumer: no knowledge, value, consumer use, before filing"
+          ],
+          "exceptions": [
+            "The buyer-in-ordinary-course rule protects only against interests created by the buyer's own seller, not by a remote prior owner.",
+            "A buyer who knows the sale violates the security agreement is not a buyer in ordinary course.",
+            "A person buying farm products from a person engaged in farming operations is not protected by the ordinary-course rule; federal law governs those buyers."
+          ],
+          "trap": "Holding that a buyer who knew of the bank's floor-plan lien on the dealer's inventory takes subject to it. Knowledge of the security interest does not matter; only knowledge that the sale violates the secured party's rights does.",
+          "authority": "Fla. Stat. § 679.3171; Fla. Stat. ch. 679 (UCC §§ 9-317(b), 9-320); Fla. Stat. § 671.201 (buyer in ordinary course)"
+        },
+        {
+          "id": "fl-ucc.priority-and-default.lien-creditors-and-bankruptcy",
+          "title": "Lien creditors and the bankruptcy trustee",
+          "weight": 2,
+          "rule": "An unperfected security interest is subordinate to the rights of a person who becomes a lien creditor (a creditor that acquires a lien on the collateral by attachment, levy or the like, or a bankruptcy trustee) before the interest is perfected, or before a financing statement is filed and the security agreement is authenticated. A purchase-money secured party that files within 20 days after the debtor receives delivery of the collateral takes priority over a lien creditor whose rights arose between attachment and filing.",
+          "elements": [
+            "Compare the date the lien creditor's lien arose with the date of perfection (or filing plus an authenticated security agreement)",
+            "A trustee in bankruptcy has the rights of a hypothetical lien creditor as of the petition date and can avoid an unperfected security interest"
+          ],
+          "tip": "In Florida a judgment creditor becomes a lien creditor by a sheriff's levy under a writ of execution, and can also acquire a lien on most of the debtor's personal property by filing a judgment lien certificate with the Department of State (§ 55.202). Date the lien from the levy or the certificate filing and compare it with the secured party's perfection.",
+          "trap": "Letting a secured party who never perfected keep the collateral in the debtor's bankruptcy. The trustee as hypothetical lien creditor avoids the unperfected interest, and the secured party becomes unsecured.",
+          "authority": "Fla. Stat. § 679.3171 (UCC § 9-317(a), (e)); Fla. Stat. § 55.202; 11 U.S.C. § 544(a)"
+        },
+        {
+          "id": "fl-ucc.priority-and-default.fixtures",
+          "title": "Fixtures",
+          "weight": 2,
+          "rule": "A security interest in fixtures is subordinate to a conflicting interest of an encumbrancer or owner of the real property, except as Article 9 provides. A perfected security interest in fixtures has priority if it is a purchase-money security interest, the debtor has an interest of record in or possession of the real property, and the interest is perfected by a fixture filing before the goods become fixtures or within 20 days afterward (and the real-property interest arose before the goods became fixtures); it also has priority if its fixture filing is recorded before the real-property interest is of record and the debtor has an interest of record or is in possession.",
+          "exceptions": [
+            "Readily removable factory or office machines, readily removable replacements of domestic appliances that are consumer goods, and certain readily removable equipment may be perfected by any method, and the perfected interest has priority over the real-property interest.",
+            "A construction mortgage recorded before the goods become fixtures has priority over a purchase-money fixture interest if the goods become fixtures before the construction is completed."
+          ],
+          "tip": "In Florida a fixture filing is recorded in the official records of the county where a mortgage on the land would be recorded, not filed with the Secured Transaction Registry.",
+          "authority": "Fla. Stat. ch. 679 (UCC §§ 9-102(a)(40), 9-334, 9-501)"
+        },
+        {
+          "id": "fl-ucc.priority-and-default.repossession",
+          "title": "Default and repossession",
+          "weight": 3,
+          "rule": "After default, which the security agreement defines, a secured party may take possession of the collateral without judicial process if it proceeds without breach of the peace, or may proceed by judicial action (in Florida, for example, replevin). A secured party may also render equipment unusable on the debtor's premises and dispose of it there, and may notify account debtors to pay it directly.",
+          "elements": [
+            "Breach of the peace: continuing after the debtor's contemporaneous objection, entering a closed or locked residence or garage, using force or threats, or using law-enforcement officers without legal process",
+            "The duty not to breach the peace cannot be waived or varied by agreement",
+            "The secured party remains liable for a breach of the peace committed by a repossession agent it hires"
+          ],
+          "trap": "Approving a repossession that continued after the debtor ran outside and objected. A contemporaneous objection generally makes further self-help a breach of the peace; the secured party must use judicial process.",
+          "authority": "Fla. Stat. ch. 679 (UCC §§ 9-601, 9-602, 9-609); Fla. Stat. ch. 78 (replevin)"
+        },
+        {
+          "id": "fl-ucc.priority-and-default.disposition-and-deficiency",
+          "title": "Disposition, deficiency and surplus",
+          "weight": 3,
+          "rule": "After default a secured party may sell, lease, license or otherwise dispose of the collateral by public or private disposition, but every aspect of the disposition, including its method, manner, time, place and terms, must be commercially reasonable, and the secured party generally must send a reasonable authenticated notification of disposition to the debtor, any secondary obligor, and (except for consumer goods) other secured parties of record and lienholders who meet the statutory conditions. Proceeds are applied first to reasonable expenses of repossession and sale (and, if the agreement provides and the law allows, attorney's fees), then to the secured obligation, then to subordinate interests that made a timely demand; the debtor gets any surplus and is liable for any deficiency.",
+          "elements": [
+            "In a non-consumer transaction, notification sent 10 days or more before the earliest time of disposition is sent within a reasonable time",
+            "The secured party may buy at a public disposition, but at a private disposition only if the collateral is customarily sold on a recognized market or is subject to widely distributed standard price quotations",
+            "A low price alone does not make a disposition commercially unreasonable, but it prompts close scrutiny"
+          ],
+          "exceptions": [
+            "No notice is required if the collateral is perishable, threatens to decline speedily in value, or is of a type customarily sold on a recognized market.",
+            "Noncompliance in a non-consumer transaction: under the rebuttable-presumption rule, the deficiency is reduced to the extent the secured party fails to prove that a compliant disposition would have yielded no more than the amount actually received.",
+            "For consumer goods, the debtor may recover at least a statutory minimum (the credit service charge plus 10 percent of the principal, or the time-price differential plus 10 percent of the cash price) for the secured party's noncompliance."
+          ],
+          "authority": "Fla. Stat. ch. 679 (UCC §§ 9-610, 9-611, 9-612, 9-613, 9-615, 9-625, 9-626)"
+        },
+        {
+          "id": "fl-ucc.priority-and-default.strict-foreclosure-and-redemption",
+          "title": "Acceptance in satisfaction and redemption",
+          "weight": 2,
+          "rule": "A secured party may accept collateral in full or partial satisfaction of the obligation only with the debtor's consent: for partial satisfaction, the debtor must agree in a record authenticated after default; for full satisfaction, consent also arises if the secured party sends a proposal and receives no objection within 20 days, provided no other person entitled to notice objects. Before the secured party has disposed of the collateral, contracted to dispose of it, or accepted it in satisfaction, the debtor, any secondary obligor, or any other secured party or lienholder may redeem by tendering fulfillment of all obligations secured (including the full accelerated balance) plus reasonable expenses.",
+          "exceptions": [
+            "Partial strict foreclosure is not allowed in a consumer transaction.",
+            "If the debtor has paid 60 percent of the cash price (purchase-money) or of the loan (non-purchase-money) in consumer goods, the secured party who has taken possession must dispose of the collateral within 90 days unless the debtor waives that right in a record authenticated after default.",
+            "The right of redemption may be waived only by an agreement authenticated after default, and not at all in a consumer-goods transaction."
+          ],
+          "trap": "Letting a debtor redeem by paying only the missed installments. Redemption requires tender of the entire secured obligation (as accelerated) plus expenses; reinstatement by curing arrears is not an Article 9 right.",
+          "authority": "Fla. Stat. ch. 679 (UCC §§ 9-620, 9-621, 9-622, 9-623, 9-624)"
+        }
+      ]
+    }
+  ]
+}

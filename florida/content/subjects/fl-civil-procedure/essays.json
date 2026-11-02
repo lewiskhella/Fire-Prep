@@ -1,0 +1,230 @@
+{
+  "subject": "fl-civil-procedure",
+  "essays": [
+    {
+      "id": "fl-civil-procedure.e01",
+      "title": "The Lift That Fell",
+      "minutes": 60,
+      "topics": [
+        "fl-civil-procedure.jurisdiction-and-venue",
+        "fl-civil-procedure.service",
+        "fl-civil-procedure.sanctions-and-settlement"
+      ],
+      "facts": [
+        "Dana Reyes lives in Orange County, Florida, and keeps a weekend house on a river in Volusia County. In 2025 she contracted with Wade Pruitt, a Georgia resident who builds and installs boat lifts as a sole proprietor under the name Pruitt Marine, to fabricate a lift at his Georgia shop and install it at the Volusia County house. Reyes found Pruitt through an advertisement he runs every year in a Florida boating magazine; over the past three years he has installed about a dozen lifts at Florida homes. The contract, which Reyes signed at her Orange County home and mailed to Pruitt, required Pruitt to install the lift at the Volusia property and to return within 60 days after installation to adjust and load-test it.",
+        "Pruitt and two of his Georgia employees installed the lift in May 2025 but never came back to adjust or test it. In September the lift collapsed, dropping Reyes's boat into the river and causing $70,000 in damage. Reyes sued Pruitt in the circuit court for Orange County, alleging breach of contract and negligent installation. A Georgia deputy sheriff went to Pruitt's home in Georgia on a Tuesday evening, learned that Pruitt was away, and left the summons and complaint with Pruitt's wife, who lives there with him, after explaining to her that the papers were a Florida lawsuit against her husband.",
+        "Pruitt's first filing was a motion to dismiss for lack of personal jurisdiction and insufficient service of process. It was supported by his affidavit stating that he lives and works only in Georgia, owns no Florida property, has no Florida office, and fabricated the lift in Georgia. Reyes responded with her own affidavit attaching the magazine advertisements and the contract. In the same motion Pruitt argued, in the alternative, that venue was improper in Orange County and that the case should at least be moved to Volusia County, where the lift, the damaged boat and the neighbors who saw the collapse are located.",
+        "The court denied the motion in its entirety. Ninety-five days after he was served, Pruitt served Reyes with a proposal for settlement under § 768.79 and Rule 1.442 offering $40,000 to resolve all of her claims, inclusive of attorney's fees and costs. The proposal satisfied every content requirement of the rule. Reyes did not respond. Trial took place eleven months later. The jury rejected the contract claim, found Pruitt negligent but assigned Reyes 20% of the fault for overloading the lift, and the court entered a final judgment for Reyes of $28,000. Fifteen days after the judgment was filed, Pruitt served a motion for attorney's fees under his proposal."
+      ],
+      "calls": [
+        "Did the court correctly deny Pruitt's motion to dismiss for lack of personal jurisdiction and insufficient service of process?",
+        "Was venue proper in Orange County, and could the court have moved the case to Volusia County?",
+        "Is Pruitt entitled to recover attorney's fees under his proposal for settlement?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Personal jurisdiction over a nonresident: long-arm statute and due process",
+          "rules": ["fl-civil-procedure.jurisdiction-and-venue.long-arm"],
+          "points": 4,
+          "mustSay": [
+            "Two-step test: the facts must fall within § 48.193, and the contacts must satisfy due process (Venetian Salami)",
+            "Statutory hooks: carrying on a business venture in Florida (annual Florida advertising, a dozen Florida installations); breaching a contract by failing to perform acts required to be performed in Florida (the return visit to adjust the lift); committing a tortious act in Florida (negligent installation in Volusia County)",
+            "Burden shifting: Pruitt's affidavit put the burden on Reyes to prove jurisdiction with sworn proof; her affidavit and documents carried it, and his affidavit does not actually contradict the Florida installation, so no evidentiary hearing was required",
+            "Due process: Pruitt purposefully directed activity at Florida and came here to perform; the claims arise from that Florida work, so jurisdiction is fair and reasonable"
+          ],
+          "conclusion": "The court had personal jurisdiction over Pruitt under several prongs of § 48.193, and exercising it satisfies due process."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Validity of out-of-state abode service on Pruitt's wife",
+          "rules": ["fl-civil-procedure.service.individuals", "fl-civil-procedure.service.substituted-service", "fl-civil-procedure.service.validity-and-return"],
+          "points": 3,
+          "mustSay": [
+            "Section 48.194 allows service outside Florida in the same manner as service within Florida, by an officer authorized to serve process where the defendant is found",
+            "Abode service under § 48.031(1)(a): copies left at the usual place of abode with a resident 15 or older who is informed of their contents; the wife qualifies",
+            "The spousal substituted-service provision (spouse must request it) is not needed because ordinary abode service was satisfied",
+            "Service was on a Tuesday, not a Sunday; service statutes are strictly construed, but every requirement was met"
+          ],
+          "conclusion": "Service was valid, so the motion to dismiss for insufficient service was properly denied."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "Venue against a nonresident and convenience transfer",
+          "rules": ["fl-civil-procedure.jurisdiction-and-venue.venue", "fl-civil-procedure.jurisdiction-and-venue.transfer-and-forum-non-conveniens"],
+          "points": 3,
+          "mustSay": [
+            "Section 47.011 limits venue to the defendant's residence, where the cause accrued, or where the property is, but by its terms does not apply to actions against nonresidents, so Reyes could sue Pruitt in Orange County",
+            "Pruitt preserved the venue objection by including it in his first Rule 1.140 motion",
+            "Even when venue is proper, § 47.122 allows transfer to a county where the case could have been brought (Volusia, where the claims accrued and the evidence is) for the convenience of parties or witnesses or in the interest of justice",
+            "Transfer is discretionary; the plaintiff's choice is presumed correct and the movant must show the convenience factors favor moving"
+          ],
+          "conclusion": "Venue was proper in Orange County because Pruitt is a nonresident, but the court had discretion to transfer the case to Volusia County for convenience and the facts would have supported doing so."
+        },
+        {
+          "id": "i4",
+          "call": 3,
+          "label": "Entitlement to fees under the defendant's proposal for settlement",
+          "rules": [
+            "fl-civil-procedure.sanctions-and-settlement.proposal-entitlement",
+            "fl-civil-procedure.sanctions-and-settlement.proposal-procedure",
+            "fl-civil-procedure.sanctions-and-settlement.fee-basics"
+          ],
+          "points": 5,
+          "mustSay": [
+            "Section 768.79: a defendant whose offer is not accepted within 30 days recovers costs and fees incurred from the date of the offer if the judgment is at least 25% less than the offer",
+            "Math: 75% of $40,000 is $30,000; the $28,000 judgment (net of comparative fault) is 30% less than the offer, so the threshold is met",
+            "Timing under Rule 1.442: a proposal to a plaintiff may not be served until 90 days after the action was commenced (this one came 95 days after Pruitt was served, so later still) and was served long before the 45-day pre-trial cutoff; content requirements met; Reyes's silence was a rejection",
+            "The statute is strictly construed but applies because this is an action for damages only, with no claim for equitable relief",
+            "The fee motion was served within 30 days after the judgment, as Rule 1.525 requires; the court may still deny fees if the offer was not made in good faith, but a $40,000 offer on these facts had a reasonable basis"
+          ],
+          "conclusion": "Pruitt is entitled to the reasonable attorney's fees and costs he incurred from the date he served the proposal, subject only to the court's good-faith review."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Personal jurisdiction. A Florida court may exercise jurisdiction over a nonresident only if (1) the facts fall within the long-arm statute, § 48.193, and (2) the defendant has minimum contacts with Florida so that suit here satisfies due process. Venetian Salami Co. v. Parthenais. Florida's statute is strictly construed and does not automatically reach the limits of due process, so each step must be analyzed. Procedurally, once Pruitt filed an affidavit contesting jurisdiction, the burden shifted to Reyes to prove jurisdiction by affidavit or other sworn proof; if the sworn submissions had irreconcilably conflicted, the court would have held a limited evidentiary hearing.",
+            "Reyes satisfies the statute in three ways. First, Pruitt carries on a business venture in Florida: he advertises every year in a Florida magazine and has installed about a dozen lifts at Florida homes. Second, he breached the contract in Florida by failing to perform an act the contract required to be done here, the return visit to adjust and test the lift at the Volusia house. Third, he committed a tortious act within Florida, because the allegedly negligent installation was performed in Volusia County. Pruitt's affidavit, which says only that he lives and builds in Georgia, does not contradict any of these facts, and Reyes's sworn affidavit and documents establish them. The constitutional step is also met: Pruitt purposefully directed advertising at Floridians and came into Florida to perform the work from which both claims arise, so he could reasonably anticipate being sued here, and nothing makes Florida an unfair forum. The court correctly found jurisdiction.",
+            "Service. Section 48.194 allows a person outside Florida to be served in the same manner as within Florida, by an officer authorized to serve process in the place of service; a Georgia deputy sheriff qualifies. Under § 48.031(1)(a), an individual may be served by leaving the process and complaint at his usual place of abode with any person residing there who is 15 or older and informing that person of the contents. Pruitt's wife lives in the home, is an adult, and was told what the papers were. Florida's separate substituted-service provision for spouses, which requires that the spouse request service, is irrelevant because ordinary abode service was satisfied. Service occurred on a Tuesday, not a Sunday, so § 48.20 is no obstacle. Although service statutes are strictly construed, every requirement was met. The court correctly denied the motion on both grounds."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Venue. Section 47.011 provides that actions may be brought only in the county where the defendant resides, where the cause of action accrued, or where the property in litigation is located, but the statute expressly does not apply to actions against nonresidents. Pruitt lives in Georgia, so the statutory limits do not restrict Reyes's choice, and Orange County is a proper venue. Pruitt preserved his objection by raising it in his first Rule 1.140 motion, but the objection fails on the merits.",
+            "Transfer. Even where venue is proper, § 47.122 lets a court transfer a civil action to any other Florida court in which it might have been brought, for the convenience of the parties or witnesses or in the interest of justice. The case could have been brought in Volusia County, where the work was done, the contract was to be performed, and the collapse occurred. The lift, the damaged boat and the eyewitness neighbors are all there, which strongly favors transfer. But the plaintiff's choice of a proper forum is presumptively correct, the movant bears the burden of showing that convenience and justice favor a different county, and the decision is discretionary. The court therefore did not have to transfer the case, but it would have been within its discretion to send it to Volusia County."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Entitlement. Under § 768.79, when a defendant serves an offer of judgment in a civil action for damages and the plaintiff does not accept it within 30 days, the defendant recovers the reasonable costs and attorney's fees incurred from the date of the offer if the judgment is one of no liability or is at least 25% less than the offer. Pruitt offered $40,000, so the threshold is a judgment of $30,000 or less. The judgment Reyes obtained, $28,000 after the reduction for her comparative fault, is 30% less than the offer. Reyes's silence for 30 days operated as a rejection.",
+            "Procedural validity. Because the statute and Rule 1.442 are in derogation of the common law, they are strictly construed, and any defect in timing or content defeats the award. The proposal was served 95 days after Pruitt was served, and therefore more than 90 days after the action was commenced, satisfying the rule's earliest-service limit for proposals to a plaintiff, and it was served many months before the 45-day cutoff before trial. It met every content requirement, including stating whether it included attorney's fees. The action sought only damages, so the rule that the statute does not apply when equitable relief is also sought is not implicated, and there was a single offeror and offeree, so no apportionment issue arises.",
+            "Remaining requirements. Pruitt served his fee motion 15 days after the judgment was filed, within the 30 days required by Rule 1.525. The court may disallow an award if the offer was not made in good faith, but an offer of $40,000 on a $70,000 loss, in a case where comparative fault was a live issue, had a reasonable foundation. Pruitt is entitled to the reasonable fees and costs he incurred from the date he served the proposal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.e02",
+      "title": "The Missing Logbooks",
+      "minutes": 60,
+      "topics": [
+        "fl-civil-procedure.pleadings-and-motions",
+        "fl-civil-procedure.discovery"
+      ],
+      "facts": [
+        "Marisol Ortega was seriously injured when a tractor-trailer owned by Gulfway Freight, Inc., a Florida corporation, ran a red light in Hillsborough County and struck her car. The driver, Neal Sutter, was a Gulfway employee acting within the scope of his job. Ortega sued Gulfway in circuit court for negligence, alleging that Gulfway was vicariously liable for Sutter's driving and directly liable for negligently retaining him.",
+        "During discovery Ortega deposed Gulfway's safety director, who testified that Sutter had two prior preventable crashes, that company policy required removing a driver after a second preventable crash, and that Gulfway's vice president of operations personally approved keeping Sutter on the road because the company was short of drivers. Ortega also obtained a text message in which the vice president told a dispatcher to 'keep Sutter driving, we'll deal with the paperwork later.' Ortega now wants to add a claim for punitive damages against Gulfway and to serve interrogatories asking about Gulfway's net worth.",
+        "Ortega also served requests for production seeking (a) an accident report that Gulfway's risk manager prepared two days after the crash, at the direction of Gulfway's general counsel, after Ortega's lawyer had sent Gulfway a letter of representation; and (b) any surveillance video of Ortega. Gulfway objected to both requests as work product. The report contains a summary of the risk manager's interview with Sutter, who left Gulfway's employ shortly after the crash and cannot be located, together with the risk manager's assessment of Gulfway's likely exposure. Gulfway's investigator has filmed Ortega carrying groceries, and Gulfway's trial counsel intends to play the video at trial to impeach her claimed limitations.",
+        "Finally, Ortega requested Sutter's logbooks and electronic logging device data for the 30 days before the crash. When Gulfway did not respond, the court granted Ortega's motion to compel and ordered production within 20 days. Gulfway produced nothing. At the hearing on Ortega's motion for sanctions, Gulfway's counsel explained that he had forgotten to send the order to his client, which had the records readily available and could produce them within a week. Nothing suggested that Gulfway itself knew of the order. The court struck Gulfway's answer and entered a default on liability without making any findings."
+      ],
+      "calls": [
+        "May Ortega assert a claim for punitive damages against Gulfway, and when may she obtain discovery of Gulfway's net worth?",
+        "Must Gulfway produce the risk manager's report and the surveillance video?",
+        "Did the court properly strike Gulfway's answer and enter a default?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Procedure for adding a punitive damages claim",
+          "rules": ["fl-civil-procedure.pleadings-and-motions.punitive-damages", "fl-civil-procedure.pleadings-and-motions.amendment"],
+          "points": 3,
+          "mustSay": [
+            "Section 768.72(1): no punitive damages claim may be pleaded until the court grants leave on a reasonable showing by record evidence or proffer of a reasonable basis for recovery",
+            "Rule 1.190(f): motion for leave to amend, with the evidence or proffer served at least 20 days before the hearing",
+            "The court decides only whether there is a reasonable evidentiary basis, not whether Ortega will ultimately prove the claim",
+            "No discovery of financial worth until the court permits the punitive damages pleading"
+          ],
+          "conclusion": "Ortega must move for leave to amend with an evidentiary proffer; net-worth interrogatories may be served only after the court grants leave."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Whether the evidence supports corporate punitive liability",
+          "rules": ["fl-civil-procedure.pleadings-and-motions.punitive-damages"],
+          "points": 3,
+          "mustSay": [
+            "Punitive damages require intentional misconduct or gross negligence, proved at trial by clear and convincing evidence",
+            "Gross negligence: conduct so reckless or wanting in care that it amounts to conscious disregard of or indifference to the life, safety or rights of persons exposed to it",
+            "Corporate liability for an employee's conduct under § 768.72(3): the employer actively and knowingly participated, an officer, director or manager knowingly condoned, ratified or consented, or the employer's own gross negligence contributed to the loss",
+            "The vice president's approval of keeping a driver with two preventable crashes on the road, contrary to company policy, is a reasonable basis on both the managerial-consent and direct gross-negligence routes"
+          ],
+          "conclusion": "The deposition testimony and text message provide a reasonable basis for punitive damages against Gulfway, so leave to amend should be granted."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "The risk manager's report: fact and opinion work product",
+          "rules": ["fl-civil-procedure.discovery.work-product"],
+          "points": 3,
+          "mustSay": [
+            "The report was prepared in anticipation of litigation (after a letter of representation, at counsel's direction), so it is work product",
+            "Fact work product is discoverable on a showing of need and inability to obtain the substantial equivalent without undue hardship",
+            "Sutter's statements: Sutter cannot be found, so Ortega cannot obtain the substantial equivalent; the factual interview summary should be produced",
+            "The risk manager's assessment of Gulfway's exposure is opinion work product (mental impressions and conclusions) and remains protected; redaction or in camera review is appropriate"
+          ],
+          "conclusion": "Gulfway must produce the factual portions of the report, including Sutter's statements, but may redact the risk manager's opinions about exposure."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "Surveillance video intended for trial use",
+          "rules": ["fl-civil-procedure.discovery.work-product", "fl-civil-procedure.discovery.initial-disclosures"],
+          "points": 2,
+          "mustSay": [
+            "Surveillance video is work product while it is held only for litigation preparation",
+            "Once a party reasonably expects or intends to use it at trial, including for impeachment, the protection ends and it must be disclosed before trial (Dodson v. Persell; Northup v. Acken)",
+            "Counsel's plan to surprise Ortega with it at trial is exactly what the rule forbids; under the 2025 amendments Gulfway also has a continuing duty to supplement its responses"
+          ],
+          "conclusion": "Because Gulfway intends to use the video at trial, it must disclose and produce it before trial."
+        },
+        {
+          "id": "i5",
+          "call": 3,
+          "label": "Striking pleadings and entering default as a discovery sanction",
+          "rules": ["fl-civil-procedure.discovery.sanctions"],
+          "points": 4,
+          "mustSay": [
+            "Rule 1.380 authorizes sanctions for violating a discovery order, including striking pleadings and default, but these are the most severe sanctions",
+            "Striking pleadings or entering default requires an express finding that the noncompliance was willful, deliberate or in bad faith (Mercer v. Raine); the court made no findings",
+            "Because the failure was counsel's, the court had to consider the Kozel factors: neglect rather than contumacy, no prior sanctions, no client involvement, limited prejudice since records exist and can be produced promptly, a reasonable explanation, and little disruption",
+            "Lesser sanctions were available: a short new deadline, fees and expenses under Rule 1.380, or sanctions directed at counsel"
+          ],
+          "conclusion": "The court abused its discretion by striking the answer and entering a default without findings of willful or deliberate noncompliance and without weighing the Kozel factors; a lesser sanction was appropriate."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Procedure. Florida does not allow a plaintiff simply to add a punitive damages count. Under § 768.72(1), no claim for punitive damages may be included in a pleading unless the court grants leave on a reasonable showing, by evidence in the record or proffered by the claimant, that provides a reasonable basis for recovering such damages. Rule 1.190(f) supplies the mechanism: Ortega must move for leave to amend, and the motion and the supporting evidence or proffer must be served at least 20 days before the hearing. At that stage the court decides only whether a reasonable evidentiary basis exists; it does not weigh credibility or decide whether Ortega will ultimately prevail.",
+            "Substantive basis. At trial Ortega would have to prove by clear and convincing evidence that the defendant was guilty of intentional misconduct or gross negligence, meaning conduct so reckless or wanting in care that it constituted a conscious disregard of or indifference to the life, safety or rights of those exposed to it. Because Gulfway is a corporation, § 768.72(3) also requires that Gulfway actively and knowingly participated in the conduct, that its officers, directors or managers knowingly condoned, ratified or consented to it, or that Gulfway's own gross negligence contributed to Ortega's injury. The safety director's testimony and the text message show that a vice president knew Sutter had two preventable crashes, knew policy required his removal, and kept him driving anyway for business reasons. That is a reasonable basis for finding both managerial consent and the company's own gross negligence in retaining Sutter. The court should grant leave to amend.",
+            "Net worth. Section 768.72(1) bars discovery of financial worth until the court permits the punitive damages pleading. Ortega may not serve, and Gulfway need not answer, net-worth interrogatories until the court grants her motion for leave to amend; after that, discovery of Gulfway's financial condition may proceed."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "The risk manager's report. Documents prepared in anticipation of litigation by or for a party or its representative are work product. They are discoverable only if the requesting party shows need and that it cannot obtain the substantial equivalent without undue hardship, and even then the court must protect against disclosure of mental impressions, conclusions, opinions and legal theories. The report was prepared at counsel's direction after Ortega's lawyer announced a claim, so it is work product. Its factual content, especially the summary of Sutter's account given two days after the crash, is fact work product. Sutter has left Gulfway and cannot be located, so Ortega cannot obtain the substantial equivalent of his near-contemporaneous statement by any other means, which establishes need and undue hardship. The risk manager's assessment of Gulfway's likely exposure, however, is opinion work product and remains protected. The court should order production of the report with the exposure assessment redacted, reviewing it in camera if necessary.",
+            "The surveillance video. Surveillance footage gathered for litigation is work product while it is held for trial preparation. But Florida law does not allow a party to sandbag its opponent: once a party reasonably expects or intends to use work-product material at trial, including solely for impeachment, the protection ends and the material must be disclosed before trial. Dodson v. Persell; Northup v. Acken. Gulfway's counsel intends to play the video to impeach Ortega's account of her limitations, so Gulfway must disclose its existence and produce it in advance of trial. Under the 2025 amendments, Gulfway also has a continuing duty to supplement its discovery responses rather than relying on its original objection. If Gulfway decided not to use the video at all, it could continue to claim protection, but it cannot both withhold the video and use it at trial."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Rule 1.380 authorizes sanctions when a party disobeys a discovery order, ranging from expenses and attorney's fees to orders establishing facts, striking pleadings, dismissal and default. Striking a defendant's answer and entering a default is the most severe sanction, reserved for extreme cases. The Florida Supreme Court requires an express finding that the party's noncompliance was willful or deliberate, not merely negligent, before such a sanction is imposed. Mercer v. Raine. The trial court made no findings at all, which by itself is reversible error.",
+            "The facts also would not support such a finding. The failure was counsel's: he forgot to forward the order, and nothing suggests Gulfway knew of it. When the fault lies with the attorney, the court must weigh the Kozel v. Ostendorf factors before dismissing or defaulting a party: whether counsel's disobedience was willful, deliberate or contumacious rather than a product of neglect or inexperience; whether counsel had been sanctioned before; whether the client was personally involved; whether the delay prejudiced the opponent through undue expense, loss of evidence or otherwise; whether counsel offered a reasonable justification; and whether the delay created significant problems of judicial administration. Here the lapse was neglect, there is no history of sanctions, the client was not involved, the records exist and can be produced within a week, and the delay was brief.",
+            "The court should instead have chosen a proportionate sanction: ordering production within a short deadline, awarding Ortega the expenses and attorney's fees caused by the noncompliance, and, if necessary, directing the monetary sanction at counsel. Because the court struck the answer and entered a default without findings of willfulness and without weighing the Kozel factors, it abused its discretion, and the default should be set aside."
+          ]
+        }
+      ]
+    }
+  ]
+}

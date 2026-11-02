@@ -1,0 +1,290 @@
+{
+  "subject": "fl-real-property",
+  "essays": [
+    {
+      "id": "fl-real-property.e01",
+      "title": "The House on Heron Lane",
+      "minutes": 60,
+      "topics": [
+        "fl-real-property.homestead",
+        "fl-real-property.conveyancing",
+        "fl-real-property.ownership-and-possession"
+      ],
+      "facts": [
+        "In 2008, while single, Hector bought a house on a half-acre lot at 12 Heron Lane in the City of Coral Ridge, Florida, taking title in his own name. In 2015 he married Delia. They lived in the house with Mateo, Hector's son from an earlier marriage, who is now 24, and with Sofia, the couple's daughter, born in 2016. The family has lived at Heron Lane continuously since the marriage. Delia's name was never added to the deed.",
+        "In 2018 Hector and Delia opened a savings account at Gulfline Bank titled 'Hector or Delia.' The signature card does not say how the account is owned. Both spouses deposited their wages into it, and by 2025 the balance was about $85,000.",
+        "In 2024, after a quarrel with Delia, Hector signed a deed giving the Heron Lane house to his brother, Ruben, for no payment. Hector signed in the presence of one witness, a coworker, and a notary acknowledged his signature. Delia did not know about the deed and did not sign it. Ruben recorded the deed, but he never moved in.",
+        "In 2025 Pinnacle Finance obtained and recorded a $200,000 judgment against Hector alone on a personal loan Hector used to invest in a friend's restaurant. Pinnacle sought to have the sheriff levy on the Heron Lane house and served a writ of garnishment on Gulfline Bank for the savings account.",
+        "Hector died in 2026. His valid will leaves 'my house on Heron Lane to my son Mateo' and the rest of his estate to Delia. Delia, Mateo and Sofia survive him. Delia never signed a prenuptial or postnuptial agreement or any waiver of homestead rights. Ruben now claims to own the house."
+      ],
+      "calls": [
+        "Did the 2024 deed convey any interest in the Heron Lane house to Ruben? Discuss.",
+        "Before Hector's death, could Pinnacle Finance reach the house or the Gulfline savings account to satisfy its judgment? Discuss.",
+        "Setting Ruben's claim aside, who owns the Heron Lane house after Hector's death, and what choice, if any, does Delia have? Discuss."
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Execution formalities: one subscribing witness",
+          "rules": [
+            "fl-real-property.conveyancing.deed-formalities"
+          ],
+          "points": 3,
+          "mustSay": [
+            "A deed of a freehold estate must be signed by the grantor in the presence of two subscribing witnesses (§ 689.01)",
+            "The deed had only one witness; the notary's acknowledgment is a recording requirement and does not substitute for the second witness",
+            "The 5-year curative statute (§ 95.231) cannot help Ruben because the deed was recorded in 2024"
+          ],
+          "conclusion": "The deed was not properly executed and did not pass legal title."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Homestead: spouse's failure to join",
+          "rules": [
+            "fl-real-property.homestead.alienation-joinder",
+            "fl-real-property.homestead.forced-sale-exemption"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Heron Lane is homestead: owned by a natural person, used as the family residence, within the one-half-acre municipal limit",
+            "A married owner may convey homestead by sale or gift only if the spouse joins, even though the spouse holds no title (Art. X, § 4(c))",
+            "Delia did not join, so the deed is ineffective as to the homestead",
+            "Minor child Sofia does not restrict lifetime transfers; the defect is the missing spousal joinder"
+          ],
+          "conclusion": "Independently of the witness defect, the deed is ineffective because Delia did not join; Ruben took nothing."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "Forced-sale exemption for the house",
+          "rules": [
+            "fl-real-property.homestead.forced-sale-exemption",
+            "fl-real-property.homestead.creditor-exceptions"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Homestead is exempt from forced sale and no judgment lien attaches to it",
+            "The exceptions are limited to taxes and assessments, purchase/improvement/repair obligations, and labor on the property",
+            "A personal loan used to invest in a restaurant is none of these, and no fraud-based equitable lien is suggested"
+          ],
+          "conclusion": "Pinnacle could not levy on the house."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "Tenancy by the entirety in the savings account",
+          "rules": [
+            "fl-real-property.ownership-and-possession.tenancy-by-entirety"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Florida recognizes tenancy by the entirety in personal property, including bank accounts",
+            "Under Beal Bank an account titled in both spouses' names is presumed to be held by the entirety unless the account documents expressly disclaim it; 'or' titling and a silent signature card do not rebut the presumption",
+            "A creditor of only one spouse cannot reach entireties property"
+          ],
+          "conclusion": "The account was entireties property and could not be garnished for Hector's individual debt."
+        },
+        {
+          "id": "i5",
+          "call": 3,
+          "label": "Invalid devise of homestead",
+          "rules": [
+            "fl-real-property.homestead.devise-restrictions",
+            "fl-real-property.homestead.three-functions"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Homestead may not be devised if the owner is survived by a spouse or minor child, except to the spouse when there is no minor child",
+            "Hector was survived by both Delia and a minor child (Sofia), so the devise to Mateo is invalid",
+            "Delia signed no valid waiver of homestead rights"
+          ],
+          "conclusion": "The devise of the house to Mateo fails."
+        },
+        {
+          "id": "i6",
+          "call": 3,
+          "label": "Descent of the homestead and Delia's election",
+          "rules": [
+            "fl-real-property.homestead.invalid-devise-descent"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Under § 732.401 the surviving spouse takes a life estate with a vested remainder to the descendants in being at death, per stirpes",
+            "Mateo and Sofia, as Hector's descendants, share the remainder equally",
+            "Delia may instead elect an undivided one-half interest as tenant in common, with the other half vesting in the descendants, within 6 months after Hector's death"
+          ],
+          "conclusion": "Delia holds a life estate with remainder to Mateo and Sofia, unless she timely elects a one-half tenancy in common, in which case Mateo and Sofia share the other half."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Execution. In Florida a deed conveying a freehold estate must be in writing and signed by the grantor in the presence of two subscribing witnesses (§ 689.01), followed by delivery and acceptance. An acknowledgment before a notary is required for recording but does not replace a witness. Hector signed before only one witness. The notary's acknowledgment let Ruben record the deed but did not cure the missing witness. Florida's curative statute, § 95.231, bars challenges to a recorded deed's execution formalities only after the deed has been of record for 5 years; Ruben's deed was recorded in 2024, so it offers no help. The deed therefore failed to pass legal title.",
+            "Homestead joinder. Even a perfectly executed deed would fail. Heron Lane is Hector's constitutional homestead: a natural person owned it, it was the residence of the owner and his family, and it sits on a half-acre lot within a municipality, inside the one-half-acre limit. Under Article X, § 4(c), the owner of homestead may alienate it by sale or gift, but if married the owner's spouse must join, whether or not the spouse holds title. Delia neither knew of nor signed the deed. A conveyance of homestead without the spouse's joinder is ineffective as to the homestead. Sofia's status as a minor does not matter here, because minor children restrict only devise, not lifetime transfers. Ruben, a donee, is not a purchaser for value and gains nothing from recording.",
+            "Conclusion. Ruben received no interest in the house: the deed lacked the second witness and, independently, Delia did not join in a conveyance of homestead."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "The house. Homestead owned by a natural person is exempt from forced sale, and no judgment lien attaches to it (Art. X, § 4(a)). Within a municipality the exemption covers up to one-half acre, with no dollar limit, and Heron Lane qualifies. The only constitutional exceptions are taxes and assessments on the property, obligations contracted for its purchase, improvement or repair, and obligations for labor performed on it. Pinnacle's judgment arises from a personal loan used for a restaurant investment, which fits none of the exceptions, and nothing suggests the house was bought or improved with fraudulently obtained money that could support an equitable lien under Havoco v. Hill. Recording the judgment created no lien on the homestead, and Pinnacle could not have the sheriff sell it.",
+            "The account. Florida recognizes tenancy by the entirety in personal property. Under Beal Bank v. Almand, when spouses title an account in both names and the unities of possession, interest, title and time plus marriage are present, the account is presumed to be held by the entirety unless the account documents expressly disclaim that form of ownership. The 'Hector or Delia' titling and a signature card that is silent on ownership do not rebut the presumption, and both spouses funded the account during the marriage. Entireties property belongs to the marital unit, so a creditor of only one spouse cannot garnish it; only a joint creditor of both spouses could.",
+            "Conclusion. Pinnacle could reach neither the homestead nor the entireties account to satisfy a judgment against Hector alone."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Validity of the devise. Homestead is not subject to devise if the owner is survived by a spouse or a minor child, except that it may be devised to the spouse if there is no minor child (Art. X, § 4(c); § 732.4015). Hector was survived by both Delia and ten-year-old Sofia. A devise to anyone, even to Delia, would have failed; the devise to Mateo, an adult child, certainly fails. Delia signed no prenuptial or postnuptial waiver of homestead rights under § 732.702, so the restriction applies in full. The devise restriction applies whether or not Hector ever claimed the homestead tax exemption, which is a separate function of homestead with its own requirements.",
+            "Descent. A homestead not validly devised descends under § 732.401. Because Hector left a spouse and descendants, Delia takes a life estate in the house, with a vested remainder to Hector's descendants in being at his death, per stirpes. Mateo and Sofia are both Hector's children, so each takes a one-half interest in the remainder. Instead of the life estate, Delia may elect to take an undivided one-half interest in the house as a tenant in common, with the other one-half vesting in the descendants (Mateo and Sofia, one-quarter each). She must make that election within 6 months after Hector's death. The creditor protection of homestead also inures to Delia and the children, so Hector's creditors, including Pinnacle, cannot reach the house through his estate.",
+            "Conclusion. Mateo does not take the house under the will. Delia holds a life estate with the remainder to Mateo and Sofia equally, unless within 6 months she elects a one-half tenancy in common, in which case Mateo and Sofia hold the other half."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-real-property.e02",
+      "title": "Trouble at Brightwater Gardens",
+      "minutes": 60,
+      "topics": [
+        "fl-real-property.landlord-tenant"
+      ],
+      "facts": [
+        "Brightwater Properties LLC owns Brightwater Gardens, a 40-unit apartment complex in Daytona Beach, Florida. In July 2025 Alma signed a one-year written lease for a unit at $1,600 a month and paid a $1,600 security deposit. The lease says nothing about which party handles repairs.",
+        "In January 2026 a pipe under Alma's bathroom floor began leaking, soaking the subfloor, and the unit's water heater stopped working. Alma called the property manager, Trent, several times. On February 2 she handed Trent a signed letter describing the leak and the lack of hot water and stating that, if the problems were not fixed within 7 days, she would withhold rent. She also reported the conditions to the city's code-enforcement office, which cited Brightwater on February 20. Nothing was repaired. Alma did not pay March rent; she kept the money in her own savings account.",
+        "On March 4 Brightwater served a proper 3-day notice demanding March rent or possession. On March 12, while Alma was at work, Trent changed the locks on her unit. Alma stayed with her sister for five nights and spent $350 on meals and transportation before Trent, after a call from a police officer, gave her a new key. On March 20 Brightwater filed an eviction action in county court seeking possession for nonpayment of March rent. Alma has been served and wants to defend.",
+        "Assume Alma ultimately keeps her apartment and moves out when the lease ends on June 30, 2026, leaving a forwarding address. On July 18 Brightwater sent her a certified-mail notice of intent to impose a claim on her deposit for $650: $250 to repaint the unit because the walls had 'normal scuffs after a year,' and $400 to repair a hole her son kicked in a closet door. Alma received the notice on July 21 and sent a written objection on July 28."
+      ],
+      "calls": [
+        "Was Alma entitled to withhold March rent, and what must she do to preserve her defenses in the eviction action? Discuss.",
+        "What liability, if any, does Brightwater have for changing Alma's locks? Discuss.",
+        "How much of the security deposit may Brightwater retain? Discuss."
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Landlord's maintenance duties",
+          "rules": [
+            "fl-real-property.landlord-tenant.landlord-maintenance"
+          ],
+          "points": 2,
+          "mustSay": [
+            "Under § 83.51(1) the landlord must comply with codes or keep plumbing in reasonable working condition; the leaking pipe falls within this duty",
+            "For a unit other than a single-family home or duplex, § 83.51(2) also requires running and hot water unless otherwise agreed in writing; the lease is silent"
+          ],
+          "conclusion": "Brightwater materially failed its statutory maintenance duties."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Seven-day notice and rent withholding",
+          "rules": [
+            "fl-real-property.landlord-tenant.tenant-remedies"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Tenant must deliver written notice specifying the noncompliance and stating the intent to withhold",
+            "If the landlord does not cure within 7 days after delivery, the tenant may withhold rent and raise the noncompliance as a defense",
+            "Rent is reduced in proportion to the loss of rental value; Alma's hand-delivered February 2 letter satisfied the notice requirement"
+          ],
+          "conclusion": "Alma properly invoked the withholding remedy, at least as to the § 83.51(1) plumbing failure."
+        },
+        {
+          "id": "i3",
+          "call": 1,
+          "label": "Rent into the court registry",
+          "rules": [
+            "fl-real-property.landlord-tenant.eviction-registry",
+            "fl-real-property.landlord-tenant.tenant-default-notices"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Alma must respond within 5 days (excluding weekends and legal holidays) under summary procedure",
+            "Because she asserts a defense other than payment, she must deposit the rent alleged due and rent accruing during the case into the registry, or timely move to determine rent",
+            "Failure is an absolute waiver of defenses other than payment and entitles Brightwater to an immediate default judgment for possession"
+          ],
+          "conclusion": "To keep her defenses, Alma must deposit the March rent (and later rent as it comes due) into the registry or move to determine rent."
+        },
+        {
+          "id": "i4",
+          "call": 1,
+          "label": "Retaliation defense",
+          "rules": [
+            "fl-real-property.landlord-tenant.retaliation"
+          ],
+          "points": 2,
+          "mustSay": [
+            "Bringing an eviction primarily because the tenant complained in good faith to a code-enforcement agency is retaliatory conduct (§ 83.64)",
+            "Brightwater will argue good cause (nonpayment), but Alma's nonpayment was a lawful withholding after a 7-day notice",
+            "The retaliation defense is also a defense other than payment and is waived without the registry deposit"
+          ],
+          "conclusion": "Alma has a colorable retaliation defense, preserved only if she complies with the registry requirement."
+        },
+        {
+          "id": "i5",
+          "call": 2,
+          "label": "Prohibited self-help",
+          "rules": [
+            "fl-real-property.landlord-tenant.self-help-prohibited"
+          ],
+          "points": 4,
+          "mustSay": [
+            "A landlord may not change locks or otherwise exclude a tenant without a court judgment and writ of possession (§ 83.67)",
+            "The 3-day notice and nonpayment do not authorize a lockout",
+            "Damages are actual and consequential damages or 3 months' rent, whichever is greater: $4,800 versus $350",
+            "Alma also recovers costs and attorney's fees"
+          ],
+          "conclusion": "Brightwater is liable to Alma for $4,800 plus costs and attorney's fees."
+        },
+        {
+          "id": "i6",
+          "call": 3,
+          "label": "Security deposit claim",
+          "rules": [
+            "fl-real-property.landlord-tenant.security-deposits"
+          ],
+          "points": 4,
+          "mustSay": [
+            "A landlord claiming against a deposit must send certified-mail notice within 30 days after the tenant vacates; July 18 is timely",
+            "The tenant has 15 days after receipt to object; Alma's July 28 objection is timely",
+            "Deductions are allowed only for damage beyond normal wear and tear (and amounts owed): the $400 door repair qualifies, the $250 for normal scuffs does not",
+            "The prevailing party in a deposit suit recovers costs and reasonable attorney's fees"
+          ],
+          "conclusion": "Brightwater may retain $400 and must return $1,200."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Landlord's duties. Under § 83.51(1) a residential landlord must comply with applicable building, housing and health codes or, where none apply, keep the plumbing in reasonable working condition. A pipe leaking under the bathroom floor is a plumbing failure squarely within subsection (1). Because Brightwater Gardens is not a single-family home or duplex, § 83.51(2) also requires the landlord, unless otherwise agreed in writing, to provide running water and hot water; the lease is silent, so the failed water heater is also a breach. The code citation confirms the conditions were real and serious.",
+            "Withholding. When the landlord materially fails to comply with § 83.51(1) or the lease, the tenant may deliver written notice specifying the noncompliance and stating an intent to withhold rent; if 7 days pass after delivery without cure, the tenant may withhold rent, and in an action for possession the noncompliance is a defense, with rent reduced in proportion to the loss of rental value (§§ 83.56(1), 83.60(1)). Alma hand-delivered a written notice on February 2 identifying the leak and the hot-water failure and stating her intent to withhold. More than 7 days passed without repair before March rent was due. Her withholding was therefore authorized, at least as to the plumbing failure under subsection (1), which is the duty the statutory withholding defense is keyed to.",
+            "Preserving the defense. The eviction proceeds in county court under summary procedure, and Alma must respond within 5 days after service, excluding weekends and legal holidays. Because she will raise a defense other than payment, § 83.60(2) requires her to pay into the court registry the rent alleged in the complaint and the rent that accrues while the case is pending, or to file a timely motion asking the court to determine the rent. If she does neither, she waives every defense other than payment and Brightwater is entitled to an immediate default judgment for possession without a hearing. Keeping the March rent in her own savings account does not satisfy the statute; she should deposit it with the clerk.",
+            "Retaliation. Section 83.64 bars a landlord from bringing an action for possession primarily because the tenant complained in good faith to a governmental agency about a code violation. Alma reported the conditions to code enforcement, Brightwater was cited on February 20, and the eviction followed within a month. Brightwater will argue good cause — nonpayment — but Alma's nonpayment was a lawful withholding after proper notice, which weakens that justification. Retaliation, too, is a defense other than payment, so it is preserved only if Alma complies with the registry requirement.",
+            "Conclusion. Alma was entitled to withhold March rent, but to keep her habitability and retaliation defenses she must timely answer and deposit the alleged rent (and accruing rent) into the registry or move to determine it."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Section 83.67 prohibits a landlord from recovering possession by self-help: it may not change the locks or otherwise prevent the tenant's access, interrupt utilities, or remove the tenant's property, unless the tenant has surrendered or abandoned the unit. Possession may be recovered only through a judgment and a writ of possession executed by the sheriff. Serving a 3-day notice and having unpaid rent did not entitle Brightwater to change Alma's locks; at that point it had not even filed suit.",
+            "A landlord who violates § 83.67 is liable for actual and consequential damages or 3 months' rent, whichever is greater, plus costs and attorney's fees. Alma's actual and consequential damages are $350. Three months' rent is $4,800, which is greater.",
+            "Conclusion. Brightwater is liable to Alma for $4,800 plus costs and attorney's fees. It remains free to pursue any rent it can prove is owed, but only through the court process."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Under § 83.49(3), when a tenant vacates, a landlord that intends to claim part of the deposit must send written notice by certified mail to the tenant's last known mailing address within 30 days, stating the amount and the reason. Alma vacated June 30, and the certified notice was sent July 18, within 30 days, so Brightwater preserved its right to assert a claim. The tenant then has 15 days after receiving the notice to object. Alma received the notice July 21 and objected July 28, within the 15 days, so Brightwater may not simply deduct its claim; the dispute must be resolved on the merits.",
+            "A landlord may charge the deposit only for amounts the tenant owes, such as unpaid rent or damage to the premises beyond normal wear and tear. Brightwater itself describes the $250 repainting charge as covering 'normal scuffs after a year,' which is ordinary wear and tear and not chargeable. The $400 for a hole kicked in a closet door is physical damage beyond normal wear and is properly charged to Alma.",
+            "Conclusion. Brightwater may retain $400 and must return $1,200. If either party sues over the deposit, the prevailing party recovers court costs and a reasonable attorney's fee under § 83.49(3)(c)."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "subject": "fl-real-property",
+  "questions": [
+    {
+      "id": "fl-real-property.q001",
+      "topic": "fl-real-property.homestead",
+      "rules": [
+        "fl-real-property.homestead.creditor-exceptions",
+        "fl-real-property.homestead.forced-sale-exemption"
+      ],
+      "difficulty": 2,
+      "stem": "Marisol, who is single, owns and lives in a house on a quarter-acre lot in the City of Palmetto Grove, Florida. After a jury returned a $400,000 verdict against her for negligently causing a boating accident, but before judgment was entered, Marisol sold a stock portfolio she had built from her salary over many years and used the proceeds to pay off the mortgage on the house. She admits she did so to keep the money away from the plaintiff. The plaintiff obtains a final judgment, records it in the county, and moves for an order directing the sheriff to sell the house.",
+      "call": "How should the court rule on the motion?",
+      "choices": [
+        "Grant it, because converting non-exempt assets into homestead with intent to hinder a creditor forfeits the exemption.",
+        "Grant it in part by imposing an equitable lien on the house for the amount Marisol used to pay off the mortgage.",
+        "Deny it, because the judgment is not within any of the constitutional exceptions and the money used was not obtained through fraud or egregious conduct.",
+        "Deny it only if Marisol had received the homestead tax exemption before the verdict."
+      ],
+      "answer": 2,
+      "explanation": "Homestead owned by a natural person and used as her residence is exempt from forced sale, and inside a municipality the protection covers up to one-half acre with no dollar cap. The only constitutional exceptions are taxes and assessments, obligations for purchase, improvement or repair, and labor performed on the realty; a negligence judgment is none of these. Under Havoco v. Hill, moving non-exempt assets into homestead with the intent to hinder creditors does not forfeit the exemption; an equitable lien is available only when the money itself was obtained through fraud or egregious conduct. Marisol's money was her own earnings, so the house cannot be sold.",
+      "whyNot": [
+        "Havoco rejected this argument: intent to hinder creditors is not one of the three exceptions in Article X, § 4, and the constitution controls over the fraudulent-transfer statutes.",
+        "An equitable lien requires that the funds traced into the homestead were obtained by fraud or egregious conduct (for example, embezzled money). Salary-derived savings do not qualify.",
+        "",
+        "The forced-sale exemption does not depend on the tax exemption or on any application; the two functions have different requirements."
+      ]
+    },
+    {
+      "id": "fl-real-property.q002",
+      "topic": "fl-real-property.homestead",
+      "rules": [
+        "fl-real-property.homestead.devise-restrictions",
+        "fl-real-property.homestead.invalid-devise-descent"
+      ],
+      "difficulty": 2,
+      "stem": "Desmond owned a house in Gainesville in his sole name and lived there with his wife, Tasha, and their 12-year-old daughter, Ivy. His validly executed will left 'my home to my beloved wife, Tasha, outright' and the residue of his estate to Ivy. Desmond and Tasha never signed a prenuptial or postnuptial agreement, and Tasha never signed any waiver of homestead rights. Desmond died last year. Tasha made no election of any kind within six months after his death.",
+      "call": "Who owns the house now?",
+      "choices": [
+        "Tasha holds a life estate, and Ivy holds a vested remainder.",
+        "Tasha owns the house in fee simple under the will.",
+        "Tasha and Ivy each own an undivided one-half interest as tenants in common.",
+        "Ivy owns the house in fee simple under the residuary clause."
+      ],
+      "answer": 0,
+      "explanation": "Homestead may not be devised if the owner is survived by a spouse or a minor child, except that it may be devised to the spouse only when there is no minor child. Because Ivy, a minor child, survived, the devise to Tasha is invalid. The homestead therefore passes under § 732.401: when the decedent leaves a spouse and descendants, the spouse takes a life estate with a vested remainder in the descendants per stirpes. The spouse may instead elect a one-half tenancy in common, but only within 6 months after death; Tasha did not elect, so she holds the life estate.",
+      "whyNot": [
+        "",
+        "A devise to the spouse is permitted only when no minor child survives. Ivy's survival makes the devise invalid.",
+        "This is the result only if Tasha had timely elected to take a one-half interest as tenant in common instead of the life estate.",
+        "A failed devise of homestead passes outside the will under § 732.401, not under the residuary clause."
+      ]
+    },
+    {
+      "id": "fl-real-property.q003",
+      "topic": "fl-real-property.homestead",
+      "rules": [
+        "fl-real-property.homestead.alienation-joinder"
+      ],
+      "difficulty": 1,
+      "stem": "Rafael holds sole record title to the Orlando house where he lives with his wife, Lena, and their two minor sons. Needing capital for his landscaping business, Rafael alone signs a mortgage on the house in favor of Coastline Lending, which records it. Lena does not sign the mortgage and never consents to it. Rafael later defaults on the business loan, and Coastline files an action to foreclose the mortgage on the house. Lena intervenes to oppose foreclosure.",
+      "call": "What is Lena's strongest argument?",
+      "choices": [
+        "Homestead may not be mortgaged while the owner has minor children living in the home.",
+        "The loan was for a business purpose rather than for the purchase or improvement of the home.",
+        "A foreclosure is a forced sale, and homestead is exempt from forced sale.",
+        "As Rafael's spouse, she did not join in the mortgage, so it is ineffective against the homestead."
+      ],
+      "answer": 3,
+      "explanation": "Article X, § 4(c) allows the owner of homestead to alienate it by mortgage, sale or gift, but if the owner is married the spouse must join, even when the spouse holds no title. A mortgage of homestead signed by only one spouse is ineffective against the homestead, so Coastline cannot foreclose on the house.",
+      "whyNot": [
+        "Minor children restrict only the devise of homestead at death; they do not restrict lifetime sales or mortgages.",
+        "The purchase-and-improvement exception concerns which creditors may force a sale. A voluntary mortgage properly joined by the spouse is valid whatever the loan's purpose.",
+        "The forced-sale exemption does not prevent an owner from voluntarily mortgaging the homestead; a properly executed mortgage may be foreclosed. The defect here is the lack of joinder.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-real-property.q004",
+      "topic": "fl-real-property.homestead",
+      "rules": [
+        "fl-real-property.homestead.three-functions",
+        "fl-real-property.homestead.tax-exemption",
+        "fl-real-property.homestead.forced-sale-exemption"
+      ],
+      "difficulty": 3,
+      "stem": "In June, Priya moved from Ohio to Florida and bought, for cash, a house on a half-acre lot in the City of Sarasota, where she lives full-time and intends to stay. She has not applied for any property-tax exemption. In September, a lender holding a $90,000 Ohio judgment against Priya on unsecured personal loans made years earlier domesticates the judgment in Florida, records it in Sarasota County, and directs the sheriff to levy on the house. Priya moves to quash the levy.",
+      "call": "Which statement is correct?",
+      "choices": [
+        "The house is not protected, because Priya did not own and occupy it as her permanent residence on January 1 of this year.",
+        "The house is protected from the levy now, even though Priya cannot receive the homestead tax exemption until she qualifies as of a January 1 and applies.",
+        "The house is protected only if Priya files a homestead tax-exemption application before the sheriff's sale.",
+        "The house is not protected, because the debt was incurred before Priya became a Florida resident."
+      ],
+      "answer": 1,
+      "explanation": "Homestead's three functions have separate tests. The forced-sale exemption requires only that a natural person own the property and actually reside there with intent to make it a permanent home, within the area limits; it needs no application and no January 1 status, and it protects against debts incurred before the homestead was acquired (other than the constitutional exceptions). The tax exemption, by contrast, requires permanent residence as of January 1 and a timely application. Priya's house is protected from this unsecured judgment now.",
+      "whyNot": [
+        "The January 1 status date is a requirement of the tax exemption, not of the forced-sale exemption.",
+        "",
+        "No application is needed for creditor protection; the application matters only for the tax exemption.",
+        "The exemption is not limited to debts incurred after the homestead was acquired. Only the constitutional exceptions (taxes, purchase/improvement/repair, labor) and fraud-based equitable liens defeat it."
+      ]
+    },
+    {
+      "id": "fl-real-property.q005",
+      "topic": "fl-real-property.conveyancing",
+      "rules": [
+        "fl-real-property.conveyancing.recording-notice-act"
+      ],
+      "difficulty": 2,
+      "stem": "On March 1, Oren conveyed Blackacre, a vacant lot in Lake County, to Abby by a properly executed warranty deed. Abby paid full value but did not record. On April 10, Oren conveyed Blackacre to Ben by a properly executed warranty deed. Ben paid full value and had no knowledge of the earlier deed; no one was in possession of the lot. Abby recorded her deed on April 20, and Ben recorded his deed on May 2. Each now sues to quiet title.",
+      "call": "Who has superior title to Blackacre?",
+      "choices": [
+        "Ben, because he paid value without notice of Abby's unrecorded deed when he took his conveyance.",
+        "Abby, because she recorded her deed before Ben recorded his.",
+        "Abby, because she was first in time and Ben did not win the race to the courthouse.",
+        "Abby, because once Oren delivered the first deed he had no title left to convey to Ben."
+      ],
+      "answer": 0,
+      "explanation": "Florida's recording statute, § 695.01, is a pure notice act: an unrecorded conveyance is not good against a subsequent purchaser for value without notice. When Ben bought on April 10, Abby's deed was unrecorded, the lot was vacant (no inquiry notice), and Ben had no actual knowledge. He is protected regardless of when, or whether, he recorded.",
+      "whyNot": [
+        "",
+        "Who records first matters only in race and race-notice jurisdictions. Florida is a notice jurisdiction.",
+        "This is race-notice reasoning. Under a notice act the later bona fide purchaser does not need to win any race.",
+        "That is the common-law first-in-time rule, which the recording act displaces: an unrecorded deed is void against a later purchaser for value without notice."
+      ]
+    },
+    {
+      "id": "fl-real-property.q006",
+      "topic": "fl-real-property.conveyancing",
+      "rules": [
+        "fl-real-property.conveyancing.mrta",
+        "fl-real-property.conveyancing.mrta-exceptions"
+      ],
+      "difficulty": 3,
+      "stem": "In 1975 a developer recorded a deed conveying Lot 9 in Leon County to Carter, restricting the lot to a single-story residence. In 1990 Carter conveyed Lot 9 to Dana by a recorded warranty deed that described the lot and stated it was 'subject to restrictions, easements and covenants of record,' with no further detail. In 2012 Dana conveyed to Ellis by a recorded deed that does not mention any restriction. No one has ever recorded a notice to preserve the 1975 restriction, and no one is in possession other than Ellis. It is now 2026. Ellis plans a two-story house, and a neighbor sues to enforce the 1975 restriction.",
+      "call": "Is the restriction enforceable against Ellis?",
+      "choices": [
+        "Yes, because the 1990 deed made the lot subject to restrictions of record, which preserves the restriction.",
+        "Yes, because a restrictive covenant runs with the land and binds every successor who has record notice of it.",
+        "No, because the restriction arose before Ellis's root of title and was neither specifically identified in the muniments of title nor preserved by a recorded notice.",
+        "No, because the Marketable Record Title Act extinguishes every restriction that is more than 30 years old."
+      ],
+      "answer": 2,
+      "explanation": "Under chapter 712, the root of title is the most recent title transaction recorded at least 30 years before marketability is determined. In 2026 that is the 1990 deed (the 2012 deed is too recent). Interests that depend on events before the root — here the 1975 restriction — are extinguished unless an exception applies. A general reference to 'restrictions of record' does not preserve an interest; the muniments must specifically identify it (for example, by book and page). No notice of preservation was recorded, so the restriction is extinguished.",
+      "whyNot": [
+        "MRTA expressly provides that a general reference to restrictions of record is not sufficient; specific identification of the recorded instrument is required.",
+        "Ordinary covenant-running rules give way to MRTA. Once the restriction predates the root and no exception applies, it is extinguished regardless of record notice before the root.",
+        "",
+        "Overbroad: an old restriction survives if it is specifically identified in the muniments of title, preserved by a timely notice, or within another statutory exception."
+      ]
+    },
+    {
+      "id": "fl-real-property.q007",
+      "topic": "fl-real-property.conveyancing",
+      "rules": [
+        "fl-real-property.conveyancing.seller-disclosure"
+      ],
+      "difficulty": 1,
+      "stem": "Garrison sold his Tampa home to the Nguyens. Two years earlier, he had learned that the foundation had shifted, producing cracks that he covered with new drywall and paint. The Nguyens toured the house twice; nothing visible suggested a foundation problem, and Garrison said nothing about it. The purchase contract had no disclosure or warranty provisions. Six months after closing the cracks reappeared, and an engineer estimates repairs at $60,000. The Nguyens sue Garrison.",
+      "call": "Are the Nguyens likely to recover?",
+      "choices": [
+        "No, because caveat emptor applies and the Nguyens could have hired an inspector.",
+        "Yes, because a seller of a home must disclose known facts materially affecting its value that are not readily observable and not known to the buyer.",
+        "Yes, but only if Garrison made an affirmative false statement about the foundation.",
+        "No, because the contract contained no warranty about the condition of the foundation."
+      ],
+      "answer": 1,
+      "explanation": "Under Johnson v. Davis, a seller of residential property who knows of facts materially affecting its value that are not readily observable and are not known to the buyer must disclose them. Garrison knew of the foundation movement, it materially affects value, and it was hidden from the buyers. His silence supports a fraud claim for damages or rescission.",
+      "whyNot": [
+        "Florida abandoned caveat emptor for residential sales in Johnson v. Davis; the buyer's ability to hire an inspector does not excuse the seller's nondisclosure of a hidden defect.",
+        "",
+        "Johnson imposes a duty to disclose; no affirmative misrepresentation is required.",
+        "The disclosure duty arises from Florida common law, not from the contract, so the absence of a warranty clause does not defeat the claim."
+      ]
+    },
+    {
+      "id": "fl-real-property.q008",
+      "topic": "fl-real-property.landlord-tenant",
+      "rules": [
+        "fl-real-property.landlord-tenant.security-deposits"
+      ],
+      "difficulty": 2,
+      "stem": "Hollis rented an apartment in Fort Myers under a one-year lease and paid a $2,000 security deposit. He moved out on the last day of the lease and left a forwarding address. Thirty-eight days later the landlord sent Hollis a certified letter stating that it was keeping $1,200 of the deposit to replace carpet that Hollis admits he burned, and it enclosed a check for $800. Hollis sues the landlord for the $1,200.",
+      "call": "What is the most likely result?",
+      "choices": [
+        "Hollis loses, because the carpet damage was beyond normal wear and tear.",
+        "Hollis loses, because he did not object to the landlord's notice within 15 days after receiving it.",
+        "Hollis recovers the $1,200 plus three times that amount as a penalty for wrongful retention.",
+        "Hollis recovers the $1,200, because the landlord forfeited its right to impose a claim on the deposit, although it may sue Hollis separately for the carpet damage."
+      ],
+      "answer": 3,
+      "explanation": "Under § 83.49(3), a landlord that intends to keep any part of a deposit must send written notice of its claim by certified mail within 30 days after the tenant vacates. A landlord that misses the deadline forfeits the right to impose a claim on the deposit and may not set off against it, but it may still bring a separate action for damages. The notice here came on day 38, so Hollis recovers the $1,200 (and, as prevailing party, his costs and fees), and the landlord must pursue the carpet damage separately.",
+      "whyNot": [
+        "Whether the damage exceeded normal wear and tear matters only if the landlord preserved its claim with a timely notice.",
+        "The tenant's 15-day objection period is triggered only by a timely notice; an untimely notice does not shift the burden to the tenant.",
+        "Section 83.49 provides for return of the deposit and prevailing-party fees and costs, not treble damages.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-real-property.q009",
+      "topic": "fl-real-property.landlord-tenant",
+      "rules": [
+        "fl-real-property.landlord-tenant.self-help-prohibited"
+      ],
+      "difficulty": 1,
+      "stem": "Kiara leases a house in Ocala for $1,400 a month. After she fell two months behind on rent, her landlord, without filing suit, changed the locks while she was at work. Her belongings remained inside. Kiara spent two nights in a motel at a cost of $250 before the landlord let her back in to collect her things. She sues the landlord under Florida's Residential Landlord and Tenant Act for the lockout.",
+      "call": "Apart from costs and attorney's fees, what damages may Kiara recover for the lockout?",
+      "choices": [
+        "$4,200, because the statute awards the greater of actual and consequential damages or 3 months' rent.",
+        "$250, her actual damages, because she was in default on her rent.",
+        "Nothing, because the landlord's lockout was justified by her nonpayment.",
+        "$750, three times her actual damages."
+      ],
+      "answer": 0,
+      "explanation": "Section 83.67 forbids a landlord from changing locks or otherwise excluding a tenant without going through the courts, even when rent is unpaid. A landlord who violates the statute is liable for actual and consequential damages or 3 months' rent, whichever is greater, plus costs and attorney's fees. Three months' rent ($4,200) exceeds Kiara's $250 in actual damages, so she recovers $4,200. (The landlord may still pursue the unpaid rent through proper proceedings.)",
+      "whyNot": [
+        "",
+        "Her default does not reduce the statutory remedy; the statute awards the greater of actual damages or 3 months' rent.",
+        "Nonpayment never authorizes self-help; the landlord must file an action for possession.",
+        "The statute does not treble actual damages; it sets a floor of 3 months' rent."
+      ]
+    },
+    {
+      "id": "fl-real-property.q010",
+      "topic": "fl-real-property.landlord-tenant",
+      "rules": [
+        "fl-real-property.landlord-tenant.eviction-registry",
+        "fl-real-property.landlord-tenant.tenant-remedies"
+      ],
+      "difficulty": 2,
+      "stem": "Leon's landlord ignored Leon's written notice, delivered by hand, that the roof of his rented house was leaking and that Leon would withhold rent if it was not fixed within 7 days. Ten days later Leon stopped paying rent. The landlord served a proper 3-day notice and filed an eviction action in county court alleging $3,600 in unpaid rent. Leon timely filed an answer asserting the landlord's material noncompliance as a defense, but he deposited no money into the court registry and did not move to determine the rent. The landlord moves for a default judgment for possession.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Deny the motion, because Leon gave a proper 7-day notice and therefore has a valid statutory defense.",
+        "Deny the motion and refer the dispute over the amount of rent to mediation.",
+        "Grant the motion, because Leon's failure to deposit the rent alleged due waived his defenses other than payment.",
+        "Grant the motion only if the landlord proves that the roof did not leak."
+      ],
+      "answer": 2,
+      "explanation": "Under § 83.60(2), a tenant who raises any defense other than payment must pay the rent alleged in the complaint into the court registry (and keep paying accruing rent) or timely move to determine the rent. Failure to do so is an absolute waiver of all defenses other than payment, and the landlord is entitled to an immediate default judgment for possession without a hearing. Leon's defense may have had merit, but he waived it.",
+      "whyNot": [
+        "Even a properly preserved withholding defense is waived if the tenant does not deposit the rent into the registry.",
+        "The statute does not provide for mediation in place of the registry requirement; the consequence of non-deposit is a default for possession.",
+        "",
+        "Because the defenses are waived, the court does not reach their merits; the landlord need prove nothing about the roof."
+      ]
+    },
+    {
+      "id": "fl-real-property.q011",
+      "topic": "fl-real-property.landlord-tenant",
+      "rules": [
+        "fl-real-property.landlord-tenant.termination-holdover"
+      ],
+      "difficulty": 1,
+      "stem": "Mona has rented a Jacksonville apartment on a month-to-month basis for three years with no written lease, paying rent on the first of each month. On May 15, 2026, her landlord handed her a written notice stating that the tenancy would end on May 31 and that she must vacate by then. Mona did not leave. On June 2 the landlord filed an action for possession and demanded double rent for the days she remained.",
+      "call": "Was the landlord's notice sufficient to end the tenancy on May 31?",
+      "choices": [
+        "Yes, because the landlord gave at least 15 days' written notice before the end of the monthly period.",
+        "No, because a month-to-month tenancy requires at least 30 days' written notice before the end of a monthly period.",
+        "Yes, because a tenant who remains after receiving any written notice to vacate is a holdover liable for double rent.",
+        "No, because a month-to-month tenancy that has lasted more than a year may be ended only for cause."
+      ],
+      "answer": 1,
+      "explanation": "Under § 83.57 as amended in 2023, a month-to-month residential tenancy is terminated by written notice given at least 30 days before the end of a monthly period. Sixteen days' notice was not enough, so the tenancy did not end on May 31; Mona is not a holdover, and the landlord cannot recover possession or double rent on this notice.",
+      "whyNot": [
+        "Fifteen days was the notice period before the 2023 amendment; the current requirement for month-to-month tenancies is 30 days.",
+        "",
+        "Double rent under § 83.58 applies only after the tenancy has properly ended; an ineffective notice does not make Mona a holdover.",
+        "Florida does not require cause to end a periodic tenancy; the landlord need only give proper notice (absent retaliation or discrimination)."
+      ]
+    },
+    {
+      "id": "fl-real-property.q012",
+      "topic": "fl-real-property.mortgages",
+      "rules": [
+        "fl-real-property.mortgages.redemption",
+        "fl-real-property.mortgages.judicial-foreclosure"
+      ],
+      "difficulty": 2,
+      "stem": "Coral Bank obtained a final judgment foreclosing the mortgage on Nadia's Pensacola home. The judgment set no special redemption deadline. At the clerk's online sale, Westshore LLC was the high bidder, and the clerk filed the certificate of sale that afternoon. Two days later, before a certificate of title had issued, Nadia tendered to the clerk the full amount due under the judgment, with interest and costs, and asked to redeem her home.",
+      "call": "May Nadia redeem?",
+      "choices": [
+        "Yes, because the right of redemption continues until the clerk issues the certificate of title.",
+        "Yes, because Florida gives a mortgagor a statutory right to redeem for a period after the foreclosure sale.",
+        "Yes, if she files an objection to the sale within 10 days and tenders the full amount due.",
+        "No, because her right of redemption ended when the clerk filed the certificate of sale."
+      ],
+      "answer": 3,
+      "explanation": "Under § 45.0315 the mortgagor may redeem by paying the amount specified in the judgment at any time before the later of the filing of the certificate of sale or the time specified in the judgment. The judgment set no later time, so Nadia's equitable right of redemption expired when the certificate of sale was filed. Florida has no post-sale statutory redemption.",
+      "whyNot": [
+        "Redemption is cut off by the certificate of sale, not the later certificate of title.",
+        "Florida provides only an equitable right of redemption that ends at the sale; there is no statutory post-sale redemption period.",
+        "The 10-day objection period allows a party to challenge irregularities in the sale; it does not revive the right of redemption.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-real-property.q013",
+      "topic": "fl-real-property.mortgages",
+      "rules": [
+        "fl-real-property.mortgages.limitations"
+      ],
+      "difficulty": 3,
+      "stem": "In 2014 Harbor Mortgage sued to foreclose the mortgage on Owen's home, accelerating the entire balance because Owen had missed several payments. In 2016 the court dismissed that action when Harbor failed to appear for trial; the order did not adjudicate the merits. Owen has made no payment since 2013. In 2025 Harbor filed a new foreclosure action, alleging Owen's continuing defaults. The note's stated maturity date is 2040. Owen moves for summary judgment on the ground that the action is barred by the statute of limitations.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Deny the motion, because after the dismissal each new default started a new 5-year period, and Harbor may foreclose based on defaults within the 5 years before it filed.",
+        "Grant the motion, because the 2014 acceleration started a single 5-year period that expired in 2019.",
+        "Grant the motion, because a mortgagee may not bring a second foreclosure action on the same mortgage after the first is dismissed.",
+        "Deny the motion, solely because the mortgage lien survives until 5 years after the 2040 maturity date."
+      ],
+      "answer": 0,
+      "explanation": "A foreclosure action is subject to a 5-year limitations period. Under Bartram v. U.S. Bank, when an earlier foreclosure is dismissed, the parties return to their pre-acceleration positions, and each later default gives rise to a new cause of action with its own 5-year period. Owen's defaults within the five years before the 2025 filing support a timely action, so the motion should be denied.",
+      "whyNot": [
+        "",
+        "Bartram rejected the argument that an acceleration in a dismissed suit starts a single, permanent limitations clock.",
+        "A dismissed foreclosure does not bar a later action based on subsequent defaults.",
+        "The lien-duration statute (§ 95.281) and the limitations period for the foreclosure action are separate; lien survival alone would not make an otherwise barred action timely. The action is timely because of the new defaults."
+      ]
+    },
+    {
+      "id": "fl-real-property.q014",
+      "topic": "fl-real-property.ownership-and-possession",
+      "rules": [
+        "fl-real-property.ownership-and-possession.tenancy-by-entirety"
+      ],
+      "difficulty": 2,
+      "stem": "Wendell and his wife, Grace, hold a rental duplex in Lakeland under a deed 'to Wendell and Grace, husband and wife.' They also own a savings account titled in both names; the signature card says nothing about the form of ownership. Wendell's former business partner obtains a $150,000 judgment against Wendell alone for breach of a personal guaranty and seeks to levy on the duplex and garnish the savings account.",
+      "call": "Can the creditor reach either asset?",
+      "choices": [
+        "Yes, both assets, because neither is the couple's homestead.",
+        "No, because both assets are presumed held as tenants by the entirety and the creditor's judgment is against only one spouse.",
+        "The duplex is protected, but the account is not, because a tenancy by the entirety cannot exist in personal property.",
+        "Yes, both assets, but only to the extent of Wendell's one-half interest in each."
+      ],
+      "answer": 1,
+      "explanation": "Real property conveyed to spouses is held as tenants by the entirety, and under Beal Bank a bank account titled in both spouses' names is presumed to be held by the entirety unless the account documents expressly disclaim it. Entireties property belongs to the marital unit, so a creditor of only one spouse cannot reach it. A joint creditor of both spouses could.",
+      "whyNot": [
+        "Entireties protection is independent of homestead; it shields non-homestead property such as a rental duplex.",
+        "",
+        "Florida recognizes tenancy by the entirety in personal property, including bank accounts.",
+        "Neither spouse holds a separate, severable one-half share of entireties property, so there is no interest for an individual creditor to reach."
+      ]
+    },
+    {
+      "id": "fl-real-property.q015",
+      "topic": "fl-real-property.ownership-and-possession",
+      "rules": [
+        "fl-real-property.ownership-and-possession.adverse-possession-without-color",
+        "fl-real-property.ownership-and-possession.adverse-possession-color"
+      ],
+      "difficulty": 2,
+      "stem": "In 2017 Juno, who had no deed or other written claim, fenced a vacant 2-acre parcel in rural Marion County owned of record by an out-of-state investor, built a shed on it, and has farmed it openly and continuously ever since. Juno never filed anything with the county property appraiser and never paid taxes on the parcel; the investor has paid the property taxes every year. In 2026 Juno sues to quiet title in herself by adverse possession.",
+      "call": "Will Juno prevail?",
+      "choices": [
+        "Yes, because she has openly, continuously and exclusively possessed enclosed land for more than 7 years.",
+        "Yes, but only as to the land within her fence, because she lacks color of title.",
+        "No, because a claimant without color of title must file a return with the property appraiser and pay the taxes, and Juno did neither.",
+        "No, because adverse possession in Florida requires 20 years of possession."
+      ],
+      "answer": 2,
+      "explanation": "A claimant without color of title proceeds under § 95.18, which requires 7 years of continued adverse possession plus a return filed with the property appraiser within 1 year after entering possession, payment of outstanding taxes and matured special assessments within that year, and payment of the taxes for the rest of the period. Juno satisfied the possession elements but filed no return and paid no taxes, so she cannot acquire title.",
+      "whyNot": [
+        "Open, continuous and exclusive possession is necessary but not sufficient without color of title; the statutory return and tax payments are also required.",
+        "Limiting the claim to land actually possessed is correct for a without-color claimant, but the claim still fails entirely for lack of the return and tax payments.",
+        "",
+        "Twenty years is the prescriptive-easement period; adverse possession under either Florida statute takes 7 years."
+      ]
+    }
+  ]
+}

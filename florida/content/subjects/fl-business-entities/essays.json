@@ -1,0 +1,244 @@
+{
+  "subject": "fl-business-entities",
+  "essays": [
+    {
+      "id": "fl-business-entities.e01",
+      "title": "The Kayak Company Deadlock",
+      "minutes": 60,
+      "topics": [
+        "fl-business-entities.corporations",
+        "fl-business-entities.shareholder-remedies-and-fundamental-changes"
+      ],
+      "facts": [
+        "Coastal Kayak Tours, Inc. is a Florida corporation formed in 2021. Its shares are held by Mara (45 percent), Felix (45 percent) and Gina (10 percent), and the three of them are its only directors. The articles of incorporation contain only the statutory minimum and say nothing about director liability, shareholder action or dissolution.",
+        "In 2024 Felix proposed that Coastal buy its new fleet of kayaks from Tidewater Marine, LLC. He told the board that Tidewater was 'run by family' and was 'the best supplier around.' In fact Felix owns 100 percent of Tidewater. Mara and Felix voted to approve a three-year supply contract; Gina voted no because Tidewater's prices were about 25 percent higher than two other suppliers' written quotes, which she showed the board. Coastal has since paid Tidewater roughly $180,000 more than it would have paid the lowest bidder.",
+        "Also in 2024, at a 20-minute meeting, all three directors voted to open a second tour location in a neighboring county. They relied on Felix's oral assurance that 'the numbers work' and did not review any projections, leases or market data. Mara later admitted she 'didn't really pay attention' because she trusted Felix. The second location closed after eight months with losses of $300,000.",
+        "In March 2025 Gina sent the board a written demand that Coastal sue Felix over the Tidewater contract. Thirty days later, having heard nothing, she filed a verified derivative complaint against Felix and Mara seeking damages for the Tidewater contract and for the expansion losses. Nothing suggests the corporation would be harmed by a short delay.",
+        "Meanwhile Mara and Felix stopped speaking. Gina has refused to attend shareholder meetings, and at the 2025 and 2026 annual meetings Mara and Felix each voted their shares for a different slate, so no directors were elected and the old board holds over and cannot agree on anything. In September 2026 Mara petitioned the circuit court to dissolve Coastal."
+      ],
+      "calls": [
+        "Was Gina's derivative action properly commenced, and what is the likely outcome of her claim concerning the Tidewater contract?",
+        "Are Felix and Mara personally liable for damages for the losses from the second location?",
+        "On what ground may the court dissolve Coastal, and how may Felix respond to Mara's petition?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Standing and universal demand",
+          "rules": [
+            "fl-business-entities.shareholder-remedies-and-fundamental-changes.derivative-suits"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Gina owned shares when the challenged transactions occurred (contemporaneous ownership) and can fairly and adequately represent the corporation",
+            "Florida requires written demand in every case; futility is not an excuse",
+            "Suit may not be filed until 90 days after demand unless the demand is rejected earlier or irreparable injury would result",
+            "Filing after 30 days with no rejection and no irreparable injury is premature; the complaint is subject to dismissal, but she may refile once 90 days pass"
+          ],
+          "conclusion": "Gina made the required written demand but filed too soon, so the action was not properly commenced and is subject to dismissal until the 90-day period runs."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Felix's conflict-of-interest transaction",
+          "rules": [
+            "fl-business-entities.corporations.duty-of-loyalty",
+            "fl-business-entities.corporations.duty-of-care"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Felix had a material financial interest because he owns Tidewater, so this is a director's conflict-of-interest transaction",
+            "Safe harbor through board approval requires disclosure of the material facts and approval by disinterested directors; 'run by family' concealed his ownership, and Mara and Felix's votes do not satisfy the disinterested-approval requirement",
+            "No shareholder approval was sought",
+            "Fairness fails: prices about 25 percent above competing quotes",
+            "§ 607.0831 does not protect a director who derived an improper personal benefit; remedies include damages of about $180,000, rescission or disgorgement"
+          ],
+          "conclusion": "Once properly filed, the claim against Felix is strong: no safe harbor applies, the deal was unfair, and his personal benefit takes him outside § 607.0831."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "Duty of care, business judgment and § 607.0831",
+          "rules": [
+            "fl-business-entities.corporations.duty-of-care"
+          ],
+          "points": 5,
+          "mustSay": [
+            "Directors must act in good faith, in a manner reasonably believed to be in the corporation's best interests, with the care of a reasonable person in a like position, and may rely only on information reasonably believed reliable",
+            "A 20-minute meeting with no data, relying on an oral assurance, is a poorly informed decision and a likely breach of the standard of care",
+            "§ 607.0831 automatically shields directors from monetary liability unless the breach falls within a statutory category; no charter provision is needed",
+            "In a derivative suit the relevant categories are conscious disregard of the corporation's best interests or willful or intentional misconduct (plus improper personal benefit, crime, unlawful distribution)",
+            "Mara's inattention is negligence, not conscious disregard; Felix is shielded unless his assurance was knowingly false or he stood to benefit personally"
+          ],
+          "conclusion": "Probably not: the expansion decision was careless, but absent proof of conscious disregard, willful misconduct or a personal benefit, § 607.0831 bars damages against both directors."
+        },
+        {
+          "id": "i4",
+          "call": 3,
+          "label": "Judicial dissolution and the election to purchase",
+          "rules": [
+            "fl-business-entities.shareholder-remedies-and-fundamental-changes.dissolution"
+          ],
+          "points": 4,
+          "mustSay": [
+            "A shareholder may seek judicial dissolution when the shareholders are deadlocked in voting power and have failed for at least two consecutive annual meeting dates to elect successor directors",
+            "The 2025 and 2026 annual meetings produced no election, satisfying that ground",
+            "Director deadlock that the shareholders cannot break, threatening irreparable injury or preventing the business from being conducted to the shareholders' advantage, is an alternative ground",
+            "Felix (or the corporation) may elect to purchase Mara's shares at fair value instead of dissolution; if the parties cannot agree, the court determines fair value",
+            "The court may also use alternative relief such as a receiver or custodian"
+          ],
+          "conclusion": "The two-year failure to elect directors supports dissolution, but Felix can avoid it by electing to buy Mara's shares at a fair value the court will set if they cannot agree."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Commencement. A Florida shareholder may sue derivatively only if she was a shareholder when the challenged act occurred and fairly and adequately represents the corporation. Florida follows a universal-demand rule: the shareholder must make a written demand that the corporation take suitable action and may not file until 90 days after the demand, unless she is told sooner that the demand is rejected or waiting would cause irreparable injury to the corporation. Gina has held her shares since 2021 and has no apparent conflict, so she has standing. She made a written demand, but she filed after only 30 days with no rejection and no showing of irreparable harm. Her belief that the board would never sue Felix does not matter, because Florida does not excuse demand as futile. The complaint was filed too early and should be dismissed or stayed. She may refile once the 90 days have run or the board rejects the demand.",
+            "Merits of the Tidewater claim. A director's conflict-of-interest transaction is not voidable because of the director's interest if, after disclosure of the material facts, it is approved by the disinterested directors or by the shareholders, or if it is fair to the corporation. Felix owns all of Tidewater, so he had a direct financial interest. He disclosed only that Tidewater was 'run by family,' which hid his ownership, so there was no disclosure of the material facts. The only votes in favor were his own and Mara's. A board vote cannot cleanse the conflict when the interested director's vote was needed to pass it and the true facts were withheld. The shareholders never voted. The fairness safe harbor also fails, because Coastal paid about 25 percent more than competing written quotes, roughly $180,000 in excess cost. Felix therefore breached his duty of loyalty. The § 607.0831 shield does not help him, because he received an improper personal benefit. Coastal may recover damages (about $180,000), seek rescission of the remaining contract, or require Felix to disgorge Tidewater's profits. Mara's liability on this claim depends on whether her vote was more than negligent. If she knew of Felix's ownership, her vote may show conscious disregard; if she did not, § 607.0831 likely protects her."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "A Florida director must act in good faith, in a manner she reasonably believes to be in the corporation's best interests, and with the care a reasonable person in a like position would use. She may rely on information from officers and fellow directors only if she reasonably believes it reliable. Courts presume under the business judgment rule that disinterested directors acted on an informed basis. Approving a new location after 20 minutes, with no projections, leases or market data and only Felix's oral assurance that 'the numbers work,' is weak evidence of an informed decision, and a court could find a breach of the standard of care.",
+            "Finding a breach does not by itself create liability for damages. Under § 607.0831, which applies automatically without any provision in the articles, a director is not personally liable for monetary damages for any decision unless the breach falls within a statutory category. The categories are a criminal violation, a transaction yielding an improper personal benefit, an unlawful distribution, and, in a suit by or in the right of the corporation, conscious disregard of the corporation's best interests or willful or intentional misconduct. Mara's admission that she 'didn't really pay attention' shows negligence or even gross negligence, but not a conscious decision to disregard the corporation's interests. Felix is in the same position unless Gina can prove that he knew 'the numbers' did not work, which could be willful misconduct, or that he stood to gain personally from the expansion, for example through Tidewater sales to the new location. On these facts neither director is likely to be personally liable for the $300,000 in losses."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "A court may dissolve a Florida corporation in a shareholder's proceeding on statutory grounds that include (1) a director deadlock that the shareholders cannot break, where irreparable injury is threatened or the business can no longer be conducted to the shareholders' advantage, and (2) a shareholder deadlock that has prevented the election of successor directors for at least two consecutive annual meeting dates. Mara and Felix each hold 45 percent, Gina will not participate, and no directors were elected at the 2025 or 2026 annual meetings. That satisfies the shareholder-deadlock ground. The holdover board cannot agree on anything, so the director-deadlock ground is also available if Mara shows threatened irreparable injury or an inability to run the business to the shareholders' advantage.",
+            "Felix's response. In a shareholder's proceeding for judicial dissolution, the corporation or one or more other shareholders may elect to purchase all of the petitioner's shares at fair value (§ 607.1436). If Felix and Mara cannot agree on a price, the court will determine fair value and set the terms of payment, and the dissolution proceeding ends in a buyout rather than a liquidation. Felix may also ask the court to use a less drastic remedy, such as appointing a custodian or receiver, rather than dissolving a business that is still operating. The most likely result is that Felix buys Mara's 45 percent at a fair value set by the court, and Coastal continues."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-business-entities.e02",
+      "title": "Blue Heron Bikes",
+      "minutes": 60,
+      "topics": [
+        "fl-business-entities.partnerships",
+        "fl-business-entities.llcs"
+      ],
+      "facts": [
+        "Rosa, Sam and Tariq started renting bicycles to tourists in St. Augustine under the name 'Blue Heron Bikes' in early 2024. They never signed any agreement or filed anything with the state. Each put in $10,000, they made decisions together at weekly meetings, and they split the profits equally. In June 2024 Sam, without consulting the others, bought 30 bicycles on credit from Velo Wholesale for $15,000, signing the invoice 'Blue Heron Bikes, by Sam.' The bikes went into the rental fleet. Nothing has been paid on the invoice.",
+        "In January 2025 the three formed Blue Heron Bikes, LLC by filing articles of organization that say nothing about management. They signed a written operating agreement providing that profits are shared equally and that 'no member shall sign any lease or contract exceeding $25,000 without the written consent of all members.' The operating agreement was never filed or shown to outsiders. The three transferred all of the old business's bicycles and equipment to the LLC. The LLC never agreed to pay Velo.",
+        "In March 2025 Tariq, acting alone, signed a three-year, $40,000 lease of a beachfront kiosk from Island Properties in the LLC's name for a second rental stand. Bike-rental kiosks are common in the area, and Island Properties knew nothing of the operating agreement. Rosa and Sam are unhappy with the lease and want the LLC to walk away from it.",
+        "In May 2025 the manager of a large resort emailed the LLC's general business address asking whether Blue Heron would run a bike-rental concession at the resort. Rosa, who monitors that inbox, did not tell Sam or Tariq. She formed her own company, which signed the concession contract and has earned $50,000 in profit.",
+        "Separately, a man Sam injured in a car accident in 2025 holds a $200,000 personal judgment against Sam. The judgment creditor has asked the court to order a sale of Sam's interest in the LLC and to let him levy on the LLC's bicycles."
+      ],
+      "calls": [
+        "Who is liable to Velo Wholesale for the $15,000, and why?",
+        "Is Blue Heron Bikes, LLC bound by the kiosk lease?",
+        "Did Rosa breach any duty by taking the resort concession, and what relief is available?",
+        "What can Sam's judgment creditor obtain?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Partnership formed by conduct and partners' liability",
+          "rules": [
+            "fl-business-entities.partnerships.formation",
+            "fl-business-entities.partnerships.authority",
+            "fl-business-entities.partnerships.liability-and-llp"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Association of two or more persons to carry on as co-owners a business for profit is a partnership whether or not intended; no filing required",
+            "Profit-sharing raises a presumption of partnership, and shared control confirms co-ownership",
+            "Sam's purchase of rental bikes was apparently in the ordinary course and bound the partnership",
+            "Rosa, Sam and Tariq are jointly and severally liable; Velo generally must obtain a judgment against the partner and exhaust partnership assets first, which are gone here because they were transferred to the LLC",
+            "The LLC is not liable merely because it is a later entity; Velo would need assumption, de facto merger, mere continuation or a fraudulent transfer"
+          ],
+          "conclusion": "The partnership and all three partners personally are liable to Velo for $15,000; the LLC is liable only if Velo can establish a successor-liability or fraudulent-transfer theory."
+        },
+        {
+          "id": "i2",
+          "call": 2,
+          "label": "Member's power to bind a member-managed LLC",
+          "rules": [
+            "fl-business-entities.llcs.management",
+            "fl-business-entities.llcs.agency"
+          ],
+          "points": 4,
+          "mustSay": [
+            "An LLC is member-managed unless its articles or operating agreement expressly provide otherwise; these articles are silent",
+            "In a Florida member-managed LLC each member is an agent, and an act apparently carrying on the company's ordinary business binds the LLC unless the member lacked authority and the third party knew or had notice",
+            "Leasing a kiosk for a second rental stand is apparently in the ordinary course of a bike-rental business",
+            "Island Properties lacked notice of the unfiled $25,000 restriction",
+            "Note Florida's departure from RULLCA, which does not make a member an agent solely by reason of membership; Tariq may be liable to the LLC for breaching the operating agreement"
+          ],
+          "conclusion": "Yes; the LLC is bound through Tariq's statutory apparent authority, though Tariq may owe the LLC damages for breaching the operating agreement."
+        },
+        {
+          "id": "i3",
+          "call": 3,
+          "label": "Usurping a company opportunity",
+          "rules": [
+            "fl-business-entities.llcs.fiduciary-duties"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Members of a member-managed LLC owe the company and the other members the duties of loyalty and care",
+            "Loyalty requires accounting for any benefit derived from the company's business, including appropriating a company opportunity, and refraining from competing before dissolution",
+            "The offer was sent to the LLC, was squarely within its line of business, and Rosa took it without disclosure or consent",
+            "Remedies: an accounting and disgorgement of the $50,000 profit, or a constructive trust over the concession contract; possible expulsion under the operating agreement or by court order"
+          ],
+          "conclusion": "Rosa breached her duty of loyalty, and the LLC can recover her $50,000 profit and seek a constructive trust over the concession."
+        },
+        {
+          "id": "i4",
+          "call": 4,
+          "label": "Charging order as exclusive remedy",
+          "rules": [
+            "fl-business-entities.llcs.charging-orders",
+            "fl-business-entities.llcs.formation-and-shield"
+          ],
+          "points": 3,
+          "mustSay": [
+            "The LLC is a separate entity; its bicycles are not Sam's property and cannot be levied on for Sam's personal debt",
+            "A charging order is the sole and exclusive remedy of a member's judgment creditor against the member's interest",
+            "The single-member foreclosure exception does not apply because the LLC has three members",
+            "The creditor receives only distributions that would go to Sam and gets no management rights"
+          ],
+          "conclusion": "The creditor may obtain only a charging order against Sam's transferable interest; he cannot force a sale of the interest or reach the LLC's bicycles."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Formation. Under § 620.8202, the association of two or more persons to carry on as co-owners a business for profit forms a partnership whether or not the persons intend to form one. No writing or filing is required. A person who receives a share of the profits is presumed to be a partner. Rosa, Sam and Tariq each contributed capital, made decisions together and shared profits equally, so they formed a general partnership in early 2024.",
+            "Binding the partnership. Each partner is an agent of the partnership, and an act apparently carrying on the partnership's business in the ordinary course binds it unless the partner lacked authority and the third party knew or had notice of that. Buying rental bicycles for a bike-rental business is plainly ordinary course, and Velo had no notice of any limit. The partnership is bound.",
+            "Personal liability. Partners are jointly and severally liable for all partnership obligations. A creditor ordinarily must obtain a judgment against the partner and exhaust partnership assets before levying on a partner's personal assets. The partnership transferred all of its assets to the LLC, so exhaustion should be quickly satisfied, and Velo may collect the full $15,000 from any one of the three partners. That partner may then seek contribution from the others. Forming the LLC did not release the partners from obligations the partnership had already incurred. The LLC itself is not liable merely because it continues the same business, since it never assumed the debt. Velo would have to show an implied assumption, a de facto merger or mere continuation, or that the transfer of all partnership assets to the LLC without paying creditors was a fraudulent transfer."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "A Florida LLC is member-managed unless its articles or operating agreement expressly provide that it is manager-managed. The articles here are silent, and the operating agreement does not adopt manager management, so Blue Heron is member-managed. Under § 605.04074, each member of a member-managed LLC is an agent of the company. A member's act for apparently carrying on in the ordinary course the company's business, or business of the kind it carries on, binds the company unless the member had no authority and the third party knew or had notice of that. Florida keeps this partnership-style rule, while the uniform act (RULLCA) provides that a member is not an agent solely by reason of being a member.",
+            "Tariq lacked actual authority, because the operating agreement required unanimous written consent for leases over $25,000. A lease of a kiosk for an additional rental stand is, however, the kind of transaction a bike-rental company carries on, and such kiosks are common in the area. Island Properties knew nothing of the restriction, and the unfiled operating agreement did not give it notice. The LLC is therefore bound by the lease. Rosa and Sam's remedy is internal: Tariq breached the operating agreement and may be liable to the LLC for resulting damages."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "In a member-managed LLC, each member owes the company and the other members the fiduciary duties of loyalty and care (§ 605.04091). The duty of loyalty requires a member to account to the company for any property, profit or benefit derived from the company's activities, including the appropriation of a company opportunity, and to refrain from competing with the company before dissolution. A member does not breach the duty merely because her conduct also furthers her own interest. Here, however, Rosa diverted the company's opportunity for herself.",
+            "The resort sent its inquiry to the LLC's own business address and sought precisely the service the LLC provides. Rosa learned of it only through her role in the company, hid it from the other members and took it for her own company, which now competes with the LLC. No provision of the operating agreement authorized this, and the other members never consented after full disclosure. Rosa breached her duty of loyalty. The LLC may obtain an accounting and disgorgement of her $50,000 profit, a constructive trust over the concession contract, and damages. Her misconduct may also support expelling her as a member."
+          ]
+        },
+        {
+          "call": 4,
+          "text": [
+            "The LLC is an entity separate from its members, and its debts and property are its own. The bicycles belong to Blue Heron Bikes, LLC, not to Sam, so a creditor holding a judgment against Sam personally cannot levy on them. Nothing suggests grounds to disregard the entity.",
+            "Under § 605.0503, a charging order is the sole and exclusive remedy by which a member's judgment creditor may satisfy the judgment from the member's interest in the LLC. The charging order is a lien on Sam's transferable interest and requires the LLC to pay the creditor any distributions that would otherwise go to Sam. It gives the creditor no right to take part in management. Florida allows a foreclosure sale of the entire interest only for a single-member LLC, and only on a showing that distributions under the charging order will not pay the judgment within a reasonable time. Blue Heron has three members, so that exception does not apply. The creditor may obtain a charging order only; the court should deny the requested sale and levy."
+          ]
+        }
+      ]
+    }
+  ]
+}

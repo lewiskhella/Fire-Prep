@@ -1,0 +1,335 @@
+{
+  "subject": "fl-civil-procedure",
+  "questions": [
+    {
+      "id": "fl-civil-procedure.q001",
+      "topic": "fl-civil-procedure.jurisdiction-and-venue",
+      "rules": ["fl-civil-procedure.jurisdiction-and-venue.trial-court-jurisdiction"],
+      "difficulty": 1,
+      "stem": "In March 2026, Harbor Paint Supply, a Florida corporation, sued Lorenzo Vidal, a painting contractor who lives in Lee County, for unpaid invoices totaling $46,800. The credit agreement Vidal signed provides for prevailing-party attorney's fees. Harbor's complaint demands the $46,800 principal, about $5,000 in prejudgment interest, and an estimated $9,000 in attorney's fees, for a total of roughly $60,800. Vidal asserts no counterclaim. Harbor filed the complaint in the circuit court for Lee County, and Vidal promptly objected that the circuit court lacks subject-matter jurisdiction.",
+      "call": "Which court has subject-matter jurisdiction over Harbor's action?",
+      "choices": [
+        "The circuit court, because the total amount demanded, including interest and fees, exceeds $50,000.",
+        "The county court, because the amount in controversy, excluding interest, costs and attorney's fees, does not exceed $50,000.",
+        "The circuit court, because actions on written contracts are within the circuit court's exclusive jurisdiction.",
+        "Either court, because county and circuit courts have concurrent jurisdiction over claims between $30,000 and $50,000."
+      ],
+      "answer": 1,
+      "explanation": "For actions filed on or after January 1, 2023, county courts have original jurisdiction of actions at law in which the amount in controversy does not exceed $50,000, exclusive of interest, costs and attorney's fees (§ 34.01). Harbor's principal claim is $46,800; the prejudgment interest and contractual fees are left out of the calculation. The action belongs in county court.",
+      "whyNot": [
+        "Interest, costs and attorney's fees are excluded when measuring the amount in controversy, so adding them cannot push the claim over $50,000.",
+        "",
+        "No rule gives circuit courts exclusive jurisdiction over contract claims as such; contract actions at law are divided between the two courts by amount.",
+        "There is no concurrent band between $30,000 and $50,000; $30,000 was the former county court ceiling for filings in 2020 through 2022. Below the current $50,000 limit, the county court has jurisdiction."
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.q002",
+      "topic": "fl-civil-procedure.jurisdiction-and-venue",
+      "rules": ["fl-civil-procedure.jurisdiction-and-venue.long-arm"],
+      "difficulty": 2,
+      "stem": "Pemberton Analytics, an Ohio company, licensed scheduling software to a Florida dental practice, which later sued Pemberton in Florida circuit court for breach of warranty. The complaint alleges, in the words of the long-arm statute, that Pemberton operates, conducts, engages in, or carries on a business or business venture in Florida. Pemberton moved to dismiss for lack of personal jurisdiction and attached its president's sworn affidavit stating that Pemberton has no Florida office, employees, agents, property or advertising; that the practice found Pemberton online and ordered by e-mail; and that the software was delivered by download. The practice filed a memorandum of law opposing the motion but no affidavit or other sworn evidence.",
+      "call": "How should the court rule on the motion?",
+      "choices": [
+        "Deny it, because on a motion to dismiss the court must accept the complaint's well-pleaded allegations as true.",
+        "Deny it, because Florida's long-arm statute reaches every defendant whose contacts satisfy due process, and selling to a Florida customer is enough.",
+        "Hold an evidentiary hearing, because the president's affidavit conflicts with the allegations of the complaint.",
+        "Grant it, because the affidavit shifted the burden to the practice to prove jurisdiction with sworn proof, and it offered none."
+      ],
+      "answer": 3,
+      "explanation": "Under Venetian Salami, a plaintiff may plead long-arm jurisdiction by tracking the statute, but a defendant who files a legally sufficient affidavit refuting the jurisdictional allegations shifts the burden back to the plaintiff to prove jurisdiction by affidavit or other sworn proof. The practice offered only a legal memorandum, so the unrebutted affidavit controls and the motion should be granted. An evidentiary hearing is needed only when the parties' sworn submissions conflict.",
+      "whyNot": [
+        "The allegations are accepted only until the defendant files a sufficient affidavit contesting them; after that the plaintiff must answer with sworn proof.",
+        "Florida's long-arm statute is strictly construed and does not automatically reach the limits of due process; the statutory and constitutional steps are analyzed separately.",
+        "A limited evidentiary hearing is required only when the parties' affidavits conflict. An affidavit that contradicts mere allegations simply shifts the burden to the plaintiff.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.q003",
+      "topic": "fl-civil-procedure.service",
+      "rules": ["fl-civil-procedure.service.individuals", "fl-civil-procedure.service.validity-and-return"],
+      "difficulty": 1,
+      "stem": "Kendra Oakes sued Malcolm Trent for negligence. On a Saturday afternoon, a certified process server went to the house where Trent lives with his wife and their 15-year-old daughter, Ivy. Trent was not home. The server handed the summons and complaint to Ivy, told her that the papers were a lawsuit against her father and that he needed to read them, and left. Ivy put the papers on the kitchen table, where Trent found them that evening. Trent's lawyer moved to quash service, and the return of service is regular on its face.",
+      "call": "Should the court quash service?",
+      "choices": [
+        "No, because the papers were left at Trent's usual place of abode with a resident who is at least 15 and who was informed of their contents.",
+        "Yes, because process may not be served on a Saturday.",
+        "Yes, because abode service may be made only on a resident who is 18 or older.",
+        "Yes, because abode service is permitted only after an unsuccessful attempt at personal delivery to the defendant."
+      ],
+      "answer": 0,
+      "explanation": "Section 48.031(1)(a) allows service by leaving the process and initial pleading at the defendant's usual place of abode with any person residing there who is 15 years of age or older and informing that person of their contents. Ivy is 15, lives in the home, and was told what the papers were. Saturday service is valid; only Sunday service is void under § 48.20.",
+      "whyNot": [
+        "",
+        "Only Sunday service is void in Florida; service on a Saturday is valid.",
+        "Florida's age threshold for abode service is 15, not 18.",
+        "Florida does not require a prior attempt at personal delivery before abode service on an individual. (A two-attempt requirement applies to substituted service on a sole proprietor at the place of business.)"
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.q004",
+      "topic": "fl-civil-procedure.pleadings-and-motions",
+      "rules": ["fl-civil-procedure.pleadings-and-motions.rule-1140-defenses"],
+      "difficulty": 2,
+      "stem": "Delmar Freight Lines, a Texas company, was sued in Florida circuit court by a Florida shipper. Within 20 days after service, Delmar filed a motion to dismiss arguing only that the complaint failed to state a cause of action for breach of contract. The court denied the motion. Ten days later, Delmar served its answer, which denied liability and asserted, as its first defense, that the Florida court lacked personal jurisdiction over Delmar because Delmar had no Florida contacts. The shipper moved to strike the jurisdictional defense.",
+      "call": "How should the court rule on the shipper's motion?",
+      "choices": [
+        "Deny it, because lack of personal jurisdiction may be raised at any time before trial.",
+        "Deny it, because Delmar raised the defense in its first responsive pleading.",
+        "Grant it, because Delmar waived the defense by omitting it from its Rule 1.140 motion.",
+        "Grant it, because a nonresident must raise lack of personal jurisdiction by special appearance before filing any other paper."
+      ],
+      "answer": 2,
+      "explanation": "Under Rule 1.140(h)(1), lack of personal jurisdiction, improper venue, insufficiency of process and insufficiency of service of process are waived if omitted from a Rule 1.140 motion the party makes or, if no motion is made, from the responsive pleading. Delmar chose to file a pre-answer motion raising only failure to state a cause of action, so it waived the personal-jurisdiction defense.",
+      "whyNot": [
+        "Only lack of subject-matter jurisdiction may be raised at any time; personal jurisdiction is a waivable defense.",
+        "The answer would have preserved the defense only if Delmar had made no Rule 1.140 motion. Because it filed one, the defense had to be included in that motion.",
+        "",
+        "Florida does not require a special appearance. The defense may be raised in a Rule 1.140 motion together with other defenses, or in the answer if no motion is filed."
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.q005",
+      "topic": "fl-civil-procedure.pleadings-and-motions",
+      "rules": ["fl-civil-procedure.pleadings-and-motions.amendment"],
+      "difficulty": 1,
+      "stem": "Rosa Quintero sued her former landlord, Seabreeze Properties, LLC, for return of a security deposit and for conversion. Seabreeze served a motion to dismiss the conversion count for failure to state a cause of action, and the motion was set for hearing seven weeks later. Five weeks after Seabreeze served the motion, and before the hearing, Quintero filed an amended complaint adding a count for breach of the lease. She did not seek leave of court or Seabreeze's consent. Seabreeze has not served an answer. It moved to strike the amended complaint as unauthorized.",
+      "call": "How should the court rule on the motion to strike?",
+      "choices": [
+        "Grant it, because the right to amend as a matter of course expired 21 days after Seabreeze served its motion to dismiss.",
+        "Deny it, because a motion to dismiss is not a responsive pleading, so Quintero could amend once without leave.",
+        "Grant it, because a party may not amend while a motion directed to the original pleading is pending.",
+        "Deny it, because leave to amend must be freely given, so the court must grant leave after the fact."
+      ],
+      "answer": 1,
+      "explanation": "Rule 1.190(a) lets a party amend once as a matter of course at any time before a responsive pleading is served. A motion to dismiss is not a responsive pleading, and Seabreeze had not answered, so Quintero could amend without leave or consent no matter how long the motion had been pending.",
+      "whyNot": [
+        "That is the federal rule (Fed. R. Civ. P. 15(a)(1)(B)). Florida's right to amend as of course lasts until a responsive pleading is served.",
+        "",
+        "Rule 1.190 does not suspend the right to amend while a motion to dismiss is pending; amending is a common response to such a motion.",
+        "The 'freely given' standard governs requests for leave. Here no leave was needed at all, so the reasoning is wrong even though the result (denial) is right."
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.q006",
+      "topic": "fl-civil-procedure.pleadings-and-motions",
+      "rules": ["fl-civil-procedure.pleadings-and-motions.punitive-damages"],
+      "difficulty": 2,
+      "stem": "Ana Beltran was injured when a delivery van owned by Riverside Wholesale, Inc. struck her car. Her original complaint against Riverside alleged negligence and included a separate count demanding punitive damages, alleging that Riverside knew its driver had a suspended license. With the complaint she served interrogatories asking Riverside to state its net worth and annual profits. Riverside moved to strike the punitive damages count and objected to the net-worth interrogatories. Beltran has not filed a motion for leave to amend and has not made any evidentiary proffer.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Strike the punitive damages count and sustain the objection, because Beltran must first obtain leave to amend on a reasonable evidentiary showing, and financial-worth discovery cannot proceed until then.",
+        "Deny the motion to strike but sustain the objection, because punitive damages may be pleaded in the original complaint while net-worth discovery waits until trial.",
+        "Strike the punitive damages count but overrule the objection, because net-worth information is relevant to the negligence claim.",
+        "Deny the motion and overrule the objection, because the allegation that Riverside knew of the suspended license states a claim for gross negligence."
+      ],
+      "answer": 0,
+      "explanation": "Under § 768.72(1), no claim for punitive damages may be included in a complaint until the court permits it on a reasonable showing, by evidence in the record or proffered by the claimant, of a reasonable basis for recovery, and no discovery of financial worth may proceed until the punitive damages pleading is permitted. Rule 1.190(f) supplies the procedure: a motion for leave to amend, with the evidence or proffer served at least 20 days before the hearing. Beltran skipped that step, so the count should be stricken and the objection sustained.",
+      "whyNot": [
+        "",
+        "Florida does not allow punitive damages to be pleaded in the original complaint; leave of court on an evidentiary showing comes first.",
+        "A defendant's financial worth is not relevant to compensatory damages for negligence, and § 768.72 bars net-worth discovery until a punitive claim is permitted.",
+        "Allegations alone do not satisfy § 768.72; the plaintiff needs record evidence or a proffer and an order granting leave."
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.q007",
+      "topic": "fl-civil-procedure.sanctions-and-settlement",
+      "rules": ["fl-civil-procedure.sanctions-and-settlement.proposal-procedure", "fl-civil-procedure.sanctions-and-settlement.proposal-entitlement"],
+      "difficulty": 3,
+      "stem": "Gavin Price sued Coastal Pools, Inc. for negligence on March 1, and Coastal was served on March 10. On May 20, Price served Coastal with an $80,000 proposal for settlement that met every content requirement of Rule 1.442. Coastal did not respond. The case was tried the following year, the jury awarded Price $140,000, and the court entered judgment for that amount. Price timely moved for attorney's fees under § 768.79, pointing out that the judgment exceeded his proposal by 75%.",
+      "call": "Is Price entitled to attorney's fees under the statute?",
+      "choices": [
+        "Yes, because the judgment was more than 25% greater than the proposal and Coastal did not accept it within 30 days.",
+        "Yes, because a defendant that does not object to a premature proposal waives the defect.",
+        "No, because only a defendant may serve a proposal for settlement.",
+        "No, because the proposal was served fewer than 90 days after service of process on Coastal."
+      ],
+      "answer": 3,
+      "explanation": "Rule 1.442(b) provides that a proposal to a defendant may be served no earlier than 90 days after service of process on that defendant. Coastal was served March 10, and the proposal came 71 days later. Because § 768.79 and Rule 1.442 are strictly construed, a premature proposal cannot support a fee award even though the judgment beat the proposal by more than 25%.",
+      "whyNot": [
+        "Beating the proposal by 25% is necessary but not sufficient; the proposal must also comply with Rule 1.442, including its timing limits.",
+        "Silence operates as a rejection, not a waiver; nothing requires the offeree to point out the offeror's noncompliance before the 30 days run.",
+        "Section 768.79 and Rule 1.442 let both plaintiffs and defendants make proposals. It is Federal Rule 68 that is limited to defending parties.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.q008",
+      "topic": "fl-civil-procedure.sanctions-and-settlement",
+      "rules": ["fl-civil-procedure.sanctions-and-settlement.section-57105"],
+      "difficulty": 2,
+      "stem": "Bayview Marina sued Tessa Lund, claiming she owed slip fees under a written lease that Lund says she never signed. Lund's lawyer concluded the claim had no factual basis and, on June 1, served a § 57.105 motion for sanctions on Bayview's counsel and filed it with the court the same day. On June 12, after reviewing its records and finding no signed lease, Bayview voluntarily dismissed the claim. Lund then asked the court to rule on her sanctions motion.",
+      "call": "How should the court rule on Lund's motion?",
+      "choices": [
+        "Grant it, because Bayview's dismissal confirms that the claim lacked factual support.",
+        "Grant it, but require Bayview's counsel alone to pay, because the error was the lawyer's.",
+        "Deny it, because the motion was filed before Bayview's 21 days to withdraw the claim had run, and Bayview withdrew it within that period.",
+        "Deny it, because § 57.105 sanctions are available only for claims found unsupported after a trial on the merits."
+      ],
+      "answer": 2,
+      "explanation": "A party's § 57.105 motion must be served but may not be filed or presented to the court unless the challenged claim is not withdrawn or corrected within 21 days after service (§ 57.105(4)). Lund filed the motion the same day she served it, and Bayview withdrew the claim within the 21-day window, so the safe-harbor requirement was not satisfied.",
+      "whyNot": [
+        "A withdrawal within the safe-harbor period is exactly what the 21-day rule is designed to encourage; it does not trigger sanctions.",
+        "Even when sanctions are proper, the statute generally splits the fee equally between the losing party and its attorney; and here the safe harbor bars any award.",
+        "",
+        "Section 57.105 reaches claims that were unsupported when presented or at any time before trial; no trial on the merits is required."
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.q009",
+      "topic": "fl-civil-procedure.discovery",
+      "rules": ["fl-civil-procedure.discovery.depositions"],
+      "difficulty": 2,
+      "stem": "In a personal injury action, the plaintiff's treating neurologist, Dr. Imani Royce, gave a videotaped deposition in which both sides examined her about the plaintiff's injuries and prognosis. Dr. Royce practices 12 miles from the courthouse and is healthy and available to testify. At trial, the plaintiff offered the deposition in lieu of live testimony. The defendant objected that the plaintiff had made no showing that Dr. Royce was unavailable.",
+      "call": "How should the court rule on the objection?",
+      "choices": [
+        "Overrule it, because the deposition of an expert or skilled witness may be used at trial for any purpose without a showing of unavailability.",
+        "Sustain it, because a nonparty's deposition may be used as substantive evidence only if the witness is more than 100 miles away or otherwise unavailable.",
+        "Sustain it, because a treating physician is a fact witness whose deposition may be used only to impeach.",
+        "Overrule it, because any videotaped deposition may be used in place of live testimony."
+      ],
+      "answer": 0,
+      "explanation": "Rule 1.330(a)(3)(F) allows any party to use the deposition of a witness for any purpose if the witness is an expert or skilled witness. Unlike the federal rule, Florida requires no showing that the expert is unavailable. A neurologist giving opinions on diagnosis and prognosis is an expert or skilled witness.",
+      "whyNot": [
+        "",
+        "Distance and unavailability are only some of the grounds; Florida separately allows use of an expert's deposition with no showing of unavailability.",
+        "A treating physician who gives medical opinions is an expert or skilled witness for this purpose, and Rule 1.330 permits use for any purpose, not just impeachment.",
+        "Videotaping does not by itself make a deposition usable at trial; one of Rule 1.330(a)'s conditions must be met."
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.q010",
+      "topic": "fl-civil-procedure.discovery",
+      "rules": ["fl-civil-procedure.discovery.requests-for-admission"],
+      "difficulty": 3,
+      "stem": "Corbin Electric sued Halvorsen Homes for $38,000 it claimed was due for wiring work. Halvorsen's answer specifically denied that the work was completed or that any money was owed, and Halvorsen's owner said the same at deposition. Corbin then served requests for admission asking Halvorsen to admit that the work was completed and that $38,000 was due. Because of a calendaring error, Halvorsen served its denials 12 days late. Corbin moved for summary judgment based solely on the deemed admissions, and Halvorsen moved to withdraw them. Trial is four months away, and Corbin identifies no harm from the delay other than losing the admissions.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Grant summary judgment, because matters not timely answered are conclusively established and the court has no discretion to relieve a party of them.",
+        "Grant summary judgment, because Halvorsen must show excusable neglect, a meritorious defense and due diligence, and a calendaring error is not excusable neglect.",
+        "Permit withdrawal and deny summary judgment, because presentation of the merits will be served and Corbin has not shown prejudice in maintaining its action.",
+        "Permit withdrawal only on condition that Halvorsen pay all of Corbin's attorney's fees for the action."
+      ],
+      "answer": 2,
+      "explanation": "Under Rule 1.370(b), an admission is conclusively established unless the court permits withdrawal or amendment, which it may do when the presentation of the merits will be served and the party who obtained the admission fails to show prejudice in maintaining its action or defense. Halvorsen's answer and testimony show the matters were genuinely disputed, trial is months away, and losing the benefit of a technical admission is not the kind of prejudice that counts.",
+      "whyNot": [
+        "Admissions are conclusive only unless the court permits withdrawal; Rule 1.370(b) expressly gives the court that discretion.",
+        "That three-part test governs setting aside a default. Withdrawal of admissions is governed by Rule 1.370(b)'s merits-and-prejudice standard.",
+        "",
+        "Rule 1.370(b) does not condition withdrawal on paying the opponent's fees for the whole action; at most, a court might address expenses actually caused by the delay."
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.q011",
+      "topic": "fl-civil-procedure.summary-judgment-and-trial",
+      "rules": ["fl-civil-procedure.summary-judgment-and-trial.summary-judgment-standard", "fl-civil-procedure.summary-judgment-and-trial.summary-judgment-procedure"],
+      "difficulty": 2,
+      "stem": "Lionel Ferris sued Gulf Coast Fitness, claiming he slipped on a wet floor in its locker room. After discovery, Gulf Coast moved for summary judgment, citing Ferris's deposition, in which he admitted he saw no water and did not know what caused him to fall, and the affidavit of an employee who inspected the floor ten minutes earlier and found it dry. In response, Ferris relied only on his complaint's allegation that the floor was wet and argued that a jury might disbelieve the employee. The court is deciding the motion in 2026.",
+      "call": "How should the court rule on the motion?",
+      "choices": [
+        "Deny it, because the complaint alleges that the floor was wet, which creates a disputed issue of fact.",
+        "Deny it, because summary judgment is improper if the record leaves even the slightest doubt about a material fact.",
+        "Deny it, because the employee's credibility is for the jury, and Gulf Coast cannot prove a negative.",
+        "Grant it, because Gulf Coast pointed to the absence of evidence of a dangerous condition and causation, and Ferris cited no record evidence from which a reasonable jury could find for him."
+      ],
+      "answer": 3,
+      "explanation": "Rule 1.510(a) adopts the federal summary judgment standard. A movant that does not bear the burden of proof at trial may carry its burden by pointing to the absence of evidence on an essential element; the nonmovant must then cite record materials showing a genuine dispute. Ferris relied on his own pleading and on speculation that a jury might disbelieve the employee, which is not evidence. With no record evidence that the floor was wet or caused his fall, no reasonable jury could find for him.",
+      "whyNot": [
+        "A party opposing summary judgment cannot rest on the allegations of its own pleading; it must cite record evidence.",
+        "The 'slightest doubt' standard of Holl v. Talcott was abandoned when Florida adopted the federal standard effective May 1, 2021.",
+        "Speculation that a jury might disbelieve a witness does not create a genuine dispute, and under the federal standard the movant need not disprove the claim; it may rely on the absence of evidence.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.q012",
+      "topic": "fl-civil-procedure.judicial-administration-and-appeals",
+      "rules": ["fl-civil-procedure.judicial-administration-and-appeals.disqualification"],
+      "difficulty": 2,
+      "stem": "In a contract dispute between a developer and a homeowners' association, the developer filed a timely motion to disqualify the trial judge, sworn to by the developer's president and accompanied by counsel's certificate of good faith. The motion alleged that two days earlier, at a neighborhood gathering, the judge told several residents, 'That developer is not going to win in my courtroom.' The judge set the motion for an evidentiary hearing, heard testimony from two residents who said they never heard the remark, and entered an order denying the motion because the remark was never made.",
+      "call": "Did the judge err?",
+      "choices": [
+        "No, because a judge may deny a motion to disqualify that the judge finds to be factually untrue.",
+        "Yes, because the judge decided the truth of the allegations instead of ruling only on their legal sufficiency, and the allegations were legally sufficient.",
+        "No, because the challenged judge's ruling stands unless the developer shows actual bias by clear and convincing evidence.",
+        "Yes, because every motion to disqualify must be granted automatically once it is filed."
+      ],
+      "answer": 1,
+      "explanation": "Under Rule 2.330, the judge against whom an initial motion to disqualify is directed determines only whether the motion is legally sufficient: whether the facts alleged, taken as true, would place a reasonably prudent person in fear of not receiving a fair and impartial trial. The judge may not pass on the truth of the allegations. A statement that a party will not win before the judge is legally sufficient, so the judge should have disqualified immediately.",
+      "whyNot": [
+        "The challenged judge may not pass on the truth of the facts alleged in an initial motion; holding an evidentiary hearing to refute them is itself error.",
+        "",
+        "The standard is whether the alleged facts would cause a reasonably prudent person to fear an unfair trial, not proof of actual bias.",
+        "Disqualification is not automatic; a legally insufficient motion must be denied. (A motion not ruled on within 30 days is deemed granted, but that is a different rule.)"
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.q013",
+      "topic": "fl-civil-procedure.dismissal-and-class",
+      "rules": ["fl-civil-procedure.dismissal-and-class.voluntary-dismissal"],
+      "difficulty": 3,
+      "stem": "In 2024, Marlow Bakery sued Pierce Ovens in federal district court for breach of warranty and later filed a notice voluntarily dismissing that action. In 2025, Marlow sued Pierce in Florida circuit court on the same warranty claim. Pierce answered and moved for summary judgment, and the motion was set for hearing. A week before the hearing, Marlow served a notice of voluntary dismissal stating that the dismissal was 'without prejudice.'",
+      "call": "What is the effect of Marlow's notice?",
+      "choices": [
+        "It dismisses the action without prejudice, because it was served before the summary judgment hearing and says it is without prejudice.",
+        "It is ineffective, because a plaintiff may not dismiss by notice after the defendant has answered and moved for summary judgment.",
+        "It operates as an adjudication on the merits, because Marlow had previously dismissed an action in another court based on the same claim.",
+        "It is effective only if the court approves it, because the earlier dismissal occurred in federal court."
+      ],
+      "answer": 2,
+      "explanation": "Rule 1.420(a)(1) allowed Marlow to dismiss by notice because the summary judgment hearing had not yet occurred. But a notice of dismissal operates as an adjudication on the merits when served by a plaintiff who has once dismissed in any court an action based on or including the same claim. Marlow's earlier federal dismissal counts, so this second notice dismissal bars the claim despite its 'without prejudice' label.",
+      "whyNot": [
+        "The two-dismissal rule overrides the plaintiff's label; a second notice dismissal of the same claim is an adjudication on the merits.",
+        "That is the federal timing rule. In Florida a notice of dismissal is timely at any time before a hearing on a motion for summary judgment, even after an answer and a summary judgment motion have been served.",
+        "",
+        "No court approval is needed for a notice dismissal, and the rule counts a prior dismissal 'in any court,' including a federal court."
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.q014",
+      "topic": "fl-civil-procedure.dismissal-and-class",
+      "rules": ["fl-civil-procedure.dismissal-and-class.failure-to-prosecute"],
+      "difficulty": 2,
+      "stem": "In a contract action, nothing was filed and no order was entered for eleven months. The clerk then served all parties with notice of the lack of record activity. During the next 60 days, the lawyers exchanged settlement letters and held two telephone calls, but nothing was filed and no stay was sought. The defendant then moved to dismiss for lack of prosecution, and the motion was set for hearing. The plaintiff filed nothing before the hearing and, at the hearing, argued orally that the settlement talks showed the case was being actively pursued.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Dismiss the action, because there was no record activity in the 60 days after the notice and the plaintiff did not show good cause in writing at least 5 days before the hearing.",
+        "Deny the motion, because an action may be dismissed for lack of prosecution only after a full year of inactivity.",
+        "Deny the motion, because good-faith settlement negotiations count as activity under the rule.",
+        "Deny the motion, because only the court on its own motion, not a party, may seek dismissal for lack of prosecution."
+      ],
+      "answer": 0,
+      "explanation": "Under Rule 1.420(e), after 10 months without record activity, any interested person, the court or the clerk may serve notice. If no record activity occurs within the next 60 days and no stay is in place, the court must dismiss unless a party shows good cause in writing at least 5 days before the hearing. Settlement letters and calls are not record activity, and an oral argument at the hearing is not a timely written showing of good cause.",
+      "whyNot": [
+        "",
+        "The current rule uses 10 months of inactivity followed by notice and a 60-day grace period, not a one-year rule.",
+        "Only activity reflected in the court record counts; off-the-record negotiations do not.",
+        "The rule permits dismissal on the court's own motion or on the motion of any interested person."
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.q015",
+      "topic": "fl-civil-procedure.judicial-administration-and-appeals",
+      "rules": ["fl-civil-procedure.judicial-administration-and-appeals.final-appeals", "fl-civil-procedure.summary-judgment-and-trial.relief-from-judgment"],
+      "difficulty": 3,
+      "stem": "After a bench trial, the court filed a signed final judgment for the plaintiff on March 2. On March 12, the defendant filed a motion for relief from judgment under Rule 1.540(b), arguing excusable neglect because a key defense witness missed the trial after a calendaring error. The court denied that motion in a signed order filed April 20. On May 8, the defendant filed a notice of appeal seeking review of both the final judgment and the order denying relief.",
+      "call": "What may the appellate court review?",
+      "choices": [
+        "Both the final judgment and the order, because the Rule 1.540 motion postponed rendition of the final judgment until April 20.",
+        "Nothing, because the notice of appeal was filed more than 30 days after the final judgment.",
+        "The final judgment only, because orders denying Rule 1.540 motions are not appealable.",
+        "Only the order denying the Rule 1.540 motion, because the notice was untimely as to the final judgment."
+      ],
+      "answer": 3,
+      "explanation": "A notice of appeal must be filed within 30 days of rendition, and only timely, authorized motions such as a motion for new trial or rehearing postpone rendition. A Rule 1.540 motion is not one of them: it does not affect the judgment's finality or toll the appeal period, so the time to appeal the March 2 judgment expired about a month before May 8. The order denying the Rule 1.540 motion is separately appealable, and the May 8 notice came within 30 days of its rendition, so the court may review that order, but not the merits of the underlying judgment.",
+      "whyNot": [
+        "A Rule 1.540 motion is not an authorized motion that delays rendition; it does not toll the time to appeal the final judgment.",
+        "The notice was timely as to the April 20 order denying relief, which is reviewable.",
+        "Orders on timely Rule 1.540 motions are reviewable; it is the final judgment that can no longer be reached.",
+        ""
+      ]
+    }
+  ]
+}

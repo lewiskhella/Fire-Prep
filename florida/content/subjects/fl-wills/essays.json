@@ -1,0 +1,296 @@
+{
+  "subject": "fl-wills",
+  "essays": [
+    {
+      "id": "fl-wills.e01",
+      "title": "The Bayview Drive house",
+      "minutes": 60,
+      "topics": [
+        "fl-wills.homestead",
+        "fl-wills.spousal-and-family-protection"
+      ],
+      "facts": [
+        "In 2016 Gordon, a Florida domiciliary, executed a valid, self-proved will leaving 'my home on Bayview Drive and all the rest of my property' to his adult son, Ian, from his first marriage. Gordon also created and funded a revocable trust that holds $600,000 of securities for Ian's benefit at Gordon's death.",
+        "In 2020 Gordon married Helen. Two weeks before the wedding, at Gordon's lawyer's office in Sarasota, Helen signed a one-page agreement stating that she 'waives all rights in Gordon's property and estate.' The lawyer's assistant notarized Helen's signature; the lawyer signed as the only witness. Gordon did not disclose his assets to Helen, and she did not ask.",
+        "Gordon and Helen lived together in the Bayview Drive house, titled in Gordon's name alone. Their daughter, Jade, was born in 2021. Gordon never changed his will or trust.",
+        "Gordon died in 2025, survived by Helen, Jade (now 4) and Ian (now 30). Besides the house (worth $700,000), his probate estate consists of a $360,000 investment account, his car and the household furniture. Ian, as nominated personal representative, takes the position that the will gives him everything."
+      ],
+      "calls": [
+        "Is Helen bound by the 2020 agreement? Explain.",
+        "Who owns the Bayview Drive house, and in what shares?",
+        "Apart from the house, what rights do Helen and Jade have in Gordon's estate and trust?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Validity of the premarital waiver",
+          "rules": [
+            "fl-wills.spousal-and-family-protection.waiver"
+          ],
+          "points": 3,
+          "mustSay": [
+            "§ 732.702 allows waiver of spousal rights before or after marriage by a written agreement",
+            "the waiving spouse must sign in the presence of two subscribing witnesses (Florida residents)",
+            "no financial disclosure is required for a waiver signed before marriage",
+            "a notary does not substitute for the missing second witness, so the waiver is ineffective"
+          ],
+          "conclusion": "The waiver fails for lack of a second subscribing witness, so Helen keeps all of her spousal rights; lack of disclosure would not have mattered."
+        },
+        {
+          "id": "i2",
+          "call": 2,
+          "label": "Devise restriction on homestead",
+          "rules": [
+            "fl-wills.homestead.protected-homestead",
+            "fl-wills.homestead.devise-restriction"
+          ],
+          "points": 3,
+          "mustSay": [
+            "the house is protected homestead: owned by a natural person and used as the family residence",
+            "homestead may not be devised if the owner is survived by a spouse or minor child",
+            "Gordon left both a spouse and a minor child, so the devise to Ian is void"
+          ],
+          "conclusion": "The devise of the house to Ian is invalid under Art. X, § 4(c)."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "Descent of the homestead",
+          "rules": [
+            "fl-wills.homestead.descent"
+          ],
+          "points": 3,
+          "mustSay": [
+            "with a spouse and descendants, the spouse takes a life estate with vested remainder in the descendants per stirpes",
+            "remainder goes to Ian and Jade equally, not to Jade alone",
+            "Helen may instead elect, within 2 years of death, an undivided one-half interest as tenant in common"
+          ],
+          "conclusion": "Helen takes a life estate (or, by timely election, a one-half tenancy in common), with Ian and Jade sharing the remainder equally."
+        },
+        {
+          "id": "i4",
+          "call": 3,
+          "label": "Pretermitted spouse and pretermitted child",
+          "rules": [
+            "fl-wills.spousal-and-family-protection.pretermitted-spouse",
+            "fl-wills.spousal-and-family-protection.pretermitted-child",
+            "fl-wills.intestacy.spouse-share"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Helen married Gordon after the will and none of the exceptions applies, so she takes her intestate share",
+            "because Ian is not Helen's descendant, her intestate share is one-half",
+            "Jade was born after the will, is not provided for, and the 'substantially all to the other parent' exception does not apply because the will benefits Ian",
+            "the shares come from the probate estate by abatement; the revocable trust is not reached"
+          ],
+          "conclusion": "Helen takes one-half and Jade one-quarter of the probate estate; Ian keeps the remaining quarter."
+        },
+        {
+          "id": "i5",
+          "call": 3,
+          "label": "Elective share, exempt property and family allowance",
+          "rules": [
+            "fl-wills.spousal-and-family-protection.elective-share-right",
+            "fl-wills.spousal-and-family-protection.elective-estate",
+            "fl-wills.spousal-and-family-protection.exempt-property",
+            "fl-wills.spousal-and-family-protection.family-allowance"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Helen may elect 30% of the elective estate, which includes the revocable trust but excludes the protected homestead",
+            "property Helen receives (including her pretermitted share) is credited first against the elective share",
+            "deadline: earlier of 6 months after service of the notice of administration or 2 years after death",
+            "Helen is entitled to exempt property (furniture up to $20,000 and the car), in addition to her other rights, by timely petition",
+            "family allowance up to $18,000 for Helen and Jade during administration"
+          ],
+          "conclusion": "Helen should elect, because 30% of an elective estate that includes the $600,000 trust exceeds her pretermitted share; she also takes exempt property and may seek a family allowance."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Issue: whether Helen's premarital agreement waived her rights as Gordon's surviving spouse. Rule: under Fla. Stat. § 732.702, a spouse may waive the elective share, intestate share, pretermitted share, homestead, exempt property, family allowance and preference to serve as personal representative, before or after marriage, by a written agreement signed by the waiving party in the presence of two subscribing witnesses (the witness requirement applies to agreements signed by Florida residents). A waiver of 'all rights' in the other spouse's estate waives every one of those rights. Fair disclosure is required only for an agreement signed after the marriage; none is required before marriage, and no consideration is needed.",
+            "Application: Helen signed a written waiver of 'all rights,' which would cover every spousal right if valid, and the lack of disclosure is irrelevant because she signed before the wedding. But the agreement was signed in Florida with only one subscribing witness. A notary's acknowledgment is not a second subscribing witness. Conclusion: the waiver does not meet § 732.702, and Helen retains all of her spousal rights in Gordon's estate. (Even a valid waiver could not have affected Jade's independent homestead protection as a minor child.)"
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Issue: whether Gordon could devise the Bayview Drive house to Ian. Rule: protected homestead is real property owned by a natural person and used as the residence of the owner or the owner's family, within the constitutional acreage limits, on which the exemption inures to the spouse or heirs at death. Under Art. X, § 4(c) of the Florida Constitution and § 732.4015, homestead may not be devised if the owner is survived by a spouse or a minor child, except that it may be devised to the spouse if there is no minor child. Application: Gordon owned the house in his own name and lived there with his wife and daughter, so it is protected homestead. He was survived by both a spouse and a minor child, so no devise of it was permitted, not even to Helen. Conclusion: the devise to Ian is void.",
+            "Issue: how the homestead passes. Rule: under § 732.401, homestead not validly devised descends as intestate property, except that when the decedent leaves a spouse and descendants, the spouse takes a life estate with a vested remainder in the descendants in being at death, per stirpes. Instead, the spouse may elect within 2 years after death to take an undivided one-half interest as tenant in common, with the other half vesting in the descendants per stirpes. Application: Helen survives, as do Gordon's descendants Ian and Jade. The remainder vests in both children equally; the minor-child protection does not give Jade the house alone, and Ian shares despite being an adult and the son of an earlier marriage. Conclusion: Helen holds a life estate (or, if she timely elects, an undivided one-half as tenant in common), and Ian and Jade each hold an undivided one-half of the remainder (or one-quarter of the fee if Helen elects). The house is also protected from Gordon's general creditors because the exemption inures to his spouse and heirs."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Issue: whether Helen and Jade are pretermitted. Rule: under § 732.301, a spouse the testator married after making the will receives the intestate share unless an agreement provided for or waived it, the will provides for the spouse, or the will shows an intent not to provide for the spouse. Under § 732.302, a child born after the will who is not provided for and received no equivalent advancement takes an intestate share unless the omission appears intentional or the testator had children when the will was made and devised substantially all of the estate to the omitted child's other parent. Both shares come from the probate estate by abatement under § 733.805. Application: the will predates the marriage, does not mention Helen, and the waiver failed, so Helen is pretermitted. Because Gordon had a descendant (Ian) who is not Helen's, her intestate share under § 732.102 is one-half. Jade was born after the will and is not mentioned; although Gordon had a child when the will was made, he left the estate to Ian, not to Jade's mother, so the exception does not apply. Jade's intestate share is one-half of the non-spousal half. Conclusion: from the probate estate other than the homestead and exempt property (about $360,000), Helen takes one-half (about $180,000), Jade one-quarter (about $90,000), and Ian keeps one-quarter. The pretermission statutes do not reach the revocable trust.",
+            "Issue: Helen's elective share. Rule: the spouse of a Florida domiciliary may elect 30% of the elective estate, which includes the probate estate and revocable-trust property but excludes protected homestead (§§ 732.201, 732.2035, 732.2045, 732.2065). Property passing to the spouse is credited first, and the balance is contributed by other recipients, starting with the probate estate and revocable trusts. The election must be filed by the earlier of 6 months after service of the notice of administration or 2 years after death. Application: the elective estate includes at least the $360,000 account and the $600,000 trust, so 30% is at least $288,000, comfortably more than her roughly $180,000 pretermitted share, which is credited against it. Conclusion: Helen should file a timely election; the trust for Ian will have to contribute.",
+            "Issue: exempt property and family allowance. Rule: the surviving spouse of a Florida domiciliary is entitled to exempt property, including household furniture and furnishings up to $20,000 net value and up to two personal vehicles held in the decedent's name, in addition to homestead and other shares, by petition filed within the statutory period (§ 732.402). The spouse and dependent lineal heirs may also receive a family allowance of up to $18,000 during administration, not charged against their other shares (§ 732.403). Application: the car and furniture were not specifically devised (they passed only under the residuary language), so they go to Helen as exempt property, free of creditors' claims; Helen and Jade, whom Gordon was supporting, qualify for the allowance. Conclusion: Helen should petition for exempt property and a family allowance in addition to her homestead interest and elective share."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-wills.e02",
+      "title": "Rosa's outdated will",
+      "minutes": 60,
+      "topics": [
+        "fl-wills.execution-and-revocation",
+        "fl-wills.construction",
+        "fl-wills.spousal-and-family-protection",
+        "fl-wills.administration"
+      ],
+      "facts": [
+        "In 2018 Rosa, a Florida domiciliary, executed a valid will. It gave 'my rental condominium at 12 Palm Court to my husband, Tomas'; '$50,000 to my brother, Luis'; 'my diamond ring to my friend Mara'; and 'the residue of my estate to my sister, Nina, and my friend, Owen, in equal shares.' It nominated Tomas as personal representative and Owen as alternate. When she signed the will, Rosa already had one adult son, Sergio, whom the will does not mention.",
+        "Rosa and Tomas divorced in 2022; the final judgment ratified a settlement agreement that divided their property and said nothing about wills. Luis died in 2023, survived by his son, Pablo. In 2024 Rosa sold the diamond ring herself and spent the proceeds on a trip. Owen died later in 2024, survived by his daughter, Quinn. Rosa never changed her will.",
+        "Rosa died in March 2025 while living in a leased apartment. Her estate consists of the condominium (worth $300,000), a $250,000 brokerage account and some furniture. Nina, a Florida resident, petitioned for administration. The personal representative published a notice to creditors on May 1, 2025. Rosa's records show an unpaid $12,000 balance on a credit card; the issuer was not served with the notice and filed a claim on October 6, 2025. A hospital filed a timely $9,000 claim for treatment during Rosa's final week; the personal representative served an objection to it on October 1, 2025, and the hospital has done nothing since.",
+        "Tomas says he should be personal representative and should receive the condominium. Sergio says that as Rosa's only child he is entitled to at least an intestate share."
+      ],
+      "calls": [
+        "Who is entitled to the condominium, the $50,000 gift and the ring?",
+        "Who takes the residue, and does Sergio have any claim?",
+        "Who may serve as personal representative, and how should the personal representative treat the credit-card and hospital claims?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Effect of divorce on gifts to Tomas",
+          "rules": [
+            "fl-wills.execution-and-revocation.divorce",
+            "fl-wills.construction.failure-and-residue"
+          ],
+          "points": 3,
+          "mustSay": [
+            "provisions affecting a spouse become void on divorce unless the will or judgment expressly provides otherwise",
+            "Tomas is treated as having died at the time of the divorce",
+            "the failed specific gift of the condominium falls into the residue"
+          ],
+          "conclusion": "Tomas takes nothing; the condominium passes as part of the residue."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Anti-lapse for the gift to Luis",
+          "rules": [
+            "fl-wills.construction.anti-lapse"
+          ],
+          "points": 2,
+          "mustSay": [
+            "a brother is a descendant of the testator's grandparent",
+            "no words of survivorship, so no contrary intent",
+            "Luis's descendant Pablo takes per stirpes"
+          ],
+          "conclusion": "Pablo takes the $50,000."
+        },
+        {
+          "id": "i3",
+          "call": 1,
+          "label": "Ademption of the ring",
+          "rules": [
+            "fl-wills.construction.ademption-extinction"
+          ],
+          "points": 2,
+          "mustSay": [
+            "the ring is a specific devise not in the estate at death",
+            "Florida applies the identity approach",
+            "no statutory exception applies because Rosa herself sold it, not a guardian or agent during incapacity"
+          ],
+          "conclusion": "The gift to Mara is adeemed; she takes nothing."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "Lapse of Owen's residuary share",
+          "rules": [
+            "fl-wills.construction.anti-lapse",
+            "fl-wills.construction.failure-and-residue"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Owen is a friend, not a grandparent or descendant of a grandparent, so anti-lapse does not save his share for Quinn",
+            "when one residuary share fails, it passes to the other residuary devisees, not by intestacy",
+            "Nina takes the whole residue, including the condominium"
+          ],
+          "conclusion": "Nina takes the entire residue."
+        },
+        {
+          "id": "i5",
+          "call": 2,
+          "label": "Sergio is not pretermitted",
+          "rules": [
+            "fl-wills.spousal-and-family-protection.pretermitted-child"
+          ],
+          "points": 2,
+          "mustSay": [
+            "the pretermitted-child statute protects only children born or adopted after the will",
+            "Sergio was alive when the will was executed and may be omitted",
+            "no intestacy because the residuary clause disposes of the whole estate"
+          ],
+          "conclusion": "Sergio takes nothing."
+        },
+        {
+          "id": "i6",
+          "call": 3,
+          "label": "Qualification and preference for personal representative",
+          "rules": [
+            "fl-wills.administration.personal-representative",
+            "fl-wills.execution-and-revocation.divorce"
+          ],
+          "points": 2,
+          "mustSay": [
+            "the nomination of Tomas is a provision affecting the former spouse and is void after divorce",
+            "Owen is dead",
+            "next preference goes to the person selected by a majority in interest of those entitled to the estate, then a devisee; Nina is a qualified Florida resident"
+          ],
+          "conclusion": "Nina may be appointed; Tomas has no right to serve."
+        },
+        {
+          "id": "i7",
+          "call": 3,
+          "label": "Creditor claims",
+          "rules": [
+            "fl-wills.administration.creditor-claims",
+            "fl-wills.administration.objections-to-claims",
+            "fl-wills.administration.priority-of-claims"
+          ],
+          "points": 3,
+          "mustSay": [
+            "reasonably ascertainable creditors must be served; their period runs to the later of 3 months after publication or 30 days after service",
+            "the unserved card issuer's claim is not barred by the 3-month period and was filed within 2 years of death",
+            "after service of an objection, a claimant has 30 days to bring an independent action or the claim is barred",
+            "last-illness medical expenses would be class 4 priority, but priority does not save a barred claim"
+          ],
+          "conclusion": "Pay or contest the credit-card claim on the merits; the hospital's claim is barred if it does not sue (or get an extension) within 30 days after October 1."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Condominium. Issue: the effect of the divorce on the gift to Tomas. Rule: under § 732.507(2), any will provision affecting the testator's spouse becomes void on divorce, and the will is administered as if the former spouse died at the time of the dissolution, unless the will or the judgment expressly provides otherwise. A failed non-residuary devise becomes part of the residue (§ 732.604). Application: Rosa and Tomas divorced in 2022, and neither the will nor the judgment addressed the will. Tomas is treated as having predeceased, and anti-lapse cannot help anyone claiming through him because a spouse is not a grandparent or descendant of a grandparent of the testator. Conclusion: the condominium passes under the residuary clause.",
+            "$50,000 gift. Issue: whether the gift to Luis lapsed. Rule: under § 732.603, if a devisee who is a grandparent or descendant of a grandparent of the testator fails to survive her, the devisee's descendants take per stirpes, unless the will shows a contrary intent, and words of survivorship are such an intent. Application: Luis, Rosa's brother, is a descendant of her grandparents; the gift is unconditional; Luis left a son. Conclusion: Pablo takes the $50,000.",
+            "Ring. Issue: ademption. Rule: a specific devise is adeemed if the item is not in the estate at death; Florida applies the identity approach, subject only to statutory exceptions such as unpaid sale proceeds or a sale by a guardian or agent while the testator was incapacitated (§§ 732.605, 732.606). Application: the ring is a specific devise, Rosa sold it herself while competent, and the proceeds were spent. Conclusion: the gift is adeemed and Mara takes nothing."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Issue: who takes the residue after Owen's death. Rule: anti-lapse protects only devisees who are grandparents or descendants of grandparents of the testator. Under § 732.604(2), if one of several residuary shares fails, it passes to the other residuary devisees in proportion to their interests rather than by intestacy. Application: Owen was Rosa's friend, so his share lapses and Quinn has no claim. Nina is the remaining residuary devisee. Conclusion: Nina takes the entire residue, which now includes the condominium and the brokerage account remaining after Pablo's gift, debts and expenses.",
+            "Issue: Sergio's claim. Rule: the pretermitted-child statute (§ 732.302) applies only to a child born or adopted after the will was executed; a testator may omit a living child simply by not mentioning him. Application: Sergio was already an adult when Rosa signed the will. The residuary clause disposes of the whole estate, so nothing passes by intestacy. Conclusion: Sergio takes nothing."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Issue: who may serve. Rule: the nomination of a spouse as personal representative is a will provision affecting the spouse and is void after divorce (§ 732.507(2)). In a testate estate, preference goes to the personal representative named in the will, then the person selected by a majority in interest of those entitled to the estate, then a devisee (§ 733.301); a Florida resident who is sui juris and not otherwise disqualified may serve (§§ 733.302–.303). Application: Tomas's nomination is void and Owen is dead. Nina is the principal beneficiary, a Florida resident, and nothing suggests disqualification. Conclusion: Nina may be appointed, and Tomas has no claim to the office.",
+            "Issue: the credit-card claim. Rule: the personal representative must publish a notice to creditors and serve known or reasonably ascertainable creditors; a claim is timely if filed by the later of 3 months after first publication or 30 days after service, and all claims are barred 2 years after death (§§ 733.2121, 733.702, 733.710; Tulsa Professional Collection Services v. Pope). Application: the issuer appeared in Rosa's own records, so it was reasonably ascertainable and should have been served. Because it was never served, its 30-day period never began, and it filed within 2 years of Rosa's death. Conclusion: the claim is not time-barred; the personal representative must pay it or object on the merits.",
+            "Issue: the hospital claim. Rule: once an objection is served, the claimant has 30 days to file an independent action (or obtain an extension), or the claim is barred (§ 733.705). Reasonable medical expenses of the last 60 days of the last illness would have class 4 priority (§ 733.707), but priority matters only for an allowed claim. Application: the objection was served on October 1, 2025, and the hospital has not acted. Conclusion: unless the hospital sues or obtains an extension within 30 days after service, its claim is barred and the personal representative should not pay it."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "subject": "fl-constitutional-law",
+  "topics": [
+    {
+      "id": "fl-constitutional-law.declaration-of-rights",
+      "title": "Declaration of Rights",
+      "weight": 3,
+      "exams": ["FL"],
+      "intro": "Article I often gives more protection than the federal Bill of Rights: an express right of privacy, an access-to-courts guarantee, and a constitutional right of access to public records and meetings. But its search-and-seizure and cruel-and-unusual-punishment clauses are locked to U.S. Supreme Court interpretations, so know where Florida goes further and where it cannot.",
+      "rules": [
+        {
+          "id": "fl-constitutional-law.declaration-of-rights.basic-rights",
+          "title": "Basic rights and equal protection (§ 2)",
+          "weight": 2,
+          "rule": "All natural persons, female and male alike, are equal before the law and have inalienable rights, including the rights to enjoy and defend life and liberty, to pursue happiness, to be rewarded for industry, and to acquire, possess and protect property; no person may be deprived of any right because of race, religion, national origin or physical disability. Florida courts generally use the federal tiers of scrutiny under this clause: ordinary economic and social legislation needs only a rational basis, while classifications that burden fundamental rights or target suspect classes receive strict scrutiny.",
+          "tip": "Rational-basis review under § 2 has teeth in the damages-cap cases: the Florida Supreme Court struck the medical-malpractice noneconomic damages caps in wrongful-death cases (Estate of McCall, 2014) and in personal-injury cases (North Broward Hospital District v. Kalitan, 2017) as arbitrary classifications.",
+          "trap": "Older outlines quote a clause allowing the Legislature to restrict land ownership by aliens ineligible for citizenship; the voters deleted that clause in 2018.",
+          "authority": "Art. I, § 2, Fla. Const.; Estate of McCall v. United States, 134 So. 3d 894 (Fla. 2014); N. Broward Hosp. Dist. v. Kalitan, 219 So. 3d 49 (Fla. 2017)"
+        },
+        {
+          "id": "fl-constitutional-law.declaration-of-rights.religion",
+          "title": "Religious freedom and the no-aid clause (§ 3)",
+          "weight": 2,
+          "rule": "There shall be no law respecting the establishment of religion or prohibiting or penalizing its free exercise, but religious freedom does not justify practices inconsistent with public morals, peace or safety. Section 3 adds an express no-aid clause: no revenue of the state or any political subdivision or agency may be taken from the public treasury, directly or indirectly, in aid of any church, sect or religious denomination or of any sectarian institution.",
+          "split": "The federal Constitution has no express no-aid clause, and the U.S. Supreme Court's Free Exercise decisions (Trinity Lutheran, Espinoza v. Montana Department of Revenue, Carson v. Makin) forbid a state from excluding religious schools or organizations from an otherwise generally available public benefit because they are religious. To that extent federal law overrides an aggressive application of Florida's no-aid clause.",
+          "tip": "Florida's Religious Freedom Restoration Act (ch. 761) requires the government to justify any substantial burden on religious exercise, even one imposed by a generally applicable law, by a compelling interest pursued through the least restrictive means. That is more protective than federal Free Exercise review under Employment Division v. Smith.",
+          "trap": "Bush v. Holmes (Fla. 2006) struck the original Opportunity Scholarship voucher program under the education article (Art. IX, § 1), not under the no-aid clause.",
+          "authority": "Art. I, § 3, Fla. Const.; Fla. Stat. ch. 761; Bush v. Holmes, 919 So. 2d 392 (Fla. 2006)"
+        },
+        {
+          "id": "fl-constitutional-law.declaration-of-rights.search-and-seizure",
+          "title": "Searches and seizures: the conformity clause (§ 12)",
+          "weight": 3,
+          "rule": "Section 12 protects against unreasonable searches and seizures and the unreasonable interception of private communications, but it must be construed in conformity with the Fourth Amendment as interpreted by the U.S. Supreme Court, and evidence is excluded only if it would be inadmissible under those decisions. Florida courts therefore may not give greater search-and-seizure protection under the state constitution than federal law provides, and the § 23 privacy right does not expand it.",
+          "split": "Many states read their own search-and-seizure clauses more broadly than the Fourth Amendment (for example, by rejecting the good-faith exception). Florida's 1982 conformity amendment forbids that.",
+          "tip": "Section 17 has a parallel conformity clause tying Florida's ban on cruel and unusual punishment to the U.S. Supreme Court's Eighth Amendment decisions.",
+          "authority": "Art. I, §§ 12, 17, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.declaration-of-rights.privacy",
+          "title": "Right of privacy (§ 23)",
+          "weight": 3,
+          "rule": "Every natural person has the right to be let alone and free from governmental intrusion into the person's private life, except as otherwise provided in the constitution. Once a person shows a legitimate expectation of privacy in the matter, the government must justify the intrusion by a compelling state interest pursued through the least intrusive means. The clause restrains only government action and does not limit the public's right of access to public records and meetings.",
+          "elements": [
+            "A legitimate expectation of privacy in the matter, judged by the circumstances and by societal norms",
+            "An intrusion by government (state action)",
+            "If both are shown, the State must prove a compelling interest",
+            "and that it used the least intrusive means to achieve that interest"
+          ],
+          "exceptions": [
+            "Does not apply to private parties such as private employers or businesses.",
+            "Does not override the public's constitutional right of access to public records and meetings.",
+            "Does not expand criminal search-and-seizure protection, which is fixed by § 12's conformity clause.",
+            "Does not protect a right to abortion (Planned Parenthood of Southwest & Central Florida v. State, 2024)."
+          ],
+          "split": "The U.S. Constitution has no express privacy clause; federal privacy rights come from substantive due process and receive strict scrutiny only when a fundamental right is at stake. Florida's express clause triggers strict scrutiny whenever the government intrudes on a legitimate expectation of privacy, which makes it broader in many civil settings.",
+          "tip": "Recognized applications include the right to refuse medical treatment (In re Guardianship of Browning, 1990) and parents' right to raise their children free from state-compelled grandparent visitation (Beagle v. Beagle, 1996). In 2024 the court receded from In re T.W. and held that § 23 does not protect abortion; a citizen initiative to add abortion protections (Amendment 4, 2024) drew about 57% of the vote and failed under the 60% requirement.",
+          "authority": "Art. I, § 23, Fla. Const.; Winfield v. Div. of Pari-Mutuel Wagering, 477 So. 2d 544 (Fla. 1985); Planned Parenthood of Sw. & Cent. Fla. v. State, 384 So. 3d 67 (Fla. 2024)"
+        },
+        {
+          "id": "fl-constitutional-law.declaration-of-rights.access-to-courts",
+          "title": "Access to courts and jury trial (§§ 21, 22)",
+          "weight": 3,
+          "rule": "The courts shall be open to every person for redress of any injury, and justice shall be administered without sale, denial or delay. If a right of access to the courts for a particular injury existed by statute or at common law when the 1968 Declaration of Rights was adopted, the Legislature may not abolish it unless it provides a reasonable alternative remedy, or shows an overpowering public necessity for abolishing the right and that no alternative method of meeting that necessity exists. The right of trial by jury 'shall be secure to all and remain inviolate,' and juries may have no fewer than six members.",
+          "tip": "The Kluger test is triggered by abolishing (or effectively abolishing) a remedy; reasonable regulation of a claim, such as presuit notice requirements or reasonable limitations periods, generally survives. Smith v. Department of Insurance (1987) struck a cap on noneconomic damages under §§ 21 and 22.",
+          "trap": "Answering that the Legislature may abolish a common-law cause of action whenever it has a rational basis. Kluger requires a reasonable alternative or an overpowering public necessity with no alternative means.",
+          "authority": "Art. I, §§ 21, 22, Fla. Const.; Kluger v. White, 281 So. 2d 1 (Fla. 1973); Smith v. Dep't of Ins., 507 So. 2d 1080 (Fla. 1987)"
+        },
+        {
+          "id": "fl-constitutional-law.declaration-of-rights.public-records-and-meetings",
+          "title": "Public records and open meetings (§ 24)",
+          "weight": 3,
+          "rule": "Every person may inspect or copy any public record made or received in connection with the official business of any public body, officer or employee of the state, or persons acting on their behalf, a right that reaches all three branches and local governments; and meetings of any collegial public body of the executive branch or of any county, municipality, school district or special district at which official acts are taken or public business is discussed must be open and noticed. The Legislature may create exemptions only by general law passed by a two-thirds vote of each house that states with specificity the public necessity justifying the exemption, is no broader than necessary to accomplish its purpose, and contains only exemptions and enforcement provisions relating to one subject.",
+          "tip": "Under the Sunshine Law (§ 286.011), a meeting occurs whenever two or more members of the same board discuss a matter that will foreseeably come before the board for action; no quorum is needed. Action taken in violation is void, though a later independent, full and open final action (not a perfunctory ratification) can cure it.",
+          "trap": "The Legislature's own meetings are governed by Art. III, § 4(e) and legislative rules, and court records by Rule 2.420. The detailed open-meeting mandate in § 24(b) is aimed at executive and local bodies.",
+          "authority": "Art. I, § 24, Fla. Const.; Fla. Stat. ch. 119, § 286.011; Town of Palm Beach v. Gradison, 296 So. 2d 473 (Fla. 1974); Tolar v. Sch. Bd. of Liberty Cnty., 398 So. 2d 427 (Fla. 1981)"
+        },
+        {
+          "id": "fl-constitutional-law.declaration-of-rights.accused-and-victims",
+          "title": "Pretrial release and victims' rights (§§ 14, 16)",
+          "weight": 2,
+          "rule": "Unless charged with a capital offense or an offense punishable by life imprisonment where the proof of guilt is evident or the presumption great, every person charged with a crime is entitled to pretrial release on reasonable conditions; but if no conditions can reasonably protect the community from risk of physical harm, assure the accused's presence at trial, or assure the integrity of the judicial process, the accused may be detained. Marsy's Law (2018) gives crime victims constitutional rights, including rights to due process and to be treated with fairness and respect, to be free from intimidation and abuse, to be reasonably protected from the accused, to prevent disclosure of information that could be used to locate or harass the victim, to be heard at public proceedings involving release, plea and sentencing, and to proceedings free from unreasonable delay.",
+          "tip": "City of Tallahassee v. Florida Police Benevolent Ass'n (Fla. 2023): Marsy's Law protects information or records that could be used to locate or harass a victim, but it does not guarantee a victim the right to keep his or her name out of public records.",
+          "authority": "Art. I, §§ 14, 16(b), Fla. Const.; City of Tallahassee v. Fla. Police Benevolent Ass'n, 375 So. 3d 178 (Fla. 2023)"
+        },
+        {
+          "id": "fl-constitutional-law.declaration-of-rights.right-to-work",
+          "title": "Right to work and collective bargaining (§ 6)",
+          "weight": 1,
+          "rule": "The right of persons to work may not be denied or abridged on account of membership or non-membership in any labor union or labor organization. Employees, including public employees, have a constitutional right to bargain collectively through a labor organization, but public employees do not have the right to strike.",
+          "split": "The federal Constitution guarantees no right to collective bargaining, and some states deny public employees bargaining rights altogether. Florida makes collective bargaining a constitutional right for public employees while forbidding them to strike.",
+          "authority": "Art. I, § 6, Fla. Const."
+        }
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.legislature",
+      "title": "Legislature and lawmaking",
+      "weight": 3,
+      "exams": ["FL"],
+      "intro": "Article III governs how the Legislature is organized and how laws are made, with Florida-specific limits the federal Constitution lacks: a single-subject and title requirement, restrictions on special laws, and a line-item veto. Article II adds an express separation-of-powers clause that supports a strict nondelegation doctrine.",
+      "rules": [
+        {
+          "id": "fl-constitutional-law.legislature.composition-and-sessions",
+          "title": "Composition, terms and sessions",
+          "weight": 2,
+          "rule": "The Senate has 40 members serving four-year terms and the House has 120 members serving two-year terms, and no one may appear on the ballot for re-election to either office after serving (or, but for resignation, having served) eight consecutive years in it. A regular session may not exceed 60 consecutive days and a special session 20 consecutive days unless extended by a three-fifths vote of each house. The governor by proclamation, or the presiding officers by joint proclamation, may convene a special session, which may consider only business within the call or a communication from the governor unless two-thirds of the membership of each house consents.",
+          "tip": "The constitution permits 30 to 40 senators and 80 to 120 representatives; the Legislature has used the maximums.",
+          "authority": "Art. III, §§ 3, 15, 16, Art. VI, § 4(b), Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.legislature.separation-of-powers",
+          "title": "Separation of powers and nondelegation (Art. II, § 3)",
+          "weight": 3,
+          "rule": "The powers of state government are divided into legislative, executive and judicial branches, and no person belonging to one branch may exercise any powers appertaining to either of the others unless expressly provided in the constitution. Under Florida's strict nondelegation doctrine, a statute delegating authority to an agency must contain standards and guidelines specific enough that the Legislature, not the agency, makes the fundamental policy decisions.",
+          "split": "Federal separation of powers is implied from the Constitution's structure, and federal courts require only an 'intelligible principle' and almost never invalidate a delegation. Florida's express clause and Askew v. Cross Key Waterways produce a noticeably stricter test.",
+          "authority": "Art. II, § 3, Fla. Const.; Askew v. Cross Key Waterways, 372 So. 2d 913 (Fla. 1978)"
+        },
+        {
+          "id": "fl-constitutional-law.legislature.single-subject",
+          "title": "Single subject and title (Art. III, § 6)",
+          "weight": 3,
+          "rule": "Every law must embrace but one subject and matter properly connected with it, and the subject must be briefly expressed in the title; a law may not be revised or amended by reference to its title only. Provisions satisfy the rule if they have a natural or logical connection to one subject, and the purposes are to prevent logrolling and to give legislators and the public fair notice. A single-subject defect is cured when the Legislature reenacts the law in its biennial adoption of the Florida Statutes, so a challenge must be raised in the window before reenactment.",
+          "trap": "Do not apply the stricter citizen-initiative single-subject test (Art. XI, § 3) to legislation. A broad, comprehensive act with a broad title can satisfy Art. III, § 6 so long as its parts are logically connected.",
+          "authority": "Art. III, § 6, Fla. Const.; State v. Johnson, 616 So. 2d 1 (Fla. 1993)"
+        },
+        {
+          "id": "fl-constitutional-law.legislature.passage-and-veto",
+          "title": "Passage of bills and the governor's veto",
+          "weight": 2,
+          "rule": "A bill must be read in each house on three separate days, unless the rule is waived by a two-thirds vote, and it passes by a majority vote in each house, with each member's vote on final passage entered in the journal. The governor has 7 consecutive days to act on a bill presented while the Legislature is in session, or 15 consecutive days if the Legislature adjourns sine die or recesses for more than 30 days; a bill that the governor neither signs nor vetoes within that time becomes law. A veto may be overridden by a two-thirds vote of each house.",
+          "split": "There is no pocket veto. Unlike the President, the governor cannot kill a bill by inaction after the Legislature adjourns; an unsigned bill becomes law.",
+          "tip": "Joint resolutions proposing constitutional amendments are not presented to the governor at all.",
+          "authority": "Art. III, §§ 7, 8, Art. XI, § 1, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.legislature.appropriations-and-line-item-veto",
+          "title": "Appropriations and the line-item veto",
+          "weight": 3,
+          "rule": "The governor may veto any specific appropriation in a general appropriations bill but may not veto any qualification or restriction without also vetoing the appropriation to which it relates. Laws making appropriations for salaries of public officers and other current expenses of the state may contain provisions on no other subject, and the general appropriations bill must be furnished to legislators in final form at least 72 hours before final passage.",
+          "tip": "Because appropriations acts may address only appropriations, a proviso that tries to change substantive law through an appropriations act is invalid; and a veto that strikes a condition while keeping the money is invalid.",
+          "authority": "Art. III, §§ 8(a), 12, 19(d), Fla. Const.; Brown v. Firestone, 382 So. 2d 654 (Fla. 1980)"
+        },
+        {
+          "id": "fl-constitutional-law.legislature.special-laws",
+          "title": "Special laws and prohibited subjects",
+          "weight": 2,
+          "rule": "A special law (one relating to particular persons or things or to a particular area) may be passed only if notice of intent to seek its enactment has been published as general law provides, or the law is conditioned to take effect only on approval by referendum of the electors in the affected area. Article III, § 11 forbids special laws on listed subjects, including punishment for crime, rules of evidence, change of civil or criminal venue, conditions precedent to or time limits on civil or criminal actions, divorce, change of a person's name, legitimation or adoption, and private incorporation.",
+          "tip": "A 'general law of local application' that uses a population classification is valid only if the classification is reasonably related to the law's purpose and is not a closed class that could never apply anywhere else; otherwise it is a special law in disguise.",
+          "authority": "Art. III, §§ 10, 11, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.legislature.impeachment",
+          "title": "Impeachment",
+          "weight": 1,
+          "rule": "The House may impeach the governor, lieutenant governor, Cabinet members, Supreme Court justices, and judges of the district courts of appeal, circuit courts and county courts for misdemeanor in office by a two-thirds vote of the members present; the officer may not perform official duties until acquitted. The Senate tries the impeachment with the chief justice (or a justice the chief justice designates) presiding, except that the governor presides at the trial of the chief justice. Conviction requires two-thirds of the senators present, and the judgment extends only to removal from office and disqualification from holding office.",
+          "tip": "Officers who are not subject to impeachment (for example, state attorneys and sheriffs) are disciplined instead through the governor's suspension power under Art. IV, § 7.",
+          "authority": "Art. III, § 17, Fla. Const."
+        }
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.executive",
+      "title": "Executive branch",
+      "weight": 2,
+      "exams": ["FL"],
+      "intro": "Florida's executive power is divided: the governor shares it with three independently elected Cabinet officers, and most clemency requires Cabinet approval. The governor's power to suspend officials and the 2018 restoration of felon voting rights are frequent exam topics.",
+      "rules": [
+        {
+          "id": "fl-constitutional-law.executive.governor",
+          "title": "Governor: qualifications, terms and succession",
+          "weight": 2,
+          "rule": "The governor, elected jointly with the lieutenant governor to a four-year term, holds the supreme executive power; the governor, lieutenant governor and Cabinet members must be electors at least 30 years old who have resided in Florida for the preceding seven years. A person who has served (or, but for resignation, would have served) as governor or acting governor for more than six years in two consecutive terms may not be elected to the succeeding term. If the governor's office becomes vacant, the lieutenant governor becomes governor; during the governor's impeachment trial or physical or mental incapacity, the lieutenant governor acts as governor.",
+          "authority": "Art. IV, §§ 1, 3, 5, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.executive.cabinet",
+          "title": "The Cabinet and executive departments",
+          "weight": 2,
+          "rule": "The Cabinet consists of three independently elected officers, the Attorney General, the Chief Financial Officer and the Commissioner of Agriculture, each serving a four-year term; the Attorney General must have been a member of The Florida Bar for the preceding five years. The governor and Cabinet act together on certain matters (for example, clemency and the State Board of Administration), and executive departments, limited to 25 beyond those the constitution itself provides for, are placed under the governor, the governor and Cabinet, a Cabinet member, or an officer or board appointed by the governor.",
+          "trap": "Older sources list six Cabinet officers (including the Secretary of State and the Commissioner of Education); the 1998 revision reduced the Cabinet to three effective in 2003.",
+          "authority": "Art. IV, §§ 4, 5, 6, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.executive.suspension",
+          "title": "Suspension of officers",
+          "weight": 3,
+          "rule": "By executive order stating the grounds and filed with the custodian of state records, the governor may suspend any state officer not subject to impeachment, any militia officer not in active federal service, or any county officer, for listed grounds, and may fill the office by appointment during the suspension. The Senate, in proceedings prescribed by law, then removes or reinstates the suspended official, and the governor may also suspend an elected municipal officer who is indicted for a crime until acquittal.",
+          "elements": [
+            "Malfeasance",
+            "Misfeasance",
+            "Neglect of duty",
+            "Drunkenness",
+            "Incompetence",
+            "Permanent inability to perform official duties",
+            "Commission of a felony"
+          ],
+          "tip": "Judicial review is narrow: the Florida Supreme Court asks only whether the executive order, on its face, alleges facts that bear a reasonable relation to a constitutional ground. It does not weigh the evidence; that is the Senate's job (Israel v. DeSantis, 2019).",
+          "authority": "Art. IV, § 7, Fla. Const.; Israel v. DeSantis, 269 So. 3d 491 (Fla. 2019)"
+        },
+        {
+          "id": "fl-constitutional-law.executive.clemency",
+          "title": "Clemency",
+          "weight": 3,
+          "rule": "Except in cases of treason and of impeachment resulting in conviction, the governor acting alone, by executive order, may suspend collection of fines and forfeitures and grant reprieves of up to 60 days; full or conditional pardons, restoration of civil rights, commutation of punishment, and remission of fines and forfeitures require the governor's action with the approval of two members of the Cabinet. In treason cases the governor may grant reprieves until the Legislature's next regular session, which may then grant a pardon or further reprieve.",
+          "split": "The President's pardon power is plenary and personal. Florida's governor shares most clemency powers with the Cabinet, and under the clemency rules the governor's own approval is also required.",
+          "authority": "Art. IV, § 8, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.executive.felon-voting",
+          "title": "Felon voting rights (Amendment 4, 2018)",
+          "weight": 2,
+          "rule": "A person convicted of a felony is disqualified from voting until civil rights are restored, but under the 2018 amendment the disqualification ends upon completion of all terms of sentence, including parole or probation, except for persons convicted of murder or a felony sexual offense, who must obtain restoration through clemency. The Florida Supreme Court has advised that 'all terms of sentence' includes legal financial obligations, such as fines, fees, costs and restitution, imposed as part of the sentence.",
+          "authority": "Art. VI, § 4(a), Fla. Const.; Advisory Op. to the Governor re: Implementation of Amendment 4, 288 So. 3d 1070 (Fla. 2020)"
+        },
+        {
+          "id": "fl-constitutional-law.executive.vacancies-and-advisory-opinions",
+          "title": "Filling vacancies and advisory opinions to the governor",
+          "weight": 1,
+          "rule": "When the constitution does not otherwise provide, the governor fills vacancies in state or county offices by appointment: for an appointive office, for the rest of the term; for an elective office, for the rest of the term if less than 28 months remain, and otherwise until the next general election produces a successor. The governor may request in writing the opinion of the Supreme Court justices on the interpretation of any portion of the constitution on a question affecting the governor's executive powers and duties.",
+          "authority": "Art. IV, § 1(c), (f), Fla. Const."
+        }
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.judiciary",
+      "title": "Judiciary (Article V)",
+      "weight": 3,
+      "exams": ["FL"],
+      "intro": "Article V creates a four-tier court system and confines the Florida Supreme Court's jurisdiction to the categories it lists, so questions often ask whether the Court can hear a case at all. Judicial selection and retention, discipline, the Court's rulemaking power, and the 2018 ban on deference to agency interpretations are also tested.",
+      "rules": [
+        {
+          "id": "fl-constitutional-law.judiciary.structure-and-qualifications",
+          "title": "Court structure and judicial qualifications",
+          "weight": 2,
+          "rule": "Judicial power is vested in the Supreme Court, the district courts of appeal, circuit courts and county courts, and no other courts may be established, although administrative officers may be given quasi-judicial power in matters connected with their offices. The Supreme Court has seven justices, five constitute a quorum, and the concurrence of four is needed for a decision; there are six district courts of appeal (the Sixth District began operating January 1, 2023) and twenty judicial circuits. Justices and district court judges must have been members of The Florida Bar for the preceding ten years and circuit and county judges for five (with a statutory exception for county judges in small counties), and no justice or judge may serve after reaching age 75 except on temporary assignment or to complete a term of which at least half has been served.",
+          "trap": "Older materials give a mandatory retirement age of 70 and five district courts of appeal; the 2018 amendment raised the age to 75, and the Sixth District was added in 2023.",
+          "authority": "Art. V, §§ 1, 3(a), 8, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.judiciary.supreme-court-mandatory",
+          "title": "Supreme Court: mandatory jurisdiction and writs",
+          "weight": 3,
+          "rule": "The Supreme Court must hear appeals from final judgments imposing the death penalty and from district court decisions declaring invalid a state statute or a provision of the state constitution; when provided by general law, it also hears appeals in bond-validation proceedings and reviews statewide agency action on the rates or service of electric, gas or telephone utilities. It must render advisory opinions to the Attorney General on citizen initiatives, and it may issue writs of prohibition to courts, writs of mandamus and quo warranto to state officers and agencies, writs of habeas corpus, and all writs necessary to the complete exercise of its jurisdiction.",
+          "tip": "The Supreme Court is not a general court of error correction; if a case does not fit a category in Art. V, § 3(b), the Court lacks jurisdiction.",
+          "authority": "Art. V, § 3(b)(1), (2), (7)–(10), Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.judiciary.supreme-court-discretionary",
+          "title": "Supreme Court: discretionary jurisdiction",
+          "weight": 3,
+          "rule": "The Supreme Court may review a district court decision that expressly declares valid a state statute, expressly construes a provision of the state or federal constitution, expressly affects a class of constitutional or state officers, or expressly and directly conflicts with a decision of another district court or of the Supreme Court on the same question of law. It may also review district court decisions passing on a question certified to be of great public importance or certified to be in direct conflict with another district, trial-court orders that a district court certifies for immediate resolution, and questions of law certified by the U.S. Supreme Court or a federal court of appeals that are determinative of the cause and lack controlling Florida precedent.",
+          "exceptions": [
+            "A 'citation PCA' that cites as controlling authority a decision that is pending review in, or has been reversed by, the Supreme Court can support jurisdiction (Jollie v. State)."
+          ],
+          "trap": "A per curiam affirmance without opinion (a PCA) cannot be reviewed for conflict, because nothing in it expressly conflicts with anything (Jenkins v. State). And a federal district court cannot certify a question to the Florida Supreme Court; only the U.S. Supreme Court or a federal court of appeals can.",
+          "authority": "Art. V, § 3(b)(3)–(6), Fla. Const.; Jenkins v. State, 385 So. 2d 1356 (Fla. 1980); Jollie v. State, 405 So. 2d 418 (Fla. 1981)"
+        },
+        {
+          "id": "fl-constitutional-law.judiciary.district-and-trial-courts",
+          "title": "District courts, trial courts and binding precedent",
+          "weight": 2,
+          "rule": "District courts of appeal hear appeals as of right from final judgments and orders of trial courts not directly appealable to the Supreme Court or a circuit court, including orders entered on review of administrative action, and may issue writs including certiorari, prohibition, mandamus, quo warranto and habeas corpus. Circuit courts have original jurisdiction not vested in the county courts, jurisdiction of appeals when provided by general law, and power to issue the extraordinary writs; county courts exercise the jurisdiction prescribed by general law. A district court decision binds every Florida trial court unless another district court disagrees, in which case a trial court follows the decision of its own district (Pardo v. State).",
+          "authority": "Art. V, §§ 4(b), 5(b), 6(b), Fla. Const.; Pardo v. State, 596 So. 2d 665 (Fla. 1992)"
+        },
+        {
+          "id": "fl-constitutional-law.judiciary.selection-and-retention",
+          "title": "Judicial selection and merit retention",
+          "weight": 3,
+          "rule": "A vacancy on the Supreme Court or a district court of appeal is filled by the governor from a list of three to six nominees certified by a judicial nominating commission, with the appointment made within 60 days after certification; the appointee then stands for a yes-or-no merit-retention vote at the next general election held more than one year after appointment, and every six years after that. Circuit judges (who serve six-year terms) and county judges are chosen in nonpartisan elections, and vacancies in those offices are filled by the governor from nominating-commission lists.",
+          "tip": "The constitution lets each circuit or county opt by local vote to use merit selection and retention for its trial judges; voters have not adopted that option, so trial judges remain elected.",
+          "authority": "Art. V, §§ 10, 11, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.judiciary.rulemaking-and-bar",
+          "title": "Rulemaking power and regulation of the Bar",
+          "weight": 2,
+          "rule": "The Supreme Court adopts rules of practice and procedure for all courts, and the Legislature may repeal a court rule only by general law passed by a two-thirds vote of the membership of each house; it may not amend or replace the rule. The Legislature makes substantive law, so a statute that is purely procedural and conflicts with a court rule is invalid under the separation of powers, while a substantive statute with incidental procedural provisions generally stands. The Supreme Court also has exclusive jurisdiction to regulate the admission of persons to the practice of law and the discipline of those admitted.",
+          "split": "Under the federal Rules Enabling Act, Congress delegates rulemaking to the U.S. Supreme Court and can change rules by ordinary statute. Florida's constitution vests rulemaking in the Court directly and limits the Legislature to repeal by a two-thirds vote.",
+          "authority": "Art. V, §§ 2(a), 15, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.judiciary.judicial-discipline",
+          "title": "Judicial Qualifications Commission",
+          "weight": 2,
+          "rule": "The Judicial Qualifications Commission, through an investigative panel and a hearing panel, investigates and prosecutes judicial misconduct and recommends discipline, including reprimand, fine, suspension with or without pay, lawyer discipline or removal, or involuntary retirement for permanent disability. The Supreme Court makes the final decision and may accept, reject or modify the commission's findings and recommendation.",
+          "authority": "Art. V, § 12, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.judiciary.agency-deference",
+          "title": "No deference to agency interpretations (Art. V, § 21)",
+          "weight": 3,
+          "rule": "In interpreting a state statute or rule, a state court or an officer hearing an administrative action under general law may not defer to an administrative agency's interpretation of that statute or rule and must instead interpret it de novo.",
+          "split": "Federal courts deferred to reasonable agency readings of ambiguous statutes under Chevron until Loper Bright Enterprises v. Raimondo (2024) overruled it, and federal deference to an agency's reading of its own regulations survives in narrowed form under Kisor v. Wilkie. Florida abolished deference to agency interpretations of both statutes and rules by constitutional amendment in 2018.",
+          "authority": "Art. V, § 21, Fla. Const."
+        }
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.local-government-and-finance",
+      "title": "Local government, taxation and finance",
+      "weight": 2,
+      "exams": ["FL"],
+      "intro": "Article VIII gives charter counties and municipalities broad home-rule power, subject to state preemption, and Article VII controls taxation, homestead tax relief and borrowing. Distinguish charter from non-charter counties, taxes from special assessments, and ad valorem taxes from other taxes.",
+      "rules": [
+        {
+          "id": "fl-constitutional-law.local-government-and-finance.counties",
+          "title": "Charter and non-charter counties",
+          "weight": 3,
+          "rule": "A non-charter county has the powers of self-government provided by general or special law and may enact ordinances not inconsistent with general or special law, but a non-charter county ordinance that conflicts with a municipal ordinance is not effective within the municipality to the extent of the conflict. A charter county has all powers of local self-government not inconsistent with general law or with special law approved by its voters, may enact ordinances not inconsistent with general law, and its charter must state which prevails when county and municipal ordinances conflict.",
+          "tip": "Classic exam contrast: inside a city, a non-charter county's conflicting ordinance gives way to the municipal ordinance; in a charter county, the charter decides.",
+          "authority": "Art. VIII, § 1(f), (g), Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.local-government-and-finance.municipalities",
+          "title": "Municipal home rule",
+          "weight": 2,
+          "rule": "Municipalities have governmental, corporate and proprietary powers to conduct municipal government, perform municipal functions and render municipal services, and may exercise any power for municipal purposes except as otherwise provided by law. Municipalities are established or abolished, and their charters amended, under general or special law, and annexation, merger and the exercise of extraterritorial powers are likewise governed by law.",
+          "split": "Under the traditional 'Dillon's Rule' followed in some states, local governments have only the powers expressly granted by the state. Florida's constitution and the Municipal Home Rule Powers Act reverse that presumption for municipalities: they may act for any municipal purpose unless the law provides otherwise.",
+          "authority": "Art. VIII, § 2, Fla. Const.; Fla. Stat. § 166.021"
+        },
+        {
+          "id": "fl-constitutional-law.local-government-and-finance.preemption-and-conflict",
+          "title": "State preemption and conflict",
+          "weight": 3,
+          "rule": "A local ordinance is invalid if the Legislature has preempted the subject to the state, either expressly or (rarely) by implication through a pervasive regulatory scheme, or if the ordinance conflicts with a state statute so that the two cannot coexist, as when the ordinance forbids what the statute expressly authorizes or authorizes what the statute forbids. Absent preemption or conflict, counties and municipalities may legislate concurrently with the state.",
+          "tip": "Firearms and ammunition regulation is expressly preempted to the state by § 790.33, a frequent example of express preemption.",
+          "authority": "Art. VIII, §§ 1(f)–(g), 2(b), Fla. Const.; Fla. Stat. § 166.021"
+        },
+        {
+          "id": "fl-constitutional-law.local-government-and-finance.taxation",
+          "title": "Taxing power, millage caps and the income tax ban",
+          "weight": 2,
+          "rule": "The state may not levy ad valorem taxes on real estate or tangible personal property, and all other forms of taxation are preempted to the state except as provided by general law, so local governments may impose non-ad valorem taxes only when a general law authorizes them. Counties, school districts and municipalities may levy ad valorem taxes authorized by law, each limited to 10 mills for its own purposes, excluding millage for voter-approved debt service and voter-approved millage for up to two years. Article VII, § 5 effectively bars a state income tax on natural persons.",
+          "authority": "Art. VII, §§ 1(a), 5, 9, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.local-government-and-finance.special-assessments",
+          "title": "Special assessments versus taxes",
+          "weight": 3,
+          "rule": "A special assessment is valid only if (1) the property assessed derives a special benefit from the service or improvement and (2) the assessment is fairly and reasonably apportioned among the benefited properties; the local government's findings on benefit and apportionment are upheld unless arbitrary. Fire protection services can specially benefit property, but emergency medical services cannot, because they benefit people rather than property.",
+          "trap": "A charge labeled a 'fee' or 'assessment' that actually funds general government services is a tax, and a local government may impose a non-ad valorem tax only if general law authorizes it.",
+          "authority": "City of Boca Raton v. State, 595 So. 2d 25 (Fla. 1992); Lake Cnty. v. Water Oak Mgmt. Corp., 695 So. 2d 667 (Fla. 1997); City of N. Lauderdale v. SMM Props., Inc., 825 So. 2d 343 (Fla. 2002)"
+        },
+        {
+          "id": "fl-constitutional-law.local-government-and-finance.homestead-tax-relief",
+          "title": "Homestead tax exemption and Save Our Homes",
+          "weight": 2,
+          "rule": "A person who holds legal or equitable title to real estate and makes it his or her permanent residence (or the permanent residence of a legal or natural dependent) as of January 1 receives a $25,000 homestead exemption from all taxing authorities, plus a second exemption (set at $25,000 in 2008) on assessed value between $50,000 and $75,000 that does not apply to school taxes. Under 'Save Our Homes,' annual increases in a homestead's assessed value are capped at the lesser of 3% or the change in the Consumer Price Index; the property is reassessed at just value after a change of ownership, and up to $500,000 of the accumulated difference may be transferred ('ported') to a new homestead.",
+          "tip": "Non-homestead property also has an assessment-increase cap (10% a year for non-school levies), so do not assume only homesteads are protected.",
+          "authority": "Art. VII, §§ 4, 6, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.local-government-and-finance.bonds-and-credit",
+          "title": "Borrowing and lending of credit",
+          "weight": 2,
+          "rule": "Local governments may issue bonds payable from ad valorem taxes and maturing more than 12 months after issuance only to finance or refinance capital projects authorized by law and only with voter approval, or to refund outstanding bonds at a lower net average interest cost rate. Revenue bonds payable solely from non-ad valorem sources, such as utility revenues, need no referendum. The state and its subdivisions may not give, lend or use their taxing power or credit to aid any private corporation, association, partnership or person.",
+          "tip": "In bond-validation cases, a pledge of taxing power or credit demands a paramount public purpose with only incidental private benefit; when only project revenues are pledged, a valid public purpose is enough.",
+          "authority": "Art. VII, §§ 10, 12, Fla. Const."
+        }
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.amendment",
+      "title": "Amending the constitution",
+      "weight": 3,
+      "exams": ["FL"],
+      "intro": "Florida's constitution can be changed by five methods and is amended often, so the exam tests the proposal methods, the single-subject and ballot-summary limits on citizen initiatives, and the 60% approval requirement. Expect at least one question on what the Supreme Court reviews in an initiative advisory opinion.",
+      "rules": [
+        {
+          "id": "fl-constitutional-law.amendment.methods",
+          "title": "Five ways to propose amendments or revisions",
+          "weight": 3,
+          "rule": "A constitutional amendment or revision may be proposed by (1) a joint resolution agreed to by three-fifths of the membership of each house of the Legislature; (2) the Constitution Revision Commission, which convenes every 20 years (2017, then 2037); (3) citizen initiative; (4) a constitutional convention called by the voters through a petition and a favorable vote; or (5) the Taxation and Budget Reform Commission, which convenes every 20 years (2007, then 2027) and is limited to taxation and the state budgetary process.",
+          "elements": [
+            "Legislative joint resolution (three-fifths of the membership of each house)",
+            "Constitution Revision Commission",
+            "Citizen initiative",
+            "Constitutional convention",
+            "Taxation and Budget Reform Commission"
+          ],
+          "tip": "Joint resolutions are not presented to the governor and cannot be vetoed. The Revision Commission has 37 members: the Attorney General, 15 appointed by the governor, 9 by the Speaker of the House, 9 by the Senate President, and 3 by the Chief Justice.",
+          "authority": "Art. XI, §§ 1–4, 6, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.amendment.initiative-requirements",
+          "title": "Citizen initiatives: signatures and single subject",
+          "weight": 3,
+          "rule": "Citizens may propose the revision or amendment of any portion of the constitution by a petition signed by electors equal to 8% of the votes cast in the last presidential election, both statewide and in each of at least one-half of the congressional districts, filed with the custodian of state records by February 1 of the general-election year. An initiative must embrace but one subject and matter directly connected with it, except for proposals limiting the power of government to raise revenue.",
+          "split": "The initiative single-subject rule is stricter than the Art. III, § 6 rule for legislation, and it does not apply to proposals by the Legislature, the Revision Commission, the Taxation and Budget Reform Commission or a convention. The test asks whether the proposal has a logical and natural 'oneness of purpose' and whether it substantially alters or performs the functions of multiple branches of government (Fine v. Firestone).",
+          "authority": "Art. XI, §§ 3, 5, Fla. Const.; Fine v. Firestone, 448 So. 2d 984 (Fla. 1984)"
+        },
+        {
+          "id": "fl-constitutional-law.amendment.ballot-review",
+          "title": "Supreme Court review and the ballot summary",
+          "weight": 3,
+          "rule": "The Attorney General must petition the Supreme Court for an advisory opinion on a citizen initiative, and the Court must rule by April 1 of the election year; the review addresses whether the proposal complies with the single-subject requirement and whether the ballot title and summary comply with § 101.161, not the proposal's merits or wisdom. The ballot summary (generally 75 words or fewer) and title (15 words or fewer) must state the chief purpose of the measure in clear and unambiguous language and may not mislead voters, for example by omitting a material effect or 'flying under false colors.'",
+          "tip": "A financial impact statement for each initiative also appears on the ballot; it is prepared under general law, separately from the sponsor's summary.",
+          "trap": "Choosing an answer that has the Court reject a proposal because it is bad policy or conflicts with existing statutes; neither is a ground for keeping it off the ballot.",
+          "authority": "Art. IV, § 10, Art. V, § 3(b)(10), Art. XI, § 5, Fla. Const.; Fla. Stat. § 101.161"
+        },
+        {
+          "id": "fl-constitutional-law.amendment.approval",
+          "title": "Submission, approval and effective date",
+          "weight": 3,
+          "rule": "A proposed amendment or revision is submitted to the voters at the next general election held more than 90 days after it is filed with the custodian of state records (a legislative proposal may go to an earlier special election if authorized by a law passed by three-fourths of the membership of each house), and it is adopted if approved by at least 60% of the voters voting on the measure. An amendment that imposes a new state tax or fee requires approval by two-thirds of the voters voting in the election. Unless it specifies otherwise, an adopted amendment takes effect on the first Tuesday after the first Monday in January following the election.",
+          "split": "Many states adopt amendments by simple majority; Florida's 60% threshold dates from 2006.",
+          "trap": "Mixing up the denominators: 60% of those voting on the measure, but two-thirds of all voters voting in the election for a new state tax or fee.",
+          "authority": "Art. XI, §§ 5, 7, Fla. Const."
+        }
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.homestead-and-property",
+      "title": "Homestead, eminent domain and sovereign immunity (Article X)",
+      "weight": 2,
+      "exams": ["FL"],
+      "intro": "Article X contains Florida's unusually strong homestead protections, its 'full compensation' takings clause, and the basis for sovereign immunity. Homestead questions overlap with Wills and Real Property, so learn the constitutional text precisely.",
+      "rules": [
+        {
+          "id": "fl-constitutional-law.homestead-and-property.forced-sale-exemption",
+          "title": "Homestead exemption from forced sale",
+          "weight": 3,
+          "rule": "Homestead property owned by a natural person is exempt from forced sale, and no judgment, decree or execution may become a lien on it, except for taxes and assessments on it, obligations contracted for its purchase, improvement or repair, and obligations contracted for house, field or other labor performed on it. The protected area is up to 160 acres of contiguous land outside a municipality, or up to one-half acre of contiguous land within a municipality, limited to the residence of the owner or the owner's family.",
+          "exceptions": [
+            "Taxes and assessments on the property",
+            "Obligations contracted for the purchase, improvement or repair of the property",
+            "Obligations contracted for house, field or other labor performed on the realty"
+          ],
+          "split": "Most states protect a homestead only up to a dollar amount. Florida's exemption has no dollar cap; it is limited only by acreage.",
+          "tip": "The exemption protects even a homestead bought with nonexempt assets with the intent to hinder creditors (Havoco of America v. Hill, 2001), unless the funds were obtained through fraud or egregious conduct, in which case an equitable lien may be imposed.",
+          "authority": "Art. X, § 4(a), Fla. Const.; Havoco of Am., Ltd. v. Hill, 790 So. 2d 1018 (Fla. 2001)"
+        },
+        {
+          "id": "fl-constitutional-law.homestead-and-property.alienation-and-devise",
+          "title": "Alienation and devise of homestead",
+          "weight": 2,
+          "rule": "The owner may alienate homestead by mortgage, sale or gift, but a married owner needs the spouse's joinder. Homestead may not be devised if the owner is survived by a spouse or minor child, except that it may be devised to the owner's spouse if there is no minor child.",
+          "tip": "The statutory consequences of an invalid devise (descent under the Probate Code, with the spouse taking a life estate or electing a one-half interest as tenant in common) are tested in Wills; § 732.401 governs them.",
+          "authority": "Art. X, § 4(c), Fla. Const.; Fla. Stat. § 732.401"
+        },
+        {
+          "id": "fl-constitutional-law.homestead-and-property.eminent-domain",
+          "title": "Eminent domain: full compensation",
+          "weight": 2,
+          "rule": "No private property may be taken except for a public purpose and with full compensation paid to each owner or secured by deposit in the registry of the court and available to the owner. Property taken by eminent domain may not be conveyed to a natural person or private entity except as provided by general law passed by a three-fifths vote of the membership of each house of the Legislature.",
+          "split": "The Fifth Amendment's 'just compensation' generally means fair market value, and Kelo v. City of New London (2005) allowed takings for economic development that transfer property to private parties. Florida's 2006 amendment and implementing statutes restrict such transfers, and Florida eminent domain law gives owners more than market value in some respects, such as reasonable attorney's fees and, in certain partial takings, business damages.",
+          "authority": "Art. X, § 6, Fla. Const.; Fla. Stat. ch. 73"
+        },
+        {
+          "id": "fl-constitutional-law.homestead-and-property.sovereign-immunity",
+          "title": "Sovereign immunity and its statutory waiver",
+          "weight": 2,
+          "rule": "The state is immune from suit except as the Legislature provides by general law for suits against it. Through § 768.28 the state and its agencies and subdivisions waived immunity in tort to the extent a private person would be liable, subject to statutory per-claim and per-incident caps (amounts above the caps require a legislative claim bill), presuit notice requirements, and personal immunity for officers and employees unless they acted in bad faith, with malicious purpose, or with wanton and willful disregard of human rights, safety or property.",
+          "tip": "Discretionary, planning-level governmental decisions remain immune, while operational-level acts do not (Commercial Carrier Corp. v. Indian River County, 1979).",
+          "authority": "Art. X, § 13, Fla. Const.; Fla. Stat. § 768.28; Commercial Carrier Corp. v. Indian River Cnty., 371 So. 2d 1010 (Fla. 1979)"
+        }
+      ]
+    }
+  ]
+}

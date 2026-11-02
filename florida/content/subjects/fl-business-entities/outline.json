@@ -1,0 +1,582 @@
+{
+  "subject": "fl-business-entities",
+  "topics": [
+    {
+      "id": "fl-business-entities.corporations",
+      "title": "Corporations: formation, finance, governance and fiduciary duties",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida corporations are governed by the Florida Business Corporation Act, chapter 607, which was substantially revised effective January 1, 2020 to track the Model Business Corporation Act more closely. Part A essays usually ask who is personally liable (promoter, shareholder, director) and whether directors breached a duty, so pair every liability answer with the Florida-specific protection that applies: the strict veil-piercing test and the automatic director shield in § 607.0831.",
+      "rules": [
+        {
+          "id": "fl-business-entities.corporations.formation",
+          "title": "Formation and defective incorporation",
+          "weight": 2,
+          "rule": "A Florida corporation is formed by delivering articles of incorporation to the Department of State; corporate existence begins when the articles are filed (or on a permitted delayed effective date stated in them). Persons who purport to act as or on behalf of a corporation knowing that there was no incorporation are jointly and severally liable for the liabilities created while so acting, except to a person who also knew there was no incorporation.",
+          "elements": [
+            "Corporate name containing 'corporation,' 'company,' or 'incorporated' (or an abbreviation)",
+            "Number of shares the corporation is authorized to issue",
+            "Street address of the initial principal office and its mailing address",
+            "Name and address of the initial registered agent, with the agent's written acceptance",
+            "Name and address of each incorporator"
+          ],
+          "split": "Common-law de facto corporation and corporation-by-estoppel doctrines appear in many outlines; Florida's statute instead keys liability to actual knowledge that no corporation existed. A passive investor who believed the corporation had been formed is not personally liable under § 607.0204.",
+          "trap": "Imposing personal liability on every shareholder of a defectively formed corporation. Liability attaches only to those who acted for the would-be corporation with actual knowledge of the defect.",
+          "authority": "Fla. Stat. §§ 607.0202, 607.0203, 607.0204, 607.0401"
+        },
+        {
+          "id": "fl-business-entities.corporations.promoters",
+          "title": "Promoters and pre-incorporation contracts",
+          "weight": 2,
+          "rule": "A promoter who signs a contract for a corporation not yet formed is personally liable on it unless the other party agreed to look only to the future corporation. The corporation is not bound until, after formation, it adopts the contract expressly or impliedly (for example, by knowingly accepting its benefits), and adoption does not release the promoter; only a novation, to which the other party consents, substitutes the corporation as the sole obligor.",
+          "elements": [
+            "Promoter acted before the articles were filed",
+            "No agreement by the third party to rely solely on the corporation",
+            "Corporation's liability depends on post-formation adoption",
+            "Promoter released only by novation"
+          ],
+          "tip": "Essay pattern: promoter signs a lease 'on behalf of XYZ Corp., a corporation to be formed,' the corporation later uses the premises, then defaults. Answer: the corporation is liable by implied adoption, and the promoter remains liable absent a novation.",
+          "trap": "Treating the corporation's adoption as a release of the promoter. Adoption adds the corporation as an obligor; it does not substitute it.",
+          "authority": "Florida common law; see Fla. Stat. § 607.0204"
+        },
+        {
+          "id": "fl-business-entities.corporations.veil-piercing",
+          "title": "Piercing the corporate veil in Florida",
+          "weight": 3,
+          "rule": "Shareholders are ordinarily not personally liable for corporate obligations, and Florida courts disregard the corporate entity only on proof of improper conduct. The claimant must show that (1) the shareholder so dominated and controlled the corporation that it had no independent existence and was a mere instrumentality or alter ego, (2) the corporate form was used fraudulently or for an improper purpose, and (3) that fraudulent or improper use caused the claimant's injury.",
+          "elements": [
+            "Domination and control: the corporation was the shareholder's mere instrumentality or alter ego",
+            "Improper conduct: the corporate form was used for a fraudulent or improper purpose",
+            "Causation: the improper use caused the claimant's loss"
+          ],
+          "split": "Many states, and many MBE answer keys, allow piercing on a totality-of-factors showing (undercapitalization, commingling, ignored formalities) to prevent injustice. Florida is stricter: Dania Jai-Alai requires improper conduct, so domination, thin capitalization or sloppy formalities without misuse of the corporate form will not pierce the veil.",
+          "tip": "Florida courts apply the same improper-conduct test when a creditor tries to reach the members of an LLC.",
+          "trap": "Piercing because the sole shareholder paid personal bills from the corporate account. That shows domination; you still need a fraudulent or improper use of the corporate form (for example, stripping assets to defeat a known creditor) that caused the loss.",
+          "authority": "Dania Jai-Alai Palace, Inc. v. Sykes, 450 So. 2d 1114 (Fla. 1984)"
+        },
+        {
+          "id": "fl-business-entities.corporations.shares-and-distributions",
+          "title": "Issuing shares, preemptive rights and distributions",
+          "weight": 2,
+          "rule": "The board may issue shares for any tangible or intangible property or benefit to the corporation, including cash, promissory notes, services performed, or contracts for services, and the board's determination that the consideration is adequate is conclusive as to whether the shares are validly issued, fully paid, and nonassessable. Shareholders have no preemptive rights unless the articles provide them. A distribution is unlawful if, after giving it effect, the corporation could not pay its debts as they become due in the usual course of business, or its total assets would be less than its total liabilities plus the amount needed to satisfy senior liquidation preferences.",
+          "elements": [
+            "Equity-insolvency test: able to pay debts as they come due",
+            "Balance-sheet test: assets at least equal liabilities plus preferential liquidation rights",
+            "Directors may rely on financial statements prepared on reasonable accounting practices or a fair valuation"
+          ],
+          "exceptions": [
+            "A director who votes for or assents to an unlawful distribution, in breach of the statutory standards of conduct, is personally liable to the corporation for the amount exceeding what could lawfully have been distributed.",
+            "That director may seek contribution from other directors who are liable and from shareholders who accepted the distribution knowing it was unlawful."
+          ],
+          "trap": "Assuming shareholders automatically get preemptive rights. In Florida they are opt-in through the articles.",
+          "authority": "Fla. Stat. §§ 607.0621, 607.0630, 607.06401, 607.0834"
+        },
+        {
+          "id": "fl-business-entities.corporations.shareholder-voting",
+          "title": "Shareholder meetings, voting and written consent",
+          "weight": 3,
+          "rule": "Unless the articles provide otherwise, each outstanding share has one vote, a majority of the votes entitled to be cast is a quorum, an action (other than electing directors) is approved if the votes cast for it exceed the votes cast against it, and directors are elected by a plurality of the votes cast. Florida lets shareholders act without a meeting by written consent signed by holders of at least the number of votes needed to take the action at a meeting at which all shares entitled to vote were present, unless the articles provide otherwise; notice of the action must then be given to the shareholders who did not consent.",
+          "elements": [
+            "Annual meeting; special meetings may be called by the board or by holders of at least 10 percent of the votes entitled to be cast on the issue (the articles may require a higher percentage)",
+            "Notice of every meeting 10 to 60 days before it; a special-meeting notice must describe its purpose",
+            "Articles may change the quorum but not below one-third of the votes entitled to be cast",
+            "A proxy is valid for 11 months unless it states a longer period",
+            "Cumulative voting for directors exists only if the articles provide for it"
+          ],
+          "split": "MBCA § 7.04 requires unanimous written consent unless the articles permit less. Florida's default is the reverse: holders of the votes that would be needed at a full meeting may act by written consent unless the articles take the power away.",
+          "trap": "Requiring unanimous shareholder consent for action without a meeting. That is the Florida rule for directors (§ 607.0821), not for shareholders.",
+          "authority": "Fla. Stat. §§ 607.0701, 607.0702, 607.0704, 607.0705, 607.0722, 607.0725, 607.0728"
+        },
+        {
+          "id": "fl-business-entities.corporations.board-and-officers",
+          "title": "The board of directors and officers",
+          "weight": 2,
+          "rule": "All corporate powers are exercised by or under the authority of the board, and the business and affairs are managed under its direction, subject to the articles and any valid shareholder agreement. Unless the articles or bylaws provide otherwise, a majority of the fixed number of directors is a quorum (which may be reduced, but not below one-third), the act of a majority of directors present at a meeting with a quorum is the act of the board, and board action without a meeting requires the written consent of every director.",
+          "elements": [
+            "Directors act as a body; they may meet by any means through which all participants can hear each other at the same time",
+            "Directors may not vote by proxy",
+            "Shareholders may remove directors with or without cause unless the articles allow removal only for cause",
+            "Officers are those described in the bylaws or appointed by the board; one person may hold more than one office",
+            "Officers' authority comes from the bylaws or the board, and they may also bind the corporation under ordinary agency principles"
+          ],
+          "trap": "Treating individual directors' separate approvals (obtained one by one, without a meeting or unanimous written consent) as valid board action.",
+          "authority": "Fla. Stat. §§ 607.0801, 607.0808, 607.0820, 607.0821, 607.0824, 607.08401"
+        },
+        {
+          "id": "fl-business-entities.corporations.duty-of-care",
+          "title": "Duty of care, business judgment and the § 607.0831 shield",
+          "weight": 3,
+          "rule": "A director must act in good faith, in a manner the director reasonably believes to be in the best interests of the corporation, and with the care a reasonable person in a like position would use under similar circumstances, and may rely in good faith on information and reports from officers, employees, professionals, and board committees reasonably believed to be reliable and competent. Under § 607.0831 a director is not personally liable for monetary damages to the corporation or any other person for any statement, vote, decision, or failure to act regarding corporate management or policy unless the director breached or failed to perform those duties and the breach constitutes one of the statutory forms of serious misconduct.",
+          "elements": [
+            "A violation of criminal law, unless the director had reasonable cause to believe the conduct was lawful or no reasonable cause to believe it unlawful",
+            "A transaction from which the director derived an improper personal benefit, directly or indirectly",
+            "Voting for or assenting to an unlawful distribution (§ 607.0834)",
+            "In a suit by or in the right of the corporation or by a shareholder: conscious disregard for the best interests of the corporation, or willful or intentional misconduct",
+            "In a suit by a third party: recklessness, or an act or omission committed in bad faith, with malicious purpose, or in a manner exhibiting wanton and willful disregard of human rights, safety, or property"
+          ],
+          "split": "Under MBCA § 2.02(b)(4) and Delaware's § 102(b)(7), directors are shielded from damages only if the articles contain an exculpation clause. Florida's § 607.0831 protection is statutory and automatic, needs no charter provision, and reaches claims by third parties as well as by the corporation and its shareholders.",
+          "tip": "Business judgment rule plus § 607.0831 means ordinary negligence, and usually even a poorly informed decision, does not produce personal damages liability. Walk through each statutory category before concluding a director is liable.",
+          "trap": "Holding directors liable for a merely negligent or unwise decision. Without one of the § 607.0831 categories, monetary liability fails even if a breach of the standard of care is shown.",
+          "authority": "Fla. Stat. §§ 607.0830, 607.0831"
+        },
+        {
+          "id": "fl-business-entities.corporations.duty-of-loyalty",
+          "title": "Duty of loyalty: conflicts and corporate opportunities",
+          "weight": 3,
+          "rule": "A transaction between the corporation and a director (or an entity in which the director has a material interest) is not void or voidable because of the director's interest if, with the material facts of the relationship and interest disclosed, it is approved by the disinterested (qualified) directors or by the shareholders, or if it is fair to the corporation. Separately, a director or officer may not take for personal benefit a business opportunity that belongs to the corporation, such as one in which it has an existing interest or expectancy or that is closely tied to its line of business, without first disclosing it and offering it to the corporation.",
+          "elements": [
+            "Identify the conflict: the director or a related person or entity is on the other side or has a material financial interest",
+            "Safe harbor 1: disclosure plus approval by the disinterested directors",
+            "Safe harbor 2: disclosure plus approval by the shareholders",
+            "Safe harbor 3: the transaction is fair to the corporation when approved"
+          ],
+          "exceptions": [
+            "Interested directors may be counted toward a quorum at the board meeting that approves the transaction.",
+            "A corporation that rejects an opportunity after full disclosure frees the director to take it."
+          ],
+          "tip": "Remedies for breach include rescission, damages and disgorgement or a constructive trust over the opportunity. Note that the § 607.0831 shield does not help a director who received an improper personal benefit.",
+          "trap": "Concluding that an interested-director contract is automatically void. Florida law validates it through disclosure and disinterested approval, or proof of fairness.",
+          "authority": "Fla. Stat. § 607.0832; Florida common law (corporate opportunity)"
+        }
+      ]
+    },
+    {
+      "id": "fl-business-entities.shareholder-remedies-and-fundamental-changes",
+      "title": "Shareholder remedies and fundamental corporate changes",
+      "weight": 2,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Added to the lecture taxonomy so that shareholder litigation and structural changes each have room; the lecture tag for these passages is fl-business-entities.corporations. Florida essays test the universal-demand rule for derivative suits, inspection rights, the vote needed for a merger or asset sale, appraisal, and the grounds for judicial dissolution with the buy-out alternative.",
+      "rules": [
+        {
+          "id": "fl-business-entities.shareholder-remedies-and-fundamental-changes.inspection",
+          "title": "Shareholder inspection of records",
+          "weight": 2,
+          "rule": "A shareholder may inspect and copy the corporation's basic governing records (such as the articles, bylaws, shareholder-meeting minutes, written communications to shareholders, and the list of current directors and officers) during regular business hours on written demand given at least five business days in advance. Other records, including board minutes, accounting records, and the record of shareholders, may be inspected only if the demand is made in good faith and for a proper purpose, describes the purpose and the records with reasonable particularity, and the records are directly connected with that purpose.",
+          "elements": [
+            "Written demand at least five business days before the inspection",
+            "For conditional records: good faith and a proper purpose (one reasonably related to the person's interest as a shareholder)",
+            "Purpose and records described with reasonable particularity",
+            "Records directly connected with the stated purpose"
+          ],
+          "tip": "If the corporation refuses, the shareholder may seek a court order compelling inspection; the court may award the shareholder's costs, including reasonable attorney fees, when the refusal lacked a reasonable basis.",
+          "trap": "Denying inspection because the shareholder is hostile to management or wants to solicit proxies. Investigating mismanagement and communicating with fellow shareholders are classic proper purposes.",
+          "authority": "Fla. Stat. §§ 607.1601, 607.1602, 607.1604"
+        },
+        {
+          "id": "fl-business-entities.shareholder-remedies-and-fundamental-changes.derivative-suits",
+          "title": "Derivative suits and universal demand",
+          "weight": 3,
+          "rule": "A shareholder may sue in the right of the corporation only if the shareholder was a shareholder when the challenged act or omission occurred (or became one by operation of law from such a holder) and fairly and adequately represents the corporation's interests. Florida requires a written demand on the corporation in every case: the suit may not be filed until 90 days after the demand unless the shareholder is earlier notified that the demand was rejected or irreparable injury to the corporation would result from waiting.",
+          "elements": [
+            "Contemporaneous ownership",
+            "Fair and adequate representation of the corporation",
+            "Written demand that the corporation take suitable action",
+            "Wait 90 days unless the demand is rejected sooner or waiting would cause irreparable injury"
+          ],
+          "exceptions": [
+            "The court must dismiss if a majority of independent directors (or a court-appointed panel or committee of independent persons) determines in good faith, after a reasonable inquiry, that maintaining the suit is not in the corporation's best interests.",
+            "A derivative suit may not be discontinued or settled without court approval.",
+            "Any recovery belongs to the corporation; the court may order the corporation to pay the plaintiff's reasonable expenses, including attorney fees, if the suit produced a substantial benefit to the corporation."
+          ],
+          "split": "Delaware and many MBE answers excuse demand when it would be futile. Florida follows the universal-demand approach: futility does not excuse the written demand and waiting period.",
+          "trap": "Arguing that demand is excused because the directors are the wrongdoers. In Florida the shareholder still must make the demand; director interest goes instead to whether the board's later rejection or dismissal decision deserves deference.",
+          "authority": "Fla. Stat. §§ 607.0741, 607.0742, 607.0744 (formerly § 607.07401)"
+        },
+        {
+          "id": "fl-business-entities.shareholder-remedies-and-fundamental-changes.mergers-and-asset-sales",
+          "title": "Mergers, share exchanges and sales of substantially all assets",
+          "weight": 2,
+          "rule": "A merger or share exchange requires the board to adopt a plan and recommend it (unless the board has a conflict or other special circumstance and says why) and the shareholders entitled to vote to approve it. A sale, lease, exchange, or other disposition of all or substantially all of the corporation's property outside the usual and regular course of business, leaving the corporation without a significant continuing business activity, likewise requires board approval and shareholder approval; dispositions in the ordinary course, and mortgages or pledges of assets, do not.",
+          "elements": [
+            "Board adopts the plan or approves the transaction",
+            "Notice of the shareholder meeting describing the transaction",
+            "Shareholder approval by each voting group entitled to vote",
+            "Filing of articles of merger or share exchange with the Department of State"
+          ],
+          "exceptions": [
+            "Short-form merger: a parent that owns at least 80 percent of the outstanding shares of each class of a subsidiary may merge the subsidiary into itself without a vote of either corporation's shareholders.",
+            "The surviving corporation's shareholders need not vote on a merger that does not materially change their shares or the articles and does not dilute their voting power beyond the statutory limit."
+          ],
+          "split": "Delaware's short-form threshold is 90 percent; Florida's is 80 percent.",
+          "trap": "Requiring a shareholder vote for a mortgage of all the corporation's assets. Encumbering property is not a 'sale' needing shareholder approval.",
+          "authority": "Fla. Stat. §§ 607.1101, 607.1103, 607.1104, 607.1201, 607.1202"
+        },
+        {
+          "id": "fl-business-entities.shareholder-remedies-and-fundamental-changes.appraisal",
+          "title": "Appraisal rights",
+          "weight": 2,
+          "rule": "A shareholder who dissents from certain fundamental transactions, including a merger on which the shareholder is entitled to vote (or a short-form merger of a subsidiary), a share exchange in which the shares are acquired, a disposition of substantially all assets requiring a shareholder vote, and certain amendments to the articles, may demand payment of the fair value of the shares. The shareholder must follow the statutory procedure strictly: deliver written notice of intent to demand payment before the vote, not vote in favor of the action, and then perfect the demand after the corporation sends its appraisal notice.",
+          "elements": [
+            "Triggering corporate action covered by the statute",
+            "Written notice of intent to demand payment before the vote",
+            "Shares not voted in favor of the action",
+            "Timely demand for payment and deposit of certificates after the corporation's appraisal notice"
+          ],
+          "exceptions": [
+            "Market-out: appraisal generally is not available for shares traded on a national securities exchange or in an organized market with a large, liquid public float, unless shareholders are forced to accept something other than cash or similarly marketable shares, or the transaction is an interested transaction.",
+            "Appraisal is generally the exclusive remedy for a dissenting shareholder, but not for a transaction that was not authorized as required, was procured by fraud or material misrepresentation, or was an interested transaction not approved as the statute requires."
+          ],
+          "trap": "Letting a shareholder who voted yes, or who never gave pre-vote notice of intent, demand appraisal. Missing a procedural step forfeits the right.",
+          "authority": "Fla. Stat. §§ 607.1301, 607.1302, 607.1321, 607.1340"
+        },
+        {
+          "id": "fl-business-entities.shareholder-remedies-and-fundamental-changes.dissolution",
+          "title": "Voluntary, administrative and judicial dissolution",
+          "weight": 2,
+          "rule": "A corporation may dissolve voluntarily by board proposal and shareholder approval followed by filing articles of dissolution; the Department of State may administratively dissolve a corporation that, among other grounds, fails to file its annual report or keep a registered agent, and reinstatement relates back as if the dissolution never occurred. A shareholder may petition for judicial dissolution on statutory grounds that include a director deadlock the shareholders cannot break that threatens irreparable injury or prevents conducting the business to the shareholders' advantage, a shareholder deadlock that has prevented the election of directors for two consecutive annual meeting dates, and misappropriation or waste of corporate assets.",
+          "elements": [
+            "A dissolved corporation continues its existence only to wind up: collect assets, dispose of property, pay or provide for liabilities, and distribute the remainder",
+            "Known claims may be barred through the statutory written-notice procedure; unknown claims through publication"
+          ],
+          "exceptions": [
+            "Election to purchase: in a shareholder's judicial-dissolution proceeding, the corporation or the other shareholders may elect to buy the petitioner's shares at fair value, and the court sets fair value if the parties cannot agree.",
+            "Instead of dissolving, the court may appoint a receiver or custodian, or order other appropriate relief."
+          ],
+          "tip": "On a close-corporation deadlock essay, discuss the judicial-dissolution ground and then the § 607.1436 buy-out, which is the most likely practical outcome.",
+          "trap": "Treating administrative dissolution as ending the corporation's existence. It continues to exist to wind up and can be reinstated with retroactive effect.",
+          "authority": "Fla. Stat. §§ 607.1402, 607.1405, 607.1420, 607.1422, 607.1430, 607.1436"
+        }
+      ]
+    },
+    {
+      "id": "fl-business-entities.llcs",
+      "title": "Limited liability companies (chapter 605)",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "The Florida Revised Limited Liability Company Act, chapter 605, is based on the Revised Uniform LLC Act but keeps several Florida departures, most importantly the statutory agency power of members in a member-managed LLC and the single-member LLC exception to the charging-order rule. Expect an essay asking whether a member or manager bound the company, whether a member is personally liable, what fiduciary duties apply, and what a member's creditor can reach.",
+      "rules": [
+        {
+          "id": "fl-business-entities.llcs.formation-and-shield",
+          "title": "Formation, the operating agreement and the liability shield",
+          "weight": 3,
+          "rule": "An LLC is formed when articles of organization are filed with the Department of State; the name must include 'limited liability company,' 'LLC,' or 'L.L.C.' The operating agreement, which may be oral, implied, written, or a combination, governs relations among members and managers except for the nonwaivable statutory protections. The LLC's debts, obligations and liabilities are solely its own; a member or manager is not personally liable for them solely by reason of being or acting as a member or manager, and failure to observe formalities is not a ground for imposing personal liability.",
+          "exceptions": [
+            "A member or manager remains liable for his or her own torts and for obligations personally guaranteed.",
+            "Florida courts may pierce an LLC's veil under the same improper-conduct test used for corporations."
+          ],
+          "trap": "Imposing liability on an LLC member because the company held no meetings or kept no minutes. Chapter 605 expressly rejects informality as a basis for personal liability.",
+          "authority": "Fla. Stat. §§ 605.0102, 605.0105, 605.0112, 605.0201, 605.0304"
+        },
+        {
+          "id": "fl-business-entities.llcs.management",
+          "title": "Member-managed and manager-managed LLCs",
+          "weight": 3,
+          "rule": "An LLC is member-managed unless its articles or operating agreement expressly provide that it is manager-managed. In a member-managed LLC, management is vested in the members, ordinary-course matters are decided by a majority-in-interest of the members, and the consent of all members is required for acts outside the ordinary course and to amend the operating agreement. In a manager-managed LLC, the managers decide ordinary-course matters (by majority if there are several), and members do not take part in management except as the statute or operating agreement requires.",
+          "elements": [
+            "Default form: member-managed",
+            "Majority-in-interest: members holding more than 50 percent of the then-current interests in the LLC's profits",
+            "Unanimous member consent for extraordinary acts and amendments to the operating agreement",
+            "Admission of a new member after formation requires the consent of all members unless the operating agreement provides otherwise"
+          ],
+          "split": "The uniform act (RULLCA § 407) decides member-managed ordinary-course disputes by a per-capita majority of members. Florida weights member votes by interest in profits.",
+          "trap": "Counting heads. A Florida member holding 60 percent of the profit interests can carry an ordinary-course decision against two members holding 40 percent.",
+          "authority": "Fla. Stat. §§ 605.0102, 605.0401, 605.0407, 605.04073"
+        },
+        {
+          "id": "fl-business-entities.llcs.agency",
+          "title": "Who can bind the LLC",
+          "weight": 3,
+          "rule": "In a member-managed LLC, each member is an agent of the company, and a member's act for apparently carrying on in the ordinary course the company's business, or business of the kind it carries on, binds the company unless the member lacked authority and the third party knew or had notice of that. In a manager-managed LLC, a member is not an agent of the company solely by reason of being a member, but each manager has that same apparent-authority power. An act not apparently in the ordinary course binds the company only if actually authorized.",
+          "elements": [
+            "Identify the management structure",
+            "Was the act apparently in the ordinary course of the company's business or business of its kind?",
+            "Did the third party know or have notice of a lack of authority?",
+            "Has the LLC filed a statement of authority that grants or limits authority?"
+          ],
+          "split": "RULLCA § 301 abolished statutory apparent authority: a member is not an agent merely because he or she is a member, and ordinary agency law decides. Florida departs from the uniform act and keeps partnership-style statutory agency for members of member-managed LLCs and for managers of manager-managed LLCs.",
+          "trap": "Applying the RULLCA rule on a Florida question and concluding that a member of a member-managed LLC cannot bind it without actual authority.",
+          "authority": "Fla. Stat. §§ 605.0302, 605.04074"
+        },
+        {
+          "id": "fl-business-entities.llcs.fiduciary-duties",
+          "title": "Fiduciary duties of members and managers",
+          "weight": 3,
+          "rule": "In a member-managed LLC the members, and in a manager-managed LLC the managers, owe the company and its members a duty of loyalty and a duty of care, and must discharge their duties consistently with the contractual obligation of good faith and fair dealing. The duty of loyalty requires accounting for property, profits or benefits derived from the company's business or use of its property (including appropriating a company opportunity), refraining from dealing with the company as or for an adverse party, and refraining from competing with the company before dissolution; the duty of care requires refraining from grossly negligent or reckless conduct, willful or intentional misconduct, and knowing violations of law.",
+          "exceptions": [
+            "A member of a manager-managed LLC generally owes no fiduciary duties solely by reason of being a member.",
+            "A member does not violate a duty merely because the member's conduct furthers the member's own interest.",
+            "The operating agreement may narrow or restrict the duties within statutory limits (for example, by identifying specific activities that do not breach loyalty if not manifestly unreasonable), but it may not eliminate the duty of loyalty or the obligation of good faith and fair dealing, or relieve a person from liability for bad faith, willful or intentional misconduct, or a knowing violation of law."
+          ],
+          "tip": "The care standard is gross negligence, not ordinary negligence, so a merely careless manager is not liable.",
+          "authority": "Fla. Stat. §§ 605.0105, 605.04091, 605.04092"
+        },
+        {
+          "id": "fl-business-entities.llcs.distributions",
+          "title": "Distributions and their limits",
+          "weight": 1,
+          "rule": "A member has no right to an interim distribution unless the company decides to make one; when made before dissolution, distributions are shared among members on the basis of the agreed value of their contributions as reflected in the company's records unless the operating agreement provides otherwise. An LLC may not make a distribution if afterward it could not pay its debts as they become due in the ordinary course or its total assets would be less than its total liabilities plus amounts needed for preferential rights, and a member or manager who consents to an unlawful distribution in breach of duty is personally liable to the company for the excess.",
+          "split": "RULLCA's default is distribution in equal shares among members; Florida's default looks to contributions.",
+          "authority": "Fla. Stat. §§ 605.0404, 605.0405, 605.0406"
+        },
+        {
+          "id": "fl-business-entities.llcs.charging-orders",
+          "title": "Transferable interests and charging orders",
+          "weight": 3,
+          "rule": "A member's transferable interest (the right to receive distributions) is personal property and may be transferred, but the transferee gets only distribution rights and no right to participate in management or access records except as the statute provides. A charging order is the sole and exclusive remedy of a judgment creditor of a member to satisfy the judgment from the member's interest; it is a lien that requires the LLC to pay the creditor any distributions that would otherwise go to the member.",
+          "exceptions": [
+            "Single-member LLC: if the judgment creditor shows that distributions under a charging order will not satisfy the judgment within a reasonable time, the court may order a foreclosure sale of the debtor's entire interest, and the purchaser becomes the sole member.",
+            "The exclusivity rule does not limit the creditor's rights against collateral the member pledged or the creditor's remedies under other law, such as fraudulent-transfer claims."
+          ],
+          "split": "After Olmstead v. FTC (Fla. 2010) held that a creditor could reach a single-member LLC interest by levy, the Legislature made the charging order exclusive for multi-member LLCs while preserving foreclosure for single-member LLCs when a charging order will not pay the judgment in a reasonable time.",
+          "trap": "Letting a creditor of one member of a multi-member Florida LLC foreclose on or seize the member's interest, or reach company assets. The creditor gets a charging order only.",
+          "authority": "Fla. Stat. §§ 605.0501, 605.0502, 605.0503; Olmstead v. FTC, 44 So. 3d 76 (Fla. 2010)"
+        },
+        {
+          "id": "fl-business-entities.llcs.dissociation",
+          "title": "Dissociation of a member",
+          "weight": 2,
+          "rule": "A member has the power to dissociate at any time, rightfully or wrongfully, by express will. Dissociation is wrongful if it breaches an express provision of the operating agreement or occurs in specified circumstances before the company's activities are completed, and a wrongfully dissociating member is liable to the LLC and the other members for damages caused. On dissociation the member's management rights and fiduciary duties as a member end (except as to matters arising before dissociation), the member holds any transferable interest only as a transferee, and the LLC does not dissolve and is not required to buy out the interest.",
+          "split": "Unlike a general partnership, where a dissociated partner without dissolution generally receives a mandatory buyout, a dissociated LLC member in Florida has no statutory right to be paid the value of the interest; the member simply keeps the distribution rights as a transferee.",
+          "trap": "Awarding a dissociated LLC member a buyout of fair value. That is a partnership remedy, not an LLC default.",
+          "authority": "Fla. Stat. §§ 605.0601, 605.0602, 605.0603"
+        },
+        {
+          "id": "fl-business-entities.llcs.dissolution",
+          "title": "Dissolution and winding up",
+          "weight": 2,
+          "rule": "An LLC dissolves on an event or the members' consent as provided in the operating agreement or statute, on the passage of 90 consecutive days with no members (unless a new member is admitted), on entry of a judicial dissolution decree, or on administrative dissolution by the Department of State. A court may order dissolution in a member's proceeding on grounds that include that the LLC's conduct of its activities is unlawful, that it is not reasonably practicable to carry on the company's activities in conformity with its articles and operating agreement, that the managers or members in control have acted or are acting illegally or fraudulently, or that the members or managers are deadlocked in a way that threatens irreparable injury.",
+          "elements": [
+            "After dissolution the LLC continues only to wind up",
+            "Assets are applied first to creditors, including members who are creditors, then to members"
+          ],
+          "exceptions": [
+            "In a member's judicial-dissolution proceeding, the company or other members may elect to purchase the petitioner's entire interest at fair value instead of dissolution."
+          ],
+          "authority": "Fla. Stat. §§ 605.0701, 605.0702, 605.0706, 605.0714"
+        }
+      ]
+    },
+    {
+      "id": "fl-business-entities.partnerships",
+      "title": "General, limited liability and limited partnerships (chapter 620)",
+      "weight": 2,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida general partnerships and LLPs are governed by the Revised Uniform Partnership Act as enacted in chapter 620, part II (§§ 620.81001 and following), and limited partnerships by the Florida Revised Uniform Limited Partnership Act in chapter 620, part I. The exam favors inadvertent partnerships, a partner binding the firm, personal liability and its LLP limit, fiduciary duties, and what happens when a partner leaves.",
+      "rules": [
+        {
+          "id": "fl-business-entities.partnerships.formation",
+          "title": "Formation of a general partnership",
+          "weight": 3,
+          "rule": "The association of two or more persons to carry on as co-owners a business for profit forms a partnership, whether or not the persons intend to form one; no filing is required. A person who receives a share of the profits of a business is presumed to be a partner unless the profits were received as payment of a debt, wages or other compensation, rent, an annuity or retirement benefit, interest or other charge on a loan, or consideration for the sale of goodwill or other property.",
+          "elements": [
+            "Two or more persons",
+            "Carrying on a business as co-owners (sharing control and profits)",
+            "For profit",
+            "Subjective intent to be partners is not required"
+          ],
+          "exceptions": [
+            "Co-ownership of property, or sharing gross returns, does not by itself establish a partnership.",
+            "Partner by estoppel: a person who represents himself, or consents to being represented, as a partner is liable to third parties who extend credit in reliance on the representation."
+          ],
+          "trap": "Rejecting a partnership because the parties called their arrangement something else or never signed a partnership agreement. Conduct controls.",
+          "authority": "Fla. Stat. §§ 620.8202, 620.8308"
+        },
+        {
+          "id": "fl-business-entities.partnerships.authority",
+          "title": "A partner's power to bind the partnership",
+          "weight": 3,
+          "rule": "Each partner is an agent of the partnership for the purpose of its business. An act of a partner for apparently carrying on in the ordinary course the partnership's business, or business of the kind it carries on, binds the partnership unless the partner had no authority to act in the particular matter and the third party knew or had received notice of that lack of authority; an act not apparently in the ordinary course binds the partnership only if authorized by the other partners.",
+          "elements": [
+            "Was the act apparently in the ordinary course of the firm's business or business of its kind?",
+            "If so, the firm is bound unless the third party knew or had notice of the lack of authority",
+            "If not, the firm is bound only with actual authority from the other partners"
+          ],
+          "exceptions": [
+            "A filed statement of partnership authority can grant authority (conclusive in favor of good-faith purchasers for value) or limit authority to transfer real property once a certified copy is recorded in the county records."
+          ],
+          "trap": "Holding the firm not bound because the partners privately voted to restrict the partner's authority. A secret limitation does not bind a third party who lacked knowledge or notice of it.",
+          "authority": "Fla. Stat. §§ 620.8301, 620.8303"
+        },
+        {
+          "id": "fl-business-entities.partnerships.liability-and-llp",
+          "title": "Partners' personal liability and the LLP shield",
+          "weight": 3,
+          "rule": "All partners are liable jointly and severally for all obligations of the partnership unless otherwise agreed by the claimant or provided by law. A judgment creditor generally must first obtain a judgment against the partner and exhaust partnership assets before levying on a partner's personal assets; and a person admitted as a partner is not personally liable for partnership obligations incurred before admission. A partner in a limited liability partnership is not personally liable, directly or indirectly, by way of contribution or otherwise, for partnership obligations incurred while the partnership is an LLP, solely by reason of being or acting as a partner.",
+          "exceptions": [
+            "Exhaustion is excused if the partnership is a debtor in bankruptcy, the partner agreed that the creditor need not exhaust, the court grants permission, or the liability is imposed on the partner independently of the partnership.",
+            "An LLP partner remains liable for his or her own negligence or wrongful conduct.",
+            "A partnership becomes an LLP by approving and filing a statement of qualification with the Department of State."
+          ],
+          "split": "Florida's LLP statute is a 'full shield' that protects against contract and tort obligations of the firm, not just against co-partners' malpractice as some early LLP statutes did.",
+          "trap": "Letting the creditor sue a partner first and collect from personal assets without exhausting the partnership's assets, when no exception applies.",
+          "authority": "Fla. Stat. §§ 620.8306, 620.8307, 620.9001"
+        },
+        {
+          "id": "fl-business-entities.partnerships.rights-and-property",
+          "title": "Partners' default rights and partnership property",
+          "weight": 2,
+          "rule": "Unless the partnership agreement provides otherwise, each partner is entitled to an equal share of profits and is chargeable with losses in proportion to the partner's share of profits; each partner has equal rights in management; ordinary-course differences are decided by a majority of the partners, while acts outside the ordinary course and amendments to the partnership agreement require the consent of all partners; and no partner is entitled to compensation for services except reasonable compensation for winding up. Property acquired by the partnership belongs to the partnership as an entity, not to the partners individually, and a partner's only transferable interest is the right to receive distributions.",
+          "elements": [
+            "Losses follow profits: if profits are split 60/40, so are losses",
+            "Admission of a new partner requires the consent of all partners",
+            "Property is presumed partnership property if acquired with partnership funds",
+            "A transferee of a partner's interest gets distributions only, not management rights",
+            "A charging order is the exclusive remedy of a partner's judgment creditor against the partner's transferable interest"
+          ],
+          "trap": "Splitting losses by capital contributions when the agreement addresses only profits. The default rule allocates losses the same way as profits.",
+          "authority": "Fla. Stat. §§ 620.8401, 620.8501, 620.8502, 620.8503, 620.8504"
+        },
+        {
+          "id": "fl-business-entities.partnerships.fiduciary-duties",
+          "title": "Partners' fiduciary duties",
+          "weight": 3,
+          "rule": "The only fiduciary duties a partner owes to the partnership and the other partners are the duty of loyalty and the duty of care, and the partner must discharge them consistently with the obligation of good faith and fair dealing. Loyalty requires the partner to account for and hold as trustee any property, profit or benefit derived from partnership business or use of partnership property (including appropriation of a partnership opportunity), to refrain from dealing with the partnership as or for an adverse party, and to refrain from competing with the partnership before dissolution; care requires refraining from grossly negligent or reckless conduct, intentional misconduct, or a knowing violation of law.",
+          "exceptions": [
+            "A partner does not breach a duty merely because the partner's conduct furthers his or her own interest.",
+            "The partnership agreement may identify specific types of activity that do not violate the duty of loyalty, if not manifestly unreasonable, and all partners may authorize or ratify a specific act after full disclosure; the agreement may not eliminate the duty of loyalty, unreasonably reduce the duty of care, or eliminate the obligation of good faith and fair dealing."
+          ],
+          "tip": "Classic fact pattern: a partner quietly takes a business opportunity that came to her because of her partnership role. Analyze it as appropriation of a partnership opportunity and remedy it with an accounting or a constructive trust.",
+          "authority": "Fla. Stat. §§ 620.8103, 620.8404"
+        },
+        {
+          "id": "fl-business-entities.partnerships.dissociation",
+          "title": "Dissociation and buyout",
+          "weight": 2,
+          "rule": "A partner has the power to dissociate at any time, rightfully or wrongfully, by express will. Dissociation is wrongful if it breaches an express provision of the partnership agreement or, in a partnership for a definite term or particular undertaking, occurs before the term expires or the undertaking is completed by the partner's withdrawal, expulsion by court order, or bankruptcy; a wrongfully dissociating partner is liable for damages caused. If dissociation does not cause dissolution and winding up, the partnership must buy out the dissociated partner's interest at the amount that would have been distributable had the assets been sold at the greater of liquidation value or going-concern value without the dissociated partner, less damages for wrongful dissociation.",
+          "exceptions": [
+            "A partner who wrongfully dissociates before the end of a term is not entitled to payment until the term expires or the undertaking is completed, unless the partner shows the court that earlier payment will not cause undue hardship to the business.",
+            "A dissociated partner can still bind the partnership, and remains liable for new obligations, for up to two years to a third party who reasonably believed the person was still a partner and lacked notice; filing a statement of dissociation gives constructive notice after 90 days."
+          ],
+          "authority": "Fla. Stat. §§ 620.8601, 620.8602, 620.8701, 620.8702, 620.8703, 620.8704"
+        },
+        {
+          "id": "fl-business-entities.partnerships.dissolution",
+          "title": "Dissolution, winding up and settlement of accounts",
+          "weight": 2,
+          "rule": "A partnership at will is dissolved when the partnership has notice of a partner's express will to withdraw; a term partnership dissolves on expiration of the term or completion of the undertaking, on the express will of at least half of the remaining partners within 90 days after a partner's wrongful dissociation or death, or on the express will of all partners. A court may decree dissolution on a partner's application on grounds such as that it is not reasonably practicable to carry on the business in conformity with the partnership agreement. In winding up, partnership assets are applied first to creditors, including partners who are creditors, and then to settle partners' accounts; a partner with a negative account balance must contribute that amount.",
+          "elements": [
+            "Each partner's account = contributions + share of profits - distributions - share of losses",
+            "The partnership continues after dissolution only for winding up, though all partners may agree to waive dissolution and continue",
+            "Partners can still bind the firm for acts appropriate to winding up"
+          ],
+          "authority": "Fla. Stat. §§ 620.8801, 620.8802, 620.8803, 620.8804, 620.8807"
+        },
+        {
+          "id": "fl-business-entities.partnerships.limited-partnerships",
+          "title": "Limited partnerships and LLLPs",
+          "weight": 2,
+          "rule": "A limited partnership is formed by filing a certificate of limited partnership with the Department of State and must have at least one general partner and one limited partner. General partners manage the business and are personally liable for its obligations unless the limited partnership has elected to be a limited liability limited partnership (LLLP); a limited partner is not personally liable for the partnership's obligations solely by reason of being a limited partner, even if the limited partner participates in management and control.",
+          "split": "Older law (the 1976/1985 uniform acts) made a limited partner who participated in control liable to persons who reasonably believed the limited partner was a general partner. Florida's current act, based on the 2001 uniform act, eliminates the control rule.",
+          "trap": "Holding a limited partner personally liable because she helped run the business. Under chapter 620, part I, participation in management does not cost the shield.",
+          "authority": "Fla. Stat. §§ 620.1201, 620.1303, 620.1404"
+        }
+      ]
+    },
+    {
+      "id": "fl-business-entities.agency",
+      "title": "Agency",
+      "weight": 2,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida agency law is mostly common law drawn from the Restatements, but Florida courts state the elements of agency and apparent authority in their own terms, and Florida adds the dangerous instrumentality doctrine and a strict statutory regime for powers of attorney in chapter 709. Agency usually appears inside a business-entities essay: did the agent bind the principal in contract, and is the principal vicariously liable in tort?",
+      "rules": [
+        {
+          "id": "fl-business-entities.agency.creation",
+          "title": "Creating an agency relationship",
+          "weight": 2,
+          "rule": "An actual agency relationship requires (1) acknowledgment by the principal that the agent will act for it, (2) the agent's acceptance of the undertaking, and (3) the principal's control over the agent's actions. No writing or compensation is required, and the parties' label is not controlling; the right to control the manner of the work is the key factor in distinguishing an employee from an independent contractor.",
+          "elements": [
+            "Principal's acknowledgment (consent) that the agent will act on its behalf",
+            "Agent's acceptance",
+            "Principal's right of control"
+          ],
+          "tip": "A power of attorney is the formal written version of the same relationship and is governed in Florida by chapter 709 (see the powers-of-attorney rule).",
+          "authority": "Goldschmidt v. Holman, 571 So. 2d 422 (Fla. 1990); Restatement (Third) of Agency § 1.01"
+        },
+        {
+          "id": "fl-business-entities.agency.actual-authority",
+          "title": "Actual authority: express and implied",
+          "weight": 2,
+          "rule": "An agent has actual authority to take action the principal has expressly authorized and also implied authority to do what is reasonably necessary, usual, or incidental to accomplish the express grant, based on the agent's reasonable understanding of the principal's manifestations. A principal is bound by contracts its agent makes within actual authority, whether or not the third party knew of the agency.",
+          "elements": [
+            "Express authority: the principal's words or written grant",
+            "Implied authority: acts incidental to the express authority, customary in the business, or arising from past acquiescence"
+          ],
+          "trap": "Finding implied authority to do something the principal expressly prohibited. An express restriction defeats implied actual authority, although apparent authority may still bind the principal to an unknowing third party.",
+          "authority": "Restatement (Third) of Agency §§ 2.01, 2.02, 3.01"
+        },
+        {
+          "id": "fl-business-entities.agency.apparent-authority",
+          "title": "Apparent authority in Florida",
+          "weight": 3,
+          "rule": "Apparent authority exists only when the principal, not the agent alone, creates the appearance that the agent is authorized. In Florida its essential elements are (1) a representation by the purported principal, (2) reliance on that representation by a third party, and (3) a change in position by the third party in reliance on the representation.",
+          "elements": [
+            "Representation (words or conduct) traceable to the principal",
+            "Third party's reasonable reliance on it",
+            "Detrimental change of position in reliance"
+          ],
+          "split": "The Restatement (Third) § 2.03 asks only whether the third party reasonably believed the actor had authority and the belief is traceable to the principal's manifestation. Florida courts, applying Mobil Oil v. Bransford, also require the third party's change of position in reliance, so be sure to identify the detriment.",
+          "trap": "Basing apparent authority on the agent's own statements ('I am authorized to sign for the company'). The appearance must come from the principal.",
+          "authority": "Mobil Oil Corp. v. Bransford, 648 So. 2d 119 (Fla. 1995)"
+        },
+        {
+          "id": "fl-business-entities.agency.contract-liability",
+          "title": "Ratification and contract liability of principal and agent",
+          "weight": 2,
+          "rule": "A principal who, with knowledge of the material facts, affirms an unauthorized act (expressly or by conduct such as accepting its benefits) ratifies it, and the act is treated as authorized from the start; ratification must embrace the whole transaction and must occur before the third party withdraws. An agent who contracts for a disclosed principal with authority is not a party to the contract, but an agent for an undisclosed or unidentified (partially disclosed) principal is personally liable on it, and an agent who acts without authority is liable to the third party for breach of the implied warranty of authority.",
+          "elements": [
+            "Ratification: knowledge of material facts, affirmance, entire transaction, capacity to authorize at the time of ratification and at the time of the act",
+            "Disclosed principal: only the principal is bound",
+            "Unidentified or undisclosed principal: principal and agent are both liable"
+          ],
+          "trap": "Letting a principal keep the benefits of an unauthorized deal while disavowing its burdens. Accepting benefits with knowledge ratifies the whole transaction.",
+          "authority": "Restatement (Third) of Agency §§ 4.01-4.07, 6.01-6.03, 6.10"
+        },
+        {
+          "id": "fl-business-entities.agency.respondeat-superior",
+          "title": "Respondeat superior and independent contractors",
+          "weight": 3,
+          "rule": "An employer is vicariously liable for an employee's torts committed within the scope of employment, meaning conduct of the kind the employee was hired to perform, occurring substantially within the authorized time and space limits, and activated at least in part by a purpose to serve the employer. A minor deviation (a detour) stays within the scope, but a substantial departure for the employee's own purposes (a frolic) does not; intentional torts are within the scope only if they are motivated at least in part to serve the employer or are a foreseeable part of the job.",
+          "elements": [
+            "Employer-employee relationship (right to control the manner of the work)",
+            "Tort within the scope of employment",
+            "Detour versus frolic: degree of departure in time, place and purpose"
+          ],
+          "exceptions": [
+            "A hirer is generally not liable for an independent contractor's torts, except for nondelegable duties, inherently dangerous activities, and the hirer's own negligence in selecting, instructing or supervising the contractor.",
+            "An employer may be directly liable for negligent hiring, retention or supervision, even for acts outside the scope of employment."
+          ],
+          "tip": "Florida provides a statutory presumption against negligent hiring when an employer conducted a specified pre-hire background investigation that revealed nothing disqualifying (§ 768.096); mention it if the facts describe a background check.",
+          "authority": "Restatement (Second) of Agency § 228 (applied by Florida courts); Fla. Stat. § 768.096"
+        },
+        {
+          "id": "fl-business-entities.agency.dangerous-instrumentality",
+          "title": "Florida's dangerous instrumentality doctrine",
+          "weight": 2,
+          "rule": "Under Florida's judicially created dangerous instrumentality doctrine, the owner of a motor vehicle who voluntarily entrusts it to another is vicariously liable, without regard to the owner's own fault, for injuries caused by the negligent operation of the vehicle by the person entrusted. Liability rests on ownership and consent to use, not on any employment or agency relationship.",
+          "exceptions": [
+            "No liability if the vehicle was stolen or converted, because the owner did not consent to its use.",
+            "Shop rule: an owner who delivers the vehicle to an independent repair or service business is generally not liable for the negligence of the business's employees while it has the vehicle.",
+            "Statutory damage caps apply to natural-person owners who lend a vehicle to a permissive user and to certain lessors (§ 324.021(9)(b)3.), and the federal Graves Amendment (49 U.S.C. § 30106) bars vicarious liability of rental and leasing companies that are not themselves negligent."
+          ],
+          "split": "Most states impose vicarious owner liability only by owner-liability statute or through agency (e.g., the family-purpose doctrine). Florida's doctrine is broader and applies to any consensual entrustment.",
+          "trap": "Rejecting the owner's liability because the driver was not the owner's employee or agent. In Florida, consensual entrustment is enough.",
+          "authority": "Southern Cotton Oil Co. v. Anderson, 86 So. 629 (Fla. 1920); Castillo v. Bickley, 363 So. 2d 792 (Fla. 1978); Fla. Stat. § 324.021(9)(b)3."
+        },
+        {
+          "id": "fl-business-entities.agency.duties-termination-and-poa",
+          "title": "Agent's duties, termination and Florida powers of attorney",
+          "weight": 2,
+          "rule": "An agent owes the principal fiduciary duties of loyalty, obedience, and reasonable care, and the principal owes the agent compensation as agreed, reimbursement, and indemnity for authorized acts. Actual authority ends by the agreement's terms, by either party's revocation or renunciation, or by the principal's death; under Florida's power-of-attorney statute, a power of attorney must be signed by the principal, by two subscribing witnesses, and acknowledged before a notary, and one executed on or after October 1, 2011 is effective when executed, so a 'springing' power that takes effect only on later incapacity is not valid.",
+          "elements": [
+            "Execution: principal's signature, two subscribing witnesses, notarial acknowledgment",
+            "Durability: the instrument must state that it is not terminated by the principal's subsequent incapacity",
+            "Specified 'superpowers' (such as creating or amending a trust or making gifts) are effective only if the principal signs or initials next to each one",
+            "Termination: the principal's death or revocation, among other events; a person who acts in good faith without actual knowledge of termination is protected"
+          ],
+          "split": "The Uniform Power of Attorney Act allows springing powers and makes powers durable by default. Florida's chapter 709 bars new springing powers and requires express durability language and formal execution.",
+          "authority": "Fla. Stat. §§ 709.2104, 709.2105, 709.2108, 709.2110, 709.2114, 709.2202"
+        }
+      ]
+    }
+  ]
+}

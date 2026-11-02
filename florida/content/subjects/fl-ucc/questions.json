@@ -1,0 +1,373 @@
+{
+  "subject": "fl-ucc",
+  "questions": [
+    {
+      "id": "fl-ucc.q001",
+      "topic": "fl-ucc.negotiable-instruments",
+      "rules": [
+        "fl-ucc.negotiable-instruments.unconditional-and-definite-time",
+        "fl-ucc.holder-in-due-course.personal-defenses-and-claims"
+      ],
+      "difficulty": 2,
+      "stem": "Marlin Print Shop bought a press from Gulf Equipment Co. and signed a writing that read: 'Ninety days after date, Marlin Print Shop promises to pay to the order of Gulf Equipment Co. $40,000, with interest at 7 percent. This note is subject to the terms of the Equipment Purchase Agreement of this date.' Gulf sold the writing to Sunbelt Bank, which paid $38,000, took it with Gulf's indorsement, and had no knowledge of any problem. The press never worked, breaching Gulf's warranty. Sunbelt sues Marlin for $40,000.",
+      "call": "May Marlin assert the breach of warranty against Sunbelt?",
+      "choices": [
+        "No, because Sunbelt is a holder in due course and breach of warranty is a personal defense.",
+        "No, because Sunbelt paid value and took without notice of the defense.",
+        "Yes, because the promise is conditional, so the writing is not a negotiable instrument and Sunbelt cannot be a holder in due course.",
+        "Yes, because Sunbelt bought the note at a discount."
+      ],
+      "answer": 2,
+      "explanation": "A promise is conditional, and so not negotiable, if it states that it is subject to or governed by another writing (Fla. Stat. § 673.1061). 'Subject to the terms of the Equipment Purchase Agreement' does exactly that. Because the writing is not a negotiable instrument, Article 3's holder-in-due-course protection is unavailable; Sunbelt is an assignee of a contract right and takes subject to Marlin's defenses, including breach of warranty.",
+      "whyNot": [
+        "Holder-in-due-course status requires a negotiable instrument; this writing is not one.",
+        "Value and lack of notice matter only if the writing is negotiable; an assignee of a nonnegotiable promise takes subject to the obligor's defenses.",
+        "",
+        "A discount alone does not defeat good faith or give notice; the reason Marlin may assert the defense is the conditional 'subject to' language."
+      ]
+    },
+    {
+      "id": "fl-ucc.q002",
+      "topic": "fl-ucc.negotiable-instruments",
+      "rules": [
+        "fl-ucc.negotiable-instruments.requirements",
+        "fl-ucc.negotiable-instruments.types-and-parties"
+      ],
+      "difficulty": 1,
+      "stem": "Rhea wrote a check drawn on her account at Osprey Bank that read: 'Pay Lia Gomez Five Hundred Dollars ($500.00)', signed 'Rhea Barton.' The check contained no other words and did not say 'to the order of.' Lia indorsed the check in blank and delivered it to Paolo for value. Rhea then stopped payment, claiming Lia never did the work for which the check was issued. Paolo, who knew nothing of the dispute, sues Rhea on the check.",
+      "call": "Is the check a negotiable instrument?",
+      "choices": [
+        "Yes, because a check that otherwise meets the requirements of a negotiable instrument is negotiable even though it is not payable to order or to bearer.",
+        "No, because every negotiable instrument must be payable to order or to bearer.",
+        "No, because Rhea stopped payment before Paolo presented it.",
+        "Yes, but only because Lia indorsed it in blank, converting it into bearer paper."
+      ],
+      "answer": 0,
+      "explanation": "Under § 673.1041(3), a promise or order that meets all requirements of § 673.1041(1) except the order-or-bearer requirement, and otherwise falls within the definition of a check, is a negotiable instrument and a check. Rhea's check is unconditional, for a fixed amount of money, payable on demand and contains no other undertaking. Paolo may qualify as a holder in due course and take free of Rhea's personal defense of nonperformance.",
+      "whyNot": [
+        "",
+        "That is the rule for notes and other drafts, but Article 3 excuses checks from the words-of-negotiability requirement.",
+        "A stop-payment order affects the drawee's duty to pay, not whether the instrument is negotiable; Rhea remains liable as drawer on dishonor.",
+        "Negotiability is fixed by the instrument's terms at issue; the blank indorsement affects how it may be negotiated, not whether it is negotiable."
+      ]
+    },
+    {
+      "id": "fl-ucc.q003",
+      "topic": "fl-ucc.negotiable-instruments",
+      "rules": [
+        "fl-ucc.negotiable-instruments.negotiation-and-indorsement",
+        "fl-ucc.negotiable-instruments.person-entitled-to-enforce"
+      ],
+      "difficulty": 2,
+      "stem": "Coral Supply holds a $10,000 negotiable note made by Fenwick payable to the order of Coral Supply. Coral indorsed it 'Pay to Kenji Mori, [signed] Coral Supply' and mailed it to Kenji. A thief stole the envelope from Kenji's mailbox, signed 'Kenji Mori' on the back, and sold the note to Dana for $9,500. Dana acted in good faith and had no reason to suspect the forgery. At maturity Dana demanded payment from Fenwick, who refused.",
+      "call": "Is Dana entitled to enforce the note against Fenwick?",
+      "choices": [
+        "Yes, because Dana is a holder in due course who took for value, in good faith and without notice.",
+        "No, because the note was payable to Kenji after the special indorsement, Kenji's indorsement was forged, and so Dana is not a holder.",
+        "Yes, because the thief's possession made the note bearer paper.",
+        "No, because a note may not be negotiated more than once."
+      ],
+      "answer": 1,
+      "explanation": "Coral's special indorsement made the note payable to Kenji, so further negotiation required Kenji's indorsement. A forged indorsement is ineffective as Kenji's signature, so no negotiation to Dana occurred, and Dana is not a holder or a person entitled to enforce. Without holder status she cannot be a holder in due course. Kenji remains the person entitled to enforce, and Dana's remedy is against the thief or anyone who gave her transfer warranties.",
+      "whyNot": [
+        "Holder-in-due-course status starts with being a holder; a forged necessary indorsement breaks the chain, however innocent the purchaser.",
+        "",
+        "Possession by a thief does not convert specially indorsed order paper into bearer paper; only a blank indorsement does that.",
+        "Instruments may be negotiated any number of times; the problem is the forged indorsement."
+      ]
+    },
+    {
+      "id": "fl-ucc.q004",
+      "topic": "fl-ucc.holder-in-due-course",
+      "rules": [
+        "fl-ucc.holder-in-due-course.value"
+      ],
+      "difficulty": 3,
+      "stem": "Marisol made a $20,000 negotiable note payable to the order of Breeze Pools for construction of a pool. Breeze indorsed the note to Tarpon Finance, which agreed to pay Breeze $18,000: $9,000 at once and $9,000 in 30 days. Tarpon paid the first $9,000 without notice of any problem. Two weeks later Marisol notified Tarpon that Breeze had abandoned the job after digging the hole, which is a valid defense against Breeze. Tarpon then paid Breeze the remaining $9,000 and sued Marisol for $20,000.",
+      "call": "To what extent can Tarpon enforce the note free of Marisol's defense?",
+      "choices": [
+        "For the full $20,000, because Tarpon was a holder in due course when it took the note.",
+        "For $18,000, the full price Tarpon agreed to pay.",
+        "Not at all, because Tarpon had notice of the defense before it finished paying.",
+        "For the fraction of the note's face value that corresponds to the part of the agreed price Tarpon paid before receiving notice, that is, one-half of $20,000."
+      ],
+      "answer": 3,
+      "explanation": "An executory promise is not value for holder-in-due-course purposes. When a purchaser has partly performed before learning of a defense, it may assert holder-in-due-course rights only to the fraction of the amount payable under the instrument equal to the value of the partial performance divided by the value of the promised performance (§ 673.3021(4)). Tarpon had paid $9,000 of $18,000 when it learned of the defense, so it is a holder in due course for one-half of the note, or $10,000; for the rest it takes subject to Marisol's defense.",
+      "whyNot": [
+        "Holder-in-due-course status is measured by value actually given before notice, not by the promise to pay.",
+        "The agreed price is not the measure; the second $9,000 was paid after notice and does not count.",
+        "Notice after partial performance limits, but does not eliminate, holder-in-due-course protection.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-ucc.q005",
+      "topic": "fl-ucc.holder-in-due-course",
+      "rules": [
+        "fl-ucc.holder-in-due-course.shelter-rule",
+        "fl-ucc.holder-in-due-course.personal-defenses-and-claims"
+      ],
+      "difficulty": 2,
+      "stem": "Owens signed a $7,000 negotiable note payable to the order of Atlas Roofing after Atlas lied about the quality of the shingles it would install. Atlas promptly negotiated the note for value to Pelican Bank, which took it in good faith and without notice of any defense. Pelican's loan officer later gave the note as a gift to her nephew, Sol, after a newspaper story revealed Atlas's fraud on many homeowners, including Owens. Sol, who read the story, demands payment from Owens.",
+      "call": "Can Sol enforce the note against Owens free of the fraud defense?",
+      "choices": [
+        "Yes, because Sol acquired Pelican's rights as a holder in due course under the shelter rule.",
+        "No, because Sol gave no value for the note.",
+        "No, because Sol knew of the fraud when he received the note.",
+        "Yes, because fraud is never a defense against a person entitled to enforce."
+      ],
+      "answer": 0,
+      "explanation": "Atlas's lies were fraud in the inducement, a personal defense. Pelican took for value, in good faith and without notice, so it was a holder in due course and took free of that defense. Under the shelter rule (§ 673.2031(2)), transfer vests in the transferee all of the transferor's rights, including holder-in-due-course rights. Sol may therefore enforce free of the defense even though he gave no value and knew of the fraud, because he did not take part in it.",
+      "whyNot": [
+        "",
+        "Lack of value keeps Sol from being a holder in due course in his own right, but the shelter rule gives him Pelican's status.",
+        "Knowledge would defeat Sol's own holder-in-due-course status, but he shelters in Pelican's status; only participation in the fraud would bar him.",
+        "Overbroad: fraud in the factum is a real defense, and even fraud in the inducement may be asserted against anyone without holder-in-due-course rights."
+      ]
+    },
+    {
+      "id": "fl-ucc.q006",
+      "topic": "fl-ucc.holder-in-due-course",
+      "rules": [
+        "fl-ucc.holder-in-due-course.real-defenses"
+      ],
+      "difficulty": 2,
+      "stem": "At a community event, a man posing as a county volunteer asked Iris to sign a 'petition for more streetlights.' He held a clipboard with the petition on top and slipped a negotiable promissory note payable to his own business underneath, aligned so that only the signature line showed. Iris, who reasonably believed she was signing the petition, signed. The man negotiated the $5,000 note to Harbor Credit, which took it for value, in good faith and without notice. Harbor Credit sues Iris.",
+      "call": "Can Iris avoid liability to Harbor Credit?",
+      "choices": [
+        "No, because Harbor Credit is a holder in due course and takes free of fraud.",
+        "No, because Iris was negligent in signing without reading the document.",
+        "Yes, because fraud that induces a signer to sign without knowledge or reasonable opportunity to learn the character of the instrument is a real defense.",
+        "Yes, but only if she can show Harbor Credit paid less than face value."
+      ],
+      "answer": 2,
+      "explanation": "Fraud in the factum, meaning fraud that induced the obligor to sign the instrument with neither knowledge nor reasonable opportunity to learn of its character or essential terms, is a real defense good even against a holder in due course (§ 673.3051(1)(a)). Iris reasonably believed she was signing a petition, and the concealment deprived her of any reasonable opportunity to learn she was signing a note.",
+      "whyNot": [
+        "A holder in due course takes free of personal defenses, including fraud in the inducement, but not of real defenses such as fraud in the factum.",
+        "Whether she had a reasonable opportunity to learn the document's character is part of the test; the concealment by sleight of hand denied her that opportunity.",
+        "",
+        "The price Harbor Credit paid is not the test; the real defense defeats the claim whatever the price."
+      ]
+    },
+    {
+      "id": "fl-ucc.q007",
+      "topic": "fl-ucc.liability-of-parties",
+      "rules": [
+        "fl-ucc.liability-of-parties.indorsers-and-dishonor"
+      ],
+      "difficulty": 2,
+      "stem": "On March 1, Delia received a $2,000 check from her tenant, drawn on Mangrove Bank. On March 3, Delia indorsed the check in blank and gave it to her contractor, Jules, in payment for repairs. Jules left the check in his truck and did not deposit it until April 20. Mangrove Bank returned it unpaid on April 22 because the tenant's account had been closed. On April 25 Jules notified Delia and demanded $2,000.",
+      "call": "Is Delia liable to Jules as an indorser?",
+      "choices": [
+        "Yes, because an unqualified indorser is obligated to pay the instrument on dishonor.",
+        "No, because the check was not presented for payment or deposited for collection within 30 days after Delia indorsed it.",
+        "No, because Jules gave notice of dishonor more than 24 hours after the dishonor.",
+        "Yes, because Jules gave notice of dishonor within 30 days after the dishonor."
+      ],
+      "answer": 1,
+      "explanation": "An indorser's obligation on a check is discharged if the check is not presented for payment or given to a depositary bank for collection within 30 days after the day of the indorsement (§ 673.4151(5)). Delia indorsed on March 3; Jules did not deposit the check until April 20, more than 30 days later, so Delia's indorser liability was discharged. Jules can still pursue the tenant as drawer, and he may have a claim against Delia on the underlying repair debt.",
+      "whyNot": [
+        "Indorser liability is conditional; it is lost here because of the late presentment.",
+        "",
+        "A non-bank holder has 30 days after dishonor to give notice; the 24-hour idea is wrong, and timely notice was given.",
+        "Timely notice does not cure the late presentment, which independently discharges a check indorser."
+      ]
+    },
+    {
+      "id": "fl-ucc.q008",
+      "topic": "fl-ucc.liability-of-parties",
+      "rules": [
+        "fl-ucc.liability-of-parties.accommodation-parties"
+      ],
+      "difficulty": 2,
+      "stem": "Gulfport Savings refused to lend $25,000 to Nico's new bakery unless someone with good credit also signed. Nico's aunt, Sofia, signed the note as a co-maker beneath Nico, and the loan proceeds went entirely to the bakery. The loan officer knew Sofia signed only to help Nico. When the note came due, Nico defaulted, and Gulfport sued Sofia without first suing Nico. Gulfport has not modified the note, extended its due date, or released any collateral.",
+      "call": "What is Sofia's liability?",
+      "choices": [
+        "She is not liable, because Gulfport knew she was only an accommodation party.",
+        "She is liable only after Gulfport obtains a judgment against Nico and execution is returned unsatisfied.",
+        "She is liable for one-half of the note as a co-maker.",
+        "She is liable for the full amount as a maker, and if she pays she may recover it from Nico."
+      ],
+      "answer": 3,
+      "explanation": "An accommodation party is liable in the capacity in which she signed, and that is so even if the person entitled to enforce knew of the accommodation (§ 673.4191). Sofia signed as a maker, so she must pay the note according to its terms. No suretyship defense applies, because Gulfport did not extend, modify or impair collateral. If she pays, she is entitled to reimbursement from Nico, the accommodated party, and may enforce the instrument against him.",
+      "whyNot": [
+        "Knowledge of accommodation status does not defeat the accommodation party's liability in the capacity signed.",
+        "That describes a guarantor of collection, who must sign with words unambiguously guaranteeing collection; Sofia signed as a maker without such words.",
+        "Co-makers are jointly and severally liable to the holder for the full amount; any sharing is between the obligors, and here Sofia may shift the entire loss to Nico.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-ucc.q009",
+      "topic": "fl-ucc.liability-of-parties",
+      "rules": [
+        "fl-ucc.liability-of-parties.forgery-and-conversion",
+        "fl-ucc.liability-of-parties.warranties"
+      ],
+      "difficulty": 3,
+      "stem": "Beatriz drew a $4,000 check on her account at Seagrape Bank payable to the order of Tomas. Before Tomas received it, Vic stole the check, forged Tomas's indorsement, and deposited it in Vic's own account at Inlet Bank. Inlet Bank presented the check to Seagrape Bank, which paid it. Vic withdrew the funds and disappeared. Beatriz promptly reviewed her statement, reported the forgery, and demanded that Seagrape recredit her account. Neither Beatriz nor Tomas was negligent.",
+      "call": "Apart from Vic, which party ultimately bears the $4,000 loss?",
+      "choices": [
+        "Inlet Bank, the depositary bank that took the check from the forger.",
+        "Seagrape Bank, the payor bank, because it paid over a forged signature.",
+        "Beatriz, the drawer, because she issued the check.",
+        "Tomas, the payee, because the check was stolen before he received it."
+      ],
+      "answer": 0,
+      "explanation": "A check with a forged indorsement is not properly payable, so Seagrape must recredit Beatriz's account. Seagrape then recovers from Inlet Bank for breach of the presentment warranty that the presenter was a person entitled to enforce the check (§ 673.4171); Vic, a forger of a necessary indorsement, was not. Inlet's only recourse is against Vic. The loss thus rests with the bank that dealt with the forger.",
+      "whyNot": [
+        "",
+        "Seagrape must recredit Beatriz, but it shifts the loss to Inlet through the presentment warranty; Price v. Neal leaves the loss with the payor only when the drawer's signature is forged.",
+        "A drawer whose check is paid over a forged indorsement, without her negligence, is entitled to have her account recredited.",
+        "Tomas never received delivery, so he cannot sue in conversion, but he also bears no loss: Beatriz still owes him the underlying debt, and the stolen check simply never paid it."
+      ]
+    },
+    {
+      "id": "fl-ucc.q010",
+      "topic": "fl-ucc.liability-of-parties",
+      "rules": [
+        "fl-ucc.liability-of-parties.impostors-and-employees"
+      ],
+      "difficulty": 3,
+      "stem": "A caller who falsely claimed to be Lorenzo Vargas, a well-known local artist, persuaded Cypress Gallery to buy a painting he said Vargas had painted. The impostor came to the gallery, posed as Vargas, and received a $12,000 gallery check payable to 'Lorenzo Vargas,' drawn on Palm Bank. He indorsed it 'Lorenzo Vargas' and deposited it at Keys Bank, which collected it from Palm Bank in good faith and with ordinary care. The painting was a fake. Cypress Gallery demands that Palm Bank recredit its account.",
+      "call": "Must Palm Bank recredit the gallery's account?",
+      "choices": [
+        "Yes, because the indorsement was forged, so the check was not properly payable.",
+        "No, because under the impostor rule the impostor's indorsement in the payee's name is effective, so the check was properly payable.",
+        "Yes, because Keys Bank breached its presentment warranty that it was entitled to enforce the check.",
+        "No, because the gallery's only claim is in conversion against Keys Bank."
+      ],
+      "answer": 1,
+      "explanation": "When an impostor, by impersonating the payee, induces the issuer to issue a check to him, an indorsement by any person in the payee's name is effective as the payee's indorsement in favor of a person who in good faith pays the instrument or takes it for value or for collection (§ 673.4041(1)). The impostor's 'Lorenzo Vargas' indorsement is therefore effective, Keys Bank was a person entitled to enforce, and Palm Bank properly charged the gallery's account. Because the banks used ordinary care, the gallery bears the loss.",
+      "whyNot": [
+        "The impostor rule treats the indorsement as effective, so the check was properly payable.",
+        "",
+        "Because the indorsement is effective, Keys Bank was entitled to enforce and breached no presentment warranty.",
+        "The drawer of a check cannot sue in conversion, and, in any event, the impostor rule makes the indorsement effective."
+      ]
+    },
+    {
+      "id": "fl-ucc.q011",
+      "topic": "fl-ucc.attachment-and-perfection",
+      "rules": [
+        "fl-ucc.attachment-and-perfection.attachment",
+        "fl-ucc.attachment-and-perfection.filing-in-florida"
+      ],
+      "difficulty": 1,
+      "stem": "Seaside Lender loaned $50,000 to Pompano Fabrication, Inc., a Florida corporation. In a phone call, Pompano's president agreed that the loan would be secured by all of Pompano's equipment. Seaside's lawyer then filed a properly completed financing statement with the Florida Secured Transaction Registry describing the collateral as 'all equipment,' and Pompano's president signed an email to Seaside authorizing the filing but saying nothing else. No other document was signed. Pompano later defaulted, and another creditor levied on the equipment.",
+      "call": "What is the status of Seaside's claimed security interest in the equipment?",
+      "choices": [
+        "Seaside has a perfected security interest, because it filed a sufficient financing statement authorized by the debtor.",
+        "Seaside has an attached but unperfected security interest, because the agreement was oral.",
+        "Seaside has no security interest, because there is no authenticated security agreement granting one, and Seaside does not possess the collateral.",
+        "Seaside has a perfected security interest, because the financing statement and the authorizing email together satisfy the attachment requirements."
+      ],
+      "answer": 2,
+      "explanation": "A security interest in equipment attaches only if value is given, the debtor has rights in the collateral, and the debtor authenticates a security agreement describing the collateral (or the secured party takes possession under the agreement). The oral agreement does not count, and an email that merely authorizes a filing does not grant a security interest. A filed financing statement gives notice but cannot substitute for a security agreement. Without attachment there is nothing to perfect, so Seaside is an unsecured creditor.",
+      "whyNot": [
+        "Perfection requires attachment plus a perfection step; filing alone does not create a security interest.",
+        "An oral agreement without possession does not satisfy the attachment requirements, so there is no attached interest.",
+        "",
+        "A writing may serve as a security agreement only if, read with the other records, it shows the debtor's intent to grant a security interest; an email authorizing only a filing does not."
+      ]
+    },
+    {
+      "id": "fl-ucc.q012",
+      "topic": "fl-ucc.attachment-and-perfection",
+      "rules": [
+        "fl-ucc.attachment-and-perfection.motor-vehicles",
+        "fl-ucc.priority-and-default.lien-creditors-and-bankruptcy"
+      ],
+      "difficulty": 2,
+      "stem": "Banyan Credit financed Coastline Plumbing, LLC's purchase of a new work truck titled in Florida. Coastline signed a security agreement covering the truck, and Banyan promptly filed a financing statement describing the truck with the Florida Secured Transaction Registry. Banyan never had its lien noted on the certificate of title, which was issued showing no liens. Eight months later Coastline filed a Chapter 7 bankruptcy petition, and the trustee seeks to sell the truck for the benefit of all creditors.",
+      "call": "As between Banyan and the trustee, who has the superior claim to the truck?",
+      "choices": [
+        "Banyan, because its purchase-money security interest attached and was perfected by filing.",
+        "Banyan, because a purchase-money security interest is automatically perfected without filing.",
+        "Banyan, because the trustee had actual knowledge of its filed financing statement.",
+        "The trustee, because Banyan's interest in a titled vehicle not held as inventory was perfected only by notation on the title, so it was unperfected and avoidable."
+      ],
+      "answer": 3,
+      "explanation": "A security interest in a motor vehicle covered by Florida's certificate-of-title law is perfected only by compliance with that law, which requires notation of the lien on the title under chapter 319. A filed financing statement is ineffective for a vehicle that is not dealer inventory. Banyan's interest attached but was unperfected, and the bankruptcy trustee, who has the rights of a hypothetical lien creditor as of the petition date, can avoid it.",
+      "whyNot": [
+        "Filing a financing statement does not perfect a security interest in a titled vehicle that is not inventory.",
+        "Automatic perfection applies to PMSIs in consumer goods only, and even then excludes titled goods; this truck is business equipment.",
+        "The trustee's strong-arm power does not depend on knowledge.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-ucc.q013",
+      "topic": "fl-ucc.priority-and-default",
+      "rules": [
+        "fl-ucc.priority-and-default.pmsi-priority",
+        "fl-ucc.priority-and-default.first-to-file-or-perfect"
+      ],
+      "difficulty": 2,
+      "stem": "In 2023 Everglade Bank loaned money to Ibis Bakery, Inc., took a security interest in 'all equipment, now owned or hereafter acquired,' and filed a proper financing statement. On June 1, 2025, Ibis bought a commercial oven on credit from Oven Works, signing a security agreement giving Oven Works a security interest in the oven to secure the price, and took delivery that day. Oven Works filed a proper financing statement on June 15. Ibis has defaulted on both debts.",
+      "call": "Which creditor has priority in the oven?",
+      "choices": [
+        "Oven Works, because its purchase-money security interest in equipment was perfected within 20 days after Ibis received possession.",
+        "Everglade Bank, because it filed first.",
+        "Everglade Bank, because Oven Works did not send it advance notice of the purchase-money interest.",
+        "They share pro rata, because both interests are perfected."
+      ],
+      "answer": 0,
+      "explanation": "A perfected purchase-money security interest in goods other than inventory or livestock has priority over a conflicting security interest, including an earlier-filed after-acquired property interest, if it is perfected when the debtor receives possession or within 20 days afterward. Oven Works retained a security interest to secure the price (a PMSI) and filed 14 days after delivery. It defeats Everglade's earlier filing.",
+      "whyNot": [
+        "",
+        "First-to-file-or-perfect yields to the PMSI super-priority rule when its conditions are met.",
+        "Advance notice to earlier filers is required for inventory PMSIs, not equipment PMSIs.",
+        "Article 9 ranks conflicting interests; it does not share collateral pro rata."
+      ]
+    },
+    {
+      "id": "fl-ucc.q014",
+      "topic": "fl-ucc.priority-and-default",
+      "rules": [
+        "fl-ucc.priority-and-default.buyers"
+      ],
+      "difficulty": 1,
+      "stem": "Palmway Boats, a Florida boat dealer, financed its inventory through Anchor Bank, which held a perfected security interest in all of Palmway's inventory. Gwen, a retiree, bought a new fishing boat from Palmway's showroom for cash. Before buying, Gwen searched the public records and saw Anchor's financing statement, but she had no reason to think the sale breached any agreement. Palmway failed to remit the sale proceeds to Anchor and closed. Anchor seeks to repossess the boat from Gwen.",
+      "call": "Is Gwen's boat subject to Anchor's security interest?",
+      "choices": [
+        "Yes, because Anchor's security interest was perfected before Gwen bought the boat.",
+        "Yes, because Gwen knew of Anchor's security interest.",
+        "No, because Gwen bought in the ordinary course of business from a dealer, and a buyer in ordinary course takes free of a security interest created by the seller even if she knows of it.",
+        "No, because Gwen bought the boat for personal use and before Anchor filed."
+      ],
+      "answer": 2,
+      "explanation": "A buyer in ordinary course of business takes free of a security interest created by the buyer's seller, even if the interest is perfected and the buyer knows of its existence. Gwen bought in good faith, from a person in the business of selling boats, in the ordinary course, without knowledge that the sale violated Anchor's rights. Anchor's remedy is against Palmway and the proceeds.",
+      "whyNot": [
+        "Perfection does not protect an inventory financer against buyers in ordinary course.",
+        "Knowledge of the security interest is irrelevant; only knowledge that the sale violates the secured party's rights would disqualify Gwen.",
+        "",
+        "The consumer-to-consumer buyer rule applies only when the seller is a consumer, and Anchor had filed before the sale anyway."
+      ]
+    },
+    {
+      "id": "fl-ucc.q015",
+      "topic": "fl-ucc.priority-and-default",
+      "rules": [
+        "fl-ucc.priority-and-default.disposition-and-deficiency"
+      ],
+      "difficulty": 3,
+      "stem": "Heron Equipment Finance held a perfected security interest in a bulldozer owned by Dunes Construction, LLC, securing a $150,000 loan. After Dunes defaulted, Heron peacefully repossessed the bulldozer and sold it at a private sale for $70,000 two days later without sending Dunes any notification of the sale. Heavy equipment of this kind is not sold on a recognized market. Heron sues Dunes for an $80,000 deficiency plus expenses. Dunes proves the lack of notice; Heron offers no evidence of what a properly noticed sale would have brought.",
+      "call": "How should the court rule on the deficiency claim?",
+      "choices": [
+        "Award the full deficiency, because the disposition was otherwise commercially reasonable.",
+        "Award the full deficiency, because notice is required only in consumer transactions.",
+        "Deny any deficiency, because a secured party who fails to give notice automatically forfeits the deficiency in every transaction.",
+        "Deny the deficiency to the extent Heron cannot prove that a properly noticed disposition would have yielded no more than $70,000; on this record, it recovers nothing."
+      ],
+      "answer": 3,
+      "explanation": "Before a private disposition, the secured party must send a reasonable authenticated notification to the debtor; no exception applies because the bulldozer is not perishable and is not sold on a recognized market. In a non-consumer transaction, under the rebuttable-presumption rule, when the debtor puts compliance in issue and the secured party fails to prove compliance, the amount that compliance would have yielded is presumed to equal the secured obligation plus expenses, unless the secured party proves a smaller amount. Heron offered no such proof, so the presumed recovery wipes out the deficiency.",
+      "whyNot": [
+        "Notice is a separate requirement; failing it triggers the rebuttable presumption regardless of other aspects of the sale.",
+        "Notice to the debtor is required in commercial transactions too, with limited exceptions that do not apply.",
+        "Automatic forfeiture (absolute bar) is not the Article 9 rule for non-consumer transactions; the secured party may rebut the presumption with proof.",
+        ""
+      ]
+    }
+  ]
+}
