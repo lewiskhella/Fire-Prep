@@ -1,0 +1,368 @@
+{
+  "subject": "fl-trusts",
+  "questions": [
+    {
+      "id": "fl-trusts.q001",
+      "topic": "fl-trusts.creation",
+      "rules": [
+        "fl-trusts.creation.testamentary-aspects"
+      ],
+      "difficulty": 2,
+      "stem": "Grace, a Florida domiciliary, signed a revocable trust agreement naming herself as trustee and directing that at her death the successor trustee distribute all trust assets to her friend Henry. She signed it before a notary; no witnesses were present. She then retitled her brokerage account in the trustee's name and managed it as trustee for years. Grace's validly executed will leaves the residue of her estate to her sister, Iris. Grace has died.",
+      "call": "Who is entitled to the brokerage account?",
+      "choices": [
+        "Henry, because a trust need only be in writing and signed by the settlor.",
+        "Henry, because a notary's acknowledgment substitutes for attesting witnesses.",
+        "Iris, because the trust's dispositive provisions are invalid without will formalities, so the account passes through Grace's estate under her will.",
+        "Henry, because the trust was valid during Grace's lifetime and therefore all of its terms remain valid at her death."
+      ],
+      "answer": 2,
+      "explanation": "Under § 736.0403(2)(b), the testamentary aspects of a revocable trust executed by a Florida domiciliary are invalid unless the trust is executed with the formalities required for a will, which include two attesting witnesses. The lifetime provisions worked, but the gift to Henry at death is a testamentary aspect and fails. The account therefore returns to Grace's estate and passes under her will's residuary clause to Iris.",
+      "whyNot": [
+        "That is the UTC rule; Florida adds will formalities for the testamentary aspects of a Florida settlor's revocable trust.",
+        "A notary does not replace the two attesting witnesses required for a will.",
+        "",
+        "Validity during life does not save the dispositive provisions; the statute invalidates the testamentary aspects specifically."
+      ]
+    },
+    {
+      "id": "fl-trusts.q002",
+      "topic": "fl-trusts.creation",
+      "rules": [
+        "fl-trusts.creation.requirements"
+      ],
+      "difficulty": 1,
+      "stem": "Ann, a Florida domiciliary, signed a written declaration, executed with the formalities required for a will, stating that she holds her investment account 'as trustee, to pay to myself such income and principal as I wish during my life, and at my death to distribute the account to my niece, Bea.' Ann served as sole trustee until her death. Ann's son, her only heir, argues that no trust was ever created because Ann was both the trustee and a beneficiary.",
+      "call": "Was a valid trust created?",
+      "choices": [
+        "Yes; an owner may declare herself trustee, and there is no merger because Bea holds the remainder interest.",
+        "No; a trust requires a transfer of the property to someone other than the settlor.",
+        "No; the same person can never be both trustee and beneficiary of a trust.",
+        "Yes, but only as to Ann's lifetime interest; the remainder to Bea fails for lack of delivery."
+      ],
+      "answer": 0,
+      "explanation": "Under § 736.0401 a trust may be created by the owner's declaration that she holds property as trustee, so no transfer to another person is required. Section 736.0402 bars a trust only when the same person is the sole trustee and the sole beneficiary; Bea's remainder interest prevents merger. Because the declaration was executed with will formalities, the testamentary aspect (the gift to Bea at death) is also valid.",
+      "whyNot": [
+        "",
+        "A declaration of trust is an accepted method of creation; no transfer is needed.",
+        "A trustee may also be a beneficiary as long as she is not the sole beneficiary of all interests.",
+        "A declaration of trust needs no delivery, and the remainder is a valid beneficial interest."
+      ]
+    },
+    {
+      "id": "fl-trusts.q003",
+      "topic": "fl-trusts.creation",
+      "rules": [
+        "fl-trusts.creation.oral-trusts",
+        "fl-trusts.types.constructive"
+      ],
+      "difficulty": 3,
+      "stem": "Orlando, a widower, deeded his Florida farm to his son Paul, who had managed Orlando's finances for years and whom Orlando trusted completely. Before the deed was signed, Paul orally promised to hold the farm for the benefit of his disabled sister, Rita. Nothing in writing mentions the promise, and Paul paid nothing for the farm. After Orlando's death, Paul claimed the farm as his own and listed it for sale. Rita sues Paul, and two family friends will testify to the promise.",
+      "call": "What is Rita's strongest basis for relief?",
+      "choices": [
+        "An express oral trust, which Florida enforces on clear and convincing evidence.",
+        "None; any trust involving land must be in a signed writing, which ends the case.",
+        "A purchase-money resulting trust in her favor.",
+        "A constructive trust, if she proves by clear and convincing evidence the promise, the transfer in reliance, the confidential relationship and Paul's unjust enrichment."
+      ],
+      "answer": 3,
+      "explanation": "Section 736.0407 allows oral trusts on clear and convincing evidence only where no other statute requires a writing, and § 689.05 requires a signed writing for an express trust of Florida land. But the statute of frauds does not apply to trusts arising by operation of law. Paul's promise, the transfer made in reliance on it, the confidential relationship and his unjust enrichment support a constructive trust for Rita.",
+      "whyNot": [
+        "Section 689.05 requires a signed writing for an express trust of land, so the oral-trust route is closed.",
+        "The writing requirement does not bar constructive or resulting trusts, which arise by operation of law.",
+        "A purchase-money resulting trust arises when one person pays the price for property titled in another; Rita paid nothing.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-trusts.q004",
+      "topic": "fl-trusts.creation",
+      "rules": [
+        "fl-trusts.creation.precatory-language"
+      ],
+      "difficulty": 1,
+      "stem": "Lucia's will provides: 'I leave my lake cottage to my daughter, Lena, in the hope that she will allow her brother, Max, to use it each summer.' After Lucia's death the cottage was distributed to Lena. Two years later Lena, who had never let Max use the cottage, contracted to sell it. Max sues to enjoin the sale, claiming that the will created a trust for his benefit.",
+      "call": "How should the court rule?",
+      "choices": [
+        "For Max, because the will created a trust giving him a right of summer use.",
+        "For Lena, because the precatory language expresses a wish rather than an enforceable duty, so she owns the cottage outright.",
+        "For Max, because Lena holds the cottage in a constructive trust.",
+        "For neither; the devise fails for indefiniteness and the cottage passes under the residuary clause."
+      ],
+      "answer": 1,
+      "explanation": "A trust requires the settlor's intent to impose enforceable duties (§ 736.0402). Words such as 'in the hope that' are precatory; they express a desire, not an obligation. Nothing in the will or circumstances shows that Lucia meant to bind Lena, so Lena took the cottage outright and may sell it.",
+      "whyNot": [
+        "Precatory words do not create a trust absent other evidence of intent to impose a duty.",
+        "",
+        "There was no wrongful conduct or broken promise by Lena that would support a constructive trust.",
+        "The devise to Lena is perfectly definite; only the hoped-for use is unenforceable."
+      ]
+    },
+    {
+      "id": "fl-trusts.q005",
+      "topic": "fl-trusts.types",
+      "rules": [
+        "fl-trusts.types.spendthrift"
+      ],
+      "difficulty": 1,
+      "stem": "A testamentary trust requires the trustee to pay all net income to Nick quarterly for life. The trust contains a valid spendthrift provision restraining both voluntary and involuntary transfers. Omni Card Co. holds a $30,000 judgment against Nick for unpaid credit-card charges. Last month Nick received his quarterly distribution and deposited it in his checking account. Omni seeks to garnish both the trustee and Nick's bank account.",
+      "call": "What can Omni reach?",
+      "choices": [
+        "The distribution already deposited in Nick's bank account, but not future income payments or Nick's interest in the trust.",
+        "Future income payments, because spendthrift clauses do not protect mandatory income interests.",
+        "Nothing, because spendthrift protection follows the distributed funds into Nick's account.",
+        "Nick's entire interest, because Florida does not enforce spendthrift clauses."
+      ],
+      "answer": 0,
+      "explanation": "A valid spendthrift provision bars a creditor from reaching the beneficiary's interest or any distribution before the beneficiary receives it (§ 736.0502). Omni is an ordinary judgment creditor, not an exception creditor under § 736.0503. Once the money is paid to Nick, the trust's protection ends, so Omni may garnish the deposited funds but not the trustee.",
+      "whyNot": [
+        "",
+        "Spendthrift provisions protect mandatory interests as well as discretionary ones.",
+        "The protection ends when the beneficiary receives the distribution.",
+        "Florida enforces spendthrift provisions, subject only to the statutory exceptions."
+      ]
+    },
+    {
+      "id": "fl-trusts.q006",
+      "topic": "fl-trusts.types",
+      "rules": [
+        "fl-trusts.types.discretionary-support",
+        "fl-trusts.modification-and-creditors.exception-creditors"
+      ],
+      "difficulty": 3,
+      "stem": "A trust created by Paula's father authorizes the trustee 'in its sole discretion' to distribute income and principal to Paula, and contains a spendthrift clause. Paula's former husband, Quentin, holds a final judgment for $60,000 in unpaid alimony. Paula has no wages or nonexempt assets, and Quentin's ordinary collection efforts have failed. The trustee has made no distribution to Paula in more than a year. Quentin petitions the court to order the trustee to make distributions to pay the arrearage.",
+      "call": "How should the court rule?",
+      "choices": [
+        "It must order the trustee to pay the arrearage from principal, because an alimony claimant is an exception creditor.",
+        "It must deny all relief, because a spendthrift clause bars every creditor.",
+        "It may compel distributions if it finds the trustee abused its discretion by refusing to distribute.",
+        "It may not compel the trustee to make a discretionary distribution, but it may order that distributions the trustee does make to or for Paula be attached to pay Quentin."
+      ],
+      "answer": 3,
+      "explanation": "Quentin, a former spouse with an alimony judgment, is an exception creditor, and because traditional collection methods have failed he may obtain an order attaching present or future distributions (§ 736.0503). But § 736.0504 provides that no creditor, including an exception creditor, may compel a distribution that is subject to the trustee's discretion. He therefore can capture distributions when made, but cannot force the trustee to make them.",
+      "whyNot": [
+        "Exception status lets Quentin attach distributions; it does not let him compel a discretionary distribution.",
+        "Spendthrift clauses are unenforceable against support and alimony claimants under § 736.0503.",
+        "That is the UTC § 504 approach; Florida's statute bars every creditor from compelling a discretionary distribution.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-trusts.q007",
+      "topic": "fl-trusts.types",
+      "rules": [
+        "fl-trusts.types.charitable-cy-pres"
+      ],
+      "difficulty": 2,
+      "stem": "Ramon's will created a trust 'to fund scholarships for nursing students at Coral Bay College.' The will contains no provision for what happens if the purpose cannot be carried out. Ten years after Ramon's death, Coral Bay College closed permanently. The trust still holds $800,000. Ramon's heirs claim the fund. The trustee petitions the court for instructions, and the Attorney General appears.",
+      "call": "What should the court do?",
+      "choices": [
+        "Order the fund distributed to Ramon's heirs by resulting trust, because the purpose has become impossible.",
+        "Apply cy pres and direct the fund to a use consistent with Ramon's charitable purpose, such as nursing scholarships at another Florida institution.",
+        "Allow the trustee to apply the fund to any charitable purpose the trustee prefers.",
+        "Terminate the trust and pay the fund to the State."
+      ],
+      "answer": 1,
+      "explanation": "When a particular charitable purpose becomes impossible to achieve, § 736.0413 lets the court apply cy pres to modify the trust so the property is used in a manner consistent with the settlor's charitable purposes. With no gift over in the will, the court should redirect the fund to the closest suitable use, such as nursing scholarships elsewhere.",
+      "whyNot": [
+        "Cy pres prevents the charitable trust from failing; the heirs take only if the trust itself provides a gift over.",
+        "",
+        "The court, not the trustee, applies cy pres, and it must stay consistent with the settlor's charitable purposes.",
+        "Nothing in the statute sends a failed charitable purpose to the State; the Attorney General's role is to enforce the trust."
+      ]
+    },
+    {
+      "id": "fl-trusts.q008",
+      "topic": "fl-trusts.types",
+      "rules": [
+        "fl-trusts.types.resulting"
+      ],
+      "difficulty": 2,
+      "stem": "Vera paid the entire $250,000 purchase price for a condominium in Naples. At her direction, the deed named her business partner, Will, as sole owner, because Vera was about to spend a year working overseas and wanted Will to be able to sign closing and leasing papers while she was away. Nothing in writing addresses who was to own the unit beneficially. Vera has returned, and Will now refuses to reconvey, claiming the condominium was a gift. Vera sues to establish her interest.",
+      "call": "What is the likely result?",
+      "choices": [
+        "Will keeps the condominium, because the law presumes a gift whenever one person pays for property titled in another.",
+        "Will keeps the condominium, because a trust of land must be proved by a signed writing.",
+        "Vera may establish a purchase-money resulting trust, because she paid the price for property titled in an unrelated person and no gift is presumed, though she must prove it by clear and convincing evidence.",
+        "Vera may recover only the purchase price as money damages."
+      ],
+      "answer": 2,
+      "explanation": "When one person pays the purchase price and title is taken in another's name, a purchase-money resulting trust is presumed in favor of the payor. The opposite presumption of a gift applies when the titleholder is the payor's spouse or child, not an unrelated business partner. Because the trust arises by operation of law, the statute of frauds does not bar it, though Florida courts require clear and convincing proof.",
+      "whyNot": [
+        "The gift presumption applies to payments for a spouse or child, not to an unrelated business partner.",
+        "Section 689.05 does not apply to trusts arising by implication or operation of law.",
+        "",
+        "The resulting trust gives Vera the beneficial ownership of the property itself, not just a money claim."
+      ]
+    },
+    {
+      "id": "fl-trusts.q009",
+      "topic": "fl-trusts.trustee-duties",
+      "rules": [
+        "fl-trusts.trustee-duties.loyalty"
+      ],
+      "difficulty": 2,
+      "stem": "Xena is trustee of an irrevocable trust whose main asset is a vacant lot in Ocala. She obtained an independent appraisal and then bought the lot from the trust for herself at the full appraised value. The trust instrument does not authorize such purchases, no court approved the sale, and no beneficiary was asked to consent. Two years later the lot is worth twice what Xena paid. Yuri, a beneficiary, promptly sues to set aside the sale after learning of it.",
+      "call": "How should the court rule?",
+      "choices": [
+        "For Xena, because the price was fair and supported by an independent appraisal.",
+        "For Yuri, but only if he proves that the price was below market value at the time.",
+        "For Xena, because she acted in good faith.",
+        "For Yuri, because a trustee's purchase of trust property for her own account is voidable by an affected beneficiary regardless of fairness, and no exception applies."
+      ],
+      "answer": 3,
+      "explanation": "Under § 736.0802(2), a transaction involving trust property entered into by the trustee for her own account is voidable by an affected beneficiary unless it was authorized by the trust terms, approved by the court, consented to or ratified by the beneficiary, or another statutory exception applies. None applies here. Under the no-further-inquiry rule, fairness of price and good faith are irrelevant.",
+      "whyNot": [
+        "Fair price is not a defense to self-dealing under the duty of loyalty.",
+        "Yuri need not prove unfairness; the transaction is voidable without inquiry into the price.",
+        "Good faith does not cure an unauthorized self-dealing transaction.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-trusts.q010",
+      "topic": "fl-trusts.trustee-duties",
+      "rules": [
+        "fl-trusts.trustee-duties.prudent-investor"
+      ],
+      "difficulty": 2,
+      "stem": "Ted funded an irrevocable trust for his grandchildren with $2 million of stock in a single publicly traded company, his former employer. The trust instrument says nothing about retaining or diversifying investments. For five years the trustee kept the entire holding, explaining only that 'Ted always believed in the company.' The trustee never reviewed the beneficiaries' needs or the portfolio's risk. The stock then fell 60 percent. The beneficiaries sue the trustee.",
+      "call": "Is the trustee likely liable?",
+      "choices": [
+        "Yes, because the trustee failed to diversify without reasonably determining that not diversifying served the beneficiaries and the trust's purposes.",
+        "No, because a trustee may always retain assets received from the settlor.",
+        "No, because a trustee is liable only for losses caused by bad faith or fraud.",
+        "Yes, because holding a single stock is imprudent per se, whatever the circumstances."
+      ],
+      "answer": 0,
+      "explanation": "Under § 518.11 a trustee must invest as a prudent investor, considering the portfolio as a whole, and must diversify unless it reasonably believes that not diversifying is in the beneficiaries' interests and furthers the trust's purposes. The trust did not authorize retention, and the trustee made no reasoned judgment at all; sentiment about the settlor's views is not a reasonable basis. The trustee is liable for the loss caused by the failure to diversify.",
+      "whyNot": [
+        "",
+        "Retention of the settlor's assets is protected only if the trust terms authorize it or a reasoned decision supports it.",
+        "The standard is prudence (reasonable care, skill and caution), not merely good faith.",
+        "Concentration is not per se imprudent; it is a breach here because the trustee had no reasonable basis for it."
+      ]
+    },
+    {
+      "id": "fl-trusts.q011",
+      "topic": "fl-trusts.trustee-duties",
+      "rules": [
+        "fl-trusts.trustee-duties.inform-and-account",
+        "fl-trusts.modification-and-creditors.settlor-control"
+      ],
+      "difficulty": 2,
+      "stem": "Wendy, who is alive and competent, created a revocable trust with First Gulf Bank as trustee. The trust gives Wendy all income and any principal she requests during her life and leaves the remainder to her son, Zack. Zack asked the bank for a copy of the trust and an accounting. At Wendy's instruction, the bank refused. Zack sues the bank for breach of the duty to inform and account.",
+      "call": "How should the court rule?",
+      "choices": [
+        "For Zack, because a trustee must keep qualified beneficiaries reasonably informed.",
+        "For the bank, because while a trust is revocable the trustee's duties are owed exclusively to the settlor.",
+        "For Zack, because remainder beneficiaries are always entitled to annual accountings.",
+        "For the bank, because a remainder beneficiary is never a qualified beneficiary."
+      ],
+      "answer": 1,
+      "explanation": "Under § 736.0603, while a trust is revocable the beneficiaries' rights are subject to the settlor's control and the trustee's duties are owed exclusively to the settlor. The § 736.0813 duties to inform and account toward the other beneficiaries do not apply until the trust becomes irrevocable. Following Wendy's instruction was therefore proper.",
+      "whyNot": [
+        "The duty to inform qualified beneficiaries is suspended while the trust is revocable.",
+        "",
+        "Annual accountings are owed to qualified beneficiaries of an irrevocable trust, not to remaindermen of a living settlor's revocable trust.",
+        "A first-line remainder beneficiary can be a qualified beneficiary; the reason Zack loses is that the trust is still revocable."
+      ]
+    },
+    {
+      "id": "fl-trusts.q012",
+      "topic": "fl-trusts.trustee-duties",
+      "rules": [
+        "fl-trusts.trustee-duties.breach-remedies"
+      ],
+      "difficulty": 3,
+      "stem": "Abel, an attorney, drafted an irrevocable trust for his client Bess and named himself trustee. At Abel's suggestion the instrument relieves the trustee 'of all liability for any act or omission except intentional fraud.' Abel never explained the clause to Bess. As trustee, Abel left $1 million uninvested in a non-interest-bearing account for four years, ignoring the beneficiaries' repeated written complaints. The beneficiaries sue for the lost earnings.",
+      "call": "What effect does the exculpatory clause have?",
+      "choices": [
+        "It bars the claim, because the beneficiaries do not allege fraud.",
+        "It bars the claim, because Bess signed the trust instrument.",
+        "It does not protect Abel, because a clause cannot excuse reckless indifference to the beneficiaries' interests, and a clause the trustee drafted is presumed abusive unless he proves it was fair and adequately communicated to the settlor.",
+        "It makes Abel strictly liable for any decline in value of the trust, because the clause is void in its entirety."
+      ],
+      "answer": 2,
+      "explanation": "Section 736.1011 makes an exculpatory term unenforceable to the extent it relieves the trustee of liability for bad faith or reckless indifference, or was inserted through abuse of a fiduciary or confidential relationship; a term the trustee drafted is presumed abusive unless he proves it fair and adequately communicated. Leaving $1 million idle for years despite complaints shows at least reckless indifference, and Abel cannot prove he explained the clause. He is liable under § 736.1002 for the earnings the trust would have had.",
+      "whyNot": [
+        "The clause is unenforceable as to reckless indifference whether or not fraud is alleged.",
+        "The settlor's signature does not validate a trustee-drafted clause that was never adequately explained to her.",
+        "",
+        "The clause's invalidity does not create strict liability; Abel is liable because he breached his duties, measured by restoration damages."
+      ]
+    },
+    {
+      "id": "fl-trusts.q013",
+      "topic": "fl-trusts.modification-and-creditors",
+      "rules": [
+        "fl-trusts.modification-and-creditors.revocation"
+      ],
+      "difficulty": 2,
+      "stem": "Ivy, a Florida domiciliary, created a revocable trust, executed with will formalities, and funded it with her investment accounts. At her death the trustee is to distribute the trust property to her niece, Jen. The trust does not specify how it may be revoked or amended. Years later Ivy executed a valid will that says: 'I give all of my property, real and personal, wherever located, to my friend Kim.' The will does not mention the trust. Ivy has died.",
+      "call": "Who is entitled to the investments held in the trust?",
+      "choices": [
+        "Kim, because a later will revokes all inconsistent earlier instruments.",
+        "Kim, because the will was executed with full formalities after the trust was signed.",
+        "Jen and Kim in equal shares.",
+        "Jen, because a will revokes or amends a revocable trust only if it expressly refers to the trust or specifically devises the trust property."
+      ],
+      "answer": 3,
+      "explanation": "When the trust does not provide an exclusive method, § 736.0602 allows revocation or amendment by a later will or codicil only if it expressly refers to the trust or specifically devises property that would otherwise pass under it. A general gift of 'all of my property' does neither. Moreover, the trust assets were titled in the trustee, so they were not Ivy's probate property. Jen takes under the trust.",
+      "whyNot": [
+        "A will's general dispositive language does not revoke a trust; the statute requires an express reference or a specific devise.",
+        "Formal execution alone is not enough; the will must refer to the trust or specifically devise its property.",
+        "There is no basis for splitting the property; either the trust was amended or it was not.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-trusts.q014",
+      "topic": "fl-trusts.modification-and-creditors",
+      "rules": [
+        "fl-trusts.modification-and-creditors.settlor-creditors"
+      ],
+      "difficulty": 2,
+      "stem": "Leon transferred $1 million to an irrevocable trust with an independent trust company as trustee. The trustee may distribute income and principal to Leon in its sole discretion; at Leon's death the remainder passes to his children. The trust has a spendthrift clause. The transfer was not made to hinder any existing creditor. Three years later a pedestrian obtained a $400,000 negligence judgment against Leon and seeks to reach the trust.",
+      "call": "Can the judgment creditor reach the trust assets?",
+      "choices": [
+        "No, because the spendthrift clause and the independent trustee's discretion protect the assets.",
+        "Yes, up to the maximum amount the trustee could distribute to Leon, which here is the entire trust, enough to satisfy the judgment.",
+        "Yes, but only the trust's income, not its principal.",
+        "Only if the creditor proves the transfer was a fraudulent transfer."
+      ],
+      "answer": 1,
+      "explanation": "Under § 736.0505(1)(b), a creditor of the settlor of an irrevocable trust may reach the maximum amount that can be distributed to or for the settlor's benefit, regardless of a spendthrift clause. Because the trustee could distribute all income and principal to Leon, the creditor can reach enough of the trust to satisfy the $400,000 judgment. Florida does not recognize self-settled asset protection trusts.",
+      "whyNot": [
+        "A spendthrift clause does not protect a settlor's own interest in a self-settled trust.",
+        "",
+        "The creditor reaches whatever the trustee could distribute to Leon, which includes principal.",
+        "No fraudulent-transfer showing is needed; § 736.0505 itself makes the settlor's distributable interest reachable."
+      ]
+    },
+    {
+      "id": "fl-trusts.q015",
+      "topic": "fl-trusts.modification-and-creditors",
+      "rules": [
+        "fl-trusts.modification-and-creditors.decanting"
+      ],
+      "difficulty": 3,
+      "stem": "An irrevocable trust gives the trustee, Mona, absolute discretion to distribute principal to Ned 'for any purpose,' with the remainder at Ned's death to his children. Ned has become disabled and now relies on needs-based public benefits, which outright distributions could jeopardize. The trust instrument does not prohibit decanting. Mona plans to decant the principal into a new supplemental needs trust for Ned, without seeking a court order.",
+      "call": "Which feature of Mona's plan would make the decanting improper?",
+      "choices": [
+        "Adding Mona's own daughter as a remainder beneficiary of the new trust alongside Ned's children.",
+        "Giving the qualified beneficiaries written notice 60 days before the decanting takes effect.",
+        "Proceeding without first obtaining court approval.",
+        "Limiting distributions in the new trust so they do not disqualify Ned from public benefits."
+      ],
+      "answer": 0,
+      "explanation": "Under § 736.04117 a trustee with absolute power to invade principal may decant into a second trust without court approval, but the second trust may benefit only beneficiaries of the first trust, and the trustee must give the qualified beneficiaries written notice at least 60 days before the decanting is effective. Adding Mona's daughter, who is not a beneficiary of the original trust, is not permitted.",
+      "whyNot": [
+        "",
+        "Advance written notice to the qualified beneficiaries is required, not improper.",
+        "Decanting is a trustee power exercisable without a court order.",
+        "Supplemental-needs restrictions for the same beneficiary are a common, permissible reason to decant."
+      ]
+    }
+  ]
+}
