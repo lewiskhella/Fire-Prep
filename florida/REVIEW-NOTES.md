@@ -484,3 +484,40 @@ through the notes above. Where marked, they checked current statutes and 2025–
 - **Still uncertain:** Rule 3.216 notice timing (left out); whether 2026 SB 600 became law.
 - **Gap:** no sexual-battery rule yet (coverage, not correction).
 - **Added:** spotters s01 and s02.
+
+## fl-civil-procedure: reviewed
+
+- **Blind check:** 15/15.
+- **Corrected:**
+  - County-court appeals go to the DCAs (since 1/1/2021).
+  - Return of service: amendable, relates back (§ 48.21(2)).
+  - Sunday service when a judge orders it (§ 48.20).
+  - Rule 1.442 elements after the 2014 amendment; Grip Development.
+  - White v. Steak & Ale net-judgment comparison.
+  - June 2025 discovery sequencing (Rule 1.280); the unconfirmed Rule 1.310(a) 30-day rule removed.
+  - Mental examinations need a court order (Rule 1.360).
+  - 2025 summary-judgment timing: response due 40 days after service; hearing at least 10 days after that.
+  - Rule 1.460 continuances.
+  - § 69.071 six-person jury.
+  - § 768.74 wording.
+  - e01's numbers made consistent; the White calculation now applied.
+- **Still uncertain:** §§ 48.081/48.062 corporate and LLC service (left out).
+- **Added:** spotters s01 and s02.
+
+## fl-constitutional-law: reviewed
+
+- **Blind check:** 15/15.
+- **Corrected:**
+  - Term-limit wording and Art. VI, § 4 citations.
+  - Single subject voids the whole act (Heggs).
+  - Impeachment vote; disqualification is discretionary.
+  - Treason reprieve runs to adjournment.
+  - Small-county judge exception is constitutional.
+  - County-court appeals to the DCAs; six-year county-judge terms.
+  - 2024 Amendment 5 passed (about 66%) and indexes the exemption from 2025.
+  - SMM Properties distinction.
+  - Ballot review now includes facial federal validity (§ 16.061, 2020; q007).
+- **Still uncertain:**
+  - Whether the 2026 sovereign-immunity bill passed. The fl-torts reviewer found HB 145 (2026) was vetoed on 6/30/2026; this subject states no cap amounts.
+  - 2025 initiative-petition legislation (left out).
+- **Added:** spotters s01 and s02.
