@@ -521,3 +521,35 @@ through the notes above. Where marked, they checked current statutes and 2025–
   - Whether the 2026 sovereign-immunity bill passed. The fl-torts reviewer found HB 145 (2026) was vetoed on 6/30/2026; this subject states no cap amounts.
   - 2025 initiative-petition legislation (left out).
 - **Added:** spotters s01 and s02.
+
+---
+
+# Expansion (round 3): q016–q030, e03–e04 and gap rules
+
+Each subject got 15 new questions, 2 new essays and up to 6 gap-filling rules. Two independent blind
+solvers answered every new question; an editor adjudicated their findings before merging.
+
+## fl-civil-procedure: expanded to 52 rules, 30 questions, 4 essays
+
+- **Fixed after solvers:**
+  - q017 forum non conveniens deference.
+  - q026: no Rule 39(b)-style power.
+  - e03: Rule 9.020(h) "served and filed".
+  - e04: mandatory injunctions, the Rule 1.380(e) ESI safe harbor, fees under inherent authority.
+  - Rule 1.610(b) bond.
+  - Rule 1.210(a) representatives.
+  - Dodgen v. Grijalva (2021) on Boecher.
+  - Fabre and vicarious liability (e03).
+  - § 48.20 wording (q028).
+  - Rule 2.514 counting (q030).
+- **Resting on memory (web search ran out):**
+  - Rule 1.380(e) text after 2025.
+  - Dodgen's holding (cited by name and year).
+  - § 48.20 text.
+  - § 542.335(1)(j).
+  - Rule 1.060(b) plaintiff's choice of county.
+
+## fl-constitutional-law: expanded to 48 rules, 30 questions, 4 essays
+
+- **Fixed after solvers:** q027 and the county-officers rule (Art. VIII, § 1(d) after Amendment 10, 2018: the special-law exception remains; county charters cannot abolish the elected officers).
+- **Other fixes:** see the workflow log.

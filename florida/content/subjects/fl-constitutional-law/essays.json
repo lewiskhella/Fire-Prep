@@ -42,7 +42,9 @@
           "id": "i2",
           "call": 2,
           "label": "Sunshine violation and its effect on the ordinance",
-          "rules": ["fl-constitutional-law.declaration-of-rights.public-records-and-meetings"],
+          "rules": [
+            "fl-constitutional-law.declaration-of-rights.public-records-and-meetings"
+          ],
           "points": 4,
           "mustSay": [
             "Art. I, § 24(b) and the Sunshine Law (§ 286.011) require meetings of municipal collegial bodies at which public business is discussed to be open and noticed",
@@ -121,7 +123,9 @@
           "id": "i1",
           "call": 1,
           "label": "Single subject and title (Art. III, § 6)",
-          "rules": ["fl-constitutional-law.legislature.single-subject"],
+          "rules": [
+            "fl-constitutional-law.legislature.single-subject"
+          ],
           "points": 3,
           "mustSay": [
             "Every law must embrace one subject and matter properly connected with it, briefly expressed in the title; the rule prevents logrolling and gives notice",
@@ -153,7 +157,9 @@
           "id": "i3",
           "call": 3,
           "label": "Right of privacy: compelled DNA database",
-          "rules": ["fl-constitutional-law.declaration-of-rights.privacy"],
+          "rules": [
+            "fl-constitutional-law.declaration-of-rights.privacy"
+          ],
           "points": 4,
           "mustSay": [
             "Art. I, § 23 protects every natural person from governmental intrusion into private life; the Department's mandate is governmental action even though Cole works for a private contractor",
@@ -187,6 +193,312 @@
             "Rule. Article I, § 23 gives every natural person the right to be let alone and free from governmental intrusion into his or her private life. A claimant must first show a legitimate expectation of privacy in the matter, judged by the circumstances and societal norms. If she does, the State must justify the intrusion by showing a compelling state interest and that it used the least intrusive means to achieve it (Winfield v. Division of Pari-Mutuel Wagering). The clause applies only to government action.",
             "Application. Cole is a natural person, and the intrusion is governmental: a state statute compels her to give a DNA sample to a state agency that will analyze it and keep her genetic profile permanently. That her employer is private does not matter, because the State itself is requiring and receiving the sample. Cole has a strong, legitimate expectation of privacy in her genetic information, which can reveal health conditions, ancestry and family relationships. This differs sharply from City of North Miami v. Kurtz, where the court found no legitimate expectation of privacy in a job applicant's disclosure of tobacco use, a widely regulated and publicly visible habit.",
             "Strict scrutiny therefore applies, and the State is unlikely to satisfy it. 'Workforce health planning' is a vague goal that the State has not shown to be compelling, and nothing explains why individual genetic profiles, rather than aggregate or voluntary health data or targeted safety regulations, are needed to plan for workforce health. A permanent database containing the genetic profile of every employee in an industry is far from the least intrusive means. Section 3 likely violates Cole's right of privacy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.e03",
+      "title": "After the Storm",
+      "minutes": 60,
+      "topics": [
+        "fl-constitutional-law.legislature",
+        "fl-constitutional-law.executive",
+        "fl-constitutional-law.judiciary"
+      ],
+      "facts": [
+        "In September 2026 Hurricane Delphine caused severe damage along Florida's Gulf coast. The governor issued a proclamation convening the Legislature in special session 'for the sole purpose of considering legislation relating to hurricane recovery and property insurance.' He sent no other message or communication to the Legislature during the session.",
+        "On the third day of the session, a senator moved to introduce a bill increasing license fees for charter fishing boats, explaining that the charter industry was 'doing well despite the storm.' The motion to introduce carried 24 to 15 in the Senate and 70 to 48 in the House. Both houses then passed the Charter Boat Fee Act and the Storm Recovery Act by wide margins; neither act contains any appropriation. Both bills were presented to the governor on the eighth day of the session, and the Legislature adjourned sine die on the tenth day. The governor signed the Charter Boat Fee Act. He objected to one section of the Storm Recovery Act, which limits insurers' ability to cancel homeowners' policies, and he neither signed nor vetoed that act. Twenty days after presentation, his office announced that the Storm Recovery Act had 'died for lack of a signature.'",
+        "After the storm, Nora Vance, the elected supervisor of elections of Sawgrass County, failed to open dozens of polling places for a scheduled special election and ignored repeated written warnings from the state Division of Elections. The governor issued an executive order, filed with the custodian of state records, suspending her for neglect of duty and incompetence; the order recites those facts. He appointed an interim supervisor. The same week, Mayor Carl Ruiz of the City of Bayport was arrested on a state felony charge arising from storm-debris contracts that he had steered to a company owned by his brother, and the state attorney then filed an information charging him with that felony. No grand jury has indicted him. The governor issued an order suspending Ruiz from office, citing the arrest and the pending charge. Bayport's charter says nothing about suspending city officers.",
+        "Finally, Circuit Judge Owen Pike was recorded telling a lawyer that he would 'take care of' the lawyer's storm-insurance case if the lawyer's firm contributed to Pike's re-election campaign. Several members of the House of Representatives want to impeach Pike, and the Judicial Qualifications Commission has opened an investigation. Pike's lawyer has suggested that the quickest resolution would be for the governor to suspend Pike while the matter is sorted out."
+      ],
+      "calls": [
+        "Did the Charter Boat Fee Act and the Storm Recovery Act become valid laws? Explain.",
+        "Were the governor's suspensions of Vance and Ruiz valid, and what happens next in each case?",
+        "What constitutional procedures are available to discipline or remove Judge Pike, and may the governor suspend him?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Business outside the call of a special session",
+          "rules": [
+            "fl-constitutional-law.legislature.composition-and-sessions"
+          ],
+          "points": 4,
+          "mustSay": [
+            "When the governor convenes a special session by proclamation, only business within the purview of the proclamation or of a communication from the governor, or introduced by consent of two-thirds of the membership of each house, may be transacted (Art. III, § 3(c))",
+            "Charter-boat license fees are not hurricane recovery or property insurance, and the governor sent no communication on the subject",
+            "Two-thirds of the membership is 27 senators and 80 representatives; 24 and 70 votes fall short, so the bill was never validly introduced",
+            "The governor's signature does not cure the defect; the act is likely invalid"
+          ],
+          "conclusion": "No. The Charter Boat Fee Act was outside the call and was introduced without the consent of two-thirds of the membership of each house, so it is likely invalid despite the governor's signature."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Governor's inaction after adjournment: no pocket veto",
+          "rules": [
+            "fl-constitutional-law.legislature.passage-and-veto",
+            "fl-constitutional-law.legislature.appropriations-and-line-item-veto"
+          ],
+          "points": 3,
+          "mustSay": [
+            "A bill becomes law unless the governor vetoes it within 7 consecutive days after presentation; if the Legislature adjourns sine die during that period, the governor has 15 consecutive days from presentation (Art. III, § 8(a))",
+            "The Legislature adjourned two days after presentation, so the governor had 15 days, and he did nothing",
+            "Florida has no pocket veto, so the Storm Recovery Act became law without his signature",
+            "He could not have vetoed only the section he disliked: the item veto reaches only specific appropriations in a general appropriations bill"
+          ],
+          "conclusion": "Yes. The Storm Recovery Act became law without the governor's signature when the 15-day period expired."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "Suspension of a county officer",
+          "rules": [
+            "fl-constitutional-law.executive.suspension",
+            "fl-constitutional-law.local-government-and-finance.county-officers"
+          ],
+          "points": 3,
+          "mustSay": [
+            "The governor may suspend any county officer by executive order stating the grounds and filed with the custodian of state records, for listed grounds including neglect of duty and incompetence, and may fill the office by appointment (Art. IV, § 7(a))",
+            "The supervisor of elections is an elected county constitutional officer, and the order recites facts reasonably related to neglect of duty and incompetence",
+            "Courts ask only whether the order on its face alleges facts reasonably related to a constitutional ground (Israel v. DeSantis); the Senate then removes or reinstates her (§ 7(b))"
+          ],
+          "conclusion": "Valid. Vance's suspension satisfies § 7(a), and whether she is removed or reinstated is now for the Senate."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "Suspension of a municipal officer arrested and charged but not indicted",
+          "rules": [
+            "fl-constitutional-law.executive.suspension"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Section 7(a) does not reach municipal officers, and § 7(c) by its terms allows the governor to suspend an elected municipal officer indicted for crime, until acquittal; Ruiz has not been indicted",
+            "By general law, § 112.51 extends the governor's power to a municipal official who is arrested for a felony or for a misdemeanor related to the duties of office, or who is indicted or informed against",
+            "Ruiz was arrested on a felony charge and informed against, so the suspension is valid even without an indictment",
+            "The suspension lasts while the criminal case is pending; if Ruiz is acquitted or otherwise cleared of the charge, he must be restored to office"
+          ],
+          "conclusion": "Valid. Section 7(c) alone would require an indictment, but § 112.51 lets the governor suspend a municipal official who has been arrested for a felony or informed against, and Ruiz stays suspended until he is acquitted or otherwise cleared."
+        },
+        {
+          "id": "i5",
+          "call": 3,
+          "label": "Impeachment of a circuit judge",
+          "rules": [
+            "fl-constitutional-law.legislature.impeachment"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Circuit judges are liable to impeachment for misdemeanor in office, and the House impeaches by a two-thirds vote (Art. III, § 17)",
+            "Once impeached, Pike may not perform official duties until acquitted, and the governor may fill the office by appointment until the trial is completed (Art. III, § 17(b))",
+            "The Senate tries the impeachment with the chief justice, or a justice the chief justice designates, presiding; conviction requires two-thirds of the senators present",
+            "Judgment removes him from office and, in the Senate's discretion, may disqualify him from future office; it does not affect his criminal or civil liability"
+          ],
+          "conclusion": "The House may impeach Pike, and the Senate may convict and remove him."
+        },
+        {
+          "id": "i6",
+          "call": 3,
+          "label": "Judicial Qualifications Commission and the Supreme Court",
+          "rules": [
+            "fl-constitutional-law.judiciary.judicial-discipline"
+          ],
+          "points": 4,
+          "mustSay": [
+            "The JQC's investigative panel investigates and decides whether probable cause supports formal charges; its hearing panel tries the charges and recommends action to the Supreme Court (Art. V, § 12)",
+            "Available sanctions include reprimand, fine, suspension with or without pay, lawyer discipline, and removal for conduct demonstrating a present unfitness to hold office",
+            "The Supreme Court makes the final decision and may accept, reject or modify the commission's findings and recommendations",
+            "After formal charges are filed, the Supreme Court, at the commission's request, may suspend the judge from office with or without compensation until the proceeding is finally decided (Art. V, § 12(c))",
+            "Offering to decide a case in exchange for campaign contributions goes to the heart of judicial impartiality and likely warrants removal"
+          ],
+          "conclusion": "The JQC route, ending in a Supreme Court decision, is available and would likely lead to Pike's removal if the recording is authenticated."
+        },
+        {
+          "id": "i7",
+          "call": 3,
+          "label": "No gubernatorial suspension of judges",
+          "rules": [
+            "fl-constitutional-law.executive.suspension"
+          ],
+          "points": 2,
+          "mustSay": [
+            "The suspension power reaches only state officers not subject to impeachment, militia officers not in federal service, and county officers (Art. IV, § 7(a))",
+            "Circuit judges are subject to impeachment and are not county officers, so the governor has no power to suspend Pike",
+            "Interim removal from the bench comes instead through a Supreme Court suspension during the JQC proceeding or, after impeachment, through disqualification pending trial, with the governor filling the office by appointment until the trial ends"
+          ],
+          "conclusion": "No. The governor cannot suspend a circuit judge; his only interim role is to fill the office by appointment if the House impeaches Pike, while the Supreme Court may suspend Pike during the JQC proceeding."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Charter Boat Fee Act: rule. When the governor convenes the Legislature in special session by proclamation, Article III, § 3(c) limits the business that may be transacted to matters within the purview of the proclamation or of a communication from the governor, and to matters introduced by consent of two-thirds of the membership of each house. The two-thirds requirement is measured against the full membership (27 of the 40 senators and 80 of the 120 representatives), not against the members present or voting.",
+            "Application. The proclamation was limited to hurricane recovery and property insurance. A bill raising license fees for charter fishing boats, justified on the ground that the industry was doing well despite the storm, is neither hurricane-recovery nor insurance legislation, and the governor sent no communication that would bring it within the session's business. The motion to introduce it drew only 24 Senate votes and 70 House votes, short of the 27 and 80 required. The bill was therefore never validly before the Legislature, and passing it was business the special session had no authority to transact. The governor's later signature does not cure the defect: the constitution limits what the Legislature may do in the session, and it does not make the governor's approval of the finished bill a substitute for the required call or consent. The Charter Boat Fee Act is likely invalid.",
+            "Storm Recovery Act: rule. Under Article III, § 8(a), a bill becomes law if the governor signs it or fails to veto it within 7 consecutive days after presentation; if the Legislature adjourns sine die or recesses for more than 30 days during that period, the governor has 15 consecutive days from presentation to act. Florida has no pocket veto. Outside a general appropriations bill, the governor's only option is to veto the whole bill; the item veto in § 8(a) reaches only specific appropriations in a general appropriations bill.",
+            "Application. The Storm Recovery Act was within the call and was validly passed. It was presented on the eighth day, and the Legislature adjourned sine die on the tenth day, within the 7-day period, so the governor had 15 consecutive days from presentation. He neither signed nor vetoed it. His objection to one section could have been expressed only by vetoing the entire act within that time, because the act contains no appropriations and is not a general appropriations bill. When the 15 days expired, the act became law without his signature. His office's announcement on the twentieth day that the act had 'died for lack of a signature' rests on the federal pocket-veto concept, which Florida does not recognize. The Storm Recovery Act is law."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Rule. Article IV, § 7(a) allows the governor, by executive order stating the grounds and filed with the custodian of state records, to suspend any state officer not subject to impeachment, any militia officer not in the active service of the United States, or any county officer, for malfeasance, misfeasance, neglect of duty, drunkenness, incompetence, permanent inability to perform official duties, or commission of a felony, and to fill the office by appointment during the suspension. The Senate, in proceedings prescribed by law, then removes or reinstates the officer (§ 7(b)). Judicial review is narrow: the Supreme Court asks only whether the order, on its face, alleges facts bearing a reasonable relation to a constitutional ground, and leaves the weighing of evidence to the Senate (Israel v. DeSantis). Municipal officers are treated differently. Section 7(a) does not reach them. Under § 7(c), the governor may suspend an elected municipal officer who is indicted for crime, until acquittal, and the office may be filled by appointment during the suspension unless those powers are vested elsewhere by law or the municipal charter. By general law the Legislature has extended the governor's power: under § 112.51 the governor may suspend a municipal official who is arrested for a felony or for a misdemeanor related to the duties of office, or who is indicted or informed against.",
+            "Vance. A supervisor of elections is one of the five county constitutional officers that Article VIII, § 1(d) provides for the voters of each county to elect, so Vance is a county officer subject to § 7(a). The order was filed with the custodian of state records, states the grounds of neglect of duty and incompetence, and recites specific facts (failing to open dozens of polling places and ignoring repeated written warnings) that bear an obvious relation to those grounds. The suspension is valid, and the governor could appoint an interim supervisor. Vance's remedy lies with the Senate, which will decide whether to remove or reinstate her; a court would not reweigh the evidence.",
+            "Ruiz. A mayor is a municipal officer, not a county or state officer, so § 7(a) does not apply to him. Section 7(c) would not support the suspension by itself, because it speaks of an officer 'indicted for crime,' and no grand jury has indicted Ruiz. Section 112.51, however, reaches further: it authorizes the governor to suspend a municipal official who has been arrested for a felony, or who has been indicted or informed against. Ruiz was arrested on a felony charge, and the state attorney has filed an information charging him, so the suspension is valid. While suspended, Ruiz may not perform the duties of the office. His suspension is measured by the criminal case: if he is acquitted or otherwise cleared of the charge, the suspension must be lifted and he returns to office."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Impeachment. Article III, § 17 makes circuit judges liable to impeachment for misdemeanor in office, a term broad enough to reach serious misconduct in office. The House may impeach by a two-thirds vote, and an impeached officer may not perform any official duties until acquitted by the Senate; during that time the governor may fill the office by appointment until the trial is completed (§ 17(b)). The Senate tries the impeachment with the chief justice, or a justice the chief justice designates, presiding. Conviction requires the concurrence of two-thirds of the senators present; the judgment removes the officer and, in the Senate's discretion, may disqualify him from holding any office of honor, trust or profit. Conviction or acquittal does not affect the officer's civil or criminal responsibility. Offering to decide a case in return for campaign contributions is a corrupt misuse of judicial office that would support impeachment, and Pike could separately face criminal prosecution.",
+            "Judicial Qualifications Commission. Article V, § 12 provides the ordinary route for judicial discipline. The commission's investigative panel receives and investigates complaints and decides whether probable cause exists to file formal charges; the hearing panel then hears the charges and recommends action to the Supreme Court. Discipline may include reprimand, fine, suspension with or without pay, or lawyer discipline, and the commission may recommend removal for conduct that demonstrates a present unfitness to hold office. The Supreme Court makes the final decision and may accept, reject or modify the commission's findings and recommendations. Interim relief is also available: after formal charges are filed, the Supreme Court, at the commission's request, may suspend the judge from office, with or without compensation, until the proceeding is finally decided. That suspension, not action by the governor, is the constitutional route to taking Pike off the bench quickly. A recorded offer to 'take care of' a case in exchange for contributions strikes at the core of judicial impartiality, so if the facts are proved, removal is the likely result. The JQC proceeding and impeachment are independent; either or both may go forward.",
+            "Gubernatorial suspension. The governor cannot suspend Pike. The suspension power in Article IV, § 7(a) reaches only state officers not subject to impeachment, militia officers and county officers. Circuit judges are subject to impeachment and are not county officers, so they fall outside it; their discipline is committed to the House and Senate through impeachment and to the JQC and the Supreme Court under Article V. The governor's only interim role arises if the House impeaches Pike: Pike is then disqualified from his duties until the Senate acts, and the governor may fill the office by appointment until the trial is completed. Otherwise the suggestion by Pike's lawyer has no constitutional basis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.e04",
+      "title": "The Riverfront Plan",
+      "minutes": 60,
+      "topics": [
+        "fl-constitutional-law.local-government-and-finance",
+        "fl-constitutional-law.homestead-and-property",
+        "fl-constitutional-law.judiciary"
+      ],
+      "facts": [
+        "The City of Pelican Bend, a Florida municipality, adopted a riverfront redevelopment plan. Its centerpiece is a 6,000-seat ballpark that the city will own and lease for 30 years to the Pelican Bend Herons, a privately owned minor-league baseball team. The Herons will keep all ticket, concession and naming-rights revenue and will pay the city a fixed annual rent. The city commission adopted a resolution authorizing $60 million in 25-year bonds to build the ballpark, payable from and secured by a pledge of the city's ad valorem tax revenues. No referendum was held. The city filed a complaint in circuit court to validate the bonds, and a city taxpayer intervened to oppose validation.",
+        "The plan also calls for a privately owned hotel next to the ballpark. To assemble the hotel site, the city filed a petition in eminent domain to take a one-acre parcel that includes the house where Rosa Duarte, a 72-year-old widow, has lived for 30 years and which she claims as her homestead. The city intends to convey the acre to a private developer that will build and operate the hotel. The city's findings describe the neighborhood as 'blighted' and state that the hotel will 'stimulate economic development and expand the tax base.' Duarte argues that her homestead cannot be taken at all and that, if it can, she should receive more than the appraised market value because of her long attachment to the house.",
+        "While a city crew was demolishing an old city warehouse on the ballpark site, a city dump-truck driver glanced at his phone, rolled through a stop sign at the edge of the site, and struck Theo Lam, who was lawfully riding a bicycle through the intersection. Lam was seriously injured. He wants to sue the driver personally and the city for compensatory and punitive damages. He also wants to claim that the city was negligent two years ago when, after a budget debate, the city commission decided not to install a traffic signal at that intersection."
+      ],
+      "calls": [
+        "Should the circuit court validate the bonds as proposed, and where would an appeal from its judgment be heard?",
+        "May the city take Duarte's property for the hotel project? Address her homestead and compensation arguments.",
+        "Discuss Lam's claims against the driver and the city."
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Ad valorem-backed bonds without a referendum; lending the city's credit",
+          "rules": [
+            "fl-constitutional-law.local-government-and-finance.bonds-and-credit"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Bond validation asks whether the issuer has authority to issue the bonds, whether the purpose is legal, and whether the proceedings complied with law",
+            "Bonds payable from ad valorem taxes and maturing more than 12 months after issuance may finance capital projects only with voter approval (Art. VII, § 12); these 25-year bonds were never approved by the voters, so they cannot be validated",
+            "Pledging taxing power for a ballpark leased to a private team implicates the ban on lending the city's credit (Art. VII, § 10): the project must serve a paramount public purpose with only incidental private benefit",
+            "Revenue bonds payable solely from project revenues, such as the team's rent, need no referendum and only a valid public purpose"
+          ],
+          "conclusion": "No. Without a referendum the ad valorem-backed bonds cannot be validated, and even with voter approval the city would have to show a paramount public purpose."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Appeal of a bond-validation judgment",
+          "rules": [
+            "fl-constitutional-law.judiciary.supreme-court-mandatory"
+          ],
+          "points": 2,
+          "mustSay": [
+            "When provided by general law, the Supreme Court must hear appeals from final judgments in bond-validation proceedings (Art. V, § 3(b)(2))",
+            "Chapter 75 so provides, so the appeal goes directly to the Florida Supreme Court rather than to a district court of appeal"
+          ],
+          "conclusion": "Any appeal goes directly to the Florida Supreme Court."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "Taking for transfer to a private developer",
+          "rules": [
+            "fl-constitutional-law.homestead-and-property.eminent-domain"
+          ],
+          "points": 4,
+          "mustSay": [
+            "No private property may be taken except for a public purpose and with full compensation (Art. X, § 6(a))",
+            "Property taken by eminent domain may not be conveyed to a private person or entity except as provided by general law passed by a three-fifths vote of the membership of each house (§ 6(c))",
+            "The implementing statutes generally forbid conveying condemned property to private parties, with narrow exceptions such as common carriers and public utilities (§ 73.013), and forbid takings to prevent or eliminate slum or blight (§ 73.014)",
+            "Taking Duarte's home to convey it to a hotel developer for economic development and blight removal is barred in Florida even though Kelo v. City of New London would permit it under the Fifth Amendment"
+          ],
+          "conclusion": "No. The city may not take Duarte's property in order to convey it to the hotel developer."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "Homestead status and full compensation",
+          "rules": [
+            "fl-constitutional-law.homestead-and-property.forced-sale-exemption",
+            "fl-constitutional-law.homestead-and-property.eminent-domain"
+          ],
+          "points": 3,
+          "mustSay": [
+            "The homestead exemption protects against forced sale and liens for creditors' claims; it does not exempt homestead from a lawful taking for a public purpose",
+            "Full compensation is generally the fair market value of the property taken, paid to the owner or deposited in the court registry before title passes",
+            "Florida also requires the condemning authority to pay the owner's reasonable attorney's fees and costs (ch. 73), and some partial takings carry severance or business damages",
+            "Purely personal or sentimental value is generally not compensable"
+          ],
+          "conclusion": "Homestead status would not block a lawful taking, and sentiment would not raise the award, but here the taking fails on other grounds."
+        },
+        {
+          "id": "i5",
+          "call": 3,
+          "label": "Personal immunity of the city's employee",
+          "rules": [
+            "fl-constitutional-law.homestead-and-property.sovereign-immunity"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Under § 768.28(9)(a), a government officer, employee or agent is not personally liable in tort for acts within the scope of employment unless he acted in bad faith, with malicious purpose, or with wanton and willful disregard of human rights, safety or property",
+            "Glancing at a phone and rolling through a stop sign is ordinary negligence, not wanton and willful misconduct",
+            "The driver is immune, and Lam's exclusive remedy is an action against the city"
+          ],
+          "conclusion": "Lam cannot recover from the driver personally; he must sue the city."
+        },
+        {
+          "id": "i6",
+          "call": 3,
+          "label": "City's liability: operational acts, planning decisions and limits on recovery",
+          "rules": [
+            "fl-constitutional-law.homestead-and-property.sovereign-immunity"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Art. X, § 13 lets the Legislature waive sovereign immunity by general law, and § 768.28 makes the state and its subdivisions, including municipalities, liable in tort to the same extent as a private person",
+            "Negligent driving by an employee within the scope of employment is an operational act, so the city is liable (Commercial Carrier Corp. v. Indian River County)",
+            "The commission's budget decision not to install a traffic signal is a discretionary, planning-level decision that remains immune (Department of Transportation v. Neilson)",
+            "No punitive damages or prejudgment interest; recovery is subject to the statutory caps, with any excess payable only through a legislative claim bill; Lam must give written notice of the claim before suing"
+          ],
+          "conclusion": "The city is liable for the driver's negligence, within the statute's limits, but not for its decision about the traffic signal."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Rule. In a bond-validation proceeding under chapter 75, the court decides whether the public body has authority to issue the bonds, whether the purpose of the obligation is legal, and whether the authorizing proceedings complied with the law. Article VII, § 12 allows a municipality to issue bonds payable from ad valorem taxation and maturing more than twelve months after issuance only to finance or refinance capital projects authorized by law and only when approved by vote of the electors, or to refund outstanding bonds at a lower net average interest cost rate. Article VII, § 10 forbids the city to give, lend or use its taxing power or credit to aid any private corporation, association, partnership or person; when taxing power or credit is pledged, the project must serve a paramount public purpose and any benefit to private parties must be incidental. Revenue bonds payable solely from the revenues of the project need no referendum and must serve only a valid public purpose.",
+            "Application. The ballpark bonds run 25 years, are payable from and secured by the city's ad valorem tax revenues, and are not refunding bonds, yet no referendum was held. Article VII, § 12 forbids issuing them, so the court should refuse validation because the proceedings did not comply with the constitution. The taxpayer also has a strong lending-of-credit argument under § 10. The city will lease the ballpark for 30 years to a private team that keeps all ticket, concession and naming-rights revenue, so the private benefit is substantial; the city would have to show that the project's public purposes, such as public recreation and riverfront revitalization, are paramount and the team's benefit merely incidental, a demanding showing on these facts. To proceed, the city should either submit the bonds to the voters and build a record supporting a paramount public purpose, or restructure the financing as revenue bonds payable solely from the team's rent and other ballpark revenues, which would need no referendum and only a valid public purpose.",
+            "Appeal. Under Article V, § 3(b)(2), the Supreme Court, when provided by general law, must hear appeals from final judgments entered in proceedings for the validation of bonds. Chapter 75 so provides. Whichever side loses in the circuit court may therefore appeal directly to the Florida Supreme Court, bypassing the district court of appeal."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Rule. Article X, § 6(a) permits the taking of private property only for a public purpose and with full compensation paid to each owner or secured by deposit in the registry of the court and available to the owner. After the U.S. Supreme Court in Kelo v. City of New London (2005) upheld, under the Fifth Amendment, a taking for economic development that transferred property to private parties, Florida responded in 2006. Article X, § 6(c) now provides that property taken by eminent domain may not be conveyed to a natural person or private entity except as provided by general law passed by a three-fifths vote of the membership of each house. The implementing statutes generally prohibit such conveyances, subject to narrow exceptions for uses such as common carriers, public utilities and public infrastructure (§ 73.013), and forbid using eminent domain to prevent or eliminate slum or blight conditions or to abate a public nuisance (§ 73.014).",
+            "Application. The city plans to take Duarte's acre and convey it to a private developer to build and operate a hotel, and its stated reasons are eliminating 'blight' and stimulating economic development and the tax base. That is precisely the kind of taking Florida forbids. A privately owned hotel fits no statutory exception that would permit the conveyance, and blight elimination is an expressly prohibited purpose. Even if the Fifth Amendment, as construed in Kelo, would allow the taking, Florida's constitution and statutes do not. The city may not take Duarte's property for the hotel.",
+            "Homestead and compensation. Duarte's homestead argument would not protect her from a lawful taking. Article X, § 4 exempts homestead from forced sale and from judgment liens for creditors' claims, but it does not limit the government's power of eminent domain. If her home were taken for a genuine public use, such as a public road, she would be entitled to full compensation: generally the fair market value of the property, paid or deposited before title passes, plus her reasonable attorney's fees and costs, which chapter 73 requires the condemning authority to pay. Her long personal attachment to the house would not be separately compensated, because compensation is measured objectively rather than by sentimental value. On these facts, however, the taking fails before compensation is reached."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Rule. Article X, § 13 allows the Legislature to provide by general law for suits against the state and its subdivisions, and § 768.28 waives sovereign immunity in tort for the state, its agencies and its subdivisions, including municipalities, to the extent a private person would be liable under like circumstances. The waiver is limited: it excludes punitive damages and prejudgment interest, caps recovery per person and per incident (amounts above the caps can be paid only through a legislative claim bill), and requires written notice of the claim before suit. Discretionary, planning-level governmental decisions remain immune, while operational-level acts that carry out policy do not (Commercial Carrier Corp. v. Indian River County). Under § 768.28(9)(a), an officer, employee or agent is not personally liable for acts within the scope of employment unless he acted in bad faith, with malicious purpose, or in a manner exhibiting wanton and willful disregard of human rights, safety or property; otherwise the claimant's exclusive remedy is against the governmental entity.",
+            "The driver. The driver was operating a city truck on a city project, within the scope of his employment. Glancing at a phone and rolling through a stop sign is careless, but it is ordinary negligence, not bad faith, malice, or wanton and willful disregard of safety. He is personally immune, and Lam's claim must be brought against the city.",
+            "The city: the collision. Driving a vehicle is an operational activity, and a private employer would be vicariously liable for an employee's negligent driving within the scope of employment. The city is therefore liable to Lam for compensatory damages caused by the driver's negligence, subject to the statutory caps and after Lam satisfies the presuit notice requirement. Lam cannot recover punitive damages or prejudgment interest from the city.",
+            "The city: the traffic signal. The commission's decision, after a budget debate, not to install a traffic signal is a discretionary policy choice about allocating public resources. Decisions whether to install traffic control devices are planning-level functions that remain immune (Department of Transportation v. Neilson). Unless Lam can show that the city knew of a dangerous condition at the intersection that was not readily apparent and failed to warn of it or correct it (City of St. Petersburg v. Collom), this claim will be dismissed."
           ]
         }
       ]

@@ -220,6 +220,41 @@
           "rule": "The clerk may enter a default against a party who has failed to file or serve any document in the action; if the party has filed or served any document, the default must be sought from the court, and the party must be served with notice of the application. A party may plead or otherwise defend at any time before a default is entered. To set aside a default, the movant must show excusable neglect, a meritorious defense, and due diligence in seeking relief after learning of the default; a default final judgment is attacked under Rule 1.540(b).",
           "tip": "A default admits the well-pleaded allegations of liability but not the amount of unliquidated damages, on which the defaulted party is entitled to notice and an opportunity to be heard.",
           "authority": "Fla. R. Civ. P. 1.500, 1.540(b)"
+        },
+        {
+          "id": "fl-civil-procedure.pleadings-and-motions.temporary-injunctions",
+          "title": "Temporary injunctions (Rule 1.610)",
+          "weight": 2,
+          "rule": "A temporary injunction is an extraordinary remedy: the movant must show a substantial likelihood of success on the merits, a likelihood of irreparable harm, the lack of an adequate remedy at law, and that the injunction will serve the public interest, and the order must state its reasons and describe the restrained acts in reasonable detail. It may be entered without notice only if specific facts shown by affidavit or verified pleading demonstrate that immediate and irreparable injury will result before the adverse party can be heard, and the movant's attorney certifies in writing the efforts made to give notice and why notice should not be required. No temporary injunction may be entered unless the movant posts a bond, in an amount the court deems proper, to pay the costs and damages the adverse party sustains if it was wrongfully enjoined.",
+          "elements": [
+            "Substantial likelihood of success on the merits",
+            "Likelihood of irreparable harm",
+            "No adequate remedy at law",
+            "The injunction will serve the public interest"
+          ],
+          "exceptions": [
+            "An order entered without notice must define the injury, state findings explaining why the injury may be irreparable, and give the reasons for acting without notice; and only the affidavit or verified pleading may support the application unless the adverse party appears or had reasonable notice of the hearing (Rule 1.610(a)).",
+            "When the State, a municipality, or a state officer, agency or political subdivision obtains the injunction, the court may require or dispense with a bond (Rule 1.610(b)).",
+            "Rule 1.610(b) governs injunctions sought under the civil rules; some statutes set their own bond rules for particular injunctions. For example, § 542.335(1)(j) requires a proper bond before a temporary injunction enforcing a restrictive covenant and bars enforcement of any contract term that waives or limits that bond.",
+            "A party that has been temporarily enjoined may move to dissolve or modify the injunction at any time, and the motion must be heard within 5 days after the movant applies for a hearing (Rule 1.610(d))."
+          ],
+          "split": "Federal Rule 65(c) also calls for security, but many federal courts treat the amount, including no bond at all, as a matter for the trial court's discretion. Under Rule 1.610(b), Florida courts treat the bond as mandatory when a private party obtains the injunction.",
+          "tip": "An order that grants, denies, modifies or dissolves an injunction is an appealable nonfinal order (Rule 9.130(a)(3)(B)), so the enjoined party need not wait for a final judgment. Look for conclusory orders: one that merely recites 'irreparable harm' without supporting findings does not satisfy the rule.",
+          "trap": "Excusing the bond because the movant is very likely to win or the enjoined party can easily absorb any loss. For a private movant the court must set a bond.",
+          "authority": "Fla. R. Civ. P. 1.610; Fla. R. App. P. 9.130(a)(3)(B)"
+        },
+        {
+          "id": "fl-civil-procedure.pleadings-and-motions.parties-and-intervention",
+          "title": "Joinder of parties and intervention",
+          "weight": 1,
+          "rule": "An action may be prosecuted in the name of the real party in interest, and a personal representative, trustee or similar representative may sue in its own name without joining the beneficiaries. Any person may at any time be made a party if that person's presence is necessary or proper to a complete determination of the cause; an indispensable party, one whose interest is so bound up in the controversy that no complete and fair judgment can be rendered without affecting it, must be joined, but misjoinder of parties is not a ground for dismissal. Anyone claiming an interest in pending litigation may be permitted to intervene at any time, but the intervention is 'in subordination to, and in recognition of, the propriety of the main proceeding, unless otherwise ordered by the court in its discretion.'",
+          "elements": [
+            "The would-be intervenor's interest must be direct and immediate, so that it will gain or lose by the direct legal operation and effect of the judgment",
+            "If it is, the court decides in its discretion whether to allow intervention and on what terms, weighing such matters as the source and size of the interest, the potential for conflicts or new issues, and other relevant circumstances such as the stage of the case"
+          ],
+          "split": "Federal Rule 24(a) gives intervention of right to a person whose interest may be impaired and is not adequately represented. Florida's Rule 1.230 has no general intervention-of-right category: intervention is discretionary and, unless the court orders otherwise, subordinate.",
+          "tip": "Because intervention is subordinate, the intervenor generally takes the case as it finds it: it may not challenge the propriety of the main proceeding, inject new issues, or undo what has already been decided unless the court allows it. Failure to join an indispensable party is a Rule 1.140(b) defense that, under Rule 1.140(h)(2), may be raised as late as trial.",
+          "authority": "Fla. R. Civ. P. 1.210(a), 1.230, 1.250; Union Cent. Life Ins. Co. v. Carlisle, 593 So. 2d 505 (Fla. 1992)"
         }
       ]
     },
@@ -385,6 +420,39 @@
           ],
           "tip": "Dismissal or default is the most severe sanction and is reserved for extreme cases; a good answer discusses lesser alternatives first.",
           "authority": "Fla. R. Civ. P. 1.380; Mercer v. Raine, 443 So. 2d 944 (Fla. 1983); Kozel v. Ostendorf, 629 So. 2d 817 (Fla. 1993)"
+        },
+        {
+          "id": "fl-civil-procedure.discovery.experts",
+          "title": "Expert discovery and limits on bias discovery",
+          "weight": 2,
+          "rule": "A party may require another party, by interrogatory, to identify each expert it expects to call at trial and to state the subject matter, the substance of the facts and opinions to which the expert will testify, and a summary of the grounds for each opinion, and it may depose a disclosed trial expert without a court order. Facts known and opinions held by an expert retained in anticipation of litigation who is not expected to testify are discoverable only on a showing of exceptional circumstances that make it impracticable to obtain them by other means. Unless manifest injustice would result, the party seeking expert discovery pays the expert a reasonable fee for the time spent responding.",
+          "elements": [
+            "Scope of the expert's employment in the case and the compensation for that work",
+            "General litigation experience, including the share of work done for plaintiffs and for defendants",
+            "Identity of other cases, within a reasonable time, in which the expert testified by deposition or at trial",
+            "An approximation of the portion of the expert's professional work spent serving as an expert witness, which may be based on hours or on a percentage of hours or earned income"
+          ],
+          "exceptions": [
+            "The expert need not disclose his or her earnings as an expert witness or income from other services, and may be ordered to produce financial and business records only under the most unusual or compelling circumstances (Elkins v. Syken).",
+            "Those limits protect the expert, not the party that hired the expert: a party can be required to disclose its own financial relationship with its retained expert, such as how much it has paid the expert in other cases (Allstate Ins. Co. v. Boecher).",
+            "Boecher reaches only a party's own financial relationship with its expert. The Florida Supreme Court has declined to extend it to the financial relationship between a nonparty law firm, including the party's own counsel, and the expert (Dodgen v. Grijalva (Fla. 2021))."
+          ],
+          "tip": "The elements list the categories of bias discovery the rule allows from a testifying expert. Split bias-discovery questions into two targets: what may be demanded from the expert (limited to those categories) and what may be asked of the party that retained the expert (broader, under Boecher).",
+          "trap": "Ordering a retained expert to turn over tax returns or Forms 1099 to prove bias. The rule allows approximations, not the expert's personal financial records, absent most unusual or compelling circumstances.",
+          "authority": "Fla. R. Civ. P. 1.280 (trial-preparation experts); Elkins v. Syken, 672 So. 2d 517 (Fla. 1996); Allstate Ins. Co. v. Boecher, 733 So. 2d 993 (Fla. 1999)"
+        },
+        {
+          "id": "fl-civil-procedure.discovery.spoliation",
+          "title": "Spoliation of evidence",
+          "weight": 1,
+          "rule": "When a party to the lawsuit loses or destroys evidence that it had a duty to preserve, Florida does not recognize a separate cause of action against that party for 'first-party' spoliation; the remedy lies within the existing case. Depending on the party's culpability and the prejudice to the opponent, the court may impose sanctions (under Rule 1.380 when a discovery obligation or order is violated, and otherwise under its inherent authority), instruct the jury that it may infer the missing evidence would have been unfavorable to the party that lost it, or, when the loss hinders the opponent's ability to prove its case, apply a rebuttable presumption that shifts the burden of proof on the affected issue. Striking pleadings is reserved for willful or bad-faith destruction that seriously prejudices the opponent.",
+          "exceptions": [
+            "Martino addressed only spoliation by a party; Florida district courts have recognized an independent claim against a nonparty that destroys evidence it was obligated to preserve.",
+            "Absent exceptional circumstances, a court may not impose sanctions under the rules for electronically stored information lost as a result of the routine, good-faith operation of an electronic information system (Rule 1.380(e)). A deliberate deletion after a preservation request or service of the complaint is not routine, good-faith operation."
+          ],
+          "tip": "When a call asks whether the plaintiff can add a spoliation count against the defendant, answer no, then work through the remedies available in the main action, starting with the least severe.",
+          "trap": "Treating any loss of evidence as grounds for default. The harshest sanctions require findings of willfulness or bad faith and prejudice; a negligent loss usually supports only an inference or a burden-shifting presumption.",
+          "authority": "Martino v. Wal-Mart Stores, Inc., 908 So. 2d 342 (Fla. 2005); Pub. Health Tr. of Dade Cnty. v. Valcin, 507 So. 2d 596 (Fla. 1987); Fla. R. Civ. P. 1.380"
         }
       ]
     },
@@ -468,6 +536,25 @@
           "split": "Federal Rule 60(b)(6) has a catch-all for 'any other reason that justifies relief.' Florida's rule has no catch-all.",
           "trap": "A Rule 1.540 motion does not affect the finality of the judgment and does not toll the time to appeal it.",
           "authority": "Fla. R. Civ. P. 1.540"
+        },
+        {
+          "id": "fl-civil-procedure.summary-judgment-and-trial.res-judicata",
+          "title": "Res judicata and collateral estoppel",
+          "weight": 2,
+          "rule": "Res judicata (claim preclusion) bars a second suit after a final judgment on the merits by a court of competent jurisdiction when the four identities are present, and it bars every claim that was raised or could have been raised in the first action. Collateral estoppel (issue preclusion) bars relitigation of an issue that was actually litigated and necessarily decided in an earlier proceeding in which the party to be bound had a full and fair opportunity to litigate it. Florida generally requires mutuality of parties for collateral estoppel, whether it is asserted offensively or defensively: the parties to the second case, or their privies, must also have been parties to the first.",
+          "elements": [
+            "Identity of the thing sued for",
+            "Identity of the cause of action",
+            "Identity of the persons and parties to the actions",
+            "Identity of the quality or capacity of the persons for or against whom the claim is made"
+          ],
+          "exceptions": [
+            "The Florida Supreme Court has relaxed mutuality only narrowly, allowing defensive use against a convicted defendant who lost a postconviction claim of ineffective assistance and then sued his former defense lawyer for malpractice on the same theory (Zeidwig v. Ward)."
+          ],
+          "split": "Federal courts abandoned mutuality: nonmutual defensive collateral estoppel is generally allowed, and offensive use is left to the trial court's discretion (Parklane Hosiery Co. v. Shore). Florida has declined to follow that approach (Trucking Employees of N. Jersey Welfare Fund, Inc. v. Romano; Stogniew v. McQueen).",
+          "tip": "The elements list the four identities required for res judicata. For collateral estoppel, ask first whether the party invoking it was a party or privy in the first case; on a Florida question that usually ends the analysis.",
+          "trap": "Choosing the Parklane answer. A stranger to the first suit generally cannot use its findings against the party who lost it, however fully that party litigated.",
+          "authority": "Trucking Emps. of N. Jersey Welfare Fund, Inc. v. Romano, 450 So. 2d 843 (Fla. 1984); Zeidwig v. Ward, 548 So. 2d 209 (Fla. 1989); Stogniew v. McQueen, 656 So. 2d 917 (Fla. 1995)"
         }
       ]
     },

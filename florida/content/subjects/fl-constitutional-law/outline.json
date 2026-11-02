@@ -5,7 +5,9 @@
       "id": "fl-constitutional-law.declaration-of-rights",
       "title": "Declaration of Rights",
       "weight": 3,
-      "exams": ["FL"],
+      "exams": [
+        "FL"
+      ],
       "intro": "Article I often gives more protection than the federal Bill of Rights: an express right of privacy, an access-to-courts guarantee, and a constitutional right of access to public records and meetings. But its search-and-seizure and cruel-and-unusual-punishment clauses are locked to U.S. Supreme Court interpretations, so know where Florida goes further and where it cannot.",
       "rules": [
         {
@@ -97,7 +99,9 @@
       "id": "fl-constitutional-law.legislature",
       "title": "Legislature and lawmaking",
       "weight": 3,
-      "exams": ["FL"],
+      "exams": [
+        "FL"
+      ],
       "intro": "Article III governs how the Legislature is organized and how laws are made, with Florida-specific limits the federal Constitution lacks: a single-subject and title requirement, restrictions on special laws, and a line-item veto. Article II adds an express separation-of-powers clause that supports a strict nondelegation doctrine.",
       "rules": [
         {
@@ -156,6 +160,15 @@
           "rule": "The House may impeach the governor, lieutenant governor, Cabinet members, Supreme Court justices, and judges of the district courts of appeal, circuit courts and county courts for misdemeanor in office by a two-thirds vote; the officer may not perform official duties until acquitted. The Senate tries the impeachment with the chief justice (or a justice the chief justice designates) presiding, except that the governor presides at the trial of the chief justice. Conviction requires two-thirds of the senators present; the judgment removes the officer from office and, in the Senate's discretion, may also disqualify the officer from holding any office of honor, trust or profit.",
           "tip": "Officers who are not subject to impeachment (for example, state attorneys and sheriffs) are disciplined instead through the governor's suspension power under Art. IV, § 7.",
           "authority": "Art. III, § 17, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.legislature.apportionment",
+          "title": "Legislative apportionment and Fair Districts (Art. III, §§ 16, 20, 21)",
+          "weight": 1,
+          "rule": "In the second year after each decennial census the Legislature apportions the state into senate and house districts by joint resolution, which is not presented to the governor; within 15 days after passage the Attorney General must petition the Supreme Court for a declaratory judgment on the plan's validity, and the Court must enter judgment within 30 days after the petition is filed. No plan or district may be drawn with the intent to favor or disfavor a political party or an incumbent, or with the intent or result of denying racial or language minorities an equal opportunity to participate in the political process or diminishing their ability to elect representatives of their choice, and districts must be contiguous. Where those requirements and federal law allow, districts must also be as nearly equal in population as practicable, compact, and drawn along existing political and geographical boundaries where feasible.",
+          "tip": "If the Legislature fails to apportion, or the Court declares the plan invalid, the governor must reconvene the Legislature to try again, and if that also fails the Supreme Court draws the districts itself.",
+          "trap": "Congressional districts are different: they are drawn by an ordinary bill that the governor may sign or veto, they get no automatic Supreme Court review, and challenges under the Fair Districts standards in § 20 proceed as ordinary lawsuits beginning in circuit court. The minority-protection (non-diminishment) standards in both sections also yield to federal law: in 2025, in the Black Voters Matter challenge to the 2022 congressional map, the Florida Supreme Court upheld the map, reasoning that the standard could not be enforced to require a district that could be drawn only by letting race predominate, in violation of the federal Equal Protection Clause.",
+          "authority": "Art. III, §§ 16, 20, 21, Fla. Const."
         }
       ]
     },
@@ -163,7 +176,9 @@
       "id": "fl-constitutional-law.executive",
       "title": "Executive branch",
       "weight": 2,
-      "exams": ["FL"],
+      "exams": [
+        "FL"
+      ],
       "intro": "Florida's executive power is divided: the governor shares it with three independently elected Cabinet officers, and most clemency requires Cabinet approval. The governor's power to suspend officials and the 2018 restoration of felon voting rights are frequent exam topics.",
       "rules": [
         {
@@ -219,6 +234,20 @@
           "weight": 1,
           "rule": "When the constitution does not otherwise provide, the governor fills vacancies in state or county offices by appointment: for an appointive office, for the rest of the term; for an elective office, for the rest of the term if less than 28 months remain, and otherwise until the next general election produces a successor. The governor may request in writing the opinion of the Supreme Court justices on the interpretation of any portion of the constitution on a question affecting the governor's executive powers and duties.",
           "authority": "Art. IV, § 1(c), (f), Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.executive.dual-office-holding",
+          "title": "Dual office-holding (Art. II, § 5(a))",
+          "weight": 2,
+          "rule": "No person may hold at the same time more than one office under the government of the state and the counties and municipalities in it. The ban reaches any combination of state, county and municipal offices, applies whether or not either office is paid, and does not depend on any conflict between the two offices' duties; it covers only 'offices' (positions that exercise some part of the state's sovereign power), not public employment.",
+          "exceptions": [
+            "A notary public or military officer may hold another office.",
+            "Any officer may also serve on a constitution revision commission, a taxation and budget reform commission, a constitutional convention, or a statutory body having only advisory powers.",
+            "When a statute designates an existing officer to serve ex officio on another board, the service is treated as an added duty of the first office rather than as a second office."
+          ],
+          "tip": "Work in two steps: is each position an 'office' at all, and if so, does an exception apply? A board that makes binding decisions (granting variances, imposing fines, issuing licenses) is an office; a body that only gathers information and makes recommendations is not.",
+          "trap": "Do not require a conflict of duties or a salary. Holding a city commission seat and an unpaid seat on a county board with decision-making power violates § 5(a) even if the two bodies never deal with the same matters.",
+          "authority": "Art. II, § 5(a), Fla. Const."
         }
       ]
     },
@@ -226,7 +255,9 @@
       "id": "fl-constitutional-law.judiciary",
       "title": "Judiciary (Article V)",
       "weight": 3,
-      "exams": ["FL"],
+      "exams": [
+        "FL"
+      ],
       "intro": "Article V creates a four-tier court system and confines the Florida Supreme Court's jurisdiction to the categories it lists, so questions often ask whether the Court can hear a case at all. Judicial selection and retention, discipline, the Court's rulemaking power, and the 2018 ban on deference to agency interpretations are also tested.",
       "rules": [
         {
@@ -268,7 +299,7 @@
           "id": "fl-constitutional-law.judiciary.selection-and-retention",
           "title": "Judicial selection and merit retention",
           "weight": 3,
-          "rule": "A vacancy on the Supreme Court or a district court of appeal is filled by the governor from a list of three to six nominees certified by a judicial nominating commission, with the appointment made within 60 days after certification; the appointee then stands for a yes-or-no merit-retention vote at the next general election held more than one year after appointment, and every six years after that. Circuit and county judges, who both serve six-year terms, are chosen in nonpartisan elections, and vacancies in those offices are filled by the governor from nominating-commission lists.",
+          "rule": "A vacancy on the Supreme Court or a district court of appeal is filled by the governor from a list of three to six nominees certified by a judicial nominating commission, with the appointment made within 60 days after certification; the appointee then stands for a yes-or-no merit-retention vote at the next general election occurring at least one year after the appointment, and every six years after that. Circuit and county judges, who both serve six-year terms, are chosen in nonpartisan elections, and vacancies in those offices are filled by the governor from nominating-commission lists.",
           "tip": "The constitution lets each circuit or county opt by local vote to use merit selection and retention for its trial judges; voters have not adopted that option, so trial judges remain elected.",
           "authority": "Art. V, §§ 10, 11, Fla. Const."
         },
@@ -301,7 +332,9 @@
       "id": "fl-constitutional-law.local-government-and-finance",
       "title": "Local government, taxation and finance",
       "weight": 2,
-      "exams": ["FL"],
+      "exams": [
+        "FL"
+      ],
       "intro": "Article VIII gives charter counties and municipalities broad home-rule power, subject to state preemption, and Article VII controls taxation, homestead tax relief and borrowing. Distinguish charter from non-charter counties, taxes from special assessments, and ad valorem taxes from other taxes.",
       "rules": [
         {
@@ -358,6 +391,24 @@
           "rule": "Local governments may issue bonds payable from ad valorem taxes and maturing more than 12 months after issuance only to finance or refinance capital projects authorized by law and only with voter approval, or to refund outstanding bonds at a lower net average interest cost rate. Revenue bonds payable solely from non-ad valorem sources, such as utility revenues, need no referendum. The state and its subdivisions may not give, lend or use their taxing power or credit to aid any private corporation, association, partnership or person.",
           "tip": "In bond-validation cases, a pledge of taxing power or credit demands a paramount public purpose with only incidental private benefit; when only project revenues are pledged, a valid public purpose is enough.",
           "authority": "Art. VII, §§ 10, 12, Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.local-government-and-finance.county-officers",
+          "title": "Elected county constitutional officers (Art. VIII, § 1(d))",
+          "weight": 2,
+          "rule": "Section 1(d) provides for the electors of each county to elect, for four-year terms, a sheriff, a tax collector, a property appraiser, a supervisor of elections and a clerk of the circuit court. Under a 2018 amendment, a county charter may not abolish any of these offices, transfer their duties to another officer or office, change the four-year term, or establish any manner of selection other than election by the county's voters; charter-county home-rule power does not override that limit.",
+          "tip": "These five officers are county officers, so the governor may suspend them under Art. IV, § 7(a), and the Senate decides whether to remove or reinstate them.",
+          "trap": "Older materials say a county charter may make these offices appointive or abolish them (Miami-Dade, for example, long appointed its sheriff). Since the 2018 amendment a charter cannot do any of that, and local voter approval of a charter amendment does not cure the defect. Do not overstate the change, though: the first sentence of § 1(d) still allows a county officer to be chosen in another manner when provided by a special law approved by vote of the county's electors. The 2018 limit is written only for county charters, and no court has decided whether that special-law route still reaches these five offices.",
+          "authority": "Art. VIII, § 1(d), Fla. Const."
+        },
+        {
+          "id": "fl-constitutional-law.local-government-and-finance.public-education",
+          "title": "Public education and school boards (Art. IX)",
+          "weight": 1,
+          "rule": "The education of children is a fundamental value of the people of Florida, and it is a paramount duty of the state to make adequate provision by law for a uniform, efficient, safe, secure and high-quality system of free public schools. Each county is a school district governed by a school board of five or more members elected in nonpartisan elections for staggered four-year terms, and the board operates, controls and supervises all free public schools in the district and sets district school tax rates within constitutional limits.",
+          "tip": "Bush v. Holmes (2006) struck the original Opportunity Scholarship voucher program under the uniformity requirement of Art. IX, § 1(a). In Citizens for Strong Schools (2019) a divided court rejected a broad challenge to the adequacy of the public school system, treating the quality standards in § 1(a) as matters for the Legislature rather than the courts.",
+          "trap": "School board elections remain nonpartisan. A 2024 legislative proposal to make them partisan won a majority of the vote but fell short of the 60% needed for adoption.",
+          "authority": "Art. IX, §§ 1(a), 4, Fla. Const.; Bush v. Holmes, 919 So. 2d 392 (Fla. 2006); Citizens for Strong Schools, Inc. v. Fla. State Bd. of Educ., 262 So. 3d 127 (Fla. 2019)"
         }
       ]
     },
@@ -365,7 +416,9 @@
       "id": "fl-constitutional-law.amendment",
       "title": "Amending the constitution",
       "weight": 3,
-      "exams": ["FL"],
+      "exams": [
+        "FL"
+      ],
       "intro": "Florida's constitution can be changed by five methods and is amended often, so the exam tests the proposal methods, the single-subject and ballot-summary limits on citizen initiatives, and the 60% approval requirement. Expect at least one question on what the Supreme Court reviews in an initiative advisory opinion.",
       "rules": [
         {
@@ -415,7 +468,9 @@
       "id": "fl-constitutional-law.homestead-and-property",
       "title": "Homestead, eminent domain and sovereign immunity (Article X)",
       "weight": 2,
-      "exams": ["FL"],
+      "exams": [
+        "FL"
+      ],
       "intro": "Article X contains Florida's unusually strong homestead protections, its 'full compensation' takings clause, and the basis for sovereign immunity. Homestead questions overlap with Wills and Real Property, so learn the constitutional text precisely.",
       "rules": [
         {
