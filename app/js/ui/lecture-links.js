@@ -30,8 +30,10 @@ export function lectureAside(topic, { max = 4 } = {}) {
         h('a', { href: `#/lectures/${encodeURIComponent(m.lecture)}?t=${Math.floor(m.start)}` },
           h('span', byId.get(m.lecture).title), h('time.num', fmtClock(m.start))),
         m.why ? h('span.muted', m.why) : null))),
+      (links.tips?.[topic.id] || []).filter(([lid]) => byId.has(lid)).slice(0, 2).map(([lid, , start, text]) =>
+        h('a.lec-aside-tip', { href: `#/lectures/${encodeURIComponent(lid)}?t=${Math.floor(start)}` }, h('q', text))),
       rows.length > max ? h('a.linkish', { href: `#/lectures?topic=${encodeURIComponent(topic.id)}` }, `All ${plural(rows.length, 'lecture')} →`) : null,
-    ].filter(Boolean));
+    ].flat().filter(Boolean));
     box.hidden = false;
   })();
   return box;

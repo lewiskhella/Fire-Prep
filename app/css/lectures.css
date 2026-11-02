@@ -13,7 +13,7 @@
 .lec-search { flex: 1; min-width: 0; border: 0; background: none; padding: 12px 0; font-size: var(--fs-body); outline: none; }
 .lec-searchbar:focus-within { border-color: var(--margin); }
 .lec-filter { margin-bottom: var(--s5); }
-.lectures-page .chip[aria-pressed="true"]:hover { color: var(--paper); }
+.lectures-page .chip[aria-pressed="true"]:hover { color: var(--paper); background: var(--ink); border-color: var(--ink); }
 
 .lec-shelf { margin: 0 0 var(--s6); }
 .lec-shelf-head {
@@ -111,3 +111,17 @@
 .lec-aside time { margin-left: var(--s2); color: var(--margin); font-size: var(--fs-small); }
 .lec-aside li .muted { display: block; font-size: var(--fs-small); }
 @media print { .lec-aside, .lec-player { display: none; } }
+
+/* Exam tips flagged by the lecturer */
+.lec-tip { background: var(--brass-wash); box-shadow: inset 0 -2px 0 var(--brass); color: inherit; padding: 0 2px; border-radius: 2px; }
+.lec-passage.has-tip .lec-stamp::after { content: "★"; display: block; color: var(--brass); font-size: 11px; line-height: 1.2; }
+.lec-tips-chip svg { width: 13px; height: 13px; color: var(--brass); }
+.lec-tipbox { margin: var(--s6) 0 0; border-top: 1px solid var(--hair); padding-top: var(--s4); max-width: var(--measure); }
+.lec-tipbox h2 { display: flex; gap: var(--s2); align-items: center; color: var(--brass); margin: 0 0 var(--s3); }
+.lec-tipbox h2 svg { width: 14px; height: 14px; }
+.lec-tipbox ol { margin: 0; padding-left: 1.2em; }
+.lec-tipbox li { margin: 0 0 var(--s3); }
+.lec-tipbox a { text-decoration: none; }
+.lec-tipbox q, .lec-aside-tip q { font-family: var(--serif); font-size: var(--fs-body); color: var(--ink); }
+.lec-tipbox time { color: var(--margin); font-size: var(--fs-small); }
+.lec-aside-tip { display: block; margin: var(--s2) 0; padding-left: var(--s3); border-left: 2px solid var(--brass); text-decoration: none; }

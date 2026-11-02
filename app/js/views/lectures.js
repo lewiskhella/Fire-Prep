@@ -64,6 +64,20 @@ function marked(text, query) {
   return highlightRuns(text, query).map(r => (r.hit ? h('mark', r.text) : r.text));
 }
 
+function withTips(text, tips) {
+  if (!tips || !tips.length) return [text];
+  const out = [];
+  let rest = text;
+  for (const tip of tips) {
+    const i = rest.indexOf(tip);
+    if (i < 0) continue;
+    out.push(rest.slice(0, i), h('mark.lec-tip', { title: 'Flagged by the lecturer' }, tip));
+    rest = rest.slice(i + tip.length);
+  }
+  out.push(rest);
+  return out;
+}
+
 function subjectDot(meta) {
   return h('span.tab-dot', { style: meta.tab ? { '--tab': meta.tab } : null });
 }
@@ -172,6 +186,7 @@ async function momentsView(id, isRule, index, names) {
   const t = isRule ? null : names.topic(id);
   const label = isRule ? id.split('.').pop().replace(/-/g, ' ') : t.title;
   const byId = new Map(index.lectures.map(l => [l.id, l]));
+  const tips = (!isRule && links?.tips?.[id]) || [];
   const rows = await Promise.all(moments.map(async m => {
     const lec = await lecture(m.lecture);
     const ch = lec?.chunks?.[m.chunk];
@@ -187,6 +202,11 @@ async function momentsView(id, isRule, index, names) {
             h('span.lec-hit-where', h('span', meta.title), h('time.num', fmtClock(m.start))),
             h('span.lec-hit-text', snippet(text, label, 300))))))
       : emptyState('No lecture passages matched this yet.', 'They appear as more transcripts are indexed.'),
+    tips.length ? h('section.lec-tipbox',
+      h('h2.smallcaps', icon('star'), 'What the lecturers flag'),
+      h('ol', tips.filter(([lid]) => byId.has(lid)).map(([lid, , start, text]) => h('li',
+        h('a', { href: `#/lectures/${encodeURIComponent(lid)}?t=${Math.floor(start)}` },
+          h('q', text), h('span.muted', ` — ${byId.get(lid).title}, `), h('time.num', fmtClock(start))))))) : null,
     !isRule && !String(t.subject).startsWith('fl-')
       ? h('p', h('a.btn.ghost.sm', { href: topicHref(id, names) }, icon('outline'), 'Open the outline'))
       : null);
@@ -200,7 +220,7 @@ async function readerView(id, query, index, names) {
   const meta = names.subject(lec.subject);
   const p = prefs();
   const chunks = lec.chunks;
-  let activeTopic = query.topic || null;
+  let activeTopic = query.tips ? '#tips' : query.topic || null;
   let current = -1;
   let follow = true;
 
@@ -237,10 +257,10 @@ async function readerView(id, query, index, names) {
     }, fmtClock(ch.start));
     const tags = ch.tags.map((t, k) => h(k === 0 ? 'a.pill.lec-topic' : 'a.pill.lec-topic.minor', { href: topicHref(t.topic, names), title: `match ${t.score}` }, names.topic(t.topic).title));
     const rules = (ch.rules || []).map(r => h('a.lec-rule', { href: ruleHref(r) }, icon('link'), r.rule.split('.').pop().replace(/-/g, ' ')));
-    return h('li.lec-passage', { dataset: { i: ch.i, topics: ch.tags.map(t => t.topic).join(' ') } },
+    return h('li.lec-passage', { class: ch.tips?.length ? 'has-tip' : null, dataset: { i: ch.i, topics: ch.tags.map(t => t.topic).join(' ') } },
       stampBtn,
       h('div.lec-passage-body',
-        h('p.lec-text', ch.text),
+        h('p.lec-text', withTips(ch.text, ch.tips)),
         tags.length || rules.length ? h('div.lec-tags', tags, rules) : null));
   });
   const list = h('ol.lec-passages', items);
@@ -268,9 +288,19 @@ async function readerView(id, query, index, names) {
     type: 'button', 'aria-pressed': String(activeTopic === t.topic), dataset: { topic: t.topic },
     onclick: () => { activeTopic = activeTopic === t.topic ? null : t.topic; applyFilter(); },
   }, names.topic(t.topic).title, h('span.muted.num', ` ${Math.max(1, Math.round(t.seconds / 60))}m`)));
+  const tipCount = chunks.filter(ch => ch.tips?.length).length;
+  if (tipCount) {
+    topicChips.unshift(h('button.chip.lec-tips-chip', {
+      type: 'button', 'aria-pressed': String(activeTopic === '#tips'), dataset: { topic: '#tips' },
+      onclick: () => { activeTopic = activeTopic === '#tips' ? null : '#tips'; applyFilter(); },
+    }, icon('star'), 'Exam tips', h('span.muted.num', ` ${tipCount}`)));
+  }
   function applyFilter() {
     for (const c of topicChips) c.setAttribute('aria-pressed', String(c.dataset.topic === activeTopic));
-    for (const li of items) li.hidden = !!activeTopic && !li.dataset.topics.split(' ').includes(activeTopic);
+    for (const li of items) {
+      li.hidden = activeTopic === '#tips' ? !li.classList.contains('has-tip')
+        : !!activeTopic && !li.dataset.topics.split(' ').includes(activeTopic);
+    }
   }
 
   // ---- neighbours in the same folder

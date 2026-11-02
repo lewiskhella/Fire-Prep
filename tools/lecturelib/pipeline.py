@@ -21,12 +21,39 @@ from .taxonomy import Subject, Topic
 
 SCHEMA_VERSION = 1
 # Bump when tagging, chunking or tokenising changes so cached lectures are redone.
-PIPELINE_VERSION = 2
+PIPELINE_VERSION = 3
 TARGET_CHUNK_SECONDS = 75.0
 MAX_CHUNK_SECONDS = 150.0
 MIN_TOPIC_SCORE = 0.12
 MIN_RULE_SCORE = 0.16
 _SENTENCE_END = re.compile(r"[.!?][\"')\]]?$")
+_SENTENCES = re.compile(r"(?<=[.!?])\s+(?=[A-Za-z\"'(])")
+# Phrases lecturers use when they flag exam material.
+_TIP_CUES = [
+    (re.compile(r"\b(on|for) (the|your) (bar |florida )?exam\b", re.I), 3),
+    (re.compile(r"\b(bar )?examiners?\b", re.I), 3),
+    (re.compile(r"\b(heavily |frequently |always |often )?tested\b", re.I), 2),
+    (re.compile(r"\b(trap|tricky|trick question|red flag|common mistake|gotcha)\b", re.I), 3),
+    (re.compile(r"\b(favou?rite|loves? to|love to test)\b", re.I), 2),
+    (re.compile(r"\b(memori[sz]e|remember|don'?t forget|do not forget|never forget)\b", re.I), 2),
+    (re.compile(r"\b(watch out|be careful|make sure|key (point|thing|word|issue)|important|critical)\b", re.I), 1),
+    (re.compile(r"\b(the rule is|the test is|elements are|black ?letter)\b", re.I), 2),
+    (re.compile(r"\b(always|never)\b", re.I), 1),
+]
+
+
+def exam_tips(text: str, limit: int = 2) -> list[str]:
+    """Sentences where the lecturer flags exam material, strongest first."""
+    scored = []
+    for sent in _SENTENCES.split(text):
+        n = len(sent.split())
+        if n < 6 or n > 70:
+            continue
+        score = sum(w for rx, w in _TIP_CUES if rx.search(sent))
+        if score >= 2:
+            scored.append((score, sent.strip()))
+    scored.sort(key=lambda x: -x[0])
+    return [t for _, t in scored[:limit]]
 
 
 # ---------------------------------------------------------------- discovery
@@ -236,6 +263,7 @@ def process_lecture(path: Path, root: Path, tagger: Tagger, media_root: Path | N
                 "text": ch["text"],
                 "tags": tags,
                 "rules": rules,
+                "tips": exam_tips(ch["text"]),
             }
         )
     named = tagger.guess_subject_from_name(rel)
@@ -367,6 +395,7 @@ def build_links(out: Path, entries: list[dict], per_target: int = 8) -> dict:
     """topic id / rule id -> best lecture moments, for 'Watch the lecture' links."""
     topics: dict[str, list] = defaultdict(list)
     rules: dict[str, list] = defaultdict(list)
+    tips: dict[str, list] = defaultdict(list)
     for e in entries:
         lec = json.loads((out / "lectures" / f"{e['id']}.json").read_text(encoding="utf-8"))
         for ch in lec["chunks"]:
@@ -374,6 +403,9 @@ def build_links(out: Path, entries: list[dict], per_target: int = 8) -> dict:
                 topics[tag["topic"]].append([e["id"], ch["i"], ch["start"], tag["score"]])
             for r in ch["rules"]:
                 rules[r["rule"]].append([e["id"], ch["i"], ch["start"], r["score"]])
+            if ch.get("tips") and ch["tags"]:
+                for tip in ch["tips"]:
+                    tips[ch["tags"][0]["topic"]].append([e["id"], ch["i"], ch["start"], tip])
 
     def best(moments):
         # One moment per lecture (its best), then the strongest lectures first.
@@ -388,6 +420,8 @@ def build_links(out: Path, entries: list[dict], per_target: int = 8) -> dict:
         "fields": ["lecture", "chunk", "start", "score"],
         "topics": {k: best(v) for k, v in sorted(topics.items())},
         "rules": {k: best(v) for k, v in sorted(rules.items())},
+        "tipFields": ["lecture", "chunk", "start", "text"],
+        "tips": {k: v[:12] for k, v in sorted(tips.items())},
     }
 
 

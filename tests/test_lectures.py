@@ -175,6 +175,15 @@ class PipelineTests(unittest.TestCase):
         links = json.loads((self.out / "links.json").read_text())
         self.assertIn("evidence.hearsay-803.excited-utterance", links["rules"])
 
+    def test_exam_tips_are_extracted_and_linked(self):
+        self._build()
+        links = json.loads((self.out / "links.json").read_text())
+        tips = [t[3] for t in links["tips"].get("fl-wills.intestacy", [])]
+        self.assertTrue(any(t.startswith("Remember too the slayer rule") for t in tips), tips)
+        self.assertEqual(pipeline.exam_tips("Okay. So."), [])
+        self.assertEqual(pipeline.exam_tips("The examiners love this trap on the exam every single time."),
+                         ["The examiners love this trap on the exam every single time."])
+
     def test_florida_and_ube_twins_resolved_by_content(self):
         manifest, _ = self._build(library=LIBRARY)
         by_title = {l["title"]: l for l in manifest["lectures"]}

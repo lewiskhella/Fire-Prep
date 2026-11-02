@@ -1,0 +1,21 @@
+{
+  "note": "Catalog entries for the Florida Part A subjects. tools/install_florida.py appends these to content/catalog.json. Ids match tools/lecturelib/taxonomies/florida.json so lecture links work automatically.",
+  "exam": {
+    "id": "FL", "name": "Florida Bar Exam, Part A", "short": "FL Part A",
+    "note": "Florida's General Bar Examination pairs Part A (Florida law: essays and multiple choice) with Part B (the MBE). Confirm the current format with the Florida Board of Bar Examiners."
+  },
+  "subjects": [
+    { "id": "fl-civil-procedure", "name": "Florida Civil Procedure", "short": "FL Civ Pro", "group": "florida", "exams": ["FL"], "tab": "#2E5E7E", "blurb": "The Florida Rules of Civil and General Practice and Judicial Administration: service, pleadings, discovery, summary judgment, proposals for settlement and appeals." },
+    { "id": "fl-constitutional-law", "name": "Florida Constitutional Law", "short": "FL Con Law", "group": "florida", "exams": ["FL"], "tab": "#7E2F2F", "blurb": "The Florida Constitution: the Declaration of Rights, the three branches, Article V courts, local government and amendment." },
+    { "id": "fl-business-entities", "name": "Business Entities (Florida)", "short": "FL Business", "group": "florida", "exams": ["FL"], "tab": "#344F7A", "blurb": "Florida corporations, LLCs and partnerships, plus agency: formation, fiduciary duties, liability and dissolution." },
+    { "id": "fl-wills", "name": "Florida Wills & Estates", "short": "FL Wills", "group": "florida", "exams": ["FL"], "tab": "#5E4130", "blurb": "The Florida Probate Code: intestacy, execution and revocation, elective share, pretermitted heirs, homestead, and estate administration." },
+    { "id": "fl-trusts", "name": "Florida Trusts", "short": "FL Trusts", "group": "florida", "exams": ["FL"], "tab": "#2F6E7C", "blurb": "The Florida Trust Code: creation, revocable trusts, trustee duties, spendthrift and creditor rules, modification and termination." },
+    { "id": "fl-family-law", "name": "Florida Family Law", "short": "FL Family", "group": "florida", "exams": ["FL"], "tab": "#93455F", "blurb": "Chapter 61 dissolution, equitable distribution, alimony, parenting plans, child support and relocation, plus Chapter 39 dependency." },
+    { "id": "fl-evidence", "name": "Florida Evidence", "short": "FL Evidence", "group": "florida", "exams": ["FL"], "tab": "#2A675D", "blurb": "The Florida Evidence Code (Chapter 90) and where it departs from the Federal Rules." },
+    { "id": "fl-criminal", "name": "Florida Criminal Law & Procedure", "short": "FL Criminal", "group": "florida", "exams": ["FL"], "tab": "#53427A", "blurb": "Florida crimes and defenses, constitutional criminal procedure, and the Florida Rules of Criminal Procedure." },
+    { "id": "fl-real-property", "name": "Florida Real Property", "short": "FL Property", "group": "florida", "exams": ["FL"], "tab": "#556E2E", "blurb": "Homestead, conveyancing and recording, residential landlord-tenant law, mortgages and foreclosure, and ownership." },
+    { "id": "fl-torts", "name": "Florida Torts", "short": "FL Torts", "group": "florida", "exams": ["FL"], "tab": "#9E4E33", "blurb": "Florida negligence and comparative fault, Florida-specific liability doctrines, sovereign immunity, limitations and damages." },
+    { "id": "fl-ucc", "name": "UCC Articles 3 & 9", "short": "FL UCC", "group": "florida", "exams": ["FL"], "tab": "#6E5F33", "blurb": "Negotiable instruments and secured transactions as tested on Florida Part A." },
+    { "id": "fl-professional-responsibility", "name": "Florida Professional Responsibility", "short": "FL Ethics", "group": "florida", "exams": ["FL"], "tab": "#4F5A63", "blurb": "The Rules Regulating The Florida Bar: fees, trust accounts, confidentiality, conflicts, advertising and discipline." }
+  ]
+}
