@@ -3,8 +3,7 @@
 //   #/lectures?topic=<id>         every lecture moment on a topic (or ?rule=<id>)
 //   #/lectures/<lectureId>?t=90   read a lecture passage by passage; play from any passage
 //
-// Data comes from tools/lectures.py (private/lectures/). It is the student's
-// private study aid and is never part of the published content library.
+// Data comes from tools/lectures.py (content/lectures/).
 
 import { h, swap, debounce, plural } from '../lib/dom.js';
 import { catalog } from '../lib/content.js';
@@ -73,11 +72,11 @@ function subjectDot(meta) {
 
 function setupView() {
   return page('narrow lectures-page',
-    header({ sec: '11', kicker: 'Private', title: 'Lectures', lede: 'Search and replay your own bar-review lectures, matched to the outline topic each passage covers.' }),
+    header({ sec: '11', kicker: 'Lecture library', title: 'Lectures', lede: 'Search and replay your own bar-review lectures, matched to the outline topic each passage covers.' }),
     emptyState('No lecture index yet.',
       'Build one from your transcripts (.srt, .vtt, Whisper .json, .tsv or .txt). Run this from the app folder, then reload:',
       h('div.lec-setup',
-        h('pre.lec-cmd', 'python3 tools/lectures.py build \\\n  --transcripts "/path/to/Florida Bar videos" \\\n  --library . --out private/lectures'),
+        h('pre.lec-cmd', 'python3 tools/lectures.py build \\\n  --transcripts "/path/to/Florida Bar videos" \\\n  --library .'),
         h('p.muted', 'Re-run it as more lectures finish transcribing; unchanged files are skipped. Add --watch 600 to refresh every 10 minutes.'))));
 }
 
@@ -150,7 +149,7 @@ function libraryView(query, index, names) {
 
   return page('lectures-page',
     header({
-      sec: '11', kicker: 'Private · your lectures', title: 'Lectures',
+      sec: '11', kicker: 'Lecture library', title: 'Lectures',
       lede: 'Every lecture is cut into short passages and matched to the outline topic it teaches. Search them all, or open one and play it from any passage.',
       aside: h('dl.lec-totals',
         h('div', h('dt.smallcaps', 'Lectures'), h('dd.num', totals.lectures ?? index.lectures.length)),
@@ -161,8 +160,8 @@ function libraryView(query, index, names) {
     chips,
     results,
     listWrap,
-    index.errors?.length ? h('p.muted.lec-skipped', `${plural(index.errors.length, 'transcript')} could not be read; see private/lectures/index.json.`) : null,
-    h('p.muted.lec-fine', 'Built from your own transcripts by tools/lectures.py and kept on this machine. The lecture wording belongs to its authors: use it to study, not to copy into the library.'));
+    index.errors?.length ? h('p.muted.lec-skipped', `${plural(index.errors.length, 'transcript')} could not be read; see content/lectures/index.json.`) : null,
+    h('p.muted.lec-fine', 'Rebuild with tools/lectures.py build as more lectures are transcribed.'));
 }
 
 // ------------------------------------------------------------------ moments

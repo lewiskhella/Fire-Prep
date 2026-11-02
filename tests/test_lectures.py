@@ -129,7 +129,6 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(by_title["Homestead"]["topTopics"][0]["topic"], "fl-real-property.homestead")
         self.assertEqual(by_title["Untimed Notes"]["timing"], "estimated")
         self.assertEqual(manifest["errors"], [])
-        self.assertTrue(manifest["private"])
         links = json.loads((self.out / "links.json").read_text())
         self.assertIn("fl-wills.intestacy", links["topics"])
 

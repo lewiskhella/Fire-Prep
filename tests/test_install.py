@@ -72,7 +72,7 @@ class InstallerTests(unittest.TestCase):
         self.assertIn("import { lectureAside } from '../ui/lecture-links.js';", topic)
         self.assertIn("    lectureAside(t),\n    rules.length ? list", topic)
         self.assertTrue((self.app / "tools/lecturelib/pipeline.py").exists())
-        self.assertIn("private/", (self.app / ".gitignore").read_text())
+        self.assertFalse((self.app / ".gitignore").exists())
 
         code, out = self.run_inst()
         self.assertEqual(code, 0)

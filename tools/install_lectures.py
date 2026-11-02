@@ -12,7 +12,6 @@ What it does (every changed file is backed up to <app>/.lectures-backup/<time>/)
   * shell.js     adds "§11 Lectures" to the navigation
   * index.html   links css/lectures.css
   * topic.js     shows an "On tape" box (best lecture moments) on each outline topic
-  * .gitignore   ignores private/ (the lecture index holds lecture wording)
 
 Each edit is anchored on a line of the existing code and is skipped, with a
 warning, if that line has changed, so it is safe to run while the app is
@@ -175,22 +174,12 @@ def install(app: Path, dry: bool) -> int:
         target.write_text(new, encoding="utf-8")
         print(f"  edited      {p.path}: {p.describe}")
 
-    gi = app / ".gitignore"
-    if not gi.exists() or "private/" not in gi.read_text(encoding="utf-8"):
-        if dry:
-            print("  would add   private/ to .gitignore")
-        else:
-            backup(app, ".gitignore", stamp_dir, dry)
-            with open(gi, "a", encoding="utf-8") as f:
-                f.write("\n# Private lecture index built from your own transcripts (tools/lectures.py)\nprivate/\n")
-            print("  edited      .gitignore: private/")
-
     if not dry:
         stamp_dir.mkdir(parents=True, exist_ok=True)
         (stamp_dir / "CREATED.txt").write_text("\n".join(created) + ("\n" if created else ""), encoding="utf-8")
         print(f"\nBackup: {stamp_dir}")
     print("\nNext: build the index, then open http://localhost:4321/app/#/lectures")
-    print('  python3 tools/lectures.py build --transcripts "/path/to/Florida Bar videos" --library . --out private/lectures')
+    print('  python3 tools/lectures.py build --transcripts "/path/to/Florida Bar videos" --library .')
     return 1 if warnings else 0
 
 
@@ -213,7 +202,7 @@ def uninstall(app: Path, dry: bool) -> int:
         print(f"  remove      {rel}")
         if not dry and target.exists():
             shutil.rmtree(target) if target.is_dir() else target.unlink()
-    print("Restored the files from the first install's backup. private/ (your lecture index) was left alone.")
+    print("Restored the files from the first install's backup. content/lectures/ (the lecture index) was left alone.")
     return 0
 
 

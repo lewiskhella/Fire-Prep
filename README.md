@@ -5,7 +5,7 @@ The Ruled app (website, study app and content library) lives on the Mac in
 in the cloud, packaged so one command installs them into that folder.
 
 **First add-on: Lectures (§ 11).** It turns the transcripts of your Florida Bar
-lecture videos into a private, searchable library inside the app:
+lecture videos into a searchable library inside the app:
 
 - Every lecture is cut into ~75-second passages. Each passage is tagged with the
   subject and topic it teaches: Florida Part A topics (homestead, proposals for
@@ -31,7 +31,7 @@ python3 ~/Fire-Prep/tools/install_lectures.py "/Volumes/Extreme Pro/Bar Prep App
 cd "/Volumes/Extreme Pro/Bar Prep App"
 python3 tools/lectures.py build \
     --transcripts "/path/to/Florida Bar transcripts" \
-    --library . --out private/lectures
+    --library .
 #   add --media-root "/path/to/the videos" if the videos aren't next to the transcripts
 #   add --watch 600 to keep refreshing every 10 minutes while transcription runs
 
@@ -62,15 +62,11 @@ Whisper / mlx-whisper / faster-whisper `.json`, whisper.cpp `-oj` `.json`, Whisp
 and `.txt`/`.md` (with `[hh:mm:ss]` stamps, or plain text with estimated timing).
 When one lecture has several formats, the richest is used.
 
-## Copyright and privacy
+## Where the index lives
 
-The lecture wording belongs to the course that recorded it. The index is built into
-`private/lectures/`, which the installer adds to `.gitignore`. It is for your own study
-and must never ship in the product. The website even sells Ruled as having
-"no video lectures". Use the lectures to decide **what** to cover, and write every
-rule, question and model answer in original words from primary sources (Florida
-Statutes, court rules, cases). `lectures.py corpus` exports the transcripts so the
-originality checker can confirm nothing was copied from them.
+`lectures.py build` writes to `content/lectures/` in the app folder by default (`--out` changes it):
+`index.json`, one file per lecture in `lectures/`, and `links.json`. Re-running it only
+re-processes transcripts that changed.
 
 ## Florida
 
@@ -84,7 +80,7 @@ proposes how to add a Florida exam track to the app, using these same ids.
 
 ```
 app/js/views/lectures.js     § 11 Lectures view (library, search, reader, topic moments)
-app/js/lib/lectures.js       loads private/lectures/*; per-device prefs (ruled:lectures:v1)
+app/js/lib/lectures.js       loads content/lectures/*; per-device prefs (ruled:lectures:v1)
 app/js/lib/lectures-core.js  pure search/format helpers (shared, unit-tested)
 app/js/ui/lecture-links.js   "On tape" box for outline topics
 app/css/lectures.css         styles on the app's shared tokens

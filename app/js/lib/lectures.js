@@ -1,11 +1,11 @@
-// Loads the PRIVATE lecture index that tools/lectures.py builds from the
-// student's own lecture transcripts (default: <project>/private/lectures/).
+// Loads the lecture index that tools/lectures.py builds from the lecture
+// transcripts (default: <project>/content/lectures/).
 // Everything here is optional: with no index the Lectures section explains
 // how to build one, and the topic pages simply show no lecture links.
 
 import { buildIndex } from './lectures-core.js';
 
-const BASE = new URL('../../../private/lectures/', import.meta.url);
+const BASE = new URL('../../../content/lectures/', import.meta.url);
 const PREFS_KEY = 'ruled:lectures:v1';
 const cache = new Map();
 

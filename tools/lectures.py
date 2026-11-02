@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Florida Bar lecture transcripts -> a private, searchable, topic-tagged index.
+"""Florida Bar lecture transcripts -> a searchable, topic-tagged lecture library.
 
 Commands (run from the app folder; only the Python standard library is needed):
 
@@ -18,9 +18,9 @@ Typical use on the Mac:
 
   python3 tools/lectures.py build \\
       --transcripts "/Volumes/Extreme Pro/<Florida Bar videos folder>" \\
-      --library . --out private/lectures
-  python3 tools/lectures.py search "proposal for settlement" --out private/lectures
-  python3 tools/lectures.py coverage --library . --out private/lectures > docs/LECTURE-COVERAGE.md
+      --library .
+  python3 tools/lectures.py search "proposal for settlement"
+  python3 tools/lectures.py coverage --library . > docs/LECTURE-COVERAGE.md
 """
 from __future__ import annotations
 
@@ -105,7 +105,7 @@ def main(argv=None):
     sub = p.add_subparsers(dest="cmd", required=True)
 
     def common(sp, need_library=False):
-        sp.add_argument("--out", default="private/lectures", help="index folder (default: private/lectures)")
+        sp.add_argument("--out", default="content/lectures", help="index folder (default: content/lectures)")
         sp.add_argument("--library", default=None if not need_library else ".", help="Ruled app folder (or its content/) to link rules")
         sp.add_argument("--no-florida", action="store_true", help="don't use the built-in Florida taxonomy")
 
@@ -118,7 +118,7 @@ def main(argv=None):
 
     s = sub.add_parser("search", help="search lecture text")
     s.add_argument("query")
-    s.add_argument("--out", default="private/lectures")
+    s.add_argument("--out", default="content/lectures")
     s.add_argument("--subject", help="limit to one subject id, e.g. fl-wills")
     s.add_argument("--limit", type=int, default=10)
     s.add_argument("--json", action="store_true")
@@ -135,7 +135,7 @@ def main(argv=None):
     br.set_defaults(func=cmd_brief)
 
     co = sub.add_parser("corpus", help="export plain text for the originality checker")
-    co.add_argument("--out", default="private/lectures")
+    co.add_argument("--out", default="content/lectures")
     co.add_argument("--dest", required=True)
     co.set_defaults(func=cmd_corpus)
 

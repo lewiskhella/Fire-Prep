@@ -1,5 +1,5 @@
 // "On tape" box for an outline topic: the best lecture moments for the topic
-// and its rules, from the private lecture index. Renders nothing (and costs
+// and its rules, from the lecture index. Renders nothing (and costs
 // one failed fetch) when no index has been built.
 
 import { h, plural } from '../lib/dom.js';

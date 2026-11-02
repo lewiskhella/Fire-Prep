@@ -10,7 +10,7 @@ anchor line changed.
 | Path in the app | Purpose |
 |---|---|
 | `app/js/views/lectures.js` | View for `#/lectures`, `#/lectures?q=…`, `#/lectures?topic=<id>` / `?rule=<id>`, `#/lectures/<lectureId>?t=<sec>` |
-| `app/js/lib/lectures.js` | Fetches `private/lectures/{index,links}.json` and `lectures/<id>.json`; prefs in `localStorage['ruled:lectures:v1']` (media server URL, playback rate, last position per lecture) |
+| `app/js/lib/lectures.js` | Fetches `content/lectures/{index,links}.json` and `lectures/<id>.json`; prefs in `localStorage['ruled:lectures:v1']` (media server URL, playback rate, last position per lecture) |
 | `app/js/lib/lectures-core.js` | Pure helpers: tokenise/stem (mirrors the Python side), passage search, highlighting, clock formatting |
 | `app/js/ui/lecture-links.js` | `lectureAside(topic)` returns the "On tape" box; it stays hidden when there is no index or no match |
 | `app/css/lectures.css` | Styles; uses only `shared/tokens.css` variables, so Paper and Chambers both work |
@@ -37,17 +37,17 @@ the store schema and its export/import stay as they are.
 4. `app/js/views/topic.js`:
    - Add `import { lectureAside } from '../ui/lecture-links.js';`.
    - Put `lectureAside(t),` in the page just before `rules.length ? list : emptyState(…)`.
-5. `.gitignore`: `private/`
 
 The service worker needs no change. It is network-first and caches what's fetched,
-so the lecture JSON is cached the first time it is opened. Nothing needs adding to `SHELL`.
+so the lecture JSON is cached the first time it is opened.
+`content/lectures/` is not read by `validate_content.py` (it only reads catalog subjects, the guide and the MPT files). Nothing needs adding to `SHELL`.
 
-## Data contract (`private/lectures/`)
+## Data contract (`content/lectures/`)
 
 `index.json`
 ```jsonc
 {
-  "schema": 1, "generated": "2026-11-02T14:59:00", "private": true,
+  "schema": 1, "generated": "2026-11-02T14:59:00",
   "taxonomySignature": "…",            // rebuilds re-tag everything when this changes
   "totals": { "lectures": 7, "seconds": 547.2, "words": 970 },
   "subjects": [ { "id": "fl-wills", "title": "Wills & Administration of Estates", "source": "builtin",
