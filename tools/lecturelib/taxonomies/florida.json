@@ -1186,10 +1186,7 @@
             "768.72",
             "proffer",
             "economic damages",
-            "noneconomic damages",
-            "wrongful death",
-            "768.21",
-            "survival action"
+            "noneconomic damages"
           ]
         },
         {
@@ -1215,6 +1212,22 @@
             "failure to warn",
             "medical malpractice",
             "presuit"
+          ]
+        },
+        {
+          "id": "fl-torts.wrongful-death",
+          "title": "Wrongful death and survival",
+          "keywords": [
+            "wrongful death",
+            "768.21",
+            "survival action",
+            "wrongful death act",
+            "survivors",
+            "estate damages",
+            "loss of support",
+            "mental pain and suffering",
+            "768.16",
+            "768.19"
           ]
         }
       ]

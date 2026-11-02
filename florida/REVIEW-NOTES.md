@@ -213,3 +213,46 @@ relying on the pack for anything beyond study.
   - § 736.1008's 6-month limitation.
   - 60-day notices; 30 days' notice to resign.
 - **Settlor's death:** §§ 733.707(3), 736.05053 and 736.05055.
+
+## fl-real-property
+
+- **Homestead:**
+  - 2024 Amendment 5 indexing of the second $25,000 exemption; the March 1 deadline; the $500,000 portability figure.
+  - The spouse's 6-month tenancy-in-common election under § 732.401(2) (q002, e01). The fl-wills notes say 2 years; reconcile the two.
+  - Snyder v. Davis; Havoco v. Hill (q001).
+- **Conveyancing:**
+  - § 95.231 curative statute; § 695.26 witness addresses; remote witnessing (e01).
+  - MRTA exceptions and HOA covenant revival (§§ 720.403–.407).
+  - Johnson v. Davis does not reach commercial sales.
+- **Landlord-tenant:**
+  - Termination notices: 30-day month-to-month (2023), 30-day quarterly and 60-day yearly; the § 83.575 tip (q011).
+  - Rent withholding under § 83.51(1); air conditioning (e02).
+  - Extra days for a mailed 3-day notice.
+- **Mortgages:**
+  - Foreclosure-sale timing.
+  - The § 702.06 fair-market-value deficiency limit; the 1-year deficiency period.
+  - The Bartram question is avoided in q013.
+- **Possession and ownership:**
+  - Adverse possession: § 95.16 needs no tax return; § 197.3335 tax priority (q015).
+  - Post-Surfside condominium rules and the 2024 HOA reforms are stated only generally.
+  - The association-lien safe harbor protects only the first mortgagee.
+
+## fl-torts
+
+- **HB 837 timing** (q001, q011): the comparative-fault bar applies to suits filed after 3/24/2023; the 2-year limitations period to claims accruing after that date. Unresolved: a wrongful-death decedent who was more than 50% at fault.
+- **Fault and evidence:**
+  - Stuart v. Hertz still applies (Fabre).
+  - § 768.0706 security measures.
+  - The 120%/170% medical-damages benchmarks are left out.
+  - The seat-belt defense.
+- **Dangerous instrumentality** (q004, e01): golf carts (Meister v. Fisher); the § 324.021(9)(b)3 caps; the Graves Amendment.
+- **§ 768.075 trespasser standards:** the least certain item in this subject.
+- **Highest priority — sovereign immunity** (q009, e01):
+  - § 768.28 caps of $200,000/$300,000. Check whether 2025–26 legislation raised them or changed notice or limitations periods.
+  - Notice: 3 years (2 for wrongful death), with denial deemed after 6 months.
+- **Limitations and repose:** products claims stay at 4 years; construction-defect repose cut from 10 to 7 years (SB 360, 2023); defamation 2 years.
+- **Punitive damages:** § 768.736 intoxication; W.R. Grace v. Waters bifurcation; none for an owner who is only vicariously liable (e01).
+- **Wrongful death:** whether the medical-negligence limit was changed after the 2025 veto.
+- **Defamation and products:** 5-day presuit notice for media defendants; Aubin and design defect (q014).
+- **Essays:** e02 call 3 (the daughter's recovery and her mother's comparative fault); e01 call 2 (dark signal treated as an all-way stop).
+- **Added topic:** `fl-torts.wrongful-death`, now in the lecture taxonomy.

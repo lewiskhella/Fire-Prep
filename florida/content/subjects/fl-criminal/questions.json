@@ -1,0 +1,368 @@
+{
+ "subject": "fl-criminal",
+ "questions": [
+  {
+   "id": "fl-criminal.q001",
+   "topic": "fl-criminal.homicide-and-person",
+   "rules": [
+    "fl-criminal.homicide-and-person.felony-murder",
+    "fl-criminal.inchoate-and-parties.principals"
+   ],
+   "difficulty": 3,
+   "stem": "Tariq and Jules agreed to burglarize a Sarasota house they believed would be empty that evening. Jules stayed in the car outside as lookout and getaway driver while Tariq went in. Inside, Tariq unexpectedly met the homeowner, struggled with him, and shot him with a pistol that Jules had not known Tariq was carrying. The homeowner died. Tariq ran back to the car and Jules drove him away. Jules is charged with first-degree murder.",
+   "call": "Can Jules be convicted of first-degree murder?",
+   "choices": [
+    "No, because Jules did not intend that anyone be killed and did not know that Tariq was armed.",
+    "No, because Jules never entered the house and is at most an accessory.",
+    "Yes, because the killing occurred during a burglary in which Jules participated as a principal, and a killing to overcome an occupant's resistance is not an independent act.",
+    "Yes, but only if the State proves that Jules acted with a depraved mind regardless of human life."
+   ],
+   "answer": 2,
+   "explanation": "Under section 782.04(1)(a)2., a killing committed during the perpetration of an enumerated felony, including burglary, is first-degree murder without proof of intent to kill. Under section 777.011, Jules, who aided the burglary as lookout and driver, is a principal whether or not present inside. A killing by a co-felon during the felony is attributed to every principal unless it was an independent act: one the defendant did not intend, did not participate in, and was not a reasonably foreseeable consequence of the common plan. Encountering and overcoming an occupant during a home burglary is a foreseeable outgrowth of the plan, so the independent-act doctrine does not apply.",
+   "whyNot": [
+    "Felony murder requires no intent to kill. Not knowing about the gun does not make the shooting an independent act, because violence against an occupant is a foreseeable consequence of burglarizing a home.",
+    "Florida abolished the distinction between principals and accessories before the fact; a lookout and getaway driver who aids the burglary is a principal even though he never enters.",
+    "",
+    "A depraved mind is an element of second-degree murder. First-degree felony murder requires only a death during an enumerated felony."
+   ]
+  },
+  {
+   "id": "fl-criminal.q002",
+   "topic": "fl-criminal.homicide-and-person",
+   "rules": [
+    "fl-criminal.homicide-and-person.manslaughter"
+   ],
+   "difficulty": 2,
+   "stem": "During an argument over a parking space outside a Gainesville restaurant, Colby shoved Derek hard in the chest. Derek fell backward, struck his head on the curb, and died of the injury. Colby did not want to kill or seriously injure Derek and was shocked by the result. The State charges Colby with manslaughter by act. Colby asks the court to instruct the jury that the State must prove he intended to cause Derek's death.",
+   "call": "Should the court give the requested instruction?",
+   "choices": [
+    "No, because manslaughter by act requires only that Colby intentionally committed the act that caused death, not that he intended to kill.",
+    "Yes, because manslaughter by act is an intentional homicide and requires proof of an intent to kill.",
+    "No, because the State need prove only that Colby acted with culpable negligence.",
+    "Yes, because without an intent to kill, the only available homicide charge is second-degree murder."
+   ],
+   "answer": 0,
+   "explanation": "Manslaughter by act under section 782.07 requires proof that the defendant intentionally committed an act that caused the victim's death, without lawful justification. In State v. Montgomery (2010), the Florida Supreme Court held that the standard instruction was fundamentally erroneous because it required an intent to kill. Colby intentionally shoved Derek and the shove caused his death, so the requested instruction misstates the law.",
+   "whyNot": [
+    "",
+    "This is the error the Florida Supreme Court corrected in Montgomery. Intent to kill is not an element of manslaughter by act.",
+    "Culpable negligence is a separate theory of manslaughter. The State charged manslaughter by act, which requires an intentional act, not proof of negligence.",
+    "The lack of an intent to kill does not raise the offense. Second-degree murder requires a depraved mind, and manslaughter is the proper charge for an intentional act that unexpectedly causes death."
+   ]
+  },
+  {
+   "id": "fl-criminal.q003",
+   "topic": "fl-criminal.homicide-and-person",
+   "rules": [
+    "fl-criminal.homicide-and-person.kidnapping"
+   ],
+   "difficulty": 2,
+   "stem": "Armed with a knife, Vance entered a Pensacola pharmacy shortly before closing. He ordered the pharmacist to stay where she was behind the counter and held the knife near her for about two minutes while she handed him prescription drugs from a shelf. He then ran out the front door. He never moved the pharmacist, tied her up, or restrained her in any other way. The State charges Vance with armed robbery and with kidnapping, on the theory that he confined the pharmacist to facilitate the robbery.",
+   "call": "Can Vance properly be convicted of kidnapping?",
+   "choices": [
+    "Yes, because he confined the pharmacist against her will while committing a felony.",
+    "Yes, because his use of a deadly weapon made the confinement more than incidental.",
+    "No, because kidnapping requires that the victim be moved from one place to another.",
+    "No, because the brief confinement was merely incidental to and inherent in the robbery and had no significance independent of it."
+   ],
+   "answer": 3,
+   "explanation": "When kidnapping is charged on the theory that the confinement facilitated another felony, Faison v. State requires that the confinement not be slight, inconsequential and merely incidental to the other crime; not be of the kind inherent in its nature; and have significance independent of it by making the crime substantially easier to commit or substantially lessening the risk of detection. Holding a clerk in place at knifepoint for two minutes while she hands over property is inherent in robbery and adds nothing independent, so a kidnapping conviction cannot stand.",
+   "whyNot": [
+    "Confinement during a felony is not enough by itself on a facilitation theory. The confinement must satisfy the Faison test.",
+    "The weapon is what makes the robbery armed; it does not give the confinement significance independent of the robbery.",
+    "Florida kidnapping can be committed by confining or imprisoning a person without moving the person. The problem here is that the confinement was incidental, not that there was no movement.",
+    ""
+   ]
+  },
+  {
+   "id": "fl-criminal.q004",
+   "topic": "fl-criminal.property-crimes",
+   "rules": [
+    "fl-criminal.property-crimes.robbery",
+    "fl-criminal.property-crimes.burglary"
+   ],
+   "difficulty": 3,
+   "stem": "During business hours, Nora concealed two bottles of perfume in her bag at a Boca Raton department store and walked past the registers without paying. A loss-prevention officer caught up with her just outside the exit and grabbed her arm. Nora shoved the officer to the ground, causing a minor injury, and ran to her car, where police caught her a few minutes later with the perfume. Nora used no force or threat before leaving the store.",
+   "call": "What is the most serious property offense of which Nora can be convicted?",
+   "choices": [
+    "Petit theft, because Nora obtained the perfume without force or threat.",
+    "Robbery, because force used after the taking counts if the force and the taking form a continuous series of events.",
+    "Robbery by sudden snatching, because the force was used only to escape.",
+    "Burglary, because Nora entered the store intending to steal."
+   ],
+   "answer": 1,
+   "explanation": "Florida's robbery statute, section 812.13, provides that force is 'in the course of the taking' if it occurs before, during or after the taking and the force and taking form a continuous series of acts or events. Nora shoved the officer while still fleeing with the perfume, in one continuous episode, so the theft became a robbery. This expands the common-law rule, under which force used only to escape did not make the taking a robbery.",
+   "whyNot": [
+    "Nora committed theft, but the force she used during her immediate flight, in a continuous series of events, makes the offense robbery.",
+    "",
+    "Robbery by sudden snatching involves taking property from the victim's person using no more force than the snatching itself. Nora took nothing from anyone's person and used separate force against the officer to keep the property.",
+    "The store was open to the public when Nora entered, so her entry falls within the statutory exception, and she did not remain inside surreptitiously."
+   ]
+  },
+  {
+   "id": "fl-criminal.q005",
+   "topic": "fl-criminal.property-crimes",
+   "rules": [
+    "fl-criminal.property-crimes.burglary"
+   ],
+   "difficulty": 2,
+   "stem": "At 8:45 p.m., fifteen minutes before closing, Ellis walked into a Tallahassee electronics store during regular business hours. He went to the restroom and then hid in a supply closet until the staff locked up and left. At 2 a.m. he came out, gathered several laptops, and was arrested by police responding to a motion alarm before he could leave. At trial Ellis testifies credibly that he decided to hide and steal only after he had entered the store.",
+   "call": "Is Ellis guilty of burglary?",
+   "choices": [
+    "Yes, because he remained in the structure surreptitiously with intent to commit an offense, even though his entry was lawful.",
+    "No, because the store was open to the public when he entered.",
+    "No, because he formed the intent to steal only after entering.",
+    "Yes, but only because the theft was committed at night."
+   ],
+   "answer": 0,
+   "explanation": "Section 810.02(1)(b) defines burglary to include, notwithstanding a licensed or invited entry, remaining in a dwelling, structure or conveyance surreptitiously with intent to commit an offense therein. Ellis's entry was lawful because the store was open to the public, but he then hid until after closing intending to steal. The intent must exist when he remains, not when he enters, so his late-formed intent does not help him.",
+   "whyNot": [
+    "",
+    "The open-to-the-public exception applies to the entering alternative. The remaining-surreptitiously alternative applies 'notwithstanding a licensed or invited entry.'",
+    "For burglary by remaining, the intent must accompany the surreptitious remaining, which it did. Intent at the moment of entry is not required.",
+    "Nighttime is not an element of Florida burglary. The time of day affects nothing here."
+   ]
+  },
+  {
+   "id": "fl-criminal.q006",
+   "topic": "fl-criminal.inchoate-and-parties",
+   "rules": [
+    "fl-criminal.inchoate-and-parties.conspiracy"
+   ],
+   "difficulty": 1,
+   "stem": "In a Jacksonville bar, Marco and Lisette agreed to rob an armored-car courier the following Friday and discussed the courier's route. Both intended to carry out the robbery. Neither took any further step: they bought no weapons, did not scout the route, and contacted no one else. A patron at the next table, who was not involved, overheard them and called police, who arrested both on Wednesday.",
+   "call": "Can Marco be convicted of conspiracy to commit robbery?",
+   "choices": [
+    "No, because neither conspirator committed an overt act in furtherance of the agreement.",
+    "No, because the robbery was never attempted.",
+    "Yes, because the agreement to commit the robbery, made with the intent that it be carried out, completed the crime.",
+    "Yes, but only if the State proves that the planned robbery would have succeeded."
+   ],
+   "answer": 2,
+   "explanation": "Under section 777.04(3), a person who agrees, conspires, combines or confederates with another to commit an offense commits conspiracy. Florida, following the common law, requires no overt act; the crime is complete when two or more persons agree to commit an offense with the intent that it be committed. Marco and Lisette agreed and intended to rob the courier, so both are guilty of conspiracy.",
+   "whyNot": [
+    "This states the overt-act requirement used in many jurisdictions and the general federal conspiracy statute. Florida does not require one.",
+    "Conspiracy is complete on agreement; the target crime need not be attempted.",
+    "",
+    "The likelihood of success is irrelevant to conspiracy; the crime is the agreement plus intent."
+   ]
+  },
+  {
+   "id": "fl-criminal.q007",
+   "topic": "fl-criminal.inchoate-and-parties",
+   "rules": [
+    "fl-criminal.inchoate-and-parties.attempt"
+   ],
+   "difficulty": 2,
+   "stem": "Late one night, Gil used a crowbar to pry the side window of a closed Fort Lauderdale jewelry store partway open, planning to climb in and take display jewelry. Before any part of his body or the crowbar passed through the opening, he saw the headlights of a patrol car turning onto the street. He dropped the crowbar and walked quickly away. Officers who noticed the damaged window stopped him a block away. Charged with attempted burglary, Gil argues that he abandoned the crime.",
+   "call": "Is Gil's abandonment a defense?",
+   "choices": [
+    "Yes, because Gil left before entering, so his conduct never went beyond mere preparation.",
+    "Yes, because a defendant who abandons a crime before completing it has renounced it.",
+    "No, because renunciation is not a defense to attempted burglary.",
+    "No, because abandoning the attempt to avoid imminent detection is not a complete and voluntary renunciation."
+   ],
+   "answer": 3,
+   "explanation": "Section 777.04(5)(a) makes renunciation an affirmative defense to attempt only if the defendant abandoned the attempt or prevented the crime under circumstances manifesting a complete and voluntary renunciation of criminal purpose. Gil stopped because a patrol car appeared, which increased the risk of detection; that is not a voluntary change of heart. Prying open the store window with a crowbar was an overt act beyond preparation, so the attempt was complete.",
+   "whyNot": [
+    "Prying open a window of the target building is an act toward the commission of the burglary that goes well beyond preparation, even without entry.",
+    "Not every abandonment is a renunciation. It must be complete and voluntary, not prompted by fear of being caught.",
+    "Renunciation is a statutory defense to criminal attempt generally, including attempted burglary. It fails here on the facts.",
+    ""
+   ]
+  },
+  {
+   "id": "fl-criminal.q008",
+   "topic": "fl-criminal.defenses",
+   "rules": [
+    "fl-criminal.defenses.voluntary-intoxication"
+   ],
+   "difficulty": 1,
+   "stem": "After drinking most of a bottle of rum at a beach party in Daytona Beach, Felix walked into a stranger's unlocked house, took a television, and was arrested on the front lawn. Charged with burglary of a dwelling, Felix wants to call a toxicologist to testify that his blood-alcohol level was so high that he could not have formed an intent to commit an offense inside the house. Felix drank voluntarily and had taken no prescription medication.",
+   "call": "Is the toxicologist's testimony admissible?",
+   "choices": [
+    "Yes, because voluntary intoxication may negate the specific intent required for burglary.",
+    "No, because evidence of voluntary intoxication is not admissible to show that a defendant lacked specific intent.",
+    "Yes, but only to reduce the charge to trespass, which does not require specific intent.",
+    "No, because evidence of intoxication is admissible only to support an insanity defense."
+   ],
+   "answer": 1,
+   "explanation": "Section 775.051 provides that voluntary intoxication is not a defense to any offense and that evidence of it is not admissible to show that the defendant lacked the specific intent to commit an offense or was insane. The only exception is for a controlled substance taken under a lawful prescription. Felix drank voluntarily, so the toxicologist's testimony is inadmissible.",
+   "whyNot": [
+    "This is the common-law rule tested on the MBE. Florida abolished it by statute.",
+    "",
+    "The statute bars intoxication evidence offered to negate specific intent for any purpose, including to obtain a lesser offense.",
+    "The statute also bars voluntary-intoxication evidence offered to show insanity."
+   ]
+  },
+  {
+   "id": "fl-criminal.q009",
+   "topic": "fl-criminal.defenses",
+   "rules": [
+    "fl-criminal.defenses.stand-your-ground-immunity"
+   ],
+   "difficulty": 2,
+   "stem": "Raul is charged with aggravated battery for stabbing a man during a fight outside a Miami nightclub. Before trial he files a sworn motion to dismiss claiming immunity under Florida's stand-your-ground law, alleging that the man attacked him with a broken bottle. At the evidentiary hearing, Raul presents testimony that, if believed, establishes a prima facie claim of self-defense. The State calls a bouncer who testifies that Raul threw the first punch and that the man never held a bottle.",
+   "call": "Which standard governs the court's ruling on the motion?",
+   "choices": [
+    "The court must grant immunity unless the State proves by clear and convincing evidence that Raul's use of force was not justified.",
+    "The court must deny the motion because the facts are disputed, which leaves the issue for the jury.",
+    "Raul must prove by a preponderance of the evidence that he acted in lawful self-defense.",
+    "The State must prove beyond a reasonable doubt that Raul did not act in lawful self-defense."
+   ],
+   "answer": 0,
+   "explanation": "Under section 776.032(4), as amended in 2017, once a defendant raises a prima facie claim of self-defense immunity at a pretrial hearing, the burden is on the State to overcome the immunity by clear and convincing evidence. The judge resolves disputed facts at the hearing; the conflict between Raul's evidence and the bouncer's testimony is for the judge to weigh. If the State fails to meet its burden, the court must dismiss.",
+   "whyNot": [
+    "",
+    "Disputed facts do not defeat an immunity motion. The judge decides them at the evidentiary hearing, unlike a (c)(4) motion that a traverse can defeat.",
+    "That was the rule under Bretherick v. State (2015), before the 2017 amendment shifted the burden to the State.",
+    "Proof beyond a reasonable doubt is the State's burden at trial on self-defense. The pretrial immunity standard is clear and convincing evidence."
+   ]
+  },
+  {
+   "id": "fl-criminal.q010",
+   "topic": "fl-criminal.defenses",
+   "rules": [
+    "fl-criminal.defenses.castle-doctrine",
+    "fl-criminal.defenses.justifiable-force"
+   ],
+   "difficulty": 3,
+   "stem": "Tessa and her husband, Bruno, jointly own their home in Lakeland. Bruno moved out after a bitter argument but remains a titleholder, and no injunction or no-contact order has been entered against him. One night Bruno, drunk and angry, kicked open the locked front door. Tessa, who was home alone, shot and wounded him as he came through the doorway. Bruno was unarmed and had said nothing threatening. Tessa is charged with attempted second-degree murder and seeks to rely on the statutory presumption that she reasonably feared death or great bodily harm.",
+   "call": "Is Tessa entitled to the castle-doctrine presumption?",
+   "choices": [
+    "Yes, because Bruno forcefully entered the dwelling while she was inside.",
+    "Yes, because a person in her own home has no duty to retreat.",
+    "No, because the presumption applies only to occupied vehicles, not dwellings.",
+    "No, because Bruno is a titleholder with a right to be in the home and no injunction or no-contact order was in effect; Tessa must instead show that her fear was actually reasonable."
+   ],
+   "answer": 3,
+   "explanation": "Section 776.013 presumes a reasonable fear of death or great bodily harm when force is used against someone unlawfully and forcefully entering a dwelling. The presumption does not apply if the person against whom force was used has the right to be in, or is a lawful resident of, the dwelling, such as an owner or titleholder, and no domestic-violence injunction or written pretrial no-contact order is in effect against that person. Bruno is a titleholder with no injunction against him, so the presumption is unavailable. Tessa may still claim self-defense under section 776.012, but she must show that a reasonable person would have believed deadly force was necessary.",
+   "whyNot": [
+    "Forceful entry triggers the presumption only if no exception applies. The titleholder exception applies here.",
+    "Having no duty to retreat is different from being presumed to have a reasonable fear. Tessa need not retreat, but she still must show reasonable fear without the presumption.",
+    "The presumption covers dwellings, residences and occupied vehicles.",
+    ""
+   ]
+  },
+  {
+   "id": "fl-criminal.q011",
+   "topic": "fl-criminal.search-seizure-confessions",
+   "rules": [
+    "fl-criminal.search-seizure-confessions.invocation-and-voluntariness"
+   ],
+   "difficulty": 2,
+   "stem": "Gwen was arrested for grand theft and taken to a Tampa police station. After receiving complete Miranda warnings, she signed a written waiver and began answering questions. Twenty minutes into the interview she said, 'Maybe I should talk to a lawyer, I don't know.' The detective kept asking questions without responding to the remark, and Gwen then made incriminating statements. She moves to suppress the statements made after her remark.",
+   "call": "How should the court rule?",
+   "choices": [
+    "Grant the motion, because any mention of a lawyer requires the police to stop questioning immediately.",
+    "Grant the motion, because the detective was required to ask clarifying questions before continuing.",
+    "Deny the motion, because Gwen's remark was an equivocal reference to counsel that did not require the detective to stop or to clarify.",
+    "Deny the motion, because a suspect who signs a written waiver cannot invoke her rights later in the same interview."
+   ],
+   "answer": 2,
+   "explanation": "After a valid waiver, a suspect must unambiguously request counsel to trigger the Edwards rule. Under Davis v. United States, and under the Florida Constitution as construed in State v. Owen, officers need not stop questioning or ask clarifying questions when a suspect makes an equivocal reference to a lawyer. 'Maybe I should talk to a lawyer, I don't know' is equivocal. It also was not a clear question about her rights, which under Almeida would have required a straightforward answer.",
+   "whyNot": [
+    "Only an unambiguous request for counsel requires questioning to stop.",
+    "Florida, like the federal courts, does not require clarifying questions after an equivocal reference to counsel.",
+    "",
+    "A suspect may invoke the right to counsel or to silence at any time, even after waiving. Gwen's problem is that her statement was not a clear invocation."
+   ]
+  },
+  {
+   "id": "fl-criminal.q012",
+   "topic": "fl-criminal.search-seizure-confessions",
+   "rules": [
+    "fl-criminal.search-seizure-confessions.conformity-clause"
+   ],
+   "difficulty": 2,
+   "stem": "Detectives investigating drug sales in a Naples neighborhood took trash bags that Kendra had left at the curb for collection, searched them without a warrant, and found residue-covered packaging. They used that evidence to obtain a warrant for her house, where they found cocaine. Kendra moves to suppress. She concedes that the trash search was lawful under the Fourth Amendment as interpreted by the United States Supreme Court, but argues that the Florida Constitution gives her greater protection against searches of her household trash.",
+   "call": "How should the court rule on Kendra's state constitutional argument?",
+   "choices": [
+    "Grant the motion, because Florida's express right of privacy gives broader protection against searches than the Fourth Amendment.",
+    "Deny the motion, because Florida's search-and-seizure provision must be construed in conformity with the Fourth Amendment as interpreted by the United States Supreme Court.",
+    "Grant the motion, because Florida courts may interpret their own constitution independently of federal decisions.",
+    "Deny the motion, because the exclusionary rule does not apply to violations of the Florida Constitution."
+   ],
+   "answer": 1,
+   "explanation": "Article I, section 12 of the Florida Constitution requires that the right against unreasonable searches and seizures be construed in conformity with the Fourth Amendment as interpreted by the United States Supreme Court, and that evidence be excluded only if federal decisions would exclude it. Because Kendra concedes the trash search was lawful under the Fourth Amendment, her state constitutional argument fails.",
+   "whyNot": [
+    "The conformity clause in section 12 governs search-and-seizure questions, and Florida courts have not used the general privacy right to give broader protection against searches than the Fourth Amendment allows.",
+    "",
+    "Independent interpretation is exactly what the 1982 conformity amendment forbids for search-and-seizure claims.",
+    "Section 12 contains its own exclusionary rule. The motion fails because no federal decision would exclude the evidence, not because exclusion is unavailable."
+   ]
+  },
+  {
+   "id": "fl-criminal.q013",
+   "topic": "fl-criminal.florida-rules",
+   "rules": [
+    "fl-criminal.florida-rules.speedy-trial"
+   ],
+   "difficulty": 2,
+   "stem": "Darnell was arrested in Leon County for felony grand theft and remained in the county jail. He never filed a demand for speedy trial, requested no continuances, and was available for trial at all times. When 175 days had passed since his arrest without a trial, Darnell filed a notice of expiration of speedy-trial time. The State concedes that no exception or extension applies.",
+   "call": "What must the court do?",
+   "choices": [
+    "Hold a hearing within 5 days and order that Darnell be brought to trial within 10 days, discharging him only if he is not tried within that period.",
+    "Discharge Darnell immediately, because the 175-day period has expired.",
+    "Strike the notice, because a defendant who does not demand a speedy trial waives the 175-day period.",
+    "Dismiss the charge without prejudice and allow the State to refile it within 90 days."
+   ],
+   "answer": 0,
+   "explanation": "Rule 3.191 requires a felony defendant to be brought to trial within 175 days of arrest without any demand. When the period expires, the defendant's remedy is a notice of expiration; the court must hold a hearing within 5 days and, if no exception applies, order that the defendant be tried within 10 days. Only if the State fails to try him within that recapture window is the defendant forever discharged.",
+   "whyNot": [
+    "",
+    "Discharge is not automatic. The State gets the recapture period after the hearing on the notice of expiration.",
+    "The 175-day period runs without any demand. A demand is an optional way to shorten the time.",
+    "The remedy for an unexcused failure to try the defendant within the recapture period is discharge, which bars prosecution for the offense; the rule does not provide for dismissal and refiling."
+   ]
+  },
+  {
+   "id": "fl-criminal.q014",
+   "topic": "fl-criminal.florida-rules",
+   "rules": [
+    "fl-criminal.florida-rules.pretrial-release"
+   ],
+   "difficulty": 2,
+   "stem": "Lamont is arrested in Fort Pierce and later indicted for first-degree premeditated murder. At his first appearance the State asks that he be held without bond. Defense counsel requests a hearing on pretrial release. At the hearing, the State argues that because first-degree murder is a capital offense, Lamont has no right to pretrial release and need offer no evidence beyond the indictment.",
+   "call": "Which statement correctly describes the hearing?",
+   "choices": [
+    "Lamont must be held without bond because a person charged with a capital offense has no right to pretrial release.",
+    "Lamont bears the burden of showing that the evidence of his guilt is weak before he may be released.",
+    "Lamont must be released on reasonable conditions because every accused person has a constitutional right to pretrial release.",
+    "The State bears the burden of showing that the proof of guilt is evident or the presumption great; if it carries that burden, the court still has discretion to grant release."
+   ],
+   "answer": 3,
+   "explanation": "Article I, section 14 of the Florida Constitution entitles every accused person to pretrial release on reasonable conditions unless charged with a capital or life offense and the proof of guilt is evident or the presumption great. Under State v. Arthur, the State bears the burden of making that showing at the hearing. Even if it does, the trial court retains discretion to grant release.",
+   "whyNot": [
+    "A capital charge alone does not defeat the right to release; the proof of guilt must also be evident or the presumption great.",
+    "Arthur places the burden on the State, not the defendant.",
+    "The constitutional right to release has an express exception for capital and life offenses when the proof is evident or the presumption great.",
+    ""
+   ]
+  },
+  {
+   "id": "fl-criminal.q015",
+   "topic": "fl-criminal.trial-rights",
+   "rules": [
+    "fl-criminal.trial-rights.capital-sentencing"
+   ],
+   "difficulty": 1,
+   "stem": "A Volusia County jury convicts Hollis of first-degree premeditated murder, and the case proceeds to a penalty phase in 2025. The jury unanimously finds beyond a reasonable doubt that the murder was committed for financial gain, a statutory aggravating factor. After weighing that aggravator against the mitigating evidence Hollis presented, nine jurors vote to recommend death and three vote to recommend life imprisonment.",
+   "call": "What sentence may the trial judge impose?",
+   "choices": [
+    "Only life imprisonment, because a death recommendation must be unanimous.",
+    "Only death, because the judge must follow the jury's recommendation.",
+    "Either death or life imprisonment without parole, because at least eight jurors recommended death after unanimously finding an aggravating factor.",
+    "Neither, until a new penalty-phase jury is empaneled, because the vote was not unanimous."
+   ],
+   "answer": 2,
+   "explanation": "Under section 921.141 as amended in 2023, the jury must unanimously find at least one aggravating factor beyond a reasonable doubt, and a recommendation of death requires the votes of at least eight of the twelve jurors. Both conditions are met. After a death recommendation, the judge may impose either death or life imprisonment without the possibility of parole, explaining the decision in a written order. (Had the jury recommended life, the judge would have been required to impose life.)",
+   "whyNot": [
+    "Florida required a unanimous death recommendation from 2017 until the 2023 amendment. Under current law, eight votes suffice.",
+    "A death recommendation permits but does not require a death sentence; the judge may impose life.",
+    "",
+    "A nine-to-three vote is a valid recommendation of death under the current statute, so no new jury is needed."
+   ]
+  }
+ ]
+}

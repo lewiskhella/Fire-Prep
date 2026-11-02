@@ -104,7 +104,7 @@
           "id": "fl-real-property.homestead.tax-exemption",
           "title": "Homestead tax exemption and Save Our Homes",
           "weight": 2,
-          "rule": "A person who holds legal or beneficial title and, as of January 1, makes the property his or her permanent residence (or that of a legal or natural dependent) may apply for the homestead tax exemption: $25,000 off assessed value for all levies, plus an additional exemption of up to $25,000 on assessed value between $50,000 and $75,000 for non-school levies. Under Save Our Homes, annual increases in a homestead's assessed value are capped at the lesser of 3% or the change in the Consumer Price Index, and up to $500,000 of the accumulated benefit is portable to a new Florida homestead.",
+          "rule": "A person who holds legal or beneficial title and, as of January 1, makes the property his or her permanent residence (or that of a legal or natural dependent) may apply for the homestead tax exemption: $25,000 off assessed value for all levies, plus a second exemption (originally $25,000, and adjusted annually for inflation under a 2024 constitutional amendment) that applies to assessed value above $50,000 and only to non-school levies. Under Save Our Homes, annual increases in a homestead's assessed value are capped at the lesser of 3% or the change in the Consumer Price Index, and up to $500,000 of the accumulated benefit is portable to a new Florida homestead.",
           "elements": [
             "Legal or beneficial title",
             "Permanent residence of the owner or a dependent on January 1",
