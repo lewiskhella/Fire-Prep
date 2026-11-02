@@ -448,3 +448,39 @@ through the notes above. Where marked, they checked current statutes and 2025–
   - ABA 1.8(e)(3) gifts to indigent clients (the content follows Florida's rule with no living-expense exception).
   - How often the client-ledger comparison is required.
 - **Added:** spotters s01 and s02.
+
+## fl-evidence: reviewed
+
+- **Blind check:** 15/15.
+- **Corrected:**
+  - Williams rule: the limiting instruction at the close of evidence is mandatory (State v. Perkins).
+  - Rape-shield carve-out (§ 794.022).
+  - § 90.407 now also covers product defects.
+  - Delgado-Santos limited to police interrogation.
+  - McFadden's definition of conviction.
+  - § 90.804 wording.
+  - **Child hearsay applies at age 17 or less since 7/1/2024** (ch. 2024-71).
+  - No FRE 803(8)(A)(iii) counterpart.
+  - Prospective clients are covered by the privilege.
+  - Waiver is § 90.508, not § 90.510.
+  - Best-evidence wording; full Daubert citations; an e01 fact fix.
+- **Still uncertain:** whether Florida adopted the 2023 FRE 702 text (the content makes no claim).
+- **Added:** spotters s01 and s02.
+
+## fl-criminal: reviewed
+
+- **Blind check:** 15/15.
+- **Corrected:**
+  - **§ 777.03:** relatives are exempt only when the underlying crime is a third-degree felony (2006), with no exemption for child abuse or a child's death.
+  - Stand-your-ground: the officer exception; pretrial review by prohibition; full citations.
+  - Rule 3.133(b) has no custody limit; the Rule 3.134 30/33/40-day rule.
+  - The 2023 law (effective 1/1/2024) barring nonmonetary release at first appearance for dangerous crimes.
+  - Theft: the $40 dwelling tier (2024).
+  - Burglary curtilage (State v. Hamilton).
+  - Felony-murder example; excusable homicide (§ 782.03).
+  - § 921.1425 and Kennedy v. Louisiana.
+  - Double-jeopardy numbering.
+  - Full reporter citations throughout.
+- **Still uncertain:** Rule 3.216 notice timing (left out); whether 2026 SB 600 became law.
+- **Gap:** no sexual-battery rule yet (coverage, not correction).
+- **Added:** spotters s01 and s02.

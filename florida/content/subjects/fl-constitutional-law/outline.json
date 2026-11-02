@@ -153,7 +153,7 @@
           "id": "fl-constitutional-law.legislature.impeachment",
           "title": "Impeachment",
           "weight": 1,
-          "rule": "The House may impeach the governor, lieutenant governor, Cabinet members, Supreme Court justices, and judges of the district courts of appeal, circuit courts and county courts for misdemeanor in office by a two-thirds vote; the officer may not perform official duties until acquitted. The Senate tries the impeachment with the chief justice (or a justice the chief justice designates) presiding, except that the governor presides at the trial of the chief justice. Conviction requires two-thirds of the senators present; the judgment removes the officer from office and, in the Senate's discretion, may also disqualify the officer from holding any other office of honor, trust or profit.",
+          "rule": "The House may impeach the governor, lieutenant governor, Cabinet members, Supreme Court justices, and judges of the district courts of appeal, circuit courts and county courts for misdemeanor in office by a two-thirds vote; the officer may not perform official duties until acquitted. The Senate tries the impeachment with the chief justice (or a justice the chief justice designates) presiding, except that the governor presides at the trial of the chief justice. Conviction requires two-thirds of the senators present; the judgment removes the officer from office and, in the Senate's discretion, may also disqualify the officer from holding any office of honor, trust or profit.",
           "tip": "Officers who are not subject to impeachment (for example, state attorneys and sheriffs) are disciplined instead through the governor's suspension power under Art. IV, § 7.",
           "authority": "Art. III, § 17, Fla. Const."
         }
@@ -339,7 +339,7 @@
           "id": "fl-constitutional-law.local-government-and-finance.special-assessments",
           "title": "Special assessments versus taxes",
           "weight": 3,
-          "rule": "A special assessment is valid only if (1) the property assessed derives a special benefit from the service or improvement and (2) the assessment is fairly and reasonably apportioned among the benefited properties; the local government's findings on benefit and apportionment are upheld unless arbitrary. Fire protection services can specially benefit property, but emergency medical services cannot, because they benefit people rather than property.",
+          "rule": "A special assessment is valid only if (1) the property assessed derives a special benefit from the service or improvement and (2) the assessment is fairly and reasonably apportioned among the benefited properties; the local government's findings on benefit and apportionment are upheld unless arbitrary. Fire protection services can specially benefit property, but emergency medical services cannot, because they benefit people rather than property (first-response medical aid that firefighters routinely give as part of fire service is treated as part of fire protection).",
           "trap": "A charge labeled a 'fee' or 'assessment' that actually funds general government services is a tax, and a local government may impose a non-ad valorem tax only if general law authorizes it.",
           "authority": "City of Boca Raton v. State, 595 So. 2d 25 (Fla. 1992); Lake Cnty. v. Water Oak Mgmt. Corp., 695 So. 2d 667 (Fla. 1997); City of N. Lauderdale v. SMM Props., Inc., 825 So. 2d 343 (Fla. 2002)"
         },
