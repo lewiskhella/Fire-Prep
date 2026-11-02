@@ -1,0 +1,4 @@
+{"subject": "evidence", "questions": [
+  {"id": "evidence.q001", "topic": "evidence.hearsay-803", "rules": ["evidence.hearsay-803.excited-utterance"]},
+  {"id": "evidence.q002", "topic": "evidence.hearsay-definition", "rules": ["evidence.hearsay-definition.what-counts"]}
+]}

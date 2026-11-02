@@ -1,0 +1,10 @@
+{"text": "unused",
+ "language": "en",
+ "segments": [
+  {"id": 0, "start": 0.0, "end": 9.2, "text": " Hearsay is an out of court statement offered to prove the truth of the matter asserted."},
+  {"id": 1, "start": 9.2, "end": 21.0, "text": " The Florida code lists exceptions in 90.803, where availability of the declarant is immaterial, and 90.804, where the declarant must be unavailable."},
+  {"id": 2, "start": 21.0, "end": 35.5, "text": " The spontaneous statement exception covers a description of an event made while perceiving it or immediately after. The excited utterance requires a startling event and a statement made under the stress of excitement."},
+  {"id": 3, "start": 35.5, "end": 52.0, "text": " For a child victim, the child victim hearsay exception requires a hearing outside the jury, a finding of reliability, and either testimony by the child or unavailability plus corroboration."},
+  {"id": 4, "start": 52.0, "end": 70.0, "text": " In a criminal case, always check the confrontation clause. If the statement is testimonial under Crawford, it is out unless the declarant is unavailable and there was a prior opportunity for cross-examination."},
+  {"id": 5, "start": 70.0, "end": 95.0, "text": " Business records need a custodian or a certification, and the record must be made at or near the time by someone with knowledge in the regular course of business."}
+ ]}

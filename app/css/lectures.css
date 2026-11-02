@@ -1,0 +1,113 @@
+/* § 11 Lectures — uses the shared Ruled tokens (shared/tokens.css). */
+
+.lectures-page .lec-totals { display: flex; gap: var(--s5); margin: 0; }
+.lec-totals dt { color: var(--ink-3); }
+.lec-totals dd { margin: 2px 0 0; font-size: 1.6rem; line-height: 1; }
+
+.lec-searchbar {
+  display: flex; align-items: center; gap: var(--s2);
+  border: 1.5px solid var(--hair-strong); border-radius: var(--radius); background: var(--sheet-raised);
+  padding: 0 var(--s3); margin: 0 0 var(--s3);
+}
+.lec-searchbar svg { width: 18px; height: 18px; color: var(--ink-3); flex: none; }
+.lec-search { flex: 1; min-width: 0; border: 0; background: none; padding: 12px 0; font-size: var(--fs-body); outline: none; }
+.lec-searchbar:focus-within { border-color: var(--margin); }
+.lec-filter { margin-bottom: var(--s5); }
+.lectures-page .chip[aria-pressed="true"]:hover { color: var(--paper); }
+
+.lec-shelf { margin: 0 0 var(--s6); }
+.lec-shelf-head {
+  display: flex; align-items: baseline; gap: var(--s2); flex-wrap: wrap;
+  font-family: var(--serif); font-weight: 500; font-size: var(--fs-h3); margin: 0 0 var(--s3);
+  padding-bottom: var(--s2); border-bottom: 1px solid var(--hair);
+}
+.lec-shelf-head .muted { font-size: var(--fs-small); margin-left: auto; }
+.lec-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: var(--s3); }
+.lec-card {
+  display: flex; flex-direction: column; gap: 4px; height: 100%; text-decoration: none;
+  background: var(--sheet); border: 1px solid var(--hair); border-left: 3px solid var(--tab, var(--margin));
+  border-radius: var(--radius); padding: var(--s3) var(--s4); box-shadow: var(--shadow-sheet);
+  transition: transform .15s var(--ease), box-shadow .15s var(--ease);
+}
+.lec-card:hover { transform: translateY(-1px); box-shadow: var(--shadow-lift); }
+.lec-card-title { font-family: var(--serif); font-size: 1.08rem; line-height: 1.3; color: var(--ink); }
+.lec-card-meta { font-size: var(--fs-small); color: var(--ink-3); }
+.lec-card-topics { font-size: var(--fs-small); color: var(--ink-2); }
+
+.lec-results-head { font-family: var(--serif); font-weight: 500; font-size: var(--fs-h3); margin: 0 0 var(--s3); }
+.lec-hits { list-style: none; margin: 0 0 var(--s6); padding: 0; }
+.lec-hit { border-bottom: 1px solid var(--hair); }
+.lec-hit a { display: block; text-decoration: none; padding: var(--s3) 0; }
+.lec-hit a:hover .lec-hit-where span:first-child { text-decoration: underline; }
+.lec-hit-where { display: flex; gap: var(--s2); align-items: baseline; flex-wrap: wrap; font-weight: 600; }
+.lec-hit-where time { color: var(--margin); font-weight: 500; font-size: var(--fs-small); }
+.lec-hit-where .muted { font-weight: 400; font-size: var(--fs-small); }
+.lec-hit-text { display: block; margin-top: 4px; font-family: var(--serif); font-size: var(--fs-body); color: var(--ink-2); line-height: 1.5; }
+.lectures-page mark { background: var(--highlight); color: inherit; border-radius: 2px; padding: 0 1px; }
+.lec-fine, .lec-skipped { font-size: var(--fs-small); max-width: 70ch; }
+
+.lec-setup { text-align: left; max-width: 640px; margin: var(--s4) auto 0; }
+.lec-cmd {
+  font-family: var(--mono); font-size: var(--fs-small); background: var(--paper-deep); color: var(--ink);
+  border-radius: var(--radius); padding: var(--s3) var(--s4); overflow-x: auto; white-space: pre; text-align: left;
+}
+
+/* Reader */
+.lec-head { border-bottom-color: var(--tab, var(--margin)); }
+.lec-meta { margin: var(--s2) 0 0; font-size: var(--fs-small); }
+.lec-topic-filter { margin-top: var(--s3); }
+.lec-topic-filter .chip, .lec-filter .chip { white-space: normal; max-width: 100%; text-align: left; }
+.lec-player {
+  position: sticky; top: var(--s2); z-index: 3; background: var(--paper);
+  padding: var(--s2) 0 var(--s3); margin: 0 0 var(--s4); border-bottom: 1px solid var(--hair);
+}
+.lec-video { display: block; width: auto; max-width: 100%; max-height: 34vh; aspect-ratio: 16 / 9; background: #000; border-radius: var(--radius); }
+.lec-player-note:empty { display: none; }
+.lec-follow { display: inline-flex; gap: var(--s2); align-items: center; margin-top: var(--s2); font-size: var(--fs-small); color: var(--ink-2); }
+.lec-media-help { margin-top: var(--s2); font-size: var(--fs-small); color: var(--ink-2); }
+.lec-media-help summary { cursor: pointer; color: var(--ink-3); }
+.lec-base-row { display: flex; gap: var(--s2); align-items: center; flex-wrap: wrap; }
+.lec-base { flex: 1 1 220px; min-width: 0; }
+@media (max-width: 860px) { .lec-player { position: static; } }
+
+/* Passages on pleading paper: timestamp in the margin, red rule, then text. */
+.lec-passages { list-style: none; margin: 0; padding: 0; max-width: calc(var(--measure) + 120px); }
+.lec-passage {
+  display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 0 var(--s4);
+  padding: var(--s3) 0; border-bottom: 1px solid var(--rule-line); position: relative;
+}
+.lec-passage::before {
+  content: ""; position: absolute; left: 80px; top: 0; bottom: 0; width: 1px; background: var(--margin); opacity: .5;
+}
+.lec-passage[hidden] { display: none; }
+.lec-passage.is-current { background: linear-gradient(90deg, transparent 0 88px, var(--highlight) 88px); }
+.lec-stamp {
+  align-self: start; justify-self: end; border: 0; background: none; padding: 2px 0; cursor: pointer;
+  font-size: var(--fs-small); color: var(--margin); text-decoration: underline; text-decoration-color: transparent;
+}
+.lec-stamp:hover { text-decoration-color: currentColor; }
+.lec-stamp[disabled] { color: var(--ink-3); cursor: default; }
+.lec-passage-body { min-width: 0; padding-left: 6px; }
+.lec-text { margin: 0; font-family: var(--serif); font-size: calc(var(--fs-body) * var(--reading-scale, 1)); line-height: 1.6; color: var(--ink); }
+.lec-tags { display: flex; flex-wrap: wrap; gap: var(--s2); margin-top: var(--s2); align-items: center; }
+.lec-topic { text-decoration: none; white-space: normal; max-width: 100%; overflow-wrap: anywhere; text-align: left; }
+.lec-topic.minor { opacity: .7; }
+.lec-rule { display: inline-flex; gap: 4px; align-items: center; font-size: var(--fs-small); color: var(--ink-2); text-decoration: none; border-bottom: 1px dotted var(--ink-3); }
+.lec-rule svg { width: 13px; height: 13px; }
+@media (max-width: 560px) {
+  .lec-passage { grid-template-columns: 52px minmax(0, 1fr); gap: 0 var(--s3); }
+  .lec-passage::before { left: 58px; }
+  .lec-passage.is-current { background: linear-gradient(90deg, transparent 0 62px, var(--highlight) 62px); }
+}
+
+/* "On tape" box on outline topic pages */
+.lec-aside { border: 1px solid var(--hair); border-left: 3px solid var(--margin); background: var(--sheet); border-radius: var(--radius); padding: var(--s3) var(--s4); margin: 0 0 var(--s5); max-width: var(--measure); }
+.lec-aside h2 { display: flex; gap: var(--s2); align-items: center; margin: 0 0 var(--s2); color: var(--margin); }
+.lec-aside h2 svg { width: 14px; height: 14px; }
+.lec-aside ol { margin: 0 0 var(--s2); padding-left: 1.2em; }
+.lec-aside li { margin: 2px 0; }
+.lec-aside li a { text-decoration: none; }
+.lec-aside li a:hover span { text-decoration: underline; }
+.lec-aside time { margin-left: var(--s2); color: var(--margin); font-size: var(--fs-small); }
+.lec-aside li .muted { display: block; font-size: var(--fs-small); }
+@media print { .lec-aside, .lec-player { display: none; } }
