@@ -169,9 +169,20 @@ def load_library_stats(path: Path) -> dict:
 
 
 def merged(library: Path | None = None, builtin: str | None = "florida") -> list[Subject]:
-    subjects: list[Subject] = []
-    if builtin:
-        subjects.extend(load_builtin(builtin))
-    if library:
-        subjects.extend(load_library(library))
-    return subjects
+    built = load_builtin(builtin) if builtin else []
+    lib = load_library(library) if library else []
+    lib_ids = {s.id for s in lib}
+    by_id = {s.id: s for s in built}
+    for s in lib:
+        b = by_id.get(s.id)
+        if not b:
+            continue
+        # Same subject in both (Florida pack installed): keep the library's rules, add the
+        # built-in aliases and keyword phrases so tagging stays as sharp as before.
+        s.title, s.aliases, s.part, s.source = b.title, b.aliases, b.part, "library"
+        kw = {t.id: t for t in b.topics}
+        for t in s.topics:
+            if t.id in kw:
+                t.keywords = list(kw[t.id].keywords)
+                t.text = " ".join([t.text] + t.keywords)
+    return [s for s in built if s.id not in lib_ids] + lib

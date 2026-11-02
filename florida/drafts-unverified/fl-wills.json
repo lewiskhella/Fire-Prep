@@ -1,0 +1,770 @@
+{
+  "rules": [
+    {
+      "topic": "fl-wills.execution-and-revocation",
+      "id": "fl-wills.execution-and-revocation.insane-delusion",
+      "title": "Insane delusion",
+      "weight": 2,
+      "rule": "A testator who meets the general test for capacity may still lack capacity for a will, or a part of one, that is the product of an insane delusion: a false belief the testator conceived spontaneously and clung to against all evidence and reason, with no basis outside the testator's own imagination. The contestant must prove both the delusion and that it produced the challenged disposition.",
+      "elements": [
+        "A false belief, usually about a family member or the testator's own circumstances",
+        "Not the product of reasoning from evidence or information, however weak or illogical that reasoning",
+        "Held persistently against all evidence and reason",
+        "Causation: the belief produced the provision under attack"
+      ],
+      "tip": "Argue insane delusion separately, after the general three-part capacity test: a testator can know his property, his family and the effect of his will and still be deluded about one relative.",
+      "trap": "A belief that rests on some evidence, or on what someone told the testator, is not an insane delusion even if it is false or unfair. If a beneficiary planted the false belief, the right theories are fraud and undue influence.",
+      "authority": "Hooper v. Stokes, 107 Fla. 607, 145 So. 855 (1933); In re Estate of Edwards, 433 So. 2d 1349 (Fla. 5th DCA 1983); Fla. Stat. §§ 732.501, 732.5165"
+    },
+    {
+      "topic": "fl-wills.execution-and-revocation",
+      "id": "fl-wills.execution-and-revocation.will-contracts",
+      "title": "Contracts concerning wills; joint and mutual wills",
+      "weight": 2,
+      "rule": "An agreement to make a will, to give a devise, not to revoke a will or devise, not to make a will, or not to change a will is binding only if it is in writing and signed by the agreeing party in the presence of two attesting witnesses. Executing a joint will or mutual wills does not, by itself, create a presumption of a contract to make a will or not to revoke one.",
+      "elements": [
+        "A written agreement",
+        "Signed by the party to be bound",
+        "In the presence of two attesting witnesses"
+      ],
+      "exceptions": [
+        "An agreement signed by a nonresident is valid in Florida if it was valid where it was executed, even if that party later dies domiciled in Florida."
+      ],
+      "split": "UPC § 2-514 accepts a contract shown by material provisions stated in the will, by an express reference in the will plus extrinsic proof, or by a writing signed by the decedent, with no witnesses. Florida adds the two-witness formality.",
+      "tip": "A joint will that itself states the promise (for example, that the survivor will not revoke or change the plan) satisfies the statute, because each spouse signed it before two witnesses. A joint will that merely leaves everything to the survivor and then to the children states no promise.",
+      "trap": "Oral promises, however credibly proven, and reciprocal wills with matching plans do not bind the survivor. Even a valid contract does not invalidate a later will: the later will is probated, and the promisee's remedy is a claim against the estate for breach.",
+      "authority": "Fla. Stat. § 732.701"
+    },
+    {
+      "topic": "fl-wills.execution-and-revocation",
+      "id": "fl-wills.execution-and-revocation.codicils-republication",
+      "title": "Codicils: republication and revocation",
+      "weight": 2,
+      "rule": "A codicil must be executed with the same formalities as a will. A valid codicil that republishes the will treats the will as re-executed on the codicil's date. Revoking a codicil does not revoke the will, and unless there is evidence to the contrary the testator is presumed to have meant to reinstate the will provisions that the codicil had changed or revoked.",
+      "tip": "Re-dating matters most for the pretermitted-child statute: a child already born when a republishing codicil is signed is not pretermitted, even though the child was born after the original will.",
+      "trap": "Keep the two revocation rules apart. Revoking a later will that revoked an earlier will does not revive the earlier will without republication (§ 732.508(1)); revoking a codicil presumptively restores the will as it stood before the codicil (§ 732.508(2)).",
+      "authority": "Fla. Stat. §§ 732.502, 732.508; Azcunce v. Estate of Azcunce, 586 So. 2d 1216 (Fla. 3d DCA 1991)"
+    },
+    {
+      "topic": "fl-wills.construction",
+      "id": "fl-wills.construction.disclaimer",
+      "title": "Disclaimer of an inheritance or devise",
+      "weight": 1,
+      "rule": "An heir, devisee or other beneficiary may refuse all or part of an interest by a disclaimer: a writing that declares the disclaimer, describes the interest disclaimed, is signed by the disclaimant, and is delivered or filed as chapter 739 requires. Unless the instrument provides otherwise, the disclaimed interest passes as if the disclaimant had died immediately before the time of distribution, and the disclaimer is not treated as a transfer by the disclaimant.",
+      "exceptions": [
+        "A disclaimer is barred if the disclaimant has accepted the interest, voluntarily assigned or transferred it, or waived the right to disclaim in writing, or if the interest was sold at a judicial sale.",
+        "Florida also bars a disclaimer by a disclaimant who is insolvent when the disclaimer becomes irrevocable."
+      ],
+      "tip": "To find who takes after a disclaimer, apply any alternate gift the will makes for that case first; otherwise treat the disclaimant as having died just before distribution and run the lapse, anti-lapse or intestacy rules.",
+      "trap": "An insolvent heir cannot use a disclaimer in Florida to keep an inheritance from creditors; the insolvency bar makes the disclaimer ineffective. Separately, a disclaimer meant to avoid federal gift tax must also meet the federal qualified-disclaimer rules, including their 9-month deadline.",
+      "authority": "Fla. Stat. §§ 739.201, 739.402; 26 U.S.C. § 2518"
+    }
+  ],
+  "questions": [
+    {
+      "id": "fl-wills.q016",
+      "topic": "fl-wills.intestacy",
+      "rules": [
+        "fl-wills.intestacy.adopted-nonmarital",
+        "fl-wills.intestacy.per-stirpes"
+      ],
+      "difficulty": 2,
+      "stem": "Lena's husband, Mark, died when their son, Leo, was two. Three years later Lena married Oscar, and Oscar formally adopted Leo with Lena's consent. Mark's mother, Pearl, a Florida domiciliary and a widow, stayed in touch with Leo for the rest of her life. Pearl recently died intestate, leaving a $400,000 net probate estate made up of bank and brokerage accounts. She was survived by her daughter, Quinn, and by Leo, now 19. Mark had been Pearl's only other child, and Leo was Mark's only child.",
+      "call": "How should Pearl's estate be distributed?",
+      "choices": [
+        "Quinn takes the entire estate, because Oscar's adoption of Leo ended Leo's status as a descendant of Mark.",
+        "Quinn and Leo each take $200,000, because Oscar's adoption did not cut off Leo's relationship with the family of his deceased father.",
+        "Quinn takes two-thirds and Leo one-third, because a child adopted into another family inherits from his birth family only as a relative of the half blood.",
+        "Quinn takes the entire estate, because a stepparent adoption preserves only the child's tie to the parent who married the adopter, not to the other parent's family."
+      ],
+      "answer": 1,
+      "explanation": "Under § 732.108(1), an adopted person generally becomes a descendant of the adopting parent and stops being a descendant of the natural parents and their families. But the statute makes an exception when a child is adopted by the spouse of a natural parent who married that parent after the other natural parent died: the adoption has no effect on the child's relationship with the deceased parent's family. Leo therefore remains Mark's descendant and Pearl's grandchild. With no surviving spouse, Pearl's estate passes to her descendants per stirpes (§§ 732.103, 732.104): Quinn takes one-half, and Leo takes Mark's one-half by representation.",
+      "whyNot": [
+        "This states the general rule of § 732.108(1) but ignores the exception for adoption by a stepparent who married the natural parent after the other natural parent died.",
+        "",
+        "The half-blood rule (§ 732.105) concerns collateral relatives who share only one common ancestor; it has nothing to do with adoption, and Leo takes a full representative share.",
+        "Section 732.108(1)(a) does preserve the tie to the parent who married the adopter, but § 732.108(1)(b) separately preserves the tie to a deceased parent's family when the stepparent married the surviving parent after that death, which is this case. Pearl's continued contact with Leo is irrelevant either way."
+      ]
+    },
+    {
+      "id": "fl-wills.q017",
+      "topic": "fl-wills.intestacy",
+      "rules": [
+        "fl-wills.intestacy.simultaneous-death"
+      ],
+      "difficulty": 2,
+      "stem": "Ana and her husband, Ben, both Florida domiciliaries, died when their small plane crashed into Lake Okeechobee. The medical examiner could not determine which of them died first. Ana's $300,000 life insurance policy named Ben as primary beneficiary and Ana's sister, Carla, as contingent beneficiary; the policy says nothing about simultaneous death. The couple also owned a $200,000 brokerage account titled in both names as joint tenants with right of survivorship. Ana's will leaves everything to Ben, and Ben's will leaves everything to his son from a prior marriage, Dylan. Neither will contains a survivorship requirement.",
+      "call": "How will the insurance proceeds and the brokerage account be distributed?",
+      "choices": [
+        "The proceeds go to Carla; one-half of the account passes as part of Ana's estate and one-half as part of Ben's estate.",
+        "The proceeds are split equally between Carla and Ben's estate, and the account passes entirely to the estate of whichever spouse was younger.",
+        "The proceeds go to Ben's estate, because a beneficiary who dies in the same accident as the insured is presumed to have survived; the account is split one-half to each estate.",
+        "The proceeds go to Carla; the account passes entirely to Ana's estate, because she is treated as having survived Ben."
+      ],
+      "answer": 0,
+      "explanation": "Florida's Simultaneous Death Law (§ 732.601) applies when there is insufficient evidence that the persons died otherwise than simultaneously and the governing instrument does not provide otherwise. Life-insurance proceeds are distributed as if the insured survived the beneficiary, so Ben is treated as having died first and the contingent beneficiary, Carla, takes. Property held in joint tenancy with right of survivorship is divided one-half as if one owner survived and one-half as if the other survived, so half of the account passes through each spouse's estate. The UPC's 120-hour survival rule is not part of Florida law.",
+      "whyNot": [
+        "",
+        "The insurance rule does not split proceeds between beneficiaries, and Florida has no age-based presumption of survival; joint survivorship property is split equally between the two estates.",
+        "The statute presumes the opposite for insurance: the insured is treated as surviving the beneficiary, so Ben's estate takes nothing under the policy.",
+        "Each person is treated as surviving the other only as to that person's own property; jointly held survivorship property is split one-half to each estate rather than going wholly to one."
+      ]
+    },
+    {
+      "id": "fl-wills.q018",
+      "topic": "fl-wills.intestacy",
+      "rules": [
+        "fl-wills.intestacy.advancements",
+        "fl-wills.intestacy.per-stirpes"
+      ],
+      "difficulty": 3,
+      "stem": "Rita, a Florida domiciliary and a widow, died intestate leaving a net probate estate of $330,000. She was survived by her son, Sam, her daughter, Tess, and her grandson, Uri, the only child of her son Vic, who died in 2020. In 2021 Rita gave Sam $90,000 toward a house, and Sam signed a letter to Rita acknowledging that the money was an advance on his inheritance. In 2022 she gave Tess $60,000 for graduate school; nothing was put in writing. In 2018 she gave Vic $45,000 and, that day, signed a note stating that the gift was an advancement of Vic's share of her estate. The note says nothing about Vic's children.",
+      "call": "How should Rita's estate be distributed?",
+      "choices": [
+        "Sam, Tess and Uri each take $110,000.",
+        "Sam $85,000, Tess $115,000 and Uri $130,000.",
+        "Sam $65,000, Tess $155,000 and Uri $110,000.",
+        "Sam $50,000, Tess $140,000 and Uri $140,000."
+      ],
+      "answer": 3,
+      "explanation": "Under § 733.806, a lifetime gift to an heir counts against the heir's intestate share only if the decedent declared it an advancement in a contemporaneous writing or the heir acknowledged it as one in writing. Sam's signed acknowledgment makes his $90,000 an advancement. Tess's gift had no writing, so it is not. Vic's gift was declared in writing, but because Vic did not survive Rita it is not charged against his descendants unless the declaration says so, and it does not. Add Sam's advancement back to the estate ($330,000 + $90,000 = $420,000) and divide among the three family lines ($140,000 each). Sam's share is reduced by the $90,000 he already received, leaving $50,000; Tess takes $140,000, and Uri takes Vic's $140,000 by representation.",
+      "whyNot": [
+        "This ignores Sam's advancement, which his signed acknowledgment made chargeable against his share.",
+        "Tess's gift is not an advancement because neither Rita nor Tess put it in writing, and Vic's advancement is not charged to Uri because Vic died first and the note does not say otherwise.",
+        "Vic's advancement drops out because Vic did not survive Rita; it is charged against a predeceased heir's descendants only if the writing so provides.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-wills.q019",
+      "topic": "fl-wills.execution-and-revocation",
+      "rules": [
+        "fl-wills.execution-and-revocation.revival-drr",
+        "fl-wills.execution-and-revocation.revocation"
+      ],
+      "difficulty": 1,
+      "stem": "In 2014 Gwen, a Florida domiciliary, executed a valid will leaving her entire estate to her friend Gil. In 2019 she executed a valid will that expressly revoked all earlier wills and left everything to her niece, Hana. In 2023, after a falling-out with Hana, Gwen tore the 2019 will into pieces, intending to revoke it, and told a neighbor, 'Now my 2014 will is back in force, and Gil gets everything.' The original 2014 will remained, intact, in Gwen's desk. Gwen died last month without signing any other document. Her only heir is her brother, Ike.",
+      "call": "Can Gil have the 2014 will admitted to probate?",
+      "choices": [
+        "Yes, because Gwen's statement to her neighbor shows that she intended the 2014 will to take effect again.",
+        "Yes, because the 2014 will was never physically destroyed and therefore was never revoked.",
+        "No, because revoking the 2019 will did not revive the 2014 will, and Gwen never republished it with will formalities.",
+        "Yes, under dependent relative revocation, because Gwen destroyed the 2019 will only on the mistaken belief that the 2014 will would control."
+      ],
+      "answer": 2,
+      "explanation": "The 2019 will's express revocation clause revoked the 2014 will when the 2019 will was executed. Gwen then validly revoked the 2019 will by tearing it with intent to revoke (§ 732.506). But under § 732.508(1), revoking a will that revoked an earlier will does not revive the earlier will, even though the earlier will still exists, unless the earlier will is republished by re-execution or by a later will or codicil executed with § 732.502 formalities. Gwen's oral statement does not qualify, so the 2014 will cannot be probated.",
+      "whyNot": [
+        "That is the UPC approach, which lets the testator's intent revive an earlier will. Florida's statute rejects revival by intent alone.",
+        "A will can be revoked by a later instrument without any physical act; the 2019 will's revocation clause did that.",
+        "",
+        "Dependent relative revocation could at most disregard the revocation of the 2019 will (keeping Hana's will in force) if that were closer to Gwen's wishes than intestacy; it never resurrects a will that a later instrument revoked."
+      ]
+    },
+    {
+      "id": "fl-wills.q020",
+      "topic": "fl-wills.execution-and-revocation",
+      "rules": [
+        "fl-wills.execution-and-revocation.will-contracts"
+      ],
+      "difficulty": 2,
+      "stem": "In 2010 Hal and his wife, Wanda, both Florida domiciliaries, signed a single joint will before two witnesses. It left all of their property to the survivor of them and, on the survivor's death, to their children, Ann and Bo, equally. The will says nothing about any agreement between Hal and Wanda. Wanda died in 2016, and Hal received her property. In 2019 Hal married Cleo, and in 2021 he executed a valid will that revokes all earlier wills and leaves his entire estate, all investment accounts, to Cleo. Hal died this year. Ann and Bo's aunt credibly testifies that Hal and Wanda promised each other in 2010 never to change their joint plan.",
+      "call": "Who is entitled to Hal's estate?",
+      "choices": [
+        "Cleo, because a joint will raises no presumption of a contract, and the promise was not in a writing signed before two witnesses.",
+        "Ann and Bo, because a joint will setting out a common dispositive plan is presumed to be contractual and became irrevocable once Wanda died.",
+        "Ann and Bo, because Hal accepted Wanda's property under the joint will and is estopped from changing the plan.",
+        "Ann and Bo, subject only to Cleo's elective share, because the aunt's testimony proves an oral contract not to revoke."
+      ],
+      "answer": 0,
+      "explanation": "Under § 732.701(1), an agreement to make a will, not to revoke a will, or not to change a will is binding only if it is in writing and signed by the agreeing party in the presence of two attesting witnesses. Section 732.701(2) adds that executing a joint will or mutual wills does not create a presumption of a contract to make a will or not to revoke it. The joint will states no promise, and the oral promise the aunt describes is unenforceable however credible her testimony. Hal remained free to revoke the joint will, and his 2021 will, which did so, gives everything to Cleo.",
+      "whyNot": [
+        "",
+        "Florida rejects any presumption of a contract from a joint or mutual will (§ 732.701(2)).",
+        "Accepting benefits under the joint will does not substitute for the signed, witnessed writing that § 732.701 makes a condition of enforcement.",
+        "The oral promise is unenforceable, so the joint will has no continuing force; the 2021 will controls the whole estate and gives it to Cleo, who has no need to elect."
+      ]
+    },
+    {
+      "id": "fl-wills.q021",
+      "topic": "fl-wills.spousal-and-family-protection",
+      "rules": [
+        "fl-wills.spousal-and-family-protection.pretermitted-child"
+      ],
+      "difficulty": 2,
+      "stem": "In 2016 Dan, a Florida domiciliary, executed a valid will leaving his entire estate 'to my wife, Faye.' At that time Dan had one child, Eve, from his first marriage; the will does not mention children. In 2019 Dan and Faye had a son, Gus. Dan never changed his will and made no lifetime gifts to Gus. Dan died last year, survived by Faye, Eve and Gus. His probate estate consists of $800,000 in investment accounts; the family home was owned by Dan and Faye as tenants by the entirety.",
+      "call": "What share of the probate estate is Gus entitled to?",
+      "choices": [
+        "One-quarter, which is his intestate share, because he was born after the will was executed and nothing in the will provides for him.",
+        "One-quarter, and Eve also takes one-quarter, because both children were omitted from the will.",
+        "Nothing, because a parent may disinherit any child simply by leaving the child out of the will.",
+        "Nothing, because Dan already had a child and left substantially all of his estate to Gus's surviving mother."
+      ],
+      "answer": 3,
+      "explanation": "A child born after the will who is not provided for and received no equivalent advancement ordinarily takes an intestate share (§ 732.302). The statute does not apply, however, if the testator had one or more children when the will was executed, devised substantially all of the estate to the other parent of the pretermitted child, and that parent survived and takes under the will. Dan had Eve when he signed, he left everything to Faye, who is Gus's mother, and Faye survived and takes. The statute assumes the surviving parent will provide for the child, so Gus takes nothing from Dan's estate.",
+      "whyNot": [
+        "This would be right without the exception, but the gift of the whole estate to Gus's surviving mother, made when Dan already had a child, takes the case outside § 732.302.",
+        "Eve was alive when the will was signed, so she can never be pretermitted, and Gus is excluded by the other-parent exception.",
+        "Omission alone disinherits only children living when the will is made. An after-born child is protected unless an exception applies; here the other-parent exception is what defeats Gus.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-wills.q022",
+      "topic": "fl-wills.spousal-and-family-protection",
+      "rules": [
+        "fl-wills.spousal-and-family-protection.waiver",
+        "fl-wills.spousal-and-family-protection.elective-share-right"
+      ],
+      "difficulty": 2,
+      "stem": "Hugo and Iris, Florida residents, married in 2012. In 2020 Hugo asked Iris to sign a postnuptial agreement waiving 'all rights as surviving spouse in Hugo's estate, including the elective share.' Iris signed it at a bank in the presence of two employees, who signed as subscribing witnesses, and a notary acknowledged her signature. Hugo did not tell Iris what he owned; she believed his net worth was about $500,000, but he held $6 million in accounts she did not know about. Hugo died this year. His will leaves Iris $25,000 and the residue to his children from a prior marriage.",
+      "call": "If Iris files a timely election, may she take the elective share?",
+      "choices": [
+        "No, because the agreement was in writing and signed in the presence of two subscribing witnesses.",
+        "Yes, because a waiver signed after marriage is enforceable only if each spouse made fair disclosure of his or her estate, and Hugo did not.",
+        "Yes, because a waiver of the elective share is enforceable only if the waiving spouse had the advice of independent counsel before signing it.",
+        "No, because the $25,000 devise is consideration for the waiver."
+      ],
+      "answer": 1,
+      "explanation": "Section 732.702 lets a spouse waive the elective share and other spousal rights, before or after marriage, by a written agreement signed in the presence of two subscribing witnesses. For an agreement signed after the marriage, each spouse must also make fair disclosure of his or her estate. Iris's agreement met the formalities, but Hugo disclosed nothing and she knew nothing of most of his wealth, so the postnuptial waiver is unenforceable. Iris may elect 30% of the elective estate, and the $25,000 devise is credited against her share.",
+      "whyNot": [
+        "The two-witness formality is necessary but not sufficient; a postnuptial waiver also requires fair disclosure.",
+        "",
+        "Florida does not require independent counsel for a valid waiver; the defect here is the lack of fair disclosure.",
+        "No consideration is needed for a § 732.702 waiver, and a devise cannot cure the lack of disclosure; the devise is simply credited against the elective share."
+      ]
+    },
+    {
+      "id": "fl-wills.q023",
+      "topic": "fl-wills.spousal-and-family-protection",
+      "rules": [
+        "fl-wills.spousal-and-family-protection.election-timing-satisfaction"
+      ],
+      "difficulty": 3,
+      "stem": "Jay, a Florida domiciliary, died on March 1, 2025. His will left his entire estate to his brother. His personal representative served a copy of the notice of administration on Jay's widow, Kim, on June 2, 2025, and first published the notice to creditors on August 4, 2025. Kim, who had signed no waiver, was abroad for much of the year. On January 15, 2026 she filed an election to take the elective share, together with a petition asking the court to extend her time to elect for good cause. She had filed nothing earlier. The personal representative moves to strike the election.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Strike the election, because it was due by December 2, 2025, and a petition to extend the time had to be filed within that period.",
+        "Deny the motion, because an election is timely if filed within 2 years after the decedent's death.",
+        "Deny the motion, because the court may extend the time for good cause at any point before the estate is closed.",
+        "Deny the motion, because the 6-month period runs from first publication of the notice to creditors, so Kim had until February 4, 2026."
+      ],
+      "answer": 0,
+      "explanation": "Under § 732.2135(1), the election must be filed by the earlier of 6 months after service of the notice of administration on the surviving spouse or 2 years after the decedent's death. Six months after service on June 2, 2025 is December 2, 2025, earlier than the 2-year date of March 1, 2027, so December 2, 2025 was the deadline. The court may extend the time for good cause, but only on a petition filed within the original election period (§ 732.2135(2)). Kim's petition and election both came too late, so her right to elect is lost.",
+      "whyNot": [
+        "",
+        "Two years after death is only the outside limit; once the notice of administration was served, the earlier 6-month date controls.",
+        "An extension is available only on a petition filed within the election period; a late petition cannot revive an expired right.",
+        "The period runs from service of the notice of administration on the spouse, not from publication of the notice to creditors."
+      ]
+    },
+    {
+      "id": "fl-wills.q024",
+      "topic": "fl-wills.homestead",
+      "rules": [
+        "fl-wills.homestead.protected-homestead"
+      ],
+      "difficulty": 1,
+      "stem": "In 2010 Lou and his wife, Mae, Florida domiciliaries, bought a house in Gainesville, taking title as 'Lou Park and Mae Park, husband and wife.' They lived there together until Lou's death this year. Lou's will, executed in 2022, leaves 'my interest in our home' to his adult son from a prior marriage, Nate, and the rest of his estate to Mae. Lou and Mae had no children together, and Mae survives. Neither spouse ever signed a marital agreement.",
+      "call": "Who owns the house?",
+      "choices": [
+        "Nate, because Lou had no minor child and could devise his interest in the home freely.",
+        "Mae holds a life estate and Nate the remainder, because the devise to Nate violates the homestead restriction.",
+        "Mae, as surviving tenant by the entirety; the house is not protected homestead and is not part of Lou's probate estate.",
+        "Mae and Nate, as tenants in common with equal shares."
+      ],
+      "answer": 2,
+      "explanation": "A deed to spouses as husband and wife creates a tenancy by the entirety, and when one spouse dies the survivor owns the whole by operation of law. Real property held by the entirety or in joint tenancy with right of survivorship is not 'protected homestead' (§ 731.201), so the devise restriction and the descent rules of § 732.401 never apply. Lou had no interest in the house that could pass by will, so the devise to Nate is ineffective, and Mae owns the house outright.",
+      "whyNot": [
+        "Lou's entireties interest ended at his death, leaving nothing to devise. Even had he owned the house alone, an owner survived by a spouse may devise homestead only to the spouse.",
+        "The life-estate-and-remainder scheme applies only to protected homestead that is not validly devised; entireties property is not protected homestead.",
+        "",
+        "A tenancy by the entirety becomes a tenancy in common on divorce, not on death; at death the surviving spouse takes the whole."
+      ]
+    },
+    {
+      "id": "fl-wills.q025",
+      "topic": "fl-wills.homestead",
+      "rules": [
+        "fl-wills.homestead.devise-restriction",
+        "fl-wills.homestead.descent",
+        "fl-wills.homestead.protected-homestead"
+      ],
+      "difficulty": 3,
+      "stem": "In 2012, while single, Ken, a Florida domiciliary, deeded his house in Naples to himself as trustee of his revocable trust. The trust directs the trustee, at Ken's death, to distribute the house to Ken's two adult children, Lia and Max. In 2016 Ken married Nia, and the couple lived in the house until Ken died last month. Nia never signed a prenuptial or postnuptial agreement, a deed or any other waiver. Ken was survived by Nia, Lia and Max; Ken and Nia had no children together. Ken's pour-over will leaves the rest of his property to the trust.",
+      "call": "Who is entitled to the house?",
+      "choices": [
+        "Lia and Max equally, because the trust, not Ken, owned the house when he died, so it was not his homestead.",
+        "Lia and Max equally, because a homeowner who leaves no minor child may devise the homestead to anyone.",
+        "Nia in fee simple, because the trust's gift fails and a surviving spouse takes intestate property in full when the decedent leaves no minor child.",
+        "Nia takes a life estate (or, by timely election, a one-half tenancy in common), with the rest in Lia and Max."
+      ],
+      "answer": 3,
+      "explanation": "For the homestead devise restriction, the settlor of a revocable trust is treated as the owner of homestead held in the trust, and the trust's disposition of it is a 'devise' (§ 732.4015(2)). Because Ken was survived by a spouse, he could devise the homestead only to Nia, even though he left no minor child, so the trust's gift to Lia and Max is invalid. The house descends under § 732.401: Nia takes a life estate with a vested remainder in Ken's descendants per stirpes, unless within 6 months after Ken's death she elects an undivided one-half interest as tenant in common, with the other half vesting in Lia and Max.",
+      "whyNot": [
+        "Holding title in a revocable trust does not remove homestead protection; the settlor is treated as the owner and the trust's disposition as a devise.",
+        "Freedom to devise exists only when the owner leaves neither a spouse nor a minor child; a surviving spouse limits the devise to the spouse.",
+        "When the owner leaves a spouse and descendants, invalidly devised homestead does not pass to the spouse in fee; the spouse takes a life estate (or an elected one-half tenancy in common) and the descendants take the rest.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-wills.q026",
+      "topic": "fl-wills.homestead",
+      "rules": [
+        "fl-wills.homestead.lifetime-transfer",
+        "fl-wills.homestead.devise-restriction"
+      ],
+      "difficulty": 2,
+      "stem": "Raul, a Florida domiciliary, held sole title to the house in Ocala where he lived with his wife, Sofia. Raul also had an adult son, Teo, from an earlier marriage; Raul and Sofia had no children together. In 2023 Raul signed and recorded a gift deed conveying the house to Teo, reserving nothing for himself. Sofia did not sign the deed and did not know about it, and the couple went on living in the house. Raul died this year. His valid will leaves his entire estate to Sofia.",
+      "call": "Who owns the house?",
+      "choices": [
+        "Teo, because Sofia held no title to the house, so her joinder in the deed was unnecessary.",
+        "Sofia, because the deed was ineffective without her joinder, and Raul, having no minor child, could devise the homestead to her.",
+        "Sofia holds a life estate and Teo the remainder, because that is how homestead passes when the owner leaves a spouse and a descendant.",
+        "Teo, subject to a life estate in Sofia, because a gift deed of homestead is valid but cannot defeat the spouse's right to live there."
+      ],
+      "answer": 1,
+      "explanation": "Article X, section 4(c) of the Florida Constitution lets the owner of homestead alienate it by mortgage, sale or gift only if joined by the spouse when the owner is married, whether or not the spouse holds title. Raul's gift deed, signed without Sofia's joinder, did not convey the homestead, so Raul still owned it at death. Because Raul left no minor child, he was free to devise the homestead to his spouse, and his will gives the house to Sofia in fee simple.",
+      "whyNot": [
+        "Spousal joinder is required for a married owner's conveyance of homestead even though the spouse is not on title.",
+        "",
+        "The life estate and remainder arise only when homestead is not validly devised. A devise to the spouse is permitted when there is no minor child, so Sofia takes the fee.",
+        "Without the spouse's joinder the conveyance of homestead is ineffective; there is no rule that saves the deed and carves out a life estate for the spouse."
+      ]
+    },
+    {
+      "id": "fl-wills.q027",
+      "topic": "fl-wills.construction",
+      "rules": [
+        "fl-wills.construction.exoneration"
+      ],
+      "difficulty": 1,
+      "stem": "Opal's will provides: 'I direct my personal representative to pay all my just debts. I give my rental condominium at Harbor Point to my nephew, Ned. I give the residue of my estate to my sister, Pam.' At Opal's death the condominium is worth $300,000 and is subject to a $120,000 mortgage securing the loan Opal took out to buy it. Her residuary estate is worth $400,000 after other debts and expenses. Ned asks the personal representative to pay off the mortgage from the residue.",
+      "call": "Is Ned entitled to have the mortgage paid from the residue?",
+      "choices": [
+        "No, because a general direction to pay debts does not show an intent to free specifically devised property of its mortgage.",
+        "Yes, because the will directs the personal representative to pay all of Opal's just debts, and the mortgage debt is one of them.",
+        "Yes, because specifically devised property is exonerated from liens that secure purchase-money loans.",
+        "No, because a debt secured by a mortgage may be paid only from the property that secures it, never from other estate assets."
+      ],
+      "answer": 0,
+      "explanation": "Under § 733.803, the specific devisee of encumbered property is entitled to have the encumbrance paid from the residue only when the will shows that intent, and a general direction in the will to pay debts does not show it. Opal's boilerplate debt clause is just such a general direction. Ned takes the condominium subject to the $120,000 mortgage, and Pam's residue is not reduced to pay it.",
+      "whyNot": [
+        "",
+        "The statute expressly provides that a general direction to pay debts does not require the estate to pay off liens on specifically devised property.",
+        "Florida draws no distinction based on the kind of loan secured; absent a specific direction in the will, no encumbrance is exonerated.",
+        "A testator may direct that a mortgage be paid from the residue; the problem is only that Opal's will contains no such specific direction."
+      ]
+    },
+    {
+      "id": "fl-wills.q028",
+      "topic": "fl-wills.construction",
+      "rules": [
+        "fl-wills.construction.ademption-extinction"
+      ],
+      "difficulty": 2,
+      "stem": "In 2017 Quentin, a Florida domiciliary, executed a will giving 'my 1,000 shares of Bayside Corp. common stock' to his niece, Pia, and the residue of his estate to his nephew, Ross. Quentin then owned exactly 1,000 Bayside shares. In 2020 Bayside declared a two-for-one stock split, and Quentin received 1,000 more shares. In 2023 Bayside merged into Coastal Inc., and each Bayside share was converted into one Coastal share. Before he died, Quentin received $8,000 in cash dividends on the stock, which he deposited in his checking account, and he bought 500 more Coastal shares on the open market.",
+      "call": "What does Pia take under the will?",
+      "choices": [
+        "Nothing, because Bayside stock no longer existed at Quentin's death, so the devise was adeemed.",
+        "1,000 Coastal shares, because a specific devise of stock is limited to the number of shares the will describes.",
+        "2,000 Coastal shares, but neither the $8,000 of dividends nor the 500 shares Quentin bought.",
+        "2,500 Coastal shares and the $8,000 of dividends."
+      ],
+      "answer": 2,
+      "explanation": "Under § 732.605, when a testator who owns the described securities makes a specific devise of them, the devisee takes what remains of those securities plus additional securities of the same entity acquired because of action the entity initiated, such as a stock split, and securities of another entity received in a merger, consolidation or reorganization. The split doubled Pia's gift to 2,000 Bayside shares, and the merger converted them into 2,000 Coastal shares. Cash distributions received before death are not part of the specific devise, and shares Quentin bought with his own money are not accessions, so the dividends and the 500 purchased shares fall into the residue for Ross.",
+      "whyNot": [
+        "The statute overrides the identity rule here: securities received in a merger the issuer initiated replace the devised shares, so the gift is not adeemed.",
+        "The statute adds shares received from an action the entity initiated, such as a split, so Pia's gift includes the extra 1,000 shares.",
+        "",
+        "Only accessions produced by the issuer's own action pass with the gift. Shares the testator buys himself and cash dividends paid before death go to the residue."
+      ]
+    },
+    {
+      "id": "fl-wills.q029",
+      "topic": "fl-wills.administration",
+      "rules": [
+        "fl-wills.administration.summary-administration",
+        "fl-wills.spousal-and-family-protection.exempt-property"
+      ],
+      "difficulty": 1,
+      "stem": "Wendy, a Florida domiciliary and a widow, died eight months ago. Her valid will leaves everything to her two adult children and says nothing about the type of administration. She owned the house where she lived alone, worth $350,000, household furniture worth $9,000, a car worth $14,000, and a bank account holding $68,000; none of these was specifically devised. Her only known debt is a $3,000 credit-card balance. Her children want to avoid formal administration.",
+      "call": "Is summary administration available?",
+      "choices": [
+        "No, because the value of Wendy's property far exceeds $75,000.",
+        "No, because summary administration is available only after the decedent has been dead for more than 2 years.",
+        "Yes, because summary administration is available whenever the will does not direct formal administration.",
+        "Yes, because the protected homestead and the exempt property are excluded, leaving less than $75,000 subject to administration."
+      ],
+      "answer": 3,
+      "explanation": "Under § 735.201, summary administration is available if the will does not direct formal administration and either the decedent has been dead more than 2 years or the value of the entire Florida estate subject to administration, less property exempt from creditors' claims, does not exceed $75,000. The house is protected homestead, which is exempt from creditors and passes outside administration, and the furniture and car qualify as exempt property for Wendy's children. Only the $68,000 account counts, so the estate qualifies. The petitioner must still make a diligent search for creditors and provide for the credit-card debt.",
+      "whyNot": [
+        "The $75,000 test excludes protected homestead and exempt property; only the $68,000 account counts.",
+        "Death more than 2 years earlier is an alternative ground; an estate within the $75,000 limit qualifies however recently the decedent died.",
+        "The absence of a direction for formal administration is necessary but not sufficient; the estate must also meet the value test or the 2-year test.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-wills.q030",
+      "topic": "fl-wills.administration",
+      "rules": [
+        "fl-wills.administration.priority-of-claims"
+      ],
+      "difficulty": 3,
+      "stem": "Xander, a Florida domiciliary, died owning $100,000 of probate assets apart from exempt property; he had no homestead and no revocable trust. The personal representative has allowed these claims and expenses: $20,000 of administration expenses and attorney's fees; a $10,000 funeral bill; a $12,000 federal income-tax debt; $18,000 owed to a hospital for care during the last three weeks of Xander's life; a $24,000 credit-card balance; and a $60,000 judgment that a former business partner obtained against Xander two years before his death. No claim is secured by a lien on any estate property.",
+      "call": "How much will the former business partner receive on the judgment?",
+      "choices": [
+        "$60,000, because a judgment entered during the decedent's lifetime is paid ahead of unsecured claims.",
+        "$30,000, because the judgment shares pro rata with the other lowest-class claims after the preferred classes are paid in full.",
+        "About $41,700, because every allowed claim shares pro rata when the estate is insolvent.",
+        "About $28,600, because the whole funeral bill is paid before any general claim."
+      ],
+      "answer": 1,
+      "explanation": "When the estate cannot pay everything, § 733.707 requires payment class by class, each class in full before the next and pro rata within a class. Class 1, administration expenses ($20,000), leaves $80,000. Class 2, funeral expenses, is capped at $6,000, leaving $74,000; the other $4,000 of the funeral bill drops to class 8. Class 3, debts with preference under federal law such as the income-tax debt ($12,000), leaves $62,000. Class 4, medical and hospital expenses of the last 60 days ($18,000), leaves $44,000. There are no class 5 to 7 claims. Class 8 totals $88,000 (the $24,000 card balance, the $60,000 judgment and the $4,000 funeral excess), so each class 8 claimant receives half of its claim, and the judgment creditor receives $30,000.",
+      "whyNot": [
+        "A judgment obtained during life gets no priority; unless it is secured by a lien on estate property, it is a class 8 claim.",
+        "",
+        "Florida does not pool all claims; classes 1 through 4 are paid in full before class 8 receives anything.",
+        "Funeral expenses are preferred only up to $6,000; the $4,000 excess is a class 8 claim that shares with the judgment."
+      ]
+    }
+  ],
+  "essays": [
+    {
+      "id": "fl-wills.e03",
+      "title": "The will Ava arranged",
+      "minutes": 60,
+      "topics": [
+        "fl-wills.execution-and-revocation",
+        "fl-wills.administration",
+        "fl-wills.intestacy"
+      ],
+      "facts": [
+        "In 2015 Walter Price, a widower domiciled in Orlando, executed a valid will that leaves $40,000 to St. Brendan's Church and the residue of his estate in equal shares to his three adult children, Ava, Ben and Cal. Walter kept the original in his desk.",
+        "In 2021 Walter, then 84, was diagnosed with moderate Alzheimer's disease and moved into Ava's home in Orlando. Ava held his durable power of attorney and paid his bills. Over the next year she repeatedly told Walter that money was disappearing from his bank account after Ben's and Cal's visits. Walter's bank records show that no money was ever missing.",
+        "In March 2022 Ava told Walter that he 'needed a new will,' chose a lawyer from her church, drove Walter to the lawyer's office, and handed the lawyer a typed list of what the new will should say. She stayed in the conference room throughout the meeting. The lawyer's notes record that Walter correctly named his three children, described his brokerage account and his lake cabin, and said he was 'cutting back the boys because they've been stealing from me,' but that he twice asked why he was there. Walter's physician wrote that week that Walter 'has good days and bad days.'",
+        "Walter signed the 2022 will at the end. The lawyer and Ava, the only other people in the room, then signed as attesting witnesses in Walter's presence and in each other's presence, and the lawyer's assistant, a notary, completed a self-proving affidavit. The 2022 will revokes all earlier wills, leaves 80% of the estate to Ava and 10% each to Ben and Cal, and provides: 'Any beneficiary who contests this will forfeits every gift to him under it.' Ava kept the original in her safe.",
+        "In 2024, after a quarrel with Ava, Walter wrote on a sheet of paper, 'I revoke the will Ava made me sign. My 2015 will stands,' dated and signed it, and handed it to Ben. No one witnessed it. The original 2022 will stayed in Ava's safe.",
+        "Walter died in January 2026, owning a $900,000 brokerage account and a lake cabin worth $300,000. Ava had the 2022 will admitted to probate and was appointed personal representative. She served a notice of administration on Ben and Cal two weeks ago. They have brought you the 2015 will and the 2024 note."
+      ],
+      "calls": [
+        "Was the 2022 will validly executed, and did Walter have testamentary capacity when he signed it? Address any argument based on Walter's belief that his sons were stealing from him.",
+        "On what grounds can Ben and Cal challenge the 2022 will, who bears the burden of proof, and what deadline and risks do they face?",
+        "What is the effect of Walter's 2024 note, and how will Walter's estate pass if the 2022 will is set aside?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Execution formalities, interested witness and self-proof",
+          "rules": [
+            "fl-wills.execution-and-revocation.formalities",
+            "fl-wills.execution-and-revocation.self-proof"
+          ],
+          "points": 3,
+          "mustSay": [
+            "a will must be signed at the end by the testator in the presence of two attesting witnesses, who sign in his presence and in each other's presence (§ 732.502)",
+            "Ava's interest as a beneficiary does not invalidate the will or her gift (§ 732.504); Florida has no purging rule",
+            "the self-proving affidavit lets the will be admitted without witness testimony and is prima facie proof of due execution, shifting the burden to the contestants"
+          ],
+          "conclusion": "The 2022 will was validly executed and self-proved; Ava's role as a witness matters only to undue influence."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Testamentary capacity",
+          "rules": [
+            "fl-wills.execution-and-revocation.capacity"
+          ],
+          "points": 3,
+          "mustSay": [
+            "sound mind means a general understanding of the nature and extent of the property, the natural objects of bounty, and the practical effect of the will",
+            "capacity is judged at the moment of execution; a dementia diagnosis or old age alone does not prove incapacity, and a will made in a lucid interval is valid",
+            "the contestants bear the burden of proving incapacity",
+            "the lawyer's notes (children named, assets described, reason for the change stated) point toward capacity despite Walter's confusion"
+          ],
+          "conclusion": "A court is likely to find that Walter had capacity when he signed; the contest should rest on undue influence and fraud."
+        },
+        {
+          "id": "i3",
+          "call": 1,
+          "label": "Insane delusion",
+          "rules": [
+            "fl-wills.execution-and-revocation.insane-delusion"
+          ],
+          "points": 2,
+          "mustSay": [
+            "an insane delusion is a false belief spontaneously conceived and held against all evidence and reason, with no basis outside the testator's imagination",
+            "the delusion must have produced the challenged disposition",
+            "Walter's belief came from Ava's reports, so it is not an insane delusion; it is evidence of fraud and undue influence instead"
+          ],
+          "conclusion": "The insane-delusion theory likely fails because Walter's belief had an outside source, but the same facts support fraud and undue influence."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "Undue influence and the burden-shifting presumption",
+          "rules": [
+            "fl-wills.execution-and-revocation.contests"
+          ],
+          "points": 4,
+          "mustSay": [
+            "a will procured by undue influence is void (§ 732.5165)",
+            "a presumption arises when a substantial beneficiary in a confidential relationship with the testator actively procured the will (In re Estate of Carpenter)",
+            "Ava is a substantial beneficiary (80%), held a confidential relationship (attorney-in-fact, caregiver, shared home), and actively procured the will (chose the lawyer, gave the instructions, was present, served as a witness, kept the original)",
+            "under § 733.107(2) the presumption shifts the burden of proof, so Ava must prove by a preponderance that there was no undue influence"
+          ],
+          "conclusion": "The presumption arises and Ava bears the burden of proof, which she is unlikely to carry; the 2022 will is likely to be set aside."
+        },
+        {
+          "id": "i5",
+          "call": 2,
+          "label": "Fraud in the inducement",
+          "rules": [
+            "fl-wills.execution-and-revocation.contests"
+          ],
+          "points": 2,
+          "mustSay": [
+            "a will, or any part of it, procured by fraud is void, while parts not so procured stand",
+            "fraud in the inducement: knowingly false statements made to induce a disposition the testator would not otherwise have made",
+            "Ava's false reports of missing money caused Walter to cut his sons' shares; Ben and Cal bear the burden on fraud"
+          ],
+          "conclusion": "Fraud is an independent ground that reaches the same dispositive provisions."
+        },
+        {
+          "id": "i6",
+          "call": 2,
+          "label": "Deadline to object and the no-contest clause",
+          "rules": [
+            "fl-wills.execution-and-revocation.contests",
+            "fl-wills.administration.notice-of-administration"
+          ],
+          "points": 2,
+          "mustSay": [
+            "an interested person served with the notice of administration must file any objection to the will's validity within 3 months after service, or it is barred (§ 733.212)",
+            "Ben and Cal were served two weeks ago, so they must file within 3 months of that date",
+            "a no-contest clause is unenforceable in Florida (§ 732.517), so contesting does not risk their 10% gifts"
+          ],
+          "conclusion": "They must file within 3 months of service, and the no-contest clause cannot penalize them."
+        },
+        {
+          "id": "i7",
+          "call": 3,
+          "label": "The unwitnessed 2024 note",
+          "rules": [
+            "fl-wills.execution-and-revocation.revocation",
+            "fl-wills.execution-and-revocation.formalities"
+          ],
+          "points": 2,
+          "mustSay": [
+            "revocation by writing requires a will, codicil or other writing executed with will formalities (§ 732.505)",
+            "the note was not witnessed, and Florida does not recognize holographic instruments",
+            "revocation by act requires burning, tearing, cancelling or destroying the will itself (§ 732.506); the original 2022 will was untouched",
+            "the note cannot republish the 2015 will either, though it may be evidence of Walter's state of mind"
+          ],
+          "conclusion": "The note neither revoked the 2022 will nor republished the 2015 will."
+        },
+        {
+          "id": "i8",
+          "call": 3,
+          "label": "Effect of setting aside the 2022 will; why revival is not a problem",
+          "rules": [
+            "fl-wills.execution-and-revocation.revival-drr",
+            "fl-wills.execution-and-revocation.contests",
+            "fl-wills.intestacy.order-of-descent"
+          ],
+          "points": 3,
+          "mustSay": [
+            "a revocation procured by fraud or undue influence is itself void (§ 732.5165), so the 2022 will's revocation clause falls with the will",
+            "the 2015 will was never effectively revoked and governs: $40,000 to the church, the residue equally to Ava, Ben and Cal",
+            "contrast: if Walter had validly revoked a valid 2022 will himself, the 2015 will would not revive without republication (§ 732.508), and the estate would pass by intestacy in equal thirds with nothing to the church"
+          ],
+          "conclusion": "If the contest succeeds, the 2015 will controls; if it fails, the 2022 will stands and the 2024 note changes nothing."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Execution. Issue: whether the 2022 will was validly executed. Rule: under Fla. Stat. § 732.502, a will must be in writing and signed at the end by the testator, who must sign or acknowledge the signature in the presence of at least two attesting witnesses, and the witnesses must sign in the presence of the testator and of each other. Any person competent to be a witness may attest, and signing by an interested witness does not invalidate the will or any of its provisions (§ 732.504). A will made self-proved by the testator's acknowledgment and the witnesses' affidavits before a notary may be admitted to probate without further proof (§§ 732.503, 733.201), and the affidavit establishes formal execution prima facie, after which the contestant bears the burden of proving the grounds of the contest (§ 733.107(1)). Application: Walter signed at the end, the lawyer and Ava watched him sign and then signed in his presence and in each other's presence, and a notary completed the self-proving affidavit. Ava's large gift does not disqualify her as a witness or reduce her gift, because Florida has no purging rule. Conclusion: the 2022 will was duly executed and is self-proved; Ava's participation matters only as evidence of undue influence.",
+            "Capacity. Issue: whether Walter had testamentary capacity. Rule: a person 18 or older who is of sound mind may make a will (§ 732.501). Sound mind means that, when the will is executed, the testator understands in a general way the nature and extent of his property, his relation to the natural objects of his bounty, and the practical effect of the will. Capacity is measured at the moment of execution. Old age, illness or a diagnosis of dementia does not by itself prove incapacity, and a will signed during a lucid interval is valid. Application: the lawyer's notes, made at the signing, show that Walter named all three children, described his brokerage account and cabin, and explained that he was reducing his sons' shares, which shows he understood the will's practical effect. His questions about why he was there and his physician's note about good and bad days suggest fluctuating impairment, but Ben and Cal must prove that he lacked capacity at the signing itself, and the best evidence of that moment points the other way. Conclusion: a court is likely to find that Walter had capacity, so the contest should rest on undue influence and fraud.",
+            "Insane delusion. Issue: whether the reduction of the sons' shares was the product of an insane delusion. Rule: a testator who meets the general capacity test may still lack capacity for a will, or part of one, produced by an insane delusion: a false belief spontaneously conceived and held against all evidence and reason, with no basis outside the testator's imagination (Hooper v. Stokes, 145 So. 855 (Fla. 1933); In re Estate of Edwards, 433 So. 2d 1349 (Fla. 5th DCA 1983)). A belief that rests on some evidence or information, however mistaken or unfair, is not an insane delusion. Application: Walter's belief that his sons were stealing was false, and it plainly caused him to cut their shares. But it did not arise spontaneously; it grew out of Ava's repeated reports that money was disappearing after their visits. Because the belief had a source outside Walter's mind, it does not qualify. Conclusion: the insane-delusion theory likely fails, but the same facts are strong evidence of fraud and undue influence by Ava."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Undue influence. Issue: whether the 2022 will was procured by undue influence, and who bears the burden. Rule: a will is void if its execution was procured by fraud, duress, mistake or undue influence (§ 732.5165). Undue influence means pressure or persuasion that overcomes the testator's free agency so that the will expresses another's wishes rather than his own. A presumption of undue influence arises when a substantial beneficiary who stood in a confidential relationship with the testator was active in procuring the will (In re Estate of Carpenter, 253 So. 2d 697 (Fla. 1971)). Active procurement is shown by factors such as the beneficiary's presence when the testator expressed a wish to make a will, recommending the lawyer, knowing the contents in advance, giving instructions for the will, securing the witnesses, being present at execution, and keeping the will afterward. Under § 733.107(2), the presumption shifts the burden of proof, so the proponent must prove by a preponderance of the evidence that the will was not the product of undue influence.",
+            "Application: Ava takes 80% of the estate rather than the one-third she would take under the 2015 will, so she is a substantial beneficiary. As Walter's attorney-in-fact, caregiver and housemate, she held a confidential relationship. Nearly every Carpenter factor is present: she told Walter he needed a will, chose the lawyer, drove him there, supplied the dispositive instructions, sat through the meeting and the signing, acted as one of the two witnesses, and kept the original. Walter's dementia made him especially susceptible. Conclusion: the presumption arises and the burden of proof shifts to Ava; given her role and her false reports about her brothers, she is unlikely to carry it, and the 2022 will is likely to be denied effect.",
+            "Fraud. Issue: whether the will was procured by fraud. Rule: fraud in the inducement occurs when a person knowingly makes false statements to the testator to induce a disposition he would not otherwise make. A will, or any part of it, so procured is void, while parts not so procured remain valid if not otherwise invalid (§ 732.5165). Application: Walter's bank records show that no money was missing, yet Ava repeatedly told him otherwise, and Walter told the lawyer that he was cutting back his sons because they were stealing. If Ben and Cal show that Ava knew her reports were false, the reduction of their shares and the matching increase in hers were procured by fraud. On fraud, unlike undue influence, the contestants carry the burden. Conclusion: fraud is an independent ground that reaches the same dispositive provisions.",
+            "Deadline and the no-contest clause. Issue: how long Ben and Cal have, and whether contesting puts their gifts at risk. Rule: an interested person served with a notice of administration must file any objection to the validity of the will within 3 months after the date of service, or the objection is forever barred (§ 733.212). A will provision purporting to penalize an interested person for contesting the will or bringing other proceedings about the estate is unenforceable (§ 732.517). Application: Ben and Cal were served two weeks ago, so they must file their petition to revoke probate of the 2022 will within 3 months after that service date. The forfeiture clause cannot be enforced, so they keep their 10% gifts even if the contest fails. Conclusion: they should file promptly, within the 3-month window, without fear of forfeiture."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "The 2024 note. Issue: whether the note revoked the 2022 will or restored the 2015 will. Rule: a will is revoked by a later will or codicil, or by another writing declaring the revocation, only if that writing is executed with the formalities required for a will (§ 732.505). A will is also revoked when the testator, or another person in his presence and at his direction, burns, tears, cancels, defaces, obliterates or destroys it with intent to revoke (§ 732.506). Florida does not recognize unwitnessed holographic instruments. Application: Walter signed and dated the note, but no one witnessed it, so it is not a valid revoking instrument; and nothing was done to the original 2022 will, which stayed intact in Ava's safe. The note also cannot republish the 2015 will, because republication likewise requires will formalities. Conclusion: the note has no legal effect on either will, although it may be offered as evidence of Walter's state of mind.",
+            "Distribution if the 2022 will is set aside. Issue: whether the 2015 will governs or the estate passes by intestacy. Rule: if a revocation of a will is procured by fraud, duress, mistake or undue influence, the revocation is void (§ 732.5165). By contrast, when a testator validly revokes a will that revoked an earlier will, the earlier will is not revived unless it is republished (§ 732.508(1)). Application: if the court finds the 2022 will void for undue influence or fraud, its clause revoking earlier wills falls with it, so the 2015 will was never effectively revoked and Ben and Cal should offer it for probate. The anti-revival rule does not apply, because no valid instrument ever revoked the 2015 will. The difference matters: under the 2015 will the church takes $40,000 and the rest of the $1,200,000 estate, after debts and expenses, is divided equally among Ava, Ben and Cal. Had the 2022 will been valid and later revoked by Walter's own act, the 2015 will would not revive, and Walter, a widower, would die intestate, with his three children taking equal thirds under § 732.103 and the church taking nothing. Conclusion: if the contest succeeds, the 2015 will controls; if it fails, the 2022 will stands and the 2024 note changes nothing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-wills.e04",
+      "title": "The cabin and the conviction",
+      "minutes": 60,
+      "topics": [
+        "fl-wills.intestacy",
+        "fl-wills.administration"
+      ],
+      "facts": [
+        "Frank Hollis, a widower domiciled in Naples, Collier County, died intestate in January 2026, shot by his son Gary during an argument. Gary pleaded guilty to second-degree murder, and the judgment of conviction is final. Gary has one child, Hope, who is 20.",
+        "Frank had two other children. Jon is the son of Frank's late wife, Lena, from an earlier relationship; Frank married Lena when Jon was four and formally adopted Jon the next year. Kim was born in 1990 to Frank and Rosa, a woman Frank never married; when Kim was born, Frank signed a written, notarized acknowledgment that he was her father, although he saw her only occasionally afterward. Kim lives in Texas. Gary was the only child of Frank and Lena, and Lena died in 2019.",
+        "In 2022 Frank gave Jon $90,000 to start a landscaping business, with a letter Frank signed that day stating: 'This $90,000 is an advancement of Jon's share of my estate.' In 2023 Frank gave Kim $40,000 toward her daughter's college tuition; nothing was put in writing.",
+        "At his death Frank owned, in his name alone, a brokerage account worth $810,000 and a bank account holding $160,000. He and Gary owned a lake cabin in Polk County, worth $400,000, as joint tenants with right of survivorship. Frank rented the condominium in Naples where he lived. Debts and administration expenses will total $60,000.",
+        "Kim has petitioned for administration in Polk County and asks to be appointed personal representative; Hope supports her. Jon, who lives in Collier County, objects and wants to serve himself. Gary has written to the court from prison, claiming the right to serve as Frank's oldest child and asserting that the cabin is now his alone. Hope asks whether the family can avoid a full probate by using summary administration."
+      ],
+      "calls": [
+        "What effect does Gary's killing of Frank have on Gary's rights in Frank's estate and in the lake cabin?",
+        "Who are Frank's heirs, and how much will each receive?",
+        "Who should be appointed personal representative, in which county should the administration proceed, and is summary administration available?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Slayer statute: Gary's exclusion from the estate",
+          "rules": [
+            "fl-wills.intestacy.slayer"
+          ],
+          "points": 3,
+          "mustSay": [
+            "a person who unlawfully and intentionally kills the decedent takes nothing from the estate (§ 732.802)",
+            "a final judgment of conviction of murder in any degree is conclusive; no separate probate finding is needed",
+            "the estate passes as if Gary had predeceased Frank, so Gary's descendant Hope is not barred"
+          ],
+          "conclusion": "Gary takes nothing as an heir, and his share passes as if he had died before Frank."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Severance of the joint tenancy in the cabin",
+          "rules": [
+            "fl-wills.intestacy.slayer"
+          ],
+          "points": 2,
+          "mustSay": [
+            "a joint tenant who intentionally kills the other joint tenant has no survivorship rights; the killing severs the decedent's interest",
+            "Frank's one-half passes as Frank's property through his estate",
+            "Gary keeps only his own one-half, now held as a tenant in common"
+          ],
+          "conclusion": "Gary owns one-half of the cabin as a tenant in common; Frank's half (about $200,000) is a probate asset."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "Adopted and nonmarital children as descendants",
+          "rules": [
+            "fl-wills.intestacy.adopted-nonmarital"
+          ],
+          "points": 3,
+          "mustSay": [
+            "an adopted child is a descendant of the adopting parent (§ 732.108(1)), so Jon inherits from Frank",
+            "a nonmarital child is the father's descendant if, among other routes, the father acknowledged paternity in writing (§ 732.108(2))",
+            "Kim qualifies through Frank's signed acknowledgment; the limited contact between them is irrelevant"
+          ],
+          "conclusion": "Jon and Kim are both Frank's descendants for intestate succession."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "No surviving spouse; per stirpes representation",
+          "rules": [
+            "fl-wills.intestacy.order-of-descent",
+            "fl-wills.intestacy.per-stirpes"
+          ],
+          "points": 2,
+          "mustSay": [
+            "with no surviving spouse, the whole estate passes to the decedent's descendants (§ 732.103)",
+            "the estate divides per stirpes into three shares at the children's generation",
+            "Hope takes Gary's share by representation"
+          ],
+          "conclusion": "The estate divides into three shares, with Hope taking the share Gary would have taken."
+        },
+        {
+          "id": "i5",
+          "call": 2,
+          "label": "Advancement and the hotchpot computation",
+          "rules": [
+            "fl-wills.intestacy.advancements"
+          ],
+          "points": 3,
+          "mustSay": [
+            "a lifetime gift is an advancement only if declared in a contemporaneous writing by the decedent or acknowledged in writing by the heir (§ 733.806)",
+            "Jon's $90,000 is an advancement; Kim's undocumented $40,000 gift is not",
+            "net estate: $810,000 + $160,000 + $200,000 (Frank's half of the cabin) - $60,000 = $1,110,000; adding back $90,000 gives $1,200,000, or $400,000 per share",
+            "Jon receives $310,000; Kim and Hope receive $400,000 each"
+          ],
+          "conclusion": "Jon takes $310,000, Kim $400,000 and Hope $400,000."
+        },
+        {
+          "id": "i6",
+          "call": 3,
+          "label": "Qualification and preference for personal representative",
+          "rules": [
+            "fl-wills.administration.personal-representative",
+            "fl-wills.intestacy.slayer"
+          ],
+          "points": 3,
+          "mustSay": [
+            "a convicted felon is disqualified from serving (§ 733.303), and Gary, treated as having predeceased, is not an heir with any preference",
+            "intestate preference: surviving spouse, then the person selected by a majority in interest of the heirs, then the heir nearest in degree (§ 733.301)",
+            "Kim, though a nonresident, qualifies as Frank's lineal descendant (§ 733.304)",
+            "Kim and Hope together hold a majority in interest, so their choice of Kim outranks Jon"
+          ],
+          "conclusion": "Kim should be appointed personal representative."
+        },
+        {
+          "id": "i7",
+          "call": 3,
+          "label": "Venue and summary administration",
+          "rules": [
+            "fl-wills.administration.venue-deposit-ancillary",
+            "fl-wills.administration.summary-administration"
+          ],
+          "points": 2,
+          "mustSay": [
+            "venue for a Florida domiciliary's estate lies in the county of domicile (Collier), not where the cabin sits; a proceeding filed in the wrong county may be transferred",
+            "summary administration requires an estate of no more than $75,000 (net of exempt property) or death more than 2 years earlier",
+            "Frank's estate exceeds $1 million and he died less than 2 years ago, so formal administration is required"
+          ],
+          "conclusion": "Formal administration must proceed in Collier County."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Gary's rights in the estate. Issue: whether Gary may inherit from Frank. Rule: under Fla. Stat. § 732.802, a surviving person who unlawfully and intentionally kills, or participates in procuring the death of, the decedent is not entitled to any benefit under the decedent's will or the Florida Probate Code, including an intestate share, and the estate passes as if the killer had predeceased the decedent. A final judgment of conviction of murder in any degree is conclusive; without one, the probate court decides by the greater weight of the evidence whether the killing was unlawful and intentional. Application: Gary pleaded guilty to second-degree murder, and the judgment of conviction is final, so the question is conclusively settled and no separate probate hearing is needed. Gary takes nothing as an heir, and the estate is distributed as if he had died before Frank. That fiction does not punish Gary's daughter: Hope, as Gary's descendant, takes by representation the share Gary would have taken. Conclusion: Gary is excluded from the estate; his share passes to Hope.",
+            "The lake cabin. Issue: whether Gary owns the cabin by survivorship. Rule: a joint tenant who unlawfully and intentionally kills another joint tenant thereby severs the decedent's interest, so the decedent's share passes as the decedent's property and the killer has no rights by survivorship (§ 732.802). The rule covers joint tenancies with right of survivorship, tenancies by the entirety and survivorship accounts. The statute does not forfeit the killer's own property. Application: Frank and Gary held the cabin as joint tenants with right of survivorship. Gary's survivorship claim fails: the tenancy is severed at Frank's death, and Frank's undivided one-half passes through his estate to his heirs, while Gary keeps his own one-half. Conclusion: Gary and Frank's estate (and, after distribution, Frank's heirs) own the cabin as tenants in common, each with one-half; Frank's half, worth about $200,000, is a probate asset."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Who the heirs are. Issue: who takes Frank's intestate estate. Rule: when the decedent leaves no surviving spouse, the entire intestate estate passes to his descendants (§ 732.103). An adopted person is a descendant of the adopting parent (§ 732.108(1)); adoption by the spouse of a natural parent also leaves the child's relationship with that natural parent intact. A person born out of wedlock is a descendant of the father if the parents participated in a marriage ceremony, paternity is established by adjudication, or the father acknowledged paternity in writing (§ 732.108(2)). Descent to descendants is per stirpes: the estate is divided at the children's generation, and the share of a child treated as predeceased passes to that child's descendants (§ 732.104). Application: Lena died in 2019, so there is no surviving spouse. Jon became Frank's son by adoption and inherits as fully as a biological child. Kim, whose parents never married, is Frank's descendant because Frank signed a written acknowledgment of paternity; how often they saw each other is irrelevant. Gary is treated as having predeceased Frank, so his only child, Hope, represents him. Conclusion: the estate divides into three shares, for Jon, Kim and Hope.",
+            "The lifetime gifts. Issue: whether the gifts to Jon and Kim reduce their shares. Rule: under § 733.806, property the decedent gave during life to an heir is treated as an advancement against the heir's share only if the decedent declared it so in a contemporaneous writing or the heir acknowledged it in writing. It is valued when the heir came into possession or enjoyment, or at the decedent's death, whichever comes first. An advancement is taken into account by adding it back to the estate, dividing the total, and charging it against the recipient's share. Application: Frank's signed letter, written the day he gave Jon $90,000, is a contemporaneous declaration, so the gift is an advancement valued at $90,000. Kim's $40,000 is not an advancement, because neither Frank nor Kim put anything in writing. The net probate estate is $1,110,000: the $810,000 brokerage account, the $160,000 bank account and Frank's $200,000 half of the cabin, less $60,000 of debts and expenses. Adding Jon's advancement produces $1,200,000, so each one-third share is $400,000. Conclusion: Jon receives $310,000 ($400,000 less the $90,000 already received), Kim receives $400,000, and Hope receives $400,000."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Personal representative. Issue: who should serve. Rule: a person convicted of a felony, or under 18, among other grounds, may not serve (§ 733.303). A nonresident may serve only if related to the decedent in a listed way, which includes an adopted child and anyone related to the decedent by lineal consanguinity (§ 733.304). In an intestate estate, preference goes first to the surviving spouse, then to the person selected by a majority in interest of the heirs, then to the heir nearest in degree (§ 733.301). Application: Gary is disqualified by his felony conviction and, being treated as having predeceased Frank, he is not an heir and has no preference at all; being the oldest child gives him nothing. Kim lives in Texas but is Frank's daughter, a lineal descendant, so her nonresidence does not disqualify her. There is no surviving spouse. Kim and Hope, who between them take $800,000 of the $1,110,000 estate, have chosen Kim, so she is the selection of a majority in interest of the heirs and outranks Jon, whose only claim is as an heir nearest in degree. Conclusion: Kim should be appointed, assuming she is otherwise qualified.",
+            "Venue and summary administration. Issue: where the estate should be administered and whether a shortcut is available. Rule: venue for the estate of a Florida domiciliary is the county where the decedent was domiciled (§ 733.101), and a proceeding filed in an improper county may be transferred to the proper one. Summary administration is available only if any will does not direct formal administration and either the value of the entire estate subject to administration in Florida, less property exempt from creditors' claims, does not exceed $75,000, or the decedent has been dead more than 2 years (§ 735.201). Application: Frank lived and was domiciled in Naples, Collier County. The cabin's location in Polk County would matter only for a nonresident decedent, so Jon may object to venue, and the proceeding should be transferred to Collier County. Frank died in January 2026, less than 2 years ago, and the estate subject to administration exceeds $1 million, so summary administration is unavailable. Conclusion: formal administration must proceed in Collier County, with Kim as personal representative, notice to creditors, and distribution in the shares computed above."
+          ]
+        }
+      ]
+    }
+  ]
+}

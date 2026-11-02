@@ -223,6 +223,7 @@ async function readerView(id, query, index, names) {
   let activeTopic = query.tips ? '#tips' : query.topic || null;
   let current = -1;
   let follow = true;
+  let closing = false;
 
   // ---- player
   const src = mediaUrl(lec, p.mediaBase);
@@ -237,7 +238,7 @@ async function readerView(id, query, index, names) {
       h('button.btn.sm', { type: 'button', onclick: () => { setPref('mediaBase', baseInput.value.trim() || DEFAULT_MEDIA_BASE); location.reload(); } }, 'Save')));
   if (video) {
     video.playbackRate = p.rate;
-    video.addEventListener('ratechange', () => setPref('rate', video.playbackRate));
+    video.addEventListener('ratechange', () => { if (!closing) setPref('rate', video.playbackRate); });
     video.addEventListener('error', () => { note.textContent = 'The video couldn’t be loaded from the media server.'; mediaHelp.open = true; });
     video.addEventListener('timeupdate', () => {
       const i = passageAt(chunks, video.currentTime + 0.25);
@@ -245,7 +246,7 @@ async function readerView(id, query, index, names) {
     });
     let lastSave = 0;
     video.addEventListener('timeupdate', () => {
-      if (Date.now() - lastSave > 5000) { lastSave = Date.now(); savePosition(lec.id, video.currentTime); }
+      if (!closing && Date.now() - lastSave > 5000) { lastSave = Date.now(); savePosition(lec.id, video.currentTime); }
     });
   }
 
@@ -340,7 +341,11 @@ async function readerView(id, query, index, names) {
   return {
     el: view,
     destroy() {
-      if (video) { savePosition(lec.id, video.currentTime); video.pause(); video.removeAttribute('src'); video.load(); }
+      if (video) {
+        if (video.currentTime > 0) savePosition(lec.id, video.currentTime);
+        closing = true;
+        video.pause(); video.removeAttribute('src'); video.load();
+      }
     },
   };
 }

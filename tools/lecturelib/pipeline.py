@@ -352,8 +352,8 @@ def build(transcripts: Path, out: Path, subjects: list[Subject], media_root: Pat
                 lec = process_lecture(path, transcripts, tagger, media_root)
                 lec_file.write_text(json.dumps(lec, ensure_ascii=False, indent=1), encoding="utf-8")
                 fresh += 1
-        except (formats.TranscriptError, OSError, UnicodeDecodeError, ValueError) as exc:
-            errors.append({"path": rel, "error": str(exc)})
+        except Exception as exc:  # one bad file must never stop the whole build
+            errors.append({"path": rel, "error": f"{type(exc).__name__}: {exc}"})
             continue
         if not lec["chunks"]:
             errors.append({"path": rel, "error": "no text"})

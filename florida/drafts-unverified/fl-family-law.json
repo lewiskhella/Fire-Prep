@@ -1,0 +1,777 @@
+{
+  "rules": [
+    {
+      "topic": "fl-family-law.children",
+      "id": "fl-family-law.children.paternity",
+      "title": "Establishing paternity (Chapter 742)",
+      "weight": 2,
+      "rule": "A child born to a married woman is presumed to be the child of her husband. For a child born outside marriage, paternity may be established by a voluntary acknowledgment of paternity signed by both parents, by the parents' marriage after the birth, or by a judgment in a Chapter 742 action, which the mother, a man who has reason to believe he is the father, or the child may bring when paternity has not already been established by law or otherwise.",
+      "elements": [
+        "A properly executed voluntary acknowledgment creates a rebuttable presumption of paternity, and either signatory may rescind it within 60 days after signing (or earlier, at the first administrative or judicial proceeding about the child to which the signatory is a party)",
+        "After the rescission period, the acknowledgment is an establishment of paternity that can be challenged in court only for fraud, duress or material mistake of fact, with the burden on the challenger",
+        "In a paternity action the court may order genetic testing; a statistical probability of paternity of 95 percent or more creates a rebuttable presumption that the alleged father is the biological father",
+        "Once paternity is adjudicated, the court orders guideline child support and sets a parenting plan and time-sharing schedule under the Chapter 61 standards"
+      ],
+      "exceptions": [
+        "Before ordering a test that could show a mother's husband is not the father of a child born during the marriage, the court must weigh the child's best interests; the party seeking the test must show by clear and convincing evidence that the child's interests will be better served even if the test disproves the husband's paternity"
+      ],
+      "tip": "With unmarried parents, first ask whether and how paternity was established. Time-sharing and support then follow from a court order applying the same best-interests and guidelines rules used in dissolution cases.",
+      "trap": "An acknowledgment settles who the father is; it is not a parenting plan. And a parent who simply regrets signing cannot undo it after the 60-day window without proving fraud, duress or material mistake of fact.",
+      "authority": "Fla. Stat. §§ 742.011, 742.031, 742.091, 742.10, 742.12; Dep't of Health & Rehab. Servs. v. Privette, 617 So. 2d 305 (Fla. 1993)"
+    },
+    {
+      "topic": "fl-family-law.children",
+      "id": "fl-family-law.children.grandparent-visitation",
+      "title": "Grandparent visitation and parental privacy",
+      "weight": 1,
+      "rule": "Florida's constitutional right of privacy protects a fit parent's decisions about who may see the child, so a court may not order grandparent visitation merely because it would serve the child's best interests. A grandparent may petition only in the narrow situations § 752.011 lists (both parents deceased, missing or in a persistent vegetative state, or one parent in that condition and the other convicted of a felony or an offense of violence evincing behavior that poses a substantial threat of harm to the child), and must then prove by clear and convincing evidence that a parent is unfit or that the child is suffering or threatened with significant harm, that visitation is in the child's best interests, and that it will not materially harm the parent-child relationship.",
+      "elements": [
+        "Preliminary hearing: the petition is dismissed unless the grandparent makes a prima facie showing of parental unfitness or significant harm to the child",
+        "Final hearing: clear and convincing proof of unfitness or significant harm, best interests, and no material harm to the parent-child relationship"
+      ],
+      "exceptions": [
+        "A 2022 amendment adds a rebuttable presumption favoring reasonable grandparent visitation when one parent has been held criminally or civilly liable for the death of the other parent"
+      ],
+      "split": "Under Troxel v. Granville, 530 U.S. 57 (2000), the federal Constitution requires special weight for a fit parent's decision; Florida's privacy clause goes further and requires a showing of demonstrable harm before the State may override that decision.",
+      "trap": "A grandparent with a long, close relationship and expert testimony that visits would benefit the child still loses against fit parents. Benefit is not harm.",
+      "authority": "Art. I, § 23, Fla. Const.; Fla. Stat. § 752.011; Beagle v. Beagle, 678 So. 2d 1271 (Fla. 1996); Von Eiff v. Azicri, 720 So. 2d 510 (Fla. 1998)"
+    },
+    {
+      "topic": "fl-family-law.children",
+      "id": "fl-family-law.children.enforcement-and-self-help",
+      "title": "Enforcing support and time-sharing: contempt, no self-help",
+      "weight": 2,
+      "rule": "Support and time-sharing are independent obligations: a parent who is not being paid support may not withhold court-ordered time-sharing, and a parent who is denied time-sharing must keep paying support. Unpaid support may be enforced by civil contempt, but the court may incarcerate or otherwise coerce the obligor only after finding that he or she has the present ability to pay the purge amount it sets.",
+      "elements": [
+        "The prior support order creates a presumption that the obligor could pay; once the obligee shows the order and the nonpayment, the obligor bears the burden of proving inability to pay",
+        "On a finding of willful nonpayment, the court may hold the obligor in civil contempt, but any purge must be one the obligor can presently meet",
+        "Other enforcement tools include income deduction, judgments for arrears, and attorney's fees for the enforcement proceeding under § 61.16"
+      ],
+      "exceptions": [
+        "When a parent refuses without proper cause to honor the time-sharing schedule, the court must award the other parent make-up time-sharing consistent with the child's best interests, and may also order attorney's fees and costs, a parenting course, community service, a bond, or a modification of the parenting plan if that serves the child's best interests"
+      ],
+      "tip": "On an essay, answer both sides of a 'he stopped paying, so she stopped the visits' fight: each parent breached, and each parent's remedy is a motion to enforce.",
+      "trap": "Nonpayment is not a defense to time-sharing, and denied time-sharing is not a defense to nonpayment. Contempt jail without a finding of present ability to pay the purge is reversible error.",
+      "authority": "Fla. Stat. §§ 61.13(4), 61.16; Bowen v. Bowen, 471 So. 2d 1274 (Fla. 1985); Fla. Fam. L. R. P. 12.615"
+    },
+    {
+      "topic": "fl-family-law.interstate-jurisdiction",
+      "id": "fl-family-law.interstate-jurisdiction.uifsa-modification-forum",
+      "title": "UIFSA: where another state's support order may be modified",
+      "weight": 1,
+      "rule": "Once neither the obligor, the individual obligee nor the child lives in the issuing state, a Florida court may modify that state's registered child support order if the party seeking modification is not a Florida resident and the respondent is subject to Florida's personal jurisdiction. In practice the petitioner must sue in the other party's state. The exception is when all the individual parties live in Florida and the child no longer lives in the issuing state: a Florida court may then register, enforce and modify the order under Florida law, whoever files.",
+      "elements": [
+        "Step 1: does the obligor, the individual obligee or the child still live in the issuing state? If so, only the issuing state may modify, unless the parties consent in a record to another forum",
+        "Step 2: if none does, the petitioner must be a nonresident of the forum and the respondent must be subject to its personal jurisdiction",
+        "Step 3: if all individual parties now live in Florida and the child is not in the issuing state, Florida may modify on anyone's petition"
+      ],
+      "exceptions": [
+        "Any modifying state is bound by the issuing state's law on aspects that law makes nonmodifiable, including the duration of support, which follows the law of the state that issued the initial controlling order",
+        "A spousal support order may be modified only by the state that issued it, for as long as the obligation lasts"
+      ],
+      "tip": "The nonresident-petitioner rule makes the moving party litigate on the other party's home ground. Check where each person lives before deciding which court can act.",
+      "authority": "Fla. Stat. ch. 88 (Uniform Interstate Family Support Act §§ 205, 211, 611, 613)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "fl-family-law.q016",
+      "topic": "fl-family-law.dissolution",
+      "rules": [
+        "fl-family-law.dissolution.grounds"
+      ],
+      "difficulty": 1,
+      "stem": "Ilse petitioned to dissolve her 14-year marriage to Waylon, alleging only that the marriage is irretrievably broken. The couple has no children. Waylon filed an answer denying that the marriage is broken. At the final hearing he testified that he still loves Ilse, that he has never been unfaithful or abusive, and that he wants to try marriage counseling. He asks the court to deny the petition because Ilse has not proved any wrongdoing on his part. Ilse testified that she has lived apart from Waylon for a year and has no interest in reconciling.",
+      "call": "Which statement best describes the court's authority?",
+      "choices": [
+        "The court must deny the petition, because when the respondent denies by answer that the marriage is broken and shows he committed no misconduct, the petitioner must prove a fault-based reason for the breakdown.",
+        "The court must enter a judgment of dissolution at once, because one spouse's testimony that the marriage is broken is conclusive.",
+        "The court may order counseling or continue the case for up to three months to allow a reconciliation, but if it finds the marriage irretrievably broken it must dissolve it.",
+        "The court may continue the case for up to six months to allow a reconciliation, after which it must enter a judgment of dissolution."
+      ],
+      "answer": 2,
+      "explanation": "Florida is a no-fault state. When the respondent denies by answer that the marriage is irretrievably broken (or there is a minor child), § 61.052(2)(b) lets the court order either or both parties to consult a counselor, continue the case for a reasonable time not exceeding three months so the parties can attempt reconciliation, or take other action in the best interests of the parties and any children. If the court finds at any time that the marriage is irretrievably broken, it must enter a judgment of dissolution; if it finds the marriage is not broken, it denies the petition. Waylon's lack of fault is irrelevant.",
+      "whyNot": [
+        "Fault is neither a ground nor a requirement. A respondent's denial only opens the court's discretionary options of counseling or a short continuance.",
+        "Because Waylon denied by answer that the marriage is broken, the court has discretion to order counseling or a continuance of up to three months before deciding; it is not required to rule immediately.",
+        "",
+        "The continuance may not exceed three months, and the court may enter a judgment only if it finds the marriage irretrievably broken; nothing makes a judgment automatic when the continuance ends."
+      ]
+    },
+    {
+      "id": "fl-family-law.q017",
+      "topic": "fl-family-law.dissolution",
+      "rules": [
+        "fl-family-law.dissolution.fees-and-disclosure"
+      ],
+      "difficulty": 1,
+      "stem": "Three months after Corliss filed for dissolution, she moved for temporary attorney's fees. She has been a stay-at-home parent for 11 years, has no income, and has only $2,000 in a personal account. Her husband, Anson, a surgeon, nets about $40,000 a month and controls all of the parties' investment accounts. Anson opposes the motion. He argues that fees may be awarded, if at all, only at the end of the case, and that Corliss should borrow against her expected share of the marital estate in the meantime.",
+      "call": "How should the court rule on Corliss's motion?",
+      "choices": [
+        "Award Corliss a reasonable temporary fee, because the court may order fees during the case and looks primarily to her need and Anson's ability to pay.",
+        "Deny the motion, because attorney's fees in a dissolution case are awarded only to the prevailing party, and no party prevails until final judgment.",
+        "Deny the motion unless Corliss first proves that Anson has taken unreasonable positions in the litigation or has otherwise litigated in bad faith, because fees shift only for misconduct.",
+        "Defer the motion until equitable distribution, because a spouse must first use her own share of the marital estate before seeking fees from the other spouse."
+      ],
+      "answer": 0,
+      "explanation": "Section 61.16 lets the court \"from time to time,\" after considering both parties' financial resources, order one party to pay a reasonable amount of the other's attorney's fees, suit money and costs. Need and ability to pay are the primary considerations (Rosen v. Rosen), although the court may also weigh factors such as the merits of the positions taken and litigation misconduct. Temporary fee awards let a dependent spouse litigate on an equal footing. Corliss has no income and no access to the investment accounts; Anson earns a high income and controls the money.",
+      "whyNot": [
+        "",
+        "Chapter 61 fees are not prevailing-party fees; they rest on relative need and ability to pay and may be awarded at any stage, including temporary relief.",
+        "Under Rosen the court may consider the merits and any litigation misconduct, but these are not prerequisites. Need and ability to pay come first.",
+        "The court weighs the parties' present resources. A spouse with no income and no access to the money need not wait for equitable distribution to obtain temporary fees."
+      ]
+    },
+    {
+      "id": "fl-family-law.q018",
+      "topic": "fl-family-law.property-and-alimony",
+      "rules": [
+        "fl-family-law.property-and-alimony.equal-distribution",
+        "fl-family-law.dissolution.fault-relevance"
+      ],
+      "difficulty": 2,
+      "stem": "Benedetta and Corwin's marital estate is worth $900,000 at filing. In the 15 months before Benedetta filed for dissolution, Corwin carried on an affair and withdrew $60,000 from the couple's joint savings to pay for trips, jewelry and an apartment lease for his girlfriend. Benedetta, an architect who earns about as much as Corwin, seeks no alimony. She asks the court to award her 75 percent of the marital estate, arguing that Corwin's adultery destroyed the marriage and that the law should not reward a cheating spouse.",
+      "call": "How should the court distribute the marital estate?",
+      "choices": [
+        "Award Benedetta 75 percent, because a spouse's adultery is one of the statutory factors that justify an unequal distribution of the marital estate.",
+        "Divide the estate exactly in half, because in a no-fault state a spouse's misconduct of any kind is irrelevant to equitable distribution.",
+        "Divide the estate equally, but award Benedetta nominal alimony to compensate her for the economic impact of Corwin's affair, which the alimony statute expressly allows the court to consider.",
+        "Begin with an equal division, but account for the $60,000 Corwin intentionally dissipated, for example by charging it against his share."
+      ],
+      "answer": 3,
+      "explanation": "Equitable distribution starts from an equal division, and a departure must rest on the § 61.075(1) factors. Adultery as such is not a distribution factor, but intentional dissipation, waste or depletion of marital assets after filing or within two years before filing is. Corwin spent $60,000 of marital savings on his girlfriend within 15 months before filing, so the court may treat that sum as if it were still in the estate and assign it to him. Benedetta then receives a correspondingly larger share of what remains. The court may not otherwise punish Corwin for the affair.",
+      "whyNot": [
+        "Adultery itself is not a § 61.075 factor. Only its economic consequences, such as marital funds spent on the affair, can justify a departure from equal division.",
+        "Misconduct that wastes marital assets does matter: dissipation within two years before filing is an express statutory ground for an unequal distribution.",
+        "Adultery and its economic impact may be weighed in setting alimony, but only after a threshold finding of need and ability to pay. Benedetta earns about as much as Corwin and seeks none, and alimony is not a penalty.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-family-law.q019",
+      "topic": "fl-family-law.property-and-alimony",
+      "rules": [
+        "fl-family-law.property-and-alimony.bridge-and-rehabilitative"
+      ],
+      "difficulty": 2,
+      "stem": "After a nine-year marriage, Rosalind petitioned for dissolution in 2025. She had left a career as a graphic designer to care for the couple's children and now wants to \"go back to school and get current.\" She offered no evidence of a particular program, its cost, or how long it would take. The court found that she needs support and that her husband can pay, and it awarded her \"rehabilitative alimony of $2,500 per month for six years so that the Wife may pursue further education.\" The husband appeals.",
+      "call": "How should the appellate court rule?",
+      "choices": [
+        "Affirm, because once need and ability to pay are found, the trial court has broad discretion to set the amount and length of rehabilitative alimony.",
+        "Reverse, because rehabilitative alimony requires a specific and defined rehabilitative plan and may not exceed five years.",
+        "Reverse, because rehabilitative alimony, like other transitional support after the 2023 reform, may not last longer than two years and may not be modified in amount or duration.",
+        "Reverse, because rehabilitative alimony is available only to a spouse who held a professional license or other credential before the marriage."
+      ],
+      "answer": 1,
+      "explanation": "Rehabilitative alimony helps a party become self-supporting by redeveloping previous skills or credentials or by acquiring education, training or work experience. The order must include a specific and defined rehabilitative plan, and under the 2023 amendments the award may not exceed five years. A general wish to go back to school, with no program, cost or timeline, is not a plan, and a six-year term exceeds the statutory cap. The award must be reversed; on remand the court may consider whether another form of alimony fits.",
+      "whyNot": [
+        "Discretion operates within the statute. The defined-plan requirement and the five-year cap are mandatory.",
+        "",
+        "The two-year limit and the bar on modification describe bridge-the-gap alimony. Rehabilitative alimony may be modified or terminated on a substantial change, noncompliance with the plan, or completion of the plan.",
+        "Rehabilitative alimony may fund either redeveloping prior skills or acquiring new education, training or work experience; no prior license is required."
+      ]
+    },
+    {
+      "id": "fl-family-law.q020",
+      "topic": "fl-family-law.property-and-alimony",
+      "rules": [
+        "fl-family-law.property-and-alimony.modification"
+      ],
+      "difficulty": 2,
+      "stem": "A 2019 Florida judgment requires Brandt to pay his former wife, Odile, $3,000 a month in permanent periodic alimony. For the past two years Odile has lived in a house owned by her companion, Lars. Lars pays the mortgage, utilities and groceries; the two share a joint checking account, travel together, and help with each other's businesses. They do not call themselves married, wear no rings, and have no plans to marry. Brandt petitions to terminate alimony. Odile responds that only her remarriage could end it.",
+      "call": "How should the court proceed?",
+      "choices": [
+        "Reduce or terminate the alimony if it makes specific written findings that a supportive relationship exists, with Brandt bearing the burden of proof by a preponderance of the evidence.",
+        "Deny the petition, because a couple that does not hold itself out as married cannot be in a supportive relationship, however much one partner contributes to the other's household and living expenses.",
+        "Terminate the alimony automatically, because living with another adult who pays the recipient's expenses has the same legal effect as remarriage.",
+        "Deny the petition unless Brandt proves by clear and convincing evidence that Lars's contributions have eliminated Odile's need for support."
+      ],
+      "answer": 0,
+      "explanation": "Under § 61.14(1)(b), the court may reduce or terminate alimony on specific written findings that, since the judgment, a supportive relationship has existed between the obligee and another person. Holding out as married is only one factor. Others include living together, pooling assets or income, and supporting each other. The obligor must prove the relationship by a preponderance of the evidence. Odile and Lars live together, share an account, and Lars pays her housing and living costs, so Brandt has a strong case. Permanent awards entered before the 2023 reform remain open to this kind of modification.",
+      "whyNot": [
+        "",
+        "Holding out as married is one factor among many. A relationship can be supportive without any pretense of marriage.",
+        "Cohabitation does not end alimony automatically. The court must find a supportive relationship in written findings and then decide whether to reduce or terminate the award.",
+        "The obligor's burden is a preponderance of the evidence, and the inquiry is the nature and extent of the relationship. He need not prove that the recipient's need has disappeared."
+      ]
+    },
+    {
+      "id": "fl-family-law.q021",
+      "topic": "fl-family-law.children",
+      "rules": [
+        "fl-family-law.children.modifying-parenting-plans"
+      ],
+      "difficulty": 2,
+      "stem": "In a March 2024 final judgment, the court adopted Nell and Arlo's agreed parenting plan giving each of them equal time-sharing with their son. At the time, Nell was finishing nursing school and told the court she expected to work night shifts once licensed. In 2025 she began working three 12-hour night shifts a week, and the boy now spends most of Nell's overnights at her mother's home. Arlo petitions to modify the plan to give him majority time-sharing. Nell moves to dismiss, arguing that her new schedule was expected when the judgment was entered and so cannot justify a modification.",
+      "call": "How should the court rule on Nell's motion to dismiss?",
+      "choices": [
+        "Grant it, because a change that the parties anticipated when the judgment was entered cannot support modification of a parenting plan.",
+        "Grant it, because a parenting plan that the parents themselves agreed to may be modified only on proof that the existing plan is detrimental to the child.",
+        "Deny it, because Arlo must show a substantial and material change in circumstances and that modification serves the child's best interests, but not that the change was unanticipated.",
+        "Deny it and award Arlo majority time-sharing, because a work schedule that leaves the child with a grandparent overnight is a substantial change as a matter of law."
+      ],
+      "answer": 2,
+      "explanation": "Since the 2023 amendment to § 61.13(3), a parenting plan or time-sharing schedule may be modified on a showing of a substantial and material change in circumstances, and the modification must be in the child's best interests. The statute no longer requires that the change be unanticipated, so Nell's argument rests on a repealed element. The same test applies whether the plan was agreed or imposed after trial. Whether Nell's schedule is a substantial change, and whether a new schedule would serve the child, are questions for an evidentiary hearing.",
+      "whyNot": [
+        "The 'unanticipated' requirement was removed in 2023, and both this judgment and the petition postdate the change.",
+        "Agreed and court-imposed plans are modified under the same substantial-change and best-interests test. There is no heightened detriment standard.",
+        "",
+        "A motion to dismiss cannot be resolved by awarding relief on the merits. Whether the change is substantial and whether modification serves the child require evidence and best-interests findings."
+      ]
+    },
+    {
+      "id": "fl-family-law.q022",
+      "topic": "fl-family-law.children",
+      "rules": [
+        "fl-family-law.children.support-duration-modification"
+      ],
+      "difficulty": 1,
+      "stem": "Under a Florida judgment, Thaddeus pays child support for his daughter, Mila. Mila turns 18 in February of her senior year of high school. She is passing all of her classes and is expected to graduate in late May, while still 18. Before her birthday, Mila's mother petitions to continue support through graduation and to require Thaddeus to contribute to Mila's tuition at a state university, which Mila plans to attend in the fall. Thaddeus has never agreed to pay for college.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Deny both requests, because a parent's duty to support a child ends by operation of law on the child's 18th birthday.",
+        "Grant both requests, because a child who remains dependent in fact may receive support while enrolled in college until age 21.",
+        "Grant support until Mila turns 19, whether or not she graduates by then, but deny the request for college expenses.",
+        "Grant support until Mila's expected high school graduation, but deny the request for college expenses."
+      ],
+      "answer": 3,
+      "explanation": "Support ordinarily ends at 18, but a court may require support for a child who is between 18 and 19, dependent in fact, still in high school, performing in good faith, and reasonably expected to graduate before turning 19. Mila meets that test, so support continues to her expected graduation date. A Florida court cannot order a parent to pay college expenses unless the parent agreed to pay them, and Thaddeus never did.",
+      "whyNot": [
+        "Section 743.07(2) permits support past 18 for a dependent child still in high school who is expected to graduate before 19.",
+        "Florida has no general post-majority support for college students. College costs can be ordered only when a parent agreed to pay them.",
+        "The extension runs to the expected graduation date, not automatically to 19, and it depends on a reasonable expectation of graduating before 19.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-family-law.q023",
+      "topic": "fl-family-law.children",
+      "rules": [
+        "fl-family-law.children.paternity"
+      ],
+      "difficulty": 2,
+      "stem": "Rhiannon and Cassius, who never married, signed a voluntary acknowledgment of paternity for their son at the hospital the day after his birth. The acknowledgment was properly executed and filed, and no court or administrative proceeding about the child followed. Neither parent has ever doubted that Cassius is the father. Eight months later the couple separated. Rhiannon now petitions the court to rescind the acknowledgment and declare that Cassius has no parental rights, explaining that she no longer wants him involved in the child's life.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Grant the petition, because an unmarried mother is her child's natural guardian and may withdraw her agreement to the father's acknowledgment at any time before a court enters a parenting plan.",
+        "Deny the petition, because the 60-day rescission period has run and the acknowledgment may now be challenged only for fraud, duress or material mistake of fact.",
+        "Deny the petition, because a signed acknowledgment of paternity can never be rescinded or challenged once it has been filed.",
+        "Grant the petition unless Cassius submits to genetic testing that shows a statistical probability of paternity of at least 95 percent."
+      ],
+      "answer": 1,
+      "explanation": "A properly executed voluntary acknowledgment of paternity creates a rebuttable presumption of paternity, and either signatory may rescind it within 60 days after signing (or earlier, at the first related proceeding). After that period it constitutes an establishment of paternity that can be challenged only on the basis of fraud, duress or material mistake of fact, with the burden on the challenger. Rhiannon waited eight months and alleges no fraud, duress or mistake; she simply wants to exclude Cassius. Disputes about his role belong in a Chapter 61 parenting plan, not in an attempt to undo paternity.",
+      "whyNot": [
+        "The rescission right lasts only 60 days. After that the acknowledgment establishes paternity and cannot be withdrawn because the mother has changed her mind.",
+        "",
+        "The acknowledgment can be rescinded within 60 days and can still be challenged afterward for fraud, duress or material mistake of fact.",
+        "Genetic testing helps a court adjudicate disputed paternity. It is not a condition for keeping an unrescinded acknowledgment in force, and no one disputes biology here."
+      ]
+    },
+    {
+      "id": "fl-family-law.q024",
+      "topic": "fl-family-law.children",
+      "rules": [
+        "fl-family-law.children.grandparent-visitation"
+      ],
+      "difficulty": 3,
+      "stem": "Lucinda's daughter, Faye, died of cancer two years ago, leaving a 7-year-old son, Emmett. Emmett's father, Rolf, is a fit and loving parent with no criminal record. For years Lucinda cared for Emmett after school, and the two are very close. After Rolf remarried, he and Lucinda had a falling-out, and Rolf ended all contact between Lucinda and Emmett. A counselor testifies that Emmett misses his grandmother and that regular visits would be good for him, but that he is healthy and doing well. Lucinda petitions for visitation under Florida's grandparent visitation statute.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Dismiss the petition, because Rolf is a fit surviving parent with no qualifying criminal history, and the statute does not let a grandparent override his decision on these facts.",
+        "Grant visitation, because Lucinda has shown by a preponderance of the evidence that regular visits are in Emmett's best interests.",
+        "Grant visitation, because when one parent dies, that parent's own parents gain a statutory right to reasonable visitation with the child.",
+        "Hold a preliminary hearing and grant visitation if the counselor's testimony shows that regular visits would benefit Emmett's emotional health and development."
+      ],
+      "answer": 0,
+      "explanation": "Florida's constitutional right of privacy protects a fit parent's decisions about grandparent contact, so a best-interests showing is never enough (Beagle v. Beagle; Von Eiff v. Azicri). Section 752.011 allows a petition only if both parents are deceased, missing or in a persistent vegetative state, or if one is and the other has been convicted of a felony or an offense of violence evincing behavior that poses a substantial threat of harm to the child. Even then the grandparent must prove unfitness or significant harm by clear and convincing evidence. Faye has died, but Rolf is fit and has no qualifying conviction. The 2022 presumption for cases where one parent was held liable for the other's death does not apply, because Faye died of illness. The counselor's testimony shows benefit, not harm.",
+      "whyNot": [
+        "",
+        "Best interests alone cannot override a fit parent's decision. The statute requires a qualifying family situation and clear and convincing proof of unfitness or significant harm.",
+        "A parent's death gives grandparents no automatic right. Without a qualifying conviction (or liability for the death) by the surviving parent, his decision controls.",
+        "Even where a petition is allowed, the preliminary hearing requires prima facie evidence of unfitness or significant harm. Evidence that visits would help the child is not enough, and this petition does not reach that stage."
+      ]
+    },
+    {
+      "id": "fl-family-law.q025",
+      "topic": "fl-family-law.interstate-jurisdiction",
+      "rules": [
+        "fl-family-law.interstate-jurisdiction.uifsa",
+        "fl-family-law.interstate-jurisdiction.uifsa-modification-forum"
+      ],
+      "difficulty": 3,
+      "stem": "A 2019 New York order requires Darius to pay support for his son until the son turns 21, as New York law provides. In 2022 the boy's mother, Imelda, moved with him to Miami. In 2024 Darius moved from New York to Atlanta, Georgia, so no party or child now lives in New York. Darius registers the New York order in Miami-Dade County and petitions to reduce his support because of a large, involuntary pay cut. He also asks the Florida court to end support when the boy turns 18, as Florida law generally provides. Imelda opposes both requests.",
+      "call": "How should the Florida court rule?",
+      "choices": [
+        "Dismiss both requests, because only New York, which issued the order, may modify it.",
+        "Decide both requests under Florida law, because once no party or child lives in New York, the modifying state's law governs every aspect of the order.",
+        "Consider reducing the amount, but deny the request to end support at 18, because New York law governs how long the obligation lasts.",
+        "Dismiss both requests, because Darius is not a Florida resident and so cannot ask a Florida court to modify the order."
+      ],
+      "answer": 2,
+      "explanation": "Under UIFSA, the issuing state keeps continuing, exclusive jurisdiction only while the obligor, the individual obligee or the child lives there. No one remains in New York, so another state may modify the order after registration if the petitioner is not a resident of that state and the respondent is subject to its personal jurisdiction. Darius lives in Georgia and Imelda lives in Florida, so Florida may modify the amount, applying its own law. But a modifying state may not change what the issuing state's law makes nonmodifiable, and the law of the state that issued the initial controlling order governs the duration of support. Support therefore continues to 21.",
+      "whyNot": [
+        "New York lost continuing, exclusive jurisdiction once the obligor, the obligee and the child had all left. Another state may now modify after registration.",
+        "Florida law governs any change to the amount, but the duration stays governed by the law of the state that issued the initial controlling order.",
+        "",
+        "The rule runs the other way: the party seeking modification must be a nonresident of the forum. Darius, a Georgia resident, is properly suing where Imelda lives and is subject to jurisdiction."
+      ]
+    },
+    {
+      "id": "fl-family-law.q026",
+      "topic": "fl-family-law.interstate-jurisdiction",
+      "rules": [
+        "fl-family-law.interstate-jurisdiction.uccjea-continuing-emergency"
+      ],
+      "difficulty": 3,
+      "stem": "A 2022 Georgia custody judgment gives Tobias primary physical custody of his daughter, Wren, now 8, and gives her mother, Sabine, summer time with Wren. Sabine later moved to Sarasota. During Wren's July stay in Florida, Sabine finds small burn marks on Wren's arms, and Wren says that Tobias's girlfriend burned her with a cigarette. Tobias, who still lives in Georgia, demands that Wren be returned on schedule. Sabine files an emergency petition in Sarasota County asking the court to keep Wren in Florida and to modify the Georgia judgment to give Sabine primary time-sharing.",
+      "call": "What may the Florida court do?",
+      "choices": [
+        "Decline to act, because Georgia has exclusive, continuing jurisdiction over Wren's custody for as long as Tobias continues to live there, and Florida must defer any claim of abuse to the Georgia court.",
+        "Modify the Georgia judgment, because Wren is present in Florida and faces a threat of abuse if she returns to Georgia.",
+        "Enter orders only after Wren has lived in Florida for six months, making Florida her home state.",
+        "Enter a temporary protective order for a period that lets Sabine seek relief in Georgia, but not permanently modify the Georgia judgment."
+      ],
+      "answer": 3,
+      "explanation": "A Florida court has temporary emergency jurisdiction if the child is present in Florida and an emergency order is needed to protect the child from mistreatment or abuse. Because Georgia entered a custody determination and keeps exclusive, continuing jurisdiction while Tobias lives there, the Florida order must specify a period long enough for Sabine to obtain an order from Georgia. It stays in effect until the Georgia court acts or that period expires, and the Florida court should communicate with the Georgia court. Florida may not modify the Georgia judgment unless Georgia loses or declines jurisdiction and Florida would have initial jurisdiction.",
+      "whyNot": [
+        "Exclusive, continuing jurisdiction does not bar temporary emergency jurisdiction when a child present in Florida needs protection from abuse.",
+        "Emergency jurisdiction allows only temporary protective orders. Permanent modification remains with Georgia while Tobias lives there.",
+        "Temporary emergency jurisdiction does not depend on home-state status; it rests on the child's presence in Florida and the emergency.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-family-law.q027",
+      "topic": "fl-family-law.agreements-and-protection",
+      "rules": [
+        "fl-family-law.agreements-and-protection.death-waivers"
+      ],
+      "difficulty": 3,
+      "stem": "Two weeks before their 2014 wedding, Florida residents Gemma and Horace signed a written agreement, before two subscribing witnesses, in which Gemma waived her elective share of Horace's estate. Horace disclosed nothing about his finances. In 2020, during the marriage, Gemma signed a second document, also before two subscribing witnesses, waiving her homestead rights in Horace's residence; again Horace disclosed nothing about his assets. Horace died in 2026, survived by Gemma and two adult children from a prior marriage. Gemma claims an elective share and homestead rights. She alleges no fraud, duress or unconscionability.",
+      "call": "Which of Gemma's waivers is enforceable?",
+      "choices": [
+        "Both waivers, because each one was in writing and was signed by Gemma in the presence of two subscribing witnesses.",
+        "Only the elective-share waiver, because disclosure is not required for a waiver signed before marriage but is required for one signed after.",
+        "Neither waiver, because a spouse's waiver of rights at death is invalid unless the other spouse first made a fair disclosure of his estate, whenever the waiver was signed.",
+        "Only the homestead waiver, because a premarital waiver of the elective share is unenforceable unless the waiving spouse had independent counsel."
+      ],
+      "answer": 1,
+      "explanation": "Under § 732.702, a spouse may waive the elective share, homestead and other rights at death, before or after marriage, by a written agreement signed in the presence of two subscribing witnesses, and no consideration beyond the agreement itself is needed. Each spouse must make a fair disclosure of his or her estate if the waiver is signed after marriage, but no disclosure is required for one signed before marriage. Gemma's 2014 premarital waiver is valid without disclosure. Her 2020 waiver of homestead fails because Horace disclosed nothing.",
+      "whyNot": [
+        "Witnessing is necessary but not sufficient for the 2020 waiver. A waiver signed after marriage also requires fair disclosure.",
+        "",
+        "Disclosure is required only for waivers signed after marriage. The 2014 premarital waiver needed none.",
+        "Independent counsel is not a § 732.702 requirement, and the homestead waiver is the one that fails, for lack of disclosure."
+      ]
+    },
+    {
+      "id": "fl-family-law.q028",
+      "topic": "fl-family-law.agreements-and-protection",
+      "rules": [
+        "fl-family-law.agreements-and-protection.dv-procedure"
+      ],
+      "difficulty": 2,
+      "stem": "Marguerite filed a sworn petition alleging that her husband, Hollis, choked her during an argument the night before and threatened to kill her if she left him. The court entered an ex parte temporary injunction that excluded Hollis from the marital home and set a full hearing 12 days later. At the hearing, Hollis testified that Marguerite slapped him during the same argument. He has not filed a petition of his own. He asks the court, if it enters a final injunction against him, to make it mutual so that it also restrains Marguerite.",
+      "call": "How should the court rule on Hollis's request?",
+      "choices": [
+        "Deny it, because the court may not issue mutual injunctions; Hollis must file and prove his own petition.",
+        "Grant it, because the evidence shows that both spouses used physical force against each other during the same incident, and an order restraining both is the most even-handed way to prevent further violence.",
+        "Grant it, because the temporary injunction was entered without notice to Hollis, so fairness requires that any final order restrain both parties.",
+        "Deny it, because a spouse who was the first aggressor in an incident may never obtain an injunction for protection."
+      ],
+      "answer": 0,
+      "explanation": "Section 741.30 forbids mutual orders of protection. The court may enter separate injunctions only if each party has filed a petition and met the statutory requirements. Hollis filed nothing, so the court may not restrain Marguerite in the order entered on her petition, whatever his evidence about the slap. The ex parte injunction was proper: on a sworn petition showing an immediate and present danger of domestic violence, the court may enter a temporary injunction without notice for up to 15 days, pending a full hearing within that period.",
+      "whyNot": [
+        "",
+        "Even if both spouses used force, the statute bars mutual injunctions. Each party who wants protection must file and prove a separate petition.",
+        "Ex parte temporary injunctions are expressly authorized for up to 15 days on a sworn showing of immediate danger, and that procedure does not justify a mutual final injunction.",
+        "No rule bars a first aggressor from ever petitioning. The reason to deny the request is that Hollis has not filed and proved his own petition."
+      ]
+    },
+    {
+      "id": "fl-family-law.q029",
+      "topic": "fl-family-law.dependency",
+      "rules": [
+        "fl-family-law.dependency.mandatory-reporting"
+      ],
+      "difficulty": 1,
+      "stem": "During a counseling session, Dr. Abernathy, a licensed psychotherapist, hears her patient Silas admit that he has been hitting his 6-year-old daughter with an extension cord when she misbehaves and that \"the marks are getting bad.\" Silas reminds Dr. Abernathy that everything he says in therapy is confidential and privileged. Dr. Abernathy has never seen the child. She wonders whether she must report what she heard and whether, if a dependency case is later filed, she could be compelled to testify about Silas's statements.",
+      "call": "What is Dr. Abernathy's legal position?",
+      "choices": [
+        "She may neither report nor testify, because Silas's statements are protected by the psychotherapist-patient privilege, which no statute overrides for a patient's own admissions made during treatment.",
+        "She must report, but she cannot be compelled to testify, because the privilege still applies in court proceedings.",
+        "She must report immediately to the central abuse hotline, and the privilege will not bar her testimony in a related proceeding.",
+        "She has no duty to report, because she has not personally seen the child or observed any injury."
+      ],
+      "answer": 2,
+      "explanation": "Any person who knows or has reasonable cause to suspect that a child is abused by a parent must report it immediately to the Department's central abuse hotline, and knowingly and willfully failing to report is a third-degree felony. Silas's admission gives Dr. Abernathy at least reasonable cause to suspect abuse. In situations involving known or suspected child abuse, abandonment or neglect, the professional-patient privileges (including the psychotherapist-patient privilege) and the spousal privilege neither excuse a failure to report nor bar testimony. Only the attorney-client and clergy privileges survive.",
+      "whyNot": [
+        "Section 39.204 abrogates the psychotherapist-patient privilege both as an excuse for not reporting and as a bar to testimony in abuse-related proceedings.",
+        "The abrogation also covers giving evidence in judicial proceedings about the abuse, not just the duty to report.",
+        "",
+        "The duty arises from knowledge or reasonable cause to suspect. A parent's own admission is enough without personal observation."
+      ]
+    },
+    {
+      "id": "fl-family-law.q030",
+      "topic": "fl-family-law.dependency",
+      "rules": [
+        "fl-family-law.dependency.shelter",
+        "fl-family-law.dependency.adjudication"
+      ],
+      "difficulty": 2,
+      "stem": "At 10 p.m. on a Friday, a Department of Children and Families investigator responding to a hotline call found 3-year-old Pip alone in an apartment, with a loaded handgun and a bag of cocaine on a low table. When Pip's mother, Juno, returned an hour later, the investigator took Pip into custody without a court order and placed him with his maternal aunt. The shelter hearing was held the next afternoon. Juno, who cannot afford a lawyer, asks the court to return Pip immediately, arguing that the Department must first prove neglect at a full trial.",
+      "call": "What must the court decide at the shelter hearing?",
+      "choices": [
+        "Whether the Department has proved by clear and convincing evidence that Juno neglected Pip, and if it has not, Pip must be returned.",
+        "Whether the Department has proved by a preponderance of the evidence that Pip is dependent, once Juno has had time to hire a lawyer.",
+        "Whether the removal was unlawful, because an investigator may not take a child into custody without a prior court order unless a law enforcement officer is present.",
+        "Whether probable cause supports continued shelter and reasonable efforts were made to prevent removal, after advising Juno of her right to appointed counsel."
+      ],
+      "answer": 3,
+      "explanation": "An authorized agent of the Department may take a child into custody without a court order when there is probable cause that the child has been abused, neglected or abandoned or is in imminent danger. The child may not be held in shelter more than 24 hours without a court order entered after a shelter hearing. At that hearing the court decides whether probable cause supports continued shelter and whether reasonable efforts were made to prevent removal; it advises the parent of the right to counsel, appoints counsel if she is indigent, and considers placement with a relative. Preponderance is the standard at the later adjudicatory hearing, and clear and convincing evidence is required for termination.",
+      "whyNot": [
+        "Clear and convincing evidence is the standard for terminating parental rights, not for continuing shelter.",
+        "Preponderance is the standard at the later adjudicatory hearing. The shelter hearing asks only about probable cause, and an indigent parent is entitled to appointed counsel now.",
+        "Authorized Department agents, like law enforcement officers, may remove a child without a court order on probable cause; the court reviews the removal at the shelter hearing within 24 hours.",
+        ""
+      ]
+    }
+  ],
+  "essays": [
+    {
+      "id": "fl-family-law.e03",
+      "title": "The Kitchen-Table Postnup",
+      "minutes": 60,
+      "topics": [
+        "fl-family-law.dissolution",
+        "fl-family-law.agreements-and-protection",
+        "fl-family-law.children",
+        "fl-family-law.interstate-jurisdiction"
+      ],
+      "facts": [
+        "Lucia and Gideon married in Jacksonville in 2012 and lived there with their two children, now 11 and 8, until this year. In 2014 Gideon started a site-work construction company. Lucia works part time as a dental assistant and earns about $1,800 a month.",
+        "In 2021, on the evening before a bank loan closing, Gideon put a document on the kitchen table and told Lucia that the bank \"needs your signature on this business paper,\" and that if she did not sign that night the company would collapse and the family would lose the house. The document, drafted by Gideon's lawyer, was a postnuptial agreement in which Lucia gave up any interest in the company and in a brokerage account titled in Gideon's name, and waived alimony. Lucia had no lawyer and did not read it closely. Gideon gave her no financial information. She knew the company had trucks and employees, but not that it had just won a large county contract. The bank had never asked for the agreement. The company is now worth about $3 million and the brokerage account about $600,000.",
+        "In March 2025, during an argument in front of the children, Gideon shoved Lucia into a wall and struck her. After a jury trial in county court, he was convicted of misdemeanor battery, a first-degree misdemeanor. In April 2025 he moved to Charlotte, North Carolina, to manage a relative's business; his foreman now runs the Jacksonville company day to day. Lucia and the children stayed in the marital home in Jacksonville.",
+        "In May 2025 Lucia filed a petition for dissolution in Duval County seeking equitable distribution of the company and the brokerage account, alimony, child support, sole parental responsibility and majority time-sharing. Gideon was personally served in Charlotte. He moved to dismiss every claim except the dissolution itself for lack of personal jurisdiction, and in the alternative he relies on the postnuptial agreement. He also asks for shared parental responsibility and equal time-sharing.",
+        "In July 2025 the court entered a temporary order requiring Gideon to pay $1,900 a month in child support and giving him alternate weekends with the children in Jacksonville. Gideon nets about $11,000 a month in Charlotte. He has paid nothing since August. He says he stopped because Lucia kept the children from him on two of his August weekends. Lucia admits she did so after Gideon missed his first August payment, \"since he wasn't paying anyway.\" She has moved to hold Gideon in contempt."
+      ],
+      "calls": [
+        "Which of Lucia's claims may the Duval County court decide, given that Gideon now lives in North Carolina? Discuss.",
+        "Is the postnuptial agreement enforceable? Discuss.",
+        "How should the court decide parental responsibility and time-sharing? Discuss.",
+        "How should the court rule on Lucia's contempt motion, and what are the consequences of each parent's conduct regarding support and time-sharing? Discuss."
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Residency, divisible divorce and long-arm jurisdiction",
+          "rules": [
+            "fl-family-law.dissolution.residency",
+            "fl-family-law.dissolution.personal-jurisdiction"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Lucia's corroborated Florida residence far exceeds six months, so the court may dissolve the marriage",
+            "Alimony, child support, fees and an in personam property division require personal jurisdiction over Gideon",
+            "The long-arm statute reaches a respondent who resided in Florida before the action began or kept a matrimonial domicile here; Gideon lived in Jacksonville until a month before filing",
+            "Due process is satisfied by 13 years of marital residence in Florida and his continuing Jacksonville business"
+          ],
+          "conclusion": "The court may dissolve the marriage and has personal jurisdiction over Gideon to decide equitable distribution, alimony, child support and fees."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "UCCJEA home-state jurisdiction over the children",
+          "rules": [
+            "fl-family-law.interstate-jurisdiction.uccjea-initial"
+          ],
+          "points": 2,
+          "mustSay": [
+            "Florida is the children's home state: they lived here with a parent for at least six consecutive months immediately before filing",
+            "Personal jurisdiction over Gideon is not required for parenting determinations; notice and an opportunity to be heard suffice"
+          ],
+          "conclusion": "Florida may decide parental responsibility and time-sharing."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "Setting aside the postnuptial agreement under Casto",
+          "rules": [
+            "fl-family-law.agreements-and-protection.postnuptial-and-settlement"
+          ],
+          "points": 5,
+          "mustSay": [
+            "A postnuptial agreement is tested under Casto, not under the premarital agreement statute",
+            "First ground: fraud, deceit, duress, coercion, misrepresentation or overreaching. Gideon falsely said the bank required the document and pressed Lucia to sign that night without a lawyer",
+            "Second ground: the agreement is unfair or unreasonable to Lucia given the circumstances. She gave up her share of a marital business, a large account and all alimony for nothing",
+            "Unfairness raises a presumption of concealment or lack of knowledge, shifting to Gideon the burden to prove full, frank disclosure or that Lucia had general and approximate knowledge of his assets",
+            "Gideon disclosed nothing and Lucia did not know of the county contract, so he cannot rebut the presumption"
+          ],
+          "conclusion": "The agreement should be set aside on both Casto grounds, leaving the company, the account and alimony to ordinary Chapter 61 analysis."
+        },
+        {
+          "id": "i4",
+          "call": 3,
+          "label": "Domestic-violence conviction and parental responsibility",
+          "rules": [
+            "fl-family-law.children.parental-responsibility"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Shared parental responsibility is ordered unless it would be detrimental to the children",
+            "A conviction of a first-degree misdemeanor or higher involving domestic violence creates a rebuttable presumption of detriment; Gideon's battery on Lucia qualifies",
+            "If Gideon does not rebut the presumption after being advised of it, the court may not grant him shared responsibility and may award Lucia sole responsibility, and he still must pay support"
+          ],
+          "conclusion": "Unless Gideon rebuts the presumption, Lucia should receive sole parental responsibility."
+        },
+        {
+          "id": "i5",
+          "call": 3,
+          "label": "Equal time-sharing presumption and best-interests findings",
+          "rules": [
+            "fl-family-law.children.best-interests",
+            "fl-family-law.children.parental-responsibility"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Equal time-sharing is presumed to be in the children's best interests, but Lucia may rebut the presumption by a preponderance of the evidence",
+            "Domestic violence committed in the children's presence is a statutory best-interests factor, and the court may arrange time-sharing to protect the children and Lucia",
+            "The plan must be geographically workable: Gideon lives in Charlotte, so equal time-sharing during the school year is impractical",
+            "The court must make specific written findings on the statutory factors"
+          ],
+          "conclusion": "Lucia is likely to rebut the presumption; the court should give her majority time-sharing and structure Gideon's time with protective conditions."
+        },
+        {
+          "id": "i6",
+          "call": 4,
+          "label": "No self-help: support and time-sharing are independent",
+          "rules": [
+            "fl-family-law.children.enforcement-and-self-help"
+          ],
+          "points": 2,
+          "mustSay": [
+            "Lucia could not withhold time-sharing because support was unpaid",
+            "Gideon could not stop paying because time-sharing was denied; his remedy was a motion to enforce",
+            "The court should award Gideon make-up time for the missed weekends and may impose other sanctions on Lucia"
+          ],
+          "conclusion": "Both parents engaged in improper self-help; Gideon is entitled to make-up time-sharing, but that does not excuse his nonpayment."
+        },
+        {
+          "id": "i7",
+          "call": 4,
+          "label": "Civil contempt for unpaid support",
+          "rules": [
+            "fl-family-law.children.enforcement-and-self-help",
+            "fl-family-law.children.support-duration-modification",
+            "fl-family-law.dissolution.fees-and-disclosure"
+          ],
+          "points": 3,
+          "mustSay": [
+            "The temporary order creates a presumption of ability to pay; Gideon bears the burden of proving inability",
+            "Paying nothing while netting about $11,000 a month is willful",
+            "Before using incarceration to coerce payment, the court must find that Gideon has the present ability to pay the purge it sets",
+            "Past-due installments are vested and cannot be forgiven retroactively, and Lucia may recover her enforcement fees"
+          ],
+          "conclusion": "The court should hold Gideon in civil contempt, set a purge he can presently pay, enter judgment for the arrears, and award Lucia her fees."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Issue. Whether a Florida court may grant Lucia each form of relief she seeks against a husband who now lives in North Carolina.",
+            "Rule. A Florida court may dissolve a marriage if at least one party resided in Florida for six months before filing, with corroborated residency. Dissolution is a matter of status, so personal jurisdiction over the respondent is not needed to end the marriage. Alimony, child support, attorney's fees and other personal money judgments do require personal jurisdiction. Under § 48.193(1)(a)5, Florida's long-arm statute reaches a respondent in those proceedings who maintained a matrimonial domicile in Florida when the action began, or who resided in Florida before the action began. Exercising that jurisdiction must also satisfy due process. Parenting issues are governed separately by the UCCJEA: Florida may make an initial determination if it is the children's home state, meaning they lived here with a parent for at least six consecutive months immediately before the proceeding began.",
+            "Application. Lucia has lived in Jacksonville since at least 2012, and she can corroborate it with a driver license, voter registration or a third party's affidavit, so the court may dissolve the marriage. Gideon lived in Florida throughout the marriage and left only in April 2025, a month before Lucia filed. He therefore resided in Florida before the action began, and the long-arm statute applies to the alimony, support and property claims. Due process is satisfied: Gideon lived here with his family for 13 years, the marital home is here, and he still owns a business that operates in Jacksonville, so he could reasonably expect to be sued here over the marriage. Chapter 88's long-arm provisions point the same way for child support, because he resided with the children in Florida. As to the children, they have lived in Jacksonville all their lives, so Florida is their home state. Personal jurisdiction over Gideon is not needed for the parenting claims, and he received notice by personal service.",
+            "Conclusion. The court may dissolve the marriage, distribute the marital property, award alimony, child support and fees, and decide parental responsibility and time-sharing. Gideon's motion to dismiss should be denied."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Issue. Whether the 2021 postnuptial agreement can be set aside.",
+            "Rule. Section 61.079 governs premarital agreements only; postnuptial agreements are tested under Casto v. Casto. A spouse may set aside a marital agreement on either of two grounds. (1) It was reached through fraud, deceit, duress, coercion, misrepresentation or overreaching. (2) It is unfair or unreasonable to the challenging spouse given the circumstances of the parties, such as their relative means, ages, health and education. Once the second ground is shown, a presumption arises that the defending spouse concealed assets or that the challenger lacked knowledge of them. The burden then shifts to the defending spouse to prove full, frank disclosure before signing, or that the challenger had a general and approximate knowledge of the character and extent of the marital property.",
+            "Application. The first ground is met. Gideon told Lucia that the bank required her signature on a business paper, which was false, and he insisted she sign that night or the family would lose its home and business. She had no lawyer, no time to review the document, and no financial information. That is misrepresentation and coercion, or at least overreaching. The second ground is also met. Lucia, a part-time worker earning about $1,800 a month, gave up her share of a marital business now worth about $3 million and a $600,000 brokerage account, and waived all alimony, in exchange for nothing. That is unfair and unreasonable given the parties' means, so the presumption arises. Gideon cannot rebut it: he made no disclosure, and Lucia knew only that the company had trucks and employees, not about the county contract that drove its value.",
+            "Conclusion. The postnuptial agreement is unenforceable. The company (started during the marriage), the brokerage account and alimony will be decided under the ordinary Chapter 61 rules."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Issue. Whether Gideon should share parental responsibility, and what time-sharing schedule serves the children.",
+            "Rule. The court must order shared parental responsibility unless it finds shared responsibility would be detrimental to the child. Under § 61.13(2)(c), a parent's conviction of a first-degree misdemeanor or higher involving domestic violence creates a rebuttable presumption of detriment. If the presumption is not rebutted after the parent is advised of it, the court may not grant that parent shared parental responsibility; it may order sole parental responsibility and make time-sharing arrangements that protect the child and the abused parent, and the convicted parent remains obligated to pay support. Time-sharing is decided under the best-interests factors. Since July 1, 2023, equal time-sharing is presumed to be in the child's best interests, and the party opposing it must rebut that presumption by a preponderance of the evidence. Unless the parents agree, the court must make specific written findings on the statutory factors.",
+            "Application. Gideon was convicted of battery, a first-degree misdemeanor, for striking Lucia, his spouse, which is domestic violence. The presumption of detriment therefore applies. Nothing in the facts suggests he can rebut it, and he committed the attack in front of the children. On time-sharing, Lucia can rebut the equal time-sharing presumption. The statutory factors include evidence of domestic violence, the children's need for a stable routine, and the geographic viability of the plan for school-age children. Gideon now lives several hundred miles away in Charlotte, so a week-on, week-off school-year schedule is not workable, while the children have lived in the Jacksonville home all their lives. The court can still preserve Gideon's relationship with the children through weekend and holiday time, with conditions such as safe exchanges or supervision if the evidence warrants.",
+            "Conclusion. Unless Gideon rebuts the presumption, the court should award Lucia sole parental responsibility. It should award her majority time-sharing, with protective time-sharing for Gideon, supported by written findings on the statutory factors."
+          ]
+        },
+        {
+          "call": 4,
+          "text": [
+            "Issue. Whether Gideon may be held in contempt for unpaid temporary support, and whether either parent's self-help was justified.",
+            "Rule. Support and time-sharing are independent. Under § 61.13(4), a parent who is not receiving support may not refuse to honor the time-sharing schedule, and a parent whose time-sharing is denied must keep paying support. When a parent refuses without proper cause to honor the schedule, the court must award make-up time-sharing consistent with the child's best interests and may impose other sanctions, such as fees or a parenting course. Unpaid support may be enforced by civil contempt. Under Bowen v. Bowen and Rule 12.615, the support order creates a presumption that the obligor could pay; the obligor must prove inability. If the nonpayment is willful, the court may hold the obligor in contempt, but it may use incarceration to coerce payment only after finding that he has the present ability to pay the purge it sets. Past-due installments are vested, and § 61.16 allows fees in enforcement proceedings.",
+            "Application. Both parents resorted to self-help. Lucia kept the children from Gideon because he missed a payment, which the statute forbids, so Gideon is entitled to make-up time for the two lost weekends and the court may sanction Lucia. But her conduct did not excuse his. Gideon's remedy was a motion to enforce time-sharing, not stopping support. The temporary order presumes he could pay $1,900 a month, and he nets about $11,000 a month, so he cannot prove inability; his nonpayment is willful. The arrears accrued since August are vested and cannot be retroactively forgiven. Before ordering him jailed, the court must find that he can presently pay the purge, which his income makes likely for a purge equal to some or all of the arrears.",
+            "Conclusion. The court should hold Gideon in civil contempt, enter judgment for the arrears, set a purge he can presently pay, and award Lucia her enforcement fees. It should also award Gideon make-up time-sharing and warn Lucia that further denials may bring sanctions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-family-law.e04",
+      "title": "Two Children Alone on Cypress Lane",
+      "minutes": 60,
+      "topics": [
+        "fl-family-law.dependency"
+      ],
+      "facts": [
+        "Dahlia, 27, lives in a Pensacola apartment on Cypress Lane with her two children, Owen, 4, and June, 9 months. The children's father died in 2024, and since then Dahlia has been using cocaine. She sees a licensed psychotherapist, Dr. Kessler, for depression.",
+        "At a session in January 2025, Dahlia told Dr. Kessler that she \"loses it\" when Owen will not stop crying, that she had whipped him with a belt the week before \"hard enough to leave welts,\" and that some nights she leaves both children asleep in the apartment while she goes out to buy drugs. Dr. Kessler was troubled, but Dahlia reminded him that their sessions were confidential, and a lawyer friend told him that the psychotherapist-patient privilege barred him from telling anyone. He made no report.",
+        "Two weeks later a neighbor called the central abuse hotline after hearing a child scream for nearly an hour. A Department of Children and Families investigator arrived at 11 p.m. and found the children alone. Owen had raised welts and bruises across his back and legs. June was in her crib in a soaked diaper, and a pipe and a bag of cocaine lay on a low table. Dahlia returned 40 minutes later, apparently impaired. The investigator took both children into custody without a court order and placed them with Dahlia's sister, Ines, who lives nearby. The court held a shelter hearing at 2 p.m. the next day. Dahlia, who cannot afford a lawyer, asked for the children back, saying she had stepped out \"for just a minute\" and that no judge had approved the removal.",
+        "The Department filed a dependency petition for both children within 21 days. At the nonjury adjudicatory hearing it called Dr. Kessler to testify about Dahlia's statements in therapy. Dahlia objected under the psychotherapist-patient privilege. She also argued that June could not be found dependent because June had no injuries.",
+        "Both children were adjudicated dependent and stayed with Ines. Dahlia's case plan, approved in March 2025, required her to complete a substance-abuse evaluation and any recommended treatment, take parenting classes, submit to random drug tests, visit the children twice a week, and obtain stable housing. The Department scheduled and paid for her evaluation and treatment. Over the next 13 months Dahlia completed the parenting class, but she missed two treatment intakes, never completed treatment, tested positive for cocaine six times, and attended fewer than half of her visits. She lost her job in late 2025 and has no stable housing. The children are thriving with Ines, who wants to adopt them. In April 2026 the Department petitioned to terminate Dahlia's parental rights for failure to substantially comply with the case plan. Dahlia argues that she could not get housing because she lost her job, and that the court should instead place the children with Ines in a permanent guardianship."
+      ],
+      "calls": [
+        "Was the children's removal lawful, and what must the court decide at the shelter hearing? Discuss.",
+        "Did Dr. Kessler have a duty to report, and should the court admit his testimony over Dahlia's objection? Discuss.",
+        "Should the court adjudicate Owen and June dependent? Discuss.",
+        "Should the court terminate Dahlia's parental rights? Discuss."
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Removal without a court order and the shelter hearing",
+          "rules": [
+            "fl-family-law.dependency.shelter"
+          ],
+          "points": 4,
+          "mustSay": [
+            "An authorized Department agent may take a child into custody without a court order on probable cause of abuse, neglect or abandonment, or imminent danger",
+            "Two young children alone at night with cocaine within reach, and Owen's welts and bruises, supply probable cause",
+            "A sheltered child may not be held more than 24 hours without a court order entered after a shelter hearing; this hearing was timely",
+            "The court decides probable cause and whether reasonable efforts were made to prevent removal, advises Dahlia of her right to counsel and appoints counsel because she is indigent, and considers placement with a relative such as Ines"
+          ],
+          "conclusion": "The removal was lawful; the court should appoint counsel for Dahlia, find probable cause, and continue the children in shelter with Ines."
+        },
+        {
+          "id": "i2",
+          "call": 2,
+          "label": "Mandatory reporting and abrogation of the privilege",
+          "rules": [
+            "fl-family-law.dependency.mandatory-reporting"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Any person who knows or has reasonable cause to suspect that a parent is abusing or neglecting a child must report immediately to the central abuse hotline",
+            "Dahlia's admissions gave Dr. Kessler at least reasonable cause to suspect abuse (the welts) and neglect (leaving the children alone)",
+            "In situations involving known or suspected abuse, the psychotherapist-patient privilege does not excuse a failure to report; only the attorney-client and clergy privileges survive",
+            "A knowing and willful failure to report is a third-degree felony",
+            "The privilege also does not bar Dr. Kessler's testimony in the dependency proceeding, so the objection should be overruled"
+          ],
+          "conclusion": "Dr. Kessler was required to report and may be exposed to criminal liability for failing to do so; his testimony is admissible over Dahlia's privilege objection."
+        },
+        {
+          "id": "i3",
+          "call": 3,
+          "label": "Owen: abuse and neglect",
+          "rules": [
+            "fl-family-law.dependency.dependent-child",
+            "fl-family-law.dependency.adjudication"
+          ],
+          "points": 3,
+          "mustSay": [
+            "The Department must prove dependency by a preponderance of the evidence at a hearing before the judge without a jury",
+            "Whipping a 4-year-old with a belt hard enough to leave welts and bruises is abuse, not reasonable corporal discipline",
+            "Leaving young children alone at night with drugs within reach is neglect"
+          ],
+          "conclusion": "Owen is dependent as an abused and neglected child."
+        },
+        {
+          "id": "i4",
+          "call": 3,
+          "label": "June: neglect and prospective risk",
+          "rules": [
+            "fl-family-law.dependency.dependent-child"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Physical injury is not required; leaving an infant alone at night in a soaked diaper with cocaine accessible is neglect that endangers her health",
+            "A child at substantial risk of imminent abuse or neglect is dependent, and a parent's conduct toward one child can show that risk to a sibling",
+            "Dahlia's drug use and violence toward Owen create a substantial risk to June"
+          ],
+          "conclusion": "June is dependent even though she was not injured."
+        },
+        {
+          "id": "i5",
+          "call": 4,
+          "label": "Termination ground: failure to substantially comply with the case plan",
+          "rules": [
+            "fl-family-law.dependency.tpr-grounds"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Failure to substantially comply with the case plan for 12 months after adjudication or shelter placement, whichever came first, is evidence of continuing abuse, neglect or abandonment",
+            "The children were sheltered in January 2025 and the case plan has been in place for 13 months, so the period has run",
+            "Noncompliance caused by lack of financial resources or by the Department's failure to make reasonable efforts does not count; job loss may explain the housing failure but not the missed treatment, positive drug tests and missed visits, and the Department arranged and paid for services"
+          ],
+          "conclusion": "The Department can establish the case-plan ground."
+        },
+        {
+          "id": "i6",
+          "call": 4,
+          "label": "Clear and convincing proof, manifest best interests and least restrictive means",
+          "rules": [
+            "fl-family-law.dependency.tpr-standard",
+            "fl-family-law.dependency.case-plan-and-permanency"
+          ],
+          "points": 4,
+          "mustSay": [
+            "The Department must prove the ground, manifest best interests and least restrictive means, each by clear and convincing evidence",
+            "Manifest best interests: the children are very young, are thriving with Ines, who wants to adopt them, and Dahlia's bond has weakened through missed visits",
+            "Least restrictive means ordinarily requires that the parent was first offered services; Dahlia was offered and largely failed to use them",
+            "Permanent guardianship with Ines is a less drastic alternative the court must weigh, but adoption is the preferred permanency goal after reunification and gives the children lasting stability"
+          ],
+          "conclusion": "On these facts the court is likely to find all three elements proved by clear and convincing evidence and terminate Dahlia's rights, freeing the children for adoption by Ines."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Issue. Whether the investigator could remove Owen and June without a court order, and what the court must decide at the shelter hearing.",
+            "Rule. A law enforcement officer or authorized agent of the Department may take a child into custody without a court order when there is probable cause that the child has been abused, neglected or abandoned, or is in imminent danger of illness or injury as a result. A child may not be held in shelter for more than 24 hours unless the court orders it after a shelter hearing. At the hearing the court decides whether probable cause supports continued shelter and whether reasonable efforts were made to prevent removal. It advises the parents of their right to counsel and appoints counsel for an indigent parent, and it considers placing the child with a relative or other suitable adult before licensed foster care. If shelter continues, the dependency petition must be filed within 21 days of the shelter hearing.",
+            "Application. The investigator found a 4-year-old with raised welts and bruises and a 9-month-old in a soaked diaper, alone at 11 p.m., with a pipe and cocaine on a low table. Dahlia returned 40 minutes later, apparently impaired. That is ample probable cause of abuse and neglect and of imminent danger, so no prior court order was needed, contrary to Dahlia's argument. The hearing at 2 p.m. the next day was within 24 hours. Dahlia cannot afford a lawyer, so the court must advise her of her right to counsel and appoint one. Because the danger arose from her drug use and from leaving the children alone, the court can find that services could not have made the home safe that night. Placement with Ines, a nearby relative, is the preferred kind of placement.",
+            "Conclusion. The removal was lawful. The court should appoint counsel for Dahlia, find probable cause, continue shelter with Ines, and expect the Department's petition within 21 days, which it filed."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Issue. Whether Dr. Kessler had to report Dahlia's disclosures, and whether the psychotherapist-patient privilege bars his testimony.",
+            "Rule. Under § 39.201, any person who knows or has reasonable cause to suspect that a child is abused, abandoned or neglected by a parent or caregiver must report it immediately to the Department's central abuse hotline. A knowing and willful failure to report is a third-degree felony (§ 39.205). Under § 39.204, in any situation involving known or suspected child abuse, abandonment or neglect, the spousal privilege and the privileges between professionals and their patients or clients do not apply. They neither excuse a failure to report nor bar testimony in a judicial proceeding about the abuse. Only the attorney-client privilege and the clergy privilege survive.",
+            "Application. Dahlia told Dr. Kessler that she whipped Owen with a belt hard enough to leave welts and that she leaves her young children alone at night to buy drugs. Those admissions gave him at least reasonable cause to suspect both abuse and neglect, so he had to call the hotline immediately. His lawyer friend's advice was wrong: the psychotherapist-patient privilege is one of the privileges § 39.204 abrogates. Because he made no report, he faces possible prosecution if his failure was knowing and willful. At the adjudicatory hearing, the same statute removes the privilege as a basis for excluding his testimony about Dahlia's statements.",
+            "Conclusion. Dr. Kessler had a duty to report and breached it. The court should overrule Dahlia's objection and admit his testimony."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Issue. Whether the Department can prove that Owen and June are dependent.",
+            "Rule. A dependent child includes one who has been abused or neglected by a parent, or who is at substantial risk of imminent abuse or neglect. Abuse is a willful act or threatened act that causes physical, mental or sexual injury or harm that significantly impairs, or is likely to significantly impair, the child's physical, mental or emotional health. Reasonable corporal discipline that does not cause that kind of harm is not abuse by itself. Neglect includes depriving a child of necessary care or allowing the child to live in an environment that significantly impairs or endangers the child's health. A parent's conduct toward one child may support a finding that a sibling is at substantial risk. The Department must prove dependency by a preponderance of the evidence at an adjudicatory hearing before the judge, without a jury.",
+            "Application. Owen: Dahlia admitted whipping him with a belt hard enough to leave welts, and the investigator saw raised welts and bruises across his back and legs. Injuries like these are well beyond reasonable discipline and show willful harm likely to significantly impair his health. Leaving a 4-year-old alone at night with cocaine within reach is also neglect. June: injury is not required. A 9-month-old left alone at night in a soaked diaper, with drugs on a low table and an impaired parent, is in an environment that endangers her health, which is neglect. Dahlia's violence toward Owen and her ongoing drug use also place June at substantial risk of imminent abuse and neglect. Dr. Kessler's testimony and the investigator's observations easily meet the preponderance standard.",
+            "Conclusion. The court should adjudicate both children dependent: Owen as abused and neglected, and June as neglected and at substantial risk."
+          ]
+        },
+        {
+          "call": 4,
+          "text": [
+            "Issue. Whether the Department can prove a statutory ground for termination, and whether termination is in the children's manifest best interests and is the least restrictive means of protecting them.",
+            "Rule. Parental rights may be terminated only if the Department proves by clear and convincing evidence (1) a statutory ground, (2) that termination is in the child's manifest best interests, and (3) that termination is the least restrictive means of protecting the child from serious harm (Padgett). One ground under § 39.806(1) is continuing abuse, neglect or abandonment after adjudication. A parent's failure to substantially comply with the case plan for 12 months after the child's adjudication or placement in shelter, whichever came first, is evidence of that ground, unless the failure resulted from the parent's lack of financial resources or the Department's failure to make reasonable efforts to reunify. Manifest best interests turns on statutory factors such as the child's safety, the parent's capacity to provide care, the child's bonds with the parent and the current caregiver, and the child's need for permanency. Least restrictive means ordinarily requires that the Department first offered the parent services. The permanency goals in order of preference are reunification, adoption, permanent guardianship, permanent placement with a fit and willing relative, and another planned permanent living arrangement.",
+            "Application. Ground: the children were sheltered in January 2025 and the case plan was approved in March 2025. By the April 2026 petition, well over 12 months had passed. Dahlia completed a parenting class, but she missed two treatment intakes, never finished treatment, tested positive for cocaine six times and attended fewer than half of her visits. Her job loss might excuse the housing task, but it does not explain the missed treatment, the drug use or the missed visits, and the Department scheduled and paid for her services. That is substantial noncompliance not caused by poverty or by any failure of the Department. Best interests: the children are 5 and 2, have spent more than a year thriving with Ines, who wants to adopt them, and Dahlia's bond with them has weakened through missed visits. Least restrictive means: the Department offered a case plan and paid for treatment, so the usual prerequisite is met. Dahlia's best argument is that a permanent guardianship with Ines would protect the children without severing her rights, and the court must consider it. But a relative's willingness to serve as guardian does not by itself defeat termination. Given Dahlia's continuing drug use despite services, and the children's young age and need for permanence, the court may find that only adoption will protect them from serious harm.",
+            "Conclusion. The Department can likely prove each element by clear and convincing evidence. The court should terminate Dahlia's parental rights, freeing the children for adoption by Ines."
+          ]
+        }
+      ]
+    }
+  ]
+}

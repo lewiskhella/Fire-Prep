@@ -74,20 +74,7 @@ function forTrack(cat) {
   const keep = s => (florida ? s.group !== 'mee' : s.group !== 'florida');
   return { ...cat, exam: florida && cat.examFlorida ? cat.examFlorida : cat.exam, subjects: (cat.subjects || []).filter(keep) };
 }
-
-// Bench Book: Florida sections first for the Florida track (UBE-only sections hidden);
-// hidden for other jurisdictions; everything when no jurisdiction is set.
-async function forTrackGuide(g) {
-  const t = trackOf();
-  const secs = (g && g.sections) || [];
-  const isFl = s => String(s.id).startsWith('florida-');
-  if (t === 'florida') {
-    const cat = await getJSON('catalog.json', {});
-    const hide = new Set((cat.examFlorida && cat.examFlorida.hideGuide) || []);
-    return { ...g, sections: [...secs.filter(isFl), ...secs.filter(s => !isFl(s) && !hide.has(s.id))] };
-  }
-  return t ? { ...g, sections: secs.filter(s => !isFl(s)) } : g;
-}"""
+"""
 
 
 def pack_subjects() -> list[str]:
@@ -151,7 +138,21 @@ PATCHES = [
     Replace("app/js/lib/content.js", "forTrack", "jurisdiction track filter", [(CATALOG_OLD, CATALOG_NEW)]),
     Replace("app/js/lib/content.js", "forTrackGuide)", "Florida Bench Book sections", [
         ("export const guide = () => getJSON('guide.json', { sections: [] });",
-         "export const guide = () => getJSON('guide.json', { sections: [] }).then(forTrackGuide);"),
+         "export const guide = () => getJSON('guide.json', { sections: [] }).then(forTrackGuide);\n\n"
+         "// Bench Book: Florida sections first for the Florida track (UBE-only sections hidden);\n"
+         "// hidden for other jurisdictions; everything when no jurisdiction is set.\n"
+         "async function forTrackGuide(g) {\n"
+         "  let j = '';\n"
+         "  try { j = String((JSON.parse(localStorage.getItem('ruled:v1') || '{}').profile || {}).jurisdiction || '').trim().toLowerCase(); } catch { /* storage unavailable */ }\n"
+         "  const secs = (g && g.sections) || [];\n"
+         "  const isFl = s => String(s.id).startsWith('florida-');\n"
+         "  if (/florida|^fl\\.?$/.test(j)) {\n"
+         "    const cat = await getJSON('catalog.json', {});\n"
+         "    const hide = new Set((cat.examFlorida && cat.examFlorida.hideGuide) || []);\n"
+         "    return { ...g, sections: [...secs.filter(isFl), ...secs.filter(s => !isFl(s) && !hide.has(s.id))] };\n"
+         "  }\n"
+         "  return j ? { ...g, sections: secs.filter(s => !isFl(s)) } : g;\n"
+         "}"),
     ]),
     CatalogEdit("content/catalog.json", "Florida exam profile in the catalog", lambda d: add_exam_profile(d)),
     CatalogEdit("content/guide.json", "Florida Bench Book sections", lambda d: merge_guide(d)),

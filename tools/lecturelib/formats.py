@@ -225,7 +225,8 @@ def read_transcript(path: Path):
     if ext not in PARSERS:
         raise TranscriptError(f"unsupported transcript type: {ext}")
     raw = path.read_bytes()
-    for enc in ("utf-8-sig", "utf-16", "cp1252", "latin-1"):
+    encs = ("utf-16",) if raw[:2] in (b"\xff\xfe", b"\xfe\xff") else ()
+    for enc in encs + ("utf-8-sig", "cp1252", "latin-1"):
         try:
             text = raw.decode(enc)
             break
