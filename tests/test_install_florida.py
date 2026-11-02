@@ -34,6 +34,12 @@ OUTLINES_JS = """  const mbe = subs.filter(s => s.meta.group === 'mbe');
 VALIDATOR = 'EXAMS = {"MBE", "MEE"}\nprint("  TOTAL")\n'
 PLANNER = "const BASE_WEIGHT = {\n  'family-law': 0.65, 'secured-transactions': 0.7, 'conflict-of-laws': 0.45,\n};\n"
 WELCOME = "h('span.muted.smallcaps', s.exams.includes('MBE') ? ' MBE + MEE' : ' MEE')"
+MBE_JS = """  const mbeIds = subs.filter(s => s.meta.exams.includes('MBE')).map(s => s.id);
+  const chosen = new Set(pre.includes('mbe') ? mbeIds : pre.length ? pre : mbeIds);
+    chips.replaceChildren(
+      h('button.chip', { type: 'button', onclick: () => { paint(); } }, 'All MBE subjects'),
+      ...subs.map(s => s));
+"""
 CATALOG = {"version": 1, "subjects": [{"id": "torts", "group": "mbe", "exams": ["MBE", "MEE"]}]}
 
 
@@ -42,7 +48,7 @@ class FloridaInstallerTests(unittest.TestCase):
         self.tmp = Path(tempfile.mkdtemp())
         self.app = self.tmp / "app-root"
         files = {"app/js/lib/content.js": CONTENT_JS, "app/js/views/outlines.js": OUTLINES_JS, "tools/validate_content.py": VALIDATOR,
-                 "app/js/lib/planner.js": PLANNER, "app/js/views/welcome.js": WELCOME, "content/catalog.json": json.dumps(CATALOG)}
+                 "app/js/lib/planner.js": PLANNER, "app/js/views/welcome.js": WELCOME, "app/js/views/mbe.js": MBE_JS, "content/catalog.json": json.dumps(CATALOG)}
         for rel, text in files.items():
             p = self.app / rel
             p.parent.mkdir(parents=True, exist_ok=True)
@@ -83,10 +89,13 @@ class FloridaInstallerTests(unittest.TestCase):
         self.assertEqual(outlines.count("'Tested on the MEE only'"), 1)
         self.assertIn("'fl-wills': 0.9", (self.app / "app/js/lib/planner.js").read_text())
         self.assertIn("includes('FL')", (self.app / "app/js/views/welcome.js").read_text())
+        mbe = (self.app / "app/js/views/mbe.js").read_text()
+        self.assertIn("pre.includes('fl') ? flIds", mbe)
+        self.assertIn("'All Florida Part A'", mbe)
 
         code, out = self.run_inst()
         self.assertEqual(code, 0, out)
-        self.assertEqual(out.count("unchanged"), 6, out)
+        self.assertEqual(out.count("unchanged"), 7, out)
 
         self.run_inst("--uninstall")
         self.assertEqual((self.app / "app/js/lib/content.js").read_text(), CONTENT_JS)

@@ -15,6 +15,8 @@ What it does (every changed file is backed up to <app>/.florida-backup/<time>/):
   * app/js/views/outlines.js    a "Florida Part A" shelf in the binder
   * app/js/views/welcome.js     labels Florida subjects in onboarding
   * app/js/lib/planner.js       study-time weights for the Florida subjects
+  * app/js/views/mbe.js         an "All Florida Part A" pool in MBE Drills
+                                (#/mbe?subjects=fl&count=100&mode=exam = a timed Part A set)
 Then it runs the validator on the Florida subjects.
 """
 from __future__ import annotations
@@ -108,6 +110,17 @@ PATCHES = [
     Replace("app/js/views/welcome.js", "includes('FL')", "Florida label in onboarding",
             [("s.exams.includes('MBE') ? ' MBE + MEE' : ' MEE'",
               "s.exams.includes('FL') ? ' Florida Part A' : s.exams.includes('MBE') ? ' MBE + MEE' : ' MEE'")]),
+    Replace("app/js/views/mbe.js", "flIds", "'All Florida Part A' drill pool", [
+        ("const mbeIds = subs.filter(s => s.meta.exams.includes('MBE')).map(s => s.id);",
+         "const mbeIds = subs.filter(s => s.meta.exams.includes('MBE')).map(s => s.id);\n"
+         "  const flIds = subs.filter(s => s.meta.exams.includes('FL')).map(s => s.id);"),
+        ("const chosen = new Set(pre.includes('mbe') ? mbeIds : pre.length ? pre : mbeIds);",
+         "const chosen = new Set(pre.includes('mbe') ? mbeIds : pre.includes('fl') ? flIds : pre.length ? pre : mbeIds);"),
+        ("}, 'All MBE subjects'),",
+         "}, 'All MBE subjects'),\n"
+         "      ...(flIds.length ? [h('button.chip', { type: 'button', 'aria-pressed': flIds.every(id => chosen.has(id)) && chosen.size === flIds.length ? 'true' : 'false', "
+         "onclick: () => { chosen.clear(); flIds.forEach(id => chosen.add(id)); paint(); } }, 'All Florida Part A')] : []),"),
+    ]),
     InsertAfterLine("app/js/lib/planner.js", "'fl-wills'", "Florida study-time weights",
                     "'conflict-of-laws': 0.45,", WEIGHTS),
 ]
