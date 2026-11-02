@@ -320,13 +320,8 @@
             "business judgment rule",
             "duty of care",
             "duty of loyalty",
-            "derivative suit",
-            "demand",
             "piercing the corporate veil",
             "dividend",
-            "merger",
-            "appraisal rights",
-            "dissolution",
             "promoter",
             "ultra vires"
           ]
@@ -376,6 +371,23 @@
             "independent contractor",
             "frolic",
             "detour"
+          ]
+        },
+        {
+          "id": "fl-business-entities.shareholder-remedies-and-fundamental-changes",
+          "title": "Shareholder remedies and fundamental changes",
+          "keywords": [
+            "derivative suit",
+            "demand",
+            "merger",
+            "appraisal rights",
+            "dissolution",
+            "inspection of records",
+            "short-form merger",
+            "sale of substantially all assets",
+            "judicial dissolution",
+            "buy-out election",
+            "market-out exception"
           ]
         }
       ]
@@ -1222,17 +1234,7 @@
             "indorsement",
             "blank indorsement",
             "special indorsement",
-            "holder",
-            "holder in due course",
-            "shelter rule",
-            "real defenses",
-            "personal defenses",
-            "accommodation party",
-            "presentment",
-            "dishonor",
-            "notice of dishonor",
-            "forged indorsement",
-            "imposter rule"
+            "holder"
           ]
         },
         {
@@ -1276,6 +1278,39 @@
             "surplus",
             "strict foreclosure",
             "redemption"
+          ]
+        },
+        {
+          "id": "fl-ucc.holder-in-due-course",
+          "title": "Holder in due course and defenses",
+          "keywords": [
+            "holder in due course",
+            "shelter rule",
+            "real defenses",
+            "personal defenses",
+            "good faith",
+            "without notice",
+            "for value",
+            "overdue",
+            "claim in recoupment"
+          ]
+        },
+        {
+          "id": "fl-ucc.liability-of-parties",
+          "title": "Liability of parties, discharge and warranties",
+          "keywords": [
+            "accommodation party",
+            "presentment",
+            "dishonor",
+            "notice of dishonor",
+            "forged indorsement",
+            "imposter rule",
+            "indorser liability",
+            "drawer liability",
+            "transfer warranties",
+            "presentment warranties",
+            "conversion of an instrument",
+            "discharge"
           ]
         }
       ]

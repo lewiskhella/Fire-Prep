@@ -111,3 +111,50 @@ relying on the pack for anything beyond study.
 - **Trust records:** kept 6 years; how often reconciliation is required; Rule 5-1.1(b) and (c).
 - **PR e02:** treats Rule 4-1.13 through the concurrent-conflicts rule.
 - **Added topics:** `fl-professional-responsibility.trust-accounting` and `.discipline-and-practice`, now in the lecture taxonomy.
+
+## fl-business-entities
+
+- **Corporations:**
+  - § 607.0830 care-standard wording and the five § 607.0831 liability categories (q002, e01).
+  - Default written consent (§ 607.0704), the 10% threshold to call a special meeting, the one-third quorum floor and 11-month proxies (q003).
+  - Section 607.0832 safe harbors (2020 detail left out). Dania Jai-Alai v. Sykes (veil piercing).
+- **Shareholder remedies:**
+  - Derivative-suit section numbers (§§ 607.0741–.0744; q004).
+  - Five business days' notice to inspect records.
+  - Market-out thresholds (2,000 holders, $10M).
+  - Short-form mergers at 80%.
+  - The § 607.1430 dissolution grounds; § 607.1436 buy-out election (e01).
+- **LLCs:**
+  - Majority-in-interest measured by profit interests (moderate confidence; q006).
+  - Interim distributions shared by contribution value.
+  - § 605.04074 statutory apparent authority (q006, e02).
+  - Non-managing members owe no fiduciary duty (q008).
+  - The "90 days without members" dissolution event; §§ 605.0706 and 605.0714.
+  - Olmstead and the single-member charging-order fix (q007).
+- **Partnerships:** recording a statement of partnership authority.
+- **Agency:**
+  - Goldschmidt v. Holman; Mobil Oil v. Bransford; the § 768.096 negligent-hiring presumption.
+  - Dangerous-instrumentality cases. The § 324.021(9)(b)3 caps are left out (q015).
+- **Chapter 709 powers of attorney:** formalities, no springing powers, initials for superpowers.
+- **Added topic:** `fl-business-entities.shareholder-remedies-and-fundamental-changes`, now in the lecture taxonomy.
+
+## fl-ucc
+
+- **Article 9 numbering:** from UCC 9-320 on, sections are cited as "ch. 679 (UCC § 9-xxx)". Convert them to Florida numbers (679.320 vs 679.3201).
+- **Article 3 version:** drafted to the 1990 text, assuming Florida did not adopt the 2002 amendments. Check that assumption and whether Florida has adopted the 2022 amendments (controllable electronic records, "sign").
+- **Florida-specific provisions:**
+  - § 673.3091 lost instruments and § 702.11.
+  - § 673.3111 accord and satisfaction versus § 671.308.
+  - § 68.065 worthless-check damages.
+  - Standing at filing in foreclosure.
+  - Documentary-stamp notation on financing statements (§ 201.22).
+  - § 319.27 vehicle liens (q012).
+  - § 55.202 judgment liens.
+  - Consumer deficiency rule after a defective sale (q015).
+- **Uniform numbers assumed:**
+  - 30-day indorser discharge (q007).
+  - Holder in due course only for the fraction of value paid (q004).
+  - 20-day purchase-money grace period (q013).
+  - 90-day stale checks; 5-year inventory purchase-money notice; 10-day notice safe harbor; 60%/90-day consumer goods rule; 4-month and 1-year relocation periods; 5-year financing-statement life.
+- **Essays:** ucc.e02 (a "without recourse" indorsement and its warranties); ucc.e01 (night-time repossession treated as no breach of the peace, the majority view).
+- **Added topics:** `fl-ucc.holder-in-due-course` and `fl-ucc.liability-of-parties`, now in the lecture taxonomy.
