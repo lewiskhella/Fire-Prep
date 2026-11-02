@@ -422,7 +422,7 @@
             "advancement",
             "slayer",
             "simultaneous death",
-            "120 hours"
+            "insufficient evidence of survival"
           ]
         },
         {
@@ -459,9 +459,6 @@
             "pretermitted spouse",
             "pretermitted child",
             "omitted spouse",
-            "homestead",
-            "descent of homestead",
-            "devise of homestead",
             "exempt property",
             "family allowance",
             "waiver of spousal rights",
@@ -506,6 +503,21 @@
             "ancillary administration",
             "domiciliary",
             "caveat"
+          ]
+        },
+        {
+          "id": "fl-wills.homestead",
+          "title": "Homestead in probate",
+          "keywords": [
+            "homestead",
+            "descent of homestead",
+            "devise of homestead",
+            "protected homestead",
+            "restriction on devise",
+            "minor child",
+            "life estate",
+            "tenancy in common election",
+            "heirs creditor protection"
           ]
         }
       ]

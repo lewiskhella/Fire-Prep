@@ -158,3 +158,58 @@ relying on the pack for anything beyond study.
   - 90-day stale checks; 5-year inventory purchase-money notice; 10-day notice safe harbor; 60%/90-day consumer goods rule; 4-month and 1-year relocation periods; 5-year financing-statement life.
 - **Essays:** ucc.e02 (a "without recourse" indorsement and its warranties); ucc.e01 (night-time repossession treated as no breach of the peace, the majority view).
 - **Added topics:** `fl-ucc.holder-in-due-course` and `fl-ucc.liability-of-parties`, now in the lecture taxonomy.
+
+## fl-wills
+
+- **Intestacy:**
+  - Simultaneous death uses the "insufficient evidence" rule (§ 732.601), not the UPC 120-hour rule. The lecture taxonomy no longer lists "120 hours".
+  - Per stirpes division generation.
+- **Electronic wills:** the 1/1/2020 effective date, remote witnessing, the § 117.285 vulnerable-adult bar, and the § 732.522 cite.
+- **Execution and contests:**
+  - § 732.502(2) out-of-state wills.
+  - Dependent relative revocation (no case cited).
+  - In re Estate of Carpenter; the § 733.212 3-month objection period.
+- **Spousal protection:**
+  - Protected homestead is excluded from the elective estate (§ 732.2045).
+  - Elective share trusts are credited at 50% (§ 732.2095).
+  - Waiver formalities.
+  - Codicil republication (pretermitted child).
+- **Amounts and deadlines:**
+  - exempt property: $20,000 of furniture and two vehicles, petition by the later of 4 months or 40 days;
+  - family allowance: $18,000;
+  - the 2-year, irrevocable tenancy-in-common election for homestead;
+  - Snyder v. Davis; § 732.7025 waiver language.
+- **Construction:**
+  - Anti-lapse: survivorship words and stepchildren (§ 732.603).
+  - Identity theory of ademption; § 732.606.
+  - § 732.515 lists.
+- **Administration:**
+  - 10-day will deposit; who may serve as a nonresident personal representative;
+  - summary administration at $75,000 or 2 years;
+  - inventory in 60 days;
+  - creditor periods of 3 months / 30 days / 2 years;
+  - § 733.707 classes ($6,000 funeral cap);
+  - § 733.617 commissions.
+- **Unsettled point:** q015 and e02 treat an unserved, reasonably ascertainable creditor as timely within 2 years. Florida cases differ on this.
+- **e02:** treats naming the former spouse as personal representative as voided by § 732.507(2).
+- **Added topic:** `fl-wills.homestead`, now in the lecture taxonomy.
+
+## fl-trusts
+
+- **Revocation:** the methods under § 736.0602 when the trust is silent; whether Florida allows proof by clear and convincing evidence.
+- **Exception creditors** (q006, e01; high impact):
+  - the "last resort" requirement under § 736.0503;
+  - § 736.0504 bars every creditor from compelling a discretionary distribution.
+- **Decanting** (q015): the 2018 expansion, 60-day notice and the bar on adding beneficiaries.
+- **Modification:** § 736.0412 exclusions; UTC § 411; the $50,000 uneconomic-trust figure.
+- **Types:**
+  - cy pres grounds;
+  - the 21-year limit for animal and purpose trusts;
+  - land trusts (§§ 689.071, 689.073);
+  - proof of resulting and constructive trusts;
+  - secret trusts.
+- **Trustee duties:**
+  - Chapter 738's rewrite (a new fiduciary income act, possibly effective 1/1/2025) is kept general.
+  - § 736.1008's 6-month limitation.
+  - 60-day notices; 30 days' notice to resign.
+- **Settlor's death:** §§ 733.707(3), 736.05053 and 736.05055.
