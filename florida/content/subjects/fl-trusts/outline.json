@@ -1,0 +1,380 @@
+{
+  "subject": "fl-trusts",
+  "topics": [
+    {
+      "id": "fl-trusts.creation",
+      "title": "Creation and validity",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "The Florida Trust Code (chapter 736, effective July 1, 2007) is based on the Uniform Trust Code, with important Florida departures. The most tested one is § 736.0403(2)(b): the testamentary aspects of a Florida settlor's revocable trust fail unless the trust is signed with will formalities.",
+      "rules": [
+        {
+          "id": "fl-trusts.creation.requirements",
+          "title": "Requirements for creating a trust",
+          "weight": 3,
+          "rule": "A trust is created only if the settlor has capacity, the settlor indicates an intention to create a trust, the trust has a definite beneficiary (unless it is a charitable, animal or other permitted purpose trust), the trustee has duties to perform, and the same person is not the sole trustee and sole beneficiary. A trust may be created by transferring property to a trustee, by the owner's declaration that the owner holds property as trustee, or by exercising a power of appointment in favor of a trustee.",
+          "elements": [
+            "Settlor with capacity",
+            "Intent to create a trust",
+            "Definite (ascertainable) beneficiary, unless a charitable or permitted purpose trust",
+            "Trustee with duties",
+            "Sole trustee is not also the sole beneficiary (merger)"
+          ],
+          "tip": "A self-declared revocable trust in which the settlor is the initial trustee and lifetime beneficiary is valid because other beneficiaries hold the remainder; merger occurs only if the same person is the sole trustee and the sole beneficiary of all interests.",
+          "authority": "Fla. Stat. §§ 736.0401, 736.0402"
+        },
+        {
+          "id": "fl-trusts.creation.testamentary-aspects",
+          "title": "Testamentary aspects of a revocable trust require will formalities",
+          "weight": 3,
+          "rule": "The testamentary aspects of a revocable trust executed by a settlor domiciled in Florida at the time of execution are invalid unless the trust instrument is executed by the settlor with the formalities required for a will (signed at the end before two attesting witnesses who sign in the settlor's and each other's presence). Testamentary aspects are the provisions that dispose of trust property on or after the settlor's death, other than to the settlor's estate.",
+          "exceptions": [
+            "Lifetime (non-testamentary) provisions of the trust, such as the trustee's management of assets for the settlor during life, remain valid even if the trust was not witnessed.",
+            "A trust executed by a non-Florida domiciliary is valid if it complies with the law of the place of execution or the settlor's domicile."
+          ],
+          "split": "The UTC and most states impose no will formalities on revocable trusts; a signed writing is enough. Florida requires two attesting witnesses for the dispositive provisions, and the same rule applies to amendments that change them.",
+          "trap": "A notarized but unwitnessed revocable trust signed by a Florida domiciliary is not void entirely: it works during life, but the dispositive provisions at death fail, and the property passes back through the settlor's estate.",
+          "authority": "Fla. Stat. § 736.0403(2)"
+        },
+        {
+          "id": "fl-trusts.creation.oral-trusts",
+          "title": "Oral trusts and the statute of frauds for land",
+          "weight": 2,
+          "rule": "A trust need not be evidenced by a written instrument, but an oral trust and its terms may be established only by clear and convincing evidence. A trust of an interest in Florida land, however, must be manifested and proved by a writing signed by the person creating it.",
+          "exceptions": [
+            "Resulting and constructive trusts arise by operation of law and are not subject to the writing requirement.",
+            "Testamentary trusts must satisfy will formalities, and the testamentary aspects of a Florida settlor's revocable trust must too."
+          ],
+          "trap": "An oral promise to hold shares of stock in trust can be enforced on clear and convincing proof, but the same oral promise about a parcel of land is unenforceable as an express trust.",
+          "authority": "Fla. Stat. §§ 736.0407, 689.05"
+        },
+        {
+          "id": "fl-trusts.creation.capacity-and-contests",
+          "title": "Capacity, undue influence and contests",
+          "weight": 2,
+          "rule": "The capacity required to create, amend, revoke or add property to a revocable trust is the same as the capacity required to make a will. A trust is void to the extent its creation was induced by fraud, duress or undue influence, and Florida courts analyze undue influence in a trust the same way as in a will, including the presumption that arises from a confidential relationship and active procurement.",
+          "exceptions": [
+            "An action to contest the validity of a revocable trust may not be brought until the trust becomes irrevocable (usually at the settlor's death), and is subject to the limitation period in § 736.0604.",
+            "A no-contest clause in a trust is unenforceable."
+          ],
+          "tip": "Expect a revocable trust and a pour-over will challenged together on undue-influence grounds; the analysis (confidential relationship, active procurement) is the same for both.",
+          "authority": "Fla. Stat. §§ 736.0207, 736.0406, 736.0601, 736.0604, 736.1108; see Fla. Stat. § 733.107"
+        },
+        {
+          "id": "fl-trusts.creation.precatory-language",
+          "title": "Intent: precatory language",
+          "weight": 2,
+          "rule": "No particular words are needed, but the settlor must manifest an intent to impose enforceable duties on the transferee to hold property for another. Precatory words such as 'wish', 'hope' or 'request' ordinarily express only a nonbinding desire, so the transferee takes outright unless the instrument or circumstances show that an obligation was intended.",
+          "trap": "'I leave my house to my daughter, hoping she will let her brother live there' gives the daughter the house outright; it does not create a trust for the brother.",
+          "authority": "Fla. Stat. § 736.0402(1)(b)"
+        },
+        {
+          "id": "fl-trusts.creation.pour-over-funding",
+          "title": "Pour-over devises and unfunded trusts",
+          "weight": 2,
+          "rule": "A will may devise property to the trustee of a trust whose terms are set out in a written instrument executed before or concurrently with the will, and the devise is valid even though the trust is revocable or amendable, was amended after the will, or held no property during the settlor's life. The poured-over property is administered under the trust terms as amended before the testator's death.",
+          "exceptions": [
+            "If the trust is revoked or terminated before the testator's death, the pour-over devise lapses."
+          ],
+          "tip": "Pour-over property goes through probate first, so it is exposed to the probate creditor process and then passes to the trustee.",
+          "trap": "The trust instrument must exist when the will is signed or be signed at the same time; a will cannot pour over into a trust instrument the testator signs later.",
+          "authority": "Fla. Stat. § 732.513"
+        }
+      ]
+    },
+    {
+      "id": "fl-trusts.types",
+      "title": "Types of trusts",
+      "weight": 2,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Know the defining feature and the Florida statute for each kind of trust: charitable trusts and cy pres, animal and purpose trusts, spendthrift and discretionary trusts, and the trusts equity imposes (resulting and constructive). Florida land trusts are a local wrinkle that occasionally appears in real property crossover questions.",
+      "rules": [
+        {
+          "id": "fl-trusts.types.charitable-cy-pres",
+          "title": "Charitable trusts and cy pres",
+          "weight": 2,
+          "rule": "A charitable trust must be for a charitable purpose (such as relief of poverty, advancement of education or religion, promotion of health, or other purposes beneficial to the community); it needs no definite beneficiary and may last indefinitely. If a particular charitable purpose becomes unlawful, impracticable or impossible to achieve, the court may apply cy pres to modify or terminate the trust by directing the property to be used in a manner consistent with the settlor's charitable purposes.",
+          "exceptions": [
+            "A trust term providing that the property passes to a noncharitable beneficiary if the charitable purpose fails generally controls over cy pres.",
+            "The Attorney General may enforce a charitable trust administered in Florida, with the rights of a qualified beneficiary."
+          ],
+          "trap": "Cy pres redirects to a similar charitable use; it does not return the property to the settlor's heirs unless the trust itself provides a gift over.",
+          "authority": "Fla. Stat. §§ 736.0405, 736.0413, 736.0110"
+        },
+        {
+          "id": "fl-trusts.types.animal-and-purpose",
+          "title": "Trusts for animals and noncharitable purposes",
+          "weight": 1,
+          "rule": "A trust may be created to care for an animal alive during the settlor's lifetime; it ends when the animal (or the last of the covered animals) dies, and it may be enforced by a person named in the trust or, if none, by a person the court appoints. A trust for a noncharitable purpose without a definite beneficiary is also valid, but it may not be enforced for more than 21 years.",
+          "exceptions": [
+            "Property may be used only for the intended purpose; any excess the court finds unnecessary goes back to the settlor or the settlor's successors unless the trust provides otherwise."
+          ],
+          "split": "At common law these were 'honorary' trusts that the trustee could not be compelled to perform. Florida makes them enforceable.",
+          "authority": "Fla. Stat. §§ 736.0408, 736.0409"
+        },
+        {
+          "id": "fl-trusts.types.spendthrift",
+          "title": "Spendthrift provisions",
+          "weight": 3,
+          "rule": "A spendthrift provision is valid only if it restrains both voluntary and involuntary transfer of a beneficiary's interest; a term saying the interest is held subject to a 'spendthrift trust' is enough. While it is valid, the beneficiary cannot assign the interest and the beneficiary's creditors cannot reach it or any distribution until the beneficiary actually receives it.",
+          "exceptions": [
+            "Exception creditors (a child, spouse or former spouse with a support or alimony order; a creditor who provided services to protect the beneficiary's trust interest; certain state and federal claims) can reach distributions (see the creditors topic).",
+            "A spendthrift clause does not protect a settlor's own interest in a self-settled trust."
+          ],
+          "trap": "Once a distribution is paid to the beneficiary, the money is no longer protected; the clause shields only the interest while it remains in the trust.",
+          "authority": "Fla. Stat. §§ 736.0502, 736.0503, 736.0505"
+        },
+        {
+          "id": "fl-trusts.types.discretionary-support",
+          "title": "Discretionary and support trusts",
+          "weight": 2,
+          "rule": "In a discretionary trust the trustee decides whether and how much to distribute, whether or not the discretion is tied to a standard such as health, education, maintenance and support. Whether or not there is a spendthrift clause, a creditor of the beneficiary cannot compel a discretionary distribution or attach the beneficiary's expectancy in one.",
+          "exceptions": [
+            "The beneficiary personally may sue the trustee for abusing its discretion or failing to follow a distribution standard.",
+            "When a beneficiary is also trustee with power to distribute to himself limited by an ascertainable standard, creditors can reach the interest only to the extent they could if he were not trustee."
+          ],
+          "tip": "Courts review discretionary decisions for abuse of discretion (good faith, consistent with the trust's terms and purposes), even when the trust says the trustee's discretion is 'absolute' or 'sole'.",
+          "authority": "Fla. Stat. §§ 736.0504, 736.0814"
+        },
+        {
+          "id": "fl-trusts.types.resulting",
+          "title": "Resulting trusts",
+          "weight": 2,
+          "rule": "A resulting trust arises by operation of law to return property to the transferor (or the transferor's estate) when an express trust fails in whole or part, or when the trust purposes are fully performed with property left over. A purchase-money resulting trust arises when one person pays for property and title is taken in another's name, unless the circumstances show a gift.",
+          "exceptions": [
+            "When the payor is the titleholder's spouse or parent, the law presumes a gift, which defeats the resulting trust unless rebutted.",
+            "Florida courts require clear and convincing proof to establish a purchase-money resulting trust."
+          ],
+          "tip": "A semi-secret trust (the will says the devisee holds in trust but does not name the beneficiary) is the classic failed express trust, so under the traditional rule the property returns to the testator's estate by resulting trust. No Florida statute addresses secret or semi-secret trusts.",
+          "authority": "Florida common law; Fla. Stat. § 689.05"
+        },
+        {
+          "id": "fl-trusts.types.constructive",
+          "title": "Constructive trusts",
+          "weight": 2,
+          "rule": "A constructive trust is an equitable remedy, not a true trust, imposed to prevent unjust enrichment when a person obtains property by fraud, abuse of a confidential relationship, or other wrongful conduct. Florida courts commonly look for a promise, a transfer in reliance on it, a confidential relationship and unjust enrichment, and require clear and convincing evidence.",
+          "elements": [
+            "Promise, express or implied",
+            "Transfer of property in reliance on the promise",
+            "Confidential relationship",
+            "Unjust enrichment"
+          ],
+          "tip": "A fully secret trust (a devisee who takes outright on the face of the will but secretly agreed to hold for someone else) is enforced by imposing a constructive trust for the intended beneficiary under the traditional rule; a slayer's property interests and a fiduciary's misappropriated property are also typical targets.",
+          "trap": "The writing requirement for trusts of land does not bar a constructive trust, because it arises by operation of law.",
+          "authority": "Florida common law; Fla. Stat. §§ 689.05, 736.1001(2)"
+        },
+        {
+          "id": "fl-trusts.types.land-trust",
+          "title": "Florida land trusts",
+          "weight": 1,
+          "rule": "In a Florida land trust, a recorded deed conveys real property to a trustee with full power to deal with it, while a separate unrecorded trust agreement names the beneficiaries. Persons dealing with the trustee may rely on the recorded powers without inquiring into the trust agreement, and the beneficiaries' interests are treated as personal property.",
+          "tip": "Land trusts are used for privacy and ease of transfer; the beneficial interest can be assigned without a new deed.",
+          "authority": "Fla. Stat. §§ 689.071, 689.073"
+        }
+      ]
+    },
+    {
+      "id": "fl-trusts.trustee-duties",
+      "title": "Trustee powers and duties",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Trustee-duty questions ask you to name the duty, show how the facts breach it, and choose the remedy. Loyalty (self-dealing), prudent investment and diversification under chapter 518, and the duty to inform and account under § 736.0813 come up most; finish with damages, exculpation and the 6-month limitation period after a trust disclosure document.",
+      "rules": [
+        {
+          "id": "fl-trusts.trustee-duties.loyalty",
+          "title": "Duty of loyalty and self-dealing",
+          "weight": 3,
+          "rule": "A trustee must administer the trust solely in the interests of the beneficiaries. A transaction involving trust property that the trustee enters into for the trustee's own account, or that is otherwise affected by a conflict between the trustee's fiduciary and personal interests, is voidable by an affected beneficiary without regard to its fairness, unless an exception applies.",
+          "exceptions": [
+            "The trust terms authorized the transaction.",
+            "The court approved it.",
+            "The beneficiary consented, ratified or released the trustee after full disclosure, or failed to sue within the limitations period.",
+            "The settlor consented in writing while the trust was revocable.",
+            "It involves a contract or claim the trustee acquired before becoming or contemplating becoming trustee."
+          ],
+          "tip": "Transactions with the trustee's spouse, descendants, siblings, parents or their spouses, the trustee's agents or attorney, or an entity in which the trustee has an interest affecting judgment are presumed to be conflicted.",
+          "trap": "'The trustee paid full market value' is not a defense to self-dealing. The no-further-inquiry rule makes the transaction voidable regardless of fairness or good faith.",
+          "authority": "Fla. Stat. § 736.0802"
+        },
+        {
+          "id": "fl-trusts.trustee-duties.prudent-investor",
+          "title": "Prudent investor rule and diversification",
+          "weight": 3,
+          "rule": "A trustee must invest and manage trust assets as a prudent investor would, considering the purposes, terms, distribution requirements and other circumstances of the trust, judging each investment as part of the whole portfolio and an overall strategy with suitable risk and return objectives. The trustee must diversify unless it reasonably believes that not diversifying is in the beneficiaries' interests and furthers the trust's purposes.",
+          "exceptions": [
+            "The trust terms may expand or restrict the duty (for example, by authorizing retention of a family business), and a trustee who follows those terms in good faith is protected.",
+            "A trustee with special skills, or appointed because it claimed them, must use those skills."
+          ],
+          "trap": "Prudence is judged by conduct at the time of the decision, not by hindsight; a loss alone does not prove a breach, and a single risky asset is not imprudent per se if the portfolio as a whole is sound.",
+          "tip": "Holding a large concentration of one stock inherited from the settlor is the classic diversification problem; look for an express retention clause before concluding there is a breach.",
+          "authority": "Fla. Stat. §§ 518.11, 736.0806, 736.0901"
+        },
+        {
+          "id": "fl-trusts.trustee-duties.impartiality-income",
+          "title": "Impartiality and principal and income",
+          "weight": 2,
+          "rule": "When a trust has two or more beneficiaries, the trustee must act impartially in investing, managing and distributing the property, giving due regard to their respective interests (for example, an income beneficiary and a remainderman). Allocation of receipts and expenses between income and principal is governed by the trust terms and, failing that, by Florida's principal and income statute in chapter 738.",
+          "elements": [
+            "Ordinarily income: interest, cash dividends, rents",
+            "Ordinarily principal: proceeds from sale of trust assets and capital gains, stock splits and stock dividends",
+            "Ordinary expenses (routine repairs, current taxes, interest) are generally charged to income; capital improvements and principal payments on debt to principal"
+          ],
+          "trap": "Investing everything in high-yield bonds may please the income beneficiary but can breach the duty of impartiality to the remainderman, just as an all-growth, no-yield portfolio can shortchange the income beneficiary.",
+          "authority": "Fla. Stat. § 736.0803; Fla. Stat. ch. 738"
+        },
+        {
+          "id": "fl-trusts.trustee-duties.inform-and-account",
+          "title": "Duty to inform and account",
+          "weight": 3,
+          "rule": "A trustee must keep the qualified beneficiaries reasonably informed. Within 60 days after accepting the trust the trustee must notify them of the acceptance and the trustee's contact information; within 60 days after learning that a trust is irrevocable (or that a revocable trust has become irrevocable) it must notify them of the trust's existence, the settlor's identity, and their rights to request a copy of the trust instrument and to receive accountings; and it must provide a trust accounting at least annually, at termination and on a change of trustee.",
+          "exceptions": [
+            "While a trust is revocable, the trustee's duties are owed exclusively to the settlor, so the trustee owes no information to the other beneficiaries."
+          ],
+          "tip": "A 'qualified beneficiary' is a living beneficiary who is a current distributee, would be a distributee if the current interests ended, or would take if the trust terminated.",
+          "trap": "A trustee who refuses a remainder beneficiary's request for a copy of an irrevocable trust because she 'only has a future interest' is breaching § 736.0813; first-line remaindermen are qualified beneficiaries.",
+          "authority": "Fla. Stat. §§ 736.0103, 736.0603, 736.0813"
+        },
+        {
+          "id": "fl-trusts.trustee-duties.delegation-cotrustees",
+          "title": "Delegation and cotrustees",
+          "weight": 2,
+          "rule": "A trustee may delegate duties and powers that a prudent trustee of comparable skills could properly delegate, but must use reasonable care, skill and caution in selecting the agent, setting the scope and terms of the delegation, and periodically monitoring the agent; a trustee who does so is not liable for the agent's acts. Cotrustees who cannot agree unanimously may act by majority, and each cotrustee must use reasonable care to prevent a cotrustee from committing a serious breach and to compel a cotrustee to redress one.",
+          "trap": "A cotrustee cannot escape liability by leaving everything to the other trustee; passive acquiescence in a known serious breach is itself a breach.",
+          "authority": "Fla. Stat. §§ 736.0703, 736.0807"
+        },
+        {
+          "id": "fl-trusts.trustee-duties.removal-resignation",
+          "title": "Resignation and removal of a trustee",
+          "weight": 2,
+          "rule": "A trustee may resign on at least 30 days' notice to the qualified beneficiaries, the settlor if living, and all cotrustees, or with court approval. On petition of the settlor, a cotrustee or a beneficiary, or on its own initiative, the court may remove a trustee for a serious breach of trust, cotrustee lack of cooperation that substantially impairs administration, unfitness, unwillingness or persistent failure to administer effectively, or a substantial change of circumstances or a request by all qualified beneficiaries, if removal best serves all beneficiaries, is not inconsistent with a material purpose, and a suitable successor is available.",
+          "trap": "Beneficiaries cannot fire a trustee just because they dislike its fees or style; under the fourth ground all qualified beneficiaries must join (or circumstances must have substantially changed), and the court must still make the best-interests and material-purpose findings.",
+          "authority": "Fla. Stat. §§ 736.0705, 736.0706"
+        },
+        {
+          "id": "fl-trusts.trustee-duties.compensation",
+          "title": "Trustee compensation",
+          "weight": 1,
+          "rule": "If the trust terms do not set the trustee's compensation, the trustee is entitled to compensation that is reasonable under the circumstances. If the terms do set it, the trustee receives the specified compensation, but the court may allow more or less if the trustee's duties are substantially different from those contemplated when the trust was created or the specified compensation is unreasonably low or high.",
+          "tip": "Reducing or denying compensation is also a remedy for breach of trust.",
+          "authority": "Fla. Stat. §§ 736.0708, 736.1001"
+        },
+        {
+          "id": "fl-trusts.trustee-duties.breach-remedies",
+          "title": "Remedies for breach, exculpation and limitations",
+          "weight": 3,
+          "rule": "For a breach of trust the court may compel performance, enjoin the trustee, order an accounting, compel redress by payment or restoration of property, appoint a special fiduciary, suspend or remove the trustee, reduce or deny compensation, void the trustee's act, impose a lien or constructive trust, and trace wrongfully disposed property. The trustee is liable for the greater of the amount needed to restore the trust and distributions to where they would have been without the breach (including lost income and appreciation) or the profit the trustee made from the breach.",
+          "exceptions": [
+            "An exculpatory clause is unenforceable to the extent it relieves the trustee of liability for bad faith or reckless indifference to the trust's purposes or the beneficiaries' interests, or was inserted through abuse of a fiduciary or confidential relationship; a clause the trustee drafted or caused to be drafted is presumed abusive unless the trustee proves it is fair and was adequately communicated to the settlor.",
+            "A beneficiary who consented to, ratified or released the conduct with knowledge of the material facts cannot hold the trustee liable.",
+            "A beneficiary who receives a trust disclosure document adequately disclosing a potential claim, together with a limitation notice, generally must sue within 6 months after receiving them; otherwise chapter 95's limitation periods apply."
+          ],
+          "tip": "On damages, compute both measures and award the larger: restoration damages (what the trust would have had) versus the trustee's profit.",
+          "authority": "Fla. Stat. §§ 736.1001, 736.1002, 736.1008, 736.1011, 736.1012"
+        }
+      ]
+    },
+    {
+      "id": "fl-trusts.modification-and-creditors",
+      "title": "Modification, termination and creditors' rights",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida presumes a trust is revocable unless it says otherwise, and gives courts and trustees several statutory tools to change irrevocable trusts, including decanting. On the creditor side, distinguish the settlor's creditors (revocable and self-settled trusts) from a beneficiary's creditors (spendthrift and discretionary protection, and the exception creditors who can get around it).",
+      "rules": [
+        {
+          "id": "fl-trusts.modification-and-creditors.revocation",
+          "title": "Revocability presumption and how to revoke or amend",
+          "weight": 3,
+          "rule": "Unless the terms of a trust expressly provide that it is irrevocable, the settlor may revoke or amend it; this presumption applies to trusts created under instruments executed on or after the Florida Trust Code's 2007 effective date. The settlor revokes or amends by substantially complying with a method stated in the trust or, if the trust states none, by a later will or codicil that expressly refers to the trust or specifically devises property that would otherwise pass under it, or by another writing signed by the settlor showing that intent.",
+          "exceptions": [
+            "An amendment that changes the testamentary aspects of a Florida settlor's revocable trust must be executed with will formalities.",
+            "A provision for the settlor's spouse becomes void upon divorce or annulment, unless the trust or judgment provides otherwise, and the trust is administered as if the former spouse died at that time."
+          ],
+          "split": "Under the common-law rule still followed in some states, a trust is irrevocable unless the instrument reserves a power to revoke. Florida, following the UTC, reverses the presumption.",
+          "trap": "A residuary clause leaving 'all my property' to someone else does not revoke a revocable trust; a will revokes or amends a trust only if it expressly refers to the trust or specifically devises the trust property, and only when the trust does not supply an exclusive method.",
+          "authority": "Fla. Stat. §§ 736.0602, 736.0403(2), 736.1105"
+        },
+        {
+          "id": "fl-trusts.modification-and-creditors.settlor-control",
+          "title": "Settlor's control while the trust is revocable",
+          "weight": 2,
+          "rule": "While a trust is revocable, the rights of the beneficiaries are subject to the settlor's control, and the trustee's duties are owed exclusively to the settlor. The beneficiaries cannot demand information or challenge the trustee's actions that the settlor directed or approved during that period.",
+          "tip": "Remainder beneficiaries' rights to information and to enforce the trust begin when it becomes irrevocable, usually at the settlor's death; date the breach analysis accordingly.",
+          "trap": "A remainder beneficiary cannot sue the trustee of a living settlor's revocable trust for making gifts the settlor directed.",
+          "authority": "Fla. Stat. § 736.0603"
+        },
+        {
+          "id": "fl-trusts.modification-and-creditors.judicial-modification",
+          "title": "Judicial modification of an irrevocable trust",
+          "weight": 2,
+          "rule": "On application of the trustee or any qualified beneficiary, a court may modify an irrevocable trust (including changing distribution terms or terminating it) if the trust's purposes have been fulfilled or have become illegal, impossible, wasteful or impracticable; if, because of circumstances the settlor did not anticipate, compliance would defeat or substantially impair a material purpose; or if a material purpose no longer exists. A court may also modify an irrevocable trust when compliance with its terms is not in the best interests of the beneficiaries, after considering the settlor's intent.",
+          "exceptions": [
+            "A spendthrift clause or a term prohibiting amendment does not by itself prevent modification under these sections."
+          ],
+          "tip": "Unanticipated-circumstances facts (a beneficiary's disability, a changed tax law, an asset that can no longer be managed as directed) point to § 736.04113.",
+          "authority": "Fla. Stat. §§ 736.04113, 736.04115"
+        },
+        {
+          "id": "fl-trusts.modification-and-creditors.other-modification-tools",
+          "title": "Nonjudicial modification, uneconomic trusts and reformation",
+          "weight": 2,
+          "rule": "After the settlor's death, the trustee and all qualified beneficiaries may by unanimous agreement modify an irrevocable trust without going to court, subject to statutory exclusions. A trustee may terminate a trust worth less than $50,000 after notice to the qualified beneficiaries if the value no longer justifies the cost of administration, and a court may modify or terminate an uneconomic trust of any size. A court may reform a trust, even an unambiguous one, to correct a mistake of fact or law in expression or inducement proved by clear and convincing evidence, and may modify it to achieve the settlor's tax objectives.",
+          "split": "Under the UTC and the common-law Claflin doctrine, the focus is on whether all beneficiaries consent and whether termination would defeat a material purpose. On the Florida exam, analyze modification under Florida's specific statutes (§§ 736.0412, 736.04113, 736.04115) rather than the UTC consent provision.",
+          "authority": "Fla. Stat. §§ 736.0412, 736.0414, 736.0415, 736.0416"
+        },
+        {
+          "id": "fl-trusts.modification-and-creditors.decanting",
+          "title": "Decanting",
+          "weight": 2,
+          "rule": "Unless the trust instrument provides otherwise, a trustee who has power to invade principal for a beneficiary may instead exercise it by appointing principal to a second trust for the same beneficiaries. The broadest decanting is allowed when the trustee's invasion power is absolute (not limited to an ascertainable standard such as health, education, maintenance and support); a trustee whose power is limited by such a standard may decant only into a trust with substantially similar beneficial interests.",
+          "exceptions": [
+            "The second trust may not add new beneficiaries or reduce vested or fixed income, annuity or unitrust interests.",
+            "The trustee must give the qualified beneficiaries written notice at least 60 days before the decanting takes effect."
+          ],
+          "tip": "Decanting is a trustee's tool that needs no court order; contrast it with judicial modification, which the trustee or a beneficiary must petition for.",
+          "authority": "Fla. Stat. § 736.04117"
+        },
+        {
+          "id": "fl-trusts.modification-and-creditors.settlor-creditors",
+          "title": "Creditors of the settlor; self-settled trusts",
+          "weight": 3,
+          "rule": "During the settlor's life, property of a revocable trust is subject to the claims of the settlor's creditors to the extent it would not be exempt if the settlor owned it directly. For an irrevocable trust, a creditor of the settlor may reach the maximum amount the trustee could distribute to or for the settlor's benefit, regardless of any spendthrift clause.",
+          "exceptions": [
+            "A trustee's discretionary power to pay or reimburse the settlor's income tax on trust income does not by itself expose the trust to the settlor's creditors."
+          ],
+          "split": "A number of states authorize domestic asset protection trusts that shield a self-settled discretionary interest from the settlor's creditors. Florida does not: a settlor cannot use a spendthrift or discretionary trust for his own benefit to defeat his own creditors.",
+          "trap": "A settlor who transfers assets to an irrevocable trust naming herself as discretionary beneficiary still has creditors who can reach everything the trustee could distribute to her.",
+          "authority": "Fla. Stat. § 736.0505"
+        },
+        {
+          "id": "fl-trusts.modification-and-creditors.exception-creditors",
+          "title": "Exception creditors of a beneficiary",
+          "weight": 3,
+          "rule": "A spendthrift provision is unenforceable against the beneficiary's child, spouse or former spouse holding a judgment or order for support or maintenance (including alimony), a judgment creditor who provided services to protect the beneficiary's interest in the trust, and claims of the State or the United States to the extent a statute so provides. Such a claimant may obtain a court order attaching present or future distributions to or for the beneficiary, but support and service claimants may use this remedy only as a last resort, after showing that traditional enforcement methods are insufficient.",
+          "exceptions": [
+            "Even an exception creditor cannot compel the trustee to make a discretionary distribution; it can attach distributions only when the trustee decides to make them."
+          ],
+          "split": "UTC § 504 allows a child or spouse with a support order to compel a distribution when the trustee has abused its discretion or failed to follow a standard. Florida's statute does not allow any creditor, including a support claimant, to compel a discretionary distribution.",
+          "trap": "An ordinary tort or contract judgment creditor is not an exception creditor and cannot reach a beneficiary's interest in a spendthrift trust at all.",
+          "authority": "Fla. Stat. §§ 736.0503, 736.0504"
+        },
+        {
+          "id": "fl-trusts.modification-and-creditors.settlor-death",
+          "title": "Revocable trust after the settlor's death: claims and notice of trust",
+          "weight": 2,
+          "rule": "After the settlor dies, a trust the settlor could revoke at death is liable for the expenses of administering the settlor's estate and the enforceable claims of the settlor's creditors to the extent the probate estate is insufficient; the personal representative may require the trustee to pay the shortfall. The trustee must file a notice of trust with the court of the county of the settlor's domicile and the court having jurisdiction of the settlor's estate.",
+          "tip": "Creditors' claims against the trust are still governed by the probate claims process (timely filing in the estate, the 2-year bar); a creditor who is barred in probate cannot proceed against the trust instead.",
+          "trap": "A revocable trust does not shield assets from the settlor's creditors at death; only property that would be exempt (such as protected homestead) stays out of reach.",
+          "authority": "Fla. Stat. §§ 733.707(3), 736.05053, 736.05055"
+        }
+      ]
+    }
+  ]
+}

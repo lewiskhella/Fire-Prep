@@ -1,0 +1,266 @@
+{
+  "subject": "fl-ucc",
+  "essays": [
+    {
+      "id": "fl-ucc.e01",
+      "title": "Refrigerators, a Yard Sale and a Forklift",
+      "minutes": 60,
+      "topics": [
+        "fl-ucc.attachment-and-perfection",
+        "fl-ucc.priority-and-default"
+      ],
+      "facts": [
+        "Sandpiper Appliances, Inc. is a Florida corporation that sells household appliances from a store in Sarasota. In 2022 Coastal Bank loaned Sandpiper $400,000. Sandpiper's president signed a security agreement granting Coastal a security interest in 'all inventory and equipment, now owned or hereafter acquired, and all proceeds.' Coastal promptly filed a financing statement with the Florida Secured Transaction Registry naming 'Sandpiper Appliances, Inc.' as debtor and describing the collateral as 'all assets of the debtor.'",
+        "In March 2025 Frost Manufacturing sold Sandpiper 40 refrigerators on credit. Sandpiper signed a security agreement giving Frost a security interest in the refrigerators to secure their price. Frost filed a proper financing statement with the Registry the day before the refrigerators were delivered, but it never sent any notice to Coastal.",
+        "In April 2025 Sandpiper sold one of the Frost refrigerators to Hal for his kitchen under a signed installment contract that retained a security interest in the refrigerator to secure the price. Neither Sandpiper nor anyone else filed a financing statement covering Hal's refrigerator. In June, Hal moved and sold the refrigerator at a yard sale for $600 to his neighbor Ivy, who knew nothing about Sandpiper's or anyone else's interest and installed it in her own kitchen. Hal has since stopped making payments.",
+        "In September 2025 Sandpiper defaulted on both the Coastal loan, then $90,000, and the Frost debt. At 3 a.m., a repossession agent hired by Coastal drove through the open gate of Sandpiper's fenced storage yard, where no one was present, and towed away Sandpiper's forklift. When the store manager arrived that morning she called Coastal to object. Coastal sent Sandpiper a written notification on October 1 that the forklift would be sold by private sale after October 13; on October 15 it sold the forklift to an equipment dealer for $18,000, after advertising it and soliciting bids from three dealers. Comparable used forklifts sell for $20,000 to $26,000. Coastal's repossession and sale expenses were $2,000."
+      ],
+      "calls": [
+        "Does Coastal have an enforceable and perfected security interest in Sandpiper's inventory and equipment, including the refrigerators bought from Frost?",
+        "As between Coastal and Frost, who has priority in the 39 refrigerators still in Sandpiper's store?",
+        "Can Sandpiper or Coastal recover Hal's refrigerator from Ivy?",
+        "Was Coastal's repossession and sale of the forklift proper, and what can Coastal recover from Sandpiper?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Attachment and perfection of Coastal's interest",
+          "rules": [
+            "fl-ucc.attachment-and-perfection.attachment",
+            "fl-ucc.attachment-and-perfection.after-acquired-and-future-advances",
+            "fl-ucc.attachment-and-perfection.filing-in-florida",
+            "fl-ucc.attachment-and-perfection.choice-of-law-and-relocation"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Attachment: value (the loan), debtor's rights in the collateral, authenticated security agreement describing the collateral by UCC type ('inventory and equipment')",
+            "After-acquired clause reaches the Frost refrigerators when Sandpiper acquired rights in them; consumer-goods limit does not apply to inventory",
+            "The financing statement may use 'all assets'; that supergeneric description would be insufficient only in the security agreement",
+            "Sandpiper is a Florida registered organization, so Florida law governs and filing with the Florida Secured Transaction Registry is the correct place"
+          ],
+          "conclusion": "Yes; Coastal's security interest attached to the inventory and equipment, including the refrigerators as Sandpiper acquired them, and it was perfected by filing in the correct office."
+        },
+        {
+          "id": "i2",
+          "call": 2,
+          "label": "Inventory PMSI priority versus earlier filer",
+          "rules": [
+            "fl-ucc.priority-and-default.pmsi-priority",
+            "fl-ucc.priority-and-default.first-to-file-or-perfect"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Frost holds a PMSI (seller retained a security interest for the price) perfected when Sandpiper received possession",
+            "An inventory PMSI has priority only if the secured party also sends an authenticated notification to earlier filers before the debtor receives possession",
+            "Frost never notified Coastal, so it does not get purchase-money priority",
+            "Default first-to-file-or-perfect rule: Coastal filed in 2022 and wins"
+          ],
+          "conclusion": "Coastal has priority in the 39 refrigerators because Frost failed to give the advance notice an inventory PMSI requires."
+        },
+        {
+          "id": "i3",
+          "call": 3,
+          "label": "Buyers in ordinary course and consumer-to-consumer buyers",
+          "rules": [
+            "fl-ucc.priority-and-default.buyers",
+            "fl-ucc.attachment-and-perfection.methods-of-perfection",
+            "fl-ucc.attachment-and-perfection.proceeds"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Hal bought from a dealer in the ordinary course, so he took free of Coastal's (and Frost's) interests created by Sandpiper, even though they were perfected; their interests continue in the proceeds, including Hal's installment contract",
+            "Sandpiper's own interest in the refrigerator is a PMSI in consumer goods, automatically perfected on attachment without filing",
+            "Ivy is a consumer buyer from a consumer seller: she bought without knowledge, for value, for household use, before any financing statement was filed",
+            "Ivy therefore takes free of Sandpiper's automatically perfected PMSI; Sandpiper's remedy is against Hal for the unpaid price"
+          ],
+          "conclusion": "No; Ivy keeps the refrigerator free of all security interests, and Sandpiper must pursue Hal on the installment contract."
+        },
+        {
+          "id": "i4",
+          "call": 4,
+          "label": "Self-help repossession, disposition and deficiency",
+          "rules": [
+            "fl-ucc.priority-and-default.repossession",
+            "fl-ucc.priority-and-default.disposition-and-deficiency"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Self-help repossession is allowed after default if done without breach of the peace; the secured party is responsible for its agent",
+            "Entering an open, unoccupied commercial yard without force or confrontation is generally not a breach of the peace; an objection after the fact does not undo a completed peaceful repossession",
+            "Every aspect of the disposition must be commercially reasonable; notice sent 12 days before the earliest sale date is reasonable in a non-consumer transaction (10-day safe harbor)",
+            "A price below the market range does not by itself make a sale commercially unreasonable; advertising and soliciting dealer bids support reasonableness",
+            "Proceeds go first to expenses, then the debt: $18,000 - $2,000 = $16,000 applied, leaving a $74,000 deficiency for which Sandpiper is liable"
+          ],
+          "conclusion": "The repossession and sale appear proper, so Coastal may recover a $74,000 deficiency (plus any recoverable fees under the agreement), subject to Sandpiper proving commercial unreasonableness."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Attachment. A security interest attaches when value is given, the debtor has rights in the collateral, and the debtor has authenticated a security agreement that reasonably identifies the collateral (§ 679.2031). Coastal gave value by making the $400,000 loan. Sandpiper owned its inventory and equipment, and its president signed a security agreement describing the collateral by UCC type, 'inventory and equipment,' which is a sufficient description. The after-acquired property clause is valid for inventory and equipment, because the limit on after-acquired consumer goods does not apply here. Coastal's interest therefore attached to each Frost refrigerator when Sandpiper acquired rights in it on delivery.",
+            "Perfection. Perfection of a nonpossessory interest in goods is governed by the law of the debtor's location. Sandpiper is a Florida corporation, a registered organization, so it is located in Florida. In Florida most financing statements are filed with the Florida Secured Transaction Registry. Coastal's financing statement gives the debtor's exact registered name, names the secured party, and indicates the collateral as 'all assets,' which is permitted in a financing statement even though it would not be a sufficient description in the security agreement itself. Coastal has a perfected security interest in all of Sandpiper's inventory and equipment, including after-acquired items, from its 2022 filing."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Frost retained a security interest in the refrigerators to secure their price, so it holds a purchase-money security interest, perfected by its filing the day before delivery. Because the refrigerators are Sandpiper's inventory, Frost is entitled to purchase-money priority over an earlier-filed inventory lender only if its interest was perfected when Sandpiper received possession and it also sent an authenticated notification describing the inventory to each earlier filer, such as Coastal, which that filer received before Sandpiper received possession (UCC § 9-324(b)). Frost met the perfection requirement but sent no notice.",
+            "Without purchase-money priority, the general first-to-file-or-perfect rule applies. Coastal filed in 2022 and has been continuously perfected, while Frost filed in 2025. Coastal therefore has priority in the 39 refrigerators. Frost's interest is a junior perfected interest; it is entitled to any surplus from Coastal's disposition and may demand notice of it."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Coastal's and Frost's interests. A buyer in ordinary course of business takes free of a security interest created by the buyer's seller, even if the interest is perfected and the buyer knows of it. Hal bought a refrigerator from an appliance dealer, in good faith, in the ordinary course of its business, with no reason to know the sale violated anyone's rights. He took free of Coastal's and Frost's interests, which were created by Sandpiper. Those creditors are protected instead by their interests in the proceeds, including the installment contract Hal signed.",
+            "Sandpiper's own interest. Sandpiper retained a security interest in the refrigerator to secure its price, a purchase-money interest. The refrigerator was a consumer good in Hal's hands because he bought it for household use. A PMSI in consumer goods is perfected automatically when it attaches, so Sandpiper's interest was perfected against Hal's creditors without filing. Automatic perfection has a gap, however. A buyer of consumer goods from a consumer seller takes free of a perfected security interest if she buys without knowledge of it, for value, primarily for personal, family or household use, and before a financing statement covering the goods is filed (UCC § 9-320(b)). Ivy bought at a yard sale for $600 with no knowledge of any interest, installed the refrigerator in her own kitchen, and no financing statement had ever been filed. She takes free of Sandpiper's interest. Neither Sandpiper nor Coastal can recover the refrigerator from Ivy, and Sandpiper's remedy is to sue Hal for the unpaid price."
+          ]
+        },
+        {
+          "call": 4,
+          "text": [
+            "Repossession. After default a secured party may take possession of the collateral without judicial process if it does so without breach of the peace, and it is responsible for the conduct of an agent it hires. Courts look for confrontation, force, or entry into a closed or locked residence or building. Coastal's agent drove through an open gate into a commercial yard at night, with no one present, no lock broken and no confrontation. That is generally a peaceful repossession. The manager's objection came only after the repossession was complete, so it does not turn the repossession into a breach of the peace.",
+            "Disposition. Every aspect of a disposition must be commercially reasonable, and the secured party must send a reasonable authenticated notification of a private disposition stating the time after which it will occur. In a non-consumer transaction, notice sent 10 days or more before the earliest disposition date is reasonable, and Coastal sent its notice 12 days before. Coastal advertised the forklift and solicited bids from three dealers. The $18,000 price is somewhat below the $20,000 to $26,000 range, but a lower price alone does not make a disposition commercially unreasonable. It only invites closer scrutiny of the procedure, and the procedure here appears sound. If Sandpiper proved the sale unreasonable, Coastal's deficiency would be reduced under the rebuttable-presumption rule unless Coastal proved that a proper sale would have brought no more.",
+            "Deficiency. Proceeds are applied first to reasonable expenses of repossession and sale ($2,000) and then to the secured debt. The remaining $16,000 reduces the $90,000 debt, leaving a $74,000 deficiency for which Sandpiper is liable, plus attorney's fees if the security agreement provides for them. Because Coastal still holds a prior perfected interest in the 39 refrigerators, it may also dispose of them and apply those proceeds to the deficiency."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-ucc.e02",
+      "title": "The Unfinished Kitchen",
+      "minutes": 60,
+      "topics": [
+        "fl-ucc.negotiable-instruments",
+        "fl-ucc.holder-in-due-course",
+        "fl-ucc.liability-of-parties"
+      ],
+      "facts": [
+        "Mango Grill, LLC, a Florida LLC that operates a restaurant in Fort Myers, hired Reef Builders, Inc. to renovate its kitchen for $60,000. Mango paid by signing a writing that read in full: 'Fort Myers, Florida, January 10, 2026. On December 1, 2026, Mango Grill, LLC promises to pay to the order of Reef Builders, Inc. Sixty Thousand Dollars ($60,000), with interest at the prime rate published by Bay National Bank plus 2 percent. This note is secured by a security agreement of even date. If any payment is not made when due, the holder may declare the entire balance immediately due. [signed] Mango Grill, LLC, by Teresa Ruiz, Manager.'",
+        "Reef insisted on additional security, so before the note was delivered Teresa's brother Andres, who has no ownership interest in Mango, signed his name on the back of the note. Andres received nothing for signing.",
+        "By early March 2026 Reef had stopped work with the kitchen half finished and had told Mango it would not return. On March 20, Reef indorsed the note 'Pay to Bayline Capital, without recourse, Reef Builders, Inc., by Carl Shaw, President,' and sold it to Bayline Capital for $52,000 in cash. Bayline's officer had heard that Reef was 'behind on a few jobs,' but knew nothing about the Mango project and saw nothing irregular on the face of the note.",
+        "Mango refused to pay on December 1, 2026, because of Reef's abandonment of the job. Bayline sent written notice of the nonpayment to Andres and Reef on December 10 and sued Mango, Teresa, Andres and Reef."
+      ],
+      "calls": [
+        "Is the writing a negotiable instrument?",
+        "Can Bayline enforce the note against Mango Grill, LLC free of Mango's defense that Reef abandoned the work?",
+        "Are Teresa, Andres and Reef each liable to Bayline, and on what basis?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Negotiability of the note",
+          "rules": [
+            "fl-ucc.negotiable-instruments.requirements",
+            "fl-ucc.negotiable-instruments.unconditional-and-definite-time"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Unconditional promise to pay a fixed amount of money, payable to order, at a definite time, with no other undertaking",
+            "A variable interest rate tied to a published prime rate does not defeat the fixed-amount requirement",
+            "A statement that the note is secured by a security agreement is a permitted reference to collateral, unlike 'subject to' language",
+            "An acceleration clause does not defeat payment at a definite time"
+          ],
+          "conclusion": "Yes; the note satisfies § 673.1041 and is a negotiable instrument."
+        },
+        {
+          "id": "i2",
+          "call": 2,
+          "label": "Holder in due course and personal defenses",
+          "rules": [
+            "fl-ucc.negotiable-instruments.negotiation-and-indorsement",
+            "fl-ucc.holder-in-due-course.requirements",
+            "fl-ucc.holder-in-due-course.value",
+            "fl-ucc.holder-in-due-course.notice-and-overdue",
+            "fl-ucc.holder-in-due-course.personal-defenses-and-claims",
+            "fl-ucc.holder-in-due-course.consumer-notes"
+          ],
+          "points": 5,
+          "mustSay": [
+            "Reef's special indorsement plus delivery negotiated the note, so Bayline is a holder",
+            "Value: Bayline paid $52,000 in cash; a discount alone is not notice or bad faith",
+            "Good faith and no notice: general rumors that Reef was behind on other jobs are not notice of a defense to this note; the note was not overdue and showed no irregularity",
+            "Reef's nonperformance (failure of consideration or breach of contract) is a personal defense, cut off by a holder in due course",
+            "The FTC holder rule does not apply because this is a commercial, not a consumer, transaction; Mango's remedy is against Reef"
+          ],
+          "conclusion": "Yes; Bayline is a holder in due course and takes free of Mango's personal defense, so Mango must pay and pursue Reef."
+        },
+        {
+          "id": "i3",
+          "call": 3,
+          "label": "Representative signer",
+          "rules": [
+            "fl-ucc.liability-of-parties.signatures-and-representatives"
+          ],
+          "points": 2,
+          "mustSay": [
+            "Teresa signed with authority, 'Mango Grill, LLC, by Teresa Ruiz, Manager,' unambiguously showing a representative signature for an identified principal",
+            "A representative who so signs is not liable on the instrument; as an LLC manager she also is not liable for the LLC's debts solely because of her role"
+          ],
+          "conclusion": "Teresa is not liable."
+        },
+        {
+          "id": "i4",
+          "call": 3,
+          "label": "Accommodation indorser",
+          "rules": [
+            "fl-ucc.liability-of-parties.accommodation-parties",
+            "fl-ucc.liability-of-parties.indorsers-and-dishonor"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Andres signed to lend his credit and received none of the value; his anomalous indorsement outside the chain of title marks him as an accommodation party",
+            "He is liable in the capacity in which he signed, as an indorser, even to a holder who knew of the accommodation",
+            "Indorser liability requires dishonor and timely notice of dishonor; nonpayment on December 1 was dishonor and written notice on December 10 was within 30 days",
+            "No suretyship discharge applies; if Andres pays he may recover from Mango"
+          ],
+          "conclusion": "Andres is liable as an accommodation indorser, with a right of reimbursement against Mango."
+        },
+        {
+          "id": "i5",
+          "call": 3,
+          "label": "Qualified indorser and transfer warranties",
+          "rules": [
+            "fl-ucc.negotiable-instruments.negotiation-and-indorsement",
+            "fl-ucc.liability-of-parties.warranties"
+          ],
+          "points": 3,
+          "mustSay": [
+            "'Without recourse' is a qualified indorsement that disclaims Reef's obligation to pay on dishonor",
+            "A transferor for consideration still makes transfer warranties, including that the instrument is not subject to a defense of any party that can be asserted against the warrantor",
+            "Mango's abandonment defense existed when Reef transferred the note and could be asserted against Reef, so Reef breached that warranty",
+            "'Without recourse' alone does not disclaim warranties; Bayline may recover its loss from the breach, capped at the amount of the instrument plus expenses and lost interest, though it would ordinarily collect from Mango"
+          ],
+          "conclusion": "Reef has no indorser liability but is liable to Bayline for breach of transfer warranty."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Under § 673.1041, a negotiable instrument is an unconditional promise or order to pay a fixed amount of money, with or without interest, that is payable to bearer or to order, payable on demand or at a definite time, and that does not state any other undertaking except those Article 3 allows. Mango's writing is a promise to pay 'to the order of' Reef, so it is order paper. It states a fixed principal of $60,000 in money. Interest may be stated as a variable rate measured by information outside the instrument, so tying it to Bay National Bank's published prime rate is permissible (§ 673.1121).",
+            "The promise is unconditional. A statement that the note 'is secured by a security agreement' is a permitted reference to collateral; only language making the promise subject to, or governed by, another writing would make it conditional (§ 673.1061). Payment is due on a fixed date, December 1, 2026, and an acceleration clause does not destroy the definite-time requirement (§ 673.1081). The note contains no other undertaking. It is therefore a negotiable instrument governed by chapter 673."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Holder status. An instrument payable to an identified person is negotiated by transfer of possession and that person's indorsement. Reef's special indorsement 'Pay to Bayline Capital,' together with delivery, made Bayline the holder. The 'without recourse' language affects only Reef's own liability, not negotiation.",
+            "Holder in due course. A holder is a holder in due course if it took the instrument for value, in good faith (honesty in fact and observance of reasonable commercial standards of fair dealing), and without notice that it was overdue or dishonored, of any claim to it, or of any defense, provided the instrument bore no apparent evidence of forgery or alteration (§ 673.3021). Bayline paid $52,000 in cash, which is value; a discount of about 13 percent is common in note purchases and is not by itself notice or bad faith. The note was not due until December, and nothing on its face was irregular. Bayline's officer had heard only that Reef was 'behind on a few jobs.' That general rumor did not give Bayline knowledge of, or reason to know of, a defense to this particular note. Bayline is a holder in due course.",
+            "Effect on Mango's defense. Reef's abandonment of the job is a failure of consideration or breach of contract, an ordinary contract defense that is personal, not real. A holder in due course takes free of personal defenses (§ 673.3051). The FTC holder rule, which prevents holder-in-due-course status for consumer credit contracts, does not apply to a restaurant's commercial renovation. Bayline may enforce the full note against Mango, and Mango's remedy is a breach-of-contract claim against Reef."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Teresa. A representative who signs with authority is not liable on the instrument if the form of the signature unambiguously shows that it is made on behalf of a principal identified in the instrument (§ 673.4021). 'Mango Grill, LLC, by Teresa Ruiz, Manager' names the principal and shows Teresa's representative capacity. She is not liable on the note, and she is not liable for the LLC's obligations merely because she is its manager.",
+            "Andres. An accommodation party signs to incur liability for another party's benefit without being a direct beneficiary of the value given. Andres signed at Reef's insistence, received nothing, and signed outside the chain of title, an anomalous indorsement that is notice of his accommodation status. He is liable in the capacity in which he signed, as an indorser (§ 673.4191). An indorser must pay if the instrument is dishonored and timely notice of dishonor is given (§ 673.4151). Mango's failure to pay on the due date was dishonor, and Bayline's written notice on December 10 came within 30 days. Nothing suggests Bayline granted an extension, modified the note, or impaired collateral, so Andres has no suretyship discharge. He is liable for the amount due, and if he pays he is entitled to reimbursement from Mango, the accommodated party.",
+            "Reef. By indorsing 'without recourse,' Reef disclaimed its indorser's obligation to pay on dishonor. But a person who transfers an instrument for consideration also makes transfer warranties, including that the instrument is not subject to a defense of any party that can be asserted against the warrantor (§ 673.4161). When Reef sold the note on March 20, it had already abandoned the job, so Mango's defense existed and could be asserted against Reef. 'Without recourse' alone does not disclaim warranties. Reef is liable to Bayline for breach of warranty, for its loss from the breach, up to the amount of the instrument plus expenses and lost interest caused by the breach, although in practice Bayline will look first to Mango and Andres."
+          ]
+        }
+      ]
+    }
+  ]
+}

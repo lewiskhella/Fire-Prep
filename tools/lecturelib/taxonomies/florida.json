@@ -640,9 +640,6 @@
             "relocation",
             "50 miles",
             "61.13001",
-            "uccjea",
-            "home state",
-            "uifsa",
             "paternity",
             "modification of child support",
             "substantial change in circumstances"
@@ -678,6 +675,20 @@
             "dcf",
             "reunification",
             "adjudicatory hearing"
+          ]
+        },
+        {
+          "id": "fl-family-law.interstate-jurisdiction",
+          "title": "Interstate custody and support (UCCJEA, UIFSA)",
+          "keywords": [
+            "uccjea",
+            "home state",
+            "uifsa",
+            "exclusive continuing jurisdiction",
+            "temporary emergency jurisdiction",
+            "registration of a foreign order",
+            "significant connection",
+            "inconvenient forum"
           ]
         }
       ]
@@ -1291,10 +1302,6 @@
             "statement of client's rights",
             "fee splitting",
             "referral fee",
-            "trust account",
-            "chapter 5",
-            "iota",
-            "commingling",
             "retainer",
             "scope of representation",
             "withdrawal",
@@ -1330,12 +1337,41 @@
             "4-7",
             "solicitation",
             "direct solicitation",
-            "testimonials",
+            "testimonials"
+          ]
+        },
+        {
+          "id": "fl-professional-responsibility.trust-accounting",
+          "title": "Trust accounting (Chapter 5)",
+          "keywords": [
+            "trust account",
+            "chapter 5",
+            "iota",
+            "commingling",
+            "trust records",
+            "reconciliation",
+            "misappropriation",
+            "conversion",
+            "client funds",
+            "safekeeping property"
+          ]
+        },
+        {
+          "id": "fl-professional-responsibility.discipline-and-practice",
+          "title": "Misconduct, discipline and unlicensed practice",
+          "keywords": [
             "misconduct",
             "discipline",
             "grievance committee",
             "unlicensed practice of law",
-            "pro bono"
+            "pro bono",
+            "disbarment",
+            "suspension",
+            "reprimand",
+            "duty to report",
+            "supervising lawyer",
+            "nonlawyer assistant",
+            "rehabilitation"
           ]
         }
       ]

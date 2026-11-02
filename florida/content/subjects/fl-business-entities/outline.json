@@ -149,7 +149,7 @@
       "exams": [
         "FL"
       ],
-      "intro": "Added to the lecture taxonomy so that shareholder litigation and structural changes each have room; the lecture tag for these passages is fl-business-entities.corporations. Florida essays test the universal-demand rule for derivative suits, inspection rights, the vote needed for a merger or asset sale, appraisal, and the grounds for judicial dissolution with the buy-out alternative.",
+      "intro": "Shareholders protect themselves through inspection rights, derivative suits and, when the corporation changes fundamentally, voting, appraisal and dissolution. Florida tests the universal-demand rule for derivative suits, the vote needed for a merger or asset sale, appraisal procedure, and the grounds for judicial dissolution together with the buy-out alternative.",
       "rules": [
         {
           "id": "fl-business-entities.shareholder-remedies-and-fundamental-changes.inspection",

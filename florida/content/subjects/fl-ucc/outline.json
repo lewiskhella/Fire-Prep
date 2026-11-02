@@ -142,7 +142,7 @@
       "exams": [
         "FL"
       ],
-      "intro": "Added to the lecture taxonomy (the lecture tag for these passages is fl-ucc.negotiable-instruments) because holder-in-due-course analysis is the core of most Florida Article 3 questions. Work in order: is the plaintiff a holder, did it take for value, in good faith and without notice, does the shelter rule help, and is the obligor's defense real or personal?",
+      "intro": "Holder-in-due-course analysis drives most Florida Article 3 questions. Work in order: is the plaintiff a holder, did it take for value, in good faith and without notice, does the shelter rule help, and is the obligor's defense real or personal?",
       "rules": [
         {
           "id": "fl-ucc.holder-in-due-course.requirements",
@@ -254,7 +254,7 @@
       "exams": [
         "FL"
       ],
-      "intro": "Added to the lecture taxonomy (the lecture tag is fl-ucc.negotiable-instruments) to hold the rules on who must pay an instrument and who bears the loss from forgery or fraud. Florida questions typically ask whether an indorser or accommodation party is liable, whether a bank must recredit its customer, and which party ends up with a forger's loss.",
+      "intro": "These rules decide who must pay an instrument and who bears the loss from forgery or fraud. Florida questions typically ask whether an indorser or accommodation party is liable, whether a bank must recredit its customer, and which party ends up with a forger's loss.",
       "rules": [
         {
           "id": "fl-ucc.liability-of-parties.signatures-and-representatives",
