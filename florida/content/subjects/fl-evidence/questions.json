@@ -1,0 +1,369 @@
+{
+ "subject": "fl-evidence",
+ "questions": [
+  {
+   "id": "fl-evidence.q001",
+   "topic": "fl-evidence.relevance-and-character",
+   "rules": [
+    "fl-evidence.relevance-and-character.williams-rule"
+   ],
+   "difficulty": 2,
+   "stem": "Rafe Dunmore is on trial for the armed robbery of a gas-station convenience store in Ocala at about 11 p.m. The clerk testified that the robber wore a dark ski mask, displayed a black handgun and demanded the cash in the register. Identity is the only seriously disputed issue. The State gives timely written notice that it will call a witness to testify that, eighteen months earlier, Dunmore robbed a pharmacy in Gainesville at night while wearing a ski mask and carrying a handgun. Dunmore pleaded guilty to that robbery. The State argues that the evidence proves identity. Dunmore objects.",
+   "call": "How should the court rule?",
+   "choices": [
+    "Admit the evidence, because Dunmore's guilty plea proves the prior robbery by clear and convincing evidence.",
+    "Exclude the evidence, because the shared features are common to many robberies and so show only propensity, not identity.",
+    "Admit the evidence, because identity is a purpose listed in section 90.404(2)(a) and the State gave the required notice.",
+    "Exclude the evidence, because a prior crime may be offered only to rebut evidence of good character offered by the accused."
+   ],
+   "answer": 1,
+   "explanation": "Under the Williams rule, codified in section 90.404(2)(a), similar-fact evidence is admissible only if it is relevant to a material fact in issue and not solely to propensity. When the State offers a collateral crime to prove identity, the two crimes must share identifiable points of similarity so unusual that they point to the same perpetrator, like a fingerprint. A mask, a handgun and a nighttime robbery are features of countless robberies. Without a distinctive common feature, the only path from the Gainesville robbery to the Ocala robbery is the inference that Dunmore is the kind of person who robs stores, which is propensity. Clear and convincing proof and timely notice are necessary but do not cure the lack of relevance.",
+   "whyNot": [
+    "Clear and convincing proof that Dunmore committed the collateral crime is a prerequisite, but it does not make the evidence relevant to identity. The similarity requirement still fails.",
+    "",
+    "Naming a listed purpose is not enough. To be relevant to identity, the crimes must share unique characteristics; generic similarities leave only a propensity inference.",
+    "Collateral-crime evidence is admissible in the State's case-in-chief whenever it proves a material fact such as motive, intent or identity. Its use is not limited to rebutting character evidence."
+   ]
+  },
+  {
+   "id": "fl-evidence.q002",
+   "topic": "fl-evidence.relevance-and-character",
+   "rules": [
+    "fl-evidence.relevance-and-character.sexual-offense-propensity",
+    "fl-evidence.relevance-and-character.williams-rule"
+   ],
+   "difficulty": 2,
+   "stem": "Gordon Pell is charged with lewd or lascivious molestation of his 9-year-old niece. Thirty days before trial, the State serves written notice that it will offer testimony from a neighbor's daughter that Pell molested her in a similar way four years ago, when she was 10. Pell was never charged with that incident. At a pretrial hearing, the neighbor's daughter testifies credibly and in detail, and the judge finds the prior act proved by clear and convincing evidence. Pell argues that the evidence shows only his propensity and must be excluded.",
+   "call": "Which statement best describes the admissibility of the neighbor's daughter's testimony?",
+   "choices": [
+    "It is inadmissible, because the prior act did not result in a conviction.",
+    "It is inadmissible, because evidence offered to show propensity is barred by section 90.404(2)(a).",
+    "It is admissible, but the jury must be instructed to consider it only on intent and not on propensity.",
+    "It is admissible for its bearing on any relevant matter, including propensity, if its probative value is not substantially outweighed by the danger of unfair prejudice."
+   ],
+   "answer": 3,
+   "explanation": "In a criminal case in which the defendant is charged with child molestation, section 90.404(2)(b) admits evidence of the defendant's other acts of child molestation and allows the jury to consider it for its bearing on any matter to which it is relevant, including propensity. The State must prove the collateral act by clear and convincing evidence (done here) and give the 10-day written notice (done here), and the court must still conduct a section 90.403 balancing, weighing similarity, closeness in time, frequency and intervening circumstances.",
+   "whyNot": [
+    "No conviction or even a charge is required. The State need only prove the collateral act by clear and convincing evidence.",
+    "Section 90.404(2)(a) states the general Williams rule, but section 90.404(2)(b) creates a specific exception for child-molestation prosecutions that allows a propensity use.",
+    "Limiting the evidence to intent describes the ordinary Williams rule. In a child-molestation prosecution the statute allows the jury to consider the evidence for any relevant purpose, including propensity.",
+    ""
+   ]
+  },
+  {
+   "id": "fl-evidence.q003",
+   "topic": "fl-evidence.relevance-and-character",
+   "rules": [
+    "fl-evidence.relevance-and-character.method-of-proof",
+    "fl-evidence.relevance-and-character.character-generally"
+   ],
+   "difficulty": 2,
+   "stem": "Lena Ortiz is charged with aggravated battery after a parking-lot fight in Tampa. She claims the other woman attacked her and she acted only in self-defense. The defense calls Marcus Bell, Ortiz's supervisor for six years, who is prepared to testify: 'Based on working with her every day, in my opinion she is a calm, nonviolent person.' Bell has never discussed Ortiz with anyone and does not know what others in the workplace or community say about her. The State objects.",
+   "call": "How should the court rule on the objection?",
+   "choices": [
+    "Sustain it, because Florida permits proof of character only by reputation, and Bell offers only his personal opinion.",
+    "Overrule it, because an accused may offer evidence of a pertinent trait of her own character.",
+    "Overrule it, because Bell's long working relationship gives him an adequate basis for his opinion.",
+    "Sustain it, because an accused may not offer character evidence unless the State first attacks her character."
+   ],
+   "answer": 0,
+   "explanation": "Section 90.404(1)(a) lets an accused offer evidence of a pertinent trait of her own character, and peacefulness is pertinent to a battery charge. But section 90.405 allows character to be proved only by testimony about reputation. Unlike FRE 405(a), Florida does not authorize opinion testimony. Bell knows nothing of Ortiz's reputation and offers only his own opinion, so the objection should be sustained.",
+   "whyNot": [
+    "",
+    "The trait is admissible in principle, but the method of proof is not. Florida requires reputation testimony.",
+    "A long relationship would support an opinion under FRE 405(a), but Florida's section 90.405 does not permit opinion testimony to prove character.",
+    "The accused opens the door; she does not have to wait for the State. The State may only rebut character evidence the accused has offered."
+   ]
+  },
+  {
+   "id": "fl-evidence.q004",
+   "topic": "fl-evidence.witnesses-and-impeachment",
+   "rules": [
+    "fl-evidence.witnesses-and-impeachment.prior-convictions"
+   ],
+   "difficulty": 2,
+   "stem": "At his trial for burglary of a dwelling, Wade Kessler testifies in his own defense. On cross-examination the prosecutor asks, 'Mr. Kessler, have you ever been convicted of a felony?' Kessler answers, 'Yes.' The prosecutor asks, 'How many times?' Kessler answers, 'Twice,' which is accurate. The prosecutor then asks, 'And one of those was for burglary of a dwelling, wasn't it?' Defense counsel objects.",
+   "call": "How should the court rule?",
+   "choices": [
+    "Overrule the objection, because the nature of a prior conviction bears on how much weight the jury should give it.",
+    "Overrule the objection, because the prior conviction is for the same crime as the one charged and is therefore highly probative.",
+    "Sustain the objection, because once Kessler truthfully admitted the number of his felony convictions, the State may not ask about their nature.",
+    "Sustain the objection, because the prior conviction must first be weighed for unfair prejudice under section 90.403."
+   ],
+   "answer": 2,
+   "explanation": "Under section 90.610 and the Florida procedure built around it, impeachment by conviction is limited to asking whether the witness has been convicted of a felony (or a crime of dishonesty) and how many times. If the witness answers both questions truthfully, the inquiry ends, and the names and facts of the prior crimes may not be brought out unless the witness opens the door, for example by minimizing the convictions. Kessler answered truthfully, so naming the prior burglary is improper and is especially prejudicial because it matches the charged crime.",
+   "whyNot": [
+    "Florida does not let the impeaching party explore the nature of convictions to adjust their weight; the permitted inquiry is the fact and number of convictions.",
+    "Similarity to the charged crime makes naming the conviction more prejudicial, not more admissible. Using it to suggest he burgled again would be a propensity inference.",
+    "",
+    "Florida's section 90.610 contains no balancing test for qualifying convictions. The objection should be sustained, but because the inquiry exceeded the permitted scope, not because of section 90.403."
+   ]
+  },
+  {
+   "id": "fl-evidence.q005",
+   "topic": "fl-evidence.witnesses-and-impeachment",
+   "rules": [
+    "fl-evidence.witnesses-and-impeachment.prior-convictions"
+   ],
+   "difficulty": 3,
+   "stem": "In a criminal prosecution for grand theft, the State calls Priya Nandan, an eyewitness. The defense seeks to impeach Nandan with her conviction, sixteen years earlier, for felony possession of a controlled substance, for which she was adjudicated guilty and served eighteen months in prison. The State objects that the conviction is too old, has nothing to do with truthfulness, and is more prejudicial than probative.",
+   "call": "How should the court rule?",
+   "choices": [
+    "Admit the conviction, because the crime was punishable by more than one year and Florida's remoteness exclusion applies only in civil trials.",
+    "Exclude the conviction, because it is more than ten years old and its probative value does not substantially outweigh its prejudicial effect.",
+    "Exclude the conviction, because only crimes involving dishonesty or false statement may be used to impeach a witness other than the accused.",
+    "Admit the conviction only if the court finds that its probative value outweighs its prejudicial effect."
+   ],
+   "answer": 0,
+   "explanation": "Section 90.610 allows any witness to be impeached with a conviction for a crime punishable by death or imprisonment exceeding one year, or for a crime of dishonesty. Felony drug possession qualifies under the first category. Florida has no balancing test for qualifying convictions and no ten-year rule in criminal cases; the only remoteness exclusion applies in civil trials, to convictions so remote that they have no bearing on the witness's present character. In this criminal case the conviction is admissible.",
+   "whyNot": [
+    "",
+    "This states FRE 609(b), which presumptively excludes convictions more than ten years old. Florida has no ten-year rule, and its remoteness exclusion applies only in civil trials.",
+    "Felony convictions may impeach any witness, not only the accused, whether or not the crime involves dishonesty. The dishonesty category matters for misdemeanors.",
+    "This describes FRE 609(a)(1)(A) balancing. Florida's section 90.610 has no balancing requirement."
+   ]
+  },
+  {
+   "id": "fl-evidence.q006",
+   "topic": "fl-evidence.witnesses-and-impeachment",
+   "rules": [
+    "fl-evidence.witnesses-and-impeachment.truthfulness-character",
+    "fl-evidence.witnesses-and-impeachment.impeachment-methods"
+   ],
+   "difficulty": 2,
+   "stem": "In a negligence trial arising from an intersection collision in Jacksonville, the defendant's key witness, Tessa Grier, testifies that the plaintiff ran a red light. On cross-examination, the plaintiff's lawyer, acting in good faith on personnel documents she obtained in discovery, asks Grier, 'Isn't it true that two years ago you were fired for falsifying your timesheets?' Grier has never been charged with any crime, and she has no connection to either party. The defense objects.",
+   "call": "How should the court rule?",
+   "choices": [
+    "Overrule the objection, because specific instances of conduct probative of untruthfulness may be inquired into on cross-examination.",
+    "Overrule the objection, because the question goes to bias, which is never collateral.",
+    "Sustain the objection only if the plaintiff intends to prove the falsification with extrinsic evidence.",
+    "Sustain the objection, because Florida does not permit impeachment with specific acts of dishonesty that did not result in a conviction."
+   ],
+   "answer": 3,
+   "explanation": "Section 90.609 permits attacks on a witness's character for truthfulness only through reputation evidence, and section 90.610 adds impeachment by qualifying convictions. Florida has no counterpart to FRE 608(b), so a cross-examiner may not ask about specific instances of dishonest conduct, such as falsifying timesheets, that did not result in a conviction. The question is improper even though asked in good faith.",
+   "whyNot": [
+    "This is the federal rule under FRE 608(b). Florida deliberately omitted it.",
+    "Nothing in the facts suggests the firing gives Grier an interest or motive in this case; the question attacks her general honesty, which is character, not bias.",
+    "Under FRE 608(b) the inquiry is allowed but extrinsic evidence is not. In Florida the inquiry itself is barred, with or without extrinsic proof.",
+    ""
+   ]
+  },
+  {
+   "id": "fl-evidence.q007",
+   "topic": "fl-evidence.experts",
+   "rules": [
+    "fl-evidence.experts.daubert-standard"
+   ],
+   "difficulty": 2,
+   "stem": "In a premises-liability action tried in 2025, the plaintiff offers testimony from a retired building inspector that uneven stair risers caused her fall. The inspector concedes that he took no measurements, relied on no building code, published standard or study, and bases his conclusion solely on 'thirty years of looking at staircases.' The defendant moves to exclude the opinion. The plaintiff responds that it is 'pure opinion' based on experience and therefore not subject to a reliability challenge.",
+   "call": "How should the court analyze the motion?",
+   "choices": [
+    "Deny the motion, because pure opinion testimony based on an expert's own experience is exempt from a reliability inquiry.",
+    "Decide whether the opinion rests on sufficient facts or data and on reliable principles and methods reliably applied, because that inquiry applies to all expert testimony, including experience-based opinions.",
+    "Deny the motion if the inspector's approach is generally accepted among building inspectors, because general acceptance is the governing test.",
+    "Grant the motion, because an expert may not give an opinion on an ultimate issue such as causation."
+   ],
+   "answer": 1,
+   "explanation": "Florida's section 90.702 now applies the Daubert standard, adopted by the Legislature in 2013 and by the Florida Supreme Court as a rule of court in 2019. The court must act as gatekeeper for all expert testimony, scientific or experience-based, asking whether it is based on sufficient facts or data, is the product of reliable principles and methods, and reflects a reliable application of those methods to the facts. An expert who took no measurements and applied no standard faces a serious challenge under each prong, but the court must perform the analysis rather than exempt the testimony.",
+   "whyNot": [
+    "The 'pure opinion' exemption belonged to Florida's Frye era. Under Daubert and Kumho Tire, experience-based opinions are also subject to reliability review.",
+    "",
+    "General acceptance is the Frye test. Under Daubert it is only one factor among several.",
+    "Section 90.703 provides that an otherwise admissible opinion is not objectionable because it embraces an ultimate issue."
+   ]
+  },
+  {
+   "id": "fl-evidence.q008",
+   "topic": "fl-evidence.experts",
+   "rules": [
+    "fl-evidence.experts.learned-treatise"
+   ],
+   "difficulty": 1,
+   "stem": "In a medical-malpractice trial, the plaintiff's expert, Dr. Hale, testifies on direct examination that the defendant surgeon breached the standard of care. Plaintiff's counsel then hands Dr. Hale a widely respected surgical textbook and asks him to read to the jury a passage stating that the technique the defendant used is contraindicated in patients with the plaintiff's condition. Dr. Hale confirms that the textbook is authoritative. The defense objects.",
+   "call": "How should the court rule?",
+   "choices": [
+    "Overrule the objection, because an expert has established the textbook as a reliable authority.",
+    "Overrule the objection, but do not allow the textbook itself to be received as an exhibit.",
+    "Sustain the objection, because in Florida a learned treatise may be used only to cross-examine an expert, not as substantive evidence.",
+    "Sustain the objection unless the author of the textbook is unavailable to testify."
+   ],
+   "answer": 2,
+   "explanation": "Florida has no learned-treatise exception to the hearsay rule. Section 90.706 allows statements in an authoritative treatise to be used only in cross-examining an expert, after the expert or the court recognizes the work as authoritative. Reading a passage during direct examination of one's own expert offers it for its truth and bolsters the expert, which is improper hearsay.",
+   "whyNot": [
+    "That is the foundation for FRE 803(18), the federal learned-treatise exception. Florida did not adopt that exception.",
+    "Reading the passage but not admitting the book is how FRE 803(18) works in federal court. Florida does not allow the passage to be read as substantive evidence at all.",
+    "",
+    "No Florida hearsay exception for learned treatises turns on the author's unavailability."
+   ]
+  },
+  {
+   "id": "fl-evidence.q009",
+   "topic": "fl-evidence.hearsay",
+   "rules": [
+    "fl-evidence.hearsay.admissions"
+   ],
+   "difficulty": 3,
+   "stem": "Dante Ruiz is charged with conspiracy to traffic in cocaine. The State offers a recorded telephone call in which Kyle Brant, an alleged co-conspirator, tells a buyer, 'My partner Dante is bringing the product Thursday.' Apart from this recording, the State has no evidence linking Ruiz to Brant or to any drug transaction. Ruiz objects on hearsay grounds. The State argues that the statement was made during and in furtherance of a conspiracy and is admissible against Ruiz.",
+   "call": "How should the court rule?",
+   "choices": [
+    "Exclude the statement, because the existence of the conspiracy and Ruiz's participation in it must be established by evidence independent of the statement.",
+    "Admit the statement, because a co-conspirator's statement is defined as not hearsay.",
+    "Admit the statement, because the court may consider the statement itself, together with the surrounding circumstances, in deciding whether the conspiracy existed.",
+    "Exclude the statement, because a co-conspirator's statement is admissible only if the co-conspirator is unavailable to testify."
+   ],
+   "answer": 0,
+   "explanation": "Florida treats co-conspirator statements as an exception to the hearsay rule under section 90.803(18)(e). The statute requires that the conspiracy itself and each member's participation in it be established by independent evidence, and the court must so instruct the jury on request. Because the only evidence connecting Ruiz to a conspiracy is Brant's statement, the foundation fails and the statement must be excluded.",
+   "whyNot": [
+    "",
+    "FRE 801(d)(2)(E) labels these statements 'not hearsay,' but Florida classifies them as an exception, and either way the Florida foundation requires independent evidence of the conspiracy.",
+    "This is the federal approach under Bourjaily v. United States and FRE 801(d)(2). Florida requires independent evidence.",
+    "Admissions under section 90.803(18) are admissible regardless of the declarant's availability."
+   ]
+  },
+  {
+   "id": "fl-evidence.q010",
+   "topic": "fl-evidence.hearsay",
+   "rules": [
+    "fl-evidence.hearsay.unavailable-declarant",
+    "fl-evidence.hearsay.confrontation"
+   ],
+   "difficulty": 3,
+   "stem": "Owen Tate is prosecuted for arson and attempted murder after a fire at a marina warehouse in Fort Myers. The night watchman, badly burned and believing he was about to die, told the dock worker who pulled him from the building, 'Owen poured gas by the back door and lit it.' The watchman survived, but months later he suffered a stroke that left him unable to communicate, and the court finds him unavailable. The State offers the dock worker's testimony repeating the watchman's statement. Tate objects that a dying declaration is admissible only in a homicide prosecution.",
+   "call": "How should the court rule?",
+   "choices": [
+    "Exclude the statement, because the watchman did not die of his injuries.",
+    "Exclude the statement, because in criminal cases dying declarations are admissible only in prosecutions for homicide.",
+    "Exclude the statement, because admitting it without the watchman's testimony violates Tate's right of confrontation.",
+    "Admit the statement as a dying declaration, because Florida's exception applies in any civil or criminal trial when the declarant is unavailable."
+   ],
+   "answer": 3,
+   "explanation": "Section 90.804(2)(b) admits, 'in a civil or criminal trial,' a statement by an unavailable declarant made while reasonably believing death was imminent, concerning the cause or circumstances of what the declarant believed to be impending death. Unlike FRE 804(b)(2), Florida's exception is not limited to homicide prosecutions. The declarant need not die; he need only be unavailable at trial, which the stroke establishes. The statement to a private rescuer during the emergency is nontestimonial, so the Confrontation Clause does not bar it. (The statement would likely also qualify as an excited utterance.)",
+   "whyNot": [
+    "The exception requires a belief that death was imminent and present unavailability, not actual death.",
+    "That is the federal limitation in FRE 804(b)(2). Florida's version applies in any civil or criminal trial.",
+    "The statement was made to a private rescuer to describe an emergency, not to create evidence for prosecution, so it is nontestimonial and the Confrontation Clause does not apply.",
+    ""
+   ]
+  },
+  {
+   "id": "fl-evidence.q011",
+   "topic": "fl-evidence.hearsay",
+   "rules": [
+    "fl-evidence.hearsay.child-victim"
+   ],
+   "difficulty": 3,
+   "stem": "Neil Varga is charged with sexual battery on a 6-year-old girl. The day after a weekend visit, the girl told her grandmother that Varga had touched her, in words the grandmother can repeat in detail. After a hearing outside the jury's presence, the court finds that the time, content and circumstances of the statement provide sufficient safeguards of reliability. Relying on expert testimony, the court also finds that testifying would create a substantial likelihood of severe emotional harm to the child, making her unavailable. There is no medical evidence, no other witness and no admission by Varga. The State gave timely notice.",
+   "call": "Is the grandmother's testimony admissible under Florida's child-victim hearsay exception?",
+   "choices": [
+    "Yes, because the court found the statement reliable after a hearing outside the jury's presence.",
+    "No, because when the child does not testify, there must be other corroborative evidence of the abuse.",
+    "No, because a statement to a family member is testimonial and the child cannot be cross-examined.",
+    "Yes, because a child's spontaneous statement about abuse is admissible regardless of the child's availability."
+   ],
+   "answer": 1,
+   "explanation": "Section 90.803(23) admits a qualifying child-victim statement only if the court finds it reliable after a hearing and the child either testifies or is unavailable. When the child is unavailable, the statute also requires other corroborative evidence of the abuse or offense. Here the child will not testify and there is no corroboration, so the statement is inadmissible under this exception despite the reliability finding.",
+   "whyNot": [
+    "A reliability finding is necessary but not sufficient. Because the child is unavailable, corroborative evidence is also required.",
+    "",
+    "A child's statement to a grandmother is ordinarily nontestimonial because it is not made to create evidence for prosecution. The problem is the statutory corroboration requirement, not confrontation.",
+    "The child-victim exception expressly turns on whether the child testifies or is unavailable, and adds a corroboration requirement in the second case."
+   ]
+  },
+  {
+   "id": "fl-evidence.q012",
+   "topic": "fl-evidence.privileges",
+   "rules": [
+    "fl-evidence.privileges.spousal"
+   ],
+   "difficulty": 2,
+   "stem": "Hector Lyle is charged with robbing a bank in Orlando. The State subpoenas his wife, Mara. She is prepared to testify (1) that on the afternoon of the robbery she saw Hector come home carrying a canvas bag stuffed with cash and put it in the attic, and (2) that later that night, alone with her in their bedroom, Hector told her, 'I did the bank job today; don't tell anyone.' Mara does not want to testify against Hector, and Hector objects to all of her testimony.",
+   "call": "Which of Mara's testimony is admissible over objection?",
+   "choices": [
+    "None of it, because Mara has a privilege not to testify against her husband in a criminal case.",
+    "All of it, because the marital privilege does not apply in criminal prosecutions.",
+    "Only her testimony about what she saw, because Florida's privilege protects confidential communications, not observations.",
+    "Only Hector's statement, because a party's own statement is admissible against him."
+   ],
+   "answer": 2,
+   "explanation": "Section 90.504 protects only communications intended to be made in confidence between spouses during the marriage, and either spouse may claim it. Hector's bedroom statement is a confidential marital communication, and none of the exceptions applies because the crime was against a bank, not against Mara or a child of either spouse. What Mara saw Hector do is an observation, not a communication, so it is not privileged. Florida has no adverse spousal testimony privilege, so Mara can be compelled to testify about her observations.",
+   "whyNot": [
+    "This describes the federal adverse spousal testimony privilege recognized in Trammel v. United States. Florida does not recognize it.",
+    "The communications privilege applies in criminal cases. Its criminal-case exceptions cover crimes against the other spouse or a child of either, not a bank robbery.",
+    "",
+    "Fitting a hearsay exception does not defeat a privilege. The statement is an admission for hearsay purposes but remains a privileged confidential communication."
+   ]
+  },
+  {
+   "id": "fl-evidence.q013",
+   "topic": "fl-evidence.privileges",
+   "rules": [
+    "fl-evidence.privileges.lawyer-client"
+   ],
+   "difficulty": 1,
+   "stem": "Two weeks after a hit-and-run collision in Pensacola that injured a cyclist, Brenda Shaw meets privately with a criminal defense lawyer. She tells him she was driving the car that struck the cyclist and asks what her options are. She decides not to hire him and pays nothing. The State later learns of the meeting and subpoenas the lawyer to testify about what Shaw told him. Shaw has not been charged.",
+   "call": "Can the lawyer be compelled to disclose Shaw's statements?",
+   "choices": [
+    "No, because Shaw's confidential statements about a completed offense, made to obtain legal advice, are privileged.",
+    "Yes, because the crime-fraud exception applies to communications about a crime.",
+    "Yes, because the privilege does not attach until the client has been formally charged.",
+    "No, but only if Shaw had retained the lawyer and paid a fee."
+   ],
+   "answer": 0,
+   "explanation": "Section 90.502 protects confidential communications made in the rendition of legal services, and a 'client' includes a person who consults a lawyer with a view to obtaining legal services, whether or not the lawyer is retained. Shaw's description of a completed crime, made in a private consultation to get advice, is privileged. The crime-fraud exception applies only when the client seeks the lawyer's services to enable or aid a crime or fraud, not when the client seeks advice about past conduct.",
+   "whyNot": [
+    "",
+    "The crime-fraud exception covers services sought to plan or commit a crime or fraud. Seeking advice about a completed offense is the core of the privilege.",
+    "The privilege applies to confidential consultations regardless of whether any charge has been filed.",
+    "Retention and payment are not required; a person who consults a lawyer with a view to obtaining legal services is a client for purposes of the privilege. The answer is right, but the condition is wrong."
+   ]
+  },
+  {
+   "id": "fl-evidence.q014",
+   "topic": "fl-evidence.documents-and-notice",
+   "rules": [
+    "fl-evidence.documents-and-notice.best-evidence"
+   ],
+   "difficulty": 2,
+   "stem": "Coastal Lending sues Ray Dillard in a Florida circuit court to enforce a promissory note that is a negotiable instrument. At trial, Coastal's witness offers a clear photocopy of the note, explaining that the original is kept in Coastal's vault in another city and that bringing it to court would be inconvenient. Dillard does not claim the photocopy is inaccurate, but he objects to its admission.",
+   "call": "How should the court rule?",
+   "choices": [
+    "Admit the photocopy, because a duplicate is admissible to the same extent as an original unless its authenticity is genuinely disputed.",
+    "Exclude the photocopy, because a duplicate may not be admitted in place of an original negotiable instrument.",
+    "Admit the photocopy, because the original is outside the court's territorial jurisdiction and therefore unavailable.",
+    "Exclude the photocopy, because Coastal did not give advance written notice that it would rely on a duplicate."
+   ],
+   "answer": 1,
+   "explanation": "Section 90.952 requires the original to prove the contents of a writing. Section 90.953 generally treats duplicates like originals, but not when the original is a negotiable instrument (or a similar writing evidencing a right to payment that is transferred by delivery). Because Coastal seeks to prove the terms of a negotiable note and the original is in its own possession, it must produce the original.",
+   "whyNot": [
+    "That is the general duplicate rule, which mirrors FRE 1003, but Florida excludes negotiable instruments from it.",
+    "",
+    "The original is in Coastal's own control; inconvenience is not loss, destruction, or inability to obtain it by process.",
+    "No advance notice is required to offer a duplicate. Written notice is required for summaries of voluminous records under section 90.956 and is not the issue here."
+   ]
+  },
+  {
+   "id": "fl-evidence.q015",
+   "topic": "fl-evidence.documents-and-notice",
+   "rules": [
+    "fl-evidence.documents-and-notice.judicial-notice"
+   ],
+   "difficulty": 2,
+   "stem": "In a contract action in Miami-Dade County circuit court, the parties' agreement chooses Georgia law. Three weeks before trial, the plaintiff serves the defendant with written notice asking the court to take judicial notice of a specific Georgia statute, and files copies of the statute and of Georgia appellate decisions applying it. At trial, the defendant argues that the court has discretion to refuse and should require the plaintiff to prove Georgia law through an expert witness.",
+   "call": "Must the court take judicial notice of the Georgia statute?",
+   "choices": [
+    "No, because the laws of other states are matters of discretionary judicial notice that the court may always decline to notice.",
+    "No, because the law of another jurisdiction is a question of fact that must be proved by expert testimony.",
+    "Yes, because the court must notice a discretionary matter such as another state's law when a party gives timely written notice and furnishes sufficient information.",
+    "Yes, because the laws of every state are matters of mandatory judicial notice in Florida."
+   ],
+   "answer": 2,
+   "explanation": "Under section 90.202, the laws of other states are matters a Florida court may judicially notice. Section 90.203 makes notice of such a matter mandatory when a party requests it, gives each adverse party timely written notice, and furnishes the court sufficient information to comply. The plaintiff did both, so the court must take notice, after giving the parties a chance to be heard on the propriety of notice and the content of the law.",
+   "whyNot": [
+    "Notice of another state's law starts as discretionary, but section 90.203 makes it compulsory once the request procedure is followed.",
+    "Florida's Evidence Code treats the law of other states as a proper subject of judicial notice; it need not be proved as a fact through witnesses.",
+    "",
+    "Mandatory notice under section 90.201 covers Florida and federal law, not the laws of other states, which fall under section 90.202."
+   ]
+  }
+ ]
+}

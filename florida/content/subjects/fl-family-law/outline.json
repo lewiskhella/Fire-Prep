@@ -1,0 +1,548 @@
+{
+ "subject": "fl-family-law",
+ "topics": [
+  {
+   "id": "fl-family-law.dissolution",
+   "title": "Dissolution and jurisdiction",
+   "weight": 2,
+   "exams": [
+    "FL"
+   ],
+   "intro": "Florida is a pure no-fault state: the only grounds are an irretrievably broken marriage or a spouse's long-adjudicated mental incapacity. Essays usually open with a quick jurisdiction check (six months' residency, personal jurisdiction for money awards) before moving to property, alimony and children.",
+   "rules": [
+    {
+     "id": "fl-family-law.dissolution.grounds",
+     "title": "Two grounds only",
+     "weight": 2,
+     "rule": "A Florida court may dissolve a marriage only if (1) the marriage is irretrievably broken, or (2) one party is mentally incapacitated, and then only if that party has been adjudicated incapacitated for at least the three years before the petition is filed.",
+     "elements": [
+      "Irretrievably broken: the court must find the marriage cannot be saved; no fault need be alleged or proved",
+      "Mental incapacity: a prior adjudication of incapacity under the guardianship statute that has existed for the preceding 3 years"
+     ],
+     "tip": "If the respondent denies the marriage is broken, or there are minor children, the court may order counseling, continue the case for up to 3 months to allow reconciliation, or take other action in the children's best interests before ruling.",
+     "trap": "Adultery, cruelty or desertion are not grounds in Florida. Fault matters only later, as a factor in alimony or as evidence of dissipation of assets.",
+     "split": "Many states still list fault grounds alongside no-fault; Florida has none.",
+     "authority": "Fla. Stat. § 61.052(1)–(2)"
+    },
+    {
+     "id": "fl-family-law.dissolution.residency",
+     "title": "Six-month residency",
+     "weight": 3,
+     "rule": "To obtain a dissolution, at least one party must have resided in Florida for six months before the petition is filed. Residency must be corroborated, for example by a valid Florida driver license or identification card, voter registration card, or the testimony or affidavit of a third party.",
+     "tip": "The six months is measured back from the filing date, not from the hearing date. A petition filed before the six months have run is premature and subject to dismissal; the petitioner can refile once eligible.",
+     "trap": "Only one spouse needs the residency, and it can be the respondent. The petitioner's own uncorroborated testimony is not enough.",
+     "authority": "Fla. Stat. §§ 61.021, 61.052(2)"
+    },
+    {
+     "id": "fl-family-law.dissolution.personal-jurisdiction",
+     "title": "Divisible divorce and long-arm jurisdiction",
+     "weight": 3,
+     "rule": "A Florida court with a resident petitioner may dissolve the marriage itself (a matter of status) on constructive service, but it needs personal jurisdiction over the respondent to award alimony, child support, attorney's fees or other personal money judgments. Florida's long-arm statute reaches a nonresident respondent who maintained a matrimonial domicile in Florida when the action began or who resided in Florida before the action began.",
+     "exceptions": [
+      "Florida property can be distributed in rem without personal jurisdiction over the owner",
+      "Child custody (time-sharing) jurisdiction comes from the UCCJEA, not personal jurisdiction over the parent"
+     ],
+     "tip": "On an essay, separate the three questions: Can the court end the marriage? Can it divide property here? Can it order the absent spouse to pay money? Each has a different jurisdictional answer.",
+     "authority": "Fla. Stat. § 48.193(1)(a)(5); Fla. Stat. § 61.021"
+    },
+    {
+     "id": "fl-family-law.dissolution.fault-relevance",
+     "title": "Where misconduct still matters",
+     "weight": 2,
+     "rule": "Although fault is not a ground, the court may consider a spouse's adultery and its economic impact in deciding whether to award alimony and in what amount. In equitable distribution, misconduct counts only when it wasted marital assets, such as intentional dissipation, waste, depletion or destruction of marital assets after filing or within two years before filing.",
+     "trap": "Do not reduce a cheating spouse's share of the marital estate simply because of the affair; tie any unequal distribution to money spent or destroyed (for example, marital funds spent on a paramour).",
+     "authority": "Fla. Stat. §§ 61.08, 61.075(1)"
+    },
+    {
+     "id": "fl-family-law.dissolution.simplified-and-waiting",
+     "title": "Simplified dissolution and the 20-day wait",
+     "weight": 1,
+     "rule": "A final judgment of dissolution may not be entered until at least 20 days after the petition is filed, unless the court finds that injustice would result from the delay. Spouses who meet the criteria for simplified dissolution may use the streamlined procedure, which requires both to appear before the court.",
+     "elements": [
+      "Both spouses agree to the simplified procedure and sign the petition",
+      "No minor or dependent children together and the wife is not pregnant",
+      "The residency requirement is met",
+      "The spouses have agreed on the division of their property and debts",
+      "Neither spouse seeks alimony",
+      "Both agree the marriage is irretrievably broken and both attend the final hearing"
+     ],
+     "trap": "Simplified dissolution is unavailable once either spouse asks for alimony or the couple has a minor child, even if everything else is agreed.",
+     "authority": "Fla. Stat. § 61.19; Fla. Fam. L. R. P. 12.105"
+    },
+    {
+     "id": "fl-family-law.dissolution.void-voidable-common-law",
+     "title": "Void and voidable marriages; no common-law marriage",
+     "weight": 2,
+     "rule": "A void marriage (for example, one where a spouse was already married, or between closely related persons) is invalid from the start; a voidable marriage (for example, one induced by fraud going to the essence of the marriage, duress, or lack of capacity) is valid until annulled. Florida has no annulment statute, so annulment is a judicial, equitable remedy. Common-law marriages entered into in Florida after January 1, 1968, are not valid.",
+     "exceptions": [
+      "Florida recognizes a common-law marriage validly formed in a state that permits it",
+      "A voidable marriage can be ratified by continued cohabitation after the impediment is removed or discovered"
+     ],
+     "trap": "A couple who lived together in Florida for 20 years and held themselves out as married has no marriage to dissolve; property claims proceed under contract, partnership or co-ownership law, not Chapter 61.",
+     "authority": "Fla. Stat. §§ 741.211, 741.21"
+    },
+    {
+     "id": "fl-family-law.dissolution.fees-and-disclosure",
+     "title": "Attorney's fees and mandatory financial disclosure",
+     "weight": 2,
+     "rule": "The court may order one party to pay a reasonable amount of the other's attorney's fees, suit money and costs after considering the financial resources of both parties; need and ability to pay are the primary considerations, but the court may also weigh other factors such as the merit of positions taken and litigation misconduct. Each party must serve a sworn financial affidavit and the documents required by the mandatory disclosure rule early in the case.",
+     "tip": "Fee awards are available at the temporary stage, at final judgment, and in modification and enforcement proceedings. Use them on essays when one spouse controls the money.",
+     "authority": "Fla. Stat. § 61.16; Rosen v. Rosen, 696 So. 2d 697 (Fla. 1997); Fla. Fam. L. R. P. 12.285"
+    }
+   ]
+  },
+  {
+   "id": "fl-family-law.property-and-alimony",
+   "title": "Equitable distribution and alimony",
+   "weight": 3,
+   "exams": [
+    "FL"
+   ],
+   "intro": "Equitable distribution is a two-step process: classify each asset and debt as marital or nonmarital, then divide the marital estate starting from an equal split. Alimony is decided after the property division and, since the 2023 reform, comes in only four forms; permanent alimony can no longer be awarded.",
+   "rules": [
+    {
+     "id": "fl-family-law.property-and-alimony.equal-distribution",
+     "title": "Equal division is the starting point",
+     "weight": 3,
+     "rule": "The court first sets apart each spouse's nonmarital assets and liabilities, then distributes the marital assets and liabilities beginning with the premise that the division should be equal. An unequal division requires justification based on the statutory factors, supported by findings.",
+     "elements": [
+      "Each spouse's contribution to the marriage, including care and education of children and homemaker services",
+      "The economic circumstances of the parties and the duration of the marriage",
+      "Interruption of a spouse's career or education, and contribution to the other spouse's career or education",
+      "The desirability of keeping an asset, such as a business, intact and free from the other spouse's claims",
+      "Each spouse's contribution to acquiring, enhancing or improving marital and nonmarital assets",
+      "The desirability of keeping the marital home for a dependent child when that is in the child's best interests and financially feasible",
+      "Intentional dissipation, waste, depletion or destruction of marital assets after filing or within 2 years before filing",
+      "Any other factor necessary to do equity between the parties"
+     ],
+     "tip": "Florida distributes the marital estate as a whole; the court can give one spouse the house and the other the retirement account as long as the net values balance.",
+     "trap": "Equitable does not mean 'whatever seems fair.' Florida starts at 50/50 and departs only with factor-based reasons.",
+     "authority": "Fla. Stat. § 61.075(1)"
+    },
+    {
+     "id": "fl-family-law.property-and-alimony.classification",
+     "title": "Marital versus nonmarital",
+     "weight": 3,
+     "rule": "Marital assets and liabilities are those acquired or incurred during the marriage by either spouse, individually or jointly, along with interspousal gifts and retirement, pension and deferred-compensation benefits accrued during the marriage. Nonmarital assets are those owned before the marriage, those received individually by gift from a third party, bequest, devise or descent, assets acquired in exchange for nonmarital assets, and property excluded by a valid written agreement.",
+     "exceptions": [
+      "Income from a nonmarital asset earned during the marriage stays nonmarital unless the spouses treated, relied on, or used it as a marital asset",
+      "Real property held by the spouses as tenants by the entireties is presumed marital even if acquired before the marriage; the spouse claiming otherwise bears the burden",
+      "The cut-off date for identifying marital assets is the earliest of the date of a valid separation agreement, a date the agreement sets, or the date the dissolution petition was filed; the valuation date is whatever the court finds just and equitable"
+     ],
+     "tip": "Goodwill of a professional practice is divisible only to the extent it is enterprise goodwill that exists apart from the professional's personal skill and reputation; personal goodwill is not a marital asset.",
+     "trap": "A gift from one spouse to the other during the marriage is marital, not nonmarital, even though gifts from third parties are nonmarital.",
+     "authority": "Fla. Stat. § 61.075(6)–(8); Thompson v. Thompson, 576 So. 2d 267 (Fla. 1991)"
+    },
+    {
+     "id": "fl-family-law.property-and-alimony.appreciation",
+     "title": "Appreciation of nonmarital assets",
+     "weight": 3,
+     "rule": "The enhancement in value and appreciation of a nonmarital asset is marital to the extent it resulted from either spouse's efforts during the marriage or from the contribution of marital funds or other marital assets. Passive appreciation caused by market forces stays nonmarital, except that when marital funds pay down the mortgage on a nonmarital home, a share of the home's passive appreciation becomes marital.",
+     "elements": [
+      "Identify the nonmarital asset and its value at the date of marriage",
+      "Find whether marital funds or marital labor contributed to the asset",
+      "Measure the increase attributable to those contributions; that portion is marital"
+     ],
+     "tip": "For the premarital-house-with-a-mortgage fact pattern, cite Kaaa: the marital estate shares in passive appreciation in proportion to the mortgage principal paid down with marital funds, while the owner-spouse keeps the premarital equity.",
+     "trap": "Do not label the whole house marital just because marital money paid the mortgage, and do not leave it all nonmarital just because title stayed in one name.",
+     "authority": "Fla. Stat. § 61.075(6)(a)1.; Kaaa v. Kaaa, 58 So. 3d 867 (Fla. 2010)"
+    },
+    {
+     "id": "fl-family-law.property-and-alimony.commingling",
+     "title": "Commingling and tracing",
+     "weight": 2,
+     "rule": "A nonmarital asset loses its separate character when it is commingled with marital funds so that it can no longer be traced, or when the owner-spouse titles it jointly or otherwise shows an intent to make it marital. The spouse claiming that an asset is nonmarital bears the burden of tracing it.",
+     "tip": "An inheritance deposited into a separate account in one spouse's name and never mixed stays nonmarital; the same inheritance deposited into the joint household account and spent on family expenses usually becomes marital.",
+     "trap": "Commingling alone is not automatically fatal if the funds can still be traced with reasonable certainty; the question is traceability.",
+     "authority": "Fla. Stat. § 61.075(6), (8)"
+    },
+    {
+     "id": "fl-family-law.property-and-alimony.alimony-threshold-and-types",
+     "title": "Alimony after the 2023 reform: threshold and types",
+     "weight": 3,
+     "rule": "Before awarding alimony the court must first find that one party has an actual need for support and the other has the ability to pay. The available forms are temporary, bridge-the-gap, rehabilitative and durational; permanent alimony may no longer be awarded. The court considers statutory factors including the length of the marriage, the standard of living during the marriage, each party's age, health, earning capacity, education and resources (including the property each receives), contributions to the marriage, child-care responsibilities, tax consequences and all sources of income.",
+     "elements": [
+      "Short-term marriage: less than 10 years",
+      "Moderate-term marriage: 10 years up to 20 years",
+      "Long-term marriage: 20 years or more",
+      "Length is measured from the date of marriage to the date the dissolution petition is filed"
+     ],
+     "tip": "Answer alimony after property: the property each spouse receives affects need and ability to pay. The court may combine forms (for example, bridge-the-gap followed by rehabilitative) and may order payment periodically, in a lump sum, or both.",
+     "trap": "Do not award permanent alimony to a long-term spouse on a post-2023 petition; the longest available award is durational.",
+     "split": "Before July 1, 2023, Florida allowed permanent alimony and used shorter marriage-length categories (under 7, 7 to 17, and 17 or more years).",
+     "authority": "Fla. Stat. § 61.08 (as amended eff. July 1, 2023)"
+    },
+    {
+     "id": "fl-family-law.property-and-alimony.bridge-and-rehabilitative",
+     "title": "Bridge-the-gap and rehabilitative alimony",
+     "weight": 3,
+     "rule": "Bridge-the-gap alimony helps a party meet legitimate, identifiable short-term needs while moving from married to single life; it may not exceed two years, cannot be modified in amount or duration, and ends on either party's death or the recipient's remarriage. Rehabilitative alimony helps a party become self-supporting by redeveloping prior skills or credentials or by acquiring education, training or work experience; it requires a specific and defined rehabilitative plan in the order and, under the 2023 law, may not exceed five years.",
+     "exceptions": [
+      "Rehabilitative alimony may be modified or terminated on a substantial change in circumstances, noncompliance with the plan, or completion of the plan"
+     ],
+     "trap": "A vague goal such as 'to go back to school' is not enough; without a defined plan (program, cost, timeline), rehabilitative alimony is reversible error.",
+     "authority": "Fla. Stat. § 61.08 (as amended eff. July 1, 2023)"
+    },
+    {
+     "id": "fl-family-law.property-and-alimony.durational",
+     "title": "Durational alimony caps",
+     "weight": 3,
+     "rule": "Durational alimony provides economic help for a set period after a marriage of short, moderate or long duration, but it may not be awarded for a marriage of less than three years. Its length is capped as a percentage of the length of the marriage, and its amount may not exceed the lesser of the recipient's reasonable need or 35 percent of the difference between the parties' net incomes.",
+     "elements": [
+      "Short-term marriage: no more than 50% of the length of the marriage",
+      "Moderate-term marriage: no more than 60% of the length of the marriage",
+      "Long-term marriage: no more than 75% of the length of the marriage"
+     ],
+     "exceptions": [
+      "The length may be extended beyond the cap only on written findings of exceptional circumstances",
+      "Durational alimony ends on either party's death or the recipient's remarriage"
+     ],
+     "tip": "Run the math on an essay: a 16-year marriage is moderate-term, so durational alimony is capped at 9.6 years.",
+     "authority": "Fla. Stat. § 61.08 (as amended eff. July 1, 2023)"
+    },
+    {
+     "id": "fl-family-law.property-and-alimony.modification",
+     "title": "Modifying or ending alimony",
+     "weight": 3,
+     "rule": "Modifiable alimony may be changed on proof of a substantial change in circumstances that was not contemplated at the time of the judgment and that is sufficient, material, involuntary and permanent in nature. The court may also reduce or terminate alimony on written findings that the recipient is in a supportive relationship, and the 2023 law expressly lets an obligor seek modification or termination based on his or her reasonable retirement.",
+     "elements": [
+      "Supportive relationship factors include whether the couple hold themselves out as married, share a residence, pool assets or income, and support each other",
+      "The obligor proving a supportive relationship carries the burden by a preponderance of the evidence"
+     ],
+     "exceptions": [
+      "Bridge-the-gap alimony is not modifiable",
+      "An alimony provision in a settlement agreement that is expressly nonmodifiable, or a lump-sum award, cannot be modified"
+     ],
+     "tip": "The 2023 reform bars new permanent awards but did not terminate or convert permanent awards entered before July 1, 2023. Those awards remain in force and change only through a § 61.14 modification, for example on an involuntary substantial change, a supportive relationship, or the obligor's reasonable retirement.",
+     "trap": "A voluntary drop in income (quitting a job, taking a lower-paying one by choice) is not a qualifying change; it is self-induced.",
+     "authority": "Fla. Stat. § 61.14(1); Pimm v. Pimm, 601 So. 2d 534 (Fla. 1992)"
+    }
+   ]
+  },
+  {
+   "id": "fl-family-law.children",
+   "title": "Parenting, time-sharing, support and relocation",
+   "weight": 3,
+   "exams": [
+    "FL"
+   ],
+   "intro": "Florida no longer uses 'custody' and 'visitation'; courts approve a parenting plan that allocates parental responsibility (decision-making) and a time-sharing schedule, all governed by the child's best interests. Child support follows the income-shares guidelines, and a parent who wants to move 50 miles or more must follow the relocation statute.",
+   "rules": [
+    {
+     "id": "fl-family-law.children.parental-responsibility",
+     "title": "Shared parental responsibility and the parenting plan",
+     "weight": 3,
+     "rule": "The court must order shared parental responsibility, meaning both parents confer and jointly make major decisions affecting the child's welfare, unless it finds shared responsibility would be detrimental to the child. Every case involving a minor child requires a court-approved or court-established parenting plan addressing daily tasks, the time-sharing schedule, health-care and school decisions, and how the parents and child will communicate.",
+     "exceptions": [
+      "A parent's conviction of a first-degree misdemeanor or higher involving domestic violence creates a rebuttable presumption that shared parental responsibility is detrimental",
+      "The court may give one parent ultimate responsibility over specific areas (for example, education or health care) while keeping shared responsibility for the rest",
+      "Sole parental responsibility may be ordered when shared responsibility would harm the child"
+     ],
+     "trap": "Parental responsibility (who decides) and time-sharing (where the child is) are separate determinations; a parent can have shared responsibility with little time-sharing.",
+     "authority": "Fla. Stat. § 61.13(2)(b)–(c)"
+    },
+    {
+     "id": "fl-family-law.children.best-interests",
+     "title": "Best interests and the equal time-sharing presumption",
+     "weight": 3,
+     "rule": "Time-sharing is decided by the best interests of the child, evaluated under the statutory factors; neither parent is favored because of his or her sex. Since July 1, 2023, there is a rebuttable presumption that equal time-sharing is in the child's best interests; a party opposing equal time-sharing must prove by a preponderance of the evidence that it is not in the child's best interests. Unless the parents agree to a schedule that the court approves, the court must evaluate all the statutory factors and make specific written findings of fact when it creates or modifies a time-sharing schedule.",
+     "elements": [
+      "Each parent's demonstrated capacity to facilitate a close and continuing relationship with the other parent, honor the schedule, and be reasonable about changes",
+      "Each parent's capacity to put the child's needs ahead of the parent's own",
+      "How long the child has lived in a stable environment and the desirability of continuity",
+      "Geographic viability of the plan, especially for school-age children",
+      "The moral fitness and mental and physical health of the parents",
+      "The child's home, school and community record, and the child's reasonable preference if the child is mature enough",
+      "Evidence of domestic violence, sexual violence, child abuse, abandonment or neglect, and any knowing false report of it",
+      "Each parent's capacity to provide a consistent routine, communicate with the other parent, and keep the child out of the litigation"
+     ],
+     "trap": "There is no maternal preference and no tender-years doctrine. Choosing the mother because the child is young is wrong.",
+     "split": "Before the 2023 amendment Florida had no presumption favoring any particular time-sharing schedule.",
+     "authority": "Fla. Stat. § 61.13(2)(c), (3)"
+    },
+    {
+     "id": "fl-family-law.children.modifying-parenting-plans",
+     "title": "Modifying a parenting plan",
+     "weight": 3,
+     "rule": "A parenting plan, parental-responsibility determination or time-sharing schedule may be modified only on a showing of a substantial and material change in circumstances since the last order, and only if the modification is in the child's best interests. The same test applies whether the original plan was agreed by the parents or imposed after trial.",
+     "tip": "Organize the answer in two steps: (1) has there been a substantial and material change? (2) does the proposed change serve the child's best interests under the § 61.13(3) factors?",
+     "split": "A 2023 amendment dropped the former requirement that the change also be 'unanticipated'; older cases applying that word should be read with care.",
+     "authority": "Fla. Stat. § 61.13(3); Wade v. Hirschman, 903 So. 2d 928 (Fla. 2005)"
+    },
+    {
+     "id": "fl-family-law.children.support-guidelines",
+     "title": "Income-shares child support guidelines",
+     "weight": 3,
+     "rule": "Child support is computed under an income-shares model: the parents' net incomes are combined, the guidelines schedule gives a basic obligation for that combined income and number of children, and each parent is responsible for a share proportional to his or her percentage of combined net income, plus a proportional share of child-care costs, health insurance and noncovered medical expenses. The court may vary from the guideline amount by up to 5 percent after considering all relevant factors, but a larger deviation requires a written finding explaining why the guideline amount would be unjust or inappropriate.",
+     "elements": [
+      "Substantial time-sharing adjustment applies when each parent has the child for at least 20 percent of overnights (73 per year)",
+      "Then: multiply the basic obligation by 1.5, allocate it by income shares, multiply each parent's share by the percentage of time the child spends with the other parent, and the parent owing more pays the difference"
+     ],
+     "trap": "Parents cannot waive or bargain away the child's right to support; an agreement setting support at zero is not binding on the court.",
+     "authority": "Fla. Stat. § 61.30(1)(a), (6)–(11)"
+    },
+    {
+     "id": "fl-family-law.children.imputed-income",
+     "title": "Imputing income",
+     "weight": 3,
+     "rule": "The court must impute income to a parent who is voluntarily unemployed or underemployed, unless it finds the parent is physically or mentally incapacitated or the situation is beyond the parent's control. Imputed income is based on the parent's recent work history, occupational qualifications, and the prevailing earnings level in the community, and the court must make findings supporting the amount.",
+     "tip": "The same imputation concept is used for alimony. Look for a spouse who quit a well-paying job shortly before filing.",
+     "trap": "Imputation is not automatic at a former peak salary; the amount must reflect what the parent could actually earn now with reasonable diligence.",
+     "authority": "Fla. Stat. § 61.30(2)(b)"
+    },
+    {
+     "id": "fl-family-law.children.support-duration-modification",
+     "title": "Duration and modification of child support",
+     "weight": 2,
+     "rule": "Support generally ends when the child turns 18, but it continues past 18 for a child who is dependent because of a mental or physical incapacity that began before 18, and for a child who is still in high school between 18 and 19 and is reasonably expected to graduate before 19. Support may be modified on a substantial change in circumstances, and the change is substantial under the guidelines if the new amount would differ from the existing award by at least 15 percent or $50, whichever is greater.",
+     "exceptions": [
+      "A court cannot order a parent to pay college expenses absent the parent's agreement, but a contractual promise to pay is enforceable",
+      "Past-due installments are vested; a modification can be retroactive only to the date the modification petition was filed",
+      "In an initial action, the court may award retroactive support for up to 24 months before the petition was filed"
+     ],
+     "authority": "Fla. Stat. §§ 61.13(1)(a), 61.14, 61.30(1)(b), 61.30(17), 743.07(2)"
+    },
+    {
+     "id": "fl-family-law.children.relocation",
+     "title": "Parental relocation",
+     "weight": 3,
+     "rule": "A relocation is a change in a parent's principal residence of at least 50 miles from the residence at the time of the last order (or the filing of the pending action) for at least 60 consecutive days, not counting temporary absences for vacation, education or health care. A parent may relocate by written agreement of the parents (ratified by the court), or by filing and serving a sworn petition to relocate; if the other parent does not file a timely sworn objection, the relocation is presumed to be in the child's best interests.",
+     "elements": [
+      "Petition contents: the new address (or city and state if not known), mailing address, phone number, date of the move, detailed reasons (attach any written job offer), a proposed revised time-sharing schedule and transportation plan, and the statutory capitalized notice to object within 20 days",
+      "At trial the relocating parent must prove by a preponderance that relocation is in the child's best interests; if so, the burden shifts to the other parent to show by a preponderance that it is not",
+      "Statutory factors include each parent's relationship with the child, the child's age and needs, whether the relationship with the other parent can be preserved, the child's preference, whether the move improves quality of life for parent and child, reasons for seeking or opposing the move, good faith, and any history of substance abuse or domestic violence"
+     ],
+     "trap": "There is no presumption for or against relocation once a timely objection is filed. Moving without following the statute can be held against the relocating parent and may support contempt or an order to return the child.",
+     "authority": "Fla. Stat. § 61.13001"
+    }
+   ]
+  },
+  {
+   "id": "fl-family-law.interstate-jurisdiction",
+   "title": "Interstate custody and support jurisdiction (UCCJEA and UIFSA)",
+   "weight": 2,
+   "exams": [
+    "FL"
+   ],
+   "intro": "When parents live in different states, two uniform acts decide which court may act. The UCCJEA (Part II of Chapter 61) controls time-sharing and parental responsibility, giving priority to the child's home state; UIFSA (Chapter 88) controls child support, keeping a support order with the issuing state while anyone remains there.",
+   "rules": [
+    {
+     "id": "fl-family-law.interstate-jurisdiction.uccjea-initial",
+     "title": "UCCJEA initial jurisdiction: home state first",
+     "weight": 3,
+     "rule": "A Florida court may make an initial child custody determination only if Florida is the child's home state on the date the proceeding begins, or was the home state within six months before and a parent or person acting as a parent still lives in Florida. Only if no state has home-state jurisdiction (or the home state declines) may a court act on significant-connection jurisdiction, and after that on more-appropriate-forum or default grounds.",
+     "elements": [
+      "Home state: where the child lived with a parent or person acting as a parent for at least 6 consecutive months immediately before the proceeding began (for a child under 6 months, since birth)",
+      "Temporary absences count as time in the state",
+      "Significant connection: the child and at least one parent have a significant connection with the state and substantial evidence about the child is there"
+     ],
+     "tip": "Personal jurisdiction over the absent parent is not required for a custody determination, but that parent must receive notice and an opportunity to be heard.",
+     "trap": "The child's physical presence in Florida, or the presence of one parent, is not enough by itself; count the six months.",
+     "authority": "Fla. Stat. §§ 61.503, 61.514"
+    },
+    {
+     "id": "fl-family-law.interstate-jurisdiction.uccjea-continuing-emergency",
+     "title": "UCCJEA continuing, modification and emergency jurisdiction",
+     "weight": 3,
+     "rule": "The state that made the initial custody determination keeps exclusive, continuing jurisdiction until a court of that state finds that neither the child nor the child and one parent have a significant connection there and substantial evidence is no longer available there, or a court finds that the child and both parents no longer live in that state. Florida may not modify another state's custody order unless the issuing state has lost or declined exclusive, continuing jurisdiction and Florida would have initial jurisdiction.",
+     "exceptions": [
+      "Temporary emergency jurisdiction: a Florida court may enter a temporary order if the child is present in Florida and has been abandoned or an emergency order is necessary to protect the child (or a sibling or parent) from mistreatment or abuse",
+      "A court with jurisdiction may decline it as an inconvenient forum or because the petitioner engaged in unjustifiable conduct (such as wrongfully removing the child)"
+     ],
+     "trap": "Moving the child to Florida and waiting six months does not let Florida modify another state's order while a parent still lives in the issuing state.",
+     "authority": "Fla. Stat. §§ 61.515–.517, 61.520–.521"
+    },
+    {
+     "id": "fl-family-law.interstate-jurisdiction.uifsa",
+     "title": "UIFSA: one controlling support order",
+     "weight": 2,
+     "rule": "A state that issues a child support order keeps continuing, exclusive jurisdiction to modify it as long as the obligor, the individual obligee, or the child lives in that state, unless the parties consent in a record to another state taking over. Another state may enforce the order after registration, but may modify it only if no party or child still lives in the issuing state (and the moving party is a nonresident of the forum) or the parties consent.",
+     "exceptions": [
+      "The duration of the support obligation is governed by the law of the state that issued the initial controlling order and cannot be extended by a modifying state",
+      "Florida can exercise long-arm jurisdiction over a nonresident obligor on the bases the act lists, such as the child residing in Florida because of the obligor's acts or the obligor's sexual intercourse in Florida that may have resulted in conception"
+     ],
+     "trap": "UIFSA, not the UCCJEA, governs support. A Florida court that has custody jurisdiction may still lack jurisdiction to modify another state's support order.",
+     "authority": "Fla. Stat. ch. 88 (Uniform Interstate Family Support Act)"
+    }
+   ]
+  },
+  {
+   "id": "fl-family-law.agreements-and-protection",
+   "title": "Premarital agreements and domestic violence",
+   "weight": 2,
+   "exams": [
+    "FL"
+   ],
+   "intro": "Florida's version of the Uniform Premarital Agreement Act governs agreements made in contemplation of marriage, with Florida adding fraud, duress, coercion and overreaching as defenses. Postnuptial and settlement agreements are tested under case law. Protective injunctions under Chapters 741 and 784 frequently appear as a side issue in family fact patterns.",
+   "rules": [
+    {
+     "id": "fl-family-law.agreements-and-protection.premarital-formation",
+     "title": "Premarital agreements: formation and scope",
+     "weight": 3,
+     "rule": "A premarital agreement must be in writing and signed by both parties, and it becomes effective on marriage; no consideration is required. The parties may contract about property rights, disposition of property on separation, dissolution or death, modification or elimination of spousal support, wills and trusts, life-insurance death benefits, choice of law, and any other matter that does not violate public policy or a criminal statute.",
+     "exceptions": [
+      "A premarital agreement may not adversely affect a child's right to support",
+      "Time-sharing and parental responsibility remain subject to the court's best-interests review"
+     ],
+     "tip": "The statute applies to premarital agreements executed on or after October 1, 2007; earlier agreements are judged under prior case law.",
+     "authority": "Fla. Stat. § 61.079"
+    },
+    {
+     "id": "fl-family-law.agreements-and-protection.premarital-enforcement",
+     "title": "Premarital agreements: when they are unenforceable",
+     "weight": 3,
+     "rule": "A premarital agreement is unenforceable if the challenging party proves that (a) he or she did not execute it voluntarily, (b) it was the product of fraud, duress, coercion or overreaching, or (c) it was unconscionable when executed and, before execution, the challenging party was not given fair and reasonable disclosure of the other's property and financial obligations, did not voluntarily and expressly waive in writing any further disclosure, and did not have and reasonably could not have had adequate knowledge of the other's finances.",
+     "exceptions": [
+      "If an agreement's modification or elimination of spousal support would leave a party eligible for public assistance at separation or dissolution, the court may require the other party to provide support to the extent needed to avoid that eligibility"
+     ],
+     "trap": "Unconscionability alone is not enough. Under prong (c) the challenger must also show all three disclosure failures; a signed written waiver of further disclosure defeats the claim.",
+     "split": "The Uniform Act lists only involuntariness and unconscionability-plus-nondisclosure; Florida added fraud, duress, coercion and overreaching as independent grounds.",
+     "authority": "Fla. Stat. § 61.079(7)"
+    },
+    {
+     "id": "fl-family-law.agreements-and-protection.postnuptial-and-settlement",
+     "title": "Postnuptial and marital settlement agreements",
+     "weight": 2,
+     "rule": "A postnuptial or marital settlement agreement may be set aside if it was reached through fraud, deceit, duress, coercion, misrepresentation or overreaching. It may also be challenged as unfair or unreasonable to the challenging spouse given the circumstances; once that is shown, a presumption of concealment arises and the defending spouse must prove full, frank disclosure or that the challenger had general and approximate knowledge of the defending spouse's assets and income.",
+     "tip": "Alimony provisions in a settlement agreement are generally modifiable under § 61.14 unless the agreement clearly makes them nonmodifiable or part of the property settlement; child-related provisions are always subject to the court's best-interests review.",
+     "authority": "Casto v. Casto, 508 So. 2d 330 (Fla. 1987); Fla. Stat. § 61.14"
+    },
+    {
+     "id": "fl-family-law.agreements-and-protection.death-waivers",
+     "title": "Waiving spousal rights at death",
+     "weight": 2,
+     "rule": "Spouses may waive elective share, intestate share, pretermitted-spouse share, homestead, exempt property, family allowance and preference in appointment by a written contract signed by the waiving party in the presence of two subscribing witnesses. Fair disclosure of the other spouse's estate is required if the waiver is signed after the marriage, but no disclosure is required for a waiver signed before the marriage.",
+     "trap": "The no-disclosure rule for death waivers in a premarital agreement differs from the dissolution analysis under § 61.079, where lack of disclosure can matter. An agreement can be enforceable at death yet open to challenge on divorce, or vice versa.",
+     "authority": "Fla. Stat. § 732.702"
+    },
+    {
+     "id": "fl-family-law.agreements-and-protection.dv-standing",
+     "title": "Domestic violence injunctions: who may petition",
+     "weight": 3,
+     "rule": "A family or household member who is the victim of domestic violence, or who has reasonable cause to believe he or she is in imminent danger of becoming a victim, may petition for an injunction. Domestic violence means assault, aggravated assault, battery, aggravated battery, sexual assault, sexual battery, stalking, aggravated stalking, kidnapping, false imprisonment, or any criminal offense resulting in physical injury or death, committed by one family or household member against another.",
+     "elements": [
+      "Family or household members: spouses, former spouses, persons related by blood or marriage, persons who live or have lived together as a family, and persons who have a child in common whether or not they ever married",
+      "Except for parents of a child in common, the parties must currently live or have lived together in the same single dwelling unit"
+     ],
+     "trap": "A dating partner who never lived with the petitioner and has no child in common is not a 'family or household member'; the remedy is a dating violence injunction under § 784.046.",
+     "authority": "Fla. Stat. §§ 741.28, 741.30(1)"
+    },
+    {
+     "id": "fl-family-law.agreements-and-protection.dv-procedure",
+     "title": "Domestic violence injunctions: procedure and relief",
+     "weight": 2,
+     "rule": "If the sworn petition shows an immediate and present danger of domestic violence, the court may issue an ex parte temporary injunction lasting no more than 15 days and must set a full hearing within that period (it may be continued for good cause). After notice and hearing, the court may enter a final injunction that restrains violence, excludes the respondent from the shared home, sets temporary time-sharing and temporary support, and requires the respondent to surrender firearms and ammunition.",
+     "exceptions": [
+      "No filing fee or bond may be required, and the petitioner need not be represented by counsel",
+      "The court may not issue mutual injunctions; each party who seeks protection must file and prove a separate petition"
+     ],
+     "tip": "Violating an injunction is a crime and may be enforced by civil or criminal contempt.",
+     "authority": "Fla. Stat. §§ 741.30, 741.31, 790.233"
+    },
+    {
+     "id": "fl-family-law.agreements-and-protection.other-injunctions",
+     "title": "Repeat, dating and sexual violence and stalking injunctions",
+     "weight": 2,
+     "rule": "Florida also authorizes injunctions against repeat violence, dating violence, sexual violence and stalking for petitioners who do not fit the domestic violence definition. Repeat violence requires two incidents of violence or stalking against the petitioner or the petitioner's immediate family, one of them within six months before filing; dating violence requires a continuing relationship of a romantic or intimate nature within the past six months.",
+     "elements": [
+      "Dating relationship: an expectation of affection or sexual involvement, and frequent, continuous interaction over time",
+      "A casual acquaintance or ordinary business or social contact is not a dating relationship",
+      "Sexual violence: a single incident can suffice if it was reported to law enforcement and the petitioner is cooperating (or the offender has been released from incarceration for it)"
+     ],
+     "authority": "Fla. Stat. §§ 784.046, 784.0485"
+    }
+   ]
+  },
+  {
+   "id": "fl-family-law.dependency",
+   "title": "Dependency (Chapter 39)",
+   "weight": 2,
+   "exams": [
+    "FL"
+   ],
+   "intro": "Chapter 39 governs the State's intervention when a child is abused, abandoned or neglected: the hotline report, removal and the 24-hour shelter hearing, adjudication, the case plan, permanency, and termination of parental rights. Track the standard of proof at each stage: probable cause for shelter, preponderance for dependency, clear and convincing evidence for termination.",
+   "rules": [
+    {
+     "id": "fl-family-law.dependency.dependent-child",
+     "title": "Who is a dependent child",
+     "weight": 2,
+     "rule": "A dependent child includes a child the court finds has been abandoned, abused or neglected by a parent or legal custodian, has no parent or legal custodian capable of providing supervision and care, or is at substantial risk of imminent abuse, abandonment or neglect. Abuse is a willful act or threatened act causing physical, mental or sexual injury or harm that significantly impairs or is likely to significantly impair the child's physical, mental or emotional health; neglect is depriving the child of (or allowing the child to be deprived of) necessary food, clothing, shelter or medical treatment, or permitting an environment that significantly impairs or endangers the child's health.",
+     "exceptions": [
+      "Deprivation caused primarily by financial inability is not neglect unless services to relieve it were offered and refused",
+      "Reasonable corporal discipline that does not cause harm of the kind the statute describes is not abuse by itself"
+     ],
+     "tip": "Prospective neglect or abuse is enough: a parent's conduct toward one child can support dependency of a sibling if it shows a substantial risk to that sibling.",
+     "authority": "Fla. Stat. § 39.01"
+    },
+    {
+     "id": "fl-family-law.dependency.mandatory-reporting",
+     "title": "Everyone must report",
+     "weight": 2,
+     "rule": "Any person who knows or has reasonable cause to suspect that a child is abused, abandoned or neglected by a parent, legal custodian or caregiver must report it immediately to the Department of Children and Families' central abuse hotline. Knowingly and willfully failing to report is a third-degree felony.",
+     "exceptions": [
+      "In proceedings involving known or suspected abuse, the spousal privilege and the privileges of professionals such as physicians and psychotherapists do not apply, but the attorney-client privilege and the clergy privilege still do"
+     ],
+     "trap": "Florida's duty is universal; it is not limited to teachers, doctors and other listed professionals (who must also give their names when reporting).",
+     "authority": "Fla. Stat. §§ 39.201, 39.204, 39.205"
+    },
+    {
+     "id": "fl-family-law.dependency.shelter",
+     "title": "Removal and the shelter hearing",
+     "weight": 3,
+     "rule": "A law enforcement officer or authorized agent of the Department may take a child into custody without a court order when there is probable cause that the child has been abused, neglected or abandoned or is in imminent danger of illness or injury from it. A child may not be held in shelter for more than 24 hours without a court order entered after a shelter hearing, at which the court decides whether probable cause supports continued shelter and whether reasonable efforts were made to prevent removal.",
+     "elements": [
+      "Parents receive notice and are advised of their right to counsel; the court appoints counsel for indigent parents",
+      "The court considers placement with a relative or other suitable adult before licensed foster care",
+      "If shelter continues, the dependency petition must be filed promptly (within 21 days of the shelter hearing)"
+     ],
+     "authority": "Fla. Stat. §§ 39.401, 39.402, 39.501"
+    },
+    {
+     "id": "fl-family-law.dependency.adjudication",
+     "title": "Dependency petition and adjudicatory hearing",
+     "weight": 2,
+     "rule": "The petition for dependency must allege specific facts showing the child is dependent. The adjudicatory hearing is held before the judge without a jury, and the Department must prove dependency by a preponderance of the evidence. Parents have a right to counsel at every stage, and a guardian ad litem is appointed to represent the child's best interests.",
+     "tip": "After adjudication, the court holds a disposition hearing at which it approves a case plan and decides placement.",
+     "trap": "There is no jury trial in dependency or termination proceedings.",
+     "authority": "Fla. Stat. §§ 39.013, 39.501, 39.507, 39.822"
+    },
+    {
+     "id": "fl-family-law.dependency.case-plan-and-permanency",
+     "title": "Case plans, reviews and permanency",
+     "weight": 2,
+     "rule": "The Department must prepare a case plan, developed with the parents when possible, that identifies the problems requiring intervention, the tasks and services each parent must complete, and the permanency goal. The court reviews the case at least every six months and must hold a permanency hearing no later than 12 months after the child was removed from the home.",
+     "elements": [
+      "Permanency goals, in order of preference: reunification; adoption (after termination of parental rights); permanent guardianship; permanent placement with a fit and willing relative; another planned permanent living arrangement"
+     ],
+     "exceptions": [
+      "Reasonable efforts to reunify are not required in certain aggravated situations, such as egregious abuse or the involuntary termination of rights to a sibling"
+     ],
+     "authority": "Fla. Stat. §§ 39.6011, 39.621, 39.701"
+    },
+    {
+     "id": "fl-family-law.dependency.tpr-grounds",
+     "title": "Grounds for termination of parental rights",
+     "weight": 2,
+     "rule": "Parental rights may be terminated only on a statutory ground. Common grounds include voluntary written surrender; abandonment; conduct toward the child or another child showing that continued involvement threatens the child regardless of services; lengthy or particular incarceration; egregious conduct; aggravated child abuse, sexual battery or chronic abuse; a prior involuntary termination as to a sibling; and continued abuse, neglect or abandonment after adjudication with a case plan.",
+     "elements": [
+      "Failure to substantially comply with the case plan for 12 months after adjudication or shelter placement (whichever is first) is evidence of continuing abuse, neglect or abandonment",
+      "Noncompliance caused by lack of financial resources, or by the Department's failure to make reasonable efforts, does not count"
+     ],
+     "authority": "Fla. Stat. § 39.806(1)"
+    },
+    {
+     "id": "fl-family-law.dependency.tpr-standard",
+     "title": "Termination: proof, best interests and least restrictive means",
+     "weight": 3,
+     "rule": "To terminate parental rights the Department must prove, each by clear and convincing evidence, (1) at least one statutory ground, (2) that termination is in the manifest best interests of the child under the statutory factors, and (3) that termination is the least restrictive means of protecting the child from serious harm.",
+     "elements": [
+      "Manifest best interests factors include the child's safety and well-being, the parent's capacity to care for the child, the child's bond with the parent and with the current caregiver, the child's preferences, and the likelihood of an older child remaining in long-term foster care",
+      "Least restrictive means ordinarily requires that the Department first offered the parent services or a case plan, unless the conduct was so egregious that services would be futile"
+     ],
+     "trap": "A preponderance of the evidence is enough for dependency but not for termination; due process requires clear and convincing evidence.",
+     "authority": "Fla. Stat. §§ 39.806, 39.809, 39.810; Padgett v. Dep't of Health & Rehab. Servs., 577 So. 2d 565 (Fla. 1991); Santosky v. Kramer, 455 U.S. 745 (1982)"
+    }
+   ]
+  }
+ ]
+}

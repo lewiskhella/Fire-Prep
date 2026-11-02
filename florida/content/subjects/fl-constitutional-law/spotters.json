@@ -1,0 +1,242 @@
+{
+  "subject": "fl-constitutional-law",
+  "spotters": [
+    {
+      "id": "fl-constitutional-law.s01",
+      "title": "The Coastal Resilience Act",
+      "intro": "A new state law on seawalls runs into several Florida constitutional limits. Flag each issue, and watch for facts that only look like problems.",
+      "segments": [
+        {
+          "t": "In 2026 the Legislature passed a bill titled 'An act relating to coastal resilience.' Section 1 creates a Coastal Resilience Office within the Department of Environmental Protection to set statewide seawall standards and to award grants to coastal counties. "
+        },
+        {
+          "t": "Section 2 raises the fees for freshwater fishing licenses. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "Section 3 provides that 'all engineering reports of the Office are confidential and exempt from public inspection'; the bill contains no statement of why the exemption is needed. ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "Section 4 appropriates $50 million for seawall grants, 'provided that no grant may be made to a county that has not adopted the Office's standards.' ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "Section 5 declares that the regulation of seawall height is preempted to the state. ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "The bill was read in each house on three separate days "
+        },
+        {
+          "t": "and passed 85 to 33 in the House and 30 to 10 in the Senate. ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "The Legislature adjourned sine die the day after the bill was presented to the governor. "
+        },
+        {
+          "t": "Twelve days after presentation, the governor signed the bill after striking out the proviso in Section 4, explaining that he wanted every county to be eligible for grants. ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "The Office's three-member advisory panel, whose recommendations the Office's director adopts as the official seawall standards, later settled those recommendations on an unnoticed video call. ",
+          "issues": [
+            "d"
+          ]
+        },
+        {
+          "t": "When a waterfront homeowner whose permit was denied challenged the Office's reading of the statutory term 'shoreline structure,' the administrative law judge upheld it as 'a reasonable interpretation entitled to deference.' ",
+          "issues": [
+            "e"
+          ]
+        },
+        {
+          "t": "Meanwhile, Pelican County, citing recent storm surges, adopted an ordinance requiring seawalls in the county to be two feet higher than the Office's standard. ",
+          "issues": [
+            "f"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Single subject and title",
+          "rules": [
+            "fl-constitutional-law.legislature.single-subject"
+          ],
+          "explain": "Article III, § 6 requires every law to embrace one subject and matter properly connected with it, briefly expressed in the title. Freshwater fishing-license fees have no natural or logical connection to coastal resilience, so the act violates the rule and is vulnerable as a whole until the Legislature reenacts it in the biennial adoption of the Florida Statutes."
+        },
+        {
+          "id": "b",
+          "label": "Public records exemption requirements",
+          "rules": [
+            "fl-constitutional-law.declaration-of-rights.public-records-and-meetings"
+          ],
+          "explain": "An exemption from the constitutional right of access needs a general law passed by two-thirds of each house, and these votes clear that bar. But the law must also state with specificity the public necessity for the exemption, be no broader than necessary, and contain only exemptions and enforcement provisions on one subject. A blanket exemption with no necessity statement, buried in a substantive bill, fails all three."
+        },
+        {
+          "id": "c",
+          "label": "Item veto outside a general appropriations bill",
+          "rules": [
+            "fl-constitutional-law.legislature.appropriations-and-line-item-veto",
+            "fl-constitutional-law.legislature.passage-and-veto"
+          ],
+          "explain": "The governor may veto specific appropriations only in a general appropriations bill, and even there may not veto a qualification or restriction without the appropriation it limits. This is a substantive act, so the governor had to approve or veto it as a whole, and striking only the proviso was ineffective. His timing was fine: with the Legislature adjourned sine die, he had 15 days from presentation."
+        },
+        {
+          "id": "d",
+          "label": "Sunshine requirements for an advisory panel",
+          "rules": [
+            "fl-constitutional-law.declaration-of-rights.public-records-and-meetings"
+          ],
+          "explain": "Article I, § 24(b) and the Sunshine Law reach collegial bodies of the executive branch, including advisory boards whose recommendations form part of the decision-making process (Town of Palm Beach v. Gradison). Settling the panel's recommendations on an unnoticed call violated the open-meetings requirement, and action taken there is void unless cured by later full and open action."
+        },
+        {
+          "id": "e",
+          "label": "No deference to the agency's reading",
+          "rules": [
+            "fl-constitutional-law.judiciary.agency-deference"
+          ],
+          "explain": "Article V, § 21 forbids a state court or an administrative law judge to defer to an agency's interpretation of a statute or rule; the judge must decide the meaning de novo. Upholding the Office's reading because it was 'reasonable' is error."
+        },
+        {
+          "id": "f",
+          "label": "Express state preemption of a local ordinance",
+          "rules": [
+            "fl-constitutional-law.local-government-and-finance.preemption-and-conflict"
+          ],
+          "explain": "Section 5 expressly preempts seawall-height regulation to the state, so a county ordinance on that subject is invalid even if it could coexist with the state standard. The preemption, of course, stands or falls with the act itself if the single-subject challenge succeeds."
+        }
+      ]
+    },
+    {
+      "id": "fl-constitutional-law.s02",
+      "title": "An Eventful Election Year",
+      "intro": "A year of executive orders, appeals and ballot fights. Flag each Florida constitutional law issue, and watch for facts that only look like problems.",
+      "segments": [
+        {
+          "t": "Early in the year, a citizens' group filed enough signatures for an initiative amendment that would raise the state minimum wage and would also require the Florida Supreme Court to hear any appeal filed by a worker in a wage case. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "Its 70-word ballot summary describes only the wage increase. ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "In the advisory-opinion proceeding, the Attorney General urged the Supreme Court to keep the measure off the ballot because it would hurt small businesses. ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "In March, the governor issued an executive order, filed with the custodian of state records, suspending the elected county property appraiser for incompetence, citing a state audit that found hundreds of valuation errors, and appointed a replacement. ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "The same month, the governor and the Attorney General signed a full pardon for the governor's former campaign aide; the Chief Financial Officer and the Commissioner of Agriculture refused to join. ",
+          "issues": [
+            "d"
+          ]
+        },
+        {
+          "t": "A vacancy on the Supreme Court arose in April. The nominating commission certified four names on May 1, and the governor appointed one of them on June 15. "
+        },
+        {
+          "t": "Later, a district court of appeal affirmed a trial-court ruling against the appraiser's office with the single word 'Affirmed,' and the office petitioned the Supreme Court to review the decision for conflict with a decision of another district. ",
+          "issues": [
+            "e"
+          ]
+        },
+        {
+          "t": "A bank holding a judgment against the suspended appraiser for unpaid credit-card debt then levied on her home, a house on a one-acre lot inside the city limits of Lake Ibis. ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "In November, the wage initiative appeared on the ballot and received 58% of the votes cast on it. ",
+          "issues": [
+            "g"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Initiative single-subject rule",
+          "rules": [
+            "fl-constitutional-law.amendment.initiative-requirements"
+          ],
+          "explain": "A citizen initiative must embrace one subject and matter directly connected with it (Art. XI, § 3), a stricter test than the rule for legislation. Pairing a wage increase with a change to the Supreme Court's jurisdiction joins unrelated subjects and alters the functions of more than one branch, so the proposal likely fails single-subject review (Fine v. Firestone)."
+        },
+        {
+          "id": "b",
+          "label": "Scope of ballot review and a misleading summary",
+          "rules": [
+            "fl-constitutional-law.amendment.ballot-review"
+          ],
+          "explain": "The Court reviews single subject, whether the title and summary state the chief purpose clearly without misleading voters (§ 101.161), and, under a 2020 statute, facial validity under the U.S. Constitution. A summary that omits the change to the Court's jurisdiction hides a material effect, but the Attorney General's economic objection goes to the measure's wisdom, which the Court does not review. The 70-word length is within the 75-word limit."
+        },
+        {
+          "id": "c",
+          "label": "Suspension of a county officer",
+          "rules": [
+            "fl-constitutional-law.executive.suspension"
+          ],
+          "explain": "The governor may suspend a county officer, such as a property appraiser, by a filed executive order stating a constitutional ground like incompetence, and may fill the office during the suspension; the Senate then removes or reinstates. Judicial review asks only whether the order alleges facts reasonably related to that ground (Israel v. DeSantis), and the audit findings meet that test."
+        },
+        {
+          "id": "d",
+          "label": "Pardon without two Cabinet approvals",
+          "rules": [
+            "fl-constitutional-law.executive.clemency"
+          ],
+          "explain": "A full pardon requires the governor's action with the approval of two members of the Cabinet (Art. IV, § 8(a)). With only the Attorney General approving, the pardon is invalid."
+        },
+        {
+          "id": "e",
+          "label": "Conflict review of a citation-free affirmance",
+          "rules": [
+            "fl-constitutional-law.judiciary.supreme-court-discretionary"
+          ],
+          "explain": "Conflict jurisdiction requires a district court decision that expressly and directly conflicts with another decision on the same question of law. A per curiam affirmance without opinion cannot meet that test (Jenkins v. State), so the Supreme Court lacks jurisdiction."
+        },
+        {
+          "id": "f",
+          "label": "Homestead acreage inside a municipality",
+          "rules": [
+            "fl-constitutional-law.homestead-and-property.forced-sale-exemption"
+          ],
+          "explain": "Homestead inside a municipality is exempt from forced sale only up to one-half acre of contiguous land (Art. X, § 4(a)), and credit-card debt is not one of the excepted obligations. The house and half an acre are protected, but the bank may be able to reach the land beyond the protected half acre."
+        },
+        {
+          "id": "g",
+          "label": "The 60% approval requirement",
+          "rules": [
+            "fl-constitutional-law.amendment.approval"
+          ],
+          "explain": "An amendment is adopted only if at least 60% of the voters voting on the measure approve it (Art. XI, § 5(e)). At 58%, the wage initiative fails even though it won a majority."
+        }
+      ]
+    }
+  ]
+}

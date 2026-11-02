@@ -1,0 +1,368 @@
+{
+  "subject": "fl-business-entities",
+  "questions": [
+    {
+      "id": "fl-business-entities.q001",
+      "topic": "fl-business-entities.corporations",
+      "rules": [
+        "fl-business-entities.corporations.veil-piercing"
+      ],
+      "difficulty": 2,
+      "stem": "Dorian is the sole shareholder, director and officer of Gulfline Charters, Inc., a Florida corporation he formed with $1,000 of capital to run a single fishing boat. Gulfline never held annual meetings, and Dorian sometimes paid his home utility bills from the company account, always reimbursing it. A customer was injured when the boat's railing gave way, obtained a $400,000 judgment against Gulfline, and found that Gulfline's only asset, the boat, had been sold by a lender. There is no evidence that Dorian moved money out of Gulfline to avoid creditors or used the company to mislead anyone.",
+      "call": "Can the customer hold Dorian personally liable for the judgment by piercing the corporate veil?",
+      "choices": [
+        "Yes, because Gulfline was grossly undercapitalized for a business that foreseeably could injure customers.",
+        "No, because Florida requires proof that the corporate form was used for a fraudulent or improper purpose that caused the injury, and there is none.",
+        "Yes, because Dorian dominated Gulfline, ignored corporate formalities and commingled funds.",
+        "No, because a shareholder can never be personally liable for a corporation's tort judgment."
+      ],
+      "answer": 1,
+      "explanation": "Florida pierces the veil only when the claimant proves (1) domination and control so complete that the corporation was the shareholder's mere instrumentality, (2) use of the corporate form for a fraudulent or improper purpose, and (3) causation (Dania Jai-Alai Palace v. Sykes). Dorian's domination, thin capitalization and occasional commingling go to the first element at most. Without improper conduct such as stripping assets to defeat creditors, the corporate shield holds.",
+      "whyNot": [
+        "Undercapitalization is relevant to domination, but in Florida it does not by itself justify piercing; improper conduct is required.",
+        "",
+        "Domination, informality and commingling satisfy only the instrumentality element. Florida also requires a fraudulent or improper use of the corporate form that caused the loss.",
+        "Too absolute: a shareholder can be liable if the veil-piercing test is met, or for the shareholder's own tortious conduct."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q002",
+      "topic": "fl-business-entities.corporations",
+      "rules": [
+        "fl-business-entities.corporations.duty-of-care"
+      ],
+      "difficulty": 2,
+      "stem": "The five-member board of Palmetto Grove Supply, Inc., a Florida corporation whose articles say nothing about director liability, approved the purchase of a competitor at a 30-minute meeting. The directors read only a two-page summary from the CEO, asked no questions, and did not obtain a valuation. None of the directors had any financial interest in the deal. The acquisition lost the corporation $2 million. A shareholder, after making a proper demand that was rejected, brings a derivative action seeking money damages from the directors for breach of the duty of care.",
+      "call": "What is the directors' strongest defense?",
+      "choices": [
+        "The articles of incorporation did not expressly impose liability on directors for negligent decisions.",
+        "The business judgment rule bars all review of a board decision made at a duly convened meeting.",
+        "Under § 607.0831 they are not personally liable for damages unless the breach amounted to conscious disregard of the corporation's best interests or willful or intentional misconduct, or fell within another statutory category.",
+        "A derivative plaintiff may recover only equitable relief, not money damages, against directors."
+      ],
+      "answer": 2,
+      "explanation": "Florida's § 607.0831 automatically shields directors from monetary liability for any decision or failure to act unless the director breached a duty and the breach falls within a listed category: a crime, an improper personal benefit, an unlawful distribution, conscious disregard or willful or intentional misconduct (in a suit by or for the corporation or by a shareholder), or recklessness or bad faith (in a third-party suit). A hasty, poorly informed decision by disinterested directors is negligent at worst, so the shield applies. No charter provision is required.",
+      "whyNot": [
+        "Liability does not depend on the articles imposing it; the point is that Florida's shield is statutory and applies even though the articles are silent.",
+        "The business judgment rule is a presumption, not an absolute bar; it can be rebutted, for example, by self-dealing or bad faith.",
+        "",
+        "Derivative actions may seek damages payable to the corporation; the obstacle here is the statutory shield, not the form of relief."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q003",
+      "topic": "fl-business-entities.corporations",
+      "rules": [
+        "fl-business-entities.corporations.shareholder-voting"
+      ],
+      "difficulty": 2,
+      "stem": "Seabreeze Tile, Inc., a Florida corporation, has 1,000 voting shares held by ten shareholders. Its articles and bylaws say nothing about shareholder action without a meeting. Holders of 620 shares signed and delivered written consents approving an amendment to the articles that, at a meeting, would require approval by a majority of the votes cast in favor exceeding those cast against. Holders of the other 380 shares were not asked to sign. The corporation then sent written notice of the approved action to the non-consenting shareholders. One of them sues, claiming the amendment was never validly approved.",
+      "call": "How should the court rule?",
+      "choices": [
+        "The amendment was validly approved, because Florida allows shareholder action by written consent of holders of the votes needed to approve the action at a meeting, unless the articles provide otherwise.",
+        "The amendment is invalid, because shareholder action without a meeting requires the written consent of all shareholders entitled to vote.",
+        "The amendment is invalid, because an amendment to the articles may be approved only at an annual meeting.",
+        "The amendment was validly approved, but only because the non-consenting shareholders failed to object within 10 days."
+      ],
+      "answer": 0,
+      "explanation": "Under § 607.0704, unless the articles provide otherwise, Florida shareholders may act without a meeting by written consent of holders of not less than the minimum votes needed to take the action at a meeting at which all shares entitled to vote were present. Holders of 620 of 1,000 shares exceed that minimum. The corporation must give notice to non-consenting shareholders, which it did. This is a key departure from the MBCA's unanimous-consent default.",
+      "whyNot": [
+        "",
+        "Unanimity is the MBCA default and the Florida rule for board action without a meeting, but Florida shareholders may act by less-than-unanimous written consent unless the articles restrict it.",
+        "Nothing limits amendments to annual meetings; they may be approved at a special meeting or by written consent.",
+        "Validity does not turn on the non-consenting shareholders' failure to object; the notice requirement informs them, but it does not create an objection period that validates the action."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q004",
+      "topic": "fl-business-entities.shareholder-remedies-and-fundamental-changes",
+      "rules": [
+        "fl-business-entities.shareholder-remedies-and-fundamental-changes.derivative-suits"
+      ],
+      "difficulty": 2,
+      "stem": "Lena has owned shares of Harborview Marine Corp., a Florida corporation, for six years. She learns that all three directors approved a contract to buy fuel at above-market prices from a company they jointly own. Convinced that a demand would be pointless because the directors would be asked to sue themselves, Lena immediately files a verified derivative complaint on the corporation's behalf without first contacting the board. Nothing suggests the corporation would suffer irreparable injury if the suit were delayed. The directors move to dismiss.",
+      "call": "How should the court rule on the motion?",
+      "choices": [
+        "Deny it, because demand is excused as futile when a majority of the board is interested in the challenged transaction.",
+        "Deny it, because demand is required only when the plaintiff acquired her shares after the challenged transaction.",
+        "Grant it, because a shareholder may not sue directors for a transaction the board approved.",
+        "Grant it, because Florida requires a written demand on the corporation and expiration of 90 days (absent earlier rejection or threatened irreparable injury) before filing."
+      ],
+      "answer": 3,
+      "explanation": "Florida follows the universal-demand rule. A shareholder may not commence a derivative proceeding until a written demand has been made on the corporation and 90 days have passed, unless the shareholder is notified earlier that the demand was rejected or irreparable injury to the corporation would result from waiting. Futility does not excuse demand. Lena satisfies contemporaneous ownership but skipped the demand, so the complaint should be dismissed.",
+      "whyNot": [
+        "Demand futility is the Delaware approach; Florida requires demand in every case.",
+        "Contemporaneous ownership is a separate standing requirement; demand is required of every derivative plaintiff.",
+        "Shareholders may bring derivative claims challenging board-approved self-dealing; the defect here is procedural.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-business-entities.q005",
+      "topic": "fl-business-entities.corporations",
+      "rules": [
+        "fl-business-entities.corporations.formation",
+        "fl-business-entities.corporations.promoters"
+      ],
+      "difficulty": 2,
+      "stem": "Theo planned to open a coffee bar. Before any articles of incorporation had been filed, and knowing that none had been, he signed a two-year storefront lease as 'Coquina Coffee, Inc., by Theo Marsh, President.' The landlord assumed the corporation already existed and never agreed to release Theo. Coquina Coffee, Inc. was incorporated a week later, moved into the storefront, and paid rent for six months. It then stopped paying and has no assets. The landlord sues Theo for the unpaid rent.",
+      "call": "Is Theo personally liable on the lease?",
+      "choices": [
+        "No, because the corporation adopted the lease by occupying the premises and paying rent, which released Theo.",
+        "Yes, because a person who acts for a corporation knowing it has not been formed is liable for obligations incurred while so acting to a party who did not also know, and the corporation's later adoption did not release him without a novation.",
+        "No, because Coquina Coffee, Inc. was incorporated within days and then operated as a corporation, so it was at least a de facto corporation.",
+        "Yes, but only for rent that accrued before the corporation was formed."
+      ],
+      "answer": 1,
+      "explanation": "Under § 607.0204, persons who purport to act as or on behalf of a corporation knowing that there was no incorporation are jointly and severally liable for liabilities created while so acting, except to a person who also knew there was no incorporation. Theo knew no articles had been filed and the landlord did not, so the exception does not help him; the common-law result is the same, because one who contracts for a principal he knows does not exist becomes a party to the contract. Coquina's occupancy and rent payments adopted the lease and made the corporation liable too, but adoption adds an obligor; only a novation, which the landlord never agreed to, would release Theo.",
+      "whyNot": [
+        "Adoption makes the corporation liable but does not release Theo; that requires a novation to which the landlord agrees.",
+        "",
+        "Florida keys this liability to actual knowledge that no corporation existed; a person who knew there was no incorporation is not protected by a filing made after he signed.",
+        "The lease obligation was created when Theo signed it, so his liability covers the whole lease, not just the pre-incorporation period."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q006",
+      "topic": "fl-business-entities.llcs",
+      "rules": [
+        "fl-business-entities.llcs.agency",
+        "fl-business-entities.llcs.management"
+      ],
+      "difficulty": 2,
+      "stem": "Mangrove Landscaping, LLC is a Florida LLC whose articles do not mention management. Its written operating agreement, which has never been filed or shown to outsiders, provides that 'no member may sign any purchase contract over $10,000 without the written approval of all members.' Without asking the other two members, member Rafael signed a $14,000 contract in the company's name with Sunrise Nursery for shrubs and sod, materials the company regularly buys for its projects. Sunrise had no knowledge of the operating agreement's limit. When the other members refused to pay, Sunrise sued the LLC.",
+      "call": "Is Mangrove Landscaping, LLC bound by the contract?",
+      "choices": [
+        "Yes, because Mangrove is member-managed by default, each member is its agent, and Rafael's act apparently carried on the company's ordinary business with a supplier lacking notice of the limit.",
+        "No, because under the Florida act a member is not an agent of an LLC solely by reason of being a member.",
+        "No, because Rafael violated the operating agreement, which binds anyone dealing with the company.",
+        "Yes, but only if the other members later ratify the contract."
+      ],
+      "answer": 0,
+      "explanation": "An LLC is member-managed unless the articles or operating agreement expressly say otherwise. Under § 605.04074, in a member-managed LLC each member is an agent of the company, and an act apparently carrying on the company's ordinary business binds it unless the member lacked authority and the third party knew or had notice of that. Buying landscaping materials is ordinary-course business, and Sunrise had no notice of the internal restriction. Rafael may be liable to the company for breaching the agreement, but the LLC is bound.",
+      "whyNot": [
+        "",
+        "That is the rule for members of a manager-managed LLC (and the uniform act's general rule), not for members of a Florida member-managed LLC.",
+        "An unfiled internal restriction does not bind a third party who lacks knowledge or notice of it.",
+        "Ratification is unnecessary because the contract binds the company through the member's statutory apparent authority."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q007",
+      "topic": "fl-business-entities.llcs",
+      "rules": [
+        "fl-business-entities.llcs.charging-orders"
+      ],
+      "difficulty": 3,
+      "stem": "Kendra obtained a $600,000 judgment against Owen. Owen is the only member of Sawgrass Holdings, LLC, a Florida LLC that owns a rental duplex netting about $12,000 a year, which the LLC has retained rather than distributed. Kendra obtained a charging order against Owen's interest, but no distributions have been made. Kendra presents evidence that, at the LLC's historic earnings, distributions could not satisfy the judgment for decades. She asks the court for further relief against Owen's interest in Sawgrass.",
+      "call": "What relief may the court grant?",
+      "choices": [
+        "None, because a charging order is the sole and exclusive remedy of a member's judgment creditor in every Florida LLC.",
+        "An order directing the sheriff to levy on and sell the duplex owned by the LLC.",
+        "An order of foreclosure sale of Owen's entire interest in Sawgrass, with the purchaser becoming the sole member.",
+        "An order appointing Kendra as manager of Sawgrass so that she can compel distributions."
+      ],
+      "answer": 2,
+      "explanation": "A charging order is the exclusive remedy of a member's judgment creditor, but Florida carves out single-member LLCs: if the creditor shows that distributions under a charging order will not satisfy the judgment within a reasonable time, the court may order a foreclosure sale of the debtor's entire interest, and the purchaser takes the entire interest and becomes the sole member. This exception was enacted after Olmstead v. FTC.",
+      "whyNot": [
+        "This overstates exclusivity; the statute expressly permits foreclosure of a single-member LLC interest when a charging order will not pay the judgment in a reasonable time.",
+        "The duplex belongs to the LLC, not to Owen; a member's creditor cannot reach company assets to satisfy the member's debt absent veil-piercing or fraudulent-transfer grounds.",
+        "",
+        "A charging order creditor gets distribution rights only, not management rights; courts cannot make the creditor a manager to force distributions."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q008",
+      "topic": "fl-business-entities.llcs",
+      "rules": [
+        "fl-business-entities.llcs.fiduciary-duties"
+      ],
+      "difficulty": 3,
+      "stem": "Citrus Row Imports, LLC is a Florida LLC whose articles state that it is manager-managed; its sole manager is Paloma. Nadia is a member holding a 25 percent interest and has no management role. The operating agreement is silent about competition. Nadia opens her own import business selling the same products in the same county and wins several of Citrus Row's former customers, without using any company property or confidential information. Paloma, on the company's behalf, sues Nadia for breach of the duty of loyalty.",
+      "call": "Is Nadia likely to be held liable?",
+      "choices": [
+        "Yes, because every member of a Florida LLC must refrain from competing with the company before dissolution.",
+        "Yes, because the operating agreement did not authorize Nadia to compete.",
+        "No, because the duty of loyalty in an LLC forbids only self-dealing, not competition.",
+        "No, because in a manager-managed LLC a member who is not a manager generally owes no fiduciary duties solely by reason of being a member."
+      ],
+      "answer": 3,
+      "explanation": "Under § 605.04091, the fiduciary duties of loyalty and care are owed by members of a member-managed LLC and by managers of a manager-managed LLC. A member of a manager-managed LLC who exercises no managerial authority generally owes no fiduciary duty solely by reason of being a member, although the contractual obligation of good faith and fair dealing still applies. Nadia did not use company property or information, so her competition is not a breach of loyalty.",
+      "whyNot": [
+        "The non-competition duty binds members of member-managed LLCs and managers of manager-managed LLCs; Nadia is neither a managing member nor a manager.",
+        "The operating agreement's silence does not create a duty the statute does not impose on a non-managing member.",
+        "Wrong statement of the duty: where the duty of loyalty applies, it does forbid competing with the company before dissolution.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-business-entities.q009",
+      "topic": "fl-business-entities.llcs",
+      "rules": [
+        "fl-business-entities.llcs.dissociation"
+      ],
+      "difficulty": 2,
+      "stem": "Bayfront Studio, LLC is a Florida member-managed LLC with three members. Its operating agreement says nothing about withdrawal or buyouts. After a falling-out, member Jonah sends the other members written notice that he withdraws from the company effective immediately and demands that the LLC pay him the fair value of his one-third interest within 120 days. The remaining members continue the business and refuse to pay.",
+      "call": "What is the effect of Jonah's notice?",
+      "choices": [
+        "Jonah has dissociated, the LLC must dissolve and wind up, and Jonah will share in the liquidation proceeds.",
+        "Jonah has dissociated, but the LLC is not required to buy his interest; he keeps his right to distributions as a transferee and loses his management rights.",
+        "Jonah's notice is ineffective, because a member may not withdraw unless the operating agreement permits it.",
+        "Jonah has dissociated and is entitled to a buyout of his interest at the greater of liquidation or going-concern value."
+      ],
+      "answer": 1,
+      "explanation": "A Florida LLC member has the power to dissociate at any time by express will. Under the default rules a withdrawal before the company's winding up is complete is wrongful, so Jonah may also owe damages his withdrawal causes. Dissociation ends the member's right to participate in management, and the member holds any transferable interest only as a transferee, entitled to whatever distributions the LLC makes. The LLC does not dissolve, and chapter 605 has no default buyout obligation.",
+      "whyNot": [
+        "A member's dissociation does not dissolve a Florida LLC.",
+        "",
+        "A member always has the power to dissociate by express will, even if doing so may be wrongful under the agreement.",
+        "The mandatory buyout at liquidation or going-concern value is the general-partnership rule under § 620.8701, not the LLC rule."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q010",
+      "topic": "fl-business-entities.partnerships",
+      "rules": [
+        "fl-business-entities.partnerships.formation",
+        "fl-business-entities.partnerships.liability-and-llp"
+      ],
+      "difficulty": 1,
+      "stem": "Ana and Bruno started a food truck in Tampa. They never signed any agreement or filed anything with the state; they told friends they were 'just trying something out.' Each contributed $5,000, they jointly chose the menu and locations, and they split the weekly profits equally. Bruno, without consulting Ana, bought a $20,000 commercial grill on credit for the truck. The business failed, its assets were sold for $4,000, and the grill seller is still owed $16,000.",
+      "call": "Is Ana personally liable to the grill seller for the unpaid balance?",
+      "choices": [
+        "Yes, because Ana and Bruno formed a general partnership, and partners are jointly and severally liable for partnership obligations once partnership assets are exhausted.",
+        "No, because a general partnership cannot exist without a written agreement or a filed statement.",
+        "No, because Ana did not intend to form a partnership and did not approve the purchase.",
+        "Yes, but only for half of the balance, because partners share losses equally."
+      ],
+      "answer": 0,
+      "explanation": "The association of two or more persons to carry on as co-owners a business for profit forms a partnership whether or not they intend to; sharing profits creates a presumption of partnership, and shared control confirms co-ownership. Bruno's purchase of a grill for the truck was apparently in the ordinary course, binding the partnership. Partners are jointly and severally liable for partnership obligations, and the creditor may reach Ana's personal assets after obtaining a judgment against her and exhausting partnership assets.",
+      "whyNot": [
+        "",
+        "No writing or filing is needed to form a general partnership.",
+        "Subjective intent is irrelevant, and the purchase bound the partnership under Bruno's apparent authority as a partner.",
+        "As to creditors, liability is joint and several for the full obligation; equal loss-sharing governs only the partners' rights between themselves (Ana could seek contribution from Bruno)."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q011",
+      "topic": "fl-business-entities.partnerships",
+      "rules": [
+        "fl-business-entities.partnerships.liability-and-llp"
+      ],
+      "difficulty": 2,
+      "stem": "Ortega & Vance, LLP is a Florida accounting firm that properly filed its statement of qualification as a limited liability partnership three years ago. Partner Vance negligently prepared a client's tax return, causing $900,000 in penalties. Partner Ortega had no involvement with the client and did not supervise Vance's work. The firm's assets and insurance cover only $500,000. The client sues the firm, Vance and Ortega.",
+      "call": "Which of the following is correct regarding Ortega's personal liability?",
+      "choices": [
+        "Ortega is jointly and severally liable for the full $900,000 because all partners are liable for partnership obligations.",
+        "Ortega is liable for the $400,000 shortfall after the firm's assets are exhausted.",
+        "Ortega is not personally liable, because a partner in an LLP is not liable for partnership obligations incurred while it is an LLP solely by reason of being a partner.",
+        "Ortega is liable only for his pro rata share of the shortfall."
+      ],
+      "answer": 2,
+      "explanation": "Under § 620.8306, a partner in a limited liability partnership is not personally liable, directly or by way of contribution, for a partnership obligation incurred while the partnership is an LLP solely by reason of being or acting as a partner. Florida's shield is a full shield. Vance remains liable for his own negligence, and the firm's assets are available, but Ortega's personal assets are protected because he was not personally at fault.",
+      "whyNot": [
+        "That is the general-partnership rule; the LLP filing displaces it for obligations incurred while the firm is an LLP.",
+        "Exhaustion governs collection from general partners in an ordinary partnership; it does not create liability for an LLP partner who is shielded.",
+        "",
+        "There is no pro rata liability for a shielded LLP partner, whether directly or through contribution."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q012",
+      "topic": "fl-business-entities.partnerships",
+      "rules": [
+        "fl-business-entities.partnerships.dissociation"
+      ],
+      "difficulty": 3,
+      "stem": "Four partners formed Keystone Builders, a Florida general partnership, under a written agreement stating that the partnership would continue for ten years. In year four, partner Wes announced that he was leaving to join a competitor. The remaining three partners chose to continue the business. Wes's departure forced the firm to hire a replacement estimator at a cost of $60,000 more than Wes's share of profits would have been. Wes demands immediate payment for his partnership interest.",
+      "call": "Which statement best describes Wes's rights?",
+      "choices": [
+        "Wes is entitled to immediate payment of his full interest, because every partner has the power to dissociate at any time.",
+        "Wes is entitled to nothing, because a partner who wrongfully dissociates forfeits his interest.",
+        "Wes's dissociation dissolved the partnership, so his interest will be paid only through winding up.",
+        "Wes is entitled to a buyout price reduced by damages for wrongful dissociation, but he generally need not be paid until the ten-year term expires unless he shows that earlier payment will not cause undue hardship to the business."
+      ],
+      "answer": 3,
+      "explanation": "Withdrawing by express will before the end of a definite term is wrongful dissociation. Because the remaining partners continued the business, the partnership must buy out Wes's interest at the statutory buyout price, offset by damages for the wrongful dissociation (here at least $60,000). A partner who wrongfully dissociates before the term expires is not entitled to payment until the term ends, unless he establishes to the court's satisfaction that earlier payment will not cause undue hardship to the business.",
+      "whyNot": [
+        "Wes has the power to dissociate, but not the right; wrongful dissociation delays payment and subjects him to damages.",
+        "There is no forfeiture; the wrongful dissociator still receives the buyout price minus damages.",
+        "A partner's wrongful dissociation from a term partnership dissolves it only if at least half of the remaining partners express their will to wind up within 90 days; here they chose to continue.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-business-entities.q013",
+      "topic": "fl-business-entities.partnerships",
+      "rules": [
+        "fl-business-entities.partnerships.limited-partnerships"
+      ],
+      "difficulty": 1,
+      "stem": "Lagoon Apartments, Ltd. is a Florida limited partnership formed by filing a certificate of limited partnership; it has not elected limited liability limited partnership status. Its general partner is Lagoon GP, LLC, and Mireya is one of eight limited partners. Mireya regularly attends management meetings, approves the annual budget, and helped negotiate a construction contract with Coastal Builders. Lagoon Apartments later defaulted, and Coastal sued the partnership, the general partner and Mireya.",
+      "call": "Is Mireya personally liable to Coastal?",
+      "choices": [
+        "Yes, because a limited partner who participates in control of the business is liable as a general partner.",
+        "No, because a limited partner is not personally liable for the partnership's obligations solely by reason of being a limited partner, even if she participates in management and control.",
+        "Yes, because the partnership did not elect LLLP status.",
+        "No, but only because Coastal did not reasonably believe Mireya was a general partner."
+      ],
+      "answer": 1,
+      "explanation": "Florida's limited partnership act, based on the 2001 uniform act, provides that a limited partner is not personally liable for the partnership's obligations solely by reason of being a limited partner, even if the limited partner participates in the management and control of the partnership. The old control rule is gone.",
+      "whyNot": [
+        "This is the abolished control rule from older uniform acts.",
+        "",
+        "LLLP status protects the general partner, not limited partners, who already have a shield.",
+        "Coastal's belief is irrelevant under current law; it mattered only under the old control rule."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q014",
+      "topic": "fl-business-entities.agency",
+      "rules": [
+        "fl-business-entities.agency.apparent-authority"
+      ],
+      "difficulty": 2,
+      "stem": "For five years, Delmar was purchasing manager for Pinecrest Hotels, Inc. Pinecrest sent its linen supplier, Bright Linens, a letter stating that Delmar was 'authorized to place all orders for linens on Pinecrest's account,' and Pinecrest paid every order Delmar placed. Pinecrest fired Delmar in March but never told Bright Linens. In April, Delmar, secretly planning to resell the goods for himself, placed a $30,000 order on Pinecrest's account in the usual way. Bright Linens, unaware of the firing or of Delmar's plan, manufactured custom-monogrammed linens and shipped them as Delmar directed. Pinecrest refuses to pay.",
+      "call": "Is Pinecrest liable to Bright Linens for the order?",
+      "choices": [
+        "Yes, because Pinecrest's own representation created the appearance of authority, Bright Linens relied on it, and it changed its position by manufacturing and shipping the goods.",
+        "No, because Delmar's actual authority ended when he was fired.",
+        "No, because Delmar was acting for his own benefit, not Pinecrest's.",
+        "Yes, because an agent's statement that he is authorized binds the principal until the third party learns otherwise."
+      ],
+      "answer": 0,
+      "explanation": "Florida's apparent-authority elements are (1) a representation by the principal, (2) reliance by the third party, and (3) a change of position in reliance (Mobil Oil v. Bransford). Pinecrest's letter and pattern of payment were its own manifestations; Bright Linens reasonably relied on them, lacking notice of the termination, and changed position by producing custom goods. Apparent authority lingers until the third party has notice that authority has ended.",
+      "whyNot": [
+        "",
+        "Actual authority ended, but apparent authority continued because Pinecrest never notified a supplier it had held Delmar out to.",
+        "The agent's secret motive does not defeat apparent authority when the third party reasonably relies on the principal's manifestation without notice of the agent's purpose.",
+        "Apparent authority must rest on the principal's manifestations, not the agent's own claims."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q015",
+      "topic": "fl-business-entities.agency",
+      "rules": [
+        "fl-business-entities.agency.dangerous-instrumentality"
+      ],
+      "difficulty": 1,
+      "stem": "Helena lent her car to her neighbor, Quinn, so Quinn could drive to a job interview. Quinn is not Helena's employee and was running only his own errand. On the way, Quinn ran a red light and struck a pedestrian, Tomas, causing serious injuries. Helena had no reason to think Quinn was a careless driver, and she was at home when the accident happened. Tomas sues Helena.",
+      "call": "Under Florida law, is Helena liable to Tomas?",
+      "choices": [
+        "No, because Quinn was not Helena's agent or employee and was not acting on her behalf.",
+        "No, because Helena was not negligent in entrusting the car to Quinn.",
+        "Yes, under the dangerous instrumentality doctrine, because she voluntarily entrusted her vehicle to Quinn, subject to any applicable statutory cap on a lending owner's liability.",
+        "Yes, but only if Tomas shows Helena knew Quinn had a poor driving record."
+      ],
+      "answer": 2,
+      "explanation": "Florida's dangerous instrumentality doctrine makes a motor vehicle's owner vicariously liable for the negligent operation of the vehicle by anyone to whom the owner voluntarily entrusted it, without regard to agency or the owner's own fault. Because Helena, a natural person, lent the car to a permissive user, § 324.021(9)(b)3. limits the amount of her vicarious liability, but she is liable.",
+      "whyNot": [
+        "The doctrine rests on ownership and consensual entrustment, not on agency or employment.",
+        "The owner's liability is vicarious and does not require any negligence by the owner; negligent entrustment is a separate theory.",
+        "",
+        "Knowledge of a poor driving record matters for negligent entrustment, not for dangerous instrumentality liability."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+ "subject": "fl-evidence",
+ "spotters": [
+  {
+   "id": "fl-evidence.s01",
+   "title": "Bottle at the Dockside Grill",
+   "intro": "Flag every Florida evidence issue the parties will fight about at this criminal trial. Some details are there only to distract.",
+   "segments": [
+    {
+     "t": "Marco Reyes is on trial in Pinellas County for aggravated battery after a fight at the Dockside Grill left Travis Lund with a fractured skull. Reyes says Lund swung first. "
+    },
+    {
+     "t": "Seconds after the fight, the bartender shouted into her phone to a 911 dispatcher, 'The guy in the red shirt just smashed a bottle over that man's head! Send help!' ",
+     "issues": [
+      "a",
+      "b"
+     ]
+    },
+    {
+     "t": "She has since moved overseas and cannot be found, so the State offers the recording instead of her testimony. ",
+     "issues": [
+      "b"
+     ]
+    },
+    {
+     "t": "The State also calls a detective to repeat what a regular customer told him in a recorded station-house interview the next morning: that Reyes had 'bragged for weeks about wanting to hurt Lund.' The customer will not testify. ",
+     "issues": [
+      "c"
+     ]
+    },
+    {
+     "t": "The defense calls Reyes's former roommate, who will say that after living with him for three years she considers him 'the gentlest person I know.' ",
+     "issues": [
+      "d"
+     ]
+    },
+    {
+     "t": "Reyes testifies. On cross-examination he truthfully admits that he has two prior felony convictions, and the prosecutor then asks him to name them. ",
+     "issues": [
+      "e"
+     ]
+    },
+    {
+     "t": "One of them, a grand theft, is sixteen years old. "
+    },
+    {
+     "t": "The prosecutor next asks whether Reyes lied about his income on a 2019 car-loan application, an incident that never led to any charge. ",
+     "issues": [
+      "f"
+     ]
+    },
+    {
+     "t": "In rebuttal, the State calls Reyes's wife. "
+    },
+    {
+     "t": "She tells the judge that she does not want to testify against her husband. "
+    },
+    {
+     "t": "The State wants her to describe seeing Reyes rinse blood from his knuckles at the kitchen sink that night, and to repeat what he whispered to her when they were alone in the kitchen: 'I think I really hurt him.' ",
+     "issues": [
+      "g"
+     ]
+    }
+   ],
+   "issues": [
+    {
+     "id": "a",
+     "label": "911 call: excited utterance",
+     "rules": [
+      "fl-evidence.hearsay.spontaneous-and-excited",
+      "fl-evidence.hearsay.definition"
+     ],
+     "explain": "The bartender's words are offered for their truth, so they are hearsay. She spoke seconds after a startling event while still under its stress, so the call fits the excited-utterance exception (and likely the spontaneous-statement exception), both of which apply whether or not she is available."
+    },
+    {
+     "id": "b",
+     "label": "Confrontation: is the 911 call testimonial?",
+     "rules": [
+      "fl-evidence.hearsay.confrontation"
+     ],
+     "explain": "Because the bartender will not testify, the recording must also clear the Confrontation Clause. A call made to get help during an ongoing emergency is nontestimonial under Davis v. Washington, so her absence does not bar it."
+    },
+    {
+     "id": "c",
+     "label": "Customer's station-house statement",
+     "rules": [
+      "fl-evidence.hearsay.definition",
+      "fl-evidence.hearsay.admissions",
+      "fl-evidence.hearsay.confrontation"
+     ],
+     "explain": "Reyes's own boast would be an admission, but the customer's report of it is a second layer of hearsay with no exception, and section 90.805 requires every layer to qualify. The statement was also given in a structured police interview, so it is testimonial and barred by Crawford because the customer does not testify and Reyes never had a chance to cross-examine him."
+    },
+    {
+     "id": "d",
+     "label": "Character witness giving an opinion",
+     "rules": [
+      "fl-evidence.relevance-and-character.method-of-proof",
+      "fl-evidence.relevance-and-character.character-generally"
+     ],
+     "explain": "Reyes may offer a pertinent trait of his own character, and peacefulness is pertinent to a battery charge. But section 90.405 allows character to be proved only by reputation, so the roommate's personal opinion is inadmissible."
+    },
+    {
+     "id": "e",
+     "label": "Naming the prior convictions",
+     "rules": [
+      "fl-evidence.witnesses-and-impeachment.prior-convictions"
+     ],
+     "explain": "Felony convictions may impeach any witness, but once Reyes truthfully admits the number, the inquiry ends and the prosecutor may not bring out the names or facts of the crimes. The grand theft's age is beside the point: Florida has no balancing test and no remoteness limit in criminal cases."
+    },
+    {
+     "id": "f",
+     "label": "Specific act of lying on a loan application",
+     "rules": [
+      "fl-evidence.witnesses-and-impeachment.truthfulness-character"
+     ],
+     "explain": "Florida has no counterpart to FRE 608(b), so a witness may not be cross-examined about specific dishonest acts that did not produce a qualifying conviction. Character for truthfulness may be attacked only by reputation evidence or by qualifying convictions."
+    },
+    {
+     "id": "g",
+     "label": "Spouse's testimony: observations and a confidential communication",
+     "rules": [
+      "fl-evidence.privileges.spousal"
+     ],
+     "explain": "Florida's husband-wife privilege covers only confidential communications, so the wife can be compelled to describe what she saw, and her reluctance does not matter because Florida has no adverse-spousal-testimony privilege. The whispered statement made when they were alone is a confidential marital communication that either spouse may keep out; no exception applies because the victim is not a spouse or a child of either."
+    }
+   ]
+  },
+  {
+   "id": "fl-evidence.s02",
+   "title": "Oil in Aisle Seven",
+   "intro": "Flag every Florida evidence issue in this civil negligence case. Some details are there only to distract.",
+   "segments": [
+    {
+     "t": "On a busy Saturday afternoon, Delia Park, a retired teacher, slipped on a puddle of cooking oil in the produce aisle of a FreshWay grocery in Lakeland and broke her wrist when she fell against a display bin. She sued FreshWay for negligence in circuit court, and FreshWay denies that any oil was on the floor. "
+    },
+    {
+     "t": "She had worn a new pair of sandals for the first time that morning. "
+    },
+    {
+     "t": "A stock clerk who rushed over said, 'Oh no, I spilled that oil twenty minutes ago and forgot to mop it.' ",
+     "issues": [
+      "a"
+     ]
+    },
+    {
+     "t": "The store manager arrived, knelt beside Delia, said, 'I'm so sorry you got hurt,' and promised that FreshWay would pay her emergency-room bill. ",
+     "issues": [
+      "b"
+     ]
+    },
+    {
+     "t": "That night the manager had rubber mats installed in every aisle. FreshWay admits that it owns and controls the store. ",
+     "issues": [
+      "c"
+     ]
+    },
+    {
+     "t": "The store's security cameras did not cover the produce aisle. "
+    },
+    {
+     "t": "Under a company policy requiring a report for every customer injury, the manager filled out an incident report and emailed a copy to FreshWay's in-house lawyer. Delia demands the report in discovery, and FreshWay claims it is privileged. ",
+     "issues": [
+      "d"
+     ]
+    },
+    {
+     "t": "At trial, a shopper testifies that she saw no oil on the floor. At her deposition three months earlier, under oath, she said she had noticed 'a shiny puddle' near the bananas. ",
+     "issues": [
+      "e"
+     ]
+    },
+    {
+     "t": "Delia's expert, a retired safety consultant, will testify that the floor finish was dangerously slick. He took no measurements and relies only on 'forty years of walking store floors.' ",
+     "issues": [
+      "f"
+     ]
+    },
+    {
+     "t": "During his direct examination, Delia's lawyer plans to have him read aloud a passage from a flooring-industry handbook that he calls authoritative. ",
+     "issues": [
+      "g"
+     ]
+    }
+   ],
+   "issues": [
+    {
+     "id": "a",
+     "label": "Clerk's statement as an agent's admission",
+     "rules": [
+      "fl-evidence.hearsay.admissions"
+     ],
+     "explain": "Offered by Delia for its truth, the clerk's statement is hearsay, but it is admissible against FreshWay under section 90.803(18)(d) as an employee's statement about a matter within the scope of his employment, made during the employment. It expresses no sympathy, so section 90.4026 does not reach it."
+    },
+    {
+     "id": "b",
+     "label": "Sympathy and the offer to pay medical bills",
+     "rules": [
+      "fl-evidence.relevance-and-character.policy-exclusions"
+     ],
+     "explain": "In a civil action the manager's expression of sympathy is inadmissible under section 90.4026, and the promise to pay the emergency-room bill is inadmissible to prove liability under section 90.409. Neither statement contains an admission of fault that could be separated out and admitted."
+    },
+    {
+     "id": "c",
+     "label": "Subsequent remedial measure: the mats",
+     "rules": [
+      "fl-evidence.relevance-and-character.policy-exclusions"
+     ],
+     "explain": "Installing mats after the fall is a measure that would have made the harm less likely, so section 90.407 bars it as proof of negligence. Because FreshWay concedes ownership and control, there is no disputed 'other purpose' that would let it in."
+    },
+    {
+     "id": "d",
+     "label": "Is the routine incident report privileged?",
+     "rules": [
+      "fl-evidence.privileges.corporate-clients",
+      "fl-evidence.privileges.lawyer-client"
+     ],
+     "explain": "Under the Deason test, an employee's communication with corporate counsel is privileged only if it would not have been made but for the contemplation of legal services. A report that company policy requires after every injury is an ordinary business document, and emailing a copy to a lawyer does not make it privileged."
+    },
+    {
+     "id": "e",
+     "label": "Prior inconsistent statement from a deposition",
+     "rules": [
+      "fl-evidence.witnesses-and-impeachment.prior-inconsistent-statements"
+     ],
+     "explain": "The shopper's deposition answer is inconsistent with her trial testimony and was given under oath, subject to the penalty of perjury, in a deposition, so under section 90.801(2)(a) it is substantive evidence, not merely impeachment. Before extrinsic proof of it is admitted, she must be given a chance to explain or deny it under section 90.614."
+    },
+    {
+     "id": "f",
+     "label": "Experience-only expert opinion under Daubert",
+     "rules": [
+      "fl-evidence.experts.daubert-standard"
+     ],
+     "explain": "Section 90.702 requires the court to screen every expert opinion, including experience-based 'pure opinion,' for sufficient facts or data and reliable methods reliably applied. An expert who took no measurements and applied no standard is likely to be excluded."
+    },
+    {
+     "id": "g",
+     "label": "Reading a treatise on direct examination",
+     "rules": [
+      "fl-evidence.experts.learned-treatise"
+     ],
+     "explain": "Florida has no learned-treatise hearsay exception; section 90.706 lets a treatise be used only to cross-examine an expert. Reading the handbook to bolster Delia's own expert on direct is inadmissible hearsay."
+    }
+   ]
+  }
+ ]
+}

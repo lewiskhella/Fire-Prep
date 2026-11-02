@@ -1,0 +1,237 @@
+{
+  "subject": "fl-trusts",
+  "spotters": [
+    {
+      "id": "fl-trusts.s01",
+      "title": "Bruno's loose ends",
+      "intro": "Flag every Florida trust-creation and trust-type issue in Bruno's estate plan. Some facts are only there to distract you.",
+      "segments": [
+        {
+          "t": "Bruno Vale, a widower domiciled in Naples, died in 2025. "
+        },
+        {
+          "t": "In 2020 he signed a revocable trust agreement naming himself trustee and directing that at his death the trust property go to his niece, Paola. He signed it at his kitchen table before a notary; no one else was present. He then retitled his investment account in the name of the trust. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "Bruno's will, signed at the end before two witnesses who signed in his presence and each other's, leaves $20,000 to his neighbor, Tess, as trustee 'to care for my cat, Mochi, for the rest of her life.' ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "Mochi is fourteen years old and has a heart condition. "
+        },
+        {
+          "t": "The will also leaves $50,000 to his brother, Hugo, 'in the hope that he will help my grandson, Leo, with college costs.' ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "Hugo lives in North Carolina. "
+        },
+        {
+          "t": "A third clause creates a $100,000 trust to fund an annual prize for the best graduating student at the Gulf Coast Welding Institute, and the residue goes to Bruno's sister, Iris. Six months after Bruno's death the institute closed permanently. The will has no provision for that event. ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "In 2015 Bruno paid the entire $300,000 price for a Fort Myers condominium titled in the name of his adult son, Marco, who has lived there ever since. Iris now says the condominium belongs to the estate. ",
+          "issues": [
+            "d"
+          ]
+        },
+        {
+          "t": "In 2022 Bruno deeded a vacant lot to Rex, who had managed Bruno's finances for thirty years and whom Bruno trusted completely. Rex orally promised to hold the lot for Leo and paid nothing for it. ",
+          "issues": [
+            "e"
+          ]
+        },
+        {
+          "t": "Rex now says the lot is his own and has listed it for sale.",
+          "issues": [
+            "e"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Testamentary aspects of an unwitnessed revocable trust",
+          "rules": [
+            "fl-trusts.creation.testamentary-aspects"
+          ],
+          "explain": "Bruno was a Florida domiciliary, so the provisions disposing of trust property at his death are invalid unless the trust was signed with will formalities. A notary is not a substitute for two attesting witnesses, so the gift to Paola fails and the account passes through Bruno's estate to Iris under the residuary clause."
+        },
+        {
+          "id": "b",
+          "label": "Trust for the care of an animal",
+          "rules": [
+            "fl-trusts.types.animal-and-purpose"
+          ],
+          "explain": "Florida allows a trust for the care of an animal alive during the settlor's lifetime; it ends when Mochi dies and can be enforced by a person named in the trust or appointed by the court. Any amount the court finds is more than the care requires goes back to Bruno's estate unless the will says otherwise."
+        },
+        {
+          "id": "c",
+          "label": "Precatory words in the gift to Hugo",
+          "rules": [
+            "fl-trusts.creation.precatory-language"
+          ],
+          "explain": "'In the hope that' expresses a wish, not an enforceable duty, and nothing else suggests Bruno meant to bind Hugo. Hugo takes the $50,000 outright, and Leo has no enforceable claim to it."
+        },
+        {
+          "id": "d",
+          "label": "Purchase-money resulting trust against a child",
+          "rules": [
+            "fl-trusts.types.resulting"
+          ],
+          "explain": "Paying for property titled in another person ordinarily raises a resulting trust for the payor, but when the titleholder is the payor's child the law presumes a gift instead. The estate would have to rebut that presumption with clear and convincing evidence that Bruno did not mean to give Marco the condominium."
+        },
+        {
+          "id": "e",
+          "label": "Oral trust of land and constructive trust",
+          "rules": [
+            "fl-trusts.creation.oral-trusts",
+            "fl-trusts.types.constructive"
+          ],
+          "explain": "An express trust of Florida land must be proved by a signed writing, so Rex's oral promise cannot be enforced as an express trust. Leo can seek a constructive trust instead by proving, by clear and convincing evidence, the promise, the transfer in reliance on it, the confidential relationship and Rex's unjust enrichment."
+        },
+        {
+          "id": "f",
+          "label": "Cy pres for the failed prize trust",
+          "rules": [
+            "fl-trusts.types.charitable-cy-pres"
+          ],
+          "explain": "A prize for students advances education, so the prize trust is charitable and needs no definite beneficiary. Its particular purpose is now impossible, and with no gift over the court may apply cy pres to direct the fund to a similar educational use rather than let it fall to Iris."
+        }
+      ]
+    },
+    {
+      "id": "fl-trusts.s02",
+      "title": "Victor's stewardship",
+      "intro": "Flag every trustee-duty, remedy and creditor issue in the administration of the Delgado trust. Watch for facts that only look important.",
+      "segments": [
+        {
+          "t": "In 2012 Ana Delgado, a Florida domiciliary, created an irrevocable trust with her friend Victor as trustee. Victor must pay all net income to Ana's son, Rafael, for life and may distribute principal to him for his health, education, maintenance and support; at Rafael's death the remainder passes to Rafael's children. The trust contains a valid spendthrift clause and says nothing about investments. ",
+          "issues": [
+            "a",
+            "d",
+            "e"
+          ]
+        },
+        {
+          "t": "A clause drafted by Ana's own lawyer, who explained it to her, relieves Victor of liability 'for any loss except one caused by his willful fraud.' ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "Ana, now 80, still lives in Orlando, and Victor sends her a yearly statement as a courtesy. "
+        },
+        {
+          "t": "Victor has never charged a fee for serving. "
+        },
+        {
+          "t": "Last year Victor sold the trust's bond portfolio and put the entire $2 million into a single biotechnology stock that pays no dividends, on a tip from his golf partner and without any further research. The stock has since fallen 70 percent, and Rafael's income has dropped to almost nothing. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "Victor also lent $200,000 of trust money to his daughter for her restaurant, at a market rate of interest. ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "When Rafael's daughter, Lucia, who is 25, asked for a copy of the trust and an accounting, Victor replied that only Rafael was entitled to information. ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "Rafael's former wife holds a court order for $30,000 in unpaid child support for their younger son. Rafael has no wages or other assets, and her efforts to collect have failed. ",
+          "issues": [
+            "d"
+          ]
+        },
+        {
+          "t": "A bank holding a $50,000 judgment against Rafael on a defaulted car loan has served a writ of garnishment on Victor. ",
+          "issues": [
+            "e"
+          ]
+        },
+        {
+          "t": "Rafael and Lucia want Victor removed and made to repay the trust's losses.",
+          "issues": [
+            "g"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Failure to diversify and impartiality",
+          "rules": [
+            "fl-trusts.trustee-duties.prudent-investor",
+            "fl-trusts.trustee-duties.impartiality-income"
+          ],
+          "explain": "Under § 518.11 a trustee must diversify unless he reasonably determines that not diversifying serves the beneficiaries and the trust's purposes, and a tip from a friend is no such determination. Moving everything into a non-dividend stock also disregards Rafael's income interest, breaching the duty of impartiality."
+        },
+        {
+          "id": "b",
+          "label": "Loan to the trustee's daughter",
+          "rules": [
+            "fl-trusts.trustee-duties.loyalty"
+          ],
+          "explain": "A transaction between the trust and the trustee's descendant is presumed to be affected by a conflict of interest. It is voidable by an affected beneficiary unless an exception applies, such as trust authorization, court approval or informed beneficiary consent; fair terms alone do not save it."
+        },
+        {
+          "id": "c",
+          "label": "Duty to inform a remainder beneficiary",
+          "rules": [
+            "fl-trusts.trustee-duties.inform-and-account"
+          ],
+          "explain": "The trust is irrevocable, and Lucia would take if Rafael's interest ended, so she is a qualified beneficiary. Victor must keep her reasonably informed, give her a copy of the trust instrument on request and provide annual accountings."
+        },
+        {
+          "id": "d",
+          "label": "Support claimant as exception creditor",
+          "rules": [
+            "fl-trusts.modification-and-creditors.exception-creditors"
+          ],
+          "explain": "A spendthrift clause cannot be enforced against a beneficiary's former spouse or child holding a support order. Because ordinary collection has failed, she may obtain an order attaching Rafael's mandatory income distributions as a last resort, but she cannot compel discretionary principal distributions."
+        },
+        {
+          "id": "e",
+          "label": "Ordinary creditor blocked by the spendthrift clause",
+          "rules": [
+            "fl-trusts.types.spendthrift"
+          ],
+          "explain": "The car-loan bank is not an exception creditor, so the valid spendthrift clause bars it from garnishing Rafael's interest or any distribution while it is in the trustee's hands. It can pursue money only after Rafael receives it."
+        },
+        {
+          "id": "f",
+          "label": "Limits of the exculpatory clause",
+          "rules": [
+            "fl-trusts.trustee-duties.breach-remedies"
+          ],
+          "explain": "An exculpatory term cannot relieve a trustee of liability for a breach committed in bad faith or with reckless indifference to the beneficiaries' interests. Because Ana's own lawyer drafted and explained it, no presumption of abuse arises, so the question is whether Victor's conduct was reckless."
+        },
+        {
+          "id": "g",
+          "label": "Surcharge and removal",
+          "rules": [
+            "fl-trusts.trustee-duties.breach-remedies",
+            "fl-trusts.trustee-duties.removal-resignation"
+          ],
+          "explain": "The court can hold Victor liable for the amount needed to restore the trust to where a prudent administration would have left it, set aside the loan, and remove him for a serious breach of trust. The beneficiaries' wishes alone are not enough; removal rests on the breach and the beneficiaries' best interests."
+        }
+      ]
+    }
+  ]
+}

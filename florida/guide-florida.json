@@ -1,0 +1,364 @@
+{
+  "exam": {
+    "name": "Florida General Bar Examination",
+    "short": "FL Bar",
+    "note": "Two consecutive days: Part A (Florida law: three essays, then 100 multiple-choice questions) on Tuesday and Part B (the MBE) on Wednesday. Within Part A the essay and multiple-choice sections count equally; the Part A total is scaled to the MBE distribution and averaged with your MBE scaled score, and 136 passes. Florida moves to NCBE's NextGen exam with a Florida law component starting July 2028. Confirm dates and details with the Florida Board of Bar Examiners.",
+    "components": [
+      {
+        "id": "FL-ESSAY",
+        "name": "Part A: Florida essays",
+        "weight": 0.25,
+        "format": "Three essay questions in a three-hour morning session on the first day. Part A tests general and Florida law; where they differ, the answer must follow Florida law. Typed in Examplify by applicants registered in the laptop program, otherwise handwritten on paper the Board provides.",
+        "pace": "One hour per essay: about 15 minutes reading and outlining, 40 writing, 5 checking.",
+        "minutesPerItem": 60
+      },
+      {
+        "id": "FL-MC",
+        "name": "Part A: Florida multiple choice",
+        "weight": 0.25,
+        "format": "100 multiple-choice questions on Florida law in a three-hour afternoon session on the first day.",
+        "pace": "About 1 minute 48 seconds per question: roughly 33 done at one hour and 67 at two.",
+        "minutesPerItem": 1.8
+      },
+      {
+        "id": "MBE",
+        "name": "Part B: Multistate Bar Exam",
+        "weight": 0.5,
+        "format": "The NCBE's MBE on the second day: 200 multiple-choice questions in two 3-hour sessions of 100. 175 are scored; 25 are unscored pretest items you cannot identify.",
+        "pace": "About 1 minute 48 seconds per question.",
+        "minutesPerItem": 1.8
+      }
+    ]
+  },
+  "hide": [
+    "how-the-ube-works",
+    "scoring",
+    "mee-method",
+    "mpt-method",
+    "study-schedule",
+    "final-weeks",
+    "exam-day"
+  ],
+  "sections": [
+    {
+      "id": "florida-how-the-exam-works",
+      "title": "How the Florida bar exam works",
+      "kicker": "Two days: Florida law, then MBE",
+      "body": [
+        "Florida does not give the UBE. Its General Bar Examination has two parts on consecutive days, a Tuesday and a Wednesday, each February and July. Part A comes first and is Florida's own: three Florida-law essays in a three-hour morning session, then 100 Florida-law multiple-choice questions in a three-hour afternoon session. Part B, the next day, is the NCBE's Multistate Bar Exam: 200 questions in two three-hour sessions of 100, of which 175 are scored. There is no MEE and no MPT, so Ruled's Florida track replaces them with Part A essays and Part A question sets.",
+        "Part A tests general law and Florida law together. The Board's instructions say that where Florida law departs from the general rule you answer under Florida law, and that you apply the law in force on the day of the exam, so a recent statute beats the older rule you may remember from school. Under Rule 4-22 of Florida's bar admission rules, Part A is built from six one-hour segments. One is reserved for Florida civil procedure, criminal procedure and judicial administration; the other five are drawn from a published subject list, with no more than three subjects in any segment. Check the current list and test specifications on floridabarexam.org before you settle your priorities.",
+        "Dates and deadlines. The exam is held on the last consecutive Tuesday and Wednesday of February and July at the Tampa Convention Center. The Board lists the February 2027 exam for February 23–24, 2027, with a timely filing deadline of November 16, 2026 and a final cut-off of January 15; filing after the timely deadline costs more. The July 2026 exam fell on July 28–29, with a timely filing deadline of May 1, 2026. Confirm each administration's dates and deadlines on the Board's site.",
+        "What changes later. The Supreme Court of Florida approved the Board's plan to replace the MBE with NCBE's NextGen bar exam, plus a Florida law component, beginning with the July 2028 exam. The Board has not yet fixed the format of the Florida portion. Until then the Board gives the current two-part exam; confirm the format for your administration. Florida does not accept transferred UBE scores, and NCBE reports that it will not accept transferred NextGen scores from any administration before July 2028; the minimum NextGen score Florida will require has not been announced. Confirm with the Board."
+      ],
+      "steps": [
+        {
+          "title": "Find your administration",
+          "text": "On floridabarexam.org, note your exam dates, the filing deadline you are working against and the laptop program deadlines. Put each one in your own calendar today, and look for the virtual tour a few weeks before the exam."
+        },
+        {
+          "title": "Set Ruled to Florida",
+          "text": "In Settings, set your jurisdiction to Florida. The app shows the eight MBE subjects and the twelve Florida Part A subjects, drops the MEE and MPT, and the study calendar schedules Part A sets and three-essay simulations in their place."
+        },
+        {
+          "title": "Map the two days",
+          "text": "Treat Tuesday as Florida law and Wednesday as general law. Evidence, criminal law and procedure, torts, real property, civil procedure, contracts and constitutional law can appear on both days, under Florida law on Tuesday and the general rules on Wednesday, and the Where Florida differs page is where the two meet."
+        }
+      ],
+      "tips": [
+        "Sitting in February 2027? The Board's timely filing deadline is November 16, 2026.",
+        "Read the Board's instructions literally: on Part A, Florida law controls whenever it differs, and the law is the law in force on exam day.",
+        "Under the test specifications the Board revised in 2023 (effective with the July 2023 exam), trusts and UCC Articles 3 and 9 are tested primarily in the multiple choice rather than as primary essay subjects. Confirm against the Board's current specifications.",
+        "Ruled's twelve Florida subjects follow your lecture series. The Board's Part A subject list also includes Contracts, a regular Part A essay subject (the Board's study guide reprints a February 2025 Contracts essay), and federal constitutional law. Study both from the MBE outlines, then check where Florida law, including the Florida Constitution, departs."
+      ]
+    },
+    {
+      "id": "florida-scoring",
+      "title": "How Florida scores the exam",
+      "kicker": "One average, a 136 to pass",
+      "body": [
+        "Florida reports everything on the MBE's scale. Under the scoring provisions of Florida's bar admission rules, each section of Part A is converted to a common scale so that every section carries equal weight, the converted scores are added to give your Part A total, and that total is scaled to the same distribution as the MBE scores of the applicants who sat the exam. Part B is your MBE scaled score. A scaled score of 136 passes (Rule 4-26.2), unless the Supreme Court of Florida sets a different figure.",
+        "There are two routes to a pass. Under the overall method you take both parts at the same administration and pass if the average of your Part A and Part B scaled scores is at least 136, so a strong Florida day can carry a weaker MBE day and the reverse. Under the individual method each part must reach 136 on its own, which is how a candidate who passed one part retakes only the other. Both parts and the MPRE must be passed within 25 months of the administration of any part you passed; passing scores older than that are deleted.",
+        "The arithmetic that should shape your study: Part A and the MBE are each half of the average, and within Part A the essay hours and the multiple-choice hours count the same. The three essays together are therefore about a quarter of your result, and a single essay is worth about as much as a third of the Part A multiple choice, roughly 33 questions."
+      ],
+      "tips": [
+        "Never write off an essay. Leaving one thin costs about as much as guessing blindly through a third of the afternoon.",
+        "Do not let the MBE slide because Florida law feels harder: it is half your score, and your Part A total is scaled against it.",
+        "If you are retaking only one part, ask the Board which scoring method applies to you before you file.",
+        "Florida can accept an MBE score earned in another jurisdiction only if it meets Florida's passing score under the individual method and falls inside the 25-month window. Confirm your eligibility with the Board.",
+        "February results have come out in mid-April (April 13 for the February 2026 exam). The Board does not give results by telephone."
+      ]
+    },
+    {
+      "id": "florida-essay-method",
+      "title": "The 60-minute Florida essay",
+      "kicker": "Florida rule, these facts, a conclusion",
+      "body": [
+        "The morning session gives you three hours for three essays, so give each one an hour and hold the line. The Board's study guide describes what an acceptable answer shows: that you spotted the issues the facts raise, stated the governing rules accurately and only as far as they bear on those issues, reasoned from rule to facts with no gaps or detours, wrote in a clear and organised way, and reached a specific conclusion where the question asks for one. Nothing in that list rewards length. A paragraph that states the Florida rule precisely and applies it to the named facts earns more than a page of general doctrine.",
+        "The Florida twist is choosing the right rule. Where Florida departs from the general rule, the grader expects the Florida version, so anchor each rule statement in its Florida source: 'Under section 90.405, Florida Statutes, …' or 'Rule 4-1.5 of the Rules Regulating The Florida Bar …'. Naming the source shows which body of law you are applying. Cite only numbers you are sure of; 'the Florida Evidence Code' beats a wrong section number. When the difference is the point of the question, one sentence on the general rule is enough before you apply Florida's.",
+        "Prep providers report that professional responsibility appears often, frequently folded into an essay on another subject. Read every essay for a lawyer in the facts: a fee, a referral, client money, a conflict, a threat to report someone. If one is there, treat it as an issue and answer it under the Rules Regulating The Florida Bar."
+      ],
+      "steps": [
+        {
+          "title": "Calls first (2 minutes)",
+          "text": "Read the question's final paragraph before the facts. Note the subjects, each separate call, and whether you are asked to advise, argue or decide. Reading with the calls in mind stops you cataloguing facts that do not matter."
+        },
+        {
+          "title": "Tag the facts (8 minutes)",
+          "text": "Read the facts once, slowly, and mark each fact with the issue it raises. Florida answers often turn on details a general-law reader skims: a date before or after a statutory change, an age, a percentage of fault, a surviving spouse or minor child, whether land lies inside a city, how many days passed."
+        },
+        {
+          "title": "Outline (5 minutes)",
+          "text": "List the issues in the order of the calls. Beside each, write the Florida rule and its source, the two or three facts that decide it, and your conclusion. Rank them: contested issues get the words, easy ones get two sentences."
+        },
+        {
+          "title": "Write (40 minutes)",
+          "text": "Give each issue a heading that names it. Under it: the rule, stated precisely with its Florida source; the application, using the actual facts and names; a one-line conclusion. If an issue could go either way, argue both sides briefly, then commit."
+        },
+        {
+          "title": "Check (5 minutes)",
+          "text": "Confirm every call has a conclusion. Spell check is disabled in the Board's exam software, so fix names, parties and terms of art by eye."
+        }
+      ],
+      "tips": [
+        "Comparative fault, Florida style: 'Under section 768.81(6), Florida Statutes, in a negligence action filed after March 24, 2023, a plaintiff found more than 50 percent at fault recovers nothing; a plaintiff 50 percent or less at fault recovers damages reduced by that percentage. Medical-negligence claims are excepted, and actions filed earlier remain under pure comparative fault.'",
+        "Will execution: 'A Florida will must be in writing and signed at the end by the testator, who signs or acknowledges the signature before two attesting witnesses; the witnesses must sign in the presence of the testator and of each other (§ 732.502). An unwitnessed handwritten will is void.'",
+        "Homestead devise: 'Under Article X, section 4(c) of the Florida Constitution, an owner survived by a spouse or a minor child may not devise the homestead, except to the spouse when there is no minor child.'",
+        "Calibrate with the Board's study guides, which reprint essays from two recent exams with selected answers. Write one under time first, then compare issues before you compare style.",
+        "Out of time on the last issue? Write the rule, one sentence of application and a conclusion. A skeleton earns credit; a blank earns nothing.",
+        "If you will handwrite, practise writing for a full hour at a stretch; the Board supplies the paper on the day."
+      ]
+    },
+    {
+      "id": "florida-multiple-choice-method",
+      "title": "Part A multiple choice",
+      "kicker": "100 Florida questions in three hours",
+      "body": [
+        "The afternoon gives you three hours for 100 Florida-law questions, the same 1.8 minutes a question as the MBE. What changes is what decides the answer. MBE questions turn on general principles; Part A questions very often turn on a Florida-specific detail: a deadline, a percentage, a threshold, or a statute that reversed the common-law result. The wrong choices are frequently right somewhere else, under the Federal Rules, the ABA Model Rules, the Uniform Probate Code or the majority rule you will use on Wednesday.",
+        "Procedure has a guaranteed place: under Rule 4-22, one of Part A's six one-hour segments covers Florida civil procedure, criminal procedure and judicial administration. And under the test specifications the Board revised in 2023, trusts and UCC Articles 3 and 9 are tested primarily in the multiple choice. Know the deadlines, the numbers and the bright lines in those subjects cold, but keep writing essays in evidence, business entities and wills, which remain on the Part A subject list. Confirm against the Board's current test specifications."
+      ],
+      "steps": [
+        {
+          "title": "Read the call, then the facts",
+          "text": "Start with the last line so you know what you are deciding, then read the facts for the details that call needs."
+        },
+        {
+          "title": "Ask the Florida question",
+          "text": "Before you look at the choices, ask whether Florida does this differently. If it does, predict the Florida answer in a few words."
+        },
+        {
+          "title": "Strike the borrowed rule",
+          "text": "Find the choice that would be right under the federal, ABA, UPC or majority rule and cross it out unless Florida follows that rule. It is the most common trap on Part A."
+        },
+        {
+          "title": "Settle numbers from memory",
+          "text": "When the choices differ only by a number of days, a percentage or an amount, answer from your Florida numbers sheet. Do not pick the middle figure because it looks safe."
+        },
+        {
+          "title": "Hold the pace",
+          "text": "Aim for about 33 questions done at one hour and 67 at two. Flag a question that stalls you and move on, so the last stretch is spent on flagged items, not on unread ones."
+        }
+      ],
+      "tips": [
+        "Build a one-page Florida numbers sheet from the outlines and read it daily. Start with: 20 days to answer and 10 after a motion is denied; 15 days for post-trial motions; 30 requests for admission; 30 days to accept a proposal for settlement and its 25 percent fee-shifting margins; the 3-day rent notice and the 7-day noncompliance notices; 15 or 30 days on a security deposit; the 30 percent elective share; half an acre or 160 acres of homestead; 60 percent of voters to amend the constitution; the 30-day wait for targeted accident letters; the 75/25 personal-injury fee division.",
+        "Use the All Florida Part A pool in MBE Drills (#/mbe?subjects=fl&count=100&mode=exam) for timed mixed sets; set the count to 25 or 50 for shorter blocks.",
+        "Review each miss by asking which rule you applied: Florida's, or the one you know from the MBE. Put the Florida rule in Recall either way.",
+        "Do not wait for 'under Florida law' in the call. On Part A, Florida law is the default."
+      ]
+    },
+    {
+      "id": "florida-differences",
+      "title": "Where Florida changes the answer",
+      "kicker": "Rules that flip your MBE instincts",
+      "body": [
+        "The biggest Part A risk is not the rule you never learned. It is the rule you know well from the MBE that Florida has changed. Evidence, criminal law and procedure, torts, real property, civil procedure, contracts and constitutional law can appear on both days: Florida's rules on Tuesday, the general rules on Wednesday. Professional responsibility splits the same way between Part A (the Rules Regulating The Florida Bar) and the MPRE (the ABA Model Rules).",
+        "Ruled gathers every Florida rule whose outline notes a departure on the Where Florida differs page (#/florida/differences). Filter it by subject (#/florida/differences?subject=fl-evidence) or by a word such as hearsay, homestead or '20 days', and print it. Learn each difference as a pair, the general rule and the Florida rule in one breath, so that on each day you reach for the right one. The list below is drawn from the most heavily weighted topics in Ruled's Florida outlines."
+      ],
+      "steps": [
+        {
+          "title": "After each lecture",
+          "text": "Filter the page to the subject you just covered and read its differences once, aloud if you can."
+        },
+        {
+          "title": "Make pair cards",
+          "text": "Turn each difference into a Recall card whose answer states both rules: 'MBE: … / Florida: …'."
+        },
+        {
+          "title": "Before each Part A set",
+          "text": "Spend ten minutes on the page for the subjects in the set."
+        },
+        {
+          "title": "After each miss",
+          "text": "Check whether the missed rule is on the page. If it is, you knew the general rule and applied it to a Florida question, the classic Part A error."
+        }
+      ],
+      "tips": [
+        "Torts: in negligence actions filed after March 24, 2023, a plaintiff more than 50 percent at fault recovers nothing (§ 768.81(6)), except in medical negligence; actions filed earlier stay under pure comparative fault. Joint and several liability is abolished for negligence, and the jury can apportion fault to properly pleaded nonparties (Fabre).",
+        "Torts: Florida keeps the impact rule for negligently caused emotional distress, with narrow exceptions; a vehicle owner is vicariously liable for a permitted driver (dangerous instrumentality), subject to the statutory limits for lessors and for natural persons who lend their vehicles (§ 324.021(9)(b)); invited social guests are owed the invitee duty.",
+        "Evidence: character is proved by reputation only, never opinion (§ 90.405), and a witness may not be cross-examined about specific untruthful acts.",
+        "Evidence: a party's own statement is a hearsay exception (§ 90.803(18)) rather than 'not hearsay', there is no residual exception, and a prior inconsistent statement must be put to the witness before any extrinsic proof.",
+        "Evidence: Williams-rule similar-fact evidence needs clear and convincing proof that the defendant committed the collateral act.",
+        "Criminal: voluntary intoxication is no defense and cannot be used to negate specific intent (§ 775.051); a person using deadly force in self-defense has no duty to retreat if not engaged in criminal activity and in a place where he or she has a right to be (§§ 776.012(2), 776.013); immunity is decided at a pretrial hearing where, once the defendant raises a prima facie claim, the State must overcome it by clear and convincing evidence (§ 776.032(4)).",
+        "Criminal procedure: Florida's search-and-seizure clause must follow the U.S. Supreme Court's Fourth Amendment decisions (Art. I, § 12), so it gives no broader protection.",
+        "Wills: two witnesses who sign in each other's presence, no holographic wills, no notary in place of witnesses, a flat 30 percent elective share, and no enforceable no-contest clauses.",
+        "Homestead: protected by acreage, not dollars (half an acre in a municipality, 160 acres outside), and not devisable when the owner leaves a spouse or minor child, except to the spouse when there is no minor child.",
+        "Trusts: the testamentary provisions of a revocable trust need will formalities (§ 736.0403(2)(b)), and a settlor cannot shield a self-settled trust from his or her own creditors.",
+        "Civil procedure: fact pleading, 20 days to answer, 15 days for post-trial motions, a cap of 30 requests for admission, proposals for settlement that shift fees (§ 768.79), and the federal summary-judgment standard since May 1, 2021.",
+        "Professional responsibility: the 'clearly excessive' fee standard, mandatory disclosure to prevent a client's crime or a death or substantial bodily harm, the 30-day wait for targeted accident letters, the 75/25 personal-injury fee division, and no threats of criminal charges solely to gain an advantage in a civil matter.",
+        "Family law: no permanent alimony under the 2023 statute, and a rebuttable presumption that equal time-sharing is in the child's best interests.",
+        "Business entities: piercing the veil requires improper conduct, not just domination, thin capital or loose formalities (Dania Jai-Alai).",
+        "Florida Constitution: an express privacy right (Art. I, § 23) that triggers the compelling-interest, least-intrusive-means test, and amendments that need 60 percent of the vote."
+      ]
+    },
+    {
+      "id": "florida-week-by-week",
+      "title": "Ruled's Florida tools, week by week",
+      "kicker": "Lecture, outline, drill, write, recall",
+      "body": [
+        "Set your jurisdiction to Florida in Settings first. The calendar then swaps MEE and MPT work for Part A question sets and three-essay simulations, Florida essays run on a 60-minute clock, and the Florida subjects sit beside the MBE subjects throughout the app. The plan below assumes about ten weeks. Stretch or compress the phases to fit your calendar, and let its daily tasks lead; this is the logic behind them.",
+        "Each Florida subject goes through the same loop: hear it in your lectures, learn it from the outline, test it with questions, write it in an essay, and keep it with Recall. Keep the MBE going every day throughout. Florida work is added to it, not traded for it."
+      ],
+      "steps": [
+        {
+          "title": "Weeks 1–4: learn the Florida subjects",
+          "text": "Take one Florida subject every few days. Watch its lectures in the Lectures section (search a topic to jump to it, and note the exam tips), read the outline topics in weight order with the 3s first, take the subject's question set, then read its entries on Where Florida differs. Every miss and every difference goes into Recall."
+        },
+        {
+          "title": "Weeks 3–6: start writing and spotting",
+          "text": "Once a subject is learned, write one of its essays on the 60-minute clock and grade it the same day against the model answer and the issue list. Add two or three issue spotters a week; they train the fact-tagging step of the essay method in a few minutes."
+        },
+        {
+          "title": "Weeks 5–8: mix the Florida subjects",
+          "text": "Run 25- and 50-question sets from the All Florida Part A pool in exam mode, at 1.8 minutes a question. Review every miss and note whether you applied a Florida rule or the MBE's."
+        },
+        {
+          "title": "Weeks 7–9: simulate Part A",
+          "text": "Once a week, do the three-essay simulation (three hours) and, after a break, a 100-question Part A set (#/mbe?subjects=fl&count=100&mode=exam). On another day, do a 100-question MBE block. The calendar schedules both."
+        },
+        {
+          "title": "Week 10: consolidate",
+          "text": "Recall every day, the differences page, your numbers sheet, short timed sets from both pools, and one essay a day. No new material."
+        }
+      ],
+      "tips": [
+        "Twenty minutes of Recall a day is the cheapest score in the app; keep it even on the heaviest days.",
+        "When a Part A topic keeps beating you, search the Lectures for it and re-listen to that segment before you re-read the outline.",
+        "Grade essays strictly against the issue list: an issue you named without stating its rule is a miss.",
+        "Watch why you miss. If most misses are rules you never learned, read more; if most are MBE rules applied to Florida questions, drill the differences page."
+      ]
+    },
+    {
+      "id": "florida-final-weeks",
+      "title": "Florida's final three weeks",
+      "kicker": "Rehearse the switch, lock the paperwork",
+      "body": [
+        "In the last three weeks the work shifts from learning to retrieval and rehearsal. Florida's two days ask for two modes: on Tuesday you write and answer under Florida law; on Wednesday you switch back to the general rules of the MBE. Practise that switch at least once with a full two-day rehearsal, Florida first and the MBE the next day.",
+        "The paperwork has deadlines too. If you will type your essays, apply to the Board's laptop program and pay its fee by the Board's deadline (January 15 for the February exam). Then register with ExamSoft, install Examplify and complete the mandatory mock exam within the window posted for your exam; for February 2026, ExamSoft's window ran from January 7 to February 2, with the mock exam due at the close. Registration must be repeated for every administration, and an applicant who misses a step handwrites the essays. Check the Board's laptop page for your exam's dates. The Board also posts a virtual tour a few weeks before each exam (February 3 for the February 2026 exam; June 19 for July 2026). Read all of it: it sets the rules on badge pick-up, arrival, identification and what you may bring."
+      ],
+      "steps": [
+        {
+          "title": "Three weeks out: full rehearsal",
+          "text": "Day one: three essays in three hours, a break, then 100 Part A questions in three hours. Day two: 200 MBE questions in two sessions. Note where your focus dropped and what you would change."
+        },
+        {
+          "title": "Lock the logistics",
+          "text": "Confirm your application status and ticket of admission, finish laptop registration and the mock exam, read the virtual tour and note the badge pick-up window, and book travel and lodging if you are not local."
+        },
+        {
+          "title": "Two weeks out: close the gaps",
+          "text": "Sort your Part A misses by topic and work the weight-3 topics where you still miss. Write one Florida essay a day, rotating subjects."
+        },
+        {
+          "title": "Final week: retrieval only",
+          "text": "Recall, the differences page and your numbers sheet every day, plus short timed sets from both pools. No new subjects."
+        },
+        {
+          "title": "Last two days: taper",
+          "text": "Light review, logistics laid out, normal sleep. Your score depends on what you can retrieve on Tuesday morning, not on one more pass through an outline."
+        }
+      ],
+      "tips": [
+        "Write at least one practice essay with spell check turned off; the Board's exam software has it disabled.",
+        "Keep the MBE warm on Florida-heavy days: a 25-question set takes about 45 minutes.",
+        "If anything in your application is still open with the Board, deal with it now. The exam and the background investigation run on separate tracks."
+      ]
+    },
+    {
+      "id": "florida-exam-day",
+      "title": "Florida exam days",
+      "kicker": "Part A Tuesday, the MBE Wednesday",
+      "body": [
+        "The Board lists the February 2027 exam for Tuesday and Wednesday, February 23–24, at the Tampa Convention Center. Part A is Tuesday: three essays in the morning session and 100 multiple-choice questions in the afternoon. Part B, the MBE, is Wednesday, in a three-hour morning session and a three-hour afternoon session. Take your reporting times from your ticket and the virtual tour; they are set for each exam.",
+        "Bring what the virtual tour lists and nothing else. Recent tours have required your signed ticket of admission and a government-issued photo ID, preferably a driver's license or state ID; the ticket is also what you use to collect your photo badge. The July 2026 tour warned that late arrivals get no extra time. Each tour sets the permitted items, including any laptop accessories, and the rules on leaving the room during a session, so read the tour for your exam and follow it exactly. Anything not on the permitted list stays out of the room. If you handwrite, the Board provides paper for the essays."
+      ],
+      "steps": [
+        {
+          "title": "Monday: badge pick-up",
+          "text": "Take your signed ticket of admission and government photo ID to the Convention Center during the badge pick-up window the virtual tour lists: Monday afternoon for most applicants, Tuesday evening if you sit only Part B."
+        },
+        {
+          "title": "The night before",
+          "text": "Lay out your photo badge, signed ticket and ID and, if you type, your laptop and charger with any accessories the tour permits. Check the tour's list once more and plan to arrive early; security and check-in take time."
+        },
+        {
+          "title": "Tuesday morning: the essays",
+          "text": "Start each essay at its hour mark. If one runs long, finish it with a rule, application and conclusion skeleton rather than borrowing time from the next."
+        },
+        {
+          "title": "Tuesday afternoon: Part A questions",
+          "text": "About 33 done at one hour and 67 at two. Florida law is the default for every question."
+        },
+        {
+          "title": "Tuesday evening: switch modes",
+          "text": "Do not replay the essays. Spend half an hour on MBE material, tell yourself that tomorrow the general rules apply, and sleep."
+        },
+        {
+          "title": "Wednesday: the MBE",
+          "text": "Use the Bench Book's MBE method. The Federal Rules of Evidence, the majority common-law rules and the MBE's conventions decide the answers; leave Florida's rules in Tuesday."
+        }
+      ],
+      "tips": [
+        "Wednesday reversals: the Federal Rules of Evidence allow opinion testimony on character, and under the common-law rule the MBE tests, voluntary intoxication can negate a specific intent. Florida's rules on both are the opposite.",
+        "Plan lunch so you are back early for each afternoon session; the second session of the day is where pace slips.",
+        "Results are posted, not phoned. On release day, check your Board applicant portal, where your scores arrive as correspondence, or find your file number (not your badge number) on the pass list on the Florida Supreme Court's website; the Court announces the release on its official social media account."
+      ]
+    },
+    {
+      "id": "florida-mpre-character-fitness",
+      "title": "MPRE and character and fitness",
+      "kicker": "Two requirements outside exam week",
+      "body": [
+        "Passing the General Bar Examination does not by itself admit you. Florida also requires a passing MPRE score and a completed character and fitness investigation by the Board, which then recommends applicants to the Supreme Court of Florida for admission.",
+        "The MPRE. Florida requires a scaled score of 80, or another score the Court sets. The admission rules (Rule 4-18.1) put it on the same clock as the exam: the General Bar Examination and the MPRE must all be passed within 25 months of the administration of any part you passed, or the older passing scores are deleted. NCBE gives the MPRE in March, August and November: 60 questions in two hours, 50 of them scored, with no deduction for wrong answers. Registration for the November 12–13, 2026 MPRE closed on September 17. The next administration open for registration is March 23–24, 2027 (you test on one of those days), with registration closing January 21, 2027; NCBE lists the fee as $185. Confirm on ncbex.org.",
+        "The MPRE tests the ABA Model Rules of Professional Conduct and the Model Code of Judicial Conduct, not the Rules Regulating The Florida Bar. Where the two differ, answer the MPRE by the ABA rule and Part A by Florida's: an 'unreasonable' fee for the ABA against Florida's 'clearly excessive' standard; permissive disclosure under ABA Model Rule 1.6(b) against Florida's duty to reveal what is needed to prevent a client's crime or a death or substantial bodily harm.",
+        "Character and fitness. The Board's investigation runs on its own track. Law students file a Registrant Bar Application and later a Supplement that converts it into an application for admission; the Board encourages filing the Supplement at the start of the final year of law school. Electronic fingerprinting through the Board's approved vendor is part of the application, and the Board does not begin processing until it has confirmation that your fingerprints were taken. Finish the online application within six months of creating your portal account, or the account and everything in it are deleted. The Board reports that for 75 to 85 percent of law-student registrants the investigation is completed within four months, but anything that prompts further inquiry or a hearing takes longer, and you can pass the exam and still be waiting to be admitted."
+      ],
+      "steps": [
+        {
+          "title": "Place the MPRE",
+          "text": "Choose an administration that falls inside the 25-month window around your bar exam and away from your heaviest Part A weeks. Register with NCBE before its deadline."
+        },
+        {
+          "title": "File early",
+          "text": "If you registered as a law student, file the Supplement as early as the Board allows. If you never registered, file your bar application as early as you can."
+        },
+        {
+          "title": "Gather records first",
+          "text": "Collect addresses, employment, school discipline, court and traffic matters, debts and anything else the application asks about before you start, so your answers are complete and consistent."
+        },
+        {
+          "title": "Disclose fully",
+          "text": "Answer every question completely and attach the documents. An omission the investigation turns up becomes a candor problem of its own."
+        },
+        {
+          "title": "Answer the Board promptly",
+          "text": "Reply to follow-up requests quickly and keep your contact details current; delay on your side lengthens the investigation."
+        }
+      ],
+      "tips": [
+        "If there is a serious matter in your background, consider speaking with a lawyer who handles Florida bar admissions before you file.",
+        "Study for the MPRE with ABA eyes, and keep a short list of the places where Florida's rules differ so the two do not blur on Part A.",
+        "Confirm fees, deadlines and current forms on floridabarexam.org and ncbex.org; both change from year to year."
+      ]
+    }
+  ]
+}

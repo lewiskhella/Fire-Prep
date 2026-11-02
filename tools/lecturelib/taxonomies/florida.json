@@ -1,0 +1,1504 @@
+{
+  "id": "florida",
+  "title": "Florida Bar Examination",
+  "note": "Keyword taxonomy used only to tag lecture passages by subject and topic. The subject list follows the Florida Board of Bar Examiners' Part A areas as best reconstructed; verify against the Board's current Study Guide before relying on it for anything other than tagging. Statute and rule numbers appear here only as search terms.",
+  "subjects": [
+    {
+      "id": "fl-civil-procedure",
+      "title": "Florida Civil Procedure & Judicial Administration",
+      "part": "A",
+      "rulesSubject": "civil-procedure",
+      "aliases": [
+        "florida civil procedure",
+        "florida rules of civil procedure",
+        "judicial administration",
+        "fla r civ p"
+      ],
+      "topics": [
+        {
+          "id": "fl-civil-procedure.jurisdiction-and-venue",
+          "title": "Court jurisdiction, long-arm and venue",
+          "keywords": [
+            "county court",
+            "circuit court",
+            "long-arm",
+            "long arm statute",
+            "48.193",
+            "minimum contacts",
+            "venue",
+            "47.011",
+            "where the cause of action accrued",
+            "forum non conveniens",
+            "transfer of venue",
+            "amount in controversy"
+          ]
+        },
+        {
+          "id": "fl-civil-procedure.service",
+          "title": "Process and service",
+          "keywords": [
+            "service of process",
+            "summons",
+            "48.031",
+            "substituted service",
+            "abode service",
+            "service by publication",
+            "constructive service",
+            "120 days",
+            "waiver of service",
+            "registered agent"
+          ]
+        },
+        {
+          "id": "fl-civil-procedure.pleadings-and-motions",
+          "title": "Pleadings, motions and amendment",
+          "keywords": [
+            "complaint",
+            "answer",
+            "20 days",
+            "motion to dismiss",
+            "1.140",
+            "failure to state a cause of action",
+            "affirmative defense",
+            "counterclaim",
+            "compulsory counterclaim",
+            "crossclaim",
+            "third-party complaint",
+            "amendment",
+            "relation back",
+            "motion for more definite statement",
+            "default",
+            "1.500"
+          ]
+        },
+        {
+          "id": "fl-civil-procedure.sanctions-and-settlement",
+          "title": "Sanctions, proposals for settlement and fees",
+          "keywords": [
+            "proposal for settlement",
+            "offer of judgment",
+            "768.79",
+            "57.105",
+            "safe harbor",
+            "21 days",
+            "frivolous",
+            "attorney's fees",
+            "prevailing party",
+            "25 percent"
+          ]
+        },
+        {
+          "id": "fl-civil-procedure.discovery",
+          "title": "Discovery",
+          "keywords": [
+            "discovery",
+            "interrogatories",
+            "30 interrogatories",
+            "request for production",
+            "request for admission",
+            "1.370",
+            "deposition",
+            "1.280",
+            "work product",
+            "protective order",
+            "motion to compel",
+            "subpoena duces tecum",
+            "independent medical examination",
+            "1.360"
+          ]
+        },
+        {
+          "id": "fl-civil-procedure.summary-judgment-and-trial",
+          "title": "Summary judgment, trial and post-trial motions",
+          "keywords": [
+            "summary judgment",
+            "1.510",
+            "genuine dispute",
+            "celotex",
+            "notice for trial",
+            "1.440",
+            "jury trial",
+            "directed verdict",
+            "motion for new trial",
+            "rehearing",
+            "remittitur",
+            "additur",
+            "relief from judgment",
+            "1.540",
+            "excusable neglect"
+          ]
+        },
+        {
+          "id": "fl-civil-procedure.dismissal-and-class",
+          "title": "Dismissal, failure to prosecute and class actions",
+          "keywords": [
+            "voluntary dismissal",
+            "involuntary dismissal",
+            "failure to prosecute",
+            "1.420",
+            "lack of prosecution",
+            "two dismissal rule",
+            "class action",
+            "1.220",
+            "numerosity",
+            "commonality"
+          ]
+        },
+        {
+          "id": "fl-civil-procedure.judicial-administration-and-appeals",
+          "title": "Judicial administration, time and appeals",
+          "keywords": [
+            "judicial administration",
+            "computing time",
+            "2.514",
+            "e-service",
+            "2.516",
+            "e-portal",
+            "notice of appeal",
+            "30 days",
+            "rendition",
+            "certiorari",
+            "nonfinal order",
+            "district court of appeal",
+            "appellate procedure",
+            "disqualification of judge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-constitutional-law",
+      "title": "Florida Constitutional Law",
+      "part": "A",
+      "rulesSubject": "constitutional-law",
+      "aliases": [
+        "florida constitution",
+        "florida constitutional law",
+        "state constitution"
+      ],
+      "topics": [
+        {
+          "id": "fl-constitutional-law.declaration-of-rights",
+          "title": "Declaration of Rights",
+          "keywords": [
+            "declaration of rights",
+            "article i",
+            "right of privacy",
+            "right to privacy",
+            "article i section 23",
+            "access to courts",
+            "public records",
+            "open meetings",
+            "sunshine law",
+            "basic rights",
+            "religious freedom",
+            "no aid to religion",
+            "victims rights",
+            "marsy"
+          ]
+        },
+        {
+          "id": "fl-constitutional-law.legislature",
+          "title": "Legislature and lawmaking",
+          "keywords": [
+            "legislature",
+            "single subject",
+            "special law",
+            "general law",
+            "local law",
+            "bill",
+            "veto",
+            "line-item veto",
+            "appropriations",
+            "impeachment",
+            "house of representatives",
+            "florida senate",
+            "session"
+          ]
+        },
+        {
+          "id": "fl-constitutional-law.executive",
+          "title": "Executive branch",
+          "keywords": [
+            "governor",
+            "lieutenant governor",
+            "cabinet",
+            "attorney general",
+            "chief financial officer",
+            "commissioner of agriculture",
+            "suspension of officers",
+            "clemency",
+            "executive order"
+          ]
+        },
+        {
+          "id": "fl-constitutional-law.judiciary",
+          "title": "Judiciary (Article V)",
+          "keywords": [
+            "article v",
+            "florida supreme court",
+            "district court of appeal",
+            "jurisdiction of the supreme court",
+            "certified question",
+            "express and direct conflict",
+            "merit retention",
+            "judicial nominating commission",
+            "judicial qualifications commission",
+            "state attorney",
+            "public defender"
+          ]
+        },
+        {
+          "id": "fl-constitutional-law.local-government-and-finance",
+          "title": "Local government, taxation and finance",
+          "keywords": [
+            "home rule",
+            "county charter",
+            "municipality",
+            "ordinance",
+            "ad valorem",
+            "homestead exemption",
+            "save our homes",
+            "taxation",
+            "bonds",
+            "balanced budget"
+          ]
+        },
+        {
+          "id": "fl-constitutional-law.amendment",
+          "title": "Amending the constitution",
+          "keywords": [
+            "constitutional amendment",
+            "citizen initiative",
+            "ballot summary",
+            "joint resolution",
+            "constitution revision commission",
+            "taxation and budget reform commission",
+            "constitutional convention",
+            "60 percent"
+          ]
+        },
+        {
+          "id": "fl-constitutional-law.homestead-and-property",
+          "title": "Article X: homestead, eminent domain and sovereign immunity",
+          "keywords": [
+            "article x",
+            "eminent domain",
+            "full compensation",
+            "taking",
+            "homestead protection",
+            "forced sale",
+            "sovereign immunity waiver",
+            "general law waiver"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-business-entities",
+      "title": "Business Entities",
+      "part": "A",
+      "rulesSubject": "business-associations",
+      "aliases": [
+        "business entities",
+        "corporations",
+        "partnerships",
+        "limited liability companies"
+      ],
+      "topics": [
+        {
+          "id": "fl-business-entities.corporations",
+          "title": "Corporations",
+          "keywords": [
+            "corporation",
+            "articles of incorporation",
+            "bylaws",
+            "board of directors",
+            "shareholder",
+            "chapter 607",
+            "business corporation act",
+            "business judgment rule",
+            "duty of care",
+            "duty of loyalty",
+            "piercing the corporate veil",
+            "dividend",
+            "promoter",
+            "ultra vires"
+          ]
+        },
+        {
+          "id": "fl-business-entities.llcs",
+          "title": "Limited liability companies",
+          "keywords": [
+            "limited liability company",
+            "llc",
+            "chapter 605",
+            "member-managed",
+            "manager-managed",
+            "operating agreement",
+            "dissociation",
+            "charging order",
+            "articles of organization"
+          ]
+        },
+        {
+          "id": "fl-business-entities.partnerships",
+          "title": "Partnerships",
+          "keywords": [
+            "partnership",
+            "general partnership",
+            "limited partnership",
+            "limited liability partnership",
+            "chapter 620",
+            "partner",
+            "dissociation",
+            "winding up",
+            "jointly and severally",
+            "partnership property"
+          ]
+        },
+        {
+          "id": "fl-business-entities.agency",
+          "title": "Agency",
+          "keywords": [
+            "agency",
+            "agent",
+            "principal",
+            "actual authority",
+            "apparent authority",
+            "ratification",
+            "respondeat superior",
+            "independent contractor",
+            "frolic",
+            "detour"
+          ]
+        },
+        {
+          "id": "fl-business-entities.shareholder-remedies-and-fundamental-changes",
+          "title": "Shareholder remedies and fundamental changes",
+          "keywords": [
+            "derivative suit",
+            "demand",
+            "merger",
+            "appraisal rights",
+            "dissolution",
+            "inspection of records",
+            "short-form merger",
+            "sale of substantially all assets",
+            "judicial dissolution",
+            "buy-out election",
+            "market-out exception"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-wills",
+      "title": "Wills & Administration of Estates",
+      "part": "A",
+      "rulesSubject": "wills",
+      "aliases": [
+        "wills",
+        "probate",
+        "estates",
+        "administration of estates",
+        "florida probate code"
+      ],
+      "topics": [
+        {
+          "id": "fl-wills.intestacy",
+          "title": "Intestate succession",
+          "keywords": [
+            "intestate",
+            "intestacy",
+            "heirs",
+            "surviving spouse share",
+            "lineal descendants",
+            "per stirpes",
+            "per capita",
+            "half blood",
+            "adopted",
+            "posthumous",
+            "advancement",
+            "slayer",
+            "simultaneous death",
+            "insufficient evidence of survival"
+          ]
+        },
+        {
+          "id": "fl-wills.execution-and-revocation",
+          "title": "Execution, revocation and contests",
+          "keywords": [
+            "execution of a will",
+            "two witnesses",
+            "signed at the end",
+            "self-proving",
+            "holographic",
+            "nuncupative",
+            "electronic will",
+            "remote witnessing",
+            "revocation",
+            "dependent relative revocation",
+            "revival",
+            "divorce revokes",
+            "732.507",
+            "undue influence",
+            "active procurement",
+            "testamentary capacity",
+            "will contest",
+            "no contest clause"
+          ]
+        },
+        {
+          "id": "fl-wills.spousal-and-family-protection",
+          "title": "Elective share, pretermitted heirs, homestead and exempt property",
+          "keywords": [
+            "elective share",
+            "30 percent",
+            "elective estate",
+            "pretermitted spouse",
+            "pretermitted child",
+            "omitted spouse",
+            "exempt property",
+            "family allowance",
+            "waiver of spousal rights",
+            "prenuptial waiver"
+          ]
+        },
+        {
+          "id": "fl-wills.construction",
+          "title": "Construction: lapse, ademption, abatement",
+          "keywords": [
+            "lapse",
+            "anti-lapse",
+            "732.603",
+            "ademption",
+            "abatement",
+            "class gift",
+            "specific devise",
+            "general devise",
+            "residuary",
+            "pour-over",
+            "incorporation by reference",
+            "acts of independent significance"
+          ]
+        },
+        {
+          "id": "fl-wills.administration",
+          "title": "Probate administration and creditors",
+          "keywords": [
+            "personal representative",
+            "letters of administration",
+            "formal administration",
+            "summary administration",
+            "notice to creditors",
+            "three months",
+            "two years after death",
+            "733.702",
+            "733.710",
+            "statement of claim",
+            "inventory",
+            "accounting",
+            "discharge",
+            "ancillary administration",
+            "domiciliary",
+            "caveat"
+          ]
+        },
+        {
+          "id": "fl-wills.homestead",
+          "title": "Homestead in probate",
+          "keywords": [
+            "homestead",
+            "descent of homestead",
+            "devise of homestead",
+            "protected homestead",
+            "restriction on devise",
+            "minor child",
+            "life estate",
+            "tenancy in common election",
+            "heirs creditor protection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-trusts",
+      "title": "Trusts",
+      "part": "A",
+      "rulesSubject": "trusts",
+      "aliases": [
+        "trusts",
+        "florida trust code",
+        "chapter 736"
+      ],
+      "topics": [
+        {
+          "id": "fl-trusts.creation",
+          "title": "Creation and validity",
+          "keywords": [
+            "settlor",
+            "trustee",
+            "beneficiary",
+            "trust res",
+            "intent to create",
+            "revocable trust",
+            "testamentary aspects",
+            "736.0403",
+            "pour-over",
+            "secret trust",
+            "semi-secret",
+            "statute of frauds",
+            "precatory"
+          ]
+        },
+        {
+          "id": "fl-trusts.types",
+          "title": "Types of trusts",
+          "keywords": [
+            "charitable trust",
+            "cy pres",
+            "spendthrift",
+            "discretionary trust",
+            "support trust",
+            "resulting trust",
+            "constructive trust",
+            "honorary trust",
+            "pet trust",
+            "land trust"
+          ]
+        },
+        {
+          "id": "fl-trusts.trustee-duties",
+          "title": "Trustee powers and duties",
+          "keywords": [
+            "duty of loyalty",
+            "self-dealing",
+            "prudent investor",
+            "duty to inform",
+            "duty to account",
+            "breach of trust",
+            "trustee removal",
+            "co-trustee",
+            "trustee compensation",
+            "commingling",
+            "impartiality",
+            "principal and income"
+          ]
+        },
+        {
+          "id": "fl-trusts.modification-and-creditors",
+          "title": "Modification, termination and creditors' rights",
+          "keywords": [
+            "modification",
+            "termination",
+            "material purpose",
+            "revocation of trust",
+            "creditors of the settlor",
+            "self-settled",
+            "exception creditor",
+            "child support creditor",
+            "decanting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-family-law",
+      "title": "Family Law (incl. dependency)",
+      "part": "A",
+      "rulesSubject": "family-law",
+      "aliases": [
+        "family law",
+        "dissolution",
+        "chapter 61",
+        "chapter 39",
+        "dependency"
+      ],
+      "topics": [
+        {
+          "id": "fl-family-law.dissolution",
+          "title": "Dissolution and jurisdiction",
+          "keywords": [
+            "dissolution of marriage",
+            "irretrievably broken",
+            "mental incapacity",
+            "six months residency",
+            "simplified dissolution",
+            "annulment",
+            "void marriage",
+            "voidable",
+            "common law marriage"
+          ]
+        },
+        {
+          "id": "fl-family-law.property-and-alimony",
+          "title": "Equitable distribution and alimony",
+          "keywords": [
+            "equitable distribution",
+            "marital asset",
+            "nonmarital asset",
+            "commingled",
+            "enhancement in value",
+            "61.075",
+            "alimony",
+            "bridge-the-gap",
+            "rehabilitative alimony",
+            "durational alimony",
+            "permanent alimony",
+            "supportive relationship",
+            "modification of alimony"
+          ]
+        },
+        {
+          "id": "fl-family-law.children",
+          "title": "Parenting, time-sharing, support and relocation",
+          "keywords": [
+            "parenting plan",
+            "time-sharing",
+            "shared parental responsibility",
+            "best interests of the child",
+            "child support guidelines",
+            "61.30",
+            "imputed income",
+            "relocation",
+            "50 miles",
+            "61.13001",
+            "paternity",
+            "modification of child support",
+            "substantial change in circumstances"
+          ]
+        },
+        {
+          "id": "fl-family-law.agreements-and-protection",
+          "title": "Premarital agreements and domestic violence",
+          "keywords": [
+            "premarital agreement",
+            "prenuptial",
+            "postnuptial",
+            "uniform premarital agreement act",
+            "fair and reasonable disclosure",
+            "domestic violence injunction",
+            "dating violence",
+            "stalking injunction"
+          ]
+        },
+        {
+          "id": "fl-family-law.dependency",
+          "title": "Dependency (Chapter 39)",
+          "keywords": [
+            "chapter 39",
+            "dependent child",
+            "shelter hearing",
+            "24 hours",
+            "dependency petition",
+            "case plan",
+            "termination of parental rights",
+            "guardian ad litem",
+            "department of children and families",
+            "dcf",
+            "reunification",
+            "adjudicatory hearing"
+          ]
+        },
+        {
+          "id": "fl-family-law.interstate-jurisdiction",
+          "title": "Interstate custody and support (UCCJEA, UIFSA)",
+          "keywords": [
+            "uccjea",
+            "home state",
+            "uifsa",
+            "exclusive continuing jurisdiction",
+            "temporary emergency jurisdiction",
+            "registration of a foreign order",
+            "significant connection",
+            "inconvenient forum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-evidence",
+      "title": "Florida Evidence Code",
+      "part": "A",
+      "rulesSubject": "evidence",
+      "aliases": [
+        "florida evidence",
+        "evidence code",
+        "chapter 90"
+      ],
+      "topics": [
+        {
+          "id": "fl-evidence.relevance-and-character",
+          "title": "Relevance, character and similar-fact evidence",
+          "keywords": [
+            "relevance",
+            "90.401",
+            "90.403",
+            "unfair prejudice",
+            "character evidence",
+            "90.404",
+            "williams rule",
+            "similar fact evidence",
+            "child molestation",
+            "habit",
+            "routine practice",
+            "subsequent remedial measures",
+            "offers of compromise"
+          ]
+        },
+        {
+          "id": "fl-evidence.witnesses-and-impeachment",
+          "title": "Witnesses and impeachment",
+          "keywords": [
+            "competency",
+            "personal knowledge",
+            "impeachment",
+            "90.608",
+            "prior inconsistent statement",
+            "bias",
+            "prior conviction",
+            "90.610",
+            "dishonesty",
+            "reputation for truthfulness",
+            "refreshing recollection",
+            "leading questions",
+            "cross-examination"
+          ]
+        },
+        {
+          "id": "fl-evidence.experts",
+          "title": "Lay and expert opinion",
+          "keywords": [
+            "expert witness",
+            "90.702",
+            "daubert",
+            "frye",
+            "reliable principles",
+            "lay opinion",
+            "90.701",
+            "learned treatise"
+          ]
+        },
+        {
+          "id": "fl-evidence.hearsay",
+          "title": "Hearsay and exceptions",
+          "keywords": [
+            "hearsay",
+            "90.801",
+            "90.803",
+            "90.804",
+            "spontaneous statement",
+            "excited utterance",
+            "then-existing state of mind",
+            "medical diagnosis",
+            "business record",
+            "public record",
+            "recorded recollection",
+            "former testimony",
+            "dying declaration",
+            "statement against interest",
+            "child victim hearsay",
+            "admission",
+            "co-conspirator",
+            "unavailable declarant",
+            "confrontation clause",
+            "crawford",
+            "testimonial"
+          ]
+        },
+        {
+          "id": "fl-evidence.privileges",
+          "title": "Privileges",
+          "keywords": [
+            "privilege",
+            "lawyer-client privilege",
+            "90.502",
+            "psychotherapist",
+            "accountant-client",
+            "spousal privilege",
+            "husband-wife",
+            "clergy",
+            "sexual assault counselor",
+            "journalist privilege",
+            "trade secret",
+            "waiver of privilege"
+          ]
+        },
+        {
+          "id": "fl-evidence.documents-and-notice",
+          "title": "Authentication, best evidence and judicial notice",
+          "keywords": [
+            "authentication",
+            "best evidence rule",
+            "original document",
+            "duplicate",
+            "summaries",
+            "judicial notice",
+            "90.202",
+            "self-authenticating",
+            "chain of custody"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-criminal",
+      "title": "Criminal Law, Constitutional Criminal Procedure & Florida Criminal Procedure",
+      "part": "A",
+      "rulesSubject": "criminal-law",
+      "aliases": [
+        "criminal law",
+        "criminal procedure",
+        "florida rules of criminal procedure"
+      ],
+      "topics": [
+        {
+          "id": "fl-criminal.homicide-and-person",
+          "title": "Homicide and crimes against the person",
+          "keywords": [
+            "first-degree murder",
+            "premeditation",
+            "felony murder",
+            "second-degree murder",
+            "depraved mind",
+            "manslaughter",
+            "culpable negligence",
+            "battery",
+            "aggravated battery",
+            "assault",
+            "aggravated assault",
+            "kidnapping",
+            "false imprisonment",
+            "sexual battery"
+          ]
+        },
+        {
+          "id": "fl-criminal.property-crimes",
+          "title": "Theft, robbery and burglary",
+          "keywords": [
+            "theft",
+            "812.014",
+            "robbery",
+            "carjacking",
+            "home-invasion robbery",
+            "burglary",
+            "810.02",
+            "dwelling",
+            "structure",
+            "conveyance",
+            "dealing in stolen property",
+            "forgery",
+            "uttering",
+            "arson",
+            "trespass"
+          ]
+        },
+        {
+          "id": "fl-criminal.inchoate-and-parties",
+          "title": "Inchoate crimes and parties",
+          "keywords": [
+            "attempt",
+            "solicitation",
+            "conspiracy",
+            "renunciation",
+            "principal in the first degree",
+            "aider and abettor",
+            "accessory after the fact",
+            "777.011"
+          ]
+        },
+        {
+          "id": "fl-criminal.defenses",
+          "title": "Defenses",
+          "keywords": [
+            "self-defense",
+            "stand your ground",
+            "776.012",
+            "776.032",
+            "immunity hearing",
+            "castle doctrine",
+            "duty to retreat",
+            "insanity",
+            "m'naghten",
+            "voluntary intoxication",
+            "775.051",
+            "entrapment",
+            "777.201",
+            "duress",
+            "necessity",
+            "independent act"
+          ]
+        },
+        {
+          "id": "fl-criminal.search-seizure-confessions",
+          "title": "Search, seizure and confessions",
+          "keywords": [
+            "fourth amendment",
+            "search warrant",
+            "probable cause",
+            "reasonable suspicion",
+            "terry stop",
+            "stop and frisk",
+            "consent search",
+            "automobile exception",
+            "plain view",
+            "search incident to arrest",
+            "exclusionary rule",
+            "fruit of the poisonous tree",
+            "miranda",
+            "custodial interrogation",
+            "invocation of counsel",
+            "voluntariness"
+          ]
+        },
+        {
+          "id": "fl-criminal.florida-rules",
+          "title": "Florida Rules of Criminal Procedure",
+          "keywords": [
+            "rules of criminal procedure",
+            "first appearance",
+            "pretrial release",
+            "3.131",
+            "arthur hearing",
+            "information",
+            "indictment",
+            "grand jury",
+            "arraignment",
+            "speedy trial",
+            "3.191",
+            "175 days",
+            "90 days",
+            "notice of expiration",
+            "recapture period",
+            "discovery exhibit",
+            "3.220",
+            "richardson hearing",
+            "plea",
+            "3.172",
+            "jury of six",
+            "postconviction",
+            "3.850",
+            "3.800",
+            "motion to suppress",
+            "3.190",
+            "c(4) motion",
+            "sentencing",
+            "criminal punishment code",
+            "scoresheet"
+          ]
+        },
+        {
+          "id": "fl-criminal.trial-rights",
+          "title": "Trial rights and double jeopardy",
+          "keywords": [
+            "right to counsel",
+            "sixth amendment",
+            "ineffective assistance",
+            "strickland",
+            "jury trial",
+            "double jeopardy",
+            "blockburger",
+            "same elements",
+            "brady",
+            "confrontation",
+            "speedy trial right",
+            "guilty plea",
+            "plea bargain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-real-property",
+      "title": "Real Property (Florida)",
+      "part": "A",
+      "rulesSubject": "real-property",
+      "aliases": [
+        "real property",
+        "property",
+        "landlord tenant",
+        "homestead"
+      ],
+      "topics": [
+        {
+          "id": "fl-real-property.homestead",
+          "title": "Homestead",
+          "keywords": [
+            "homestead",
+            "article x section 4",
+            "forced sale",
+            "exempt from forced sale",
+            "one-half acre",
+            "160 acres",
+            "municipality",
+            "restriction on devise",
+            "spouse must join",
+            "tax exemption",
+            "save our homes"
+          ]
+        },
+        {
+          "id": "fl-real-property.conveyancing",
+          "title": "Deeds, recording and title",
+          "keywords": [
+            "deed",
+            "warranty deed",
+            "quitclaim deed",
+            "two subscribing witnesses",
+            "delivery",
+            "recording",
+            "695.01",
+            "notice statute",
+            "bona fide purchaser",
+            "marketable record title act",
+            "chapter 712",
+            "30 years",
+            "root of title",
+            "title insurance",
+            "estoppel by deed",
+            "after-acquired title"
+          ]
+        },
+        {
+          "id": "fl-real-property.landlord-tenant",
+          "title": "Landlord and tenant",
+          "keywords": [
+            "landlord",
+            "tenant",
+            "chapter 83",
+            "residential tenancy",
+            "three-day notice",
+            "seven-day notice",
+            "security deposit",
+            "30 days",
+            "notice of intent to impose a claim",
+            "self-help eviction",
+            "retaliatory eviction",
+            "warranty of habitability",
+            "month-to-month",
+            "holdover",
+            "double rent"
+          ]
+        },
+        {
+          "id": "fl-real-property.mortgages",
+          "title": "Mortgages and foreclosure",
+          "keywords": [
+            "mortgage",
+            "lien theory",
+            "judicial foreclosure",
+            "deficiency judgment",
+            "equitable right of redemption",
+            "foreclosure sale",
+            "lis pendens",
+            "purchase money mortgage",
+            "due-on-sale",
+            "assumption",
+            "subject to"
+          ]
+        },
+        {
+          "id": "fl-real-property.ownership-and-possession",
+          "title": "Concurrent ownership, adverse possession and land use",
+          "keywords": [
+            "tenancy by the entirety",
+            "joint tenancy",
+            "tenancy in common",
+            "right of survivorship",
+            "adverse possession",
+            "color of title",
+            "seven years",
+            "95.16",
+            "95.18",
+            "return with the property appraiser",
+            "easement",
+            "prescriptive easement",
+            "covenant",
+            "equitable servitude",
+            "condominium",
+            "chapter 718",
+            "homeowners association",
+            "chapter 720"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-torts",
+      "title": "Torts (Florida)",
+      "part": "A",
+      "rulesSubject": "torts",
+      "aliases": [
+        "torts",
+        "negligence"
+      ],
+      "topics": [
+        {
+          "id": "fl-torts.negligence-and-fault",
+          "title": "Negligence and comparative fault",
+          "keywords": [
+            "negligence",
+            "duty",
+            "breach",
+            "proximate cause",
+            "comparative negligence",
+            "modified comparative fault",
+            "768.81",
+            "fabre",
+            "nonparty fault",
+            "apportionment",
+            "joint and several",
+            "greater than 50 percent",
+            "more than 50 percent"
+          ]
+        },
+        {
+          "id": "fl-torts.florida-doctrines",
+          "title": "Florida-specific liability doctrines",
+          "keywords": [
+            "dangerous instrumentality",
+            "owner of a motor vehicle",
+            "dram shop",
+            "768.125",
+            "habitually addicted",
+            "premises liability",
+            "transitory foreign substance",
+            "768.0755",
+            "invitee",
+            "licensee",
+            "trespasser",
+            "impact rule",
+            "negligent infliction of emotional distress"
+          ]
+        },
+        {
+          "id": "fl-torts.immunity-and-limits",
+          "title": "Sovereign immunity, limitations and damages",
+          "keywords": [
+            "sovereign immunity",
+            "768.28",
+            "notice of claim",
+            "statute of limitations",
+            "statute of repose",
+            "collateral source",
+            "punitive damages",
+            "768.72",
+            "proffer",
+            "economic damages",
+            "noneconomic damages"
+          ]
+        },
+        {
+          "id": "fl-torts.intentional-and-other",
+          "title": "Intentional torts, defamation and products",
+          "keywords": [
+            "battery",
+            "assault",
+            "false imprisonment",
+            "intentional infliction",
+            "trespass to land",
+            "conversion",
+            "defamation",
+            "libel",
+            "slander",
+            "actual malice",
+            "privilege",
+            "invasion of privacy",
+            "products liability",
+            "strict liability",
+            "design defect",
+            "manufacturing defect",
+            "failure to warn",
+            "medical malpractice",
+            "presuit"
+          ]
+        },
+        {
+          "id": "fl-torts.wrongful-death",
+          "title": "Wrongful death and survival",
+          "keywords": [
+            "wrongful death",
+            "768.21",
+            "survival action",
+            "wrongful death act",
+            "survivors",
+            "estate damages",
+            "loss of support",
+            "mental pain and suffering",
+            "768.16",
+            "768.19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-ucc",
+      "title": "UCC Articles 3 & 9",
+      "part": "A",
+      "rulesSubject": "secured-transactions",
+      "aliases": [
+        "negotiable instruments",
+        "article 3",
+        "article 9",
+        "secured transactions"
+      ],
+      "topics": [
+        {
+          "id": "fl-ucc.negotiable-instruments",
+          "title": "Negotiable instruments (Article 3)",
+          "keywords": [
+            "negotiable instrument",
+            "promissory note",
+            "draft",
+            "check",
+            "maker",
+            "drawer",
+            "drawee",
+            "payee",
+            "indorsement",
+            "blank indorsement",
+            "special indorsement",
+            "holder"
+          ]
+        },
+        {
+          "id": "fl-ucc.attachment-and-perfection",
+          "title": "Attachment and perfection (Article 9)",
+          "keywords": [
+            "security interest",
+            "security agreement",
+            "attachment",
+            "value",
+            "rights in the collateral",
+            "authenticated",
+            "perfection",
+            "financing statement",
+            "filing",
+            "possession",
+            "control",
+            "automatic perfection",
+            "consumer goods",
+            "purchase-money security interest",
+            "pmsi",
+            "after-acquired property",
+            "proceeds"
+          ]
+        },
+        {
+          "id": "fl-ucc.priority-and-default",
+          "title": "Priority and default",
+          "keywords": [
+            "priority",
+            "first to file or perfect",
+            "buyer in ordinary course",
+            "lien creditor",
+            "fixture filing",
+            "default",
+            "repossession",
+            "breach of the peace",
+            "disposition of collateral",
+            "commercially reasonable",
+            "deficiency",
+            "surplus",
+            "strict foreclosure",
+            "redemption"
+          ]
+        },
+        {
+          "id": "fl-ucc.holder-in-due-course",
+          "title": "Holder in due course and defenses",
+          "keywords": [
+            "holder in due course",
+            "shelter rule",
+            "real defenses",
+            "personal defenses",
+            "good faith",
+            "without notice",
+            "for value",
+            "overdue",
+            "claim in recoupment"
+          ]
+        },
+        {
+          "id": "fl-ucc.liability-of-parties",
+          "title": "Liability of parties, discharge and warranties",
+          "keywords": [
+            "accommodation party",
+            "presentment",
+            "dishonor",
+            "notice of dishonor",
+            "forged indorsement",
+            "imposter rule",
+            "indorser liability",
+            "drawer liability",
+            "transfer warranties",
+            "presentment warranties",
+            "conversion of an instrument",
+            "discharge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-professional-responsibility",
+      "title": "Professionalism & Rules Regulating The Florida Bar",
+      "part": "A",
+      "rulesSubject": null,
+      "aliases": [
+        "professional responsibility",
+        "ethics",
+        "rules regulating the florida bar",
+        "professionalism"
+      ],
+      "topics": [
+        {
+          "id": "fl-professional-responsibility.client-relationship",
+          "title": "Client relationship, fees and trust accounts",
+          "keywords": [
+            "rules regulating the florida bar",
+            "rule 4-1.5",
+            "contingent fee",
+            "statement of client's rights",
+            "fee splitting",
+            "referral fee",
+            "retainer",
+            "scope of representation",
+            "withdrawal",
+            "termination of representation"
+          ]
+        },
+        {
+          "id": "fl-professional-responsibility.confidentiality-and-conflicts",
+          "title": "Confidentiality and conflicts",
+          "keywords": [
+            "confidentiality",
+            "4-1.6",
+            "conflict of interest",
+            "4-1.7",
+            "informed consent",
+            "former client",
+            "imputation",
+            "screening",
+            "business transaction with a client",
+            "gift from client",
+            "sexual relations with a client"
+          ]
+        },
+        {
+          "id": "fl-professional-responsibility.advocacy-and-advertising",
+          "title": "Advocacy, advertising and discipline",
+          "keywords": [
+            "candor toward the tribunal",
+            "perjury",
+            "fairness to opposing party",
+            "ex parte",
+            "advertising",
+            "4-7",
+            "solicitation",
+            "direct solicitation",
+            "testimonials"
+          ]
+        },
+        {
+          "id": "fl-professional-responsibility.trust-accounting",
+          "title": "Trust accounting (Chapter 5)",
+          "keywords": [
+            "trust account",
+            "chapter 5",
+            "iota",
+            "commingling",
+            "trust records",
+            "reconciliation",
+            "misappropriation",
+            "conversion",
+            "client funds",
+            "safekeeping property"
+          ]
+        },
+        {
+          "id": "fl-professional-responsibility.discipline-and-practice",
+          "title": "Misconduct, discipline and unlicensed practice",
+          "keywords": [
+            "misconduct",
+            "discipline",
+            "grievance committee",
+            "unlicensed practice of law",
+            "pro bono",
+            "disbarment",
+            "suspension",
+            "reprimand",
+            "duty to report",
+            "supervising lawyer",
+            "nonlawyer assistant",
+            "rehabilitation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-contracts",
+      "title": "Contracts & UCC Article 2",
+      "part": "A/B",
+      "rulesSubject": "contracts",
+      "aliases": [
+        "contracts",
+        "sales",
+        "article 2"
+      ],
+      "topics": [
+        {
+          "id": "fl-contracts.formation",
+          "title": "Formation",
+          "keywords": [
+            "offer",
+            "acceptance",
+            "mailbox rule",
+            "consideration",
+            "promissory estoppel",
+            "mirror image",
+            "battle of the forms",
+            "2-207",
+            "option contract",
+            "firm offer",
+            "statute of frauds",
+            "merchant"
+          ]
+        },
+        {
+          "id": "fl-contracts.performance-and-breach",
+          "title": "Performance, breach and remedies",
+          "keywords": [
+            "condition",
+            "material breach",
+            "substantial performance",
+            "perfect tender",
+            "anticipatory repudiation",
+            "impossibility",
+            "impracticability",
+            "frustration of purpose",
+            "expectation damages",
+            "consequential damages",
+            "hadley",
+            "mitigation",
+            "liquidated damages",
+            "specific performance",
+            "parol evidence"
+          ]
+        },
+        {
+          "id": "fl-contracts.third-parties",
+          "title": "Third parties",
+          "keywords": [
+            "third-party beneficiary",
+            "intended beneficiary",
+            "incidental beneficiary",
+            "assignment",
+            "delegation",
+            "novation"
+          ]
+        }
+      ]
+    }
+  ]
+}

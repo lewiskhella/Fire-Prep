@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:06,500
+Welcome back. Today we start Florida wills, and the first thing we need is intestate succession.
+
+2
+00:00:06,500 --> 00:00:15,000
+When someone dies without a valid will, the intestacy statute decides who the heirs are.
+
+3
+00:00:15,000 --> 00:00:27,000
+If the decedent leaves a surviving spouse and all of the lineal descendants are also descendants of that spouse, the spouse takes everything.
+
+4
+00:00:27,000 --> 00:00:41,000
+But if there are descendants from outside the marriage, the surviving spouse share drops to one half, and the descendants split the rest per stirpes.
+
+5
+00:00:41,000 --> 00:00:58,000
+Watch out for half blood relatives. In this state a half blood relative takes only half as much as a whole blood relative of the same degree. That shows up on essays.
+
+6
+00:00:58,000 --> 00:01:12,000
+Remember too the slayer rule, and the simultaneous death rule when nobody can tell who died first.
+
+7
+00:01:12,000 --> 00:01:30,000
+Now let's switch to protecting the spouse when there is a will. The big one is the elective share.
+
+8
+00:01:30,000 --> 00:01:48,000
+The surviving spouse can elect thirty percent of the elective estate, and the elective estate is much broader than the probate estate.
+
+9
+00:01:48,000 --> 00:02:05,000
+It pulls in revocable trusts, joint accounts, and pay on death accounts. And the right to elect can be waived in a prenuptial waiver if there was fair disclosure.
+
+10
+00:02:05,000 --> 00:02:25,000
+Then there is the pretermitted spouse. If you marry after making the will and the will never provides for you, you take an intestate share unless an exception applies.
+
+11
+00:02:25,000 --> 00:02:40,000
+And finally homestead. The descent of homestead is restricted when there is a spouse or minor child, so a devise of homestead can fail.

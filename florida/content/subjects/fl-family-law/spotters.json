@@ -1,0 +1,260 @@
+{
+ "subject": "fl-family-law",
+ "spotters": [
+  {
+   "id": "fl-family-law.s01",
+   "title": "The Bait Shop on the Causeway",
+   "intro": "A dissolution consultation in Lee County. Flag every family-law issue; some details only look important.",
+   "segments": [
+    {
+     "t": "Celia and Rhys married in Savannah, Georgia, in June 2009 and moved to Fort Myers a year later. "
+    },
+    {
+     "t": "Before the wedding they talked about a premarital agreement, but neither of them ever drafted or signed one. "
+    },
+    {
+     "t": "Rhys still lives in Fort Myers. Celia moved in with her sister in Atlanta in January 2025 and, in April 2025, filed a petition for dissolution in Lee County alleging only that the marriage is irretrievably broken. ",
+     "issues": [
+      "a"
+     ]
+    },
+    {
+     "t": "Rhys bought their house in 2006 with a 30-year mortgage. Title has always been in his name alone, but every payment since the wedding came from the couple's joint paycheck account, and the house has roughly doubled in value with the local market. ",
+     "issues": [
+      "b"
+     ]
+    },
+    {
+     "t": "In 2014 Celia inherited $90,000 from an uncle and deposited it in that same joint account, which paid the mortgage, groceries and family vacations; the balance has risen and fallen ever since, and she kept no records. ",
+     "issues": [
+      "c"
+     ]
+    },
+    {
+     "t": "In 2012 Rhys opened a bait-and-tackle shop on the causeway. It now has four employees and a steady customer base that would stay with the shop under any owner. ",
+     "issues": [
+      "d"
+     ]
+    },
+    {
+     "t": "For their tenth anniversary Rhys gave Celia a new SUV titled in her name, which she now calls 'my separate car.' ",
+     "issues": [
+      "e"
+     ]
+    },
+    {
+     "t": "Over the past eighteen months Rhys took $40,000 from the shop's account to pay for weekend trips with a woman he met online. ",
+     "issues": [
+      "f"
+     ]
+    },
+    {
+     "t": "Celia, now 51, left her job as a dental hygienist in 2013 to keep the shop's books without pay, and her license has lapsed. She has no income; Rhys nets about $9,000 a month. She wants permanent alimony. ",
+     "issues": [
+      "g"
+     ]
+    },
+    {
+     "t": "Rhys says Celia can pay her own lawyer by selling the SUV. ",
+     "issues": [
+      "h"
+     ]
+    }
+   ],
+   "issues": [
+    {
+     "id": "a",
+     "label": "Residency and the no-fault ground",
+     "rules": [
+      "fl-family-law.dissolution.residency",
+      "fl-family-law.dissolution.grounds"
+     ],
+     "explain": "Only one spouse must have resided in Florida for six months before filing, and it can be the respondent; Rhys's continuous Fort Myers residence satisfies § 61.021 even though Celia left in January, if it is corroborated (for example by his driver license or a third party's affidavit). Celia needs to prove only that the marriage is irretrievably broken; no fault is pleaded."
+    },
+    {
+     "id": "b",
+     "label": "Premarital house paid down with marital funds",
+     "rules": [
+      "fl-family-law.property-and-alimony.appreciation",
+      "fl-family-law.property-and-alimony.classification"
+     ],
+     "explain": "The house is Rhys's nonmarital asset because he bought it before the marriage and kept title. But marital wages paid down the mortgage, so the principal paydown and a proportional share of the passive market appreciation are marital under Kaaa and § 61.075(6)(a)1."
+    },
+    {
+     "id": "c",
+     "label": "Commingled, untraceable inheritance",
+     "rules": [
+      "fl-family-law.property-and-alimony.commingling",
+      "fl-family-law.property-and-alimony.classification"
+     ],
+     "explain": "An inheritance is nonmarital when received, but Celia put it in the joint household account, spent it on family expenses and kept no records. She bears the burden of tracing and cannot meet it, so the funds have lost their nonmarital character."
+    },
+    {
+     "id": "d",
+     "label": "Business started during the marriage; enterprise goodwill",
+     "rules": [
+      "fl-family-law.property-and-alimony.classification",
+      "fl-family-law.property-and-alimony.equal-distribution"
+     ],
+     "explain": "The shop was opened during the marriage, so it is marital. Its goodwill is divisible to the extent it is enterprise goodwill that exists apart from Rhys personally, and a staffed business whose customers would stay under any owner points that way; the court can leave the shop with Rhys and equalize with other assets."
+    },
+    {
+     "id": "e",
+     "label": "Gift between spouses",
+     "rules": [
+      "fl-family-law.property-and-alimony.classification"
+     ],
+     "explain": "A gift from one spouse to the other during the marriage is a marital asset, unlike a gift from a third party. Celia's label of 'separate' does not change the classification; the SUV goes into the marital estate."
+    },
+    {
+     "id": "f",
+     "label": "Dissipation; relevance of the affair",
+     "rules": [
+      "fl-family-law.property-and-alimony.equal-distribution",
+      "fl-family-law.dissolution.fault-relevance"
+     ],
+     "explain": "Intentional dissipation of marital assets within two years before filing supports an unequal distribution, usually by charging the $40,000 against Rhys's share. The affair itself is not a reason to penalize him in the property division, but its economic impact may be considered on alimony."
+    },
+    {
+     "id": "g",
+     "label": "Alimony after the 2023 reform",
+     "rules": [
+      "fl-family-law.property-and-alimony.alimony-threshold-and-types",
+      "fl-family-law.property-and-alimony.durational",
+      "fl-family-law.property-and-alimony.bridge-and-rehabilitative"
+     ],
+     "explain": "Permanent alimony can no longer be awarded. On findings of need and ability to pay, the court may award bridge-the-gap, rehabilitative (with a defined plan such as relicensing, capped at five years) or durational alimony; a marriage of about 15 years and 10 months is moderate-term, so durational alimony is capped at 60 percent of that length (about 9.5 years) and at the lesser of need or 35 percent of the net-income difference."
+    },
+    {
+     "id": "h",
+     "label": "Attorney's fees",
+     "rules": [
+      "fl-family-law.dissolution.fees-and-disclosure"
+     ],
+     "explain": "Under § 61.16 the court may order Rhys to pay a reasonable part of Celia's fees and costs, looking primarily to her need and his ability to pay. With no income on her side and about $9,000 a month on his, a fee award is likely."
+    }
+   ]
+  },
+  {
+   "id": "fl-family-law.s02",
+   "title": "Kai's Summer",
+   "intro": "A parent calls a Jacksonville family lawyer in July. Spot every issue; not every detail matters.",
+   "segments": [
+    {
+     "t": "Imani and Dorian never married. Their son, Kai, was born in 2018 at a Georgia hospital while Imani was visiting her aunt, and came home to Jacksonville three days later. "
+    },
+    {
+     "t": "A 2021 Duval County paternity judgment adopted a parenting plan with shared parental responsibility and equal time-sharing. "
+    },
+    {
+     "t": "In 2023 Dorian took a job in Charlotte, North Carolina, and moved there; Imani and Kai stayed in Jacksonville. Last month Dorian asked a North Carolina court to give him majority time-sharing. ",
+     "issues": [
+      "a"
+     ]
+    },
+    {
+     "t": "He argues that things have changed because Imani's boyfriend, Lowell, moved in with her and Kai this spring. ",
+     "issues": [
+      "b"
+     ]
+    },
+    {
+     "t": "In May, during an argument, Lowell shoved Imani into a doorframe and bruised her shoulder while Kai watched from the hallway. Imani wants a court order keeping Lowell away from her. ",
+     "issues": [
+      "c",
+      "b"
+     ]
+    },
+    {
+     "t": "A week later Kai's soccer coach saw a bruise on Kai's arm and heard him say, 'Lowell gets mad.' The coach decided it was not his place to call anyone, because he is not a teacher or a doctor. ",
+     "issues": [
+      "d"
+     ]
+    },
+    {
+     "t": "Imani's mother insists that Kai belongs with Imani because 'a boy that young needs his mother.' ",
+     "issues": [
+      "e"
+     ]
+    },
+    {
+     "t": "Imani has also decided to move with Kai to Tampa, about 200 miles away, to live near her mother. She told Dorian by text and signed a lease that starts next month, but she has filed nothing. ",
+     "issues": [
+      "f"
+     ]
+    },
+    {
+     "t": "Dorian, a software tester who netted $7,500 a month, quit in June to 'take a break,' stopped paying child support, and says he owes nothing until he finds new work. ",
+     "issues": [
+      "g"
+     ]
+    },
+    {
+     "t": "Dorian has since remarried, and his new wife has two daughters close to Kai's age. "
+    }
+   ],
+   "issues": [
+    {
+     "id": "a",
+     "label": "UCCJEA exclusive, continuing jurisdiction",
+     "rules": [
+      "fl-family-law.interstate-jurisdiction.uccjea-continuing-emergency"
+     ],
+     "explain": "Florida made the initial custody determination in 2021 and keeps exclusive, continuing jurisdiction because Imani and Kai still live here. North Carolina may not modify the Florida plan unless Florida loses or declines jurisdiction, so the request belongs in Duval County."
+    },
+    {
+     "id": "b",
+     "label": "Modifying the parenting plan",
+     "rules": [
+      "fl-family-law.children.modifying-parenting-plans",
+      "fl-family-law.children.best-interests"
+     ],
+     "explain": "Whoever seeks a change must show a substantial and material change in circumstances since the 2021 judgment, and the modification must serve Kai's best interests; since 2023 the change need not be unanticipated. Lowell's arrival and his violence in Kai's presence are relevant changes, and evidence of domestic violence is a statutory best-interests factor."
+    },
+    {
+     "id": "c",
+     "label": "Domestic violence injunction",
+     "rules": [
+      "fl-family-law.agreements-and-protection.dv-standing",
+      "fl-family-law.agreements-and-protection.dv-procedure"
+     ],
+     "explain": "Lowell lives with Imani, so he is a family or household member, and shoving her is a battery. Imani may petition under § 741.30, and if the sworn petition shows immediate danger the court can enter an ex parte temporary injunction pending a full hearing."
+    },
+    {
+     "id": "d",
+     "label": "Everyone must report suspected abuse",
+     "rules": [
+      "fl-family-law.dependency.mandatory-reporting",
+      "fl-family-law.dependency.dependent-child"
+     ],
+     "explain": "Any person who knows or has reasonable cause to suspect that a parent or caregiver (including an adult household member) is abusing a child must report it immediately to the DCF hotline; the duty is not limited to teachers and doctors. The bruise, Kai's statement and the household violence give reasonable cause, and a knowing and willful failure to report is a third-degree felony."
+    },
+    {
+     "id": "e",
+     "label": "No maternal preference",
+     "rules": [
+      "fl-family-law.children.best-interests"
+     ],
+     "explain": "Florida has no tender-years doctrine or maternal preference; time-sharing turns on the statutory best-interests factors. The grandmother's view that a young boy needs his mother carries no legal weight."
+    },
+    {
+     "id": "f",
+     "label": "Relocation without agreement or court approval",
+     "rules": [
+      "fl-family-law.children.relocation"
+     ],
+     "explain": "Moving at least 50 miles for at least 60 consecutive days is a relocation. Imani needs Dorian's written agreement or a sworn, served petition to relocate; moving without one can be held against her and can support contempt and an order to return Kai."
+    },
+    {
+     "id": "g",
+     "label": "Child support: no self-help, imputed income",
+     "rules": [
+      "fl-family-law.children.imputed-income",
+      "fl-family-law.children.support-duration-modification"
+     ],
+     "explain": "Dorian cannot stop paying on his own: past-due installments are vested, and a modification can reach back only to the date a petition is filed. If he does petition, the court must impute income to a voluntarily unemployed parent based on his recent work history, qualifications and local earnings."
+    }
+   ]
+  }
+ ]
+}

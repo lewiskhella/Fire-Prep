@@ -1,0 +1,766 @@
+{
+  "rules": [
+    {
+      "topic": "fl-business-entities.shareholder-remedies-and-fundamental-changes",
+      "id": "fl-business-entities.shareholder-remedies-and-fundamental-changes.direct-vs-derivative",
+      "title": "Direct versus derivative claims",
+      "weight": 2,
+      "rule": "A shareholder may sue in his or her own name only if (1) the harm is direct, meaning it does not flow from an initial injury to the corporation, and (2) the shareholder suffered a special injury separate and distinct from that of the other shareholders, or if the wrongdoer owed the shareholder a separate duty, such as a contractual duty, independent of the corporation. A claim that the corporation was injured, so that every shareholder's investment lost value in proportion to its holdings, belongs to the corporation and must be brought derivatively.",
+      "elements": [
+        "Direct harm: the injury does not arise from an initial harm to the corporation",
+        "Special injury: the injury is separate and distinct from the injury to the other shareholders",
+        "Alternative route: a special duty the wrongdoer owed the shareholder personally, for example under a contract with the shareholder"
+      ],
+      "split": "Delaware asks who suffered the harm and who would receive any recovery (Tooley) and has abandoned a 'special injury' requirement. Florida's district courts require both direct harm and special injury unless a separate duty runs to the shareholder.",
+      "tip": "Classify the claim before analyzing anything else. Waste, excessive compensation, embezzlement, mismanagement and self-dealing that drain the corporation are derivative; denial of a shareholder's vote or inspection right, or breach of a contract made with the shareholder personally, is direct. Florida courts apply the same test to LLC members.",
+      "trap": "Treating a drop in the plaintiff's share value or dividends as a personal injury. That loss mirrors the corporation's loss and is shared pro rata, so the claim is derivative.",
+      "authority": "Dinuro Investments, LLC v. Camacho, 141 So. 3d 731 (Fla. 3d DCA 2014); Strazzulla v. Riverside Banking Co. (Fla. 4th DCA 2015)"
+    },
+    {
+      "topic": "fl-business-entities.llcs",
+      "id": "fl-business-entities.llcs.member-suits",
+      "title": "Member direct and derivative actions",
+      "weight": 2,
+      "rule": "A member may sue the LLC, another member or a manager directly to enforce the member's own rights under the operating agreement, chapter 605 or other law, but must plead and prove an actual or threatened injury that is not solely the result of an injury suffered or threatened to be suffered by the LLC. To enforce a right of the LLC, a member must sue derivatively, which requires a prior demand that the other members (in a member-managed LLC) or the managers (in a manager-managed LLC) cause the company to take suitable action, unless that demand would be futile; any recovery belongs to the LLC.",
+      "elements": [
+        "Direct action: a right of the member's own plus an injury that is not solely derivative of the LLC's injury",
+        "Derivative action: demand on the other members or the managers and their failure to take suitable action within a reasonable time",
+        "Demand is excused if it would be futile",
+        "A derivative recovery goes to the LLC, not to the suing member"
+      ],
+      "tip": "A manager's self-dealing that drains company funds injures the LLC, so a member's claim for the resulting fall in her distributions or in the value of her interest is derivative under the Dinuro test, even though managers owe their fiduciary duties to the members as well as the company.",
+      "trap": "Letting a member sue a manager directly because chapter 605 says fiduciary duties run to the members. The member still needs an injury that is not merely the LLC's injury passed through to her.",
+      "authority": "Fla. Stat. §§ 605.0801, 605.0802; Dinuro Investments, LLC v. Camacho, 141 So. 3d 731 (Fla. 3d DCA 2014)"
+    },
+    {
+      "topic": "fl-business-entities.corporations",
+      "id": "fl-business-entities.corporations.indemnification",
+      "title": "Indemnification of directors and officers",
+      "weight": 1,
+      "rule": "A corporation must indemnify a director or officer who was wholly successful, on the merits or otherwise, in defending a proceeding to which he or she was a party because of that position, against the expenses incurred in it. In other cases the corporation may indemnify a director or officer who acted in good faith and reasonably believed the conduct was in, or at least not opposed to, the corporation's best interests and, in a criminal proceeding, had no reasonable cause to believe it was unlawful; it may also advance defense expenses before the case ends.",
+      "elements": [
+        "Mandatory: wholly successful on the merits or otherwise, so a dismissal on a procedural ground counts",
+        "Permissive: good faith, reasonable belief that the conduct served (or was not opposed to) the corporation's best interests, and no reasonable cause to believe criminal conduct unlawful",
+        "Advancement: expenses may be advanced on the director's written undertaking to repay them if he or she is ultimately found not entitled to indemnification"
+      ],
+      "exceptions": [
+        "Indemnification is restricted in a proceeding brought by or in the right of the corporation, so the corporation cannot simply reimburse a director for damages the director owes the corporation itself."
+      ],
+      "tip": "When a director wins outright, mandatory indemnification of expenses is the easy point. When the director settles or loses, analyze the permissive standard and remember the limits on indemnification in derivative suits.",
+      "trap": "Treating indemnification as purely discretionary. A director or officer who is wholly successful in the defense is entitled to expenses as of right.",
+      "authority": "Fla. Stat. §§ 607.0851, 607.0852, 607.0853"
+    }
+  ],
+  "questions": [
+    {
+      "id": "fl-business-entities.q016",
+      "topic": "fl-business-entities.corporations",
+      "rules": [
+        "fl-business-entities.corporations.shares-and-distributions",
+        "fl-business-entities.corporations.duty-of-care"
+      ],
+      "difficulty": 3,
+      "stem": "Osprey Fabrication, Inc., a Florida corporation, has three directors. In March its chief financial officer gave the board a written report showing that any distribution above $150,000 would leave Osprey unable to pay its debts as they came due over the next quarter. Directors Kane and Lister nonetheless voted to declare a $400,000 dividend, saying the shareholders 'expect a payout.' Director Moss voted against it and had her dissent entered in the minutes. The dividend was paid, and Osprey soon defaulted on its supplier invoices. Osprey's articles say nothing about director liability. Shareholder Nash, who received $40,000 of the dividend, had read the CFO's report before it was paid.",
+      "call": "Which statement best describes the liability arising from the dividend?",
+      "choices": [
+        "Kane, Lister and Moss are jointly liable to Osprey for the full $400,000, because every director is answerable for a distribution the board declares.",
+        "Kane and Lister are personally liable to Osprey for $250,000, with rights of contribution against each other and against Nash.",
+        "No director is liable, because the articles contain no provision imposing liability and § 607.0831 shields directors from monetary damages for board decisions.",
+        "Every shareholder who received the dividend must return it to Osprey, but the directors are not personally liable for a dividend the board declared at a proper meeting."
+      ],
+      "answer": 1,
+      "explanation": "A distribution is unlawful under § 607.06401 if, after giving it effect, the corporation could not pay its debts as they become due in the usual course of business, or its total assets would be less than its total liabilities plus senior liquidation preferences. The CFO's report showed that anything above $150,000 failed the equity-insolvency test, so $250,000 of the dividend was unlawful. Under § 607.0834, a director who votes for or assents to an unlawful distribution without meeting the § 607.0830 standards of conduct is personally liable to the corporation for the amount exceeding what could lawfully have been distributed. Kane and Lister voted for it in the face of a written warning, so they cannot claim good-faith reliance. A liable director is entitled to contribution from every other director who could be held liable and from each shareholder, up to the amount that shareholder accepted, who knew the distribution was unlawful, as Nash did. Moss's recorded dissent protects her, and § 607.0831 expressly does not shield a director from unlawful-distribution liability.",
+      "whyNot": [
+        "A director who votes against a distribution and has the dissent recorded is not liable under § 607.0834, and liability is limited to the unlawful excess ($250,000), not the whole dividend.",
+        "",
+        "Section 607.0831 lists voting for or assenting to an unlawful distribution as one of the breaches it does not protect, and § 607.0834 imposes liability without any provision in the articles.",
+        "Directors who vote for an unlawful distribution in breach of their duties are the ones primarily liable. Shareholders are exposed only through contribution, and only if they accepted the distribution knowing it was unlawful."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q017",
+      "topic": "fl-business-entities.corporations",
+      "rules": [
+        "fl-business-entities.corporations.board-and-officers"
+      ],
+      "difficulty": 1,
+      "stem": "The bylaws of Sandpiper Logistics, Inc., a Florida corporation, fix the board at five directors and say nothing about action without a meeting; the articles are also silent. The CEO wanted a new executive bonus plan approved before the next scheduled board meeting, so she emailed each director a written consent describing the plan. Four directors signed and returned it. The fifth refused, saying the plan deserved discussion at a meeting. The CEO announced that the board had approved the plan, and the corporation began paying bonuses under it. A shareholder challenges the plan's approval.",
+      "call": "Was the bonus plan validly approved by the board?",
+      "choices": [
+        "Yes, because written consents were signed by a majority of the full board, which is more than a quorum.",
+        "Yes, because Florida allows action without a meeting by those holding the votes that would be needed to act if all were present.",
+        "No, because a Florida board may act only at a duly called meeting at which a quorum of the directors is physically present together in one place.",
+        "No, because absent a contrary provision in the articles or bylaws, board action without a meeting needs every director's signed consent."
+      ],
+      "answer": 3,
+      "explanation": "Under § 607.0821, unless the articles or bylaws provide otherwise, a Florida board may act without a meeting only if each director signs a consent describing the action and delivers it to the corporation. A majority can act only at a meeting at which a quorum is present. Four of five signatures, however lopsided, is not board action, so the plan was never approved by the board.",
+      "whyNot": [
+        "A majority vote counts only at a meeting with a quorum present. Without a meeting, every director must consent in writing.",
+        "That is Florida's default for shareholder action by written consent under § 607.0704, not the rule for directors.",
+        "Directors may act by unanimous written consent and may meet by any means through which all of them can hear each other at the same time; physical presence is not required.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-business-entities.q018",
+      "topic": "fl-business-entities.corporations",
+      "rules": [
+        "fl-business-entities.corporations.duty-of-loyalty",
+        "fl-business-entities.corporations.duty-of-care"
+      ],
+      "difficulty": 2,
+      "stem": "Wren is a director and the president of Seagrape Marinas, Inc., a Florida corporation that owns and operates three marinas on the Gulf coast. For two years the board has discussed expanding by buying another marina in the same area. The owner of a neighboring marina, who knew Wren through her role at Seagrape, called her at the Seagrape office to say he would sell to the company for $3 million. Wren did not tell the board. Instead she formed her own LLC, which bought the marina with Wren's personal funds and now competes with Seagrape. Seagrape's articles say nothing about director liability. Seagrape sues Wren.",
+      "call": "What is the most likely result?",
+      "choices": [
+        "Wren is liable, because she usurped a corporate opportunity, and the court may impose a constructive trust on the marina or order disgorgement.",
+        "Wren is not liable, because she bought the marina with her own funds and used no corporate assets.",
+        "Wren is not liable, because § 607.0831 automatically protects Florida directors from personal liability for monetary damages, and Seagrape's articles do not remove that protection.",
+        "Wren is liable only for nominal damages, because Seagrape's board never formally voted to buy a fourth marina and so lost nothing it was entitled to."
+      ],
+      "answer": 0,
+      "explanation": "A director or officer may not take for herself a business opportunity that belongs to the corporation, such as one closely tied to its line of business or one in which it has an existing interest or expectancy, without first disclosing it and offering it to the corporation. The neighboring marina was squarely in Seagrape's business, the board had been looking for exactly this kind of expansion, and the offer came to Wren because of her corporate position. She concealed it and took it for her own company. Section 607.0831 does not help her, because it does not shield a director from liability for a transaction from which she derived an improper personal benefit. Typical remedies are a constructive trust over the opportunity, disgorgement of profits, or damages.",
+      "whyNot": [
+        "",
+        "Using personal funds does not cure the breach. The wrong is taking the corporation's opportunity without disclosing and offering it first.",
+        "The § 607.0831 shield does not apply to a transaction from which the director derived an improper personal benefit, which is exactly what Wren obtained.",
+        "No formal board vote is needed. Seagrape's line of business and its existing expansion plans make this its opportunity, and the remedies include a constructive trust and disgorgement, not merely nominal damages."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q019",
+      "topic": "fl-business-entities.corporations",
+      "rules": [
+        "fl-business-entities.corporations.shares-and-distributions"
+      ],
+      "difficulty": 1,
+      "stem": "Heron Bay Software, Inc., a Florida corporation, has 1,000 outstanding shares, of which Ruth owns 300. The articles of incorporation are silent about preemptive rights. To recruit a senior engineer, the board voted to issue 50 new shares to her in exchange for her $20,000 promissory note and a written three-year contract under which she will perform software services. The board's resolution states that this consideration is adequate. Ruth, who was not offered the chance to buy any of the new shares, sues to cancel the issuance.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Cancel the issuance, because shares may be issued only for cash or for property or services the corporation has already received.",
+        "Cancel the issuance unless Ruth is first offered enough new shares to keep her 30 percent ownership.",
+        "Uphold the issuance, because the consideration is permissible, the board's adequacy finding is conclusive, and Ruth has no preemptive right.",
+        "Uphold the issuance only if the shareholders approve it, because issuing shares to a newly hired employee is a conflict-of-interest transaction that the board cannot approve alone."
+      ],
+      "answer": 2,
+      "explanation": "Under § 607.0621, the board may issue shares for any tangible or intangible property or benefit to the corporation, including cash, promissory notes, services performed, and contracts for services to be performed. The board's determination that the consideration is adequate is conclusive as to whether the shares are validly issued, fully paid and nonassessable. Under § 607.0630, shareholders have no preemptive right to acquire unissued shares unless the articles provide one, and Heron Bay's articles are silent. The issuance stands.",
+      "whyNot": [
+        "That is an older, more restrictive view. Florida's statute expressly allows promissory notes and contracts for future services as consideration for shares.",
+        "Preemptive rights exist in Florida only if the articles of incorporation grant them, and Heron Bay's articles do not.",
+        "",
+        "Issuing shares to a new employee who is not a director is not a director's conflict-of-interest transaction, and an issuance of this size needs only board authorization."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q020",
+      "topic": "fl-business-entities.shareholder-remedies-and-fundamental-changes",
+      "rules": [
+        "fl-business-entities.shareholder-remedies-and-fundamental-changes.inspection"
+      ],
+      "difficulty": 2,
+      "stem": "Priya owns 3 percent of the shares of Gulfstream Bottling, Inc., a Florida corporation with about 400 shareholders whose shares are not publicly traded. Unhappy with three years of falling profits, she plans to nominate her own slate of directors at the upcoming annual meeting. Eight business days before the date on which she wished to inspect, she delivered a written demand for a copy of the record of shareholders, explaining that she needs the names and addresses to contact other shareholders about the company's results and her nominees. The corporation refused, stating that her campaign to replace the board is hostile to the company and that the shareholder record is not among the records every shareholder may inspect.",
+      "call": "Must Gulfstream allow Priya to inspect and copy the record of shareholders?",
+      "choices": [
+        "Yes, because her timely demand was made in good faith for a proper purpose, described that purpose and the records with reasonable particularity, and seeks records directly connected with it.",
+        "No, because the record of shareholders must be made available to shareholders only at or shortly before a shareholders' meeting, not on individual demand.",
+        "No, because a purpose adverse to the incumbent board is not a proper purpose.",
+        "Yes, because every shareholder may inspect and copy any record of the corporation on five business days' written notice without stating a reason."
+      ],
+      "answer": 0,
+      "explanation": "Florida divides corporate records into two groups. Basic records, such as the articles, bylaws, shareholder minutes, written communications to shareholders and the list of directors and officers, are available on written demand given at least five business days in advance. Other records, including the record of shareholders, board minutes and accounting records, are available only if the demand is made in good faith and for a proper purpose, describes the purpose and the records with reasonable particularity, and the records are directly connected with that purpose (§ 607.1602). Communicating with fellow shareholders about the company's performance and a director election is a classic proper purpose, and the shareholder record is directly connected to it. Hostility to management does not make a purpose improper.",
+      "whyNot": [
+        "",
+        "The list prepared for a shareholders' meeting is an additional right, not a limit on the separate right to inspect the record of shareholders on a proper demand under § 607.1602.",
+        "Seeking to replace directors by contacting other shareholders is reasonably related to Priya's interest as a shareholder. Opposition to management is not a ground for refusal.",
+        "Only the basic records are available on demand alone. The record of shareholders is a conditional record that requires a proper purpose described with reasonable particularity."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q021",
+      "topic": "fl-business-entities.shareholder-remedies-and-fundamental-changes",
+      "rules": [
+        "fl-business-entities.shareholder-remedies-and-fundamental-changes.direct-vs-derivative"
+      ],
+      "difficulty": 3,
+      "stem": "Gwen owns 20 percent of Pinewood Feed & Supply, Inc., a closely held Florida corporation; Hal owns 70 percent and controls the board. Gwen and Hal also signed a shareholders' agreement in which Hal personally promised to buy Gwen's shares at book value when she retired. Gwen has retired, and Hal refuses to buy. Gwen also believes that (1) the board pays Hal an excessive salary that has cut Pinewood's profits, (2) a bookkeeper embezzled company funds because the board failed to supervise her, and (3) the board's poor decisions have driven down the value of every shareholder's stock. Gwen wants to sue in her own name rather than on Pinewood's behalf.",
+      "call": "Which claim may Gwen most likely bring as a direct action?",
+      "choices": [
+        "Her claim that Hal's excessive salary reduced Pinewood's profits and therefore the dividends she would otherwise have received.",
+        "Her claim that the board's failure to supervise the bookkeeper allowed an embezzlement that reduced the value of her shares.",
+        "Her claim that Hal breached his promise to buy her shares.",
+        "Her claim that the board's mismanagement caused the value of all Pinewood shares, including hers, to fall."
+      ],
+      "answer": 2,
+      "explanation": "Florida courts decide whether a shareholder may sue directly with the test stated in Dinuro Investments, LLC v. Camacho: the shareholder must show a direct harm that does not flow from an initial injury to the corporation and a special injury separate and distinct from the injury to other shareholders, unless the wrongdoer owed the shareholder a separate duty, such as a contractual duty. Hal's promise in the shareholders' agreement is a duty he owes Gwen personally, and the loss from its breach is hers alone, so she may sue directly. Excessive compensation, embezzlement made possible by lax supervision, and mismanagement all injure Pinewood first; Gwen's lower dividends or share value merely mirror that corporate loss and are shared pro rata, so those claims are derivative.",
+      "whyNot": [
+        "Excessive pay drains the corporation's funds. Gwen's smaller dividends flow from that corporate injury and are shared by the other shareholders, so the claim is derivative.",
+        "The embezzlement and failure to supervise injured the corporation; the drop in the value of Gwen's shares is indirect and not distinct from the other shareholders' losses.",
+        "",
+        "A decline in the value of every share is the classic derivative injury: it flows from harm to the corporation and is shared by all shareholders."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q022",
+      "topic": "fl-business-entities.shareholder-remedies-and-fundamental-changes",
+      "rules": [
+        "fl-business-entities.shareholder-remedies-and-fundamental-changes.mergers-and-asset-sales"
+      ],
+      "difficulty": 2,
+      "stem": "Pelican Foundry, Inc., a Florida corporation, makes cast-iron fittings at its only plant. In January the board approved a mortgage on the plant and all of its equipment to secure a $3 million line of credit. In May the board approved selling the plant, equipment, inventory and customer list to a competitor for cash, which left Pelican with no operating business; the board intends to look for a new line of business. Pelican's articles say nothing about either kind of transaction, and neither was submitted to the shareholders. A shareholder sues, claiming that both transactions required shareholder approval.",
+      "call": "Which transaction required shareholder approval?",
+      "choices": [
+        "Both, because each involved all or substantially all of Pelican's property.",
+        "Neither, because the business and affairs of a corporation are managed under the direction of its board, which may buy, sell and borrow against corporate property.",
+        "Only the mortgage, because it put all of Pelican's operating assets at risk of foreclosure.",
+        "Only the sale, because it was outside the ordinary course and left Pelican without a significant continuing business activity."
+      ],
+      "answer": 3,
+      "explanation": "A sale or other disposition of all or substantially all of a corporation's property outside the usual and regular course of business that leaves it without a significant continuing business activity requires approval by both the board and the shareholders (§ 607.1202). By contrast, § 607.1201 lets the board alone mortgage, pledge or otherwise encumber any or all of the corporation's property, whether or not in the ordinary course. The May sale stripped Pelican of its only business, so it needed a shareholder vote (and could give dissenting shareholders appraisal rights); the January mortgage did not.",
+      "whyNot": [
+        "Encumbering property is not a disposition that requires a shareholder vote, even when the mortgage covers all of the corporation's assets.",
+        "The board's general management power does not extend to selling substantially all of the corporation's property outside the ordinary course; the statute requires shareholder approval.",
+        "This reverses the rule. A mortgage needs only board approval, while a sale of the entire business needs shareholder approval.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-business-entities.q023",
+      "topic": "fl-business-entities.llcs",
+      "rules": [
+        "fl-business-entities.llcs.agency",
+        "fl-business-entities.llcs.management"
+      ],
+      "difficulty": 2,
+      "stem": "The articles of organization of Coral Ridge Storage, LLC, a Florida LLC, state that it is manager-managed, and its sole manager is Hank. Lydia owns a 30 percent membership interest but has no management role. Without consulting Hank, Lydia signed an $18,000 one-year contract in the company's name with SecureView, Inc. for security cameras at the company's storage facility. Coral Ridge had never dealt with SecureView or told it anything about Lydia; SecureView relied only on Lydia's statement that she was 'one of the owners and can sign for the company.' Coral Ridge refuses to accept or pay for the cameras.",
+      "call": "Is Coral Ridge Storage, LLC bound by the contract?",
+      "choices": [
+        "Yes, because each member of a Florida LLC is an agent of the company for apparently carrying on its business in the ordinary course.",
+        "No, because in a manager-managed LLC a member is not an agent solely by reason of being a member, and Lydia had neither actual nor apparent authority.",
+        "Yes, because SecureView reasonably believed that an owner of the business could sign contracts on its behalf.",
+        "No, because a Florida LLC can give a member authority to sign contracts only by filing a statement of authority with the Department of State, and Coral Ridge filed none."
+      ],
+      "answer": 1,
+      "explanation": "Under § 605.04074, statutory agency follows the management structure. In a member-managed LLC each member is an agent of the company, but in a manager-managed LLC a member is not an agent solely by reason of being a member; the managers are. Coral Ridge's articles make it manager-managed, so Lydia could bind it only with actual authority, which she lacked, or apparent authority, which in Florida requires a representation by the principal, reliance on it, and a change of position. Coral Ridge made no representation, and Lydia's own claim of authority cannot supply one. The LLC is not bound, although Lydia may be personally liable to SecureView for breach of the implied warranty of authority.",
+      "whyNot": [
+        "That partnership-style rule applies only to members of a member-managed LLC. Coral Ridge's articles make it manager-managed.",
+        "",
+        "Apparent authority must rest on the principal's own manifestations. A belief based on the agent's statement, or on assumptions about owners, is not enough.",
+        "A statement of authority is optional. Authority can also come from the operating agreement, the manager or ordinary agency principles; Lydia simply had none."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q024",
+      "topic": "fl-business-entities.llcs",
+      "rules": [
+        "fl-business-entities.llcs.management"
+      ],
+      "difficulty": 2,
+      "stem": "Tidal Kayak Tours, LLC is a Florida LLC whose articles of organization and operating agreement do not provide for managers. The operating agreement allocates profits 60 percent to Ines, 20 percent to Jules and 20 percent to Kofi, and says nothing about voting. Jules and Kofi voted to hire a third tour guide for the busy season; Ines voted no. Separately, Ines signed an amendment to the operating agreement giving herself a monthly management fee, but Jules and Kofi refused to sign it.",
+      "call": "Which of these actions has been validly approved?",
+      "choices": [
+        "Neither: the hiring lacks the votes of members holding more than half of the profit interests, and the amendment lacks the consent of all members.",
+        "Only the hiring, because ordinary business decisions in a member-managed LLC are made by a majority of the members counted per capita, and Jules and Kofi are two of the three.",
+        "Only the amendment, because Ines alone holds a majority-in-interest of the members.",
+        "Both, because each member of a member-managed LLC is an agent of the company and may act for it in the ordinary course."
+      ],
+      "answer": 0,
+      "explanation": "Because neither the articles nor the operating agreement provides for managers, Tidal Kayak is member-managed. Florida member-managed LLCs decide matters by a majority-in-interest of the members, meaning members holding more than 50 percent of the then-current interests in the company's profits, not by head count (§§ 605.0102, 605.04073). Jules and Kofi hold only 40 percent, so the hiring decision fails. Amending the operating agreement requires the consent of all members, so Ines's 60 percent is not enough for her amendment.",
+      "whyNot": [
+        "",
+        "Florida departs from the uniform act's per-capita rule and weights member votes by profit interests, so two members holding 40 percent cannot outvote a 60 percent member.",
+        "A majority-in-interest decides company matters, but amending the operating agreement requires the consent of every member.",
+        "A member's power to bind the LLC to outsiders does not settle internal disagreements, which are decided by the statutory vote, and an amendment to the operating agreement requires unanimous consent."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q025",
+      "topic": "fl-business-entities.llcs",
+      "rules": [
+        "fl-business-entities.llcs.member-suits",
+        "fl-business-entities.llcs.fiduciary-duties"
+      ],
+      "difficulty": 3,
+      "stem": "Mangrove Bay Rentals, LLC is a manager-managed Florida LLC with five members; Rowan is its sole manager and also a member. Talia holds a 25 percent interest. Over two years Rowan caused the LLC to pay inflated maintenance fees to a company he secretly owns, reducing the LLC's net income by $400,000. Because the LLC distributes its income in proportion to the members' interests, every member's distributions fell. Talia sued Rowan in her own name, seeking $100,000, her 25 percent share of the lost income, for breach of fiduciary duty. She made no demand on Rowan or the LLC before suing. Rowan moves to dismiss.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Deny the motion, because a manager's fiduciary duties run to the members as well as to the LLC, so any member may sue for their breach in her own name and recover her share.",
+        "Deny the motion, because Talia's own distributions fell, which is a personal injury to her.",
+        "Grant the motion, because the claim belongs to the LLC and must be brought derivatively, after a demand on the manager unless demand would be futile.",
+        "Grant the motion, because only the LLC itself, acting through its manager, may sue a manager for breach of duty."
+      ],
+      "answer": 2,
+      "explanation": "Under § 605.0801, a member suing directly must plead and prove an actual or threatened injury that is not solely the result of an injury to the LLC, and Florida courts apply the Dinuro test, asking whether the harm is direct and whether the member suffered a special injury distinct from the other members'. Rowan's self-dealing drained the company's income; Talia's smaller distributions are simply her proportional share of that company loss, suffered alike by every other member. The claim belongs to the LLC and must be brought as a derivative action under § 605.0802, which requires a demand on the managers (here, Rowan) unless a demand would be futile. Because Rowan is the wrongdoer, Talia has a strong futility argument, but she must sue derivatively, and any recovery goes to the LLC.",
+      "whyNot": [
+        "Duties that run to the members do not turn every breach into a direct claim. The member still needs an injury that is not merely the LLC's injury passed through to her.",
+        "A drop in distributions that mirrors the LLC's lost income is an indirect injury shared pro rata by all members, which is the hallmark of a derivative claim.",
+        "",
+        "Chapter 605 lets a member enforce the LLC's rights through a derivative action when those in control will not act; members need not wait for the LLC to sue."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q026",
+      "topic": "fl-business-entities.partnerships",
+      "rules": [
+        "fl-business-entities.partnerships.dissolution",
+        "fl-business-entities.partnerships.rights-and-property"
+      ],
+      "difficulty": 3,
+      "stem": "Ava, Boone and Cruz formed Three Palms Catering, a Florida general partnership that never filed a statement of qualification. Ava contributed $60,000 in cash, Boone contributed $30,000 in cash, and Cruz contributed only his services as chef. Their written agreement says that profits will be split equally but says nothing about losses. The business failed. After all partnership assets were sold and every outside creditor was paid in full, $30,000 in cash remains. No partner has received any distribution, and no partner lent money to the firm.",
+      "call": "How should the partners' accounts be settled?",
+      "choices": [
+        "Ava receives $20,000 and Boone receives $10,000, in proportion to their capital contributions, and Cruz receives nothing and owes nothing.",
+        "Each partner receives $10,000, because the agreement splits profits equally.",
+        "Ava receives all $30,000 and Boone receives nothing, because Cruz, who contributed only services, bears no share of the capital loss, which Ava and Boone split equally.",
+        "Cruz must contribute $20,000 to the partnership, after which Ava receives $40,000 and Boone receives $10,000."
+      ],
+      "answer": 3,
+      "explanation": "Unless the agreement provides otherwise, each partner is chargeable with losses in proportion to the partner's share of profits (§ 620.8401), so the equal profit split also governs losses. The partners contributed $90,000 and only $30,000 remains, a $60,000 loss charged $20,000 to each partner. The accounts are Ava $40,000 ($60,000 less $20,000), Boone $10,000 ($30,000 less $20,000) and Cruz negative $20,000, because services are not credited as capital. In winding up, a partner whose account shows a negative balance must contribute that amount (§ 620.8807), so Cruz pays in $20,000, and the $50,000 then on hand pays Ava $40,000 and Boone $10,000.",
+      "whyNot": [
+        "Distributing the leftover cash by capital charges the loss in proportion to contributions rather than profit shares, and it ignores Cruz's obligation to contribute his share of the loss.",
+        "There is no profit to divide. The remaining cash is what is left of the partners' capital after a $60,000 loss, which must be charged to each partner's account.",
+        "Under Florida's partnership act a partner who contributed only services is still charged with his share of losses, measured by his share of profits; the view of some older cases that a services-only partner bears no capital loss does not apply.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-business-entities.q027",
+      "topic": "fl-business-entities.partnerships",
+      "rules": [
+        "fl-business-entities.partnerships.fiduciary-duties"
+      ],
+      "difficulty": 1,
+      "stem": "Dalia and Emeka are the two partners in Lighthouse Print Shop, a Florida general partnership. Their partnership agreement says nothing about the partners' duties. Dalia, who handles purchasing, signed a two-year paper-supply contract after obtaining a single quote; she did not check other suppliers because she was busy. She received no personal benefit from the deal. Paper prices fell a few months later, and the contract ended up costing the partnership $40,000 more than competitors would have charged. Emeka sues Dalia for breach of the duty of care.",
+      "call": "Is Dalia likely to be held liable?",
+      "choices": [
+        "Yes, because a partner must act with the care of an ordinarily prudent person, and Dalia failed to compare prices.",
+        "No, because a partner breaches the duty of care only by gross negligence, recklessness, intentional misconduct or a knowing violation of law.",
+        "Yes, because partners are fiduciaries who must reimburse the partnership for losses caused by their decisions.",
+        "No, because a partner's fiduciary duties are owed only to the partnership as an entity, so Emeka has no personal right to sue Dalia for breaching them."
+      ],
+      "answer": 1,
+      "explanation": "Under § 620.8404(3), a partner's duty of care to the partnership and the other partners is limited to refraining from grossly negligent or reckless conduct, intentional misconduct, or a knowing violation of law. Signing a supply contract after one quote, with no personal interest, may be careless, but it is at most ordinary negligence. Dalia is not liable for the $40,000 loss.",
+      "whyNot": [
+        "Florida's partnership act does not hold partners to an ordinary-prudence standard; liability for lack of care requires at least gross negligence or recklessness.",
+        "",
+        "Partners are not insurers of business results. Fiduciary status does not make a partner liable for losses from good-faith decisions that are not grossly negligent.",
+        "A partner's fiduciary duties run to the partnership and to the other partners, and a partner may sue another partner; Emeka's claim fails on the standard of care, not on standing."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q028",
+      "topic": "fl-business-entities.agency",
+      "rules": [
+        "fl-business-entities.agency.contract-liability"
+      ],
+      "difficulty": 1,
+      "stem": "Odette, a restaurant owner, wanted to buy a used walk-in cooler from Marlin Equipment Co. but feared Marlin would raise its price if it knew she was the buyer. She authorized her friend Jasper to buy the cooler in his own name for up to $15,000 and promised to supply the money. Jasper signed Marlin's purchase agreement in his own name for $14,000 without mentioning Odette, and at his direction Marlin delivered the cooler to Odette's restaurant. Odette never paid. Marlin sued Jasper, who argues that he was only an agent.",
+      "call": "Is Jasper personally liable to Marlin?",
+      "choices": [
+        "Yes, because an agent for an undisclosed principal is a party to the contract, though Marlin may also pursue Odette once it learns of her.",
+        "No, because Jasper acted within the actual authority Odette gave him, and an agent who acts within actual authority binds only the principal, not himself.",
+        "No, because Marlin delivered the cooler to Odette's restaurant and therefore must look to Odette for payment.",
+        "Yes, but only if Marlin first shows that Odette is unable to pay."
+      ],
+      "answer": 0,
+      "explanation": "When an agent contracts for a principal whose existence the third party does not know (an undisclosed principal), the agent is a party to the contract and is personally liable on it. Jasper signed in his own name and never mentioned Odette, so Marlin may hold him to the contract. Because Jasper acted with actual authority, Odette is also bound once Marlin learns of her, and Jasper may seek indemnity from her, but Marlin may collect only once.",
+      "whyNot": [
+        "",
+        "Acting within actual authority keeps an agent off the contract only when the principal is disclosed. An agent for an undisclosed principal is himself a party.",
+        "Where the goods were delivered does not change who the contracting parties are; Marlin contracted with Jasper.",
+        "Jasper's liability does not depend on Odette's inability to pay; he is liable directly as a party to the contract."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q029",
+      "topic": "fl-business-entities.agency",
+      "rules": [
+        "fl-business-entities.agency.respondeat-superior"
+      ],
+      "difficulty": 2,
+      "stem": "Tarpon Lounge, a Florida bar, employs Vic as a door supervisor. His job is to check IDs and remove disorderly patrons, and a written policy forbids staff from striking customers. One night a patron, Lars, became loud and refused to leave. Vic, angry and wanting to clear the doorway for arriving customers, forced Lars out the door and, as he did so, punched him twice, breaking his jaw. Vic had no history of violence, and the lounge had checked his references before hiring him. Lars sues Tarpon Lounge for battery.",
+      "call": "Is Tarpon Lounge vicariously liable for Vic's battery?",
+      "choices": [
+        "No, because an employer is not vicariously liable for an employee's intentional torts.",
+        "Yes, because Vic used force while doing the work he was hired to do, at work, and at least partly to serve the lounge.",
+        "No, because the lounge's written policy expressly prohibited employees from striking customers.",
+        "No, because the lounge exercised reasonable care in hiring Vic, which is a complete defense to a claim based on an employee's conduct at work."
+      ],
+      "answer": 1,
+      "explanation": "An employer is liable for an employee's torts within the scope of employment: conduct of the kind the employee was hired to perform, occurring substantially within the authorized time and space limits, and motivated at least in part by a purpose to serve the employer. Intentional torts can meet this test. Vic was hired to remove disorderly patrons, the force was used at the door while he was doing that job, and he acted at least partly to clear the entrance for the lounge's customers. The policy against striking customers does not take the act outside the scope of employment, because it was a forbidden way of doing the assigned job.",
+      "whyNot": [
+        "Intentional torts are within the scope of employment when they are the kind of conduct the employee was hired for and are motivated at least in part to serve the employer.",
+        "",
+        "An employer's prohibition does not remove conduct from the scope of employment when the employee was performing the assigned task in a forbidden manner.",
+        "Careful hiring defeats a direct negligent-hiring claim, but respondeat superior is vicarious liability that does not depend on the employer's own fault."
+      ]
+    },
+    {
+      "id": "fl-business-entities.q030",
+      "topic": "fl-business-entities.agency",
+      "rules": [
+        "fl-business-entities.agency.duties-termination-and-poa"
+      ],
+      "difficulty": 2,
+      "stem": "In 2024 Rosalind, a Florida resident, signed a power of attorney naming her nephew Carl as her agent. She signed it in the physical presence of two witnesses, who also signed, and acknowledged it before a notary. The document states that it is not affected by her later incapacity and gives Carl 'full authority over my banking, investment and real property matters.' Rosalind did not sign or initial next to any specific power. After Rosalind suffered a stroke, Carl (1) sold her rental condominium at fair market value and deposited the proceeds in her account, and (2) changed the beneficiary designation on her IRA to name his own children.",
+      "call": "Which of Carl's acts were within his authority under the power of attorney?",
+      "choices": [
+        "Neither, because a Florida power of attorney becomes exercisable only after a physician certifies that the principal is incapacitated.",
+        "Both, because the power of attorney was properly executed and durable, and its broad grant reaches all of Rosalind's property.",
+        "Only the beneficiary change, because an agent under a power of attorney may not sell the principal's real property without court approval.",
+        "Only the sale, because a beneficiary change requires Rosalind's signature or initials next to that specific power."
+      ],
+      "answer": 3,
+      "explanation": "A Florida power of attorney must be signed by the principal and two subscribing witnesses and acknowledged before a notary, and to be durable it must state that it is not affected by the principal's later incapacity. Rosalind's document meets those requirements and was exercisable when executed, and its general grant covers real property, so Carl could sell the condominium. But § 709.2202 lists specific powers, including creating or changing a beneficiary designation, creating a trust and making gifts, that an agent may exercise only if the principal signed or initialed next to each one. Rosalind initialed nothing, so the beneficiary change was beyond Carl's authority.",
+      "whyNot": [
+        "Under § 709.2108 a power of attorney executed on or after October 1, 2011 is generally exercisable when executed; Florida does not permit a new power that springs into effect on a later incapacity.",
+        "A broad general grant does not carry the specific powers listed in § 709.2202; each requires the principal's signature or initials next to that power.",
+        "An agent granted authority over real property may sell it without court approval; it is the beneficiary change that lacked authority.",
+        ""
+      ]
+    }
+  ],
+  "essays": [
+    {
+      "id": "fl-business-entities.e03",
+      "title": "The Boatyard Lease",
+      "minutes": 60,
+      "topics": [
+        "fl-business-entities.corporations",
+        "fl-business-entities.shareholder-remedies-and-fundamental-changes"
+      ],
+      "facts": [
+        "In January 2025 Celia Ward decided to open a boat-repair business in Fort Pierce. Before any articles of incorporation had been filed, she signed a five-year lease of a waterfront boatyard from Dunmore Properties, LLC, signing as 'Harbor Light Marine, Inc., a Florida corporation to be formed, by Celia Ward, organizer.' Dunmore's leasing manager knew that the corporation had not yet been formed. The lease does not say whether Celia is personally responsible, and Dunmore has never agreed to release her.",
+        "Celia filed articles of incorporation for Harbor Light Marine, Inc. in February 2025. Harbor Light moved into the boatyard, built a repair shed there, and paid the monthly rent from its own bank account. Its board never voted on the lease. Celia owns 60 percent of Harbor Light's shares, Ben Osei owns 25 percent and Maya Lund owns 15 percent; the shares are not traded on any exchange or market. The directors are Celia, her husband Rafe, and Ben. The articles contain only the statutory minimum.",
+        "In June 2026 Celia proposed that Harbor Light sell its entire boat-repair business (its equipment, inventory, customer contracts and goodwill) to Bayline Holdings, LLC for $1.2 million, payable under an unsecured ten-year promissory note. Celia told the board that she owns all of Bayline. Ben produced an independent appraisal valuing the business at $2 million and asked for a fairness review, which Celia refused. Celia and Rafe voted to approve the sale; Ben voted no. At a special shareholders' meeting properly noticed for the purpose, Celia voted all of her shares for the sale and Ben voted his against it. Before the vote, Maya delivered written notice that she intended to demand payment for her shares if the sale went through, and she did not vote. Ben gave no such notice. The sale closed in July 2026, leaving Harbor Light with the Bayline note, about $15,000 in cash and no operating business.",
+        "Bayline moved the repair business to a waterfront lot that Celia owns personally. Harbor Light vacated the boatyard and stopped paying rent in August 2026. Bayline has made no payment on the note, and Celia, who remains Harbor Light's president, has neither demanded payment nor sued Bayline. Dunmore is owed about $90,000 in past-due rent and faces more than three years of lost rent under the lease. Maya has received Harbor Light's appraisal notice and form. Ben has told Celia that he 'wants his money too.'"
+      ],
+      "calls": [
+        "Who is liable to Dunmore on the boatyard lease: Celia, Harbor Light, or both? Explain.",
+        "Was the sale to Bayline properly approved, and what remedies do Maya and Ben have with respect to it?",
+        "Apart from any liability under the lease itself, can Dunmore hold Celia personally liable for Harbor Light's rent obligations by piercing the corporate veil?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Promoter's liability on a pre-incorporation lease",
+          "rules": [
+            "fl-business-entities.corporations.promoters",
+            "fl-business-entities.corporations.formation"
+          ],
+          "points": 4,
+          "mustSay": [
+            "A promoter who signs a contract for a corporation not yet formed is personally liable unless the other party agreed to look only to the future corporation; the lease contains no such agreement",
+            "Section 607.0204 makes a person who acts for a corporation knowing it has not been formed liable, but not to a party who also knew; Dunmore knew, so the statute itself does not impose liability on Celia",
+            "The statute does not say it displaces the common-law promoter rule, so Dunmore can rely on the common law",
+            "Celia will argue that signing for a corporation 'to be formed' shows Dunmore looked only to the corporation; knowledge that the corporation did not exist is not an agreement to release the promoter"
+          ],
+          "conclusion": "Celia is most likely personally liable under the common-law promoter rule, because Dunmore never agreed to look only to the corporation; § 607.0204 does not apply because Dunmore knew no corporation existed."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Harbor Light's adoption of the lease; no novation",
+          "rules": [
+            "fl-business-entities.corporations.promoters"
+          ],
+          "points": 2,
+          "mustSay": [
+            "A corporation is not bound by a promoter's contract until, after formation, it adopts the contract expressly or impliedly",
+            "Harbor Light impliedly adopted the lease by occupying the boatyard, building on it and paying rent with the knowledge of Celia, its president",
+            "Adoption adds the corporation as an obligor but does not release the promoter; only a novation, which needs Dunmore's agreement, would do that"
+          ],
+          "conclusion": "Harbor Light is liable by implied adoption, and because there was no novation Celia remains liable too."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "Board and shareholder approval of a sale of substantially all assets",
+          "rules": [
+            "fl-business-entities.shareholder-remedies-and-fundamental-changes.mergers-and-asset-sales"
+          ],
+          "points": 2,
+          "mustSay": [
+            "A sale of all or substantially all assets outside the ordinary course that leaves the corporation without a significant continuing business activity requires approval by the board and by the shareholders",
+            "The board approved 2 to 1, and at a properly noticed meeting Celia's 60 percent carried the shareholder vote",
+            "Satisfying the voting requirements does not answer whether the sale survives as a conflict-of-interest transaction"
+          ],
+          "conclusion": "The sale received the board and shareholder approvals that § 607.1202 requires."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "Celia's conflict of interest and duty of loyalty",
+          "rules": [
+            "fl-business-entities.corporations.duty-of-loyalty",
+            "fl-business-entities.corporations.duty-of-care"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Celia owns all of Bayline, so the sale is a director's conflict-of-interest transaction",
+            "Director safe harbor fails: Celia is interested, Rafe (her husband) cannot fairly be treated as disinterested, and the only disinterested director, Ben, voted no",
+            "Shareholder safe harbor fails: Celia's shares do not count, and the only disinterested shares voted were Ben's, against the sale",
+            "Without a safe harbor the sale stands only if fair; an unsecured ten-year $1.2 million note for a business appraised at $2 million, with a fairness review refused, is very likely unfair",
+            "Section 607.0831 does not shield a director who derived an improper personal benefit"
+          ],
+          "conclusion": "Celia breached her duty of loyalty; the sale is vulnerable to rescission or damages because it was neither validly approved by disinterested decision-makers nor fair."
+        },
+        {
+          "id": "i5",
+          "call": 2,
+          "label": "Appraisal rights: Maya preserved them, Ben did not",
+          "rules": [
+            "fl-business-entities.shareholder-remedies-and-fundamental-changes.appraisal"
+          ],
+          "points": 3,
+          "mustSay": [
+            "A disposition of substantially all assets that requires a shareholder vote triggers appraisal rights; the market-out exception does not apply because the shares are not publicly traded",
+            "Maya delivered written notice of intent before the vote and did not vote in favor, so she preserved appraisal; she must now demand payment and deposit her certificates as the appraisal notice requires",
+            "Maya receives the fair value of her shares, measured immediately before the sale, with the court deciding fair value if the parties cannot agree",
+            "Ben voted no but gave no pre-vote notice of intent, so he has no appraisal right"
+          ],
+          "conclusion": "Maya can obtain the fair value of her shares through appraisal; Ben forfeited appraisal by failing to give notice before the vote."
+        },
+        {
+          "id": "i6",
+          "call": 2,
+          "label": "Ben's other remedy: an interested transaction challenged derivatively",
+          "rules": [
+            "fl-business-entities.shareholder-remedies-and-fundamental-changes.appraisal",
+            "fl-business-entities.shareholder-remedies-and-fundamental-changes.direct-vs-derivative",
+            "fl-business-entities.shareholder-remedies-and-fundamental-changes.derivative-suits"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Appraisal is generally the exclusive remedy, but not for an interested transaction that was not approved as § 607.0832 requires or for a transaction procured by fraud or material misrepresentation",
+            "The sale to Celia's own company is such an interested transaction, so Ben may challenge it in court",
+            "The injury (Harbor Light was underpaid) falls first on the corporation and is shared pro rata, so under the Dinuro direct-harm and special-injury test the claim is derivative",
+            "Ben owned shares when the sale occurred and must follow the statutory derivative-suit procedure; any rescission or damages recovery goes to Harbor Light"
+          ],
+          "conclusion": "Ben cannot use appraisal, but he may bring a derivative action on Harbor Light's behalf seeking rescission of the sale or damages from Celia."
+        },
+        {
+          "id": "i7",
+          "call": 3,
+          "label": "Piercing the corporate veil under Dania Jai-Alai",
+          "rules": [
+            "fl-business-entities.corporations.veil-piercing"
+          ],
+          "points": 5,
+          "mustSay": [
+            "Florida pierces the veil only on proof of (1) domination and control making the corporation a mere instrumentality or alter ego, (2) use of the corporate form for a fraudulent or improper purpose, and (3) causation",
+            "Domination: Celia controls the board (with Rafe) and the shareholder vote and directed every step of the sale and the decision not to enforce the note",
+            "Improper conduct: she moved Harbor Light's entire business into her own company for an unsecured note, relocated it to her own property, and let the note go unpaid while knowing Harbor Light owed years of rent",
+            "Causation: the asset transfer left Harbor Light unable to pay Dunmore",
+            "Domination, thin capital or informality alone would not be enough; the asset-stripping supplies the improper conduct Florida requires, and a fraudulent-transfer claim under chapter 726 is an alternative route"
+          ],
+          "conclusion": "Dunmore has a strong case to pierce the veil and hold Celia personally liable, because she used her control of Harbor Light to strip its business for her own company to the prejudice of a known creditor."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Celia's liability. A promoter who signs a contract for a corporation that has not yet been formed is personally liable on it unless the other party agreed to look only to the future corporation. Celia signed the lease before any articles were filed, and nothing in the lease releases her or states that Dunmore will look only to Harbor Light. Celia will argue that by accepting a signature for a corporation 'to be formed,' Dunmore showed it was relying on the corporation alone. But knowing that the corporation did not yet exist is not the same as agreeing to release the person who signed for it, and nothing else suggests that Dunmore gave up its claim against Celia.",
+            "Florida's statute does not change that result. Section 607.0204 makes persons who purport to act on behalf of a corporation, knowing there was no incorporation, jointly and severally liable for liabilities created while so acting, except to a person who also knew there was no incorporation. Celia knew, but so did Dunmore, so the statute itself imposes no liability on her. The statute does not say that it displaces the common-law promoter rule, however, so Dunmore may rely on the common law. Celia is therefore likely personally liable on the lease.",
+            "Harbor Light's liability. A corporation is not bound by a promoter's pre-incorporation contract until, after it is formed, it adopts the contract expressly or impliedly. Harbor Light moved into the boatyard, built a shed there and paid rent every month, all with the knowledge of Celia, its president and controlling shareholder. That knowing acceptance of the lease's benefits is an implied adoption even though the board never voted. Adoption makes Harbor Light liable on the lease but does not release Celia; only a novation, which requires Dunmore's agreement to substitute the corporation as the sole obligor, would do that, and Dunmore never agreed. Dunmore may therefore recover the rent from Harbor Light and, most likely, from Celia personally."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Corporate approval. A sale of all or substantially all of a corporation's property outside the usual and regular course of business that leaves it without a significant continuing business activity requires approval by the board and by the shareholders (§ 607.1202). Harbor Light sold its entire operating business and was left with a note and a little cash, so both approvals were needed. The board approved the sale 2 to 1, and at a properly noticed special meeting Celia's 60 percent of the votes carried it under any measure. The statutory approvals were obtained.",
+            "Conflict of interest. Because Celia owns all of Bayline, the sale is a director's conflict-of-interest transaction. Under § 607.0832, such a transaction is protected from challenge if, after disclosure of the material facts, it is approved by the disinterested (qualified) directors or by the disinterested shareholders, or if it is fair to the corporation. Celia disclosed her ownership, but disclosure alone is not enough. Rafe is Celia's husband and cannot fairly be treated as disinterested, so the only disinterested director, Ben, voted against the sale. Celia's shares do not count toward shareholder approval, and the only disinterested shares voted, Ben's, were cast against it. The sale therefore stands only if it was fair to Harbor Light. An unsecured ten-year note for $1.2 million, in exchange for a business independently appraised at $2 million and approved after Celia refused a fairness review, is very unlikely to be fair. Celia breached her duty of loyalty, and because she derived an improper personal benefit, § 607.0831 does not shield her from monetary liability.",
+            "Maya: appraisal. A shareholder entitled to vote on a disposition of substantially all assets that requires a shareholder vote has appraisal rights, and the market-out exception does not apply because Harbor Light's shares are not traded on any exchange or market. To preserve the right, a shareholder must deliver written notice of intent to demand payment before the vote and must not vote in favor of the action (§ 607.1321). Maya did both. She must now complete the procedure in Harbor Light's appraisal notice, demanding payment and depositing her share certificates on time, and she will then be entitled to the fair value of her shares measured immediately before the sale. If she and Harbor Light cannot agree on that value, the court will determine it.",
+            "Ben: no appraisal, but a derivative challenge. Ben voted against the sale but gave no written notice of intent before the vote, so he has no appraisal right. Appraisal is usually the exclusive remedy for a shareholder who objects to a covered transaction, but the statute preserves other remedies for a transaction procured by fraud or material misrepresentation and for an interested transaction that was not approved as § 607.0832 requires. The sale to Celia's own company is exactly such an interested transaction, so Ben may challenge it in court. His complaint, however, is that Harbor Light received too little for its business. That injury falls first on the corporation and is shared by every shareholder in proportion to holdings, so under Florida's direct-harm and special-injury test (Dinuro Investments, LLC v. Camacho) the claim is derivative. Ben, who owned his shares when the sale occurred, may sue on Harbor Light's behalf under the statutory derivative-suit procedure, seeking rescission of the sale or damages from Celia, and any recovery will belong to Harbor Light."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Florida respects the corporate entity and disregards it only on proof that (1) the shareholder so dominated and controlled the corporation that it had no independent existence and was a mere instrumentality or alter ego, (2) the corporate form was used fraudulently or for an improper purpose, and (3) that improper use caused the claimant's injury (Dania Jai-Alai Palace, Inc. v. Sykes). Domination, thin capitalization or careless formalities are not enough on their own; Florida requires improper conduct.",
+            "Domination. Celia holds 60 percent of the shares, controls the board with her husband's vote, and as president decided whether to sell the business, to whom, on what terms, and whether to enforce the buyer's note. Harbor Light acted only as Celia directed. Improper conduct. Celia used that control to move Harbor Light's entire business into her own company in exchange for an unsecured, long-term note, relocated the business to her own property, and then allowed Bayline to stop paying without any attempt at collection, all while knowing that Harbor Light owed years of rent under the boatyard lease. Shifting a corporation's assets to the controlling shareholder's own entity and leaving behind a shell that cannot pay a known creditor is the kind of misuse of the corporate form that Florida treats as improper. Causation. The transfer left Harbor Light with no business and no realistic means of paying rent, which is exactly Dunmore's loss.",
+            "Dunmore therefore has a strong claim to pierce the veil and hold Celia personally liable for Harbor Light's rent obligations. That the sale received the required votes does not help her, because compliance with corporate formalities does not protect a shareholder who uses the corporation to defeat its creditors. Dunmore could also attack the transfer under Florida's fraudulent-transfer statute (chapter 726) as a transfer for less than reasonably equivalent value that left Harbor Light unable to pay its debts, and after obtaining a judgment it could reach Harbor Light's rights against Bayline on the unpaid note."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-business-entities.e04",
+      "title": "The Catering Van",
+      "minutes": 60,
+      "topics": [
+        "fl-business-entities.agency",
+        "fl-business-entities.llcs"
+      ],
+      "facts": [
+        "Saltmarsh Catering, LLC is a Florida limited liability company whose articles of organization state that it is manager-managed. Its sole manager is Iris Delgado, who also holds a 50 percent membership interest. Pablo Reyes and Wen Liu each hold 25 percent and have no management role. The operating agreement, which has never been filed or shown to outsiders, provides that only the manager may sign contracts for the company. No statement of authority has been filed.",
+        "In 2025 Iris emailed Coastline Kitchen Supply that 'Pablo will be placing our orders for disposable trays, linens and serving utensils going forward.' Over the next year Pablo placed about a dozen such orders, each under $2,000, and Saltmarsh paid every invoice. In March 2026 Pablo, without consulting Iris, ordered from Coastline a $28,000 combination oven configured for Saltmarsh's kitchen. Coastline had never sold Saltmarsh equipment before, but relying on Iris's email and the parties' course of dealing, it ordered the custom unit from the manufacturer and installed it. When the invoice arrived, Iris told Pablo she was 'furious,' but she kept the oven, and Saltmarsh used it to prepare food for catered events for the next two months. In June Iris told Coastline that Saltmarsh would not pay because Pablo had no authority to buy equipment.",
+        "Dex Monroe, a Saltmarsh employee, delivers catered meals in a van titled in Saltmarsh's name. Saltmarsh lets Dex keep the van overnight so that he can start early deliveries, but its written policy says the van may be used 'for company business only.' One Friday at 9 p.m., after his last delivery, Dex was supposed to drive the van straight to his home three miles away. Instead he drove 25 miles in the opposite direction to a friend's party. On the way he ran a stop sign and seriously injured a cyclist, Noor. Dex has almost no assets. Noor has sued Saltmarsh, Dex, Iris, Pablo and Wen.",
+        "Saltmarsh also wanted a warehouse for a central kitchen. Worried that the seller, Pruitt Realty, would raise its price if it knew a growing catering company was the buyer, Iris, Pablo and Wen signed a written consent authorizing the purchase of Pruitt's warehouse for up to $900,000 and directing Iris's brother-in-law, Quentin, to sign the contract in his own name and close the purchase for Saltmarsh. Quentin agreed. He signed a contract to buy the warehouse for $850,000 without mentioning Saltmarsh and paid the deposit with money Saltmarsh gave him. Saltmarsh later found a cheaper building and told Quentin not to close. Pruitt has sued Quentin for breach of contract and has just learned of Saltmarsh's role."
+      ],
+      "calls": [
+        "Is Saltmarsh Catering, LLC obligated to pay Coastline for the oven?",
+        "Who is liable to Noor for her injuries?",
+        "Who is liable to Pruitt Realty on the warehouse contract, and what rights, if any, does Quentin have against Saltmarsh?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "No statutory agency power for a member of a manager-managed LLC",
+          "rules": [
+            "fl-business-entities.llcs.agency",
+            "fl-business-entities.llcs.management"
+          ],
+          "points": 2,
+          "mustSay": [
+            "Saltmarsh is manager-managed because its articles say so",
+            "In a manager-managed LLC a member is not an agent of the company solely by reason of being a member; the manager is the statutory agent",
+            "Pablo's power to bind Saltmarsh therefore depends on ordinary agency principles"
+          ],
+          "conclusion": "Pablo had no statutory power to bind Saltmarsh, so the question turns on actual authority, apparent authority and ratification."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Actual and apparent authority for the oven purchase",
+          "rules": [
+            "fl-business-entities.agency.actual-authority",
+            "fl-business-entities.agency.apparent-authority"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Iris's email gave Pablo express actual authority to order disposables, linens and utensils; a $28,000 oven is not incidental to that grant, and the operating agreement reserved contract-signing to the manager, so he lacked actual authority",
+            "Florida apparent authority requires a representation by the principal, reliance on it by the third party, and a change of position in reliance (Mobil Oil Corp. v. Bransford)",
+            "Iris's email and Saltmarsh's payment history are representations traceable to the principal, and Coastline changed position by ordering and installing a custom unit",
+            "The representation covered small supply orders; relying on it for a first-time $28,000 equipment purchase was likely unreasonable, so apparent authority is doubtful"
+          ],
+          "conclusion": "Pablo lacked actual authority, and apparent authority is weak because Saltmarsh's representation reached only small supply orders."
+        },
+        {
+          "id": "i3",
+          "call": 1,
+          "label": "Ratification by accepting the benefits",
+          "rules": [
+            "fl-business-entities.agency.contract-liability"
+          ],
+          "points": 3,
+          "mustSay": [
+            "A principal ratifies an unauthorized act by affirming it with knowledge of the material facts, including by knowingly accepting its benefits",
+            "Iris, the manager who could have authorized the purchase, knew of it when the invoice arrived and kept and used the oven for two months",
+            "Ratification relates back and covers the whole transaction; Saltmarsh cannot keep the oven and refuse to pay",
+            "Coastline had not withdrawn, so the ratification was effective, and it also relieves Pablo of liability to Coastline for breach of the implied warranty of authority"
+          ],
+          "conclusion": "Saltmarsh ratified the purchase and must pay Coastline $28,000."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "Respondeat superior: detour or frolic",
+          "rules": [
+            "fl-business-entities.agency.respondeat-superior"
+          ],
+          "points": 3,
+          "mustSay": [
+            "An employer is vicariously liable for torts within the scope of employment: the kind of work the employee was hired to do, substantially within authorized time and space, and motivated at least in part to serve the employer",
+            "A minor detour stays within the scope; a substantial departure for the employee's own purposes is a frolic",
+            "Driving 25 miles in the opposite direction to a party after the last delivery served only Dex's purposes, so Saltmarsh is probably not liable as employer"
+          ],
+          "conclusion": "Dex was probably on a frolic, so Saltmarsh is likely not vicariously liable as his employer."
+        },
+        {
+          "id": "i5",
+          "call": 2,
+          "label": "Dangerous instrumentality doctrine",
+          "rules": [
+            "fl-business-entities.agency.dangerous-instrumentality"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Under Florida's dangerous instrumentality doctrine, the owner of a motor vehicle who voluntarily entrusts it to another is vicariously liable for its negligent operation, regardless of agency or the owner's own fault",
+            "Saltmarsh owns the van and voluntarily let Dex keep and drive it",
+            "Only a breach of custody amounting to theft or conversion relieves the owner; using the van for a personal trip contrary to company policy is a deviation, not a theft",
+            "Saltmarsh is therefore liable to Noor even though Dex was outside the scope of employment"
+          ],
+          "conclusion": "Saltmarsh is liable to Noor as the van's owner under the dangerous instrumentality doctrine."
+        },
+        {
+          "id": "i6",
+          "call": 2,
+          "label": "Personal liability of the driver, the manager and the members",
+          "rules": [
+            "fl-business-entities.llcs.formation-and-shield"
+          ],
+          "points": 2,
+          "mustSay": [
+            "Dex is personally liable for his own negligence",
+            "Iris, Pablo and Wen are not personally liable for Saltmarsh's obligations solely because they are its manager or members",
+            "None of them took part in the accident, and nothing suggests an improper use of the LLC form that would support piercing"
+          ],
+          "conclusion": "Noor may recover from Dex and Saltmarsh, but not from Iris, Pablo or Wen."
+        },
+        {
+          "id": "i7",
+          "call": 3,
+          "label": "Agent for an undisclosed principal",
+          "rules": [
+            "fl-business-entities.agency.contract-liability",
+            "fl-business-entities.agency.creation"
+          ],
+          "points": 4,
+          "mustSay": [
+            "An agency arose: Saltmarsh acknowledged that Quentin would act for it, Quentin accepted, and Saltmarsh controlled the terms and supplied the money",
+            "Pruitt did not know that Quentin was acting for anyone, so Saltmarsh was an undisclosed principal",
+            "An agent who contracts for an undisclosed principal is a party to the contract and personally liable to the third party",
+            "Because Quentin acted with actual authority, Saltmarsh is also bound once disclosed; Pruitt may pursue either but is entitled to only one recovery"
+          ],
+          "conclusion": "Quentin and Saltmarsh are both liable to Pruitt, which may choose whom to pursue but cannot recover twice."
+        },
+        {
+          "id": "i8",
+          "call": 3,
+          "label": "Quentin's right to indemnity",
+          "rules": [
+            "fl-business-entities.agency.duties-termination-and-poa"
+          ],
+          "points": 2,
+          "mustSay": [
+            "A principal must indemnify its agent for liabilities and losses incurred in carrying out authorized acts",
+            "Quentin signed exactly as Saltmarsh directed and within the authorized price",
+            "Saltmarsh's instruction not to close revoked his authority going forward but does not shift onto Quentin the liability he had already incurred"
+          ],
+          "conclusion": "Quentin may recover from Saltmarsh whatever he must pay Pruitt, together with his expenses."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Statutory agency. Saltmarsh's articles state that it is manager-managed. Under § 605.04074, a member of a manager-managed LLC is not an agent of the company solely by reason of being a member; the manager, Iris, holds the statutory power to bind Saltmarsh in the ordinary course. Florida's rule that every member is an agent applies only to member-managed LLCs. Whether Pablo bound Saltmarsh therefore depends on ordinary agency principles.",
+            "Actual authority. Iris, acting for Saltmarsh, expressly authorized Pablo to order disposable trays, linens and serving utensils. Implied authority extends to acts reasonably necessary or incidental to that grant, but a $28,000 oven is a capital purchase of a different kind, and the operating agreement reserved contract-signing to the manager. Pablo had no actual authority to buy the oven.",
+            "Apparent authority. In Florida, apparent authority requires (1) a representation by the purported principal, (2) reliance on it by a third party, and (3) a change of position in reliance (Mobil Oil Corp. v. Bransford). Iris's email and Saltmarsh's year of paying Pablo's orders are representations traceable to Saltmarsh, and Coastline changed its position by ordering a custom unit and installing it. The weak point is the scope of the representation and the reasonableness of relying on it. The email described small supply orders, and a supplier making its first equipment sale to this customer, at more than ten times the size of any earlier order, could not reasonably assume that authority to buy trays and linens included authority to buy an oven. Apparent authority is arguable but doubtful.",
+            "Ratification. Even without authority, a principal is bound if, knowing the material facts, it affirms the unauthorized act, expressly or by conduct such as knowingly accepting its benefits. Iris, the manager who could have authorized the purchase, learned of it when the invoice arrived, yet she kept the oven and Saltmarsh used it at catered events for two months before objecting. Her private complaint to Pablo does not undo that conduct; a principal cannot keep the benefits of a transaction while rejecting its burdens. Saltmarsh ratified the entire contract before Coastline withdrew, so the purchase is treated as authorized from the start, and ratification also relieves Pablo of liability to Coastline for breach of the implied warranty of authority. Saltmarsh must pay Coastline $28,000."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Dex. Dex ran the stop sign and is personally liable to Noor for his own negligence, although he has almost no assets.",
+            "Respondeat superior. An employer is vicariously liable for an employee's torts within the scope of employment, meaning conduct of the kind the employee was hired to perform, occurring substantially within the authorized time and space limits, and motivated at least in part by a purpose to serve the employer. A minor detour stays within the scope; a substantial departure for the employee's own purposes is a frolic outside it. Dex's deliveries were over and he was expected to drive three miles home. Driving 25 miles the other way to a party served only his own ends and was a substantial departure in distance and purpose. Noor will argue that the trip began on the job and that Dex had the van only because of his employment, but Saltmarsh is probably not vicariously liable as his employer.",
+            "Dangerous instrumentality. Florida makes the owner of a motor vehicle who voluntarily entrusts it to another vicariously liable for injuries caused by the negligent operation of the vehicle by the person entrusted, without regard to employment, agency or the owner's own fault. Saltmarsh holds title to the van and voluntarily let Dex keep and drive it. Dex's personal trip violated the company-business-only policy, but under Florida law only a breach of custody amounting to theft or conversion ends the owner's liability; a deviation from the permitted purpose, time or route does not. Taking the van to a party instead of home is a deviation, not a theft. Saltmarsh is therefore liable to Noor as the owner even though Dex was outside the scope of his employment. The statutory limits on the liability of an owner who lends a vehicle apply to natural persons and certain lessors (§ 324.021(9)(b)3.), so they do not help Saltmarsh.",
+            "Iris, Pablo and Wen. A member or manager of a Florida LLC is not personally liable for the company's obligations solely by reason of being or acting as a member or manager. None of them drove the van or directed the trip, and nothing suggests that the LLC form was used for an improper purpose that would justify piercing the veil. Noor may recover from Dex and Saltmarsh, but not from Iris, Pablo or Wen personally."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Agency. An agency relationship requires the principal's acknowledgment that the agent will act for it, the agent's acceptance of the undertaking, and the principal's control over the agent's actions (Goldschmidt v. Holman). Saltmarsh, through a written consent signed by its manager and all of its members, directed Quentin to buy the warehouse on stated terms and within a stated price; Quentin agreed; and Saltmarsh controlled the transaction and supplied the deposit. Quentin was Saltmarsh's agent, with express actual authority to sign the contract in his own name.",
+            "Quentin's liability. When the third party does not know that the person it is dealing with is acting for a principal, the principal is undisclosed, and the agent who makes the contract is a party to it and personally liable. Pruitt dealt only with Quentin, who signed in his own name without mentioning Saltmarsh, so Quentin is bound by the contract and liable for its breach.",
+            "Saltmarsh's liability. An undisclosed principal is also bound by a contract its agent made with actual authority, so now that Pruitt has learned of Saltmarsh it may enforce the contract against Saltmarsh as well. Pruitt may pursue either, but it is entitled to only one recovery, and some courts require the third party to elect between agent and principal once it knows the principal's identity. Saltmarsh's discovery of a cheaper building is no defense.",
+            "Quentin's rights. A principal must indemnify its agent for liabilities and losses the agent incurs in carrying out authorized acts and must reimburse authorized expenses. Quentin signed exactly as Saltmarsh directed and within the authorized price. Saltmarsh's later instruction not to close revoked his authority to go forward, but it does not shift onto Quentin the liability he had already incurred on Saltmarsh's behalf. Quentin may recover from Saltmarsh whatever he must pay Pruitt, along with his expenses."
+          ]
+        }
+      ]
+    }
+  ]
+}

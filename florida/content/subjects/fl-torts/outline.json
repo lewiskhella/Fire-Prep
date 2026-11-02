@@ -1,0 +1,535 @@
+{
+  "subject": "fl-torts",
+  "topics": [
+    {
+      "id": "fl-torts.negligence-and-fault",
+      "title": "Negligence and comparative fault",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida negligence questions now turn on the 2023 tort-reform statute (HB 837): a plaintiff more than 50% at fault recovers nothing, damages are apportioned several-only, nonparties can be placed on the verdict form under Fabre, and medical-expense evidence is limited. Always check the dates — whether the claim was filed (or accrued) before or after March 24, 2023 decides which rule applies.",
+      "rules": [
+        {
+          "id": "fl-torts.negligence-and-fault.duty-zone-of-risk",
+          "title": "Duty and proximate cause: the foreseeable zone of risk",
+          "weight": 2,
+          "rule": "A negligence plaintiff must prove duty, breach, causation and damages. In Florida, a legal duty arises when the defendant's conduct creates a foreseeable zone of risk that poses a general threat of harm to others; whether the specific injury and manner of harm were foreseeable is a proximate-cause question, ordinarily for the jury.",
+          "elements": [
+            "Duty (defendant's conduct created a foreseeable zone of risk)",
+            "Breach of the standard of reasonable care",
+            "Cause in fact and proximate cause",
+            "Actual damages"
+          ],
+          "tip": "Use McCain's two-step: foreseeability of a general zone of risk answers duty (a question of law); foreseeability of the specific harm answers proximate cause (usually a jury question).",
+          "trap": "Dismissing for 'no duty' because the precise injury was freakish. Unusual mechanics go to proximate cause, not duty.",
+          "authority": "McCain v. Florida Power Corp., 593 So. 2d 500 (Fla. 1992)"
+        },
+        {
+          "id": "fl-torts.negligence-and-fault.modified-comparative-fault",
+          "title": "Modified comparative negligence (2023)",
+          "weight": 3,
+          "rule": "In a negligence action, a plaintiff found greater than 50% at fault for his or her own harm may not recover any damages; a plaintiff 50% or less at fault recovers damages reduced by his or her percentage of fault. The bar does not apply to personal-injury or wrongful-death actions arising from medical negligence under chapter 766, which remain pure comparative fault.",
+          "elements": [
+            "Plaintiff's fault 50% or less: recovery reduced by plaintiff's percentage",
+            "Plaintiff's fault more than 50%: no recovery",
+            "Medical-negligence actions: pure comparative fault"
+          ],
+          "exceptions": [
+            "Applies to negligence actions filed after March 24, 2023 (HB 837); actions filed earlier remain under pure comparative fault",
+            "Medical negligence under chapter 766 is excluded"
+          ],
+          "split": "Before 2023 Florida was one of the few pure comparative-fault states. It now follows the majority modified approach, in the '51% bar' form: a plaintiff exactly 50% at fault still recovers half.",
+          "trap": "Barring a plaintiff who is exactly 50% at fault, or applying the bar to a medical-malpractice claim.",
+          "authority": "Fla. Stat. § 768.81(6); HB 837 (2023)"
+        },
+        {
+          "id": "fl-torts.negligence-and-fault.plaintiff-conduct-defenses",
+          "title": "Seat belts and the plaintiff's intoxication",
+          "weight": 2,
+          "rule": "A plaintiff's failure to wear a seat belt is not negligence per se but may be considered as evidence of comparative negligence if the defendant shows the failure contributed to the injuries. Separately, a plaintiff may recover nothing if, when injured, he or she was under the influence of alcohol or drugs to the extent normal faculties were impaired (or had a blood or breath alcohol level of 0.08 or higher) and, as a result, was more than 50% at fault for his or her own harm.",
+          "tip": "The intoxication bar in § 768.36 predates HB 837 and applies in any civil action, including medical-negligence cases that are otherwise pure comparative fault.",
+          "trap": "Treating seat-belt nonuse as a complete defense or as negligence per se.",
+          "authority": "Fla. Stat. §§ 316.614(10), 768.36"
+        },
+        {
+          "id": "fl-torts.negligence-and-fault.joint-several-abolished",
+          "title": "Several-only liability",
+          "weight": 3,
+          "rule": "In a negligence action, the court enters judgment against each liable party on the basis of that party's percentage of fault, not on the basis of joint and several liability. A defendant whose liability is purely vicarious (an employer, a vehicle owner) answers for the share of the person whose fault is imputed to it.",
+          "exceptions": [
+            "Actions based on an intentional tort",
+            "Actions to recover actual economic damages from pollution",
+            "Claims under statutes that expressly provide for joint and several liability (e.g., chapters 403, 517, 542, 895)"
+          ],
+          "split": "Many states and the traditional common-law rule retain joint and several liability (at least for economic damages). Florida abolished it for negligence actions in 2006.",
+          "trap": "Letting the plaintiff collect the entire judgment from the solvent 20%-at-fault defendant.",
+          "authority": "Fla. Stat. § 768.81(3)–(4)"
+        },
+        {
+          "id": "fl-torts.negligence-and-fault.fabre-nonparty",
+          "title": "Apportioning fault to nonparties (Fabre)",
+          "weight": 3,
+          "rule": "The jury apportions fault among all persons who contributed to the injury, including nonparties (even immune or settling ones). To place a nonparty on the verdict form, the defendant must plead the nonparty's fault as an affirmative defense, identify or describe the nonparty as specifically as practicable, and prove the nonparty's fault at trial by a preponderance of the evidence.",
+          "elements": [
+            "Affirmatively plead the nonparty's fault",
+            "Identify the nonparty (or describe it as specifically as practicable), absent good cause",
+            "Prove the nonparty's fault by a preponderance at trial"
+          ],
+          "exceptions": [
+            "No apportionment in actions excluded from § 768.81 (intentional torts, pollution economic damages)",
+            "An initial tortfeasor, who is liable for the foreseeable consequences of negligent medical treatment of the injury it caused (Stuart v. Hertz Corp., 351 So. 2d 703 (Fla. 1977)), generally may not apportion fault to the later treating providers"
+          ],
+          "tip": "The plaintiff cannot recover the nonparty's share from anyone in this suit, which is why Fabre defenses matter so much in a several-only system.",
+          "trap": "Allowing the jury to apportion fault to a nonparty the defendant never pleaded.",
+          "authority": "Fla. Stat. § 768.81(3)(a)–(b); Fabre v. Marin, 623 So. 2d 1182 (Fla. 1993)"
+        },
+        {
+          "id": "fl-torts.negligence-and-fault.negligent-security",
+          "title": "Negligent security after 2023",
+          "weight": 2,
+          "rule": "In an action against the owner or operator of property by a person lawfully on the property who was injured by a third party's criminal act, the trier of fact must consider the fault of all persons who contributed to the injury, including the criminal actor. An owner of multifamily residential property that substantially implements the statutory security measures is entitled to a presumption against liability for criminal acts of third parties on the premises.",
+          "elements": [
+            "Measures listed in § 768.0706 include a security camera system at entry and exit points, lighting of parking areas and common areas, deadbolts and window and sliding-door locks, locked pool-area gates, door viewers, a current crime-prevention-through-environmental-design (CPTED) assessment, and crime-deterrence training for employees"
+          ],
+          "split": "Before HB 837 the Florida Supreme Court held that a negligent defendant could not apportion fault to an intentional tortfeasor (Merrill Crossings Assocs. v. McDonald, 705 So. 2d 560 (Fla. 1997)). Section 768.0701 now requires apportionment to the criminal actor in these property cases.",
+          "trap": "Leaving the assailant off the verdict form in a post-2023 negligent-security case.",
+          "authority": "Fla. Stat. §§ 768.0701, 768.0706"
+        },
+        {
+          "id": "fl-torts.negligence-and-fault.medical-expense-evidence",
+          "title": "Evidence of medical damages (§ 768.0427)",
+          "weight": 2,
+          "rule": "In personal-injury and wrongful-death actions, evidence of past medical expenses that have been paid is limited to the amounts actually paid, regardless of the source. Evidence offered to prove unpaid and future medical charges must include the amounts measured by the claimant's health coverage (or, for an uninsured claimant or one on Medicare or Medicaid, by statutory Medicare/Medicaid benchmarks), and the medical damages awarded may not exceed the amounts paid plus the amounts needed to satisfy unpaid charges and reasonable future care.",
+          "elements": [
+            "Paid bills: amount actually paid",
+            "Unpaid bills and future care: evidence must include the amount the claimant's coverage would pay or, for an uninsured, Medicare or Medicaid claimant, 120% of the Medicare rate (170% of the Medicaid rate if there is no Medicare rate)",
+            "Treatment under a letter of protection: claimant must disclose the letter, itemized coded billing, any sale of the receivable to a factoring company, and whether the attorney referred the claimant to the provider"
+          ],
+          "split": "Under the traditional collateral-source evidentiary rule, many states let the jury hear the full billed amount. Florida now limits the evidence to amounts paid or the statutory measures.",
+          "trap": "Letting the plaintiff introduce the full 'billed' charges for treatment that insurance paid at a discounted rate.",
+          "authority": "Fla. Stat. § 768.0427"
+        }
+      ]
+    },
+    {
+      "id": "fl-torts.florida-doctrines",
+      "title": "Florida-specific liability doctrines",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "These are the doctrines that make a Florida torts answer different from an MBE answer: owners of cars are vicariously liable for anyone they lend them to; slip-and-fall plaintiffs in businesses must prove notice; emotional-distress claims still face the impact rule; and the dram-shop statute shields most sellers of alcohol. Expect at least one of these in every Florida torts essay.",
+      "rules": [
+        {
+          "id": "fl-torts.florida-doctrines.dangerous-instrumentality",
+          "title": "Dangerous instrumentality doctrine",
+          "weight": 3,
+          "rule": "The owner of a motor vehicle who voluntarily entrusts it to another is vicariously liable for injuries caused by the user's negligent operation, without any proof that the owner was negligent. Liability follows the owner's consent to use, even if the driver deviates from the permitted purpose or route, and it extends to other instrumentalities Florida courts have classified as dangerous (for example, golf carts).",
+          "elements": [
+            "Defendant owned the vehicle (or had sufficient control or beneficial ownership)",
+            "Defendant voluntarily entrusted it to the operator, directly or through someone the owner authorized",
+            "The operator negligently injured the plaintiff"
+          ],
+          "split": "The majority/MBE rule makes an owner liable for a borrower only for the owner's own negligent entrustment (or under an owner-liability statute). Florida's common-law doctrine imposes vicarious liability on the owner simply for entrusting the car.",
+          "trap": "Requiring proof that the owner knew the borrower was a bad driver. That is negligent entrustment; dangerous-instrumentality liability needs no fault by the owner.",
+          "authority": "Southern Cotton Oil Co. v. Anderson, 86 So. 629 (Fla. 1920); Meister v. Fisher, 462 So. 2d 1071 (Fla. 1984)"
+        },
+        {
+          "id": "fl-torts.florida-doctrines.dangerous-instrumentality-limits",
+          "title": "Limits on owner liability",
+          "weight": 2,
+          "rule": "An owner is not liable when the vehicle was stolen or converted, or while it was entrusted to an independent repair or service business and was being operated by that business's employees (the 'shop rule'). By statute, a natural person who lends a vehicle to a permissive user is liable only up to $100,000 per person and $300,000 per incident for bodily injury and $50,000 for property damage, plus up to an additional $500,000 in economic damages if the user is uninsured or carries limits below $500,000; federal law (the Graves Amendment) bars vicarious liability of rental and leasing companies that are not themselves negligent.",
+          "exceptions": [
+            "Theft or conversion (use far beyond the scope of consent amounting to conversion)",
+            "Shop rule: vehicle in the custody of an independent repair or service business",
+            "Statutory caps for natural-person lenders (§ 324.021(9)(b)3.)",
+            "Graves Amendment preemption for rental/leasing businesses (49 U.S.C. § 30106)"
+          ],
+          "trap": "Imposing unlimited vicarious liability on an individual who lent a car to a friend, or on a rental company with no independent negligence.",
+          "authority": "Fla. Stat. § 324.021(9)(b); Castillo v. Bickley, 363 So. 2d 792 (Fla. 1978); 49 U.S.C. § 30106"
+        },
+        {
+          "id": "fl-torts.florida-doctrines.premises-invitees",
+          "title": "Premises liability: invitees and invited licensees",
+          "weight": 3,
+          "rule": "A landowner owes invitees two duties: to use reasonable care to maintain the premises in a reasonably safe condition, and to warn of concealed dangers that the owner knows or should know of and that the invitee cannot discover through reasonable care. Florida treats social guests ('invited licensees') as invitees. That a danger is open and obvious may discharge the duty to warn but does not discharge the duty to maintain; it bears on the plaintiff's comparative fault.",
+          "elements": [
+            "Public invitees and business invitees",
+            "Invited licensees (social guests) — same duty as invitees (Wood v. Camp)",
+            "Duty to maintain and duty to warn"
+          ],
+          "split": "The majority/MBE rule classifies social guests as licensees, owed only a warning of known dangers. Florida gives invited social guests the full invitee duty of reasonable care.",
+          "trap": "Holding that an obvious hazard defeats the claim entirely. In Florida it ends only the duty to warn; the owner may still breach the duty to maintain.",
+          "authority": "Wood v. Camp, 284 So. 2d 691 (Fla. 1973)"
+        },
+        {
+          "id": "fl-torts.florida-doctrines.premises-licensees-trespassers",
+          "title": "Uninvited licensees and trespassers",
+          "weight": 2,
+          "rule": "To an uninvited licensee (one who enters for his or her own convenience without invitation) the owner owes a duty to refrain from willful or wanton misconduct and to warn of known dangers not open to ordinary observation once the licensee's presence is known. By statute, to an undiscovered trespasser (whose actual presence was not detected within the 24 hours before the injury) the owner owes only a duty to refrain from intentional misconduct and has no duty to warn; to a discovered trespasser (whose presence was actually known within the 24 hours before the injury) the owner must also refrain from gross negligence and warn of known dangerous conditions not readily observable.",
+          "exceptions": [
+            "The attractive-nuisance doctrine for child trespassers is preserved",
+            "Additional statutory protection for owners against trespassers injured while intoxicated and against persons injured while committing or attempting a felony on the property (§ 768.075)"
+          ],
+          "trap": "Applying the reasonable-care standard to a trespasser.",
+          "authority": "Fla. Stat. § 768.075; Wood v. Camp, 284 So. 2d 691 (Fla. 1973)"
+        },
+        {
+          "id": "fl-torts.florida-doctrines.transitory-foreign-substance",
+          "title": "Slip-and-fall on a transitory foreign substance",
+          "weight": 3,
+          "rule": "If a person slips and falls on a transitory foreign substance in a business establishment, the plaintiff must prove that the business had actual or constructive knowledge of the dangerous condition and should have taken action to remedy it. Constructive knowledge may be proved by circumstantial evidence that the condition existed for such a length of time that, in the exercise of ordinary care, the business should have known of it, or that the condition occurred with regularity and was therefore foreseeable.",
+          "elements": [
+            "Business establishment",
+            "Transitory foreign substance (spilled liquid, food, debris)",
+            "Actual knowledge, or constructive knowledge shown by (a) length of time or (b) regularity of occurrence",
+            "Failure to take action to remedy the condition"
+          ],
+          "split": "Florida briefly relaxed the notice requirement (Owens v. Publix Supermarkets, 802 So. 2d 315 (Fla. 2001), and former § 768.0710); the 2010 statute restored proof of actual or constructive knowledge as an element.",
+          "tip": "Look for 'time' facts (a dried, footprinted, or cart-tracked puddle; a puddle spreading from a leak) or 'regularity' facts (a cooler that drips every day).",
+          "trap": "Letting the plaintiff win merely by showing the substance was on the floor and the store had poor inspection practices, without evidence of how long it was there or that it recurred.",
+          "authority": "Fla. Stat. § 768.0755"
+        },
+        {
+          "id": "fl-torts.florida-doctrines.impact-rule",
+          "title": "The impact rule",
+          "weight": 3,
+          "rule": "Florida retains the impact rule: a plaintiff may not recover damages for emotional distress caused by another's negligence unless the plaintiff suffered a physical impact. When there is an impact, even a slight one, the plaintiff may recover for emotional distress flowing from the incident.",
+          "exceptions": [
+            "Champion v. Gray close-relative exception (see the next rule)",
+            "Intentional torts and torts where emotional harm is the primary injury, such as intentional infliction of emotional distress, defamation and invasion of privacy",
+            "Specific freestanding torts recognized by the Florida Supreme Court, such as a psychotherapist's breach of confidentiality (Gracey v. Eaker, 837 So. 2d 348 (Fla. 2002)) and a lawyer's negligence causing a client's wrongful incarceration (Rowell v. Holt, 850 So. 2d 474 (Fla. 2003))"
+          ],
+          "split": "Most jurisdictions and the MBE use zone-of-danger or bystander (Dillon) tests for negligent infliction. Florida still begins with the impact rule and allows narrow exceptions.",
+          "tip": "The impact can be slight: a robber's touching during a holdup was enough in Willis v. Gami Golden Glades, LLC, 967 So. 2d 846 (Fla. 2007).",
+          "trap": "Allowing a near-miss plaintiff with no impact and no qualifying exception to recover purely emotional damages.",
+          "authority": "R.J. v. Humana of Fla., Inc., 652 So. 2d 360 (Fla. 1995); Willis v. Gami Golden Glades, LLC, 967 So. 2d 846 (Fla. 2007)"
+        },
+        {
+          "id": "fl-torts.florida-doctrines.champion-exception",
+          "title": "Bystander exception: Champion v. Gray",
+          "weight": 3,
+          "rule": "Without an impact, a plaintiff may recover for emotional distress caused by the negligent death or serious injury of a close family member if the distress produces a discernible physical injury or illness, the plaintiff was involved in the event (by seeing or hearing it, or arriving at the scene shortly afterward), and the plaintiff had a close personal relationship to the injured person.",
+          "elements": [
+            "Discernible physical injury or illness caused by the psychic trauma",
+            "Plaintiff involved in the event causing the injury (witnessed it or came upon the scene shortly after)",
+            "Close family relationship with the directly injured person",
+            "Physical manifestation within a short time of the event"
+          ],
+          "trap": "Allowing recovery for grief and anxiety alone, without a physical injury or illness, or for a relative who learned of the accident by phone hours later.",
+          "authority": "Champion v. Gray, 478 So. 2d 17 (Fla. 1985); Zell v. Meek, 665 So. 2d 1048 (Fla. 1995)"
+        },
+        {
+          "id": "fl-torts.florida-doctrines.dram-shop",
+          "title": "Dram-shop and social-host liability",
+          "weight": 2,
+          "rule": "A person who sells or furnishes alcoholic beverages to a person of lawful drinking age is not liable for injury or damage caused by that person's intoxication, except that liability may arise when the seller or furnisher (1) willfully and unlawfully sells or furnishes alcohol to a person under the lawful drinking age, or (2) knowingly serves a person habitually addicted to the use of alcohol.",
+          "exceptions": [
+            "Willful and unlawful service to a person under 21",
+            "Knowing service to a person habitually addicted to alcohol"
+          ],
+          "split": "Many states impose dram-shop liability for serving a visibly intoxicated adult. Florida does not: visible intoxication of an adult patron, without knowledge of habitual addiction, is not enough.",
+          "trap": "Holding a bar liable because it served an obviously drunk adult customer who then drove.",
+          "authority": "Fla. Stat. § 768.125"
+        }
+      ]
+    },
+    {
+      "id": "fl-torts.immunity-and-limits",
+      "title": "Sovereign immunity, limitations and damages",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "This topic gathers the procedural gates and damage rules that decide how much a Florida plaintiff actually recovers: the § 768.28 waiver of sovereign immunity with its notice requirements and caps, the statutes of limitation and repose (including the 2023 change to two years for negligence), the collateral-source setoff, and the pleading and proof rules for punitive damages. Examiners like to ask what the plaintiff must do first, so know the sequence.",
+      "rules": [
+        {
+          "id": "fl-torts.immunity-and-limits.sovereign-waiver-caps",
+          "title": "Waiver of sovereign immunity and the caps",
+          "weight": 3,
+          "rule": "The State and its agencies and subdivisions (including counties, municipalities and school boards) are liable in tort to the same extent as a private person under like circumstances, but not for punitive damages or pre-judgment interest. Under § 768.28(5), for claims arising on or after October 1, 2011, payment is capped at $200,000 per person and $300,000 per incident; a judgment may be entered above the caps, but the excess can be paid only through a claim bill passed by the Legislature.",
+          "elements": [
+            "Governmental entity within § 768.28",
+            "Tort a private person would be liable for under like circumstances",
+            "Not a planning-level (discretionary) function",
+            "Statutory notice and presuit requirements satisfied"
+          ],
+          "split": "The federal analogue (the FTCA) has no per-claim cap. Florida's waiver is capped and excludes punitive damages and pre-judgment interest.",
+          "tip": "The caps have not changed since 2011. A 2026 bill (HB 145) that would have raised them for later-accruing claims passed the Legislature but was vetoed on June 30, 2026, so use $200,000/$300,000.",
+          "trap": "Awarding punitive damages against a city, or ordering the city to pay a $1 million verdict without a claim bill.",
+          "authority": "Fla. Stat. § 768.28(1), (5)"
+        },
+        {
+          "id": "fl-torts.immunity-and-limits.planning-operational",
+          "title": "Planning versus operational functions; the public-duty categories",
+          "weight": 3,
+          "rule": "Even after the statutory waiver, governmental entities remain immune for planning-level (basic policy, discretionary) decisions, but not for operational-level acts that implement policy, such as maintaining existing roads, signs and traffic signals. Under Trianon Park, there is no governmental tort duty for legislative, permitting, licensing and executive functions or for enforcement of laws and protection of public safety (absent a special relationship), while the government owes ordinary duties when it maintains property it has built or provides services such as medical care or education.",
+          "elements": [
+            "Category I — legislative, permitting, licensing, executive: no duty",
+            "Category II — enforcing laws and protecting public safety: no duty absent a special relationship or a known dangerous condition the government created",
+            "Category III — capital improvements and property control: no duty to build, but a duty to maintain what exists",
+            "Category IV — professional, educational and general services: same duty as a private provider"
+          ],
+          "tip": "Deciding whether to install a traffic light is planning-level; failing to repair a light that exists is operational.",
+          "trap": "Holding a county immune for failing to fix a malfunctioning signal because 'traffic control is discretionary.'",
+          "authority": "Commercial Carrier Corp. v. Indian River County, 371 So. 2d 1010 (Fla. 1979); Trianon Park Condo. Ass'n v. City of Hialeah, 468 So. 2d 912 (Fla. 1985)"
+        },
+        {
+          "id": "fl-torts.immunity-and-limits.sovereign-notice",
+          "title": "Presuit notice of claims against the government",
+          "weight": 3,
+          "rule": "No action may be filed on a claim against the State or its agencies or subdivisions unless the claimant first presents the claim in writing to the appropriate agency and also (except for claims against a municipality, county or the Florida Space Authority) to the Department of Financial Services, within 3 years after the claim accrues (2 years for wrongful death), and the claim is denied in writing or deemed denied. Failure to dispose of the claim within 6 months after it is filed is a deemed denial.",
+          "elements": [
+            "Written claim to the agency (and to the Department of Financial Services unless the defendant is a city or county)",
+            "Within 3 years of accrual (2 years for wrongful death)",
+            "Written denial or 6 months without final disposition",
+            "Then suit within the limitations period that § 768.28 sets"
+          ],
+          "trap": "Filing suit against a county the day after serving the notice of claim. The suit is premature until the claim is denied or the investigation period runs.",
+          "authority": "Fla. Stat. § 768.28(6), (14)"
+        },
+        {
+          "id": "fl-torts.immunity-and-limits.employee-immunity",
+          "title": "Personal immunity of government employees",
+          "weight": 2,
+          "rule": "An officer, employee or agent of the State or its subdivisions is not personally liable in tort, and may not be named as a defendant, for acts within the scope of employment unless the employee acted in bad faith, with malicious purpose, or in a manner exhibiting wanton and willful disregard of human rights, safety or property. The exclusive remedy for ordinary negligence is an action against the governmental entity, which in turn is not liable for an employee's bad-faith, malicious or wanton conduct.",
+          "trap": "Suing the negligent city bus driver personally for ordinary negligence.",
+          "authority": "Fla. Stat. § 768.28(9)(a)"
+        },
+        {
+          "id": "fl-torts.immunity-and-limits.limitations-periods",
+          "title": "Statutes of limitation and repose",
+          "weight": 3,
+          "rule": "An action founded on negligence must be commenced within 2 years for causes of action accruing after March 24, 2023 (previously 4 years). Intentional torts carry a 4-year period; wrongful death 2 years from death; medical malpractice 2 years from when the incident was or should have been discovered, but no more than 4 years from the incident (longer for fraud or concealment); and libel and slander 2 years. Statutes of repose separately cut off products-liability claims, generally 12 years after delivery to the first purchaser, and construction-defect claims, now 7 years under a 2023 amendment (previously 10).",
+          "elements": [
+            "Negligence: 2 years (accrual after 3/24/2023)",
+            "Intentional torts: 4 years",
+            "Wrongful death: 2 years",
+            "Medical malpractice: 2 years from discovery, 4-year repose",
+            "Defamation: 2 years",
+            "Products repose: generally 12 years from delivery to the original purchaser, with statutory exceptions"
+          ],
+          "trap": "Applying the 2-year negligence period to an accident that happened before March 24, 2023 — the shorter period applies to causes of action accruing after that date.",
+          "tip": "Contrast the effective-date rules in HB 837: the limitations change turns on when the claim accrued, while the comparative-fault and most other changes turn on when the suit was filed.",
+          "authority": "Fla. Stat. §§ 95.11, 95.031(2)(b); HB 837 (2023); SB 360 (2023)"
+        },
+        {
+          "id": "fl-torts.immunity-and-limits.collateral-source",
+          "title": "Collateral-source setoff",
+          "weight": 2,
+          "rule": "After the verdict, the court reduces the damages awarded by the total of amounts paid to or for the claimant from collateral sources (such as health, disability or PIP benefits), except sources that hold a subrogation or reimbursement right, offset by amounts the claimant or the claimant's family paid to secure those benefits. Payments under Medicare or other federal programs with a lien or reimbursement right are not deducted.",
+          "tip": "Post-2023, § 768.0427 controls what medical-expense evidence the jury hears; the § 768.76 setoff still applies to the award afterward.",
+          "trap": "Reducing the award by health-insurance payments the insurer will recoup through subrogation. Sources with reimbursement rights are not set off.",
+          "authority": "Fla. Stat. § 768.76"
+        },
+        {
+          "id": "fl-torts.immunity-and-limits.punitive-pleading",
+          "title": "Pleading punitive damages: the proffer requirement",
+          "weight": 3,
+          "rule": "A claim for punitive damages may not be pleaded in the initial complaint. The claimant must move for leave to amend and make a reasonable showing, by evidence in the record or proffered, that provides a reasonable basis for recovering punitive damages; until the court permits the claim, no discovery of the defendant's financial worth may proceed.",
+          "elements": [
+            "Motion for leave to amend to add punitive damages",
+            "Record evidence or proffer giving a reasonable basis for recovery",
+            "Court order permitting the claim before financial-worth discovery"
+          ],
+          "trap": "Including a punitive-damages count in the original complaint, or serving financial-worth discovery before the court grants leave.",
+          "tip": "A defendant may seek certiorari review if the trial court permits a punitive claim without following § 768.72's procedure.",
+          "authority": "Fla. Stat. § 768.72(1); Globe Newspaper Co. v. King, 658 So. 2d 518 (Fla. 1995)"
+        },
+        {
+          "id": "fl-torts.immunity-and-limits.punitive-standard-caps",
+          "title": "Punitive damages: standard, corporate liability and caps",
+          "weight": 3,
+          "rule": "A defendant is liable for punitive damages only if the trier of fact finds, by clear and convincing evidence, that the defendant was personally guilty of intentional misconduct or gross negligence; the amount is decided by the greater weight of the evidence. An employer or corporation is liable for an employee's conduct only if it actively and knowingly participated, its officers, directors or managers knowingly condoned, ratified or consented to the conduct, or it was itself grossly negligent in a way that contributed to the harm. Awards are generally capped at the greater of three times compensatory damages or $500,000; the cap rises to the greater of four times compensatory damages or $2 million if the conduct was motivated solely by unreasonable financial gain and its danger was known to a managing agent, officer or director; there is no cap if the defendant had a specific intent to harm and did harm the claimant.",
+          "elements": [
+            "Intentional misconduct: actual knowledge of the wrongfulness and high probability of injury, and intentional pursuit of the conduct anyway",
+            "Gross negligence: conduct so reckless or wanting in care that it constituted conscious disregard of or indifference to the life, safety or rights of persons exposed to it"
+          ],
+          "exceptions": [
+            "The caps do not apply to a defendant who was under the influence of alcohol or drugs to the extent normal faculties were impaired, or had a 0.08 or higher blood or breath alcohol level, at the time of the conduct (§ 768.736)"
+          ],
+          "tip": "On request the trial is bifurcated: the jury first decides liability, compensatory damages and entitlement to punitive damages, and only then hears financial-worth evidence and sets the amount (W.R. Grace & Co. v. Waters, 638 So. 2d 502 (Fla. 1994)).",
+          "trap": "Holding a company liable for punitive damages solely on respondeat superior for a driver's gross negligence, without active participation, ratification by management, or the company's own gross negligence.",
+          "authority": "Fla. Stat. §§ 768.72(2)–(3), 768.725, 768.73, 768.736"
+        }
+      ]
+    },
+    {
+      "id": "fl-torts.intentional-and-other",
+      "title": "Intentional torts, defamation, products and professional claims",
+      "weight": 2,
+      "exams": [
+        "FL"
+      ],
+      "intro": "The intentional torts follow the common law you know from the MBE, so the Florida exam focuses on the local overlays: defamation presuit notice and the rejection of false light, the strict-liability test for design defects, chapter 766 presuit requirements for medical malpractice, statutory immunity for justified force, and the workers' compensation exclusive-remedy rule.",
+      "rules": [
+        {
+          "id": "fl-torts.intentional-and-other.iied",
+          "title": "Intentional infliction of emotional distress",
+          "weight": 2,
+          "rule": "A plaintiff recovers for intentional infliction of emotional distress by proving (1) intentional or reckless conduct, (2) that was outrageous — beyond all bounds of decency and regarded as atrocious and utterly intolerable in a civilized community, (3) that caused emotional distress, and (4) the distress was severe. The impact rule does not apply.",
+          "elements": [
+            "Intentional or reckless conduct",
+            "Outrageousness (a question of law for the court in the first instance)",
+            "Causation",
+            "Severe emotional distress"
+          ],
+          "trap": "Treating insults, rudeness or ordinary workplace mistreatment as outrageous. Florida courts set a very high bar.",
+          "authority": "Metropolitan Life Ins. Co. v. McCarson, 467 So. 2d 277 (Fla. 1985)"
+        },
+        {
+          "id": "fl-torts.intentional-and-other.defamation",
+          "title": "Defamation: standards and presuit notice",
+          "weight": 2,
+          "rule": "Defamation requires publication to a third party of a false statement of fact about the plaintiff, made with the required fault (actual malice for public officials and public figures; at least negligence for private plaintiffs), causing damage. Before suing a media defendant for libel or slander in a newspaper, periodical, broadcast or other medium, the plaintiff must serve written notice at least 5 days before filing, specifying the publication and the statements claimed to be false and defamatory; a timely, full and fair correction by a good-faith publisher limits the plaintiff to actual damages.",
+          "elements": [
+            "False statement of fact (not opinion)",
+            "Of and concerning the plaintiff",
+            "Published to a third party",
+            "Fault: actual malice (public figure/official) or negligence (private figure)",
+            "Damages (presumed for per se statements absent constitutional limits)"
+          ],
+          "split": "Article I, § 4 of the Florida Constitution frames truth as a defense when the matter was 'published for good motives,' but under the First Amendment a plaintiff suing over speech on a matter of public concern bears the burden of proving falsity. Florida also recognizes defamation by implication (Jews for Jesus, Inc. v. Rapp, 997 So. 2d 1098 (Fla. 2008)).",
+          "trap": "Filing suit against a newspaper without first serving the § 770.01 notice; the notice is a condition precedent.",
+          "authority": "Fla. Stat. §§ 770.01, 770.02; Art. I, § 4, Fla. Const."
+        },
+        {
+          "id": "fl-torts.intentional-and-other.privacy",
+          "title": "Invasion of privacy: no false light",
+          "weight": 1,
+          "rule": "Florida recognizes three privacy torts — intrusion upon seclusion, public disclosure of private facts, and appropriation of name or likeness (supplemented by a statute barring unauthorized commercial use of a name or likeness) — but does not recognize false-light invasion of privacy.",
+          "split": "The Restatement and many states recognize four privacy torts, including false light. Florida rejected false light in Jews for Jesus v. Rapp because it overlaps defamation; the plaintiff must sue for defamation (including defamation by implication) instead.",
+          "trap": "Choosing false light as the plaintiff's best claim on a Florida question.",
+          "authority": "Jews for Jesus, Inc. v. Rapp, 997 So. 2d 1098 (Fla. 2008); Fla. Stat. § 540.08"
+        },
+        {
+          "id": "fl-torts.intentional-and-other.products-strict-liability",
+          "title": "Strict products liability",
+          "weight": 2,
+          "rule": "A manufacturer or distributor that places a product on the market in a defective condition unreasonably dangerous to the user is strictly liable for injuries the defect causes to users and to foreseeable bystanders. The plaintiff's comparative fault reduces the recovery, and fault is apportioned among defendants under § 768.81.",
+          "elements": [
+            "Defendant is a manufacturer or in the distributive chain",
+            "Product was defective (manufacturing, design or warning) when it left the defendant's control",
+            "Defect made the product unreasonably dangerous",
+            "Defect proximately caused the plaintiff's injury"
+          ],
+          "tip": "Products claims are subject to a statute of repose: generally 12 years after delivery to the original purchaser, with statutory exceptions (§ 95.031(2)(b)).",
+          "authority": "West v. Caterpillar Tractor Co., 336 So. 2d 80 (Fla. 1976); Fla. Stat. § 95.031(2)(b)"
+        },
+        {
+          "id": "fl-torts.intentional-and-other.design-defect-test",
+          "title": "Design defect: the consumer-expectations test",
+          "weight": 2,
+          "rule": "In a strict-liability design-defect case, a product may be found defective if it fails to perform as safely as an ordinary consumer would expect when used as intended or in a reasonably foreseeable manner. The plaintiff is not required to prove a reasonable alternative design.",
+          "split": "The Restatement (Third) of Torts: Products Liability (followed in many states) makes a reasonable alternative design an element of a design-defect claim. The Florida Supreme Court rejected that approach in Aubin.",
+          "trap": "Dismissing a Florida design-defect claim because the plaintiff offered no alternative design.",
+          "authority": "Aubin v. Union Carbide Corp., 177 So. 3d 489 (Fla. 2015)"
+        },
+        {
+          "id": "fl-torts.intentional-and-other.medical-malpractice-presuit",
+          "title": "Medical malpractice presuit requirements",
+          "weight": 2,
+          "rule": "Before filing a medical-negligence action, the claimant must conduct a reasonable investigation, obtain a verified written opinion from a qualified medical expert corroborating reasonable grounds for the claim, and serve a notice of intent to initiate litigation on each prospective defendant. No suit may be filed for 90 days after the notice is mailed, during which the defendant investigates and responds, and the limitations period is tolled during that time.",
+          "elements": [
+            "Reasonable presuit investigation",
+            "Corroborating verified written expert opinion",
+            "Notice of intent to initiate litigation to each prospective defendant",
+            "90-day presuit period before filing (limitations tolled)"
+          ],
+          "exceptions": [
+            "Medical-negligence claims remain under pure comparative fault; the HB 837 greater-than-50% bar does not apply",
+            "Statutory caps on noneconomic damages in medical-negligence cases were held unconstitutional (Estate of McCall v. United States, 134 So. 3d 894 (Fla. 2014) (wrongful death); North Broward Hosp. Dist. v. Kalitan, 219 So. 3d 49 (Fla. 2017) (personal injury))"
+          ],
+          "trap": "Applying the general 2-year negligence statute without the discovery rule and 4-year repose that govern malpractice, or applying § 766.118's caps.",
+          "authority": "Fla. Stat. §§ 766.106, 766.203; Fla. Stat. § 95.11(4)"
+        },
+        {
+          "id": "fl-torts.intentional-and-other.justified-force-immunity",
+          "title": "Immunity for justified use of force",
+          "weight": 2,
+          "rule": "A person who uses or threatens force as permitted by Florida's justification statutes (self-defense, defense of others, defense of a dwelling or property) is immune from civil action by the person against whom the force was used or that person's personal representative or heirs. If the court finds the defendant immune, it must award the defendant reasonable attorney's fees, costs, lost income and expenses. Separately, it is a defense to a personal-injury or wrongful-death action that the injury was sustained by a participant during the commission or attempted commission of a forcible felony.",
+          "tip": "The civil immunity mirrors the criminal 'stand your ground' immunity; analyze whether the force was justified under §§ 776.012, 776.013 or 776.031 first.",
+          "trap": "Treating justification as merely a jury defense that reduces damages; when it applies it is an immunity from suit with mandatory fee-shifting.",
+          "authority": "Fla. Stat. §§ 776.032, 776.085"
+        },
+        {
+          "id": "fl-torts.intentional-and-other.workers-comp-exclusivity",
+          "title": "Workers' compensation exclusive remedy",
+          "weight": 2,
+          "rule": "An employer that secures workers' compensation coverage is immune from tort suits by an employee for work-related injuries; compensation is the exclusive remedy. The employee may sue in tort if the employer failed to secure compensation, or if the employer committed an intentional tort, proved by clear and convincing evidence that the employer deliberately intended to injure the employee, or knew — based on prior similar accidents or explicit warnings specifically identifying a known danger — that its conduct was virtually certain to cause injury or death, and the employee was unaware of the risk because the employer deliberately concealed or misrepresented it.",
+          "exceptions": [
+            "Employer failed to secure compensation (employee may elect to sue, and the employer loses common-law defenses)",
+            "Deliberate intent to injure",
+            "Virtual certainty of injury, known from prior similar accidents or explicit warnings, with the danger concealed or misrepresented to the employee"
+          ],
+          "trap": "Letting an employee sue the employer in tort for gross negligence alone.",
+          "tip": "The employer, though immune, can still appear on the verdict form as a Fabre nonparty in the employee's suit against a third party.",
+          "authority": "Fla. Stat. § 440.11"
+        }
+      ]
+    },
+    {
+      "id": "fl-torts.wrongful-death",
+      "title": "Wrongful death",
+      "weight": 2,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida's Wrongful Death Act replaces the injured person's own claim with a single action brought by the personal representative for the survivors and the estate. Exam questions ask who sues, who counts as a survivor, and which survivor recovers which element of damages — especially the different treatment of minor children (under 25), adult children and parents.",
+      "rules": [
+        {
+          "id": "fl-torts.wrongful-death.action-and-parties",
+          "title": "The single action by the personal representative",
+          "weight": 3,
+          "rule": "When a wrongful act, negligence or breach of contract or warranty causes a death, and the decedent could have sued had death not ensued, the decedent's personal representative brings one action to recover all damages for the benefit of the survivors and the estate, and must identify every potential beneficiary in the complaint. The decedent's personal-injury action does not survive a death caused by the injury; any pending personal-injury action abates and is replaced by the wrongful-death claim.",
+          "elements": [
+            "Death caused by a wrongful act, negligence, default or breach of contract or warranty",
+            "The decedent could have maintained an action had he or she lived",
+            "Action brought by the personal representative",
+            "Survivors and the estate identified in the complaint"
+          ],
+          "exceptions": [
+            "Defenses the defendant could have raised against the decedent (including the decedent's comparative fault) apply to the claim",
+            "A defense that would bar or reduce one survivor's recovery (for example, that survivor's own negligence) affects only that survivor's share"
+          ],
+          "tip": "'Survivors' are the spouse, children and parents, plus blood relatives and adoptive siblings who were partly or wholly dependent on the decedent for support or services. 'Minor children' means children under 25.",
+          "trap": "Having the widow or the children sue in their own names. Only the personal representative may bring the action.",
+          "authority": "Fla. Stat. §§ 768.16–768.20"
+        },
+        {
+          "id": "fl-torts.wrongful-death.survivor-damages",
+          "title": "Damages recoverable by survivors",
+          "weight": 3,
+          "rule": "Each survivor may recover the value of lost support and services, and a survivor who paid the decedent's medical or funeral expenses may recover them. The surviving spouse may recover for loss of companionship and protection and for mental pain and suffering. Minor children (under 25) — and all children if there is no surviving spouse — may recover for lost parental companionship, instruction and guidance and for mental pain and suffering. Each parent of a deceased minor child may recover for mental pain and suffering; parents of an adult child may do so only if there are no other survivors.",
+          "elements": [
+            "All survivors: lost support and services",
+            "Spouse: companionship, protection, mental pain and suffering",
+            "Children under 25 (all children if no spouse): companionship, instruction, guidance, mental pain and suffering",
+            "Parents of a minor child: mental pain and suffering",
+            "Parents of an adult child: mental pain and suffering only if there are no other survivors"
+          ],
+          "trap": "Awarding pain-and-suffering damages to a 30-year-old child of a decedent who left a surviving spouse.",
+          "authority": "Fla. Stat. §§ 768.18, 768.21(1)–(5)"
+        },
+        {
+          "id": "fl-torts.wrongful-death.estate-damages",
+          "title": "Damages recoverable by the estate",
+          "weight": 2,
+          "rule": "The personal representative recovers for the estate the decedent's lost earnings from the date of injury to death (less lost support of survivors), medical and funeral expenses charged against or paid by the estate, and — when the survivors include a spouse or lineal descendants, or in limited circumstances a surviving parent of an adult decedent — the loss of prospective net accumulations of the estate, reduced to present value.",
+          "tip": "Net accumulations are the part of the decedent's expected future earnings, after taxes and personal and support expenses, that would have been saved and left to the estate.",
+          "authority": "Fla. Stat. § 768.21(6)"
+        },
+        {
+          "id": "fl-torts.wrongful-death.medical-negligence-limit",
+          "title": "Medical-negligence limitation on non-economic damages",
+          "weight": 2,
+          "rule": "In a wrongful-death action arising from medical negligence, adult children of the decedent may not recover the companionship and pain-and-suffering damages otherwise available to children, and parents of an adult decedent may not recover pain-and-suffering damages.",
+          "trap": "Assuming the limit has been repealed. A 2025 repeal bill passed the Legislature but was vetoed, and a 2026 repeal bill passed the House but died in the Senate, so the limitation remains in the statute.",
+          "tip": "The limit applies only to medical negligence as defined in § 766.106(1); in a car-crash death in which the decedent left no surviving spouse, adult children may recover these damages.",
+          "authority": "Fla. Stat. § 768.21(8)"
+        }
+      ]
+    }
+  ]
+}

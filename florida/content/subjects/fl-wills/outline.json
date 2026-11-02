@@ -1,0 +1,650 @@
+{
+  "subject": "fl-wills",
+  "topics": [
+    {
+      "id": "fl-wills.intestacy",
+      "title": "Intestate succession",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Whatever a decedent does not effectively dispose of by will passes to heirs under Fla. Stat. §§ 732.101–.111. Florida's spouse-share rules are simpler than the UPC's and are tested constantly, usually alongside homestead, pretermitted heirs or the slayer statute.",
+      "rules": [
+        {
+          "id": "fl-wills.intestacy.spouse-share",
+          "title": "Surviving spouse's intestate share",
+          "weight": 3,
+          "rule": "The surviving spouse takes the entire intestate estate if the decedent left no descendants, or if every descendant of the decedent is also a descendant of the spouse and the spouse has no other descendants. The spouse takes one-half if the decedent has a descendant who is not the spouse's, or if the spouse has a descendant who is not the decedent's; the other half passes to the decedent's descendants.",
+          "elements": [
+            "No descendants of the decedent: spouse takes 100%",
+            "All descendants are joint descendants and the spouse has no others: spouse takes 100%",
+            "Decedent has a descendant who is not the spouse's: spouse takes 50%",
+            "Spouse has a descendant who is not the decedent's: spouse takes 50%"
+          ],
+          "split": "The UPC gives the spouse a dollar amount plus a fraction and can let the decedent's parents share when there are no descendants. Florida has no lump-sum figure: the spouse takes all or one-half, and surviving parents take nothing when there is a surviving spouse.",
+          "trap": "Students give parents a share when the decedent leaves a spouse but no children. In Florida the spouse takes everything in that case.",
+          "tip": "Remember that protected homestead does not pass under this section; it descends under § 732.401 (life estate or one-half tenancy in common for the spouse when there are descendants).",
+          "authority": "Fla. Stat. § 732.102"
+        },
+        {
+          "id": "fl-wills.intestacy.order-of-descent",
+          "title": "Shares of heirs other than the spouse",
+          "weight": 3,
+          "rule": "The part of the estate not passing to a surviving spouse (or the whole estate if there is none) passes in this order: to the decedent's descendants; if none, to the decedent's father and mother equally or to the survivor; if none, to the decedent's brothers and sisters and the descendants of deceased brothers and sisters; if none, one-half to the paternal and one-half to the maternal kindred (grandparents, then their descendants, and so on).",
+          "elements": [
+            "Descendants",
+            "Parents (equally, or the survivor)",
+            "Siblings and descendants of deceased siblings",
+            "One-half to paternal and one-half to maternal kindred",
+            "Kindred of the last deceased spouse",
+            "Escheat to the State"
+          ],
+          "exceptions": [
+            "If there are no kindred on one side, the whole passes to the kindred on the other side.",
+            "If no one qualifies, the kindred of the decedent's last deceased spouse take as if that spouse had died intestate; only then does the estate escheat."
+          ],
+          "tip": "Work down the list and stop at the first class that has a living member; members of a later class take nothing.",
+          "authority": "Fla. Stat. §§ 732.103, 732.107"
+        },
+        {
+          "id": "fl-wills.intestacy.per-stirpes",
+          "title": "Representation: per stirpes",
+          "weight": 2,
+          "rule": "Descent to descendants and to collateral heirs is per stirpes: the share a deceased member of the class would have taken passes down that line to the deceased member's descendants by representation. Devises to descendants, issue and other multigeneration classes are likewise per stirpes unless the will says otherwise.",
+          "split": "UPC § 2-106 uses per capita at each generation, which pools the shares of deceased members at each level. Florida's statute uses per stirpes for both intestacy and multigeneration class devises.",
+          "tip": "In the common fact pattern (one child alive, one child predeceased leaving children) the living child takes one-half and the predeceased child's children divide the other half.",
+          "trap": "Do not give each grandchild an equal per capita share when the grandchildren descend from different children.",
+          "authority": "Fla. Stat. §§ 732.104, 732.611"
+        },
+        {
+          "id": "fl-wills.intestacy.half-blood-afterborn",
+          "title": "Half blood and afterborn heirs",
+          "weight": 2,
+          "rule": "Kindred of the half blood inherit only half as much as kindred of the whole blood, but if all of the heirs are of the half blood they take whole shares. Descendants of the decedent conceived before death but born afterward inherit as if born in the decedent's lifetime.",
+          "exceptions": [
+            "A child conceived from the decedent's eggs or sperm after the decedent's death is not eligible for a claim against the estate unless the decedent provided for that child in the will."
+          ],
+          "split": "Under the UPC half-blood relatives inherit the same share as whole-blood relatives. Florida halves the half-blood share.",
+          "trap": "The half-share rule matters only for collateral kin such as half-siblings; a decedent's own children are all whole-blood descendants of the decedent.",
+          "authority": "Fla. Stat. §§ 732.105, 732.106, 742.17(4)"
+        },
+        {
+          "id": "fl-wills.intestacy.adopted-nonmarital",
+          "title": "Adopted and nonmarital children",
+          "weight": 2,
+          "rule": "An adopted person is a descendant of the adopting parent and a member of the adopting family, and generally is no longer a descendant of the natural parents. A child born out of wedlock is a descendant of the mother, and is a descendant of the father if the parents participated in a marriage ceremony (even a void one) before or after the birth, if paternity is established by adjudication before or after the father's death, or if the father acknowledged paternity in writing.",
+          "exceptions": [
+            "Adoption by the spouse of a natural parent does not cut off the child's relationship with that natural parent or that parent's family.",
+            "Adoption by a natural parent's spouse who married that parent after the other natural parent died does not cut off the child's relationship with the deceased parent's family.",
+            "Adoption by a close relative does not cut off the child's relationship with the families of the deceased natural parents."
+          ],
+          "tip": "Stepparent-adoption facts are the usual test: the child can inherit from the adoptive stepparent and still from the natural parent married to that stepparent.",
+          "authority": "Fla. Stat. § 732.108"
+        },
+        {
+          "id": "fl-wills.intestacy.advancements",
+          "title": "Advancements",
+          "weight": 2,
+          "rule": "A lifetime gift to an heir counts against the heir's intestate share only if the decedent declared it an advancement in a contemporaneous writing or the heir acknowledged it as one in writing. An advancement is valued as of the time the heir came into possession or enjoyment, or at the decedent's death, whichever is first.",
+          "exceptions": [
+            "If the recipient of an advancement fails to survive the decedent, the advancement is not charged against the recipient's descendants unless the declaration or acknowledgment says otherwise."
+          ],
+          "trap": "A large lifetime gift with no writing is not an advancement, however obvious the parent's intent; the heir takes a full intestate share.",
+          "authority": "Fla. Stat. § 732.609"
+        },
+        {
+          "id": "fl-wills.intestacy.slayer",
+          "title": "Slayer statute",
+          "weight": 3,
+          "rule": "A person who unlawfully and intentionally kills, or participates in procuring the death of, the decedent takes nothing under the decedent's will, intestacy, homestead, exempt property, family allowance or elective share, and the estate passes as if the killer had predeceased the decedent. Joint tenancies and tenancies by the entirety become tenancies in common, and the killer forfeits life insurance and other beneficiary designations.",
+          "elements": [
+            "A final judgment of conviction of murder in any degree is conclusive.",
+            "Without a conviction, the probate court decides by the greater weight of the evidence whether the killing was unlawful and intentional."
+          ],
+          "trap": "An acquittal or lack of prosecution does not end the inquiry; the civil standard still applies. A negligent or accidental killing does not trigger the statute.",
+          "tip": "Run the distribution twice: first strike the killer as if predeceased, then apply the ordinary intestacy or will provisions to everyone else. Property appointed to the killer by the decedent's will also passes as if the killer predeceased.",
+          "authority": "Fla. Stat. § 732.802"
+        },
+        {
+          "id": "fl-wills.intestacy.simultaneous-death",
+          "title": "Simultaneous death",
+          "weight": 2,
+          "rule": "Unless the governing instrument provides otherwise, when devolution depends on the order of deaths and there is insufficient evidence that the persons died otherwise than simultaneously, each person's property passes as if that person survived the other. Jointly held survivorship property is split one-half as if each had survived, and life-insurance proceeds pass as if the insured survived the beneficiary.",
+          "split": "The UPC and the 1991 Uniform Simultaneous Death Act require an heir or devisee to survive by 120 hours, proven by clear and convincing evidence. Florida's Simultaneous Death Law instead turns on whether there is sufficient evidence of the order of death.",
+          "tip": "Many Florida wills add their own survival period (for example, 30 days); an express survivorship condition in the instrument controls over the statute.",
+          "trap": "Do not import the UPC 120-hour rule into a Florida answer unless the will itself imposes it.",
+          "authority": "Fla. Stat. § 732.601"
+        }
+      ]
+    },
+    {
+      "id": "fl-wills.execution-and-revocation",
+      "title": "Execution, revocation and contests",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida demands strict compliance with § 732.502: no holographic or nuncupative wills, no harmless-error rule and no notarized-will substitute for witnesses. Expect facts testing who signed where and in whose presence, how a will was revoked, the effect of divorce, and undue-influence presumptions.",
+      "rules": [
+        {
+          "id": "fl-wills.execution-and-revocation.capacity",
+          "title": "Who may make a will: testamentary capacity",
+          "weight": 2,
+          "rule": "Any person of sound mind who is 18 or older, or an emancipated minor, may make a will. Sound mind means the testator, at the moment of execution, understood in a general way the nature and extent of the property, the natural objects of the testator's bounty, and the practical effect of the will.",
+          "elements": [
+            "Nature and extent of property",
+            "Natural objects of bounty (family relationships)",
+            "Practical effect of the will"
+          ],
+          "tip": "Capacity is measured at execution. A testator with dementia or under guardianship can execute a valid will during a lucid interval; illness or old age alone does not prove incapacity.",
+          "trap": "Capacity to make a will is a lower bar than capacity to manage business affairs or contract.",
+          "authority": "Fla. Stat. § 732.501"
+        },
+        {
+          "id": "fl-wills.execution-and-revocation.formalities",
+          "title": "Execution formalities",
+          "weight": 3,
+          "rule": "A will must be in writing and signed at the end by the testator, or by another person who subscribes the testator's name at the end in the testator's presence and at the testator's direction. The testator must sign, or acknowledge the signature, in the presence of at least two attesting witnesses, and the witnesses must sign in the presence of the testator and of each other.",
+          "elements": [
+            "Writing",
+            "Testator's signature (or proxy signature) at the end",
+            "Signing or acknowledgment in the presence of two attesting witnesses",
+            "Witnesses sign in the presence of the testator and each other"
+          ],
+          "exceptions": [
+            "A will of a nonresident that is valid where executed is valid in Florida, except a holographic or nuncupative will.",
+            "An interested witness does not invalidate the will or any of its provisions."
+          ],
+          "split": "The UPC allows a notarized will in place of witnesses, does not require witnesses to sign in each other's presence, and recognizes holographic wills and a harmless-error dispensing power. Florida recognizes none of these: an unwitnessed handwritten will is void, and oral wills are never valid.",
+          "trap": "A holographic will written by a Florida domiciliary is invalid even if it would be valid where the testator was visiting; the out-of-state rule protects nonresidents' wills only, and never holographs.",
+          "tip": "Codicils require the same formalities as wills.",
+          "authority": "Fla. Stat. §§ 732.502, 732.504"
+        },
+        {
+          "id": "fl-wills.execution-and-revocation.electronic-wills",
+          "title": "Electronic wills and remote witnessing",
+          "weight": 2,
+          "rule": "Since January 1, 2020, Florida recognizes electronic wills: the testator's and witnesses' signatures may be electronic, and the presence requirement may be met by witnesses appearing through audio-video communication on an online notary platform under chapter 117. Remote witnessing is not available if the testator is a vulnerable adult; witnesses must then be physically present.",
+          "exceptions": [
+            "The ordinary formalities still apply: writing, signature at the end, two witnesses who attest in the testator's presence (physical or remote as allowed)."
+          ],
+          "tip": "Remote witnessing runs through the online notary procedures (identity proofing, recording, and screening questions about vulnerability). If the facts show a vulnerable adult and only remote witnesses, the will fails.",
+          "trap": "An electronic will is not a holographic or unwitnessed will; a typed document signed on a screen with no witnesses is still invalid.",
+          "authority": "Fla. Stat. §§ 732.522, 117.285"
+        },
+        {
+          "id": "fl-wills.execution-and-revocation.self-proof",
+          "title": "Self-proved wills and admission to probate",
+          "weight": 2,
+          "rule": "A will is self-proved if the testator acknowledges it and the witnesses make affidavits before an officer authorized to administer oaths (typically a notary), evidenced by the officer's certificate attached to or following the will. A self-proved will may be admitted to probate without further proof; otherwise it is admitted on the oath of an attesting witness, or on other proof if the witnesses cannot be found or are unavailable.",
+          "trap": "Self-proof is about proving the will, not validity. A will with no self-proving affidavit is still valid if properly executed; a notary's signature does not substitute for a missing second witness.",
+          "authority": "Fla. Stat. §§ 732.503, 733.201"
+        },
+        {
+          "id": "fl-wills.execution-and-revocation.revocation",
+          "title": "Revocation by writing or by act; lost wills",
+          "weight": 3,
+          "rule": "A will or codicil is revoked by a later will or codicil that expressly revokes it or is inconsistent with it (to the extent of the inconsistency), or by another writing declaring the revocation, but only if the later instrument is executed with the formalities required for a will. It is also revoked when the testator, or another person in the testator's presence and at the testator's direction, burns, tears, cancels, defaces, obliterates or destroys it with the intent and for the purpose of revocation.",
+          "exceptions": [
+            "When an original will last known to be in the testator's possession cannot be found at death, a rebuttable presumption arises that the testator destroyed it with intent to revoke.",
+            "A lost or destroyed will that was not revoked may be established: its specific content must be proved by two disinterested witnesses, or by one disinterested witness if a correct copy is produced."
+          ],
+          "trap": "Destruction by another person outside the testator's presence is not a valid revocation even if the testator asked for it.",
+          "tip": "An unwitnessed written note saying the will is revoked does nothing; revocation by writing requires a will, codicil or other writing executed with full will formalities.",
+          "authority": "Fla. Stat. §§ 732.505, 732.506, 733.207"
+        },
+        {
+          "id": "fl-wills.execution-and-revocation.revival-drr",
+          "title": "Revival and dependent relative revocation",
+          "weight": 2,
+          "rule": "Revoking a will that revoked an earlier will does not revive the earlier will; the earlier will is effective again only if it is re-executed or republished by a later properly executed will or codicil. Under dependent relative revocation, Florida courts may disregard a revocation that the testator made on a mistaken belief that another disposition would take effect, if the testator would not have revoked had the testator known the truth.",
+          "split": "The UPC lets an earlier will revive based on the testator's intent shown by circumstances or declarations. Florida's statute rejects revival by intent alone.",
+          "tip": "DRR is the fix when a testator destroys a will intending to replace it with a new will that turns out to be invalid; it applies only when the result is closer to what the testator wanted than intestacy.",
+          "authority": "Fla. Stat. § 732.508"
+        },
+        {
+          "id": "fl-wills.execution-and-revocation.divorce",
+          "title": "Revocation by divorce; marriage and births do not revoke",
+          "weight": 3,
+          "rule": "Any will provision that affects the testator's spouse (a gift to the spouse or a nomination of the spouse as a fiduciary) becomes void when the marriage is dissolved or annulled, and the will is administered as if the former spouse died at the time of the dissolution, unless the will or the judgment expressly provides otherwise. Beneficiary designations of a former spouse in many nonprobate assets (life insurance, retirement accounts, POD/TOD accounts) made before the divorce are likewise void, and revocable-trust provisions for the former spouse are treated the same way.",
+          "exceptions": [
+            "For the will itself, the rule yields only if the will or the dissolution judgment expressly provides otherwise; for nonprobate designations under § 732.703, a court order or a written agreement between the former spouses that provides otherwise also controls.",
+            "Federal law (for example ERISA) may preempt the nonprobate-designation statute for employer plans.",
+            "A later marriage, or the birth or adoption of a child, never revokes a will; the pretermitted spouse and child statutes apply instead."
+          ],
+          "trap": "Divorce must be final. A spouse who dies while a dissolution is pending is still a spouse; the will provision and spousal rights survive.",
+          "authority": "Fla. Stat. §§ 732.507, 732.703, 736.1105"
+        },
+        {
+          "id": "fl-wills.execution-and-revocation.contests",
+          "title": "Will contests: undue influence, fraud and timing",
+          "weight": 3,
+          "rule": "A will, or any part of it, procured by fraud, duress, mistake or undue influence is void. The proponent first proves formal execution; the contestant then bears the burden on the grounds for invalidity, but a presumption of undue influence arises when a substantial beneficiary who had a confidential relationship with the testator was active in procuring the will, and that presumption shifts the burden of proof to the proponent.",
+          "elements": [
+            "Substantial beneficiary",
+            "Confidential or fiduciary relationship with the testator",
+            "Active procurement, shown by factors such as presence at execution or when the testator expressed the wish to make a will, recommending the drafting attorney, knowing the contents in advance, giving drafting instructions, securing witnesses, and keeping the will afterward"
+          ],
+          "exceptions": [
+            "An interested person served with the notice of administration must object to the will's validity within 3 months after service or the objection is barred.",
+            "A will cannot be contested before the testator's death.",
+            "A no-contest (in terrorem) clause in a Florida will is unenforceable."
+          ],
+          "split": "Many states and the UPC enforce no-contest clauses unless the contestant had probable cause. Florida refuses to enforce them at all, for wills and for trusts.",
+          "tip": "Because the presumption shifts the burden of proof (not merely the burden of going forward), the proponent must prove by a preponderance that there was no undue influence.",
+          "authority": "Fla. Stat. §§ 732.5165, 732.517, 732.518, 733.107, 733.212; In re Estate of Carpenter, 253 So. 2d 697 (Fla. 1971)"
+        }
+      ]
+    },
+    {
+      "id": "fl-wills.spousal-and-family-protection",
+      "title": "Elective share, pretermitted heirs, exempt property and family allowance",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida protects a surviving spouse and children through a menu of statutory rights that operate regardless of the will: the 30% elective share, pretermitted spouse and child shares, exempt property and the family allowance (homestead is covered in its own topic). Essays typically ask which rights a spouse can claim, how much each is worth, and whether a premarital or postnuptial agreement waived them.",
+      "rules": [
+        {
+          "id": "fl-wills.spousal-and-family-protection.elective-share-right",
+          "title": "Elective share: who and how much",
+          "weight": 3,
+          "rule": "The surviving spouse of a person who died domiciled in Florida may elect to take 30 percent of the decedent's elective estate. The right is personal: it may be exercised by the spouse, or by the spouse's attorney-in-fact or guardian of the property only with approval of the probate court, which must find the election is in the spouse's best interests during the spouse's probable lifetime.",
+          "split": "The UPC uses an accrual-type share that increases with the length of the marriage (up to 50% of the marital-property portion). Florida's share is a flat 30% of the elective estate regardless of how long the couple were married.",
+          "trap": "The elective share is not 30% of the probate estate. It is 30% of a broader elective estate that sweeps in many nonprobate transfers, and amounts the spouse already receives are credited against it.",
+          "tip": "The decedent must have been domiciled in Florida. A nonresident's spouse cannot elect against the decedent's Florida property under this statute.",
+          "authority": "Fla. Stat. §§ 732.201, 732.2065, 732.2125"
+        },
+        {
+          "id": "fl-wills.spousal-and-family-protection.elective-estate",
+          "title": "What the elective estate includes and excludes",
+          "weight": 3,
+          "rule": "The elective estate includes the probate estate and major nonprobate transfers: revocable-trust property, POD/TOD/in-trust-for accounts and securities, the decedent's fractional interest in joint-with-survivorship and tenancy-by-the-entirety property, the net cash surrender value of life insurance on the decedent's life, retirement and annuity values payable at death, property transferred with a retained interest or power, and certain transfers made within one year before death.",
+          "exceptions": [
+            "Protected homestead is excluded (the spouse's homestead rights are separate).",
+            "Life-insurance proceeds in excess of the net cash surrender value are excluded.",
+            "Transfers that were irrevocable before the marriage, transfers for adequate consideration, and transfers made with the spouse's written consent or joinder are excluded."
+          ],
+          "trap": "Death-benefit proceeds of a term policy payable to the children are not in the elective estate; only cash surrender value counts.",
+          "tip": "A favorite fact pattern: decedent leaves the spouse almost nothing in the will but holds most assets in a revocable trust for the children. Those trust assets are in the elective estate.",
+          "authority": "Fla. Stat. §§ 732.2035, 732.2045"
+        },
+        {
+          "id": "fl-wills.spousal-and-family-protection.election-timing-satisfaction",
+          "title": "Time to elect and satisfaction of the share",
+          "weight": 2,
+          "rule": "The election must be filed by the earlier of 6 months after service of the notice of administration on the spouse (or the spouse's attorney-in-fact or guardian) or 2 years after the decedent's death; the court may extend the time for good cause if a petition is filed within that period. Property passing to the spouse from the elective estate is credited first, and the unsatisfied balance is contributed by the other recipients of elective-estate property, starting with the probate estate and revocable trusts.",
+          "exceptions": [
+            "Property passing to the spouse in a qualifying elective share trust (spouse receives all income for life, can require the property to be made productive, and no one else can receive distributions during the spouse's life) is credited at only 50% of its value; the credit rises to 80% if the trust also gives a qualifying power to invade principal for the spouse's health, support and maintenance, and to 100% if the spouse also holds a general power of appointment exercisable alone."
+          ],
+          "trap": "A spouse who misses the deadline loses the right; the 2-year outside limit runs from death even if no notice of administration was ever served.",
+          "authority": "Fla. Stat. §§ 732.2025, 732.2075, 732.2095, 732.2135"
+        },
+        {
+          "id": "fl-wills.spousal-and-family-protection.waiver",
+          "title": "Waiver of spousal rights",
+          "weight": 3,
+          "rule": "A spouse may waive the elective share, intestate share, pretermitted share, homestead, exempt property, family allowance and preference in appointment as personal representative of an intestate estate, wholly or partly, before or after marriage, by a written contract or waiver signed by the waiving party in the presence of two subscribing witnesses. If signed after marriage, each spouse must make fair disclosure of his or her estate; no disclosure is required for a waiver signed before marriage, and no consideration beyond the agreement itself is needed.",
+          "elements": [
+            "Written agreement or waiver",
+            "Signed by the waiving spouse",
+            "In the presence of two subscribing witnesses (required only for agreements signed by Florida residents)",
+            "Fair disclosure, if signed after the marriage"
+          ],
+          "exceptions": [
+            "A waiver signed by a nonresident is valid in Florida if valid where executed.",
+            "Unless it says otherwise, a waiver of 'all rights' in the other spouse's estate waives every listed right."
+          ],
+          "split": "Under the Uniform Premarital Agreement Act and most states, a premarital agreement may be attacked for inadequate disclosure. For probate rights, Florida's statute requires disclosure only for postnuptial waivers.",
+          "trap": "A notarized but unwitnessed prenuptial waiver signed in Florida does not satisfy § 732.702; the two-witness requirement is what students forget.",
+          "authority": "Fla. Stat. § 732.702"
+        },
+        {
+          "id": "fl-wills.spousal-and-family-protection.pretermitted-spouse",
+          "title": "Pretermitted spouse",
+          "weight": 3,
+          "rule": "If a testator marries after making a will and the spouse survives, the spouse receives a share equal to what the spouse would have received had the testator died intestate. The share comes first from property not disposed of by the will and then by abatement of the devises.",
+          "exceptions": [
+            "Provision was made for the spouse, or the spouse waived rights, by prenuptial or postnuptial agreement.",
+            "The spouse is provided for in the will.",
+            "The will discloses an intention not to provide for the spouse."
+          ],
+          "trap": "The statute applies only to a will made before the marriage. A spouse who was married to the testator when the will was signed, and was left out, is not pretermitted; that spouse's remedy is the elective share.",
+          "tip": "Compute the intestate share under § 732.102: it is the whole estate unless either spouse has descendants who are not the other's, in which case it is one-half.",
+          "authority": "Fla. Stat. §§ 732.301, 733.805"
+        },
+        {
+          "id": "fl-wills.spousal-and-family-protection.pretermitted-child",
+          "title": "Pretermitted child",
+          "weight": 3,
+          "rule": "A child born or adopted after the testator made the will, who is not provided for in the will and has not received an equivalent share by advancement, receives a share equal to what the child would have taken had the testator died intestate. The share is taken from undisposed-of property first and then by abatement of the devises.",
+          "exceptions": [
+            "The will shows that the omission was intentional.",
+            "The testator had one or more children when the will was executed, devised substantially all of the estate to the other parent of the pretermitted child, and that parent survived and takes under the will."
+          ],
+          "trap": "Children alive when the will was executed are never pretermitted; a parent may disinherit them simply by leaving them out. The statute protects only after-born or after-adopted children.",
+          "tip": "Check for a codicil executed after the child's birth: under the republication doctrine a codicil generally re-dates the will to the codicil's date, which can mean the child was not born after the will.",
+          "authority": "Fla. Stat. §§ 732.302, 733.805"
+        },
+        {
+          "id": "fl-wills.spousal-and-family-protection.exempt-property",
+          "title": "Exempt property",
+          "weight": 2,
+          "rule": "If the decedent was domiciled in Florida, the surviving spouse, or if none the decedent's children, is entitled to exempt property: household furniture, furnishings and appliances in the decedent's usual home up to a net value of $20,000; two motor vehicles (each not over 15,000 pounds gross vehicle weight) held in the decedent's name and regularly used as personal vehicles by the decedent or immediate family; Florida prepaid college and college savings accounts and other qualified tuition programs; and certain statutory death benefits. Exempt property is in addition to homestead, the family allowance, and any share under the will or intestacy, and is free of all claims except perfected security interests.",
+          "exceptions": [
+            "Property specifically or demonstratively devised to someone else is not exempt property (though a specific devisee who would have qualified may ask the court to declare it exempt from claims).",
+            "The right is waived unless a petition is filed by the later of 4 months after service of the notice of administration or 40 days after the end of any proceeding over the will's validity or construction."
+          ],
+          "trap": "Exempt property goes to the children only when there is no surviving spouse; it never goes to adult children while a spouse is living.",
+          "authority": "Fla. Stat. § 732.402"
+        },
+        {
+          "id": "fl-wills.spousal-and-family-protection.family-allowance",
+          "title": "Family allowance",
+          "weight": 1,
+          "rule": "If the decedent was domiciled in Florida, the surviving spouse and the lineal heirs the decedent was supporting or obligated to support may receive a reasonable money allowance for maintenance during administration, in a lump sum or installments, not to exceed $18,000 in total. It is paid to the spouse for the use of the spouse and dependent heirs, is not charged against any other share unless the will so provides, and ranks ahead of general creditors in the order of priority.",
+          "trap": "The allowance does not reduce the spouse's devise, intestate share or elective share unless the will expressly says so.",
+          "authority": "Fla. Stat. §§ 732.403, 733.707"
+        }
+      ]
+    },
+    {
+      "id": "fl-wills.homestead",
+      "title": "Homestead: descent, devise restrictions and creditor protection",
+      "weight": 3,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Article X, section 4 of the Florida Constitution does three separate jobs: it shields homestead from creditors, restricts its devise when the owner leaves a spouse or minor child, and requires spousal joinder for lifetime transfers. Keep the three functions apart; nearly every Florida wills essay has a homestead issue, and many real property essays do too.",
+      "rules": [
+        {
+          "id": "fl-wills.homestead.protected-homestead",
+          "title": "What qualifies as protected homestead",
+          "weight": 3,
+          "rule": "Constitutional homestead is real property owned by a natural person and used as the residence of the owner or the owner's family, limited to 160 contiguous acres outside a municipality or one-half acre of contiguous land inside a municipality. Protected homestead is that property when, at the owner's death, the constitutional exemption inures to the owner's surviving spouse or heirs.",
+          "exceptions": [
+            "Property held as tenants by the entirety or joint tenants with right of survivorship is not protected homestead; it passes to the survivor by operation of law.",
+            "Homestead held in the owner's revocable trust is treated as owned by the settlor, so the trust's disposition is a devise subject to the same restrictions."
+          ],
+          "tip": "Residence, not title form, is what matters: the owner (or the owner's family) must actually live there with intent to make it the permanent home.",
+          "authority": "Art. X, § 4(a)–(b), Fla. Const.; Fla. Stat. §§ 731.201 (definition of protected homestead), 732.4015(2)"
+        },
+        {
+          "id": "fl-wills.homestead.creditor-exemption",
+          "title": "Exemption from creditors, during life and at death",
+          "weight": 3,
+          "rule": "Homestead is exempt from forced sale and no judgment lien attaches to it, except for taxes and assessments on it, obligations for its purchase, improvement or repair, and obligations for labor performed on the realty. At death the exemption inures to the surviving spouse or heirs, so protected homestead is not part of the estate available to pay the decedent's creditors or administration expenses.",
+          "exceptions": [
+            "A mortgage voluntarily given on the homestead remains enforceable.",
+            "If homestead is devised to someone outside the class of potential intestate heirs, the protection is lost and the property can be reached for estate debts."
+          ],
+          "split": "Most states give only a modest dollar-limited homestead exemption. Florida's exemption has no dollar cap, only acreage limits.",
+          "tip": "'Heirs' for creditor-protection purposes means anyone in the class of persons who could take by intestacy, not just the persons who would actually take. A devise of the home to a grandchild or sibling is still protected even if closer relatives survive.",
+          "authority": "Art. X, § 4(a)–(b), Fla. Const.; Snyder v. Davis, 699 So. 2d 999 (Fla. 1997)"
+        },
+        {
+          "id": "fl-wills.homestead.devise-restriction",
+          "title": "Restriction on devise",
+          "weight": 3,
+          "rule": "Homestead may not be devised if the owner is survived by a spouse or a minor child, except that it may be devised to the owner's spouse if there is no minor child. If the owner leaves neither a spouse nor a minor child, the owner may devise the homestead to anyone.",
+          "elements": [
+            "Spouse and minor child survive: no devise is valid, even to the spouse",
+            "Spouse but no minor child: may devise only to the spouse",
+            "Minor child but no spouse: no devise is valid",
+            "No spouse and no minor child: free to devise"
+          ],
+          "exceptions": [
+            "The spouse may waive the restriction by a valid § 732.702 agreement or by deed language under § 732.7025, but a waiver cannot defeat a minor child's protection."
+          ],
+          "trap": "A minor child does not get the house alone when an invalid devise fails. The homestead then descends to all descendants (adult children included) under § 732.401.",
+          "tip": "Adult children have no constitutional protection: a widowed owner whose children are all adults may devise the homestead to a friend or charity.",
+          "authority": "Art. X, § 4(c), Fla. Const.; Fla. Stat. § 732.4015"
+        },
+        {
+          "id": "fl-wills.homestead.descent",
+          "title": "Descent when the devise is invalid or there is no will",
+          "weight": 3,
+          "rule": "Homestead not validly devised descends like other intestate property, except that if the decedent is survived by a spouse and one or more descendants, the spouse takes a life estate with a vested remainder to the descendants in being at death, per stirpes. Instead of the life estate, the spouse may elect to take an undivided one-half interest as a tenant in common, with the other one-half vesting in the descendants per stirpes; the election must be made within 6 months after the decedent's death and is irrevocable.",
+          "elements": [
+            "Spouse and descendants: spouse life estate (or elected one-half tenancy in common), descendants the remainder",
+            "Spouse, no descendants: passes by intestacy (spouse takes it all)",
+            "No spouse: passes to descendants, or to other heirs, under § 732.103"
+          ],
+          "trap": "Do not apply the § 732.102 one-half rule to the homestead. Even if all children are the spouse's own children, the spouse does not take homestead in fee when there are descendants; the spouse gets the life estate or the one-half tenancy in common.",
+          "authority": "Fla. Stat. § 732.401; Samad v. Pla, 267 So. 3d 476 (Fla. 2d DCA 2019)",
+          "exceptions": [
+            "The spouse's attorney-in-fact or guardian of the property may elect only with court approval, and the petition for approval must itself be filed within the same 6 months and during the spouse's lifetime."
+          ],
+          "tip": "The 6-month deadline is strict: it cannot be extended for excusable neglect or under the general probate rules on enlarging time, so a spouse who misses it keeps only the life estate."
+        },
+        {
+          "id": "fl-wills.homestead.lifetime-transfer",
+          "title": "Lifetime transfer, spousal joinder and deed waiver",
+          "weight": 2,
+          "rule": "The owner may alienate homestead by mortgage, sale or gift, but a married owner must have the spouse join in the conveyance, even if the spouse is not on title. A married owner may also deed the homestead to the owner and spouse as tenants by the entirety.",
+          "exceptions": [
+            "A spouse who signs or joins a deed containing language stating an intent to waive the homestead rights that would otherwise prevent the other spouse from devising the property to someone else waives the devise restriction as to that spouse."
+          ],
+          "trap": "A married owner's deed of homestead to a child without the spouse's joinder is invalid as to the homestead, even though the spouse holds no record title.",
+          "tip": "On an essay, separate the three functions explicitly: creditor protection, devise restriction, and alienation/joinder.",
+          "authority": "Art. X, § 4(c), Fla. Const.; Fla. Stat. § 732.7025"
+        }
+      ]
+    },
+    {
+      "id": "fl-wills.construction",
+      "title": "Construction: lapse, ademption, abatement",
+      "weight": 2,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Construction rules decide who takes when the will and the facts at death no longer line up: a beneficiary died first, the specific item is gone, or there is not enough to go around. Florida's statutes track the old UPC in many places but differ on anti-lapse, survivorship words and ademption, which is where the exam looks.",
+      "rules": [
+        {
+          "id": "fl-wills.construction.anti-lapse",
+          "title": "Anti-lapse",
+          "weight": 3,
+          "rule": "Unless the will shows a contrary intent, if a devisee who is a grandparent or a descendant of a grandparent of the testator is dead when the will is executed, fails to survive the testator, or must be treated as predeceasing under the will, the devisee's descendants take the devise per stirpes in the devisee's place. A person who would have been a member of a class had he or she survived is treated as a devisee for this purpose, whether that person died before or after the will was executed.",
+          "exceptions": [
+            "Words of survivorship ('if she survives me', 'to my surviving children') are a sufficient contrary intent, so the statute does not apply.",
+            "The statute does not apply to a devisee who is not a grandparent or descendant of a grandparent of the testator, such as a spouse, friend, stepchild or in-law; that devise lapses."
+          ],
+          "split": "UPC § 2-603 also covers the testator's stepchildren and says survivorship words alone do not defeat anti-lapse. Florida excludes stepchildren and treats survivorship words as a contrary intent.",
+          "trap": "Anti-lapse substitutes only the deceased devisee's descendants. If the predeceased brother left a widow but no children, the widow takes nothing and the devise lapses.",
+          "authority": "Fla. Stat. §§ 732.603, 732.611"
+        },
+        {
+          "id": "fl-wills.construction.failure-and-residue",
+          "title": "Failed devises fall into the residue; residue of a residue",
+          "weight": 2,
+          "rule": "Unless anti-lapse applies, a failed devise other than a residuary devise becomes part of the residue. If the residue is left to two or more persons and one residuary share fails, that share passes to the other residuary devisees in proportion to their interests, rather than by intestacy.",
+          "split": "The traditional common-law 'no residue of a residue' rule sent a failed residuary share to intestacy. Florida, like the UPC, keeps it within the residue.",
+          "trap": "Check anti-lapse first: if the deceased residuary devisee is the testator's sibling with children, the children take the share before the surviving residuary devisees can.",
+          "authority": "Fla. Stat. § 732.604"
+        },
+        {
+          "id": "fl-wills.construction.ademption-extinction",
+          "title": "Ademption by extinction and statutory nonademption",
+          "weight": 3,
+          "rule": "A specific devise is adeemed if the specific property is not in the estate at death; Florida applies the identity approach, so the devisee generally takes nothing even if the testator did not intend that result. By statute, however, the specific devisee takes what remains of the property and certain items that replace it.",
+          "exceptions": [
+            "Unpaid balance of the purchase price, condemnation award, or insurance proceeds for the property still owed at death.",
+            "Property acquired by foreclosure of a specifically devised obligation.",
+            "If a guardian of the property or an agent under a durable power of attorney sold the property, or collected an award or insurance for it, while the testator was incapacitated, the devisee receives a general pecuniary devise equal to the net proceeds.",
+            "Specifically devised securities include additional shares from splits or dividends initiated by the entity and successor securities from a merger or reorganization."
+          ],
+          "split": "UPC § 2-606 lets the devisee take replacement property and uses intent to avoid ademption more broadly. Florida's protections are limited to the statutory list.",
+          "trap": "General and demonstrative devises do not adeem. 'My 100 shares of Acme' is specific; '$10,000 from my Acme shares' is demonstrative and can be paid from general assets if the shares are gone.",
+          "authority": "Fla. Stat. §§ 732.605, 732.606"
+        },
+        {
+          "id": "fl-wills.construction.satisfaction",
+          "title": "Ademption by satisfaction",
+          "weight": 2,
+          "rule": "A lifetime gift to a devisee satisfies a devise in whole or in part only if the will provides for the deduction, the testator declared in a contemporaneous writing that the gift is in satisfaction or is to be deducted, or the devisee acknowledged the same in writing. The gift is valued when the devisee came into possession or at the testator's death, whichever is first.",
+          "trap": "Without one of the three writings, a lifetime gift does not reduce the devise, no matter how close in amount or time.",
+          "authority": "Fla. Stat. § 733.806"
+        },
+        {
+          "id": "fl-wills.construction.abatement",
+          "title": "Abatement",
+          "weight": 3,
+          "rule": "Unless the will directs otherwise, property used to pay debts, expenses, the family allowance, exempt property, elective-share contributions, and pretermitted shares is taken in this order: property passing by intestacy, then residuary devises, then general (non-specific) devises, and last specific and demonstrative devises. Devises in the same class abate pro rata.",
+          "elements": [
+            "Intestate property",
+            "Residuary devises",
+            "General devises",
+            "Specific and demonstrative devises"
+          ],
+          "exceptions": [
+            "If the stated order would defeat the testamentary plan or the express or implied purpose of a devise, the court abates as needed to carry out the testator's intent.",
+            "A demonstrative devise is treated as specific to the extent of the designated fund and as general for any shortfall."
+          ],
+          "mnemonic": {
+            "cue": "I Rarely Get Shortchanged",
+            "stands": "Intestate, Residuary, General, Specific: the order in which property abates"
+          },
+          "trap": "The residue goes before general devises: a residuary beneficiary who expected the bulk of the estate can end up with nothing while cash gifts are paid in full.",
+          "authority": "Fla. Stat. § 733.805"
+        },
+        {
+          "id": "fl-wills.construction.exoneration",
+          "title": "No exoneration of liens",
+          "weight": 2,
+          "rule": "A specific devisee of encumbered property takes it subject to the mortgage or lien, and may have the encumbrance paid from the residue only if the will shows that intent. A general direction in the will to pay the testator's debts does not show that intent.",
+          "split": "The common-law rule exonerated specifically devised property from the mortgage. Florida, like the UPC, rejects exoneration absent a specific direction.",
+          "trap": "'I direct my personal representative to pay all my just debts' does not require the estate to pay off the mortgage on the specifically devised condominium.",
+          "authority": "Fla. Stat. § 733.803"
+        },
+        {
+          "id": "fl-wills.construction.extrinsic-documents",
+          "title": "Incorporation by reference, independent significance, tangible-property lists and pour-overs",
+          "weight": 2,
+          "rule": "A writing in existence when the will is executed is incorporated if the will shows that intent and identifies the writing sufficiently. A will may also dispose of property by reference to acts and events with significance apart from the will, and may refer to a signed list disposing of tangible personal property. A devise may be made to the trustee of a trust whose terms are in a written instrument existing when the will is made or signed at the same time, even if the trust is revocable, amendable, or unfunded.",
+          "elements": [
+            "Incorporation by reference: writing existed at execution, intent to incorporate, adequate identification",
+            "Independent significance: acts or events, before or after execution or death, with a non-testamentary purpose",
+            "Tangible-property list: referred to in the will, signed by the testator, describing items and recipients with reasonable certainty; may be made or changed after the will",
+            "Pour-over: trust instrument in existence or executed concurrently; property is added to the trust as amended"
+          ],
+          "exceptions": [
+            "The tangible-property list cannot dispose of business property, real property, cash accounts or securities.",
+            "If the trust is revoked or terminated before the testator dies, the pour-over devise lapses."
+          ],
+          "trap": "An unsigned list, or a list that tries to give away the house, is ineffective under § 732.515; and a document written after the will cannot be incorporated by reference.",
+          "authority": "Fla. Stat. §§ 732.512, 732.513, 732.515"
+        },
+        {
+          "id": "fl-wills.construction.reformation",
+          "title": "Reformation and construction of wills",
+          "weight": 1,
+          "rule": "The testator's intent as expressed in the will controls, and a will passes property acquired after it was executed. On application of an interested person, a court may reform a will, even an unambiguous one, if clear and convincing evidence proves both the testator's intent and that the terms were affected by a mistake of fact or law, whether in expression or inducement; the court may also modify a will to achieve the testator's tax objectives.",
+          "split": "The traditional rule (still applied in many states) bars extrinsic evidence to vary an unambiguous will and allows no reformation for mistake. Florida, like the UPC, allows reformation on clear and convincing evidence.",
+          "authority": "Fla. Stat. §§ 732.6005, 732.615, 732.616"
+        }
+      ]
+    },
+    {
+      "id": "fl-wills.administration",
+      "title": "Probate administration and creditors",
+      "weight": 2,
+      "exams": [
+        "FL"
+      ],
+      "intro": "Florida administration questions focus on who can serve as personal representative, when summary administration is available, and the creditor timetable: notice, the 3-month and 30-day claim windows, objections, and the 2-year bar. Learn the priority classes for insolvent estates and the revocable trust's backup liability for estate debts.",
+      "rules": [
+        {
+          "id": "fl-wills.administration.venue-deposit-ancillary",
+          "title": "Venue, deposit of the will, and ancillary administration",
+          "weight": 2,
+          "rule": "Venue for probate is the county where the decedent was domiciled; for a nondomiciliary, any county where the decedent's property is located, or if none, where a debtor of the decedent resides. Anyone holding the original will must deposit it with the clerk of the court having venue within 10 days after learning of the testator's death, and a will is ineffective to prove title to, or the right to possess, the testator's property until it is admitted to probate in Florida or in the state where the decedent was domiciled.",
+          "exceptions": [
+            "When a nonresident dies leaving Florida property, ancillary administration is opened in Florida; the personal representative named in the will for Florida property, or else the foreign (domiciliary) personal representative, is entitled to ancillary letters if qualified to serve in Florida."
+          ],
+          "trap": "Venue follows the decedent's domicile, not the county where the decedent died or where a vacation property sits.",
+          "authority": "Fla. Stat. §§ 732.901, 733.101, 733.103, 734.102"
+        },
+        {
+          "id": "fl-wills.administration.personal-representative",
+          "title": "Who may serve as personal representative",
+          "weight": 3,
+          "rule": "Any person who is sui juris and a Florida resident at the decedent's death may serve, but a person is disqualified if convicted of a felony, convicted of abusing, neglecting or exploiting an elderly or disabled adult, mentally or physically unable to perform, or under 18. A nonresident qualifies only if related to the decedent as an adopted child or adoptive parent, a lineal relative, a spouse, sibling, uncle, aunt, nephew or niece (or a lineal relative of one of them), or the spouse of a person who qualifies.",
+          "elements": [
+            "Testate preference: the person nominated by the will; then the person selected by a majority in interest of the beneficiaries; then a devisee",
+            "Intestate preference: the surviving spouse; then the person selected by a majority in interest of the heirs; then the heir nearest in degree"
+          ],
+          "trap": "Being named in the will does not cure nonresidence. A testator's out-of-state best friend or business partner cannot serve in Florida, however clearly nominated.",
+          "split": "Most states and the UPC let a nonresident serve (sometimes with a bond or resident agent). Florida's family-relationship requirement for nonresidents is a frequent test point.",
+          "authority": "Fla. Stat. §§ 733.301, 733.302, 733.303, 733.304"
+        },
+        {
+          "id": "fl-wills.administration.summary-administration",
+          "title": "Summary administration and disposition without administration",
+          "weight": 2,
+          "rule": "Summary administration is available if the will does not direct formal administration and either the value of the entire Florida estate subject to administration, less exempt property, does not exceed $75,000, or the decedent has been dead more than 2 years. No administration at all is needed if the decedent left only exempt property and nonexempt personal property worth no more than the preferred funeral expenses plus reasonable medical and hospital expenses of the last 60 days of the last illness.",
+          "exceptions": [
+            "Before summary distribution, the petitioner must make a diligent search for creditors and provide for known claims; recipients of the property may be personally liable, up to the value received, to creditors whose claims were not barred or paid."
+          ],
+          "trap": "Protected homestead and exempt property are not counted toward the $75,000 figure because they are not assets subject to administration.",
+          "authority": "Fla. Stat. §§ 735.201, 735.206, 735.301"
+        },
+        {
+          "id": "fl-wills.administration.notice-of-administration",
+          "title": "Notice of administration, inventory and caveats",
+          "weight": 2,
+          "rule": "After letters issue, the personal representative must serve a notice of administration on the surviving spouse, beneficiaries, and others entitled to it; anyone served must object to the will's validity, the personal representative's qualifications, venue or jurisdiction within 3 months after service or the objection is barred. The personal representative must also file a verified inventory of probate assets with date-of-death values, generally within 60 days after letters issue.",
+          "exceptions": [
+            "An interested person who fears the estate will be opened without notice may file a caveat; a non-creditor may file it before or after the death, a creditor only after the death. Once a non-creditor's caveat is filed, the court may not admit a will or appoint a personal representative until formal notice is served on the caveator."
+          ],
+          "tip": "Keep the two 3-month periods apart: will-validity objections run from service of the notice of administration; creditor claims run from first publication of the notice to creditors.",
+          "authority": "Fla. Stat. §§ 731.110, 733.212, 733.604; Fla. Prob. R. 5.340"
+        },
+        {
+          "id": "fl-wills.administration.creditor-claims",
+          "title": "Notice to creditors and claim deadlines",
+          "weight": 3,
+          "rule": "The personal representative must publish a notice to creditors once a week for 2 consecutive weeks and must diligently search for and serve the notice on creditors who are known or reasonably ascertainable. A claim is barred unless filed by the later of 3 months after first publication or, for a creditor entitled to service, 30 days after service; independently, every claim is barred 2 years after the decedent's death whether or not any notice was published or letters issued.",
+          "exceptions": [
+            "The court may extend the 3-month/30-day period only for fraud, estoppel or insufficient notice; the 2-year bar is a statute of repose that cannot be extended.",
+            "Neither period prevents enforcement of a mortgage, security interest or other lien against the encumbered property.",
+            "A claim may proceed to the extent covered by the decedent's casualty (liability) insurance."
+          ],
+          "split": "Due process requires actual notice, not just publication, to known or reasonably ascertainable creditors before a nonclaim statute can bar them (Tulsa Professional Collection Services v. Pope, 485 U.S. 478 (1988)); Florida's 30-days-after-service rule implements that requirement, and Jones v. Golden (Fla. 2015) resolved a district split by holding that the short periods never run against an unserved known or reasonably ascertainable creditor.",
+          "trap": "A known or reasonably ascertainable creditor who was never served is not barred at 3 months and need not ask for an extension, because the 3-month/30-day period never starts to run against it; it is still barred 2 years after death.",
+          "authority": "Fla. Stat. §§ 733.2121, 733.702, 733.710; Jones v. Golden, 176 So. 3d 242 (Fla. 2015)"
+        },
+        {
+          "id": "fl-wills.administration.objections-to-claims",
+          "title": "Objections to claims and the independent action",
+          "weight": 2,
+          "rule": "The personal representative or another interested person may object to a filed claim, generally within the later of 4 months after first publication or 30 days after the claim was timely filed. Once served with the objection, the claimant has 30 days to file an independent action on the claim (or to seek an extension); otherwise the claim is barred.",
+          "trap": "The burden shifts to the creditor after an objection: a creditor who files a claim and then does nothing loses it 30 days after service of the objection.",
+          "authority": "Fla. Stat. § 733.705"
+        },
+        {
+          "id": "fl-wills.administration.priority-of-claims",
+          "title": "Order of payment and revocable trust liability",
+          "weight": 3,
+          "rule": "When the estate cannot pay everything, the personal representative pays in this order, paying each class in full before the next and pro rata within a class: (1) costs and expenses of administration, including personal representative and attorney compensation; (2) reasonable funeral, burial and grave-marker expenses up to $6,000; (3) debts and taxes with federal preference and certain state Medicaid and court-cost claims; (4) reasonable medical and hospital expenses of the last 60 days of the last illness; (5) family allowance; (6) court-ordered child-support arrearages; (7) debts from continuing the decedent's business, limited to that business's assets; (8) all other claims, including lifetime judgments and amounts over the class 2 and 4 caps.",
+          "exceptions": [
+            "Exempt property and protected homestead are not available to pay claims (except perfected security interests on exempt property).",
+            "Property in a trust the decedent could revoke at death is liable for administration expenses and creditors' claims to the extent the probate estate is insufficient."
+          ],
+          "trap": "A judgment obtained against the decedent during life gets no priority; it is a class 8 claim.",
+          "authority": "Fla. Stat. §§ 733.707, 736.05053"
+        },
+        {
+          "id": "fl-wills.administration.pr-duties-compensation",
+          "title": "Personal representative's duties, compensation and discharge",
+          "weight": 2,
+          "rule": "A personal representative is a fiduciary held to the standards of care applicable to trustees, and a transaction involving a conflict between the personal representative's personal interest and the estate is voidable by an interested person. For ordinary services in formal administration, a commission of 3% of the first $1 million of compensable value, 2.5% of the next $4 million, 2% of the next $5 million, and 1.5% above $10 million is presumed reasonable; the court may award more for extraordinary services.",
+          "exceptions": [
+            "Compensable value is the inventory value of probate assets plus income earned during administration; protected homestead and nonprobate assets are not included."
+          ],
+          "tip": "The administration ends with a final accounting and petition for discharge; interested persons who receive them may object before the court enters the order of discharge.",
+          "authority": "Fla. Stat. §§ 733.602, 733.610, 733.617, 733.901"
+        }
+      ]
+    }
+  ]
+}

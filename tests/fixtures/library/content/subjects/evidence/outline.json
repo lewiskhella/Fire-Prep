@@ -1,0 +1,36 @@
+{
+  "subject": "evidence",
+  "topics": [
+    {
+      "id": "evidence.hearsay-definition",
+      "title": "Hearsay: definition and non-hearsay uses",
+      "weight": 3,
+      "exams": ["MBE", "MEE"],
+      "intro": "Test fixture written for the lecture tools; not library content.",
+      "rules": [
+        {"id": "evidence.hearsay-definition.what-counts", "title": "What counts as hearsay", "weight": 3, "rule": "A statement the declarant made other than while testifying at the current trial, offered to prove the truth of the matter asserted.", "authority": "FRE 801(c)"}
+      ]
+    },
+    {
+      "id": "evidence.hearsay-803",
+      "title": "Hearsay exceptions: availability immaterial",
+      "weight": 3,
+      "exams": ["MBE", "MEE"],
+      "intro": "Test fixture.",
+      "rules": [
+        {"id": "evidence.hearsay-803.excited-utterance", "title": "Excited utterance", "weight": 3, "rule": "A statement relating to a startling event, made while the declarant was under the stress of excitement that the event caused.", "elements": ["a startling event", "made under the stress of excitement", "relates to the event"]},
+        {"id": "evidence.hearsay-803.business-records", "title": "Business records", "weight": 2, "rule": "A record made at or near the time by someone with knowledge, kept in the regular course of business, shown by a custodian or a certification."}
+      ]
+    },
+    {
+      "id": "evidence.character",
+      "title": "Character evidence",
+      "weight": 2,
+      "exams": ["MBE"],
+      "intro": "Test fixture.",
+      "rules": [
+        {"id": "evidence.character.propensity-ban", "title": "Propensity ban", "weight": 3, "rule": "Evidence of a person's character is not admissible to prove that on a particular occasion the person acted in accordance with it."}
+      ]
+    }
+  ]
+}

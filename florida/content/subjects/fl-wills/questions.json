@@ -1,0 +1,372 @@
+{
+  "subject": "fl-wills",
+  "questions": [
+    {
+      "id": "fl-wills.q001",
+      "topic": "fl-wills.intestacy",
+      "rules": [
+        "fl-wills.intestacy.spouse-share"
+      ],
+      "difficulty": 1,
+      "stem": "Marcus, a Florida domiciliary, died intestate. He was survived by his wife, Elena, and two children: Owen, his son from an earlier marriage, and Paige, the daughter of Marcus and Elena. Elena has no other descendants. Marcus's only asset was a $600,000 brokerage account titled in his name alone, with no payable-on-death designation. He rented his apartment and owned no real property, and he made no lifetime gifts to any of his family.",
+      "call": "How will the brokerage account be distributed?",
+      "choices": [
+        "Elena takes the entire account, because Paige is also Elena's descendant.",
+        "Elena takes one-half; Owen and Paige share the other half equally.",
+        "Elena takes one-half; Owen takes the other half alone, because Paige will eventually inherit from Elena.",
+        "Elena, Owen and Paige each take one-third."
+      ],
+      "answer": 1,
+      "explanation": "Under § 732.102 the spouse takes the whole intestate estate only if all of the decedent's descendants are also the spouse's descendants (and the spouse has no others). Because Owen is Marcus's descendant but not Elena's, Elena takes one-half. The other half passes to Marcus's descendants, Owen and Paige, per stirpes, so each child takes one-quarter of the account.",
+      "whyNot": [
+        "The whole-estate rule requires that every one of the decedent's descendants also be the spouse's; Owen is not Elena's descendant.",
+        "",
+        "Paige is Marcus's descendant and shares equally in the non-spousal half; her expectancy from Elena is irrelevant.",
+        "Florida does not divide the estate per capita among spouse and children; the spouse's share is either all or one-half."
+      ]
+    },
+    {
+      "id": "fl-wills.q002",
+      "topic": "fl-wills.intestacy",
+      "rules": [
+        "fl-wills.intestacy.order-of-descent",
+        "fl-wills.intestacy.half-blood-afterborn",
+        "fl-wills.intestacy.per-stirpes"
+      ],
+      "difficulty": 2,
+      "stem": "Dana, a Florida domiciliary, died intestate, never having married and leaving no descendants. Both of her parents predeceased her. She was survived by her full brother, Ethan; her half-sister, Faith, who shares only Dana's father; and her niece, Gina, the only child of Dana's predeceased full sister, Holly. After payment of debts and expenses, Dana's net probate estate is $500,000, consisting entirely of investment accounts with no beneficiary designations.",
+      "call": "How should the estate be distributed?",
+      "choices": [
+        "Ethan $250,000 and Gina $250,000; Faith takes nothing because she is of the half blood.",
+        "Ethan, Gina and Faith each take one-third.",
+        "Ethan and Faith each take $250,000; Gina takes nothing because her mother predeceased Dana.",
+        "Ethan $200,000, Gina $200,000 and Faith $100,000."
+      ],
+      "answer": 3,
+      "explanation": "With no spouse, descendants or parents, the estate passes to Dana's siblings and the descendants of deceased siblings (§ 732.103). Gina represents Holly per stirpes. Under § 732.105 a half-blood relative takes half as much as a whole-blood relative. Counting whole-blood shares as two units and half-blood shares as one, there are five units: Ethan two ($200,000), Holly's line two ($200,000 to Gina), and Faith one ($100,000).",
+      "whyNot": [
+        "Half-blood kindred inherit in Florida; they take a half share, not nothing.",
+        "Equal thirds ignores Florida's half-blood rule, which reduces Faith's share.",
+        "Descendants of a deceased sibling take that sibling's share by representation.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-wills.q003",
+      "topic": "fl-wills.intestacy",
+      "rules": [
+        "fl-wills.intestacy.slayer"
+      ],
+      "difficulty": 2,
+      "stem": "Victor was tried for the murder of his mother, Wanda, and a jury acquitted him. Wanda's will left her entire estate to Victor, with an alternate gift to her daughter, Yolanda, if Victor did not survive her. In the probate proceeding Yolanda petitioned to bar Victor from taking. After an evidentiary hearing, the probate judge found by the greater weight of the evidence that Victor unlawfully and intentionally killed Wanda.",
+      "call": "Is Victor entitled to take under Wanda's will?",
+      "choices": [
+        "No. Absent a murder conviction, the probate court may decide by the greater weight of the evidence that the killing was unlawful and intentional, and Victor is then treated as having predeceased Wanda.",
+        "Yes. The criminal acquittal conclusively establishes that the killing was not unlawful.",
+        "Yes. The slayer statute applies only when the killer has been convicted of murder in some degree.",
+        "No, but only because Yolanda proved the killing beyond a reasonable doubt in the probate proceeding."
+      ],
+      "answer": 0,
+      "explanation": "Under § 732.802 a conviction of murder in any degree is conclusive, but in the absence of a conviction the probate court determines by the greater weight of the evidence whether the killing was unlawful and intentional. Once the court so finds, the killer takes nothing and the estate passes as if he predeceased the decedent, so the alternate gift to Yolanda takes effect.",
+      "whyNot": [
+        "",
+        "An acquittal means only that guilt was not proved beyond a reasonable doubt; it does not bind the civil determination.",
+        "A conviction is conclusive, but it is not required; the statute expressly allows a civil determination without one.",
+        "The civil standard is the greater weight of the evidence, not proof beyond a reasonable doubt."
+      ]
+    },
+    {
+      "id": "fl-wills.q004",
+      "topic": "fl-wills.execution-and-revocation",
+      "rules": [
+        "fl-wills.execution-and-revocation.formalities"
+      ],
+      "difficulty": 2,
+      "stem": "Teresa, a Florida domiciliary, signed her typed will at her kitchen table while her neighbors Abe and Bea watched. Abe immediately signed as a witness while Teresa and Bea looked on, then left for his own house to take an urgent phone call. Twenty minutes later, with Abe gone, Bea signed as a witness while Teresa watched. No self-proving affidavit was attached. Teresa died last month.",
+      "call": "Is the will validly executed?",
+      "choices": [
+        "Yes, because each witness signed in Teresa's presence.",
+        "Yes, but it cannot be admitted to probate because it lacks a self-proving affidavit.",
+        "No, because the attesting witnesses did not sign in the presence of each other.",
+        "No, because every Florida will must be acknowledged before a notary."
+      ],
+      "answer": 2,
+      "explanation": "Section 732.502 requires the attesting witnesses to sign in the presence of the testator and in the presence of each other. Bea saw Abe sign, but Abe was absent when Bea signed, so the witnesses did not sign in each other's presence and the will fails. Florida has no harmless-error or substantial-compliance rule to save it.",
+      "whyNot": [
+        "Signing in the testator's presence is necessary but not sufficient; Florida also requires the witnesses to sign in each other's presence.",
+        "A self-proving affidavit is optional; a properly executed will without one can be proved by a witness's oath.",
+        "",
+        "Notarization is needed only to make a will self-proved, not to make it valid."
+      ]
+    },
+    {
+      "id": "fl-wills.q005",
+      "topic": "fl-wills.execution-and-revocation",
+      "rules": [
+        "fl-wills.execution-and-revocation.formalities"
+      ],
+      "difficulty": 1,
+      "stem": "Ruth had been domiciled in Florida for twenty years. While on a long vacation in a state that recognizes holographic wills, she wrote out entirely in her own handwriting, dated and signed a document leaving 'everything I own' to her friend Sal. No one witnessed it. Ruth returned home to Florida and died a year later, survived only by her adult son, Tom. Sal offers the document for probate in Florida.",
+      "call": "Who takes Ruth's Florida probate estate?",
+      "choices": [
+        "Tom, because the document was not executed with Florida's formalities, and the rule honoring out-of-state wills never applies to holographic wills.",
+        "Sal, because a will valid where it was executed is valid in Florida.",
+        "Sal, because Florida honors a will written entirely in the testator's handwriting and signed by her.",
+        "Tom and Sal in equal shares, because the document is effective only as to personal property."
+      ],
+      "answer": 0,
+      "explanation": "Florida does not recognize unwitnessed holographic wills; a handwritten will is valid only if executed with two attesting witnesses under § 732.502. The provision validating wills valid where executed covers nonresidents' wills and expressly excludes holographic and nuncupative wills. The document is void, so Ruth died intestate and Tom, her only descendant, takes.",
+      "whyNot": [
+        "",
+        "The out-of-state exception protects nonresidents' wills and excludes holographic wills in any event; Ruth was a Florida domiciliary.",
+        "Florida has no holographic-will exception to the two-witness requirement.",
+        "There is no rule giving an invalid will partial effect over personal property."
+      ]
+    },
+    {
+      "id": "fl-wills.q006",
+      "topic": "fl-wills.execution-and-revocation",
+      "rules": [
+        "fl-wills.execution-and-revocation.divorce"
+      ],
+      "difficulty": 1,
+      "stem": "In 2019 Carl executed a valid will leaving his entire estate 'to my wife, Dina, but if she does not survive me, to my brother, Ed.' Carl and Dina were divorced in 2023; the final judgment of dissolution said nothing about Carl's will. Carl died in 2025 without changing the will. He had no descendants. Dina, Ed and Carl's mother all survive him.",
+      "call": "Who takes Carl's probate estate?",
+      "choices": [
+        "Dina, because the will was never revoked by a later instrument or by physical act.",
+        "Dina and Ed in equal shares.",
+        "Carl's mother, because the divorce revoked the entire will and Carl died intestate.",
+        "Ed, because the provisions for Dina became void and the will is administered as if Dina died at the time of the divorce."
+      ],
+      "answer": 3,
+      "explanation": "Under § 732.507(2), divorce voids every will provision affecting the former spouse unless the will or the judgment expressly provides otherwise, and the will is administered as if the former spouse had died when the marriage was dissolved. The gift to Dina therefore fails and the alternate gift to Ed takes effect. The rest of the will remains valid.",
+      "whyNot": [
+        "Divorce operates by statute as a revocation of the spousal provisions; no new instrument or act is needed.",
+        "Nothing in the will or statute splits the estate; Dina is treated as predeceased, so the alternate gift takes it all.",
+        "Divorce revokes only the provisions for the former spouse, not the entire will.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-wills.q007",
+      "topic": "fl-wills.execution-and-revocation",
+      "rules": [
+        "fl-wills.execution-and-revocation.contests"
+      ],
+      "difficulty": 2,
+      "stem": "Hal, 88 and frail, depended on his neighbor Ida, who held his durable power of attorney and paid his bills. Ida chose a lawyer for Hal, drove him to the appointment, told the lawyer what the will should provide, sat in on the signing and kept the original in her own safe. The will leaves most of Hal's estate to Ida. After Hal's death his children timely contest the will but have no direct evidence that Ida pressured him.",
+      "call": "Which statement best describes the burden in the contest?",
+      "choices": [
+        "The children must prove undue influence by clear and convincing evidence, and without direct evidence the will stands.",
+        "A presumption of undue influence arises, shifting to Ida the burden of proving that the will was not procured by undue influence.",
+        "The will is void as a matter of law because Ida was Hal's attorney-in-fact.",
+        "A presumption arises, but it requires Ida only to produce some contrary evidence, after which the children again bear the burden of persuasion."
+      ],
+      "answer": 1,
+      "explanation": "Ida is a substantial beneficiary in a confidential relationship with Hal, and the Carpenter factors (recommending the lawyer, giving drafting instructions, attending execution, keeping the will) show active procurement. That raises a presumption of undue influence, and § 733.107(2) makes it a presumption that shifts the burden of proof, so Ida must prove the will was not the product of undue influence.",
+      "whyNot": [
+        "Contestants rarely have direct evidence; the presumption exists precisely to supply proof from circumstances, and the contestant's burden is not clear and convincing evidence.",
+        "",
+        "A confidential relationship alone does not void the will; it is one element of the presumption, which Ida may rebut.",
+        "Florida made the undue-influence presumption a burden-shifting presumption, not a 'bursting bubble' that vanishes upon any contrary evidence."
+      ]
+    },
+    {
+      "id": "fl-wills.q008",
+      "topic": "fl-wills.spousal-and-family-protection",
+      "rules": [
+        "fl-wills.spousal-and-family-protection.elective-share-right",
+        "fl-wills.spousal-and-family-protection.elective-estate"
+      ],
+      "difficulty": 3,
+      "stem": "Jack, a Florida domiciliary, died survived by his wife, Kara. His will leaves Kara $50,000 and the residue to his adult children. His probate estate is worth $400,000 (including the $50,000 gift). He also held $600,000 of investments in a revocable trust for his children and owned a $1,000,000 term life insurance policy, with no cash surrender value, payable to the children. He owned no homestead. Kara signed no waiver and timely files an election.",
+      "call": "Approximately how much more will Kara receive as a result of the election?",
+      "choices": [
+        "Nothing, because she accepted a gift under the will.",
+        "$70,000, because the elective share is 30% of the probate estate less what she already receives.",
+        "$250,000, because the elective estate includes the revocable trust and her $50,000 gift is credited against the 30% share.",
+        "$550,000, because the elective estate includes the life insurance death benefit."
+      ],
+      "answer": 2,
+      "explanation": "The elective estate includes the probate estate ($400,000) and revocable-trust property ($600,000), but only the net cash surrender value of life insurance, which here is zero. Thirty percent of $1,000,000 is $300,000. Property passing to Kara from the elective estate is credited first, so her $50,000 gift reduces the amount to be contributed by others to $250,000.",
+      "whyNot": [
+        "Taking under the will does not bar an election; the will gift is simply credited against the share.",
+        "The elective estate is not limited to probate assets; revocable-trust property is included.",
+        "",
+        "Life insurance counts only to the extent of its net cash surrender value, and this term policy has none."
+      ]
+    },
+    {
+      "id": "fl-wills.q009",
+      "topic": "fl-wills.spousal-and-family-protection",
+      "rules": [
+        "fl-wills.spousal-and-family-protection.pretermitted-spouse",
+        "fl-wills.intestacy.spouse-share"
+      ],
+      "difficulty": 2,
+      "stem": "In 2015 Leo, a Florida domiciliary, executed a valid will leaving his entire estate to his two daughters from his first marriage. In 2021 he married Mia; they signed no premarital or postnuptial agreement, and they had no children together. Leo never changed his will, which says nothing about a future spouse. Leo died in 2025 survived by Mia and both daughters. His estate consists of investment accounts; there is no homestead.",
+      "call": "Apart from any elective share, what is Mia entitled to?",
+      "choices": [
+        "One-half of the probate estate as a pretermitted spouse, because Leo has descendants who are not Mia's.",
+        "The entire probate estate, because a pretermitted spouse takes the full estate when she has no children with the decedent.",
+        "Nothing, because the will was valid when made and marriage does not revoke a will.",
+        "Thirty percent of the probate estate, the fixed share for an omitted spouse."
+      ],
+      "answer": 0,
+      "explanation": "Leo married after making his will, Mia survived him, and none of the § 732.301 exceptions applies (no agreement, no provision for her, no expressed intent to omit her). She therefore takes what she would have taken had Leo died intestate. Because Leo's daughters are not Mia's descendants, her intestate share under § 732.102 is one-half. The share comes from abatement of the devises to the daughters.",
+      "whyNot": [
+        "",
+        "A spouse takes the entire intestate estate only when the decedent leaves no descendants who are not also hers; Leo's daughters are not Mia's.",
+        "Marriage does not revoke the will, but the pretermitted-spouse statute gives Mia a share anyway.",
+        "Thirty percent describes the elective share of the elective estate, a different remedy; the pretermitted share is the intestate share."
+      ]
+    },
+    {
+      "id": "fl-wills.q010",
+      "topic": "fl-wills.homestead",
+      "rules": [
+        "fl-wills.homestead.devise-restriction",
+        "fl-wills.homestead.descent"
+      ],
+      "difficulty": 3,
+      "stem": "Nora, a Florida domiciliary, held title in her name alone to the house where she lived with her husband, Pete, and their 15-year-old son, Quinn. Nora also had an adult daughter, Rae, from an earlier marriage. Nora's will devised the house to Rae and the rest of her estate to Pete. Nora died last month survived by Pete, Quinn and Rae. No waiver of homestead rights was ever signed.",
+      "call": "Who owns the house?",
+      "choices": [
+        "Rae, because a parent may devise homestead to a lineal descendant.",
+        "Pete holds a life estate (or may elect an undivided one-half interest as a tenant in common), with the remainder vested in Quinn and Rae in equal shares.",
+        "Quinn alone, because the homestead restriction protects the minor child.",
+        "Pete in fee simple, because a surviving spouse takes homestead whenever a devise of it fails."
+      ],
+      "answer": 1,
+      "explanation": "Because Nora was survived by a spouse and a minor child, the homestead was not subject to devise at all (Art. X, § 4(c); § 732.4015), so the gift to Rae is void. Under § 732.401 the homestead descends: with a surviving spouse and descendants, Pete takes a life estate with a vested remainder in Nora's descendants per stirpes (Quinn and Rae equally), unless within 6 months after Nora's death he elects an undivided one-half interest as tenant in common with the descendants.",
+      "whyNot": [
+        "No devise of homestead is valid when the owner leaves a spouse and a minor child, even a devise to a descendant.",
+        "",
+        "When the devise fails, the homestead passes to all descendants, adult and minor, not to the minor child alone.",
+        "When there are descendants, the spouse takes only a life estate or the elected one-half tenancy in common, not a fee."
+      ]
+    },
+    {
+      "id": "fl-wills.q011",
+      "topic": "fl-wills.homestead",
+      "rules": [
+        "fl-wills.homestead.creditor-exemption",
+        "fl-wills.homestead.devise-restriction"
+      ],
+      "difficulty": 3,
+      "stem": "Sam, a widower, owned and lived in a house in Tampa. Both of his children are adults and survived him. His will devised the house to his granddaughter, Tia, the daughter of one of his living sons, and the rest of his estate to his two sons. Sam's other assets are not enough to pay a $200,000 judgment that a creditor obtained against him before he died. The creditor asks the personal representative to sell the house.",
+      "call": "Can the creditor reach the house?",
+      "choices": [
+        "Yes, because the exemption passes only to the persons who would actually inherit by intestacy, and Tia's father is alive.",
+        "Yes, because homestead loses its protection whenever it passes by will rather than by intestacy.",
+        "No, because the devise to Tia is invalid and the house descends to Sam's sons free of claims.",
+        "No, because Tia is within the class of persons who could be Sam's heirs, so the exemption inures to her."
+      ],
+      "answer": 3,
+      "explanation": "Sam left no spouse or minor child, so he was free to devise the homestead to anyone. Whether the house remains protected from his creditors depends on whether the exemption inures to his 'heirs'; under Snyder v. Davis that term includes anyone in the class of persons who could take by intestacy, not only those first in line. A granddaughter is in that class, so the house passes to Tia free of the judgment creditor's claim.",
+      "whyNot": [
+        "The Florida Supreme Court rejected a narrow reading of 'heirs' limited to those who would actually take by intestacy.",
+        "A devise to a person within the heir class keeps the protection; a devise to someone outside that class, such as a friend, is what loses it.",
+        "The devise is valid because Sam left no spouse and no minor child.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-wills.q012",
+      "topic": "fl-wills.construction",
+      "rules": [
+        "fl-wills.construction.anti-lapse",
+        "fl-wills.construction.failure-and-residue"
+      ],
+      "difficulty": 2,
+      "stem": "Uma's will provides: 'I give $100,000 to my brother, Victor, if he survives me. I give the residue of my estate to the Florida Humane Society.' Victor died two years before Uma, survived by his daughter, Wren. Uma never married and had no children. Her parents predeceased her. Her estate is ample to pay all gifts, and the will contains no other provision addressing what happens if a beneficiary dies first.",
+      "call": "Who receives the $100,000?",
+      "choices": [
+        "Wren, because Victor was a descendant of Uma's grandparents.",
+        "Victor's estate, because the gift vested when the will was signed.",
+        "The Florida Humane Society, because the survivorship condition shows a contrary intent and the lapsed gift falls into the residue.",
+        "Uma's heirs by intestacy, because a lapsed general gift passes outside the will."
+      ],
+      "answer": 2,
+      "explanation": "Victor, a brother, is a descendant of Uma's grandparents, so anti-lapse would ordinarily substitute Wren. But under § 732.603 words of survivorship such as 'if he survives me' are a sufficient indication of contrary intent, so the statute does not apply and the gift lapses. Under § 732.604 a failed non-residuary gift becomes part of the residue, which passes to the Humane Society.",
+      "whyNot": [
+        "Florida treats words of survivorship as a contrary intent that blocks anti-lapse (unlike UPC § 2-603).",
+        "A devise takes effect only at the testator's death; a devisee who predeceases takes nothing.",
+        "",
+        "A lapsed non-residuary gift falls into the residue, not into intestacy."
+      ]
+    },
+    {
+      "id": "fl-wills.q013",
+      "topic": "fl-wills.construction",
+      "rules": [
+        "fl-wills.construction.abatement"
+      ],
+      "difficulty": 2,
+      "stem": "Xavier's will leaves 'my 1965 Mustang' to his nephew Yuri, '$60,000' to his friend Zoe, and the residue to his sister Ann. At Xavier's death the Mustang is worth $40,000 and his other assets are $100,000 in cash and securities. Valid debts and administration expenses total $70,000. The will says nothing about abatement or about which assets should pay debts, and no property passes by intestacy. All three beneficiaries survived Xavier.",
+      "call": "How will the debts and expenses be borne?",
+      "choices": [
+        "Ann's residuary share abates entirely, Zoe receives $30,000, and Yuri keeps the Mustang.",
+        "All three gifts abate pro rata according to their values.",
+        "Zoe's general gift abates first; Ann receives $30,000 and Yuri keeps the Mustang.",
+        "The Mustang is sold first, because specific gifts bear debts before cash gifts."
+      ],
+      "answer": 0,
+      "explanation": "Under § 733.805, absent a contrary direction, property abates in this order: intestate property, the residue, general devises, then specific devises. After setting aside the $60,000 general gift, the residue is $40,000, which is exhausted first. The remaining $30,000 of debt comes from Zoe's general gift, leaving her $30,000. The specific gift of the Mustang is untouched.",
+      "whyNot": [
+        "",
+        "Pro rata abatement applies only within a class, not across residuary, general and specific gifts.",
+        "This reverses the order: the residue abates before general gifts.",
+        "Specific gifts abate last, not first."
+      ]
+    },
+    {
+      "id": "fl-wills.q014",
+      "topic": "fl-wills.administration",
+      "rules": [
+        "fl-wills.administration.personal-representative"
+      ],
+      "difficulty": 1,
+      "stem": "Bella, a Florida domiciliary, died leaving a valid will that nominates her lifelong friend Cora, who lives in Georgia, as personal representative, and names Bella's nephew Dev, who lives in North Carolina, as alternate. Neither Cora nor Dev has any criminal record, and both are adults and competent. Cora petitions for letters of administration in the county where Bella lived. Bella's only heirs are Dev and his sister, both of whom support Cora's appointment.",
+      "call": "Who may be appointed personal representative?",
+      "choices": [
+        "Cora, because the testator's nomination has first priority.",
+        "Cora, provided she posts bond and designates a Florida resident agent.",
+        "Dev, because a nonresident may serve only if related to the decedent in a qualifying way, and a nephew qualifies.",
+        "Neither, because a personal representative must be a Florida resident."
+      ],
+      "answer": 2,
+      "explanation": "Under § 733.304 a person not domiciled in Florida can serve only if related to the decedent in a listed way, which includes a nephew. Cora, an unrelated friend living in Georgia, is not qualified despite the nomination, so the alternate nominee Dev may be appointed.",
+      "whyNot": [
+        "Nomination determines preference only among qualified persons; Cora is not qualified.",
+        "Bond and a resident agent do not cure the statutory disqualification of an unrelated nonresident.",
+        "",
+        "Nonresidents within the listed family relationships may serve."
+      ]
+    },
+    {
+      "id": "fl-wills.q015",
+      "topic": "fl-wills.administration",
+      "rules": [
+        "fl-wills.administration.creditor-claims"
+      ],
+      "difficulty": 3,
+      "stem": "Elias died on January 10, 2025. His personal representative first published a notice to creditors on March 3, 2025, but did not serve it on Fran, a contractor whose unpaid $40,000 invoice was in a folder on Elias's desk. Fran learned of the death in the summer and filed a statement of claim in the probate proceeding on August 15, 2025. The personal representative moves to strike the claim as untimely.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Strike the claim, because every claim must be filed within 3 months after first publication.",
+        "Deny the motion, because Fran was a reasonably ascertainable creditor who was never served, so her filing period had not expired, and she filed within 2 years after death.",
+        "Deny the motion, because an unserved creditor may file at any time, even more than 2 years after death.",
+        "Strike the claim unless Fran proves that the personal representative fraudulently concealed the estate."
+      ],
+      "answer": 1,
+      "explanation": "A creditor who is known or reasonably ascertainable must be served with the notice, and such a creditor has until the later of 3 months after publication or 30 days after service (§§ 733.2121, 733.702). Fran was never served, so her 30-day period never began, consistent with the due-process rule of Tulsa Professional Collection Services v. Pope; the Florida Supreme Court so held in Jones v. Golden (2015), and an unserved creditor need not move for an extension. Her claim remains subject to the 2-year bar of § 733.710, but she filed well within it.",
+      "whyNot": [
+        "The 3-month period alone binds only creditors who were not entitled to service; Fran was reasonably ascertainable.",
+        "",
+        "The 2-year bar of § 733.710 cuts off every claim regardless of notice.",
+        "Fraud is one ground to extend the 3-month period, but Fran needs no extension because her own period never began to run."
+      ]
+    }
+  ]
+}

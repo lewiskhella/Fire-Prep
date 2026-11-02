@@ -1,0 +1,372 @@
+{
+  "subject": "fl-torts",
+  "questions": [
+    {
+      "id": "fl-torts.q001",
+      "topic": "fl-torts.negligence-and-fault",
+      "rules": [
+        "fl-torts.negligence-and-fault.modified-comparative-fault"
+      ],
+      "difficulty": 2,
+      "stem": "In August 2024 Tomas was crossing a Tallahassee street outside the crosswalk while looking at his phone when a delivery van driven by Ursula, who was speeding, struck him. Tomas sued Ursula for negligence in March 2025. At trial the jury found Tomas's total damages to be $300,000 and assigned 50% of the fault to Tomas and 50% to Ursula. Neither party challenges the jury's findings.",
+      "call": "What judgment should the court enter?",
+      "choices": [
+        "Judgment for Ursula, because under the 2023 statute a plaintiff who is 50% or more at fault recovers nothing.",
+        "Judgment for Tomas for $150,000.",
+        "Judgment for Tomas for $300,000, because Ursula's speeding was negligence per se, which eliminates comparative fault.",
+        "Judgment for Ursula, because a pedestrian who crosses outside a crosswalk is contributorily negligent as a matter of law."
+      ],
+      "answer": 1,
+      "explanation": "Because the action was filed after March 24, 2023, § 768.81(6) applies: a plaintiff found greater than 50% at fault for his own harm recovers nothing, while a plaintiff 50% or less at fault recovers damages reduced by his percentage of fault. Tomas is exactly 50% at fault, so he is not barred; his $300,000 is reduced by 50% to $150,000.",
+      "whyNot": [
+        "The statutory bar applies only when the plaintiff is greater than 50% at fault. A plaintiff at exactly 50% still recovers half.",
+        "",
+        "Even if speeding were negligence per se, it would establish Ursula's breach, not erase Tomas's own fault; comparative fault still reduces the award.",
+        "Florida does not use contributory negligence as a complete bar; the plaintiff's fault is compared under § 768.81."
+      ]
+    },
+    {
+      "id": "fl-torts.q002",
+      "topic": "fl-torts.negligence-and-fault",
+      "rules": [
+        "fl-torts.negligence-and-fault.fabre-nonparty"
+      ],
+      "difficulty": 3,
+      "stem": "Vera was injured when her car was struck at an intersection by a truck driven by an employee of Wexford Hauling. She sued Wexford. Wexford's answer denied negligence and pleaded Vera's comparative fault, but said nothing about any other person's fault. On the eve of trial, Wexford's driver testified for the first time that an unidentified motorist had cut him off. Wexford, without having moved to amend its answer or shown good cause for the delay, asks the court to place 'unknown driver' on the verdict form for apportionment. Vera objects.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Include the unknown driver, because Fabre requires the jury to apportion fault among everyone who contributed to the accident.",
+        "Include the unknown driver, because a nonparty need not be pleaded if the defendant proves its fault by clear and convincing evidence.",
+        "Exclude the unknown driver, because fault may never be apportioned to a person who is not a party to the suit.",
+        "Exclude the unknown driver, because Wexford did not plead the nonparty's fault as an affirmative defense identifying or describing the nonparty."
+      ],
+      "answer": 3,
+      "explanation": "Under Fabre and § 768.81(3), fault may be apportioned to nonparties, including unidentified ones, but only if the defendant affirmatively pleads the nonparty's fault and identifies the nonparty or describes it as specifically as practicable (absent good cause), and then proves the nonparty's fault at trial by a preponderance of the evidence. Wexford never pleaded the unknown driver's fault and showed no good cause, so the nonparty may not go on the verdict form.",
+      "whyNot": [
+        "Fabre permits apportionment to nonparties, but § 768.81(3)(a) conditions it on pleading the nonparty's fault; Wexford skipped that step.",
+        "The defendant must plead nonparty fault, and the proof standard at trial is a preponderance of the evidence, not clear and convincing evidence.",
+        "Overbroad: Florida does allow apportionment to properly pleaded and proved nonparties, including unknown ones.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-torts.q003",
+      "topic": "fl-torts.negligence-and-fault",
+      "rules": [
+        "fl-torts.negligence-and-fault.joint-several-abolished"
+      ],
+      "difficulty": 1,
+      "stem": "Wren was injured in a three-car collision in Orlando and sued the other two drivers, Xavier and Yolanda, for negligence. The jury found Wren's damages to be $500,000, half economic and half noneconomic, and apportioned fault 0% to Wren, 70% to Xavier and 30% to Yolanda. Xavier is uninsured and has no assets. Wren seeks to collect the full $500,000 from Yolanda, who carries a $1 million liability policy.",
+      "call": "How much can Wren collect from Yolanda?",
+      "choices": [
+        "$150,000.",
+        "$500,000, because Yolanda is jointly and severally liable for at least the economic damages.",
+        "$500,000, because a solvent defendant must absorb the share of an insolvent co-defendant.",
+        "$250,000, because when one of two defendants is insolvent the other pays half the damages."
+      ],
+      "answer": 0,
+      "explanation": "Section 768.81(3) requires the court to enter judgment against each party on the basis of that party's percentage of fault, not joint and several liability. Yolanda is 30% at fault, so she owes 30% of $500,000, or $150,000. Wren bears the risk of Xavier's insolvency.",
+      "whyNot": [
+        "",
+        "Florida's former economic-damages joint-and-several rule was repealed in 2006; liability in negligence actions is now several only.",
+        "Reallocating an insolvent defendant's share to a solvent one is a feature of joint and several liability, which Florida has abolished for negligence actions.",
+        "There is no equal-share rule; liability follows each defendant's percentage of fault."
+      ]
+    },
+    {
+      "id": "fl-torts.q004",
+      "topic": "fl-torts.florida-doctrines",
+      "rules": [
+        "fl-torts.florida-doctrines.dangerous-instrumentality",
+        "fl-torts.florida-doctrines.dangerous-instrumentality-limits"
+      ],
+      "difficulty": 2,
+      "stem": "Zane, an individual, lent his pickup truck to his friend Abel so Abel could move furniture across town. Zane had no reason to think Abel was a careless driver. On the way, Abel detoured to a restaurant Zane had not approved and, while texting, rear-ended Bianca's car, causing her injuries with total damages of $80,000. Bianca sues Zane but not Abel.",
+      "call": "Is Zane liable to Bianca?",
+      "choices": [
+        "No, because Zane was not negligent in lending the truck to Abel.",
+        "No, because Abel's detour to the restaurant exceeded the scope of Zane's permission.",
+        "Yes, because an owner who voluntarily entrusts a motor vehicle to another is vicariously liable for the operator's negligent driving.",
+        "Yes, but only after Bianca obtains an unsatisfied judgment against Abel."
+      ],
+      "answer": 2,
+      "explanation": "Under Florida's dangerous instrumentality doctrine, the owner of a motor vehicle who voluntarily entrusts it to another is vicariously liable for injuries caused by the operator's negligence, with no need to show the owner was at fault. A deviation from the intended purpose or route does not end the owner's liability unless it amounts to theft or conversion. Because Zane is a natural person lending to a permissive user, his liability is capped by § 324.021(9)(b)3. (at $100,000 per person for bodily injury, plus additional economic damages if the driver is underinsured), but Bianca's $80,000 claim is within that limit.",
+      "whyNot": [
+        "Dangerous-instrumentality liability is vicarious; the owner's lack of negligence is irrelevant.",
+        "A detour from the permitted purpose is not theft or conversion, so the owner's consent to Abel's use still supports liability.",
+        "",
+        "The owner's vicarious liability is not secondary; the plaintiff may sue the owner directly without first pursuing the driver."
+      ]
+    },
+    {
+      "id": "fl-torts.q005",
+      "topic": "fl-torts.florida-doctrines",
+      "rules": [
+        "fl-torts.florida-doctrines.transitory-foreign-substance"
+      ],
+      "difficulty": 2,
+      "stem": "Carla slipped on a small puddle of clear liquid in an aisle of a Fresh Basket grocery store in Miami and broke her wrist. At trial she testified that she did not see the liquid before she fell and does not know how long it had been there. The puddle had no footprints, cart tracks or dirt in it, and there was no evidence of earlier spills in that aisle. A store employee had walked the aisle about 20 minutes before the fall and saw nothing. Fresh Basket moves for a directed verdict at the close of Carla's case.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Grant the motion, because Carla offered no evidence that Fresh Basket knew or should have known of the liquid.",
+        "Deny the motion, because a business owes its invitees a nondelegable duty to keep its floors free of hazards.",
+        "Deny the motion, because the burden shifts to the store to prove that it followed reasonable inspection procedures.",
+        "Grant the motion, because a customer who fails to watch where she is walking is barred by her own negligence."
+      ],
+      "answer": 0,
+      "explanation": "Under § 768.0755, a person who slips on a transitory foreign substance in a business establishment must prove the business had actual or constructive knowledge of the condition. Constructive knowledge requires circumstantial evidence that the substance was there long enough that the business should have discovered it, or that such spills occurred with regularity. Carla offered neither: the clean puddle suggests a recent spill, and there is no evidence of prior spills. Without proof of knowledge, a directed verdict is proper.",
+      "whyNot": [
+        "",
+        "The owner's duty is reasonable care, not a guarantee of safety; the statute makes knowledge of the substance an element the plaintiff must prove.",
+        "That burden-shifting approach (Owens v. Publix and former § 768.0710) was displaced by § 768.0755 in 2010; the plaintiff now bears the burden of proving knowledge.",
+        "A customer's inattention is comparative fault that would reduce damages (or bar recovery only if she were more than 50% at fault); it is not an automatic bar."
+      ]
+    },
+    {
+      "id": "fl-torts.q006",
+      "topic": "fl-torts.florida-doctrines",
+      "rules": [
+        "fl-torts.florida-doctrines.champion-exception",
+        "fl-torts.florida-doctrines.impact-rule"
+      ],
+      "difficulty": 3,
+      "stem": "Dalia's 8-year-old son was struck by a negligently driven car while crossing the street in front of their Fort Lauderdale home. Dalia, who was inside, heard the crash and the screech of brakes, ran outside within a minute, and found her son badly hurt. In the weeks that followed she suffered nightmares, crying spells and deep grief, but she developed no physical symptoms or illness and sought no medical treatment. The driver never touched Dalia. She sues the driver for her own emotional distress.",
+      "call": "Can Dalia recover for her emotional distress?",
+      "choices": [
+        "Yes, because she heard the accident and reached the scene immediately, and she is the child's parent.",
+        "No, because without an impact she must show a discernible physical injury or illness caused by the psychic trauma, which she lacks.",
+        "No, because a bystander must actually see the accident occur, not merely hear it.",
+        "Yes, because Florida applies the zone-of-danger test, and she entered the zone when she ran into the street."
+      ],
+      "answer": 1,
+      "explanation": "Florida retains the impact rule. Under the Champion v. Gray exception, a plaintiff without an impact may recover for distress caused by the negligent death or serious injury of a close family member, but only if the distress causes a discernible physical injury or illness, the plaintiff was involved in the event, and the relationship is close. Dalia satisfies the involvement and relationship requirements, but grief, nightmares and crying spells without physical injury or illness do not satisfy Champion.",
+      "whyNot": [
+        "Involvement in the event and a close relationship are necessary but not sufficient; Champion also requires a discernible physical injury or illness.",
+        "",
+        "Champion does not require seeing the accident; a plaintiff who comes upon the scene shortly afterward can be 'involved' in the event.",
+        "Florida does not use the zone-of-danger test for negligent infliction; it uses the impact rule and its exceptions, and entering the street after the accident created no danger to Dalia."
+      ]
+    },
+    {
+      "id": "fl-torts.q007",
+      "topic": "fl-torts.florida-doctrines",
+      "rules": [
+        "fl-torts.florida-doctrines.dram-shop"
+      ],
+      "difficulty": 1,
+      "stem": "Eli, age 35, spent three hours drinking at the Pelican Pier Bar in Destin. By late evening he was slurring his words and stumbling, yet the bartender, who had never seen Eli before that night, served him two more beers. Eli then drove away and crashed into a car driven by Fiona, injuring her. Fiona sues the bar, alleging that it negligently served alcohol to a visibly intoxicated patron.",
+      "call": "Is the bar likely to be held liable?",
+      "choices": [
+        "Yes, because a bar that serves a visibly intoxicated patron is liable for injuries he causes while driving.",
+        "Yes, because serving an intoxicated person is negligence per se.",
+        "No, because Fiona's exclusive remedy is against Eli and his liability insurer.",
+        "No, because a seller is liable for an adult patron's intoxication only if it knowingly served a person habitually addicted to alcohol."
+      ],
+      "answer": 3,
+      "explanation": "Section 768.125 provides that a person who sells or furnishes alcohol to a person of lawful drinking age is not liable for injuries caused by that person's intoxication, except when the seller willfully and unlawfully serves someone under the lawful drinking age or knowingly serves a person habitually addicted to alcohol. Eli was an adult the bartender had never seen before, so there is no basis to find knowing service to a habitual addict. Visible intoxication alone does not create liability in Florida.",
+      "whyNot": [
+        "That is the rule in many dram-shop states, but Florida's statute does not impose liability for serving a visibly intoxicated adult.",
+        "Section 768.125 controls civil liability for furnishing alcohol, and it bars this claim regardless of how the service is characterized.",
+        "Fiona may sue anyone who is liable; the reason the bar escapes liability is the dram-shop statute, not any exclusivity rule.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-torts.q008",
+      "topic": "fl-torts.immunity-and-limits",
+      "rules": [
+        "fl-torts.immunity-and-limits.planning-operational",
+        "fl-torts.immunity-and-limits.sovereign-waiver-caps"
+      ],
+      "difficulty": 2,
+      "stem": "For three weeks, a traffic signal at a busy intersection in Pinewood County flashed green in both directions because of a wiring fault. Several drivers reported the problem to the county's traffic department, which logged the complaints but sent no one to repair the signal. Gina's car was struck in the intersection by a driver who also had a green light. Gina presented a timely written claim, which the county denied, and then sued the county. The county moves to dismiss on the ground of sovereign immunity.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Grant the motion, because decisions about traffic control are discretionary, planning-level functions.",
+        "Grant the motion, because enforcing traffic laws and protecting public safety is conduct for which the government owes no duty.",
+        "Deny the motion, because maintaining an existing traffic signal is an operational function for which the county may be liable.",
+        "Deny the motion, because § 768.28 waives immunity for every act of a county's employees."
+      ],
+      "answer": 2,
+      "explanation": "Section 768.28 waives immunity for torts a private person would be liable for, but planning-level policy decisions remain immune. Under Commercial Carrier and Trianon Park, a decision whether to install a traffic signal is planning-level, but once the government installs a traffic-control device, maintaining it is an operational function (and part of the duty to maintain existing property). Failing to repair a known malfunctioning signal is operational negligence, so immunity does not bar the claim.",
+      "whyNot": [
+        "Only the initial decision whether to install traffic controls is planning-level; maintenance of an existing signal is operational.",
+        "The 'enforcement of laws and protection of public safety' category covers things like police enforcement decisions, not upkeep of physical property the county has built.",
+        "",
+        "Overbroad: planning-level functions remain immune, and the waiver is subject to caps and other limits."
+      ]
+    },
+    {
+      "id": "fl-torts.q009",
+      "topic": "fl-torts.immunity-and-limits",
+      "rules": [
+        "fl-torts.immunity-and-limits.sovereign-waiver-caps"
+      ],
+      "difficulty": 2,
+      "stem": "In 2024 Hank was seriously injured when a City of Bayview garbage truck, negligently driven by a city employee within the scope of his job, ran a stop sign and hit Hank's car. No one else was hurt. After satisfying all presuit requirements, Hank sued the city. The jury awarded $900,000 in compensatory damages and found that the driver's conduct also warranted $250,000 in punitive damages.",
+      "call": "What is the correct disposition?",
+      "choices": [
+        "Judgment may be entered for the $900,000 in compensatory damages, but the city can be required to pay only $200,000; the excess is payable only through a legislative claim bill, and no punitive damages may be awarded.",
+        "Judgment for $1,150,000, all payable by the city, because the jury's findings control.",
+        "Judgment for $300,000, because that is the per-incident cap, plus no punitive damages.",
+        "Judgment for $200,000 in compensatory damages and $250,000 in punitive damages."
+      ],
+      "answer": 0,
+      "explanation": "Under § 768.28(5), the State and its subdivisions are not liable for punitive damages or pre-judgment interest, and for claims arising since October 1, 2011 the government cannot be compelled to pay more than $200,000 to any one person or $300,000 for all claims arising from one incident. A judgment may be entered for the full compensatory amount, but the portion above the cap may be paid only by further act of the Legislature (a claim bill).",
+      "whyNot": [
+        "",
+        "Punitive damages are not recoverable against a governmental entity, and the city cannot be compelled to pay beyond the statutory cap.",
+        "The $300,000 figure is the aggregate cap for all claimants from one incident; the per-person cap of $200,000 limits Hank, the only claimant.",
+        "Punitive damages are excluded entirely under § 768.28(5)."
+      ]
+    },
+    {
+      "id": "fl-torts.q010",
+      "topic": "fl-torts.immunity-and-limits",
+      "rules": [
+        "fl-torts.immunity-and-limits.employee-immunity"
+      ],
+      "difficulty": 1,
+      "stem": "Ivy, a passenger on a Coral County transit bus, was thrown from her seat and injured when the driver braked hard to avoid rear-ending a car. Ivy claims the driver, a county employee on duty, was following too closely. There is no evidence that the driver acted in bad faith, with malicious purpose, or with wanton and willful disregard of safety. Ivy sues the driver personally and does not name the county.",
+      "call": "Should the claim against the driver be dismissed?",
+      "choices": [
+        "No, because every person is personally liable for his or her own negligence.",
+        "Yes, because a county employee is not personally liable for negligence within the scope of employment; Ivy's remedy is an action against the county.",
+        "No, because the county is immune, so the employee must answer personally.",
+        "Yes, because a passenger on public transit assumes the risk of sudden stops."
+      ],
+      "answer": 1,
+      "explanation": "Under § 768.28(9)(a), an officer, employee or agent of the State or its subdivisions may not be held personally liable or named as a defendant for acts within the scope of employment unless the employee acted in bad faith, with malicious purpose, or with wanton and willful disregard of human rights, safety or property. Ordinary negligence by an on-duty bus driver falls within the immunity; the exclusive remedy is a claim against the county, subject to § 768.28's notice requirements and caps.",
+      "whyNot": [
+        "Section 768.28(9)(a) displaces the common-law rule of personal liability for government employees acting within the scope of employment without bad faith or malice.",
+        "",
+        "The county's immunity is waived for operational negligence like driving a bus; the employee's immunity is the reason the employee is not the proper defendant.",
+        "Florida has merged implied assumption of risk into comparative fault; it is not a basis for dismissal here."
+      ]
+    },
+    {
+      "id": "fl-torts.q011",
+      "topic": "fl-torts.immunity-and-limits",
+      "rules": [
+        "fl-torts.immunity-and-limits.limitations-periods",
+        "fl-torts.negligence-and-fault.modified-comparative-fault"
+      ],
+      "difficulty": 3,
+      "stem": "On February 10, 2023, Jorge tripped on a broken floor tile in a Jacksonville hardware store and injured his back, and he has been in treatment ever since. The store had known about the broken tile for weeks. Jorge filed a negligence action against the store on January 15, 2026. The store moves for summary judgment, arguing that the action is barred by the statute of limitations.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Grant the motion, because a negligence action must be commenced within 2 years after the injury.",
+        "Grant the motion, because the 2-year limitations period applies to every negligence action filed after March 24, 2023.",
+        "Deny the motion, because the former 4-year period governs a negligence claim that accrued before March 24, 2023.",
+        "Deny the motion, because premises-liability claims are governed by a separate 5-year period for injuries on real property."
+      ],
+      "answer": 2,
+      "explanation": "HB 837 shortened the limitations period for negligence actions from 4 years to 2, but that change applies only to causes of action accruing after March 24, 2023. Jorge's claim accrued on February 10, 2023, so the former 4-year period applies, and his January 2026 filing is timely. Note the contrast: because Jorge filed after March 24, 2023, the new modified comparative-fault rule will govern the apportionment of fault at trial.",
+      "whyNot": [
+        "The 2-year period applies only to negligence claims that accrued after March 24, 2023.",
+        "This confuses the two effective-date rules: the limitations change turns on when the claim accrued, not when the suit was filed.",
+        "",
+        "There is no special 5-year period for premises-liability personal-injury claims; they are negligence actions."
+      ]
+    },
+    {
+      "id": "fl-torts.q012",
+      "topic": "fl-torts.immunity-and-limits",
+      "rules": [
+        "fl-torts.immunity-and-limits.punitive-pleading"
+      ],
+      "difficulty": 2,
+      "stem": "Kendra was struck in a parking lot by a forklift operated by an employee of Gulfway Distributors. Her original complaint against Gulfway included a count for punitive damages alleging that Gulfway's managers knew the operator had never been trained. With the complaint she served interrogatories asking for Gulfway's net worth and annual profits. Gulfway moves to strike the punitive-damages count and for a protective order against the financial discovery.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Deny both motions, because the complaint alleges facts showing gross negligence by management.",
+        "Deny the motion to strike, but grant a protective order delaying the financial discovery until trial.",
+        "Grant the motion to strike, but allow the financial discovery so that Kendra can prepare her proffer.",
+        "Grant both motions, because punitive damages may be pleaded only with leave of court after a record or proffered showing, and financial-worth discovery must wait until the claim is permitted."
+      ],
+      "answer": 3,
+      "explanation": "Section 768.72(1) bars any claim for punitive damages unless the claimant makes a reasonable showing, by evidence in the record or proffered, that provides a reasonable basis for recovery, and the claim is added by a motion for leave to amend. Allegations in an original complaint are not enough. No discovery of financial worth may proceed until the court permits the punitive-damages pleading. Both of Gulfway's motions should be granted; Kendra may later move to amend with a proper proffer.",
+      "whyNot": [
+        "Allegations alone do not satisfy § 768.72; the claimant needs leave of court based on record evidence or a proffer.",
+        "The punitive count itself is improper in the original complaint, so the motion to strike should be granted.",
+        "Financial-worth discovery is barred until the court allows the punitive claim; it is not a tool for building the proffer.",
+        ""
+      ]
+    },
+    {
+      "id": "fl-torts.q013",
+      "topic": "fl-torts.intentional-and-other",
+      "rules": [
+        "fl-torts.intentional-and-other.medical-malpractice-presuit",
+        "fl-torts.negligence-and-fault.modified-comparative-fault"
+      ],
+      "difficulty": 2,
+      "stem": "Lorenzo had surgery in Tampa in 2024. After discharge he ignored his surgeon's written instructions, skipped most follow-up visits and resumed heavy lifting. An infection developed, and the surgeon negligently failed to diagnose it at the one follow-up visit Lorenzo attended. After completing the chapter 766 presuit process, Lorenzo sued the surgeon in 2025. The jury found Lorenzo's damages to be $400,000, two-thirds of which are noneconomic, and assigned 60% of the fault to Lorenzo and 40% to the surgeon.",
+      "call": "What judgment should be entered?",
+      "choices": [
+        "Judgment for Lorenzo for $160,000.",
+        "Judgment for the surgeon, because a plaintiff more than 50% at fault recovers nothing.",
+        "Judgment for Lorenzo for $400,000, because a patient's own negligence is not a defense to medical malpractice.",
+        "Judgment for Lorenzo for $160,000, further reduced by applying the statutory cap on noneconomic damages in medical-negligence cases."
+      ],
+      "answer": 0,
+      "explanation": "The 2023 greater-than-50% bar in § 768.81(6) expressly does not apply to personal-injury or wrongful-death actions arising from medical negligence under chapter 766, which remain under pure comparative fault. Lorenzo's $400,000 is reduced by his 60% share, leaving $160,000. The medical-malpractice caps on noneconomic damages were held unconstitutional (McCall; Kalitan), so no further reduction applies.",
+      "whyNot": [
+        "",
+        "The modified comparative-fault bar excludes medical-negligence actions.",
+        "A patient's comparative negligence does reduce recovery in a malpractice action; it simply does not bar it.",
+        "The Florida Supreme Court held the § 766.118 noneconomic-damages caps unconstitutional, so they do not reduce the award."
+      ]
+    },
+    {
+      "id": "fl-torts.q014",
+      "topic": "fl-torts.intentional-and-other",
+      "rules": [
+        "fl-torts.intentional-and-other.design-defect-test",
+        "fl-torts.intentional-and-other.products-strict-liability"
+      ],
+      "difficulty": 2,
+      "stem": "Mira was burned when a space heater manufactured by Tropiq Corp. tipped over and ignited her sofa; the heater had no automatic shut-off when tipped. She sued Tropiq in strict liability for defective design. Her expert testified that ordinary consumers expect a modern space heater not to start a fire when knocked over during normal household use, but the expert did not describe any specific alternative design. At the close of Mira's case, Tropiq moves for a directed verdict, arguing that she failed to prove a reasonable alternative design.",
+      "call": "How should the court rule?",
+      "choices": [
+        "Grant the motion, because proof of a reasonable alternative design is an element of every design-defect claim.",
+        "Grant the motion, because a design-defect claim may be brought only in negligence, not strict liability.",
+        "Deny the motion, because Florida allows a design defect to be proved under the consumer-expectations test without proof of a reasonable alternative design.",
+        "Deny the motion, because a manufacturer is absolutely liable for any injury its product causes."
+      ],
+      "answer": 2,
+      "explanation": "Florida recognizes strict products liability (West v. Caterpillar). In Aubin v. Union Carbide, the Florida Supreme Court held that a design defect may be established under the consumer-expectations test — the product did not perform as safely as an ordinary consumer would expect when used as intended or in a reasonably foreseeable way — and rejected the Restatement (Third) requirement that the plaintiff prove a reasonable alternative design. Mira's evidence is sufficient to reach the jury.",
+      "whyNot": [
+        "That is the Restatement (Third) approach, which Aubin rejected.",
+        "Florida permits design-defect claims in strict liability as well as negligence.",
+        "",
+        "Strict liability is not absolute liability; the plaintiff must still prove a defect that made the product unreasonably dangerous and causation, and comparative fault applies."
+      ]
+    },
+    {
+      "id": "fl-torts.q015",
+      "topic": "fl-torts.wrongful-death",
+      "rules": [
+        "fl-torts.wrongful-death.survivor-damages",
+        "fl-torts.wrongful-death.action-and-parties"
+      ],
+      "difficulty": 2,
+      "stem": "Nolan, age 62, was killed when a negligently maintained elevator fell in a Miami office building. He is survived by his wife, Opal; his son, Pierce, age 30, who lives independently and received no support from Nolan; and his daughter, Quinn, age 22, a full-time student whom Nolan supported. The personal representative of Nolan's estate sues the building owner for wrongful death.",
+      "call": "Which survivors may recover damages for their mental pain and suffering?",
+      "choices": [
+        "Opal only, because children recover non-economic damages only if there is no surviving spouse.",
+        "Opal and Quinn, but not Pierce.",
+        "Opal, Pierce and Quinn, because every child of the decedent may recover for mental pain and suffering.",
+        "Quinn only, because a surviving spouse recovers only lost support and services."
+      ],
+      "answer": 1,
+      "explanation": "Under § 768.21, the surviving spouse may recover for loss of companionship and protection and for mental pain and suffering. Minor children — defined in § 768.18 as children under 25 — may recover for lost parental companionship, instruction and guidance and for mental pain and suffering; adult children recover those damages only if there is no surviving spouse. Quinn (22) is a 'minor child' under the Act; Pierce (30) is an adult child and Opal survives, so he may not recover pain-and-suffering damages.",
+      "whyNot": [
+        "The 'no surviving spouse' condition applies only to adult children; children under 25 recover even when a spouse survives.",
+        "",
+        "Adult children (25 or older) recover these damages only when there is no surviving spouse.",
+        "The surviving spouse expressly may recover for companionship, protection and mental pain and suffering, in addition to support and services."
+      ]
+    }
+  ]
+}

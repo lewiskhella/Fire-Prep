@@ -1,0 +1,516 @@
+{
+ "subject": "fl-evidence",
+ "topics": [
+  {
+   "id": "fl-evidence.relevance-and-character",
+   "title": "Relevance, character and similar-fact evidence",
+   "weight": 3,
+   "exams": [
+    "FL"
+   ],
+   "intro": "Florida's relevance and character provisions follow the Federal Rules in structure but differ in testable details: section 90.403 is phrased as a mandatory exclusion, character may be proved only by reputation, and other-act evidence is governed by the Williams rule as codified in section 90.404(2). Expect a question that turns on whether collateral-crime evidence proves a material fact or only propensity.",
+   "rules": [
+    {
+     "id": "fl-evidence.relevance-and-character.relevance",
+     "title": "Relevance and admissibility",
+     "weight": 2,
+     "rule": "Relevant evidence is evidence tending to prove or disprove a material fact. All relevant evidence is admissible except as provided by law, and irrelevant evidence is inadmissible.",
+     "tip": "Tie the evidence to a fact actually in issue. An answer that admits evidence because it is 'helpful background' without linking it to a material fact is usually wrong.",
+     "authority": "Fla. Stat. §§ 90.401–.402"
+    },
+    {
+     "id": "fl-evidence.relevance-and-character.unfair-prejudice",
+     "title": "Exclusion for unfair prejudice and confusion",
+     "weight": 3,
+     "rule": "Relevant evidence is inadmissible if its probative value is substantially outweighed by the danger of unfair prejudice, confusion of issues, misleading the jury, or needless presentation of cumulative evidence.",
+     "split": "FRE 403 says the court 'may exclude' and also lists undue delay and wasting time. Florida's text says the evidence 'is inadmissible' once the balance is struck and does not list delay or waste of time as separate grounds. The balance still favors admission, because the danger must substantially outweigh probative value.",
+     "tip": "Gruesome photographs are the classic section 90.403 fact pattern. They come in if relevant to a disputed issue such as cause of death, the nature of the wounds or identity, even though they are unpleasant.",
+     "trap": "Evidence is not excluded just because it hurts the opponent's case. 'Unfair' prejudice means a tendency to prompt a decision on an improper, usually emotional, basis.",
+     "authority": "Fla. Stat. § 90.403"
+    },
+    {
+     "id": "fl-evidence.relevance-and-character.character-generally",
+     "title": "Character evidence: general bar and exceptions",
+     "weight": 3,
+     "rule": "Evidence of a person's character or character trait is inadmissible to prove that the person acted in conformity with it on a particular occasion, subject to narrow exceptions for the accused, the victim and witnesses.",
+     "exceptions": [
+      "The accused may offer evidence of a pertinent trait of his or her own character, and the prosecution may rebut it.",
+      "The accused may offer evidence of a pertinent trait of the victim's character, and the prosecution may rebut it (subject to the rape-shield statute, section 794.022, in sexual-offense cases).",
+      "In a homicide case, the prosecution may offer evidence of the victim's peaceful character to rebut evidence that the victim was the first aggressor.",
+      "A witness's character for truthfulness may be shown as provided in sections 90.608–.610."
+     ],
+     "split": "FRE 404(a)(2)(B)(ii) lets the prosecution answer an attack on the victim's character with evidence of the same trait in the accused. Florida's section 90.404(1) contains no counterpart, so attacking the victim's character does not by itself open the door to the defendant's character for the same trait.",
+     "tip": "In a self-defense case, separate two theories. The victim's reputation for violence, offered to show who was the aggressor, is character evidence under section 90.404(1)(b). Specific violent acts of the victim that the defendant knew about, offered to show why the defendant's fear was reasonable, are not character evidence at all; they go to the defendant's state of mind.",
+     "authority": "Fla. Stat. § 90.404(1)"
+    },
+    {
+     "id": "fl-evidence.relevance-and-character.method-of-proof",
+     "title": "Proving character: reputation only",
+     "weight": 3,
+     "rule": "When character evidence is admissible, it may be proved by testimony about the person's reputation. Specific instances of conduct may be used only when a character trait is an essential element of a charge, claim or defense.",
+     "split": "FRE 405(a) permits reputation or opinion testimony. Florida's section 90.405 authorizes reputation testimony only, so a character witness may not give a personal opinion of the defendant's character.",
+     "tip": "A reputation witness must know the person's reputation in a relevant community, such as where the person lives or works, that is large and familiar enough for a reputation to have formed.",
+     "trap": "Character is an 'essential element' only in a narrow set of cases, such as negligent entrustment or defamation where truth is a defense. A defendant's claim of good character in an ordinary criminal case does not make specific good deeds admissible.",
+     "authority": "Fla. Stat. § 90.405"
+    },
+    {
+     "id": "fl-evidence.relevance-and-character.williams-rule",
+     "title": "Williams-rule similar-fact evidence",
+     "weight": 3,
+     "rule": "Similar-fact evidence of other crimes, wrongs or acts is admissible when relevant to prove a material fact in issue, such as motive, opportunity, intent, preparation, plan, knowledge, identity, or absence of mistake or accident. It is inadmissible when relevant solely to prove bad character or propensity.",
+     "elements": [
+      "The collateral act is relevant to a material fact genuinely in dispute, not merely to propensity.",
+      "The State proves by clear and convincing evidence that the defendant committed the collateral act.",
+      "Probative value is not substantially outweighed by unfair prejudice under section 90.403, and the collateral act does not become a 'feature' of the trial.",
+      "In a criminal case, the State furnishes the defendant, no fewer than 10 days before trial, a written statement of the acts it intends to offer, described with the particularity required of a charging document.",
+      "When the evidence is received, the court on request instructs the jury on its limited purpose; after the close of the evidence, the jury must be instructed on that limited purpose and told that the defendant cannot be convicted of a charge not included in the indictment or information."
+     ],
+     "split": "The concept matches FRE 404(b), but Florida case law adds requirements the federal rule lacks: proof of the collateral act by clear and convincing evidence (federal courts need only evidence sufficient for a jury to find it, under Huddleston), and a bar on using a crime of which the defendant was acquitted (federal courts may admit it, under Dowling).",
+     "tip": "When the State offers a collateral crime to prove identity, the charged and collateral crimes must share identifiable points of similarity so unusual that they work like a fingerprint. Generic features such as a handgun, a mask or a nighttime robbery are not enough. Florida courts treat the wrongful admission of collateral-crime evidence as presumptively harmful, subject to harmless-error review.",
+     "trap": "The rule cuts both ways: a defendant may offer 'reverse Williams-rule' evidence that another person committed similar crimes, to show that person committed the charged offense. The same relevance and similarity standards apply.",
+     "authority": "Fla. Stat. § 90.404(2)(a), (d); Williams v. State, 110 So. 2d 654 (Fla. 1959); State v. Perkins, 349 So. 2d 161 (Fla. 1977)"
+    },
+    {
+     "id": "fl-evidence.relevance-and-character.sexual-offense-propensity",
+     "title": "Child molestation and sexual offenses: propensity allowed",
+     "weight": 2,
+     "rule": "In a criminal case in which the defendant is charged with child molestation, evidence that the defendant committed other acts of child molestation is admissible and may be considered for its bearing on any matter to which it is relevant, including propensity. The same rule applies to other sexual offenses when the defendant is charged with a sexual offense.",
+     "elements": [
+      "The State must prove the collateral act by clear and convincing evidence.",
+      "The court must still weigh the evidence under section 90.403, considering the similarity of the acts, their closeness in time, their frequency and any intervening circumstances.",
+      "The 10-day written notice and limiting-instruction provisions of section 90.404(2)(d) apply."
+     ],
+     "split": "This parallels FRE 413 and 414. Florida's provisions are limited to criminal cases; there is no counterpart to FRE 415 for civil cases, where other acts must qualify under the ordinary Williams-rule analysis.",
+     "tip": "The Florida Supreme Court upheld the child-molestation provision on the understanding that trial courts perform a careful section 90.403 analysis so the collateral acts do not overwhelm the trial.",
+     "authority": "Fla. Stat. § 90.404(2)(b)–(c); McLean v. State, 934 So. 2d 1248 (Fla. 2006)"
+    },
+    {
+     "id": "fl-evidence.relevance-and-character.routine-practice",
+     "title": "Routine practice of an organization",
+     "weight": 1,
+     "rule": "Evidence of the routine practice of an organization, whether or not corroborated and regardless of eyewitnesses, is admissible to prove that the organization acted in conformity with that practice on a particular occasion.",
+     "split": "FRE 406 covers both an individual's habit and an organization's routine practice. Florida's section 90.406 speaks only of an organization's routine practice; an individual's habit is left to general relevance principles and case law, so do not assume the federal habit rule applies automatically.",
+     "trap": "Routine practice means a regular, nearly automatic response to a recurring situation ('every outgoing notice goes in the mail room bin by 4 p.m.'), not a general tendency to be careful.",
+     "authority": "Fla. Stat. § 90.406"
+    },
+    {
+     "id": "fl-evidence.relevance-and-character.policy-exclusions",
+     "title": "Remedial measures, compromise, medical payments, sympathy and pleas",
+     "weight": 2,
+     "rule": "Florida excludes several kinds of relevant evidence for policy reasons: subsequent remedial measures offered to prove negligence, the existence of a product defect, or culpable conduct; offers to compromise, and statements made in negotiations, offered to prove liability or the value of a claim; offers or payment of medical expenses offered to prove liability; statements or gestures expressing sympathy about an accident, in a civil action; and withdrawn guilty pleas, nolo contendere pleas and offers to plead, together with statements made in connection with them.",
+     "exceptions": [
+      "Remedial measures may be admitted for another purpose, such as ownership, control, feasibility of precautions if disputed, or impeachment.",
+      "A statement of fault made together with an expression of sympathy is not protected by section 90.4026 and may be admitted as a party admission.",
+      "Statements made in connection with pleas are admissible in a prosecution for perjury or false statement under chapter 837."
+     ],
+     "split": "Florida's benevolent-gesture statute, section 90.4026, has no counterpart in the Federal Rules. Florida's plea rule bars the listed pleas and offers 'in any civil or criminal proceeding.'",
+     "tip": "Separate the sympathy from the fault: 'I'm so sorry you were hurt' is excluded in a civil case; 'I'm sorry, I ran the red light' is admissible as to the fault portion.",
+     "authority": "Fla. Stat. §§ 90.407, 90.408, 90.409, 90.4026, 90.410"
+    }
+   ]
+  },
+  {
+   "id": "fl-evidence.witnesses-and-impeachment",
+   "title": "Witnesses and impeachment",
+   "weight": 3,
+   "exams": [
+    "FL"
+   ],
+   "intro": "Impeachment is one of the most heavily tested Florida evidence areas because the Code departs sharply from the Federal Rules. Character for truthfulness is proved by reputation only, specific bad acts are off limits, and impeachment by prior conviction is mechanical and usually limited to the number of convictions. Know the five methods in section 90.608 and the foundation each requires.",
+   "rules": [
+    {
+     "id": "fl-evidence.witnesses-and-impeachment.competency",
+     "title": "Competency, personal knowledge and oath",
+     "weight": 1,
+     "rule": "Every person is competent to testify unless the court finds the person incapable of expressing himself or herself about the matter so as to be understood, or incapable of understanding the duty to tell the truth. A lay witness must have personal knowledge, and every witness must take an oath or affirmation.",
+     "exceptions": [
+      "In the court's discretion, a child may testify without taking the oath if the court finds that the child understands the duty to tell the truth or the duty not to lie."
+     ],
+     "split": "Florida repealed its Dead Man's Statute (formerly section 90.602) in 2005, so an interested survivor may testify about transactions with a decedent, subject to the ordinary hearsay and credibility rules. Some states still keep such statutes.",
+     "authority": "Fla. Stat. §§ 90.601, 90.603, 90.604, 90.605"
+    },
+    {
+     "id": "fl-evidence.witnesses-and-impeachment.impeachment-methods",
+     "title": "The five methods of impeachment",
+     "weight": 3,
+     "rule": "Any party, including the party calling the witness, may attack a witness's credibility by (1) prior inconsistent statements, (2) showing bias, (3) attacking character for truthfulness as permitted by sections 90.609 and 90.610, (4) showing a defect of capacity, ability or opportunity to observe, remember or recount, or (5) proof by other witnesses that material facts are not as the witness testified.",
+     "mnemonic": {
+      "cue": "Please Bring Coffee, Don't Complain",
+      "stands": "Prior inconsistent statement, Bias, Character for truthfulness, Defect in capacity, Contradiction by other witnesses"
+     },
+     "tip": "Bias, interest and motive are never collateral, so extrinsic evidence of them is admissible. Contradiction on a collateral matter must be taken as the witness gives it, without extrinsic proof.",
+     "trap": "Although a party may impeach its own witness, Florida courts do not allow a party to call a witness primarily to put an otherwise inadmissible prior inconsistent statement before the jury under the label of impeachment.",
+     "authority": "Fla. Stat. § 90.608"
+    },
+    {
+     "id": "fl-evidence.witnesses-and-impeachment.prior-inconsistent-statements",
+     "title": "Prior inconsistent statements: foundation and use",
+     "weight": 3,
+     "rule": "Extrinsic evidence of a witness's prior inconsistent statement is inadmissible unless the witness is first given the opportunity to explain or deny it (after being told the circumstances of the statement, including to whom it was made) and the opposing party may examine the witness about it, or the interests of justice otherwise require. Extrinsic evidence is admissible only if the witness denies or does not distinctly admit making the statement.",
+     "exceptions": [
+      "The foundation requirement does not apply to admissions of a party-opponent under section 90.803(18).",
+      "A prior inconsistent statement is substantive evidence, not hearsay, only if the declarant testifies, is subject to cross-examination, and the statement was given under oath subject to the penalty of perjury at a trial, hearing or other proceeding or in a deposition."
+     ],
+     "split": "FRE 613(b) lets the foundation be laid before or after the extrinsic evidence, as long as the witness eventually has a chance to explain or deny. Florida requires the confrontation first, and if the witness admits the statement, extrinsic proof is excluded.",
+     "tip": "Florida courts read 'other proceeding' narrowly: a sworn statement given during a police interrogation does not qualify (State v. Delgado-Santos, 497 So. 2d 1199 (Fla. 1986)), so it can be used only to impeach.",
+     "trap": "An unsworn statement to police is not substantive evidence, even if written and signed. It shows only that the witness has said different things.",
+     "authority": "Fla. Stat. §§ 90.614, 90.801(2)(a)"
+    },
+    {
+     "id": "fl-evidence.witnesses-and-impeachment.truthfulness-character",
+     "title": "Character for truthfulness: reputation only, no specific acts",
+     "weight": 3,
+     "rule": "A party may attack or support a witness's credibility by reputation evidence, but the evidence may refer only to character for truthfulness, and evidence of truthful character is admissible only after the witness's character for truthfulness has been attacked by reputation evidence.",
+     "split": "Florida departs from FRE 608 in two ways. Opinion testimony about truthfulness is not permitted, and Florida has no counterpart to FRE 608(b): a witness may not be cross-examined about specific instances of dishonest conduct, such as lying on a job application, that did not result in a qualifying conviction.",
+     "tip": "Rehabilitation with good-character evidence requires an attack by reputation. Impeachment by bias or prior inconsistent statement does not open the door to evidence of truthful character.",
+     "trap": "The choice 'permitted, because the act is probative of untruthfulness' states the federal rule. In Florida it is wrong.",
+     "authority": "Fla. Stat. § 90.609"
+    },
+    {
+     "id": "fl-evidence.witnesses-and-impeachment.prior-convictions",
+     "title": "Impeachment by prior conviction",
+     "weight": 3,
+     "rule": "Any witness, including the accused, may be impeached with a conviction for a crime punishable by death or imprisonment exceeding one year under the law of the convicting jurisdiction, or for any crime involving dishonesty or false statement regardless of punishment.",
+     "exceptions": [
+      "In a civil trial, a conviction so remote in time that it has no bearing on the witness's present character is inadmissible.",
+      "Juvenile adjudications are inadmissible for this purpose.",
+      "A pending appeal or a pardon does not make the conviction inadmissible, though the pendency of an appeal may be shown.",
+      "A 'conviction' means an adjudication of guilt or judgment of conviction by the trial court, so a guilty or no-contest plea followed by a withhold of adjudication does not qualify."
+     ],
+     "split": "FRE 609 requires a balancing test before admitting felony convictions (stricter when the witness is the accused), presumptively excludes convictions more than ten years old, and excludes certain pardoned convictions. Florida has no balancing test, no ten-year rule in criminal cases, and does not exclude pardoned convictions.",
+     "tip": "Method matters. The examiner asks whether the witness has been convicted of a felony or a crime of dishonesty and, if so, how many times. If the witness answers truthfully, the inquiry ends; the names and facts of the crimes may not be brought out unless the witness opens the door. If the witness denies or understates the number, the opponent may prove the convictions with certified copies of the judgments.",
+     "trap": "A misdemeanor qualifies only if it involves dishonesty or false statement. Florida treats theft, including petit theft, as a crime of dishonesty; simple battery or DUI does not qualify.",
+     "authority": "Fla. Stat. § 90.610; State v. McFadden, 772 So. 2d 1209 (Fla. 2000)"
+    },
+    {
+     "id": "fl-evidence.witnesses-and-impeachment.prior-consistent-and-identification",
+     "title": "Prior consistent statements and prior identifications",
+     "weight": 2,
+     "rule": "A testifying witness's prior consistent statement is not hearsay when offered to rebut an express or implied charge of improper influence, motive or recent fabrication, but only if it was made before the alleged motive to fabricate arose. A statement identifying a person, made after perceiving that person, is also not hearsay if the declarant testifies and is subject to cross-examination about it.",
+     "split": "Since 2014, FRE 801(d)(1)(B)(ii) also admits a prior consistent statement to rehabilitate a witness attacked on another ground, such as faulty memory. Florida's section 90.801(2)(b) keeps only the fabrication or improper-motive ground.",
+     "trap": "A prior consistent statement may not be used simply to bolster a witness who has not been impeached; that is improper bolstering.",
+     "authority": "Fla. Stat. § 90.801(2)(b)–(c)"
+    },
+    {
+     "id": "fl-evidence.witnesses-and-impeachment.examination-of-witnesses",
+     "title": "Scope of cross, leading questions and refreshing recollection",
+     "weight": 2,
+     "rule": "Cross-examination is limited to the subject matter of direct and matters affecting credibility, though the court may permit inquiry into additional matters. Leading questions are generally not allowed on direct examination but are allowed on cross and when a party calls a hostile witness, an adverse party, or a witness identified with an adverse party.",
+     "tip": "When a witness uses a writing or other item to refresh memory while testifying, the adverse party may have it produced, inspect it, cross-examine on it, and introduce the portions that relate to the testimony. The writing is not evidence for the party who used it to refresh; contrast past recollection recorded under section 90.803(5).",
+     "authority": "Fla. Stat. §§ 90.612, 90.613"
+    }
+   ]
+  },
+  {
+   "id": "fl-evidence.experts",
+   "title": "Lay and expert opinion",
+   "weight": 2,
+   "exams": [
+    "FL"
+   ],
+   "intro": "Florida now applies the Daubert reliability standard to all expert testimony, after several years of conflict between the Legislature and the Florida Supreme Court over Frye. Lay opinion is more restricted than under the Federal Rules, and a learned treatise may be used only to cross-examine an expert, never as substantive evidence.",
+   "rules": [
+    {
+     "id": "fl-evidence.experts.lay-opinion",
+     "title": "Lay opinion",
+     "weight": 2,
+     "rule": "A lay witness may testify in the form of inference and opinion only if (1) the witness cannot readily, and with equal accuracy and adequacy, communicate what he or she perceived without using inferences or opinions, and their use will not mislead the trier of fact to the prejudice of the objecting party; and (2) the opinions do not require special knowledge, skill, experience or training.",
+     "split": "FRE 701 asks whether the opinion is rationally based on perception, helpful, and not based on specialized knowledge. Florida's test starts from a preference for facts: the opinion is allowed only when the witness cannot convey the perception as well without it.",
+     "tip": "Typical permissible lay opinions: speed, intoxication, identity, emotional state and general appearance. No witness, lay or expert, may say that another witness is telling the truth or that the defendant is guilty.",
+     "authority": "Fla. Stat. § 90.701"
+    },
+    {
+     "id": "fl-evidence.experts.daubert-standard",
+     "title": "Expert testimony: the Daubert standard",
+     "weight": 3,
+     "rule": "A witness qualified as an expert by knowledge, skill, experience, training or education may testify in the form of an opinion if scientific, technical or other specialized knowledge will assist the trier of fact and (1) the testimony is based on sufficient facts or data, (2) it is the product of reliable principles and methods, and (3) the witness has applied those principles and methods reliably to the facts of the case.",
+     "elements": [
+      "Qualification of the witness",
+      "Specialized knowledge that will assist the trier of fact",
+      "Sufficient facts or data",
+      "Reliable principles and methods",
+      "Reliable application of those methods to the facts"
+     ],
+     "split": "Florida followed Frye (general acceptance in the relevant scientific community) for decades. The Legislature amended section 90.702 to adopt Daubert in 2013. The Florida Supreme Court first declined to adopt the amendment as a rule and, in DeLisle v. Crane Co. (2018), held it an unconstitutional intrusion on the Court's rulemaking power; in 2019 the Court reversed course and adopted the Daubert amendment as a rule of court. Under Frye, 'pure opinion' based on an expert's own experience escaped scrutiny; under Daubert and Kumho Tire, every expert opinion, scientific or not, must pass the reliability gate.",
+     "tip": "'Generally accepted in the relevant scientific community' is the Frye test. Under Daubert it is only one reliability factor, alongside testing, peer review and publication, and the known or potential error rate.",
+     "trap": "Do not argue that an experience-based opinion is exempt from the gatekeeping inquiry because it is 'pure opinion'; that exemption belonged to the Frye era.",
+     "authority": "Fla. Stat. § 90.702; DeLisle v. Crane Co., 258 So. 3d 1219 (Fla. 2018); In re Amendments to the Florida Evidence Code, 278 So. 3d 551 (Fla. 2019)"
+    },
+    {
+     "id": "fl-evidence.experts.bases-of-opinion",
+     "title": "Bases of expert opinion and disclosure",
+     "weight": 2,
+     "rule": "An expert may base an opinion on facts or data perceived by or made known to the expert at or before trial; if they are of a type reasonably relied on by experts in the field, they need not be admissible in evidence. The proponent may not disclose otherwise inadmissible underlying facts to the jury unless the court finds that their probative value in helping the jury evaluate the opinion substantially outweighs their prejudicial effect.",
+     "exceptions": [
+      "An expert may give an opinion without first testifying to the underlying facts unless the court requires otherwise, but may be required to disclose them on cross-examination.",
+      "Before the opinion is given, the opposing party may conduct a voir dire examination on whether the expert has a sufficient basis; if not, the opinion is inadmissible unless the party offering it establishes the underlying facts."
+     ],
+     "trap": "An expert may not serve as a conduit for hearsay, for example by reading a non-testifying doctor's conclusions to the jury on direct examination.",
+     "authority": "Fla. Stat. §§ 90.704, 90.705"
+    },
+    {
+     "id": "fl-evidence.experts.ultimate-issue",
+     "title": "Opinion on an ultimate issue",
+     "weight": 1,
+     "rule": "Testimony in the form of an opinion or inference that is otherwise admissible is not objectionable because it includes an ultimate issue to be decided by the trier of fact.",
+     "split": "Florida's section 90.703 has no counterpart to FRE 704(b), which bars an expert from stating whether a criminal defendant had the mental state constituting an element. Florida courts still exclude opinions that merely tell the jury what result to reach, opinions on guilt, legal conclusions, and opinions on another witness's credibility.",
+     "trap": "An expert may describe characteristics commonly seen in abused children but may not testify that a particular child is telling the truth.",
+     "authority": "Fla. Stat. § 90.703"
+    },
+    {
+     "id": "fl-evidence.experts.learned-treatise",
+     "title": "Learned treatises: impeachment only",
+     "weight": 2,
+     "rule": "Statements in a published treatise, periodical or similar writing on a subject of science, art or specialized knowledge may be used to cross-examine an expert if the expert recognizes the author or work as authoritative or, despite nonrecognition, the court finds it authoritative and relevant.",
+     "split": "FRE 803(18) makes a learned treatise substantive evidence (read into the record, not received as an exhibit) once its reliability is established. Florida has no learned-treatise hearsay exception: the treatise may be used only to impeach an expert on cross-examination, not to prove the truth of its contents.",
+     "trap": "Reading a treatise passage during direct examination of your own expert is hearsay and improper bolstering in Florida.",
+     "authority": "Fla. Stat. § 90.706"
+    }
+   ]
+  },
+  {
+   "id": "fl-evidence.hearsay",
+   "title": "Hearsay and exceptions",
+   "weight": 3,
+   "exams": [
+    "FL"
+   ],
+   "intro": "Hearsay is the most tested Florida evidence topic. The structure follows the Federal Rules, but Florida treats party admissions as an exception rather than 'not hearsay', has no residual exception, broadens the dying declaration, and adds a detailed child-victim exception. In a criminal case every hearsay answer must also clear the Confrontation Clause.",
+   "rules": [
+    {
+     "id": "fl-evidence.hearsay.definition",
+     "title": "Definition of hearsay",
+     "weight": 3,
+     "rule": "Hearsay is a statement, other than one made by the declarant while testifying at the trial or hearing, offered to prove the truth of the matter asserted. A 'statement' is an oral or written assertion, or nonverbal conduct intended as an assertion. Hearsay is inadmissible except as provided by statute.",
+     "exceptions": [
+      "Verbal acts with independent legal significance, such as words of offer and acceptance or defamatory words, are not hearsay.",
+      "A statement offered to show its effect on the listener (notice, knowledge, or the reasonableness of the listener's fear) is not hearsay.",
+      "A statement offered only to impeach is not offered for its truth.",
+      "Hearsay within hearsay is admissible only if each layer satisfies an exception (section 90.805)."
+     ],
+     "split": "Florida has no residual or catch-all exception like FRE 807; a statement must fit a specific statutory exception or it is excluded.",
+     "tip": "Florida appellate courts often reverse when an officer repeats the content of a tip or dispatch accusing the defendant 'to explain the investigation.' If the statement's only real relevance is its truth, it is hearsay.",
+     "authority": "Fla. Stat. §§ 90.801(1), 90.802, 90.805"
+    },
+    {
+     "id": "fl-evidence.hearsay.admissions",
+     "title": "Admissions: a Florida hearsay exception",
+     "weight": 3,
+     "rule": "A statement offered against a party is admissible if it is the party's own statement; a statement the party adopted or manifested belief in; a statement by a person the party authorized to speak on the subject; a statement by the party's agent or servant concerning a matter within the scope of the agency or employment, made during the relationship; or a statement by the party's co-conspirator during the course, and in furtherance, of the conspiracy.",
+     "split": "Two Florida differences. First, admissions are an exception under section 90.803(18), whereas FRE 801(d)(2) defines them as 'not hearsay'; the result is the same, but use the Florida label in an essay. Second, for co-conspirator statements the conspiracy and each member's participation in it must be established by independent evidence, and on request the court must so instruct the jury; under Bourjaily and FRE 801(d)(2), the court may consider the statement itself.",
+     "tip": "An admission need not have been against the party's interest when made. A party's silence can be an adoptive admission only if the party heard and understood the statement and would naturally have denied it; post-arrest silence after Miranda warnings is never usable this way.",
+     "authority": "Fla. Stat. § 90.803(18)"
+    },
+    {
+     "id": "fl-evidence.hearsay.spontaneous-and-excited",
+     "title": "Spontaneous statements and excited utterances",
+     "weight": 3,
+     "rule": "A spontaneous statement describing or explaining an event or condition, made while the declarant was perceiving it or immediately afterward, is admissible unless made under circumstances indicating lack of trustworthiness. An excited utterance, a statement relating to a startling event made while the declarant was under the stress of excitement it caused, is also admissible. Both apply whether or not the declarant is available.",
+     "elements": [
+      "An event startling enough to cause nervous excitement",
+      "The statement was made before there was time to contrive or misrepresent",
+      "The statement was made while the declarant was under the stress of excitement caused by the event"
+     ],
+     "tip": "Elapsed time is not dispositive for an excited utterance; the question is whether the declarant was still under the stress of the event rather than reflecting. A spontaneous statement (Florida's version of the present sense impression) tolerates almost no gap.",
+     "authority": "Fla. Stat. § 90.803(1)–(2)"
+    },
+    {
+     "id": "fl-evidence.hearsay.state-of-mind-and-medical",
+     "title": "Then-existing state of mind and medical diagnosis",
+     "weight": 2,
+     "rule": "A statement of the declarant's then-existing state of mind, emotion or physical sensation (such as intent, plan, motive, mental feeling, pain or bodily health) is admissible to prove that state when it is at issue, or to prove or explain the declarant's later conduct. Statements made for purposes of medical diagnosis or treatment, by the person seeking it or by a person legally responsible for someone unable to communicate, describing medical history, symptoms, pain, or the inception or general character of the cause, are admissible insofar as reasonably pertinent to diagnosis or treatment.",
+     "exceptions": [
+      "A statement of memory or belief is not admissible to prove the fact remembered or believed, unless it relates to the execution, revocation, identification or terms of the declarant's will.",
+      "A state-of-mind statement made under circumstances indicating lack of trustworthiness is excluded.",
+      "Statements identifying who caused an injury are ordinarily not pertinent to diagnosis or treatment."
+     ],
+     "tip": "In a homicide case, the victim's statements of fear of the defendant are usually inadmissible unless the victim's state of mind is genuinely at issue, as when the defense claims self-defense, suicide or accident.",
+     "authority": "Fla. Stat. § 90.803(3)–(4)"
+    },
+    {
+     "id": "fl-evidence.hearsay.records",
+     "title": "Recorded recollection, business records and public records",
+     "weight": 3,
+     "rule": "A record of a regularly conducted business activity is admissible if it was made at or near the time by, or from information transmitted by, a person with knowledge; it was kept in the course of a regularly conducted activity; and it was the regular practice to make it. These facts may be shown by a custodian or other qualified witness, or by a certification or declaration served with reasonable advance written notice. The record is excluded if the sources or circumstances show a lack of trustworthiness.",
+     "exceptions": [
+      "An opinion or diagnosis in a business record is admissible only if it would be admissible under sections 90.701–.705 if the person who formed it were testifying.",
+      "Public records setting out an office's activities, or matters observed under a legal duty to report, are admissible, but in criminal cases matters observed by police and other law enforcement personnel are excluded.",
+      "Recorded recollection: a record made or adopted by the witness when the matter was fresh, which correctly reflects knowledge the witness once had but can no longer recall well enough to testify fully, may be read into evidence but is received as an exhibit only if offered by the adverse party."
+     ],
+     "split": "Florida's limit on opinions and diagnoses in business records is stricter than FRE 803(6), which lists opinions and diagnoses among the contents a qualifying record may contain without a separate cross-reference to the opinion rules. Florida's public-records exception also has no counterpart to FRE 803(8)(A)(iii), which admits factual findings from a legally authorized investigation in civil cases and against the government in criminal cases.",
+     "authority": "Fla. Stat. §§ 90.803(5), (6), (8), 90.902(11)"
+    },
+    {
+     "id": "fl-evidence.hearsay.unavailable-declarant",
+     "title": "Exceptions requiring unavailability",
+     "weight": 3,
+     "rule": "A declarant is unavailable if exempted by a ruling on privilege, if the declarant persists in refusing to testify despite a court order, has a lack of memory of the subject matter that destroys his or her effectiveness as a witness, cannot be present or testify because of death or then-existing physical or mental illness or infirmity, or is absent and the proponent could not procure attendance or testimony by process or other reasonable means. Unavailability does not count if the proponent procured it to prevent the declarant from testifying. If the declarant is unavailable, the exceptions that apply include former testimony, dying declarations, statements against interest and statements of personal or family history.",
+     "elements": [
+      "Former testimony: testimony at a hearing or in a deposition taken in compliance with law, if the party against whom it is offered (or, in a civil case, a predecessor in interest or person with a similar interest) had an opportunity and similar motive to develop it.",
+      "Dying declaration: in any civil or criminal trial, a statement made while the declarant reasonably believed death was imminent, concerning the physical cause or instrumentalities of what the declarant believed to be impending death or the circumstances surrounding it.",
+      "Statement against interest: a statement so contrary, when made, to the declarant's pecuniary or proprietary interest, or so likely to subject the declarant to liability or defeat the declarant's claim, that a reasonable person would not have made it unless true. A statement exposing the declarant to criminal liability and offered to exculpate the accused is inadmissible unless corroborating circumstances show its trustworthiness."
+     ],
+     "split": "FRE 804(b)(2) limits dying declarations to homicide prosecutions and civil cases; Florida's applies in any civil or criminal trial, so it can be used in an attempted-murder or arson prosecution. Since 2010, FRE 804(b)(3) requires corroboration for any statement against penal interest offered in a criminal case; Florida's text requires it only when the statement is offered to exculpate the accused.",
+     "tip": "In a Florida criminal case, a discovery deposition taken under Rule 3.220(h) does not satisfy the Confrontation Clause and cannot substitute for the live testimony of an unavailable witness; a deposition to perpetuate testimony under Rule 3.190(i) can. The dying declarant need not actually die, only be unavailable, but must have believed death was imminent when speaking.",
+     "authority": "Fla. Stat. § 90.804; Fla. R. Crim. P. 3.190(i), 3.220(h); State v. Lopez (Fla. 2008)"
+    },
+    {
+     "id": "fl-evidence.hearsay.child-victim",
+     "title": "Child-victim hearsay",
+     "weight": 3,
+     "rule": "An out-of-court statement by a child victim with a physical, mental, emotional or developmental age of 17 or less, describing child abuse, neglect, sexual abuse or an unlawful sexual act performed in the presence of, with, by or on the child, is admissible if the court finds in a hearing outside the jury's presence that the time, content and circumstances of the statement provide sufficient safeguards of reliability, and the child either testifies or is unavailable as a witness, in which case there must also be other corroborative evidence of the abuse or offense.",
+     "elements": [
+      "A hearing outside the jury's presence, with specific findings on the record",
+      "Reliability, considering factors such as the child's age and maturity, the nature and duration of the abuse, the child's relationship to the offender, and the reliability of the assertion and of the child",
+      "The child testifies, or is unavailable and other corroborative evidence exists",
+      "In a criminal case, notice to the defendant no later than 10 days before trial"
+     ],
+     "split": "There is no federal counterpart. Under the Federal Rules such a statement must fit a general exception or the residual exception, which Florida does not have.",
+     "tip": "The age ceiling was 11 until 2013 and 16 until July 1, 2024; it is now 17, measured when the statement was made. Confrontation applies separately. A child's statements in a forensic interview arranged with law enforcement are typically testimonial and cannot come in under section 90.803(23) if the child does not testify and the defendant had no prior opportunity to cross-examine. Statements to a parent are usually nontestimonial.",
+     "authority": "Fla. Stat. § 90.803(23); ch. 2024-71, Laws of Fla."
+    },
+    {
+     "id": "fl-evidence.hearsay.confrontation",
+     "title": "The Confrontation Clause",
+     "weight": 3,
+     "rule": "In a criminal case, a testimonial statement of a declarant who does not testify at trial is inadmissible against the accused, even if it fits a hearsay exception, unless the declarant is unavailable and the accused had a prior opportunity to cross-examine. Nontestimonial statements are governed only by the hearsay rules.",
+     "elements": [
+      "Testimonial: the primary purpose is to establish or prove past events potentially relevant to a later prosecution, such as structured police interrogation, affidavits, and forensic reports prepared for trial.",
+      "Nontestimonial: the primary purpose is to meet an ongoing emergency (most 911 calls), or the statement is made casually to friends or family.",
+      "Forfeiture: a defendant who wrongfully procures a witness's absence intending to prevent the testimony forfeits the confrontation objection."
+     ],
+     "tip": "Florida's Constitution independently guarantees the accused the right to confront adverse witnesses, and Florida courts apply the Crawford framework.",
+     "authority": "U.S. Const. amend. VI; Art. I, § 16, Fla. Const.; Crawford v. Washington, 541 U.S. 36 (2004); Davis v. Washington, 547 U.S. 813 (2006)"
+    }
+   ]
+  },
+  {
+   "id": "fl-evidence.privileges",
+   "title": "Privileges",
+   "weight": 2,
+   "exams": [
+    "FL"
+   ],
+   "intro": "Florida privileges exist only by statute or constitution, and the Code lists many more than federal common law recognizes. The most tested are lawyer-client (including its application to corporate employees under the Deason test), the spousal-communications privilege, and psychotherapist-patient.",
+   "rules": [
+    {
+     "id": "fl-evidence.privileges.statutory-source",
+     "title": "Privileges are statutory",
+     "weight": 1,
+     "rule": "Except as provided by the Evidence Code, another statute, or the Florida or United States Constitution, no person in a proceeding has a privilege to refuse to be a witness, to refuse to disclose any matter or produce any object or writing, or to prevent another from doing so.",
+     "split": "FRE 501 leaves privileges to federal common law developed 'in the light of reason and experience' (and to state law on state-law claims). Florida's privileges are codified, including lawyer-client (§ 90.502), psychotherapist-patient (§ 90.503), sexual assault counselor-victim (§ 90.5035), husband-wife (§ 90.504), clergy (§ 90.505), accountant-client (§ 90.5055), trade secrets (§ 90.506) and the journalist's qualified privilege (§ 90.5015).",
+     "authority": "Fla. Stat. § 90.501"
+    },
+    {
+     "id": "fl-evidence.privileges.lawyer-client",
+     "title": "Lawyer-client privilege",
+     "weight": 3,
+     "rule": "A client has a privilege to refuse to disclose, and to prevent others from disclosing, confidential communications between lawyer and client made in the rendition of legal services. A communication is confidential if it is not intended to be disclosed to third persons other than those to whom disclosure furthers the rendition of legal services or those reasonably necessary to transmit it.",
+     "exceptions": [
+      "Crime or fraud: the client sought or obtained the lawyer's services to enable or aid anyone to commit or plan what the client knew was a crime or fraud.",
+      "Claimants through the same deceased client.",
+      "Breach of duty by the lawyer to the client or by the client to the lawyer.",
+      "A communication relevant to an issue concerning a document the lawyer attested as a witness.",
+      "Joint clients, in a later action between them, as to communications on a matter of common interest."
+     ],
+     "tip": "A 'client' includes a person who consults a lawyer with a view to obtaining legal services, even if no lawyer is retained or paid. The privilege belongs to the client and survives the client's death, when the personal representative may claim it. It protects communications, not the underlying facts. A client's description of a crime already committed is fully privileged; the crime-fraud exception reaches only services sought to further a crime or fraud.",
+     "authority": "Fla. Stat. § 90.502"
+    },
+    {
+     "id": "fl-evidence.privileges.corporate-clients",
+     "title": "Corporate clients: the Deason test",
+     "weight": 2,
+     "rule": "A corporate employee's communication with corporate counsel is privileged only if (1) it would not have been made but for the contemplation of legal services; (2) the employee made it at the direction of a corporate superior; (3) the superior requested it so the corporation could secure legal advice; (4) its content relates to the legal services being rendered and its subject is within the employee's duties; and (5) it is not disseminated beyond persons who, because of the corporate structure, need to know its contents.",
+     "split": "Federal courts apply Upjohn's flexible, case-by-case approach. Florida's Deason test is a more structured checklist. A report prepared in the ordinary course of business, such as a routine incident report, fails the first element even if a copy later goes to counsel.",
+     "authority": "Southern Bell Tel. & Tel. Co. v. Deason, 632 So. 2d 1377 (Fla. 1994)"
+    },
+    {
+     "id": "fl-evidence.privileges.spousal",
+     "title": "Husband-wife privilege: confidential communications only",
+     "weight": 3,
+     "rule": "A spouse has a privilege, during and after the marriage, to refuse to disclose, and to prevent another from disclosing, communications that were intended to be made in confidence between the spouses while they were married. Either spouse may claim it.",
+     "exceptions": [
+      "Proceedings brought by or on behalf of one spouse against the other.",
+      "Criminal proceedings in which one spouse is charged with a crime committed at any time against the person or property of the other spouse, or of a child of either.",
+      "Criminal proceedings in which the defendant-spouse offers the communication."
+     ],
+     "split": "Florida recognizes only the confidential marital communications privilege. It has no adverse spousal testimony privilege (the federal Trammel privilege, held by the witness-spouse), so a spouse can be compelled to testify against the defendant-spouse about observations and non-confidential matters.",
+     "trap": "What a spouse saw the other do is not a 'communication' unless the act was intended as a confidential assertion. Statements made in the presence of third persons are not confidential.",
+     "authority": "Fla. Stat. § 90.504"
+    },
+    {
+     "id": "fl-evidence.privileges.psychotherapist-and-journalist",
+     "title": "Psychotherapist, journalist and other privileges",
+     "weight": 2,
+     "rule": "A patient has a privilege for confidential communications or records made for the diagnosis or treatment of a mental or emotional condition, including alcoholism and other drug addiction, between the patient and a psychotherapist or persons participating in treatment under the psychotherapist's direction. A professional journalist has a qualified privilege not to testify about, or disclose, information or sources obtained while actively gathering news.",
+     "exceptions": [
+      "Psychotherapist: no privilege in proceedings to compel hospitalization, for court-ordered examinations (as to the issue for which ordered), or when the patient relies on the condition as an element of a claim or defense (or, after the patient's death, a party relies on it).",
+      "Journalist: the privilege yields when the party seeking the information shows that it is relevant and material to unresolved issues, cannot be obtained from alternative sources, and a compelling interest requires disclosure.",
+      "Journalist: the privilege does not apply to physical evidence, eyewitness observations, or visual or audio recordings of crimes."
+     ],
+     "tip": "Other Florida privileges that appear on the exam: accountant-client (§ 90.5055), clergy (§ 90.505), sexual assault counselor-victim (§ 90.5035), and trade secrets (§ 90.506), which the court may protect with measures short of nondisclosure when allowing the privilege would conceal fraud or work injustice.",
+     "authority": "Fla. Stat. §§ 90.503, 90.5015"
+    },
+    {
+     "id": "fl-evidence.privileges.waiver",
+     "title": "Waiver of privilege",
+     "weight": 2,
+     "rule": "A person who holds a privilege waives it by voluntarily disclosing, or consenting to disclosure of, any significant part of the matter or communication. A disclosure that is itself privileged is not a waiver, and privileged matter whose disclosure was erroneously compelled by the court, or made without an opportunity to claim the privilege, is inadmissible against the holder.",
+     "tip": "Many privilege questions are resolved by a statutory exception rather than waiver: putting one's mental condition in issue, suing one's former lawyer, or a dispute between joint clients.",
+     "authority": "Fla. Stat. §§ 90.507, 90.508"
+    }
+   ]
+  },
+  {
+   "id": "fl-evidence.documents-and-notice",
+   "title": "Authentication, best evidence and judicial notice",
+   "weight": 2,
+   "exams": [
+    "FL"
+   ],
+   "intro": "These provisions usually appear as single-issue multiple-choice questions or as one paragraph in a larger essay. Remember that Florida judicial notice covers law as well as facts, that discretionary notice becomes mandatory when a party follows the request procedure, and that Florida's best-evidence rule does not let a duplicate replace an original negotiable instrument.",
+   "rules": [
+    {
+     "id": "fl-evidence.documents-and-notice.authentication",
+     "title": "Authentication and self-authentication",
+     "weight": 2,
+     "rule": "Authentication or identification is a condition precedent to admissibility and is satisfied by evidence sufficient to support a finding that the matter is what its proponent claims.",
+     "exceptions": [
+      "Self-authenticating items need no extrinsic proof, including domestic public documents under seal, certified copies of public records, official publications, newspapers and periodicals, trade inscriptions, acknowledged documents, and business records accompanied by a certification or declaration served with advance notice."
+     ],
+     "tip": "For fungible physical evidence such as drugs or blood, Florida courts admit the item unless the opponent shows a probability of tampering; a gap in the chain of custody or the bare possibility of tampering is not enough.",
+     "trap": "The judge decides only whether a reasonable jury could find the item authentic. Whether it actually is genuine is for the jury.",
+     "authority": "Fla. Stat. §§ 90.901, 90.902"
+    },
+    {
+     "id": "fl-evidence.documents-and-notice.best-evidence",
+     "title": "Best evidence rule and duplicates",
+     "weight": 2,
+     "rule": "To prove the contents of a writing, recording or photograph, the original is required, except as otherwise provided by statute. A duplicate is admissible to the same extent as an original unless (1) the original is a negotiable instrument, a security, or another writing evidencing a right to the payment of money that is transferred by delivery in the ordinary course of business; (2) a genuine question is raised about the authenticity of the original; or (3) it would be unfair to admit the duplicate in place of the original.",
+     "exceptions": [
+      "Other evidence of contents is admissible if all originals are lost or destroyed (unless the proponent lost or destroyed them in bad faith), cannot be obtained in Florida by any judicial process, are in the opponent's control after the opponent was put on notice, or relate only to a collateral matter."
+     ],
+     "split": "FRE 1003 has no negotiable-instrument exclusion. Florida's exclusion matters in note-enforcement and mortgage-foreclosure cases, where the holder ordinarily must produce the original note.",
+     "trap": "The rule applies only when a party seeks to prove the contents of the writing. A witness may testify from personal knowledge about an event even though the event was also recorded.",
+     "authority": "Fla. Stat. §§ 90.952–.954"
+    },
+    {
+     "id": "fl-evidence.documents-and-notice.summaries",
+     "title": "Summaries of voluminous records",
+     "weight": 1,
+     "rule": "When voluminous writings, recordings or photographs cannot conveniently be examined in court, a party may present their contents as a chart, summary or calculation through a qualified witness. The party must give timely written notice of its intent to use the summary and make the summary and the underlying originals or duplicates available to the other parties for examination or copying at a reasonable time and place.",
+     "authority": "Fla. Stat. § 90.956"
+    },
+    {
+     "id": "fl-evidence.documents-and-notice.judicial-notice",
+     "title": "Judicial notice of law and facts",
+     "weight": 2,
+     "rule": "A Florida court must take judicial notice of the decisional, constitutional and public statutory law of Florida and the United States, and of Florida rules of court of statewide application and specified federal court rules. It may take judicial notice of other matters, including the laws of other states and nations, ordinances, records of courts, facts generally known within the court's territorial jurisdiction, and facts not subject to dispute because they can be accurately determined from sources whose accuracy cannot be questioned. It must notice those matters on request if the requesting party gives each adverse party timely written notice and furnishes the court sufficient information.",
+     "split": "FRE 201 addresses only adjudicative facts; notice of law is handled outside the rule. Florida's sections 90.201–.207 cover law as well as facts, and convert discretionary notice into mandatory notice when the request procedure is followed.",
+     "tip": "Before taking notice of a matter of consequence on its own motion, the court should give the parties a reasonable opportunity to be heard on whether notice is proper and on the nature of the matter noticed.",
+     "authority": "Fla. Stat. §§ 90.201–.204"
+    }
+   ]
+  }
+ ]
+}

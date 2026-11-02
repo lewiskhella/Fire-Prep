@@ -1,0 +1,544 @@
+{
+  "subject": "fl-civil-procedure",
+  "essays": [
+    {
+      "id": "fl-civil-procedure.e01",
+      "title": "The Lift That Fell",
+      "minutes": 60,
+      "topics": [
+        "fl-civil-procedure.jurisdiction-and-venue",
+        "fl-civil-procedure.service",
+        "fl-civil-procedure.sanctions-and-settlement"
+      ],
+      "facts": [
+        "Dana Reyes lives in Orange County, Florida, and keeps a weekend house on a river in Volusia County. In 2025 she contracted with Wade Pruitt, a Georgia resident who builds and installs boat lifts as a sole proprietor under the name Pruitt Marine, to fabricate a lift at his Georgia shop and install it at the Volusia County house. Reyes found Pruitt through an advertisement he runs every year in a Florida boating magazine; over the past three years he has installed about a dozen lifts at Florida homes. The contract, which Reyes signed at her Orange County home and mailed to Pruitt, required Pruitt to install the lift at the Volusia property and to return within 60 days after installation to adjust and load-test it.",
+        "Pruitt and two of his Georgia employees installed the lift in May 2025 but never came back to adjust or test it. In September the lift collapsed, dropping Reyes's boat into the river and causing damage that Reyes valued at $70,000. Reyes sued Pruitt in the circuit court for Orange County, alleging breach of contract and negligent installation. A Georgia deputy sheriff went to Pruitt's home in Georgia on a Tuesday evening, learned that Pruitt was away, and left the summons and complaint with Pruitt's wife, who lives there with him, after explaining to her that the papers were a Florida lawsuit against her husband.",
+        "Pruitt's first filing was a motion to dismiss for lack of personal jurisdiction and insufficient service of process. It was supported by his affidavit stating that he lives and works only in Georgia, owns no Florida property, has no Florida office, and fabricated the lift in Georgia. Reyes responded with her own affidavit attaching the magazine advertisements and the contract. In the same motion Pruitt argued, in the alternative, that venue was improper in Orange County and that the case should at least be moved to Volusia County, where the lift, the damaged boat and the neighbors who saw the collapse are located.",
+        "The court denied the motion in its entirety. Ninety-five days after he was served, Pruitt served Reyes with a proposal for settlement under § 768.79 and Rule 1.442 offering $40,000 to resolve all of her claims, inclusive of attorney's fees and costs. The proposal satisfied every content requirement of the rule. Reyes did not respond. Trial took place eleven months later. The jury rejected the contract claim, found Pruitt negligent, assessed Reyes's damages at $35,000, and assigned Reyes 20% of the fault for overloading the lift; the court entered a final judgment for Reyes of $28,000. Reyes had incurred $900 in taxable costs before the proposal was served, and no statute or contract entitles her to attorney's fees. Fifteen days after the judgment was filed, Pruitt served a motion for attorney's fees under his proposal."
+      ],
+      "calls": [
+        "Did the court correctly deny Pruitt's motion to dismiss for lack of personal jurisdiction and insufficient service of process?",
+        "Was venue proper in Orange County, and could the court have moved the case to Volusia County?",
+        "Is Pruitt entitled to recover attorney's fees under his proposal for settlement?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Personal jurisdiction over a nonresident: long-arm statute and due process",
+          "rules": [
+            "fl-civil-procedure.jurisdiction-and-venue.long-arm"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Two-step test: the facts must fall within § 48.193, and the contacts must satisfy due process (Venetian Salami)",
+            "Statutory hooks: carrying on a business venture in Florida (annual Florida advertising, a dozen Florida installations); breaching a contract by failing to perform acts required to be performed in Florida (the return visit to adjust the lift); committing a tortious act in Florida (negligent installation in Volusia County)",
+            "Burden shifting: Pruitt's affidavit put the burden on Reyes to prove jurisdiction with sworn proof; her affidavit and documents carried it, and his affidavit does not actually contradict the Florida installation, so no evidentiary hearing was required",
+            "Due process: Pruitt purposefully directed activity at Florida and came here to perform; the claims arise from that Florida work, so jurisdiction is fair and reasonable"
+          ],
+          "conclusion": "The court had personal jurisdiction over Pruitt under several prongs of § 48.193, and exercising it satisfies due process."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Validity of out-of-state abode service on Pruitt's wife",
+          "rules": [
+            "fl-civil-procedure.service.individuals",
+            "fl-civil-procedure.service.substituted-service",
+            "fl-civil-procedure.service.validity-and-return"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Section 48.194 allows service outside Florida in the same manner as service within Florida, by an officer authorized to serve process where the defendant is found",
+            "Abode service under § 48.031(1)(a): copies left at the usual place of abode with a resident 15 or older who is informed of their contents; the wife qualifies",
+            "The spousal substituted-service provision (spouse must request it) is not needed because ordinary abode service was satisfied",
+            "Service was on a Tuesday, not a Sunday; service statutes are strictly construed, but every requirement was met"
+          ],
+          "conclusion": "Service was valid, so the motion to dismiss for insufficient service was properly denied."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "Venue against a nonresident and convenience transfer",
+          "rules": [
+            "fl-civil-procedure.jurisdiction-and-venue.venue",
+            "fl-civil-procedure.jurisdiction-and-venue.transfer-and-forum-non-conveniens"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Section 47.011 limits venue to the defendant's residence, where the cause accrued, or where the property is, but by its terms does not apply to actions against nonresidents, so Reyes could sue Pruitt in Orange County",
+            "Pruitt preserved the venue objection by including it in his first Rule 1.140 motion",
+            "Even when venue is proper, § 47.122 allows transfer to a county where the case could have been brought (Volusia, where the claims accrued and the evidence is) for the convenience of parties or witnesses or in the interest of justice",
+            "Transfer is discretionary; the plaintiff's choice is presumed correct and the movant must show the convenience factors favor moving"
+          ],
+          "conclusion": "Venue was proper in Orange County because Pruitt is a nonresident, but the court had discretion to transfer the case to Volusia County for convenience and the facts would have supported doing so."
+        },
+        {
+          "id": "i4",
+          "call": 3,
+          "label": "Entitlement to fees under the defendant's proposal for settlement",
+          "rules": [
+            "fl-civil-procedure.sanctions-and-settlement.proposal-entitlement",
+            "fl-civil-procedure.sanctions-and-settlement.proposal-procedure",
+            "fl-civil-procedure.sanctions-and-settlement.fee-basics"
+          ],
+          "points": 5,
+          "mustSay": [
+            "Section 768.79: a defendant whose offer is not accepted within 30 days recovers costs and fees incurred from the date of the offer if the judgment is at least 25% less than the offer",
+            "Math: 75% of $40,000 is $30,000; because the proposal included costs, the 'judgment obtained' is the $28,000 net judgment plus Reyes's $900 of pre-proposal taxable costs (White v. Steak & Ale), or $28,900, which is still more than 25% below the offer, so the threshold is met",
+            "Timing under Rule 1.442: a proposal to a plaintiff may not be served until 90 days after the action was commenced (this one came 95 days after Pruitt was served, so later still) and was served long before the 45-day pre-trial cutoff; content requirements met; Reyes's silence was a rejection",
+            "The statute is strictly construed but applies because this is an action for damages only, with no claim for equitable relief",
+            "The fee motion was served within 30 days after the judgment, as Rule 1.525 requires; the court may still deny fees if the offer was not made in good faith, but a $40,000 offer on these facts had a reasonable basis"
+          ],
+          "conclusion": "Pruitt is entitled to the reasonable attorney's fees and costs he incurred from the date he served the proposal, subject only to the court's good-faith review."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Personal jurisdiction. A Florida court may exercise jurisdiction over a nonresident only if (1) the facts fall within the long-arm statute, § 48.193, and (2) the defendant has minimum contacts with Florida so that suit here satisfies due process. Venetian Salami Co. v. Parthenais. Florida's statute is strictly construed and does not automatically reach the limits of due process, so each step must be analyzed. Procedurally, once Pruitt filed an affidavit contesting jurisdiction, the burden shifted to Reyes to prove jurisdiction by affidavit or other sworn proof; if the sworn submissions had irreconcilably conflicted, the court would have held a limited evidentiary hearing.",
+            "Reyes satisfies the statute in three ways. First, Pruitt carries on a business venture in Florida: he advertises every year in a Florida magazine and has installed about a dozen lifts at Florida homes. Second, he breached the contract in Florida by failing to perform an act the contract required to be done here, the return visit to adjust and test the lift at the Volusia house. Third, he committed a tortious act within Florida, because the allegedly negligent installation was performed in Volusia County. Pruitt's affidavit, which says only that he lives and builds in Georgia, does not contradict any of these facts, and Reyes's sworn affidavit and documents establish them. The constitutional step is also met: Pruitt purposefully directed advertising at Floridians and came into Florida to perform the work from which both claims arise, so he could reasonably anticipate being sued here, and nothing makes Florida an unfair forum. The court correctly found jurisdiction.",
+            "Service. Section 48.194 allows a person outside Florida to be served in the same manner as within Florida, by an officer authorized to serve process in the place of service; a Georgia deputy sheriff qualifies. Under § 48.031(1)(a), an individual may be served by leaving the process and complaint at his usual place of abode with any person residing there who is 15 or older and informing that person of the contents. Pruitt's wife lives in the home, is an adult, and was told what the papers were. Florida's separate substituted-service provision for spouses, which requires that the spouse request service, is irrelevant because ordinary abode service was satisfied. Service occurred on a Tuesday, not a Sunday, so § 48.20 is no obstacle. Although service statutes are strictly construed, every requirement was met. The court correctly denied the motion on both grounds."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Venue. Section 47.011 provides that actions may be brought only in the county where the defendant resides, where the cause of action accrued, or where the property in litigation is located, but the statute expressly does not apply to actions against nonresidents. Pruitt lives in Georgia, so the statutory limits do not restrict Reyes's choice, and Orange County is a proper venue. Pruitt preserved his objection by raising it in his first Rule 1.140 motion, but the objection fails on the merits.",
+            "Transfer. Even where venue is proper, § 47.122 lets a court transfer a civil action to any other Florida court in which it might have been brought, for the convenience of the parties or witnesses or in the interest of justice. The case could have been brought in Volusia County, where the work was done, the contract was to be performed, and the collapse occurred. The lift, the damaged boat and the eyewitness neighbors are all there, which strongly favors transfer. But the plaintiff's choice of a proper forum is presumptively correct, the movant bears the burden of showing that convenience and justice favor a different county, and the decision is discretionary. The court therefore did not have to transfer the case, but it would have been within its discretion to send it to Volusia County."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Entitlement. Under § 768.79, when a defendant serves an offer of judgment in a civil action for damages and the plaintiff does not accept it within 30 days, the defendant recovers the reasonable costs and attorney's fees incurred from the date of the offer if the judgment is one of no liability or is at least 25% less than the offer. Pruitt offered $40,000, so the threshold is a judgment of $30,000 or less. Because the proposal was inclusive of costs, the comparison uses the 'judgment obtained': the $28,000 net judgment (the $35,000 verdict reduced by Reyes's 20% share of fault) plus the $900 in taxable costs she had incurred before the proposal, or $28,900 (White v. Steak & Ale of Florida). She has no fee claim to add. That figure is about 28% less than the offer, so the threshold is met. Reyes's silence for 30 days operated as a rejection.",
+            "Procedural validity. Because the statute and Rule 1.442 are in derogation of the common law, they are strictly construed, and any defect in timing or content defeats the award. The proposal was served 95 days after Pruitt was served, and therefore more than 90 days after the action was commenced, satisfying the rule's earliest-service limit for proposals to a plaintiff, and it was served many months before the 45-day cutoff before trial. It met every content requirement, including stating whether it included attorney's fees. The action sought only damages, so the rule that the statute does not apply when equitable relief is also sought is not implicated, and there was a single offeror and offeree, so no apportionment issue arises.",
+            "Remaining requirements. Pruitt served his fee motion 15 days after the judgment was filed, within the 30 days required by Rule 1.525. The court may disallow an award if the offer was not made in good faith, but an offer of $40,000 on a claimed $70,000 loss, in a case where comparative fault was a live issue, had a reasonable foundation. Pruitt is entitled to the reasonable fees and costs he incurred from the date he served the proposal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.e02",
+      "title": "The Missing Logbooks",
+      "minutes": 60,
+      "topics": [
+        "fl-civil-procedure.pleadings-and-motions",
+        "fl-civil-procedure.discovery"
+      ],
+      "facts": [
+        "Marisol Ortega was seriously injured when a tractor-trailer owned by Gulfway Freight, Inc., a Florida corporation, ran a red light in Hillsborough County and struck her car. The driver, Neal Sutter, was a Gulfway employee acting within the scope of his job. Ortega sued Gulfway in circuit court for negligence, alleging that Gulfway was vicariously liable for Sutter's driving and directly liable for negligently retaining him.",
+        "During discovery Ortega deposed Gulfway's safety director, who testified that Sutter had two prior preventable crashes, that company policy required removing a driver after a second preventable crash, and that Gulfway's vice president of operations personally approved keeping Sutter on the road because the company was short of drivers. Ortega also obtained a text message in which the vice president told a dispatcher to 'keep Sutter driving, we'll deal with the paperwork later.' Ortega now wants to add a claim for punitive damages against Gulfway and to serve interrogatories asking about Gulfway's net worth.",
+        "Ortega also served requests for production seeking (a) an accident report that Gulfway's risk manager prepared two days after the crash, at the direction of Gulfway's general counsel, after Ortega's lawyer had sent Gulfway a letter of representation; and (b) any surveillance video of Ortega. Gulfway objected to both requests as work product. The report contains a summary of the risk manager's interview with Sutter, who left Gulfway's employ shortly after the crash and cannot be located, together with the risk manager's assessment of Gulfway's likely exposure. Gulfway's investigator has filmed Ortega carrying groceries, and Gulfway's trial counsel intends to play the video at trial to impeach her claimed limitations.",
+        "Finally, Ortega requested Sutter's logbooks and electronic logging device data for the 30 days before the crash. When Gulfway did not respond, the court granted Ortega's motion to compel and ordered production within 20 days. Gulfway produced nothing. At the hearing on Ortega's motion for sanctions, Gulfway's counsel explained that he had forgotten to send the order to his client, which had the records readily available and could produce them within a week. Nothing suggested that Gulfway itself knew of the order. The court struck Gulfway's answer and entered a default on liability without making any findings."
+      ],
+      "calls": [
+        "May Ortega assert a claim for punitive damages against Gulfway, and when may she obtain discovery of Gulfway's net worth?",
+        "Must Gulfway produce the risk manager's report and the surveillance video?",
+        "Did the court properly strike Gulfway's answer and enter a default?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Procedure for adding a punitive damages claim",
+          "rules": [
+            "fl-civil-procedure.pleadings-and-motions.punitive-damages",
+            "fl-civil-procedure.pleadings-and-motions.amendment"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Section 768.72(1): no punitive damages claim may be pleaded until the court grants leave on a reasonable showing by record evidence or proffer of a reasonable basis for recovery",
+            "Rule 1.190(f): motion for leave to amend, with the evidence or proffer served at least 20 days before the hearing",
+            "The court decides only whether there is a reasonable evidentiary basis, not whether Ortega will ultimately prove the claim",
+            "No discovery of financial worth until the court permits the punitive damages pleading"
+          ],
+          "conclusion": "Ortega must move for leave to amend with an evidentiary proffer; net-worth interrogatories may be served only after the court grants leave."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Whether the evidence supports corporate punitive liability",
+          "rules": [
+            "fl-civil-procedure.pleadings-and-motions.punitive-damages"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Punitive damages require intentional misconduct or gross negligence, proved at trial by clear and convincing evidence",
+            "Gross negligence: conduct so reckless or wanting in care that it amounts to conscious disregard of or indifference to the life, safety or rights of persons exposed to it",
+            "Corporate liability for an employee's conduct under § 768.72(3): the employer actively and knowingly participated, an officer, director or manager knowingly condoned, ratified or consented, or the employer's own gross negligence contributed to the loss",
+            "The vice president's approval of keeping a driver with two preventable crashes on the road, contrary to company policy, is a reasonable basis on both the managerial-consent and direct gross-negligence routes"
+          ],
+          "conclusion": "The deposition testimony and text message provide a reasonable basis for punitive damages against Gulfway, so leave to amend should be granted."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "The risk manager's report: fact and opinion work product",
+          "rules": [
+            "fl-civil-procedure.discovery.work-product"
+          ],
+          "points": 3,
+          "mustSay": [
+            "The report was prepared in anticipation of litigation (after a letter of representation, at counsel's direction), so it is work product",
+            "Fact work product is discoverable on a showing of need and inability to obtain the substantial equivalent without undue hardship",
+            "Sutter's statements: Sutter cannot be found, so Ortega cannot obtain the substantial equivalent; the factual interview summary should be produced",
+            "The risk manager's assessment of Gulfway's exposure is opinion work product (mental impressions and conclusions) and remains protected; redaction or in camera review is appropriate"
+          ],
+          "conclusion": "Gulfway must produce the factual portions of the report, including Sutter's statements, but may redact the risk manager's opinions about exposure."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "Surveillance video intended for trial use",
+          "rules": [
+            "fl-civil-procedure.discovery.work-product",
+            "fl-civil-procedure.discovery.initial-disclosures"
+          ],
+          "points": 2,
+          "mustSay": [
+            "Surveillance video is work product while it is held only for litigation preparation",
+            "Once a party reasonably expects or intends to use it at trial, including for impeachment, the protection ends and it must be disclosed before trial (Dodson v. Persell; Northup v. Acken)",
+            "Counsel's plan to surprise Ortega with it at trial is exactly what the rule forbids; under the 2025 amendments Gulfway also has a continuing duty to supplement its responses"
+          ],
+          "conclusion": "Because Gulfway intends to use the video at trial, it must disclose and produce it before trial."
+        },
+        {
+          "id": "i5",
+          "call": 3,
+          "label": "Striking pleadings and entering default as a discovery sanction",
+          "rules": [
+            "fl-civil-procedure.discovery.sanctions"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Rule 1.380 authorizes sanctions for violating a discovery order, including striking pleadings and default, but these are the most severe sanctions",
+            "Striking pleadings or entering default requires an express finding that the noncompliance was willful, deliberate or in bad faith (Mercer v. Raine); the court made no findings",
+            "Because the failure was counsel's, the court had to consider the Kozel factors: neglect rather than contumacy, no prior sanctions, no client involvement, limited prejudice since records exist and can be produced promptly, a reasonable explanation, and little disruption",
+            "Lesser sanctions were available: a short new deadline, fees and expenses under Rule 1.380, or sanctions directed at counsel"
+          ],
+          "conclusion": "The court abused its discretion by striking the answer and entering a default without findings of willful or deliberate noncompliance and without weighing the Kozel factors; a lesser sanction was appropriate."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Procedure. Florida does not allow a plaintiff simply to add a punitive damages count. Under § 768.72(1), no claim for punitive damages may be included in a pleading unless the court grants leave on a reasonable showing, by evidence in the record or proffered by the claimant, that provides a reasonable basis for recovering such damages. Rule 1.190(f) supplies the mechanism: Ortega must move for leave to amend, and the motion and the supporting evidence or proffer must be served at least 20 days before the hearing. At that stage the court decides only whether a reasonable evidentiary basis exists; it does not weigh credibility or decide whether Ortega will ultimately prevail.",
+            "Substantive basis. At trial Ortega would have to prove by clear and convincing evidence that the defendant was guilty of intentional misconduct or gross negligence, meaning conduct so reckless or wanting in care that it constituted a conscious disregard of or indifference to the life, safety or rights of those exposed to it. Because Gulfway is a corporation, § 768.72(3) also requires that Gulfway actively and knowingly participated in the conduct, that its officers, directors or managers knowingly condoned, ratified or consented to it, or that Gulfway's own gross negligence contributed to Ortega's injury. The safety director's testimony and the text message show that a vice president knew Sutter had two preventable crashes, knew policy required his removal, and kept him driving anyway for business reasons. That is a reasonable basis for finding both managerial consent and the company's own gross negligence in retaining Sutter. The court should grant leave to amend.",
+            "Net worth. Section 768.72(1) bars discovery of financial worth until the court permits the punitive damages pleading. Ortega may not serve, and Gulfway need not answer, net-worth interrogatories until the court grants her motion for leave to amend; after that, discovery of Gulfway's financial condition may proceed."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "The risk manager's report. Documents prepared in anticipation of litigation by or for a party or its representative are work product. They are discoverable only if the requesting party shows need and that it cannot obtain the substantial equivalent without undue hardship, and even then the court must protect against disclosure of mental impressions, conclusions, opinions and legal theories. The report was prepared at counsel's direction after Ortega's lawyer announced a claim, so it is work product. Its factual content, especially the summary of Sutter's account given two days after the crash, is fact work product. Sutter has left Gulfway and cannot be located, so Ortega cannot obtain the substantial equivalent of his near-contemporaneous statement by any other means, which establishes need and undue hardship. The risk manager's assessment of Gulfway's likely exposure, however, is opinion work product and remains protected. The court should order production of the report with the exposure assessment redacted, reviewing it in camera if necessary.",
+            "The surveillance video. Surveillance footage gathered for litigation is work product while it is held for trial preparation. But Florida law does not allow a party to sandbag its opponent: once a party reasonably expects or intends to use work-product material at trial, including solely for impeachment, the protection ends and the material must be disclosed before trial. Dodson v. Persell; Northup v. Acken. Gulfway's counsel intends to play the video to impeach Ortega's account of her limitations, so Gulfway must disclose its existence and produce it in advance of trial. Under the 2025 amendments, Gulfway also has a continuing duty to supplement its discovery responses rather than relying on its original objection. If Gulfway decided not to use the video at all, it could continue to claim protection, but it cannot both withhold the video and use it at trial."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Rule 1.380 authorizes sanctions when a party disobeys a discovery order, ranging from expenses and attorney's fees to orders establishing facts, striking pleadings, dismissal and default. Striking a defendant's answer and entering a default is the most severe sanction, reserved for extreme cases. The Florida Supreme Court requires an express finding that the party's noncompliance was willful or deliberate, not merely negligent, before such a sanction is imposed. Mercer v. Raine. The trial court made no findings at all, which by itself is reversible error.",
+            "The facts also would not support such a finding. The failure was counsel's: he forgot to forward the order, and nothing suggests Gulfway knew of it. When the fault lies with the attorney, the court must weigh the Kozel v. Ostendorf factors before dismissing or defaulting a party: whether counsel's disobedience was willful, deliberate or contumacious rather than a product of neglect or inexperience; whether counsel had been sanctioned before; whether the client was personally involved; whether the delay prejudiced the opponent through undue expense, loss of evidence or otherwise; whether counsel offered a reasonable justification; and whether the delay created significant problems of judicial administration. Here the lapse was neglect, there is no history of sanctions, the client was not involved, the records exist and can be produced within a week, and the delay was brief.",
+            "The court should instead have chosen a proportionate sanction: ordering production within a short deadline, awarding Ortega the expenses and attorney's fees caused by the noncompliance, and, if necessary, directing the monetary sanction at counsel. Because the court struck the answer and entered a default without findings of willfulness and without weighing the Kozel factors, it abused its discretion, and the default should be set aside."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.e03",
+      "title": "The Fallen Mezzanine",
+      "minutes": 60,
+      "topics": [
+        "fl-civil-procedure.pleadings-and-motions",
+        "fl-civil-procedure.summary-judgment-and-trial",
+        "fl-civil-procedure.judicial-administration-and-appeals"
+      ],
+      "facts": [
+        "Brightline Supply Co., a Florida corporation, leases a warehouse in Polk County from Kessler Holdings, Inc., also a Florida corporation. The written lease requires Kessler to keep 'the structure, including all mezzanines and load-bearing elements,' in good repair. Kessler hired Delgado Steel Works, LLC, an unrelated Florida company, to build a steel storage mezzanine in the warehouse, and their construction contract requires Delgado to indemnify Kessler against any claim arising from defects in Delgado's work. Several months after Delgado finished, the mezzanine collapsed, destroying $380,000 of Brightline's inventory and causing $90,000 in damage to Kessler's building. Brightline stopped paying its $15,000 monthly rent, saying the wreckage made much of the warehouse unusable; four months of rent, $60,000, went unpaid.",
+        "Brightline sued Kessler in the circuit court for Polk County, alleging that Kessler negligently failed to inspect Delgado's work and to discover visibly cracked welds, and Brightline timely demanded a jury. Kessler's engineer concluded that Delgado's welds were defective and that Delgado's crew had ignored the design drawings. Kessler served an answer that denied negligence, asserted a counterclaim for the $60,000 of unpaid rent, and pleaded as an affirmative defense that Delgado, identified by name, was wholly or partly at fault for the collapse. Kessler did not file a third-party complaint.",
+        "Three months after Kessler answered, Brightline moved for leave to amend its complaint to (a) add a count against Kessler for breach of the lease's repair covenant, based on the same collapse, and (b) add Delgado as a defendant on a negligence count. Assume that the limitations period for a negligence claim against Delgado expired a few weeks before Brightline filed its motion. Delgado shares no ownership or management with Kessler and had no notice of the suit until it received a copy of Brightline's motion. The court granted leave as to the lease count and denied it as to Delgado.",
+        "The case was tried to a jury. Kessler never moved for a directed verdict. On Thursday, March 5, 2026, the jury returned a verdict for Kessler on the negligence count, for Brightline on the lease count in the amount of $380,000, and for Kessler on its counterclaim in the amount of $60,000. On Monday, March 9, the court filed a signed final judgment for Brightline for the net sum of $320,000. On Thursday, March 19, Kessler served and filed a motion asking the court to set aside the verdict and enter judgment for Kessler notwithstanding the verdict because the evidence was legally insufficient, or alternatively to order a new trial because the verdict was against the manifest weight of the evidence. The court denied the motion in a signed order filed Friday, April 17, 2026. Kessler filed a notice of appeal on Monday, May 11, 2026. No legal holidays fell during these periods. Brightline has moved to dismiss the appeal as untimely because it was filed more than 30 days after the judgment."
+      ],
+      "calls": [
+        "Evaluate Kessler's response to the complaint. Was Kessler required to assert its rent claim, what did Kessler have to do to have Delgado's fault considered by the jury, and could Kessler have brought Delgado into the case itself?",
+        "Did the court rule correctly on Brightline's motion for leave to amend?",
+        "Was Kessler's post-trial motion proper and timely, and should the appellate court dismiss Kessler's appeal as untimely?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Is the rent claim a compulsory counterclaim?",
+          "rules": [
+            "fl-civil-procedure.pleadings-and-motions.counterclaims-and-third-parties"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Rule 1.170(a): a claim the pleader has at the time of serving the pleading that arises out of the transaction or occurrence that is the subject of the opposing party's claim must be asserted, or it is barred",
+            "Florida's logical-relationship test (Londono v. Turkey Creek): the same aggregate of operative facts underlies both claims",
+            "Both claims arise from the lease and the collapse, and Brightline's justification for withholding rent depends on the collapse, so the rent claim is compulsory",
+            "Kessler correctly asserted it; rent that comes due later may be added by supplemental pleading with the court's permission"
+          ],
+          "conclusion": "The rent claim was a compulsory counterclaim, and Kessler properly asserted it in its answer."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Placing Delgado's fault before the jury as a Fabre nonparty",
+          "rules": [
+            "fl-civil-procedure.pleadings-and-motions.affirmative-defenses"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Under § 768.81, judgment in a negligence action is entered against each party on the basis of its own percentage of fault, and fault may be allocated to a nonparty",
+            "The defendant must plead the nonparty's fault as an affirmative defense and identify the nonparty (or describe it as specifically as practicable) in its initial responsive pleading or by motion, subject to amendment before trial",
+            "The defendant must then prove the nonparty's fault at trial by a preponderance of the evidence (Fabre v. Marin; Nash v. Wells Fargo)",
+            "Kessler pleaded the defense and named Delgado; the allocation applies to the negligence claim"
+          ],
+          "conclusion": "Kessler properly pleaded Delgado's fault and could have it allocated by the jury if it proved that fault at trial."
+        },
+        {
+          "id": "i3",
+          "call": 1,
+          "label": "Impleading Delgado by third-party complaint",
+          "rules": [
+            "fl-civil-procedure.pleadings-and-motions.counterclaims-and-third-parties"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Rule 1.180: a defendant may implead a nonparty who is or may be liable to it for all or part of the plaintiff's claim, and may join any other claim arising out of the same transaction or occurrence",
+            "Delgado's contractual promise to indemnify makes it a proper third-party defendant, and Kessler's own $90,000 property damage claim could be joined",
+            "No leave is needed if the third-party complaint is filed within 20 days after serving the original answer; after that, leave on motion and notice to all parties",
+            "Impleader is permissive; Kessler may instead sue Delgado in a separate action"
+          ],
+          "conclusion": "Kessler could have impleaded Delgado, without leave within 20 days of its answer and with leave afterward, but was not required to do so."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "Leave to amend and relation back",
+          "rules": [
+            "fl-civil-procedure.pleadings-and-motions.amendment"
+          ],
+          "points": 4,
+          "mustSay": [
+            "After an answer is served, amendment requires leave of court or written consent; leave is freely given unless the privilege has been abused, the amendment would prejudice the opponent, or it would be futile",
+            "The lease count arises from the same collapse and relationship pleaded in the original complaint, so it relates back under Rule 1.190(c) and leave was properly granted",
+            "Florida's rule has no counterpart to Federal Rule 15(c)(1)(C); adding a new party generally does not relate back unless it corrects a misnomer or the new party shares an identity of interest with an original party and is not prejudiced",
+            "Delgado is unrelated, was not misnamed and had no notice before limitations ran, so the claim would be time-barred and the amendment futile; denial was correct"
+          ],
+          "conclusion": "The court correctly granted leave to add the lease count and correctly denied leave to add Delgado."
+        },
+        {
+          "id": "i5",
+          "call": 3,
+          "label": "Judgment notwithstanding the verdict and new trial",
+          "rules": [
+            "fl-civil-procedure.summary-judgment-and-trial.directed-verdict-and-new-trial",
+            "fl-civil-procedure.judicial-administration-and-appeals.computing-time"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Rule 1.480(b): only a party that moved for a directed verdict may, within 15 days after the verdict, move for judgment in accordance with that motion; Kessler never moved, so that relief was unavailable",
+            "A motion for new trial in a jury case must be served within 15 days after the verdict, and the court cannot extend that time",
+            "Counting under Rule 2.514 began Friday, March 6, so day 15 was Friday, March 20; Kessler's March 19 motion was timely as a new-trial motion",
+            "A new trial may be granted when the verdict is against the manifest weight of the evidence; the ruling is discretionary"
+          ],
+          "conclusion": "Kessler could not obtain judgment notwithstanding the verdict without a prior directed-verdict motion, but its alternative new-trial motion was proper and timely."
+        },
+        {
+          "id": "i6",
+          "call": 3,
+          "label": "Rendition and the timeliness of the notice of appeal",
+          "rules": [
+            "fl-civil-procedure.judicial-administration-and-appeals.final-appeals",
+            "fl-civil-procedure.judicial-administration-and-appeals.computing-time"
+          ],
+          "points": 3,
+          "mustSay": [
+            "The notice of appeal must be filed within 30 days of rendition, and the deadline is jurisdictional",
+            "A timely and authorized motion for new trial postpones rendition until a signed, written order disposing of it is filed",
+            "Kessler's motion was timely served under Rule 1.530(b) and filed, so it was a timely, authorized motion under Rule 9.020(h)",
+            "Rendition occurred when the order was filed on Friday, April 17; counting began Monday, April 20, and day 30 was Tuesday, May 19",
+            "The May 11 notice was timely; Brightline's motion to dismiss should be denied"
+          ],
+          "conclusion": "The appeal is timely because Kessler's timely new-trial motion postponed rendition until April 17."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Compulsory counterclaim. Under Rule 1.170(a), a pleading must state as a counterclaim any claim the pleader has against an opposing party when the pleading is served if it arises out of the transaction or occurrence that is the subject matter of the opposing party's claim, unless it requires parties the court cannot reach or is already the subject of another pending action. An omitted compulsory counterclaim is barred. Florida applies a logical-relationship test: the claims are related when the same aggregate of operative facts serves as the basis of both, or when the facts underlying the original claim activate additional legal rights in the defendant (Londono v. Turkey Creek). Brightline's claim and Kessler's rent claim both arise from the lease and from the collapse. Brightline justifies withholding rent on the ground that the collapse made the warehouse unusable, so the same facts about the collapse and its effect on the premises will decide both claims. The rent claim was compulsory, and Kessler was right to plead it. Rent that comes due after the answer can be added by supplemental pleading with the court's permission.",
+            "Nonparty fault. Kessler's main protection against paying for Delgado's defective welds is § 768.81. In a negligence action the court enters judgment against each party on the basis of that party's percentage of fault, and the jury may allocate fault to a nonparty. To do so, the defendant must affirmatively plead the nonparty's fault and identify the nonparty, or describe it as specifically as practicable, in its initial responsive pleading or by motion (subject to amendment before trial), and must then prove the nonparty's fault at trial by a preponderance of the evidence (Fabre v. Marin; Nash v. Wells Fargo Guard Services). Kessler did what the statute requires by naming Delgado in an affirmative defense. To get Delgado onto the verdict form, Kessler must still present evidence, such as its engineer's testimony about the welds and the departures from the drawings, from which the jury could find Delgado at fault. The allocation applies to Brightline's negligence claim. Allocation is available because Brightline alleges Kessler's own negligence in failing to inspect; if Kessler's liability were purely vicarious for Delgado's work, for example under a nondelegable duty, it could not shift fault to Delgado under § 768.81.",
+            "Third-party practice. Kessler was not required to bring Delgado in, but it could have. Rule 1.180 lets a defendant serve a summons and third-party complaint on a nonparty who is or may be liable to the defendant for all or part of the plaintiff's claim, and the defendant may join any other claim against that party arising out of the same transaction or occurrence. Delgado's written promise to indemnify Kessler against claims arising from defects in its work makes Delgado a proper third-party defendant; whether the clause actually covers Kessler's liability is a merits question, and for impleader it is enough that Delgado may be liable. Kessler's own $90,000 claim for damage to its building arises from the same collapse and could be joined. Kessler could have filed the third-party complaint without leave within 20 days after serving its answer; once that window closed, it needed leave of court on motion and notice to all parties. Because impleader is permissive, Kessler also remains free to sue Delgado in a separate action for indemnity and property damage."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Leave required. Once Kessler served its answer, Brightline's right to amend once as a matter of course ended, and Rule 1.190(a) required leave of court or Kessler's written consent. Leave must be given freely when justice so requires; denying it is an abuse of discretion unless the privilege to amend has been abused, the amendment would prejudice the opposing party, or the amendment would be futile.",
+            "The lease count. The proposed breach-of-lease count arises from the same collapse described in the original complaint and from the landlord-tenant relationship already pleaded. Under Rule 1.190(c), an amendment relates back when the claim arises from the conduct, transaction or occurrence set forth or attempted to be set forth in the original pleading, so this count relates back to the original filing date. The facts overlap entirely, the case was still in pretrial stages, and Kessler suffered no unfair prejudice. The court correctly granted leave on this count.",
+            "Adding Delgado. Florida's relation-back rule, unlike Federal Rule 15(c)(1)(C), contains no provision allowing an amendment that brings in a new defendant to relate back. An amendment adding a new party therefore generally does not relate back unless it merely corrects a misnomer or the new party shares such an identity of interest with an original party that it suffers no prejudice. Delgado is a separate company with no common ownership or management, it was not misnamed, and it had no notice of the suit until after the limitations period had run. The negligence claim against Delgado would be time-barred, so that part of the amendment was futile, and the court correctly denied leave. The consequence for Brightline is significant: if the jury assigns part of the negligence fault to Delgado as a Fabre nonparty, Brightline cannot recover that share from anyone, which helps explain why Brightline wanted the lease count against Kessler."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Judgment notwithstanding the verdict. Under Rule 1.480(b), a party that has timely moved for a directed verdict may, within 15 days after the verdict, move to set aside the verdict and have judgment entered in accordance with its directed-verdict motion. The post-verdict motion renews an earlier motion; it cannot be made for the first time after the verdict. Kessler never moved for a directed verdict, so the court could not enter judgment for Kessler on the ground that the evidence was legally insufficient, and it correctly denied that part of the motion. For the same reason, Kessler will generally be unable to argue on appeal that the evidence was insufficient to support the verdict.",
+            "New trial. A motion for new trial in a jury action must be served no later than 15 days after the verdict is returned, and the trial court cannot extend that time (Rules 1.530(b), 1.090(b)). Rule 2.514 begins the count on the next day that is not a Saturday, Sunday or legal holiday. The verdict came on Thursday, March 5, so day 1 was Friday, March 6, and day 15 was Friday, March 20. Kessler served its motion on Thursday, March 19, so the new-trial request was timely. Unlike judgment notwithstanding the verdict, a new trial does not depend on a prior directed-verdict motion: the court may order one when the verdict is against the manifest weight of the evidence. Whether to do so was within the court's discretion, so the alternative request was proper even though the court denied it.",
+            "Timeliness of the appeal. Appellate jurisdiction depends on filing a notice of appeal within 30 days of rendition, and that deadline cannot be extended. But a timely and authorized motion for new trial that has been filed in the lower tribunal postpones rendition of the final judgment until a signed, written order disposing of the motion is filed (Rule 9.020(h)). Kessler served its new-trial request within the Rule 1.530(b) period and filed it, making it such a motion, so the March 9 judgment was not rendered until the order denying the motion was filed on Friday, April 17. Counting began on Monday, April 20, and the 30th day was Tuesday, May 19. Kessler's notice of appeal, filed May 11, was timely, and Brightline's motion to dismiss should be denied. The unauthorized request for judgment notwithstanding the verdict does not change this, because the new-trial request alone postponed rendition. The appeal brings up the final judgment, but Kessler's sufficiency arguments will face the preservation problem described above."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-civil-procedure.e04",
+      "title": "The Locked Gate",
+      "minutes": 60,
+      "topics": [
+        "fl-civil-procedure.pleadings-and-motions",
+        "fl-civil-procedure.discovery",
+        "fl-civil-procedure.judicial-administration-and-appeals"
+      ],
+      "facts": [
+        "Calloway Landing, LLC runs a waterfront restaurant and boat ramp in Citrus County. Its only road access is a recorded easement across the neighboring parcel, which is owned by Hollis Grove Holdings, Inc., a Florida corporation. Homeowners in the Tern Point subdivision, which lies beyond the restaurant, reach their homes over the same road under the same recorded instrument. After a dispute about who should pay to maintain the road, Hollis's president had a locked steel gate installed across the easement late on a Thursday in June 2026, two days before a fishing tournament that Calloway Landing expected to bring in a third of its summer revenue.",
+        "On Friday morning Calloway Landing filed a verified complaint in circuit court seeking a declaration of its easement rights, damages, and temporary and permanent injunctive relief, together with an emergency motion for a temporary injunction without notice. Its lawyer certified that 'given the urgency, no attempt was made to notify Hollis,' although letters attached to the complaint list the cell phone number of Hollis's president and the e-mail address of Hollis's lawyer. That afternoon, at a hearing attended only by Calloway Landing's counsel, the judge signed an order directing Hollis to remove the gate at once. The order states that Calloway Landing 'will suffer irreparable harm,' waives any bond 'because the easement is recorded and the plaintiff is plainly likely to prevail,' and says nothing about why notice was not given. Hollis removed the gate. The following Monday it moved to dissolve the injunction and asked for a hearing; citing a crowded calendar, the court set the hearing five weeks later.",
+        "In discovery Calloway Landing requested all communications about the gate. Hollis withheld, and listed on a privilege log, e-mails between its president and its outside lawyer discussing whether Hollis could lawfully restrict use of the easement. Without reviewing the e-mails, the court ordered all of them produced within ten days, reasoning that the privilege 'does not shelter a party's plans to interfere with a neighbor's property rights.' Hollis also served a subpoena on Calloway Landing's retained damages expert, a forensic accountant who will testify at trial about lost profits, demanding her personal tax returns for the past five years and a list of every payment she has received from any law firm.",
+        "Hollis's defense is that Calloway Landing overburdened the easement by sending delivery trucks and boat trailers over a road meant for light traffic. A security camera on Hollis's parcel recorded the road continuously. Two weeks after Hollis was served with the complaint and a written request to preserve all recordings of the road, Hollis's property manager deleted the stored footage, explaining that she needed the storage space. Calloway Landing has moved for leave to add a count against Hollis for spoliation of evidence. Finally, a month before the scheduled trial, the Tern Point Homeowners' Association moved to intervene as a plaintiff, asking to add a claim that Hollis must pave the road and to reopen discovery for 90 days."
+      ],
+      "calls": [
+        "Was the temporary injunction properly entered, and what may Hollis do to obtain relief from it?",
+        "How may Hollis obtain immediate review of the order compelling production of its e-mails, and must the expert comply with Hollis's subpoena?",
+        "How should the court rule on Calloway Landing's motion to add a spoliation count, and what relief is available for the deleted footage? How should the court rule on the association's motion to intervene?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Requirements for a temporary injunction entered without notice",
+          "rules": [
+            "fl-civil-procedure.pleadings-and-motions.temporary-injunctions"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Elements: substantial likelihood of success, likelihood of irreparable harm, no adequate remedy at law, and service of the public interest; the order must state reasons and findings, not bare conclusions",
+            "Without notice, specific facts by affidavit or verified pleading must show immediate irreparable injury before the adverse party can be heard, and counsel must certify in writing the efforts made to give notice and why notice should not be required; 'urgency' with no attempt, when contact information was at hand, is insufficient",
+            "An order entered without notice must define the injury, state why it is irreparable, and give the reasons for acting without notice; this order does not",
+            "Under Rule 1.610(b) a bond is mandatory for a private movant; the court could not waive it because the movant seemed likely to win"
+          ],
+          "conclusion": "The injunction was improperly entered: the findings were conclusory, there was no adequate basis for proceeding without notice, and the court could not dispense with a bond."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Hollis's remedies: dissolution and a nonfinal appeal",
+          "rules": [
+            "fl-civil-procedure.pleadings-and-motions.temporary-injunctions",
+            "fl-civil-procedure.judicial-administration-and-appeals.nonfinal-orders"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Hollis may move to dissolve or modify at any time, and the motion must be heard within 5 days after Hollis applies for a hearing; a setting five weeks out violates Rule 1.610(d)",
+            "An order granting a temporary injunction is appealable as a nonfinal order under Rule 9.130(a)(3)(B), by notice filed within 30 days of rendition",
+            "If any injunction remains in place, it must be secured by a bond covering Hollis's damages if it was wrongfully enjoined"
+          ],
+          "conclusion": "Hollis is entitled to a hearing on its motion to dissolve within 5 days of requesting one and may also appeal the order immediately."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "Certiorari review of an order compelling privileged communications",
+          "rules": [
+            "fl-civil-procedure.judicial-administration-and-appeals.certiorari"
+          ],
+          "points": 3,
+          "mustSay": [
+            "A discovery order is nonfinal and not listed in Rule 9.130, so review is by petition for writ of certiorari filed within 30 days of rendition",
+            "The jurisdictional elements come first: disclosure of privileged lawyer-client communications causes material harm that cannot be remedied on appeal from the final judgment",
+            "Departure from the essential requirements of law: facially privileged communications ordered produced without in camera review or a finding that a recognized exception applies; seeking advice on whether conduct is lawful is not the crime-fraud exception",
+            "Hollis should also seek a stay of the production deadline while the petition is pending"
+          ],
+          "conclusion": "Hollis should petition for certiorari, and the district court of appeal should quash the order compelling production of the privileged e-mails."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "Limits on financial discovery from a testifying expert",
+          "rules": [
+            "fl-civil-procedure.discovery.experts"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Hollis may discover the expert's opinions and their grounds, her compensation in this case, her general litigation experience including the plaintiff and defense split, other cases in which she has testified, and an approximation of the share of her work spent as an expert",
+            "She need not disclose her earnings as an expert or income from other services, and financial and business records may be required only under the most unusual or compelling circumstances (Elkins v. Syken); none are shown",
+            "A protective order should bar the tax returns and the list of payments; Hollis may ask Calloway Landing itself about its own financial relationship with the expert (Boecher) and must pay the expert a reasonable fee for responding"
+          ],
+          "conclusion": "The expert need not produce her tax returns or a list of all payments; Hollis is limited to the bias categories the rule allows."
+        },
+        {
+          "id": "i5",
+          "call": 3,
+          "label": "Spoliation: no independent claim against a party; remedies in the main action",
+          "rules": [
+            "fl-civil-procedure.discovery.spoliation",
+            "fl-civil-procedure.discovery.sanctions"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Florida does not recognize an independent cause of action for first-party spoliation (Martino v. Wal-Mart Stores); the proposed count is futile and leave should be denied",
+            "Hollis had a clear duty to preserve: it had been served with the complaint and a written preservation request, and the footage bore on its own defense",
+            "Remedies within the action are proportionate to culpability and prejudice: an adverse-inference instruction or, where the loss hinders proof of a prima facie case, a burden-shifting presumption (Valcin)",
+            "Rule 1.380(e)'s protection for electronically stored information lost through the routine, good-faith operation of an electronic information system does not apply, because the footage was deleted after suit was served and a specific preservation request was received",
+            "Striking Hollis's defense or pleadings requires findings of willful or bad-faith destruction and serious prejudice"
+          ],
+          "conclusion": "The court should deny leave to add a spoliation count but may sanction Hollis within the action, most likely with an adverse-inference instruction on its overburdening defense."
+        },
+        {
+          "id": "i6",
+          "call": 3,
+          "label": "Intervention by the homeowners' association",
+          "rules": [
+            "fl-civil-procedure.pleadings-and-motions.parties-and-intervention"
+          ],
+          "points": 2,
+          "mustSay": [
+            "Rule 1.230: intervention is discretionary and in subordination to, and in recognition of, the propriety of the main proceeding unless the court orders otherwise",
+            "Two-step test (Union Central Life v. Carlisle): a direct and immediate interest in the judgment's legal operation, then the court's discretion; a judgment between Calloway Landing and Hollis would not bind the homeowners, so their interest may be only indirect",
+            "A subordinate intervenor generally cannot add new claims such as paving or reopen discovery on the eve of trial; the court should deny the motion or limit intervention to supporting the existing claim without delay"
+          ],
+          "conclusion": "The court should deny the motion as filed or, at most, allow subordinate intervention with no new claims and no reopened discovery."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Elements and findings. A temporary injunction is an extraordinary remedy. The movant must establish a substantial likelihood of success on the merits, a likelihood of irreparable harm, the unavailability of an adequate remedy at law, and that the injunction will serve the public interest, and Rule 1.610(c) requires the order to state the reasons for its entry and to describe the restrained acts in reasonable detail. On the merits, Calloway Landing's position looks strong: a recorded easement is its only road access, and blocking it on the eve of its busiest weekend threatens losses of business, goodwill and access to land that money cannot readily measure. But the order merely recites that Calloway Landing 'will suffer irreparable harm,' without findings explaining why, and it makes no findings at all on the adequacy of a legal remedy or the public interest. A conclusory order of that kind does not satisfy the rule. Because the order compels Hollis to act rather than merely to refrain, it is also a mandatory injunction, which Florida courts grant sparingly before a final hearing; Calloway Landing's best answer is that removing a gate installed the night before restores the last peaceable, uncontested status quo, which is the proper aim of temporary relief.",
+            "Proceeding without notice. A temporary injunction may be entered without notice only if specific facts shown by affidavit or verified pleading demonstrate that immediate and irreparable injury will result before the adverse party can be heard in opposition, and the movant's attorney certifies in writing the efforts made to give notice and the reasons why notice should not be required. The verified complaint may supply the facts, but the certification fails. Counsel made no effort to give notice even though the president's cell phone number and Hollis's lawyer's e-mail address were in the papers, and 'urgency' does not explain why a call or e-mail before an afternoon hearing was impossible or would have defeated the relief sought. The rule also requires an order entered without notice to define the injury, state findings explaining why the injury may be irreparable, and give the reasons for granting it without notice. This order gives no reason at all for acting ex parte.",
+            "Bond. Rule 1.610(b) provides that no temporary injunction may be entered unless the movant gives a bond, in an amount the court deems proper, to pay the costs and damages sustained by the adverse party if it is wrongfully enjoined. Under Rule 1.610(b), only the State, a municipality, or a state officer, agency or political subdivision may be excused from posting a bond; a private movant must post one. Calloway Landing is a private company, and neither the recorded easement nor its apparent likelihood of success allowed the court to waive the bond. The injunction was therefore improperly entered on three independent grounds: conclusory findings, no adequate basis for proceeding without notice, and no bond.",
+            "Hollis's remedies. First, a party that has been temporarily enjoined may move to dissolve or modify the injunction at any time, and under Rule 1.610(d) the motion must be heard within 5 days after the movant applies for a hearing. A crowded calendar does not justify a hearing five weeks out, and Hollis should insist on a prompt hearing. Second, an order granting a temporary injunction is an appealable nonfinal order under Rule 9.130(a)(3)(B), so Hollis may file a notice of appeal within 30 days of rendition and raise the deficient findings, the improper ex parte procedure and the missing bond. If the court keeps any injunction in place after a hearing, it must at least set a bond large enough to cover Hollis's damages should it prove to have been wrongfully enjoined."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Review of the privilege order. An order compelling discovery is nonfinal and is not among the orders listed in Rule 9.130, so Hollis cannot appeal it now. Its remedy is a petition for writ of certiorari, filed within 30 days of rendition. Certiorari requires a departure from the essential requirements of law resulting in material injury for the remainder of the case that cannot be corrected on post-judgment appeal; the appellate court examines the irreparable-harm elements first because they are jurisdictional. They are met here: once Hollis's confidential communications with its lawyer are disclosed, no later appeal can undo the disclosure. On the merits, e-mails between a corporate client's president and its outside lawyer seeking advice about the client's legal rights are classic privileged communications under the Florida Evidence Code (§ 90.502). The court ordered all of them produced without reviewing them in camera and without finding that any recognized exception applies. The crime-fraud exception requires that the client sought the lawyer's services to commit or plan what it knew was a crime or fraud; asking a lawyer whether the easement could lawfully be restricted is the opposite of that. Ordering production on the court's stated reasoning departs from the essential requirements of law, and the district court of appeal should quash the order. Because the court gave Hollis only ten days, Hollis should also ask for a stay of the production deadline while its petition is pending.",
+            "The expert subpoena. A party may discover a testifying expert's opinions and the grounds for them and may explore bias, but Rule 1.280 limits financial discovery from the expert to the scope of her employment and compensation in this case, her general litigation experience including the share of her work for plaintiffs and for defendants, the identity of other cases in which she has testified within a reasonable time, and an approximation of the portion of her work spent as an expert witness. She need not disclose her earnings as an expert or her income from other services, and she may be required to produce financial and business records only under the most unusual or compelling circumstances (Elkins v. Syken). Hollis has shown nothing unusual. Calloway Landing or the expert should move for a protective order, and the court should bar the demands for her tax returns and for a list of every payment from any law firm. Hollis can still obtain the permitted information by deposition or interrogatory, paying the expert a reasonable fee for her time, and because the Elkins limits protect the expert rather than the party, Hollis may ask Calloway Landing about the extent of its own financial relationship with this expert (Allstate Ins. Co. v. Boecher). Boecher does not, however, open the expert's dealings with law firms generally: the Florida Supreme Court has declined to extend it to the financial relationship between a nonparty law firm and the expert (Dodgen v. Grijalva), which is a further reason to bar the demand for every payment she has received from any law firm."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Spoliation count. Florida does not recognize an independent cause of action for spoliation against a party to the lawsuit. In Martino v. Wal-Mart Stores, the Florida Supreme Court held that when the alleged spoliator is a party, the remedy lies in sanctions, inferences and presumptions within the existing case. A spoliation count against Hollis would fail to state a cause of action, so the amendment would be futile, and the court should deny leave to add it.",
+            "Relief for the deleted footage. Hollis plainly had a duty to preserve the recordings: it had been served with the complaint and a written request to preserve them, and the footage bore directly on its own overburdening defense, since it showed how heavily and by what vehicles the road was used. The court should choose a remedy proportionate to Hollis's culpability and to the prejudice to Calloway Landing. When lost evidence hinders a party's ability to prove its case, Florida courts may apply a rebuttable presumption that shifts the burden of proof on the affected issue (Public Health Trust v. Valcin), or may instruct the jury that it may infer the missing evidence would have been unfavorable to the party that lost it. Because Hollis is the party asserting overburdening, the natural remedy is an instruction permitting the jury to infer that the footage would not have supported that defense, together with fees and expenses under the court's inherent authority to remedy spoliation (Rule 1.380 sanctions would also be available if Hollis had violated a discovery order). Rule 1.380(e) does not shield Hollis: it bars sanctions under the rules, absent exceptional circumstances, only for electronically stored information lost through the routine, good-faith operation of an electronic information system, and here a manager deleted the footage after suit was served and a specific preservation request was received. Striking Hollis's defense or pleadings would require findings, after an evidentiary hearing, that the deletion was willful or in bad faith and seriously prejudiced Calloway Landing. The manager's explanation that she needed storage space, offered after a specific preservation request, deserves scrutiny; if the court finds it pretextual, harsher sanctions become available.",
+            "Intervention. Rule 1.230 permits anyone claiming an interest in pending litigation to intervene, but the intervention is 'in subordination to, and in recognition of, the propriety of the main proceeding, unless otherwise ordered by the court in its discretion.' The court first asks whether the association's interest is so direct and immediate that it will gain or lose by the direct legal operation and effect of the judgment, and then exercises its discretion (Union Central Life Insurance Co. v. Carlisle). The homeowners travel the same road under the same recorded instrument, so a ruling construing the easement matters to them, but a judgment between Calloway Landing and Hollis would not bind them, so its effect on them may be practical rather than legal. Even if the interest is sufficient, the court should not allow the association to reshape the case a month before trial. A new claim that Hollis must pave the road and a 90-day reopening of discovery are exactly the new issues and delay that subordinate intervention excludes. The court should deny the motion as filed or, at most, allow the association to intervene in support of the existing easement claim, taking the case as it finds it, with no new claims and no delay of trial. The association remains free to pursue its paving claim in its own action."
+          ]
+        }
+      ]
+    }
+  ]
+}

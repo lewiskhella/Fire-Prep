@@ -1,0 +1,240 @@
+{
+  "subject": "fl-business-entities",
+  "spotters": [
+    {
+      "id": "fl-business-entities.s01",
+      "title": "Trouble at the Seawall Grill",
+      "intro": "A Pensacola restaurant corporation from formation to a shareholder suit. Flag every segment that raises a corporate-law issue.",
+      "segments": [
+        {
+          "t": "Nora and Felipe planned a seafood restaurant in Pensacola. "
+        },
+        {
+          "t": "Before any articles of incorporation were filed, and knowing that none had been, Nora signed a $30,000 kitchen-equipment contract with Gulf Ovens as 'Seawall Grill, Inc., by Nora Diaz, President'; Gulf's salesman believed the corporation already existed. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "The articles were filed two weeks later. Nora and Felipe each took 40 percent of the shares and became directors along with Odette, who took 20 percent. "
+        },
+        {
+          "t": "Odette paid for her shares with a $100,000 promissory note, which the board resolved was adequate consideration. "
+        },
+        {
+          "t": "Seawall installed the ovens and paid Gulf's first two installments, but Gulf never agreed to release Nora. ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "Odette lives in Georgia and attends board meetings by video call, on which every director can hear the others. "
+        },
+        {
+          "t": "At a fifteen-minute meeting, the board approved a second location after Felipe said the lease 'looked fine'; no director read the lease or asked for projections, and the location lost $250,000 in its first year. ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "Felipe then proposed buying all of Seawall's fish from Bayou Catch, LLC, which he described only as 'a reliable local supplier.' Felipe owns half of Bayou Catch, whose prices run 20 percent above the market. Nora and Felipe voted yes; Odette voted no. ",
+          "issues": [
+            "d"
+          ]
+        },
+        {
+          "t": "A month later a broker told Felipe, because he was Seawall's purchasing director, that the waterfront fish market next door was for sale; Felipe bought it through his own company without mentioning it to the board. ",
+          "issues": [
+            "e"
+          ]
+        },
+        {
+          "t": "Odette gave written notice, ten business days ahead, that she wanted to inspect the board minutes and accounting records to investigate the Bayou Catch contract. Nora refused, saying Odette was 'just looking for ammunition.' ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "Odette also delivered a written demand that Seawall sue Felipe. When the board had not answered three weeks later, she filed a derivative complaint, although nothing suggested that waiting would harm Seawall. ",
+          "issues": [
+            "g"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Acting for a corporation known not to exist",
+          "rules": [
+            "fl-business-entities.corporations.formation",
+            "fl-business-entities.corporations.promoters"
+          ],
+          "explain": "Under § 607.0204, a person who acts on behalf of a corporation knowing there was no incorporation is jointly and severally liable for obligations created while so acting. The exception for a party who also knew does not apply, because Gulf's salesman believed Seawall existed, so Nora is personally liable on the equipment contract."
+        },
+        {
+          "id": "b",
+          "label": "Adoption by the corporation; no novation",
+          "rules": [
+            "fl-business-entities.corporations.promoters"
+          ],
+          "explain": "By installing the ovens and paying installments, Seawall impliedly adopted the contract and became liable on it. Adoption adds the corporation as an obligor but does not release Nora; only a novation to which Gulf consents would do that."
+        },
+        {
+          "id": "c",
+          "label": "Duty of care and the § 607.0831 shield",
+          "rules": [
+            "fl-business-entities.corporations.duty-of-care"
+          ],
+          "explain": "Approving a lease no one read after a fifteen-minute meeting is a poorly informed decision and arguably breaches the standard of care. Even so, § 607.0831 bars damages unless the breach involves, for example, conscious disregard of the corporation's interests, willful or intentional misconduct, or an improper personal benefit, which these facts do not show."
+        },
+        {
+          "id": "d",
+          "label": "Director conflict-of-interest transaction",
+          "rules": [
+            "fl-business-entities.corporations.duty-of-loyalty",
+            "fl-business-entities.corporations.duty-of-care"
+          ],
+          "explain": "Felipe has a material financial interest in Bayou Catch and did not disclose it, and the qualified directors (Nora and Odette) split, so no board safe harbor applies; the above-market prices defeat fairness. Because Felipe received an improper personal benefit, § 607.0831 does not shield him."
+        },
+        {
+          "id": "e",
+          "label": "Usurping a corporate opportunity",
+          "rules": [
+            "fl-business-entities.corporations.duty-of-loyalty"
+          ],
+          "explain": "The fish market came to Felipe because of his corporate role and is closely tied to the restaurant's business. Taking it without first disclosing and offering it to Seawall breaches his duty of loyalty, and Seawall may seek a constructive trust or disgorgement."
+        },
+        {
+          "id": "f",
+          "label": "Shareholder inspection for a proper purpose",
+          "rules": [
+            "fl-business-entities.shareholder-remedies-and-fundamental-changes.inspection"
+          ],
+          "explain": "Board minutes and accounting records are open to a shareholder who gives at least five business days' written notice and states a proper purpose with reasonable particularity. Investigating a suspected self-dealing contract is a proper purpose, and hostility to management is not a ground for refusal."
+        },
+        {
+          "id": "g",
+          "label": "Universal demand and the 90-day wait",
+          "rules": [
+            "fl-business-entities.shareholder-remedies-and-fundamental-changes.derivative-suits"
+          ],
+          "explain": "Florida requires a written demand in every derivative case and bars suit until 90 days after the demand unless it is rejected sooner or waiting would cause irreparable injury. Odette made a demand but filed after three weeks without a rejection, so the complaint is premature."
+        }
+      ]
+    },
+    {
+      "id": "fl-business-entities.s02",
+      "title": "Charters, a Truck and a Creditor",
+      "intro": "A Destin fishing-charter business moves from an informal partnership to an LLC. Flag each segment that raises a partnership, LLC or agency issue.",
+      "segments": [
+        {
+          "t": "Dev and Lucia began running fishing charters out of Destin in 2023. They signed nothing and told friends they were 'just seeing how it goes,' but each put in $15,000, they set trips and prices together at a weekly meeting, and they split the profits equally. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "They registered the fictitious name 'D&L Charters' with the Division of Corporations and printed it on their brochures. "
+        },
+        {
+          "t": "Without asking Lucia, Dev bought a $9,000 sonar system for the charter boat on credit from Marine Electronics, signing the invoice 'D&L Charters, by Dev.' The invoice has never been paid, and Marine Electronics has now sued both Dev and Lucia. ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "In 2025 they formed D&L Charters, LLC and transferred the boat and gear to it. Its articles state that it is manager-managed and name Lucia as sole manager; Dev and a new investor, Marco, who paid $50,000 for a one-third interest, are members with no management role. "
+        },
+        {
+          "t": "Dev then signed a $40,000 engine-overhaul contract in the LLC's name with Harbor Marine, whose owner had read the articles. Lucia had never authorized it and learned of it only when the invoice arrived. ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "The operating agreement says nothing about competition. Marco opened his own charter business at the next dock and began taking D&L customers, using no LLC property or information. ",
+          "issues": [
+            "d"
+          ]
+        },
+        {
+          "t": "Beau, a deckhand employed by the LLC, was sent by the LLC's dock supervisor to drive the LLC's pickup truck to the bait shop and come straight back. On the way back he spent an hour at a bar ten miles off his route, then rear-ended a car while driving back toward the dock. ",
+          "issues": [
+            "e",
+            "f"
+          ]
+        },
+        {
+          "t": "Lucia was on vacation in North Carolina that week and did not know Beau had the truck. "
+        },
+        {
+          "t": "Separately, a creditor holding a $150,000 personal judgment against Dev asked the court to order a foreclosure sale of Dev's interest in the LLC, pointing out that the LLC has made no distributions. ",
+          "issues": [
+            "g"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "General partnership formed by conduct",
+          "rules": [
+            "fl-business-entities.partnerships.formation"
+          ],
+          "explain": "Two persons carrying on as co-owners a business for profit form a partnership whether or not they intend to, and no filing is required. Shared contributions, joint decisions and equal profit-sharing make Dev and Lucia partners."
+        },
+        {
+          "id": "b",
+          "label": "Partner's power to bind; personal liability",
+          "rules": [
+            "fl-business-entities.partnerships.authority",
+            "fl-business-entities.partnerships.liability-and-llp"
+          ],
+          "explain": "Buying equipment for the charter boat is apparently in the ordinary course of a charter business, so Dev bound the partnership although Lucia was not consulted. Both partners are jointly and severally liable for the debt, though the seller generally must exhaust partnership assets before reaching their personal assets, and forming the LLC later did not release them."
+        },
+        {
+          "id": "c",
+          "label": "Member of a manager-managed LLC lacks agency power",
+          "rules": [
+            "fl-business-entities.llcs.agency",
+            "fl-business-entities.llcs.management",
+            "fl-business-entities.agency.contract-liability"
+          ],
+          "explain": "In a manager-managed Florida LLC, a member is not an agent of the company solely by reason of being a member, so Dev had no statutory power to bind it and no actual authority. Harbor Marine, which had read the articles, cannot claim apparent authority, so the LLC is not bound unless it ratifies; Dev may be liable for breach of his implied warranty of authority."
+        },
+        {
+          "id": "d",
+          "label": "Fiduciary duties of a non-managing member",
+          "rules": [
+            "fl-business-entities.llcs.fiduciary-duties"
+          ],
+          "explain": "In a manager-managed LLC the duties of loyalty and care run from the managers, and a member owes no fiduciary duty solely by reason of being a member. Absent an operating-agreement restriction, Marco may compete, subject only to the contractual obligation of good faith and fair dealing."
+        },
+        {
+          "id": "e",
+          "label": "Scope of employment: detour or frolic",
+          "rules": [
+            "fl-business-entities.agency.respondeat-superior"
+          ],
+          "explain": "Buying bait was within Beau's job, but an hour-long stop at a bar ten miles off route is a substantial personal departure. The LLC will argue that he had not yet re-entered the scope of employment; the claimant will argue that he was back on his way to the dock on the employer's errand."
+        },
+        {
+          "id": "f",
+          "label": "Dangerous instrumentality doctrine",
+          "rules": [
+            "fl-business-entities.agency.dangerous-instrumentality"
+          ],
+          "explain": "Whatever the scope-of-employment answer, the LLC owns the truck and voluntarily entrusted it to Beau, so Florida's dangerous instrumentality doctrine makes it vicariously liable for his negligent driving. Liability turns on ownership and consent, not on agency, and Lucia's absence is irrelevant."
+        },
+        {
+          "id": "g",
+          "label": "Charging order is the exclusive remedy",
+          "rules": [
+            "fl-business-entities.llcs.charging-orders"
+          ],
+          "explain": "A charging order is the sole and exclusive remedy of a member's judgment creditor against the member's LLC interest. Foreclosure is available only for a single-member LLC, and D&L has three members, so the court should deny the sale and enter a charging order."
+        }
+      ]
+    }
+  ]
+}

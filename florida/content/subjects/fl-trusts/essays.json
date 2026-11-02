@@ -1,0 +1,273 @@
+{
+  "subject": "fl-trusts",
+  "essays": [
+    {
+      "id": "fl-trusts.e01",
+      "title": "The successor trustee",
+      "minutes": 60,
+      "topics": [
+        "fl-trusts.creation",
+        "fl-trusts.trustee-duties",
+        "fl-trusts.types",
+        "fl-trusts.modification-and-creditors"
+      ],
+      "facts": [
+        "In 2019 Elena Ruiz, a Florida domiciliary, signed the Ruiz Revocable Trust at her lawyer's office in the presence of two witnesses, who signed in her presence and each other's, and a notary. Elena was the initial trustee; her nephew Felix, a Florida resident, was named successor trustee. At Elena's death the trust continues for her daughter, Gabriela: the trustee 'may distribute income and principal to Gabriela in its sole discretion for her health, education, maintenance and support,' with the remainder at Gabriela's death to Gabriela's children. The trust contains a valid spendthrift clause and says nothing about the trustee's investments or dealings with trust property.",
+        "In 2022, at home, Elena signed a one-page amendment giving 25 percent of the trust at her death to Hector, her live-in caregiver, who had typed the amendment and arranged for a mobile notary. The notary was the only other person present. Elena died in 2024.",
+        "Felix became trustee. The trust holds a rental duplex and $1.5 million in securities. Felix had the duplex appraised at $400,000 and sold it to an LLC that he owns for that amount; a year later the LLC resold it for $520,000. He also sold all the securities and invested the full proceeds in the stock of a single regional bank, because 'Aunt Elena banked there for forty years.' The stock has since dropped by half. When Iris, Gabriela's adult daughter, asked for a copy of the trust instrument and an accounting, Felix replied that remainder beneficiaries 'have no rights until Gabriela dies.'",
+        "Gabriela's former husband, Jorge, holds a court judgment for $45,000 in unpaid alimony. Gabriela has no wages or nonexempt assets. Jorge has served a writ of garnishment on Felix as trustee."
+      ],
+      "calls": [
+        "Is Hector entitled to 25 percent of the trust?",
+        "Has Felix breached his duties as trustee, and what remedies are available to the beneficiaries?",
+        "What, if anything, can Jorge recover from the trust?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Formalities for amending testamentary aspects",
+          "rules": [
+            "fl-trusts.creation.testamentary-aspects",
+            "fl-trusts.modification-and-creditors.revocation"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Florida presumes a trust revocable and allows amendment, but the testamentary aspects of a Florida settlor's revocable trust require will formalities",
+            "the gift to Hector takes effect at death, so it is a testamentary aspect",
+            "the amendment had no attesting witnesses, only a notary, so it is invalid"
+          ],
+          "conclusion": "The amendment is ineffective; Hector takes nothing and the original trust terms govern."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Undue influence (alternative ground)",
+          "rules": [
+            "fl-trusts.creation.capacity-and-contests"
+          ],
+          "points": 2,
+          "mustSay": [
+            "a trust or amendment procured by undue influence is void",
+            "Hector was a caregiver in a confidential relationship who prepared the amendment and arranged its signing (active procurement)",
+            "the resulting presumption shifts the burden to Hector"
+          ],
+          "conclusion": "Even if properly executed, the amendment would be vulnerable to an undue-influence challenge."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "Self-dealing sale of the duplex",
+          "rules": [
+            "fl-trusts.trustee-duties.loyalty"
+          ],
+          "points": 3,
+          "mustSay": [
+            "trustee must administer solely in beneficiaries' interests",
+            "a sale to an entity the trustee owns is a conflicted transaction voidable by an affected beneficiary",
+            "no exception applies (no trust authorization, court approval or informed beneficiary consent)",
+            "fair appraisal is not a defense (no-further-inquiry rule)"
+          ],
+          "conclusion": "The sale is voidable; the beneficiaries may set it aside or recover Felix's profit."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "Failure to diversify",
+          "rules": [
+            "fl-trusts.trustee-duties.prudent-investor",
+            "fl-trusts.trustee-duties.impartiality-income"
+          ],
+          "points": 3,
+          "mustSay": [
+            "prudent investor rule under § 518.11 judged on the portfolio as a whole",
+            "duty to diversify unless the trustee reasonably believes otherwise serves the beneficiaries and trust purposes",
+            "sentimental reason is not a reasonable basis; no retention clause applies because Felix bought the stock himself",
+            "concentration also disregards the remaindermen's and income beneficiary's differing interests"
+          ],
+          "conclusion": "Felix breached the duty of prudent investment and is liable for the resulting loss."
+        },
+        {
+          "id": "i5",
+          "call": 2,
+          "label": "Duty to inform and account",
+          "rules": [
+            "fl-trusts.trustee-duties.inform-and-account"
+          ],
+          "points": 2,
+          "mustSay": [
+            "trust became irrevocable at Elena's death",
+            "Iris is a qualified beneficiary because she would take if Gabriela's interest ended",
+            "trustee must provide a copy of the trust on reasonable request and annual accountings"
+          ],
+          "conclusion": "Felix breached § 736.0813 by refusing Iris's request."
+        },
+        {
+          "id": "i6",
+          "call": 2,
+          "label": "Remedies",
+          "rules": [
+            "fl-trusts.trustee-duties.breach-remedies",
+            "fl-trusts.trustee-duties.removal-resignation"
+          ],
+          "points": 2,
+          "mustSay": [
+            "liability for the greater of restoration damages or the trustee's profit",
+            "court may void the duplex sale or impose a constructive trust or lien",
+            "court may reduce or deny compensation and remove Felix for serious breach"
+          ],
+          "conclusion": "The court should surcharge Felix, unwind or disgorge the duplex profit, and likely remove him."
+        },
+        {
+          "id": "i7",
+          "call": 3,
+          "label": "Exception creditor against a discretionary spendthrift trust",
+          "rules": [
+            "fl-trusts.types.spendthrift",
+            "fl-trusts.types.discretionary-support",
+            "fl-trusts.modification-and-creditors.exception-creditors"
+          ],
+          "points": 3,
+          "mustSay": [
+            "a former spouse with an alimony judgment is an exception creditor, so the spendthrift clause does not bar him",
+            "remedy is an order attaching present or future distributions, available as a last resort after traditional methods fail",
+            "no creditor, including an exception creditor, can compel a discretionary distribution",
+            "the HEMS standard does not convert the trust into a mandatory one for creditors"
+          ],
+          "conclusion": "Jorge can attach distributions Felix actually makes to or for Gabriela, but cannot force Felix to distribute."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Issue: whether Elena's 2022 amendment validly gave Hector 25 percent of the trust. Rule: unless a trust expressly states that it is irrevocable, the settlor may revoke or amend it (§ 736.0602). But under § 736.0403(2)(b), the testamentary aspects of a revocable trust executed by a Florida domiciliary are invalid unless executed with the formalities required for a will: signed by the settlor in the presence of two attesting witnesses who sign in her presence and each other's. Testamentary aspects are provisions that dispose of trust property at or after the settlor's death. Application: the gift to Hector operates only at Elena's death, so it is a testamentary aspect. The original trust was properly witnessed, but the amendment was signed before only a notary. A notary is not an attesting witness and cannot substitute for two. Conclusion: the amendment is invalid and the trust passes under its original terms.",
+            "Issue: undue influence, as an alternative ground. Rule: a trust or amendment is void to the extent procured by undue influence (§ 736.0406). As with wills, a presumption arises when a substantial beneficiary in a confidential relationship actively procured the instrument, shifting the burden of proof to that beneficiary. Application: Hector, Elena's live-in caregiver, was in a position of trust; he typed the amendment, arranged the notary and was present for the signing, and he receives a quarter of the trust. Conclusion: even if the amendment had been properly witnessed, Hector would bear the burden of proving it was not the product of undue influence, and the beneficiaries could not be penalized for contesting it because Florida does not enforce no-contest clauses."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Duty of loyalty. Rule: a trustee must administer the trust solely in the interests of the beneficiaries. A transaction involving trust property entered into for the trustee's own account, or with an entity in which the trustee has an interest that might affect his judgment, is voidable by an affected beneficiary unless authorized by the trust, approved by the court, or consented to by the beneficiary after disclosure, or another statutory exception applies (§ 736.0802). Fairness is no defense. Application: Felix sold the duplex to his own LLC. The trust is silent, there was no court approval, and no beneficiary consented. The independent appraisal is irrelevant under the no-further-inquiry rule, and the LLC's $120,000 profit on resale shows the harm. Conclusion: the sale is voidable at the beneficiaries' election.",
+            "Prudent investment. Rule: under § 518.11 and § 736.0901, a trustee must invest as a prudent investor, considering the trust's purposes and distribution needs, evaluating investments in the context of the whole portfolio, and must diversify unless he reasonably believes that not diversifying better serves the beneficiaries and the trust's purposes. The trustee also must act impartially between the income beneficiary and the remaindermen (§ 736.0803). Application: Felix converted a $1.5 million portfolio into a single bank stock for a purely sentimental reason. The trust contains no retention clause, and he was not retaining an asset the settlor chose; he made the concentrated investment himself. Concentration exposed both Gabriela and her children to unnecessary risk, and the stock fell by half. Conclusion: Felix breached the duty to diversify and is liable for the loss.",
+            "Duty to inform. Rule: after a trust becomes irrevocable, the trustee must keep qualified beneficiaries reasonably informed, give them notice of the trust and their rights, provide a copy of the trust instrument on reasonable request, and provide at least annual accountings (§ 736.0813). A qualified beneficiary includes a beneficiary who would become a distributee if the current interests ended (§ 736.0103). Application: the trust became irrevocable at Elena's death; Iris would take if Gabriela's interest ended, so she is a qualified beneficiary. Conclusion: Felix's refusal breached his duty.",
+            "Remedies. Rule: the court may compel redress, void the trustee's act, impose a lien or constructive trust, trace property, reduce or deny compensation, and remove the trustee (§ 736.1001); damages are the greater of the amount needed to restore the trust to where it would have been or the trustee's profit (§ 736.1002); and a serious breach is grounds for removal (§ 736.0706). Application: the beneficiaries can recover from Felix the profit his LLC made on the duplex (or the duplex's higher value), and surcharge him for the investment loss measured against what a prudently diversified portfolio would have earned. Conclusion: Felix should be surcharged, denied compensation for the period of breach, ordered to provide the instrument and accountings, and likely removed in favor of a suitable successor."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Issue: whether Jorge's alimony judgment can be collected from Gabriela's interest. Rule: a spendthrift provision is unenforceable against a beneficiary's former spouse holding a judgment for support or maintenance; such a claimant may obtain a court order attaching present or future distributions to or for the beneficiary, but only as a last resort after showing that traditional methods of enforcement are insufficient (§ 736.0503). However, under § 736.0504 no creditor, including an exception creditor, may compel a distribution subject to the trustee's discretion, even one tied to a standard. Application: Jorge is an exception creditor, and because Gabriela has no wages or nonexempt assets he can make the last-resort showing. But Gabriela's interest is discretionary (the trustee 'may' distribute 'in its sole discretion' under a health, education, maintenance and support standard). Conclusion: the court may order that any distribution Felix (or a successor trustee) makes to or for Gabriela be paid toward Jorge's judgment, but Jorge cannot compel the trustee to make distributions, and he cannot reach the trust principal directly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-trusts.e02",
+      "title": "Dr. Okafor's irrevocable trust",
+      "minutes": 60,
+      "topics": [
+        "fl-trusts.types",
+        "fl-trusts.modification-and-creditors"
+      ],
+      "facts": [
+        "In 2012 Dr. Nadia Okafor, a Pensacola physician, transferred $3 million to an irrevocable trust with Coastline Trust Company as trustee. During Nadia's life the trustee 'may distribute to Nadia so much of the income and principal as the trustee, in its sole discretion, determines.' At Nadia's death, one-half is to be held 'to support the free clinic operated by Bayside Health Mission in Escambia County, and for no other purpose,' and one-half is to be held for Nadia's nephew, Omar, with the trustee having absolute discretion to distribute principal to Omar for any purpose and the remainder at Omar's death to his children. The trust has a spendthrift clause. Nothing in it provides for what happens if a purpose fails, and nothing prohibits the trustee from appointing trust property to another trust.",
+        "In 2024 a former patient obtained a $900,000 malpractice judgment against Nadia that her insurance did not cover, and sought to levy on the trust. Nadia had made the 2012 transfer when she had no claims pending or threatened.",
+        "Nadia died in 2025. Bayside Health Mission had dissolved in 2023, and its free clinic is closed; another nonprofit operates a similar free clinic in the same county. Nadia's heirs claim the clinic half. Omar suffered a severe injury in 2025 and now depends on needs-based public benefits that an outright distribution could disqualify. Coastline proposes to move Omar's share into a new supplemental needs trust for Omar, with the remainder to Omar's children, and asks whether it may do so without going to court."
+      ],
+      "calls": [
+        "Could the malpractice creditor reach the trust assets in 2024? Explain.",
+        "What should happen to the half of the trust set aside for the free clinic?",
+        "May Coastline restructure Omar's share as proposed, and what requirements and alternatives apply?"
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Self-settled irrevocable trust",
+          "rules": [
+            "fl-trusts.modification-and-creditors.settlor-creditors",
+            "fl-trusts.types.spendthrift"
+          ],
+          "points": 4,
+          "mustSay": [
+            "a creditor of the settlor of an irrevocable trust may reach the maximum amount that can be distributed to or for the settlor's benefit",
+            "the trustee could distribute all income and principal to Nadia, so the whole trust was reachable up to the judgment",
+            "a spendthrift clause does not protect the settlor's own interest; Florida does not recognize self-settled asset protection trusts",
+            "no fraudulent-transfer showing is required, so the absence of pending claims in 2012 does not help Nadia"
+          ],
+          "conclusion": "Yes; the creditor could reach up to $900,000 of the trust because the trustee could have distributed it all to Nadia."
+        },
+        {
+          "id": "i2",
+          "call": 2,
+          "label": "Charitable trust and cy pres",
+          "rules": [
+            "fl-trusts.types.charitable-cy-pres",
+            "fl-trusts.modification-and-creditors.judicial-modification"
+          ],
+          "points": 4,
+          "mustSay": [
+            "supporting a free clinic is a charitable purpose (promotion of health), so the trust is valid without definite beneficiaries",
+            "the particular purpose has become impossible because the clinic closed and the operator dissolved",
+            "the court may apply cy pres to direct the property to a use consistent with the settlor's charitable purpose, such as the similar free clinic in the county",
+            "no gift over exists, so the heirs have no claim; the Attorney General may participate to enforce the charitable trust"
+          ],
+          "conclusion": "The court should apply cy pres and redirect the clinic half to a similar free-clinic purpose; the heirs take nothing."
+        },
+        {
+          "id": "i3",
+          "call": 3,
+          "label": "Decanting",
+          "rules": [
+            "fl-trusts.modification-and-creditors.decanting"
+          ],
+          "points": 4,
+          "mustSay": [
+            "a trustee with absolute power to invade principal may appoint principal to a second trust without court approval unless the instrument prohibits it",
+            "the second trust may benefit only beneficiaries of the first trust and may not reduce fixed income interests",
+            "written notice to qualified beneficiaries at least 60 days before the decanting takes effect",
+            "Coastline remains bound by its fiduciary duties in deciding whether decanting serves Omar and his children"
+          ],
+          "conclusion": "Yes; Coastline may decant Omar's share into a supplemental needs trust for Omar with the same remainder beneficiaries after giving 60 days' written notice."
+        },
+        {
+          "id": "i4",
+          "call": 3,
+          "label": "Judicial modification as an alternative",
+          "rules": [
+            "fl-trusts.modification-and-creditors.judicial-modification"
+          ],
+          "points": 2,
+          "mustSay": [
+            "the trustee or a qualified beneficiary may petition to modify an irrevocable trust",
+            "circumstances the settlor did not anticipate (Omar's disability) would defeat or substantially impair a material purpose of benefiting Omar",
+            "the spendthrift clause does not prevent modification"
+          ],
+          "conclusion": "If decanting were unavailable or contested, a court could modify Omar's share under § 736.04113 or § 736.04115."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Issue: whether a creditor of Nadia, the settlor, could reach a trust she created for her own discretionary benefit. Rule: under § 736.0505(1)(b), a creditor of the settlor of an irrevocable trust may reach the maximum amount that can be distributed to or for the settlor's benefit. A spendthrift clause does not protect a settlor's own interest in a self-settled trust, and Florida has no statute authorizing domestic asset protection trusts. Application: the trustee could distribute all of the income and principal to Nadia in its sole discretion, so the maximum distributable amount was the entire trust. It does not matter that Coastline is independent, that its discretion is absolute, or that the 2012 transfer was not a fraudulent transfer; the statute itself makes the settlor's distributable interest reachable. Conclusion: the patient could reach trust assets sufficient to satisfy the $900,000 judgment."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Issue: validity and fate of the clinic share. Rule: a trust for a charitable purpose, such as the promotion of health, is valid without a definite beneficiary (§ 736.0405). If a particular charitable purpose becomes unlawful, impracticable or impossible to achieve, the court may apply cy pres to modify or terminate the trust by directing the property to be applied in a manner consistent with the settlor's charitable purposes (§ 736.0413); an express gift over to a noncharitable beneficiary would generally control, but there is none here. The Attorney General may enforce a charitable trust administered in Florida (§ 736.0110). Application: supporting a free clinic is charitable. The specific purpose, Bayside's clinic, became impossible when Bayside dissolved and the clinic closed. The heirs will argue that 'for no other purpose' shows Nadia meant only Bayside's clinic, but the phrase most naturally keeps the trustee from diverting the fund to non-clinic uses; it does not say the gift should fail if the clinic closed, and the trust contains no gift over to her heirs. A similar free clinic operates in the same county. Conclusion: the court should apply cy pres and direct the clinic half to support the comparable free clinic (or a similar health purpose in Escambia County). The heirs' claim fails because cy pres prevents a resulting trust in their favor."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Issue: whether Coastline may decant Omar's share. Rule: under § 736.04117, unless the instrument provides otherwise, a trustee with absolute power to invade principal (power not limited to an ascertainable standard) may instead appoint that principal to a second trust for the beneficiaries of the first trust. The second trust may not add beneficiaries or reduce fixed income, annuity or unitrust interests, and the trustee must give written notice to the qualified beneficiaries at least 60 days before the decanting takes effect. No court order is required, but the trustee must exercise the power consistently with its fiduciary duties. Application: Coastline has absolute discretion to distribute principal to Omar 'for any purpose,' and the instrument does not prohibit appointment to another trust. The proposed supplemental needs trust names only Omar and his children, the same beneficiaries as before, and Omar has no fixed income right to reduce. Restricting distributions to protect his benefits plainly serves him. Conclusion: Coastline may proceed without court approval after serving the 60-day notice on the qualified beneficiaries (Omar and his children).",
+            "Alternative: judicial modification. Rule: on petition of the trustee or a qualified beneficiary, a court may modify an irrevocable trust if, because of circumstances the settlor did not anticipate, compliance with its terms would defeat or substantially impair a material purpose (§ 736.04113), or if modification is in the beneficiaries' best interests considering the settlor's intent (§ 736.04115); a spendthrift clause does not bar modification. Application: Nadia did not anticipate Omar's disability, and outright distributions that cost him his benefits would undercut her purpose of providing for him. Conclusion: if any beneficiary objected to the decanting or Coastline wanted the protection of a court order, it could petition to modify Omar's share to add supplemental-needs provisions."
+          ]
+        }
+      ]
+    }
+  ]
+}

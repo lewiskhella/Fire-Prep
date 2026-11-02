@@ -1,0 +1,337 @@
+{
+ "subject": "fl-professional-responsibility",
+ "essays": [
+  {
+   "id": "fl-professional-responsibility.e01",
+   "title": "Two Clients, One Check",
+   "minutes": 60,
+   "topics": [
+    "fl-professional-responsibility.client-relationship",
+    "fl-professional-responsibility.confidentiality-and-conflicts",
+    "fl-professional-responsibility.trust-accounting"
+   ],
+   "facts": [
+    "Dario was driving his friend Lucia home from work in Ocala when a delivery truck ran a red light and struck his car. Both were hurt. The trucking company's insurer has suggested that Dario was speeding, which, if true, could make him partly responsible for Lucia's injuries. Attorney Kemp, a real-estate lawyer, referred both of them to Attorney Ortega, a personal-injury lawyer.",
+    "At their first meeting, Ortega had Dario and Lucia sign a single contingent fee contract providing for a fee of 40 percent of any recovery, 'whether before or after suit is filed.' Ortega and Kemp both signed it. The contract states that Kemp will receive 40 percent of the fee in exchange for the referral and 'assumes joint legal responsibility' for the case. Ortega handed Dario and Lucia the Statement of Client's Rights two weeks later, when they came in to sign medical releases, and they signed it then. Ortega never discussed with either of them whether their interests might diverge.",
+    "Before any lawsuit was filed, the insurer offered $500,000 to settle both claims, leaving it to Dario and Lucia to divide the money. Ortega decided on a 60/40 split favoring Dario, told each client only his or her own share, and obtained each one's signature on a release. The $500,000 check was deposited into Ortega's trust account and has cleared.",
+    "Lucia's hospital treated her under a letter of protection, signed by Lucia and Ortega, promising payment of its $35,000 bill from any recovery. Lucia now tells Ortega not to pay the hospital and demands her entire share immediately. Dario disputes Ortega's fee. That same week, Ortega, short on cash, wrote a $10,000 check on the trust account to pay her office rent, intending to replace it from her fee."
+   ],
+   "calls": [
+    "Discuss whether the fee arrangement, including Kemp's share, complies with the Rules Regulating The Florida Bar.",
+    "Discuss whether Ortega properly represented both Dario and Lucia and properly handled the settlement.",
+    "Discuss Ortega's obligations concerning the settlement funds and whether she has violated the trust-accounting rules."
+   ],
+   "issues": [
+    {
+     "id": "i1",
+     "call": 1,
+     "label": "Contingent fee contract and Statement of Client's Rights",
+     "rules": [
+      "fl-professional-responsibility.client-relationship.contingent-fees",
+      "fl-professional-responsibility.client-relationship.personal-injury-schedule"
+     ],
+     "points": 3,
+     "mustSay": [
+      "The written contract signed by the clients and by a lawyer for each participating firm satisfies the basic writing requirement",
+      "In a personal-injury case the client must receive, read and sign the Statement of Client's Rights before signing the contract; giving it two weeks later violates the rule",
+      "The contract must include the three-business-day cancellation provision"
+     ],
+     "conclusion": "The contract meets the general signed-writing rule but violates the personal-injury requirements because the Statement of Client's Rights was not provided before signing."
+    },
+    {
+     "id": "i2",
+     "call": 1,
+     "label": "Fee amount under the personal-injury schedule",
+     "rules": [
+      "fl-professional-responsibility.client-relationship.personal-injury-schedule",
+      "fl-professional-responsibility.client-relationship.reasonable-fees"
+     ],
+     "points": 3,
+     "mustSay": [
+      "The case settled before any answer was filed, so the maximum is 33 1/3 percent of the first $1 million",
+      "A 40 percent fee exceeds the schedule and is presumed clearly excessive absent prior court approval",
+      "Ortega may not collect more than the schedule allows: $166,667 on $500,000"
+     ],
+     "conclusion": "A 40 percent fee on a pre-suit settlement is presumed clearly excessive; Ortega's fee is limited to one-third, about $166,667."
+    },
+    {
+     "id": "i3",
+     "call": 1,
+     "label": "Division of the fee with Kemp",
+     "rules": [
+      "fl-professional-responsibility.client-relationship.fee-division"
+     ],
+     "points": 3,
+     "mustSay": [
+      "A referring lawyer may share a fee without doing proportional work if the client consents in writing and the lawyer assumes joint legal responsibility",
+      "In personal-injury cases the secondary lawyer may receive no more than 25 percent of the total fee; a larger share needs court authorization based on substantially equal active participation, which a pure referral cannot show",
+      "Kemp's 40 percent share exceeds the cap and is presumed clearly excessive"
+     ],
+     "conclusion": "Kemp may receive a referral share only up to 25 percent of the total fee; the 40 percent split violates Rule 4-1.5(f)(4)(D)."
+    },
+    {
+     "id": "i4",
+     "call": 2,
+     "label": "Concurrent conflict in representing driver and passenger",
+     "rules": [
+      "fl-professional-responsibility.confidentiality-and-conflicts.concurrent-conflicts"
+     ],
+     "points": 4,
+     "mustSay": [
+      "Lucia has a potential claim against Dario if he was speeding, creating direct adversity or at least a material limitation",
+      "The conflict is consentable only if Ortega reasonably believes she can represent both competently and is not asserting one client's claim against the other",
+      "Each client must give informed consent, confirmed in writing or on the record, after an explanation of the implications, advantages and risks of common representation",
+      "Ortega never discussed the conflict or obtained consent"
+     ],
+     "conclusion": "Ortega violated Rule 4-1.7 by undertaking the joint representation without explaining the conflict and obtaining each client's informed, written consent, and she may need to withdraw from representing at least one of them."
+    },
+    {
+     "id": "i5",
+     "call": 2,
+     "label": "Aggregate settlement",
+     "rules": [
+      "fl-professional-responsibility.confidentiality-and-conflicts.specific-transactions",
+      "fl-professional-responsibility.client-relationship.scope-and-authority"
+     ],
+     "points": 3,
+     "mustSay": [
+      "A lump-sum settlement of two clients' claims is an aggregate settlement",
+      "Each client must give informed consent in a signed writing after disclosure of the existence and nature of all claims and each person's share",
+      "The decision to settle and the allocation belong to the clients; Ortega could not set the 60/40 split herself and conceal it"
+     ],
+     "conclusion": "Ortega violated Rule 4-1.8(g) by allocating the aggregate settlement herself and telling each client only his or her own share."
+    },
+    {
+     "id": "i6",
+     "call": 3,
+     "label": "Third-party claim and disputed fee",
+     "rules": [
+      "fl-professional-responsibility.trust-accounting.delivery-and-disputes",
+      "fl-professional-responsibility.trust-accounting.trust-property"
+     ],
+     "points": 4,
+     "mustSay": [
+      "Ortega must promptly notify the clients and deliver undisputed amounts with an accounting",
+      "The hospital's letter of protection is a matured claim; Ortega must protect the $35,000 and cannot release it to Lucia over the hospital's claim",
+      "Only the disputed portion of Dario's fee may be held in trust; the rest must be distributed promptly",
+      "A closing statement signed by the client and the lawyers is required"
+     ],
+     "conclusion": "Ortega must hold the $35,000 for the hospital and the disputed part of Dario's fee in trust, and promptly distribute everything else with a closing statement."
+    },
+    {
+     "id": "i7",
+     "call": 3,
+     "label": "Misappropriation to pay office rent",
+     "rules": [
+      "fl-professional-responsibility.trust-accounting.trust-property",
+      "fl-professional-responsibility.trust-accounting.commingling",
+      "fl-professional-responsibility.trust-accounting.records"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Trust funds may be used only for their specific purpose",
+      "Ortega's fee was not yet determined, and part of it is disputed, so the money was still client money",
+      "Using client funds for personal expenses is misappropriation even with intent to repay, and is typically met with disbarment"
+     ],
+     "conclusion": "The $10,000 rent check is a misappropriation of trust funds and exposes Ortega to the most serious discipline."
+    }
+   ],
+   "model": [
+    {
+     "call": 1,
+     "text": [
+      "Rule. Under Rule 4-1.5(f)(2), a contingent fee must be set out in a written contract signed by the client and by a lawyer for each participating firm, and each firm that shares the fee must sign and assume joint legal responsibility. In personal-injury cases, Rule 4-1.5(f)(4) adds that the client must receive, read and sign the Statement of Client's Rights before signing the contract, the contract must allow cancellation within three business days, and any fee above the rule's schedule is presumed clearly excessive unless approved in advance by the court. Before an answer is filed, the schedule allows 33 1/3 percent of the first $1 million. When fees are divided between firms in such a case, the lawyer with secondary responsibility may receive no more than 25 percent of the total fee unless both lawyers share substantially equal active participation and the court authorizes more.",
+      "Contract and Statement of Client's Rights. The contract was in writing and signed by both clients, Ortega and Kemp, which satisfies the basic writing and joint-responsibility requirements. But Ortega handed over the Statement of Client's Rights two weeks after the clients signed. The rule requires that the client receive and sign it before signing the contract, so this is a violation. The facts do not show the required three-business-day cancellation clause; if it is missing, that is a further violation.",
+      "Amount of the fee. The case settled before suit, so the 33 1/3 percent tier applies. A 40 percent fee, applied 'whether before or after suit is filed,' exceeds the schedule and is presumed clearly excessive; Ortega did not obtain court approval. On a $500,000 recovery, the most she may take is about $166,667.",
+      "Kemp's share. A referring lawyer may share in the fee without doing work in proportion to the share if the client consents in writing and the lawyer assumes joint legal responsibility, which Kemp did. In a personal-injury case, however, Kemp's share is capped at 25 percent of the total fee, with Ortega receiving at least 75 percent. A larger share is possible only when both lawyers accept substantially equal active participation and the court authorizes it, and Kemp did no work. A 40 percent referral share violates Rule 4-1.5(f)(4)(D).",
+      "Conclusion. The fee arrangement violates the Florida rules in three respects: the late Statement of Client's Rights, a percentage above the schedule, and a referral share above 25 percent."
+     ]
+    },
+    {
+     "call": 2,
+     "text": [
+      "Conflict. Rule 4-1.7 prohibits representing a client when the representation is directly adverse to another client or there is a substantial risk that duties to one client will materially limit the representation of another. A conflict may be waived only if the lawyer reasonably believes she can represent each client competently and diligently, the representation does not involve asserting one client's claim against another in the same proceeding, and each client gives informed consent, confirmed in writing or stated on the record. For common representation, the lawyer must explain its implications, advantages and risks.",
+      "Here, the insurer's suggestion that Dario was speeding gives Lucia a potential negligence claim against Dario. Ortega, as Lucia's lawyer, would normally advise her about that claim, which is directly adverse to Dario, and Ortega's loyalty to Dario limits her ability to do so. At a minimum, the clients had to be told of this risk and give informed written consent; Ortega never raised it. If Lucia wants to pursue Dario, the conflict is not consentable, and Ortega would have to withdraw from representing at least one of them, subject to her duties to the former client under Rule 4-1.9.",
+      "Aggregate settlement. Under Rule 4-1.8(g), a lawyer representing two or more clients may not participate in an aggregate settlement of their claims unless each client gives informed consent in a writing signed by the client, after disclosure of the existence and nature of all claims and the participation of each person. The decision to settle and how to divide the money belongs to the clients under Rule 4-1.2. The insurer's single $500,000 offer was an aggregate settlement. Ortega chose the 60/40 split herself and told each client only his or her own share, which defeats informed consent. The signed releases do not cure the problem.",
+      "Conclusion. Ortega violated Rules 4-1.7 and 4-1.8(g). She should have disclosed the conflict at the outset, obtained written informed consent (or declined one client), and presented the full settlement and proposed allocation to both clients for their signed approval."
+     ]
+    },
+    {
+     "call": 3,
+     "text": [
+      "Rule. Under Rule 5-1.1, money a lawyer receives on a client's behalf is held in trust and may be used only for its specific purpose. The lawyer must promptly notify the client and any third person with an interest, promptly deliver funds each is entitled to receive, and render an accounting on request. When two or more persons, which may include the lawyer, claim an interest in the funds, the lawyer must keep the disputed portion in trust until the dispute is resolved and promptly distribute the undisputed portions. A third person with a matured legal or equitable claim, such as a provider holding a letter of protection, is protected. At the end of a contingent-fee matter the lawyer must prepare a closing statement for the client's signature.",
+      "Hospital claim. Ortega signed the letter of protection promising the hospital payment from the recovery. That gives the hospital a matured claim to $35,000 of Lucia's share. Ortega may not follow Lucia's instruction to ignore it; she must hold the $35,000 in trust and pay it out or, if Lucia disputes the bill, keep holding it until the dispute is resolved (for example, by interpleader). The rest of Lucia's share, after a proper fee and costs, must be delivered promptly with a closing statement.",
+      "Dario's fee dispute. Ortega may keep in trust only the amount of fee genuinely in dispute and must promptly pay Dario the undisputed balance. Because her 40 percent fee is presumptively excessive, the undisputed amount owed to Dario is at least what remains after a fee within the schedule.",
+      "Rent check. Writing a $10,000 trust check for office rent is misappropriation. Ortega's fee had not been finally determined and was partly disputed, so all of the money in trust still belonged to the clients and the hospital; and even earned fees must be withdrawn to the operating account before being spent. An intent to repay is no defense. The Florida Supreme Court treats misuse of trust funds as among the gravest offenses, usually warranting disbarment absent substantial mitigation.",
+      "Conclusion. Ortega must protect the hospital's $35,000 and the disputed portion of Dario's fee, distribute all undisputed funds promptly with closing statements, and immediately restore the $10,000. Her use of trust money for rent violates Rule 5-1.1 and exposes her to severe discipline."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fl-professional-responsibility.e02",
+   "title": "The Commercial, the Confession and the Demand Letter",
+   "minutes": 60,
+   "topics": [
+    "fl-professional-responsibility.advocacy-and-advertising",
+    "fl-professional-responsibility.confidentiality-and-conflicts",
+    "fl-professional-responsibility.discipline-and-practice"
+   ],
+   "facts": [
+    "Attorney Abernathy practices in Jacksonville. His new television commercial shows an actor, paid for his appearance, saying: 'After my back injury, Abernathy got me $2 million. He's the best injury lawyer in Florida!' Abernathy did once win a $2 million verdict, for a different client. The commercial contains no disclaimer, does not say the speaker is an actor, and was never filed with The Florida Bar. Abernathy also pays his paralegal, Corbin, $200 for every injury client who signs up after Corbin visits hospital emergency rooms, introduces himself to injured patients and their families, and hands out Abernathy's business cards.",
+    "Abernathy represents Marlow Logistics, Inc., in a civil suit by a former customer alleging fraudulent billing. Marlow's chief executive, Tess, who has authority to direct the litigation, told Abernathy privately that the company's warehouse manager will be deposed next week and that she intends to pay him $5,000 in cash to testify that he never saw the altered invoices, which he did see. Abernathy told Tess that this would be a crime. Tess replied that her mind was made up and that it was 'the company's business, not yours.'",
+    "In an unrelated matter, Abernathy represents a homeowner who paid a contractor a $30,000 deposit; the contractor abandoned the job and has refused to return the money. Abernathy wrote to the contractor's lawyer: 'Unless your client refunds the $30,000 within ten days, we will file a theft complaint with the State Attorney, and I will file a Bar grievance against you for helping him hide his assets.'"
+   ],
+   "calls": [
+    "Discuss whether Abernathy's commercial and his arrangement with Corbin comply with the Rules Regulating The Florida Bar.",
+    "Discuss Abernathy's obligations after Tess's disclosure.",
+    "Discuss whether Abernathy's letter to the contractor's lawyer was proper."
+   ],
+   "issues": [
+    {
+     "id": "i1",
+     "call": 1,
+     "label": "Misleading content and testimonial in the commercial",
+     "rules": [
+      "fl-professional-responsibility.advocacy-and-advertising.advertising-content"
+     ],
+     "points": 4,
+     "mustSay": [
+      "Advertisements may not be false, deceptive or inherently misleading",
+      "The actor did not have the experience described, was paid, and the ad lacks a disclaimer that results may differ, so the testimonial is impermissible",
+      "Using a real past result as a fictional client's experience is misleading",
+      "'Best injury lawyer in Florida' is a characterization of quality that cannot be objectively verified"
+     ],
+     "conclusion": "The commercial is deceptive and inherently misleading and violates the Subchapter 4-7 content rules."
+    },
+    {
+     "id": "i2",
+     "call": 1,
+     "label": "Failure to file the commercial",
+     "rules": [
+      "fl-professional-responsibility.advocacy-and-advertising.filing-and-review"
+     ],
+     "points": 2,
+     "mustSay": [
+      "Non-exempt advertisements must be filed with the Bar for review",
+      "A television commercial containing a testimonial and claims about results goes beyond presumptively valid content, so it is not exempt"
+     ],
+     "conclusion": "Abernathy also violated the filing requirement."
+    },
+    {
+     "id": "i3",
+     "call": 1,
+     "label": "Hospital solicitation and paying for referrals",
+     "rules": [
+      "fl-professional-responsibility.advocacy-and-advertising.solicitation",
+      "fl-professional-responsibility.discipline-and-practice.independence",
+      "fl-professional-responsibility.discipline-and-practice.supervision"
+     ],
+     "points": 4,
+     "mustSay": [
+      "In-person solicitation of strangers for pecuniary gain is prohibited, including through employees or agents",
+      "Abernathy is responsible because he directed and pays for Corbin's conduct",
+      "Paying $200 per signed client is giving something of value for recommending the lawyer, and Rule 4-5.4(a) bars any nonlawyer bonus based on cases or clients the employee brings in",
+      "Abernathy may not charge or collect fees for employment obtained this way"
+     ],
+     "conclusion": "The emergency-room program is prohibited solicitation through an agent, and the per-client payments are an improper payment for referrals."
+    },
+    {
+     "id": "i4",
+     "call": 2,
+     "label": "Organization as client and reporting up",
+     "rules": [
+      "fl-professional-responsibility.confidentiality-and-conflicts.concurrent-conflicts",
+      "fl-professional-responsibility.client-relationship.scope-and-authority"
+     ],
+     "points": 2,
+     "mustSay": [
+      "Abernathy represents Marlow, the entity, not Tess personally",
+      "He must not assist the crime and should refer the matter to higher authority in the organization, such as the board"
+     ],
+     "conclusion": "Abernathy owes his duties to Marlow and should take the matter above Tess within the company while refusing to assist."
+    },
+    {
+     "id": "i5",
+     "call": 2,
+     "label": "Mandatory disclosure to prevent a client crime",
+     "rules": [
+      "fl-professional-responsibility.confidentiality-and-conflicts.mandatory-disclosure",
+      "fl-professional-responsibility.confidentiality-and-conflicts.confidentiality-scope"
+     ],
+     "points": 4,
+     "mustSay": [
+      "Tess's statement is confidential information relating to the representation",
+      "Paying a witness to testify falsely is a planned crime by the client acting through its CEO",
+      "Florida requires disclosure to the extent reasonably necessary to prevent the client's crime",
+      "Disclosure should be limited to what is necessary, after remonstration fails"
+     ],
+     "conclusion": "If Tess persists and the company does not stop her, Abernathy must reveal enough information to prevent the payment and false testimony."
+    },
+    {
+     "id": "i6",
+     "call": 2,
+     "label": "Candor, fairness and withdrawal",
+     "rules": [
+      "fl-professional-responsibility.advocacy-and-advertising.candor",
+      "fl-professional-responsibility.advocacy-and-advertising.fairness-and-threats",
+      "fl-professional-responsibility.client-relationship.withdrawal"
+     ],
+     "points": 3,
+     "mustSay": [
+      "A lawyer may not assist a witness to testify falsely or offer an inducement prohibited by law",
+      "Abernathy may not use the deposition testimony if he knows it is false and must take remedial measures if it is given",
+      "Florida makes withdrawal mandatory when the client persists in a course of action involving the lawyer's services that the lawyer reasonably believes is criminal, unless the client agrees to disclose and rectify it; leave of court is needed if required"
+     ],
+     "conclusion": "Abernathy cannot participate in or use the false testimony and must withdraw if the client persists, in addition to disclosing as required."
+    },
+    {
+     "id": "i7",
+     "call": 3,
+     "label": "Threats of criminal and disciplinary charges",
+     "rules": [
+      "fl-professional-responsibility.advocacy-and-advertising.fairness-and-threats",
+      "fl-professional-responsibility.discipline-and-practice.reporting"
+     ],
+     "points": 4,
+     "mustSay": [
+      "Florida prohibits threatening criminal charges solely to gain an advantage in a civil matter",
+      "Florida also prohibits threatening disciplinary charges under the Bar rules solely to gain a civil advantage",
+      "Whether the charges are well founded does not matter",
+      "If Abernathy actually knows of serious misconduct by the other lawyer, he may have a duty to report it, but not to use it as leverage"
+     ],
+     "conclusion": "The letter violates Rule 4-3.4 twice over, once for the threatened theft complaint and once for the threatened Bar grievance."
+    }
+   ],
+   "model": [
+    {
+     "call": 1,
+     "text": [
+      "Rule. Florida's advertising rules prohibit any advertisement that is false, deceptive or inherently misleading, including statements about past results that are not objectively verifiable or are presented misleadingly, characterizations of quality that cannot be objectively verified, and testimonials unless the person giving it actually had the experience described, is qualified to evaluate it, is not paid, and the ad discloses that the viewer may not obtain the same or similar results. Advertisements that go beyond presumptively valid content must be filed with the Bar for review. A lawyer may not solicit employment in person, personally or through employees or agents, from people with whom the lawyer has no family or prior professional relationship when a significant motive is pecuniary gain, may not give anything of value to a person for recommending the lawyer, and may not share legal fees with a nonlawyer; Florida's Rule 4-5.4(a) specifically forbids paying a nonlawyer employee a bonus based on cases or clients the employee brings in. A lawyer is responsible for a nonlawyer assistant's conduct that the lawyer orders or ratifies.",
+      "Commercial. The 'client' is a paid actor who never had the described experience, and the ad does not say so. Attributing Abernathy's real $2 million verdict to a fictional client misrepresents the facts, and the ad lacks the required disclaimer that results vary. 'Best injury lawyer in Florida' is a comparative claim about quality that cannot be objectively verified. The ad is deceptive and inherently misleading. Because it contains a testimonial and claims about results, it is not limited to presumptively valid content, so Abernathy also had to file it with the Bar and did not.",
+      "Corbin. Approaching injured strangers in emergency rooms to sign them up is in-person solicitation for pecuniary gain, and doing it through a paralegal is no defense, since the rule covers solicitation by employees or agents and Abernathy directs and pays for it. The $200 per signed client is a payment for recommending Abernathy, and because it is paid for each client Corbin brings in, it is exactly the kind of nonlawyer bonus Rule 4-5.4(a) prohibits. Abernathy also may not collect fees from clients obtained this way.",
+      "Conclusion. Both the commercial and the emergency-room program violate the Rules; Abernathy faces discipline and may forfeit fees from improperly solicited cases."
+     ]
+    },
+    {
+     "call": 2,
+     "text": [
+      "Organizational client. Under Rule 4-1.13, Abernathy represents Marlow, acting through its authorized constituents. When an officer intends to act in a way that is a violation of law likely to cause substantial injury to the organization, the lawyer must proceed as reasonably necessary in the organization's best interest, which may include asking for reconsideration and referring the matter to higher authority, such as the board. Abernathy should report Tess's plan to Marlow's board. Under Rule 4-1.2, he may not assist conduct he knows is criminal.",
+      "Mandatory disclosure. Tess's statement is confidential information relating to the representation under Rule 4-1.6(a). Florida, unlike the Model Rules, requires a lawyer to reveal confidential information to the extent the lawyer reasonably believes necessary to prevent the client from committing a crime. Paying a witness to testify falsely at a deposition is a crime by Marlow acting through its CEO, and it is about to happen. Abernathy has already warned Tess. If going up the corporate ladder does not stop the plan, he must disclose enough to prevent it, for example by warning the witness or informing opposing counsel or the court, and no more than necessary.",
+      "Candor and fairness. Rule 4-3.4 forbids a lawyer to assist a witness to testify falsely or to offer an inducement prohibited by law, and Rule 4-3.3 bars offering evidence the lawyer knows is false and requires reasonable remedial measures, including disclosure to the tribunal, if the false testimony is given. Abernathy therefore cannot prepare the witness to give the planned account or rely on it later.",
+      "Withdrawal. Under Rule 4-1.16, Abernathy must withdraw if continuing would result in a violation of the Rules or law. Florida goes further than the Model Rules: under Rule 4-1.16(a)(4) withdrawal is also mandatory when the client persists in a course of action involving the lawyer's services that the lawyer reasonably believes is criminal, unless the client agrees to disclose and rectify it. Tess's plan to corrupt testimony at a deposition Abernathy is handling involves his services. He must seek leave of court if required and protect Marlow's interests on withdrawal, but withdrawal does not replace the duty to disclose.",
+      "Conclusion. Abernathy must refuse to participate, take the matter to Marlow's board, disclose as reasonably necessary to prevent the bribe and the false testimony if the company does not stop it, and withdraw if the client persists."
+     ]
+    },
+    {
+     "call": 3,
+     "text": [
+      "Rule. Rule 4-3.4 prohibits a Florida lawyer from presenting, participating in presenting, or threatening to present criminal charges solely to obtain an advantage in a civil matter, and likewise from threatening disciplinary charges under the Bar rules solely to gain an advantage in a civil matter. Separately, Rule 4-8.3 requires a lawyer who knows another lawyer has committed a violation raising a substantial question about that lawyer's honesty, trustworthiness or fitness to report it.",
+      "Application. Abernathy's letter conditions both the theft complaint and the Bar grievance on payment of the civil claim. That is using the threat of prosecution and discipline as leverage to collect a civil debt, which Florida forbids even if the contractor may have committed theft and even if the opposing lawyer may have misbehaved. The Model Rules approach (permitting a related, well-founded threat) does not apply in Florida. If Abernathy actually knows the contractor's lawyer helped conceal assets in a way that raises a substantial question about his honesty, he may have an independent duty to report it, but a duty to report cannot be bargained away for money.",
+      "Conclusion. The letter violates Rule 4-3.4 both by threatening a criminal complaint and by threatening a Bar grievance to gain an advantage in the civil dispute."
+     ]
+    }
+   ]
+  }
+ ]
+}

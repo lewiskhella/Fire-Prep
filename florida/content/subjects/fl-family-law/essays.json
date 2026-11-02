@@ -1,0 +1,289 @@
+{
+ "subject": "fl-family-law",
+ "essays": [
+  {
+   "id": "fl-family-law.e01",
+   "title": "The Condo, the Clinic and the Missing Account",
+   "minutes": 60,
+   "topics": [
+    "fl-family-law.property-and-alimony",
+    "fl-family-law.agreements-and-protection",
+    "fl-family-law.dissolution"
+   ],
+   "facts": [
+    "Elena and Marcus married in Miami in June 2010 and have lived in Florida ever since. Two days before the wedding, while out-of-town guests were arriving, Marcus handed Elena a premarital agreement prepared by his lawyer. In it Elena waived all alimony. Attached was Marcus's financial disclosure listing his condominium, a checking account and his student loans. It did not mention a brokerage account worth about $400,000 that Marcus had built up before the marriage. The agreement contained no waiver of further disclosure. Elena, then a 27-year-old paralegal earning about $40,000 a year, did not consult a lawyer, did not know about the brokerage account, and signed because she was told the wedding could not go forward otherwise.",
+    "Marcus bought the condominium in 2007 with a mortgage. The couple lived there throughout the marriage, and every mortgage payment came from their joint account, which held only their salaries. Title stayed in Marcus's name. The condo has risen sharply in value because of the Miami market; no one improved it.",
+    "In 2014, Elena inherited $150,000 from her grandmother. She put it into a brokerage account in her sole name, never added marital money, and reinvested all dividends in the same account. It is now worth $260,000.",
+    "In 2012 Marcus opened a dental clinic. It now has three associate dentists, a strong brand and a large patient base, and an appraiser values it at $1.2 million, including substantial goodwill. In 2016, at Marcus's urging, Elena quit her job to manage the clinic's billing without pay and to care for the household. In the 18 months before Elena filed for dissolution in March 2025, Marcus spent about $60,000 from the joint account on trips and gifts for a girlfriend. Elena, now 42, would like to complete a two-year medical-billing certification program that would let her earn about $60,000 a year. Marcus earns about $400,000 a year."
+   ],
+   "calls": [
+    "Is the alimony waiver in the premarital agreement enforceable? Discuss.",
+    "How should the court classify and distribute the condominium, Elena's inherited account, the dental clinic, and the money Marcus spent on his girlfriend? Discuss.",
+    "Assuming the alimony waiver is not enforced, what alimony, if any, may the court award Elena? Discuss."
+   ],
+   "issues": [
+    {
+     "id": "i1",
+     "call": 1,
+     "label": "Enforceability of the premarital agreement",
+     "rules": [
+      "fl-family-law.agreements-and-protection.premarital-enforcement",
+      "fl-family-law.agreements-and-protection.premarital-formation"
+     ],
+     "points": 5,
+     "mustSay": [
+      "Section 61.079 governs because the agreement was signed after October 1, 2007; a written, signed agreement needs no consideration and may waive alimony",
+      "Grounds: involuntary execution; fraud, duress, coercion or overreaching; or unconscionability at execution plus all three disclosure failures",
+      "Signing two days before the wedding without counsel supports but does not alone establish duress or involuntariness",
+      "Omitting a $400,000 account from a disclosure presented as complete supports fraud or overreaching, Florida's added ground",
+      "Under prong (c): no fair and reasonable disclosure, no written waiver of disclosure, and no actual knowledge, so the only remaining question is unconscionability when signed"
+     ],
+     "conclusion": "The waiver is likely unenforceable, most strongly because Marcus's material omission amounts to fraud or overreaching, and alternatively because all three disclosure failures are present if the waiver was unconscionable when signed."
+    },
+    {
+     "id": "i2",
+     "call": 2,
+     "label": "Condominium: nonmarital asset with a marital share",
+     "rules": [
+      "fl-family-law.property-and-alimony.classification",
+      "fl-family-law.property-and-alimony.appreciation"
+     ],
+     "points": 3,
+     "mustSay": [
+      "The condo was acquired before marriage and titled to Marcus, so it is nonmarital",
+      "Marital funds paid down the mortgage, so the paydown and a proportional share of passive appreciation are marital (Kaaa)",
+      "Marcus keeps his premarital equity and the remaining passive appreciation"
+     ],
+     "conclusion": "The condo is Marcus's nonmarital asset, but the marital estate has a share equal to the marital mortgage paydown plus a proportional share of the market appreciation."
+    },
+    {
+     "id": "i3",
+     "call": 2,
+     "label": "Inherited account",
+     "rules": [
+      "fl-family-law.property-and-alimony.classification",
+      "fl-family-law.property-and-alimony.commingling"
+     ],
+     "points": 2,
+     "mustSay": [
+      "An inheritance received individually is nonmarital",
+      "It was kept in Elena's sole name and never commingled, so it remains traceable",
+      "Reinvested dividends are income from a nonmarital asset and stay nonmarital because they were not treated or relied on as marital"
+     ],
+     "conclusion": "The entire $260,000 account is Elena's nonmarital property."
+    },
+    {
+     "id": "i4",
+     "call": 2,
+     "label": "Dental clinic and goodwill",
+     "rules": [
+      "fl-family-law.property-and-alimony.classification",
+      "fl-family-law.property-and-alimony.equal-distribution"
+     ],
+     "points": 3,
+     "mustSay": [
+      "The clinic was started during the marriage, so it is marital",
+      "Enterprise goodwill independent of Marcus's personal skill and reputation is divisible; personal goodwill is not (Thompson)",
+      "The court may keep the business intact with Marcus and equalize with other assets or payments",
+      "Elena's unpaid work for the clinic is a contribution supporting at least an equal share"
+     ],
+     "conclusion": "The clinic, including its enterprise goodwill but excluding Marcus's personal goodwill, is a marital asset, likely awarded to Marcus with an offsetting distribution to Elena."
+    },
+    {
+     "id": "i5",
+     "call": 2,
+     "label": "Dissipation and the equal-distribution premise",
+     "rules": [
+      "fl-family-law.property-and-alimony.equal-distribution",
+      "fl-family-law.dissolution.fault-relevance"
+     ],
+     "points": 2,
+     "mustSay": [
+      "Distribution starts from an equal division of the marital estate",
+      "Intentional dissipation of marital assets within two years before filing is a factor justifying unequal distribution",
+      "The $60,000 spent on the girlfriend can be charged against Marcus's share; the affair itself is not a basis for a property penalty"
+     ],
+     "conclusion": "The court should treat the $60,000 as an advance to Marcus, charging it against his share of the marital estate."
+    },
+    {
+     "id": "i6",
+     "call": 3,
+     "label": "Alimony type, duration and amount after the 2023 reform",
+     "rules": [
+      "fl-family-law.property-and-alimony.alimony-threshold-and-types",
+      "fl-family-law.property-and-alimony.bridge-and-rehabilitative",
+      "fl-family-law.property-and-alimony.durational",
+      "fl-family-law.dissolution.fault-relevance"
+     ],
+     "points": 5,
+     "mustSay": [
+      "Threshold: Elena's actual need and Marcus's ability to pay, considering the property each receives",
+      "The marriage lasted about 14 years and 9 months measured to filing, so it is moderate-term; permanent alimony is unavailable",
+      "Rehabilitative alimony fits the defined two-year certification plan, which must be in the order (5-year maximum)",
+      "Durational alimony is capped at 60% of the marriage's length and at the lesser of need or 35% of the net-income difference",
+      "Bridge-the-gap (2-year maximum) is possible for transition costs; adultery and its economic impact may be considered; fees under § 61.16"
+     ],
+     "conclusion": "The court can award rehabilitative alimony tied to the certification plan, possibly combined with bridge-the-gap or limited durational alimony within the statutory caps, but not permanent alimony."
+    }
+   ],
+   "model": [
+    {
+     "call": 1,
+     "text": [
+      "Issue. Whether Elena can avoid the alimony waiver in her 2010 premarital agreement.",
+      "Rule. Premarital agreements signed on or after October 1, 2007, are governed by Florida's version of the Uniform Premarital Agreement Act, § 61.079. The agreement must be written and signed by both parties, needs no consideration, and may modify or eliminate spousal support. It is unenforceable if the challenger proves (a) involuntary execution; (b) that the agreement was the product of fraud, duress, coercion or overreaching; or (c) that it was unconscionable when signed and, before signing, the challenger received no fair and reasonable disclosure of the other's property and debts, did not voluntarily and expressly waive further disclosure in writing, and did not have and could not reasonably have had adequate knowledge of them.",
+      "Application. Being handed the agreement two days before the wedding, with guests arriving and no lawyer, is evidence of pressure, but Florida courts generally do not treat timing alone as duress; Elena was an adult who chose to sign. Her stronger argument is fraud or overreaching: Marcus gave a disclosure that looked complete but left out a $400,000 account, almost certainly his largest liquid asset. Florida added fraud and overreaching to the uniform act as independent grounds, so Elena does not have to prove unconscionability if she proves the omission was a material misrepresentation. Alternatively, under prong (c), all three disclosure-related elements are plainly present: the disclosure was not fair and reasonable, there was no written waiver, and Elena did not know of the account. The remaining question is whether a total alimony waiver by a $40,000-a-year paralegal marrying a much wealthier spouse was unconscionable when signed. That is arguable, and the omission makes it stronger because Elena could not judge what she was giving up.",
+      "Conclusion. The alimony waiver is likely unenforceable, most clearly on the fraud or overreaching ground and alternatively under prong (c). Even if it were enforced, the court could require support to the extent needed to keep Elena off public assistance, although her earning capacity makes that unlikely."
+     ]
+    },
+    {
+     "call": 2,
+     "text": [
+      "Rule. The court first sets aside each spouse's nonmarital assets and then distributes the marital estate, beginning with the premise that the division should be equal, departing only for reasons grounded in the § 61.075(1) factors. Marital assets include those acquired during the marriage and the enhancement in value of nonmarital assets from marital funds or either spouse's efforts; nonmarital assets include premarital property, inheritances, and income from nonmarital assets not treated as marital.",
+      "Condominium. Marcus bought the condo before the marriage and kept title in his name, so it is nonmarital. However, every mortgage payment came from marital wages. Under Kaaa v. Kaaa and § 61.075(6)(a)1., the mortgage principal paid down with marital funds, together with a proportional share of the passive market appreciation, is marital. Marcus keeps his premarital equity and the rest of the appreciation; the marital share goes into the pot to be divided.",
+      "Inherited account. Elena's inheritance is nonmarital. She kept it in her sole name, never added marital money, and reinvested its dividends in the same account. Income from a nonmarital asset stays nonmarital unless the spouses treated or relied on it as marital, and nothing suggests they did. The full $260,000 is Elena's.",
+      "Dental clinic. Marcus opened the clinic two years into the marriage, so it is marital. Under Thompson v. Thompson, goodwill is divisible only to the extent it is enterprise goodwill that exists independently of Marcus's personal skill and reputation. A practice with three associates, a brand and a large patient base likely has substantial enterprise goodwill, but the appraisal must exclude any personal goodwill. Because keeping a business intact is a statutory factor, the court will probably award the clinic to Marcus and equalize by giving Elena other assets or an equalizing payment. Elena's unpaid billing work and homemaking support at least an equal share.",
+      "Dissipation. Marcus spent $60,000 of marital funds on a girlfriend within two years before the petition was filed. Intentional dissipation in that window is a statutory ground for an unequal distribution. The usual remedy is to treat the $60,000 as already received by Marcus and charge it against his share. The affair itself is not a basis for penalizing him further in the property division.",
+      "Conclusion. The condo is nonmarital except for the Kaaa share; the inherited account is Elena's; the clinic (enterprise goodwill only) is marital and likely goes to Marcus with an equalizer; and the $60,000 is charged to Marcus before the remaining marital estate is divided equally."
+     ]
+    },
+    {
+     "call": 3,
+     "text": [
+      "Rule. Under § 61.08 as amended effective July 1, 2023, the court must first find that one party has an actual need for alimony and the other has the ability to pay. Only temporary, bridge-the-gap, rehabilitative and durational alimony are available; permanent alimony is gone. A marriage of 10 to 20 years, measured from the wedding to the filing date, is moderate-term. Bridge-the-gap alimony may not exceed two years. Rehabilitative alimony requires a specific, defined plan in the order and may not exceed five years. Durational alimony may last no more than 60 percent of a moderate-term marriage and may not exceed the lesser of the recipient's reasonable need or 35 percent of the difference in net incomes. The court may consider adultery and its economic impact.",
+      "Application. The marriage ran from June 2010 to the March 2025 filing, about 14 years and 9 months, so it is moderate-term. Elena has been out of the paid workforce since 2016, at Marcus's urging, while Marcus earns about $400,000; after equitable distribution she will have assets but a limited income, and Marcus plainly can pay. Elena's two-year certification program is exactly the kind of defined plan rehabilitative alimony requires; the order should state the program, cost and timeline. The court could add bridge-the-gap alimony for transition costs such as housing. If Elena's expected $60,000 salary will still leave her well short of a reasonable need measured against the marital standard of living, the court may award durational alimony, but no longer than just under 9 years (60 percent of the marriage) and no more than 35 percent of the net-income difference or her need, whichever is less. Marcus's affair and the money spent on it may be considered for its economic impact. Elena may also seek attorney's fees under § 61.16 given the disparity in resources.",
+      "Conclusion. The court may award rehabilitative alimony tied to the certification plan, possibly combined with short bridge-the-gap support or capped durational alimony, but it may not award permanent alimony."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fl-family-law.e02",
+   "title": "Moving Day in Savannah",
+   "minutes": 60,
+   "topics": [
+    "fl-family-law.children",
+    "fl-family-law.interstate-jurisdiction"
+   ],
+   "facts": [
+    "Ruth and Desmond divorced in Leon County, Florida, in 2020. Their court-approved parenting plan provides for shared parental responsibility and equal time-sharing of their daughter, Ivy, now 9. It says nothing about relocation. Desmond pays guideline child support calculated when he earned $9,000 a month in net income as a senior software developer.",
+    "In April 2025, Ruth was offered a nursing-supervisor position in Savannah, Georgia, about 280 miles from Tallahassee, at a salary 40 percent higher than her current pay. Ruth's parents, who help with Ivy's care, also live in Savannah. When Desmond refused to agree to the move, Ruth texted him that she was 'done asking.' In June she moved to Savannah with Ivy, signed a one-year lease, and enrolled Ivy in a Savannah school. She did not file anything in any court.",
+    "Desmond, who still lives in Tallahassee, immediately filed a motion in the Leon County case asking that Ivy be returned. In August, Ruth filed a petition in a Georgia court asking it to modify the Florida parenting plan to designate her home as Ivy's primary residence. Desmond's evidence shows he coached Ivy's soccer team, attended every school conference and handled half of all school pickups. Ivy, who is doing well in her new school, told a counselor she misses her father but likes living near her grandparents.",
+    "Meanwhile, in May 2025 Desmond resigned his developer job to launch a mobile-game startup that has no revenue. He has asked the Leon County court to reduce his child support to zero because he now has no income. Software developers with his experience are in demand in the Tallahassee area."
+   ],
+   "calls": [
+    "Did Ruth comply with Florida law when she moved Ivy to Savannah, and what are the consequences of her conduct? Discuss.",
+    "Which court, Florida's or Georgia's, has jurisdiction to decide whether to modify the parenting plan? Discuss.",
+    "How should the court decide whether Ivy may live with Ruth in Savannah? Discuss.",
+    "How should the court rule on Desmond's request to reduce his child support? Discuss."
+   ],
+   "issues": [
+    {
+     "id": "i1",
+     "call": 1,
+     "label": "Relocation without agreement or court approval",
+     "rules": [
+      "fl-family-law.children.relocation"
+     ],
+     "points": 4,
+     "mustSay": [
+      "A move of at least 50 miles for at least 60 consecutive days is a relocation",
+      "Ruth needed either Desmond's written agreement or a filed and served sworn petition to relocate",
+      "Relocating without complying may be considered in the relocation decision and later time-sharing determinations",
+      "It may support contempt and a temporary order requiring Ivy's return"
+     ],
+     "conclusion": "Ruth relocated unlawfully; the court may hold her in contempt, order Ivy's return, and weigh her noncompliance against her when it decides relocation."
+    },
+    {
+     "id": "i2",
+     "call": 2,
+     "label": "UCCJEA exclusive, continuing jurisdiction",
+     "rules": [
+      "fl-family-law.interstate-jurisdiction.uccjea-continuing-emergency",
+      "fl-family-law.interstate-jurisdiction.uccjea-initial"
+     ],
+     "points": 4,
+     "mustSay": [
+      "Florida made the initial custody determination and has exclusive, continuing jurisdiction",
+      "Florida keeps jurisdiction because Desmond still lives here and Ivy retains a significant connection with substantial evidence in Florida",
+      "Georgia cannot modify because it is not the home state (fewer than six months) and Florida has not lost or declined jurisdiction",
+      "No emergency jurisdiction applies, and Ruth's unjustifiable conduct weighs against any Georgia claim"
+     ],
+     "conclusion": "Only the Leon County court may modify the plan; the Georgia court should dismiss or defer to Florida."
+    },
+    {
+     "id": "i3",
+     "call": 3,
+     "label": "Relocation burden and best-interests factors",
+     "rules": [
+      "fl-family-law.children.relocation",
+      "fl-family-law.children.best-interests",
+      "fl-family-law.children.modifying-parenting-plans"
+     ],
+     "points": 6,
+     "mustSay": [
+      "Desmond has objected, so there is no presumption for or against relocation",
+      "Ruth must prove by a preponderance that relocation is in Ivy's best interests; the burden then shifts to Desmond",
+      "Relevant factors: Ruth's job and income gain, grandparents' support, Ivy's adjustment and preference, Desmond's deep involvement, and whether long-distance time-sharing can preserve that relationship",
+      "Ruth's good faith is undercut by her unilateral move",
+      "The equal time-sharing arrangement and Desmond's involvement weigh heavily against relocation"
+     ],
+     "conclusion": "Relocation is a close call, but given Desmond's equal and active role and Ruth's unilateral move, the court is likely to deny it unless Ruth proves the move's benefits clearly outweigh the loss of Ivy's day-to-day relationship with her father."
+    },
+    {
+     "id": "i4",
+     "call": 4,
+     "label": "Voluntary underemployment and imputed income",
+     "rules": [
+      "fl-family-law.children.imputed-income",
+      "fl-family-law.children.support-duration-modification",
+      "fl-family-law.children.support-guidelines"
+     ],
+     "points": 4,
+     "mustSay": [
+      "Modification requires a substantial change in circumstances",
+      "Income must be imputed to a parent who is voluntarily unemployed or underemployed absent incapacity or circumstances beyond the parent's control",
+      "Imputation uses recent work history, qualifications and prevailing local earnings",
+      "Desmond's support cannot be set at zero; any modification would run only from the date he filed"
+     ],
+     "conclusion": "The court should impute income near Desmond's prior earnings and deny the request to reduce support to zero."
+    }
+   ],
+   "model": [
+    {
+     "call": 1,
+     "text": [
+      "Issue. Whether Ruth's move to Savannah was a relocation she could make without consent or court approval.",
+      "Rule. Under § 61.13001, a relocation is a change in a parent's principal residence of at least 50 miles from the residence at the time of the last order, for at least 60 consecutive days, excluding temporary absences for vacation, education or health care. A parent may relocate only by (1) a written agreement signed by the other parent and ratified by the court, or (2) filing and serving a sworn petition to relocate with the statutory contents and notice. A parent who relocates without complying may be held in contempt and ordered to return the child, and the noncompliance may be considered in deciding the relocation and later time-sharing issues.",
+      "Application. Savannah is about 280 miles away, and Ruth signed a one-year lease and enrolled Ivy in school, so this is a relocation, not a temporary absence. Desmond refused to agree, and Ruth filed nothing. She therefore relocated in violation of the statute.",
+      "Conclusion. Ruth's move was unlawful. On Desmond's motion the Leon County court may order Ivy returned pending a hearing, may hold Ruth in contempt, and may treat her failure to comply as a factor against her when it decides relocation and time-sharing."
+     ]
+    },
+    {
+     "call": 2,
+     "text": [
+      "Rule. Under the UCCJEA (§§ 61.501–.542), the state that made the initial custody determination keeps exclusive, continuing jurisdiction until its court finds the child and parents no longer have a significant connection there and substantial evidence is no longer available, or a court finds that the child and both parents have left the state. Another state may modify the order only if the issuing state has lost or declined that jurisdiction and the other state would have initial (home-state) jurisdiction. A court may decline jurisdiction obtained through a party's unjustifiable conduct.",
+      "Application. Florida entered the 2020 parenting plan, so it has exclusive, continuing jurisdiction. Desmond still lives in Tallahassee, Ivy lived there until June, and the evidence about her schooling, activities and relationship with her father is in Florida. Georgia is not Ivy's home state: when Ruth filed in August, Ivy had lived there only about two months, far short of six. Nothing suggests an emergency that would support temporary emergency jurisdiction in Georgia. Ruth also created the Georgia contacts by moving Ivy unlawfully, which is unjustifiable conduct.",
+      "Conclusion. Only the Leon County court may decide whether to modify the parenting plan. The Georgia court should dismiss Ruth's petition or stay it in deference to Florida."
+     ]
+    },
+    {
+     "call": 3,
+     "text": [
+      "Rule. When the non-relocating parent objects, there is no presumption for or against relocation. The parent seeking to relocate must prove by a preponderance of the evidence that relocation is in the child's best interests; if that burden is met, the burden shifts to the objecting parent to show by a preponderance that it is not. The court weighs the § 61.13001(7) factors, including each parent's relationship with the child, the child's age, needs and preference, whether the relationship with the non-relocating parent can be preserved through substitute arrangements, whether the move improves the quality of life of parent and child, the reasons for seeking and opposing the move, and the parent's good faith. The general best-interests factors of § 61.13(3), including each parent's willingness to honor the time-sharing schedule and foster the child's relationship with the other parent, also inform the decision.",
+      "Application. Ruth has real reasons for the move: a substantially higher salary and family support from Ivy's grandparents. Ivy is doing well in Savannah and likes living near her grandparents, and at nine her preference deserves some weight. On the other side, the parents have equal time-sharing, and Desmond is deeply involved: he coaches her team, attends school conferences and handles half the pickups. A 280-mile move would turn that daily involvement into alternating weekends or holiday blocks, and substitute arrangements are unlikely to preserve it. Ivy also told the counselor she misses her father. Ruth's unilateral move, after texting that she was 'done asking,' casts doubt on her willingness to honor the schedule and support Ivy's relationship with Desmond, and her failure to follow the statute can be weighed against her.",
+      "Conclusion. Ruth may be able to show some benefit, but Desmond can likely show that losing his equal, hands-on role outweighs it. The court is likely to deny relocation and order Ivy to resume the existing schedule in Tallahassee. If Ruth stays in Savannah, the court may instead modify the plan to make Desmond's home Ivy's principal residence, since the move itself is a substantial and material change."
+     ]
+    },
+    {
+     "call": 4,
+     "text": [
+      "Rule. Child support may be modified on a substantial change in circumstances, measured in part by whether the guideline amount would change by at least 15 percent or $50, whichever is greater. But under § 61.30(2)(b) the court must impute income to a parent who is voluntarily unemployed or underemployed, unless the parent is incapacitated or the circumstances are beyond the parent's control, using the parent's recent work history, qualifications and the prevailing local earnings level. Parents cannot bargain away a child's right to support.",
+      "Application. Desmond's income loss is entirely voluntary: he quit a well-paying developer job to start a business with no revenue. Nothing suggests incapacity or a layoff, and developers with his experience are in demand locally. Starting a business may be a legitimate choice, but Ivy should not bear its cost. The court should impute income based on what Desmond can earn now, likely close to his prior $9,000 monthly net, and recompute the guidelines with Ruth's higher income and the actual time-sharing schedule once relocation is resolved.",
+      "Conclusion. The court should deny the request to reduce support to zero, imputing income at Desmond's earning capacity. Any adjustment based on Ruth's raise or a changed time-sharing schedule could run only from the date a modification petition was filed."
+     ]
+    }
+   ]
+  }
+ ]
+}

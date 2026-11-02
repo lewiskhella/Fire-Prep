@@ -1,0 +1,327 @@
+{
+  "subject": "fl-torts",
+  "essays": [
+    {
+      "id": "fl-torts.e01",
+      "title": "The Dark Signal on Harbor Boulevard",
+      "minutes": 60,
+      "topics": [
+        "fl-torts.florida-doctrines",
+        "fl-torts.negligence-and-fault",
+        "fl-torts.immunity-and-limits"
+      ],
+      "facts": [
+        "Rhonda, a retired teacher, owns a convertible insured under a policy with bodily-injury limits of $100,000 per person. In May 2025 she lent the car to her nephew Silas, age 24, so he could drive to a concert in Seagrape County, Florida. Rhonda had no reason to believe Silas would drink; he told her he would be the designated driver for his friends. Silas has no automobile insurance of his own and few assets.",
+        "At the concert Silas drank six beers. Driving home at 11 p.m., he approached the intersection of Harbor Boulevard and Dune Road at about 20 miles per hour over the speed limit. The intersection's traffic signal, owned and maintained by Seagrape County, had been dark for ten days because of a failed controller. Residents had reported the outage to the county's traffic division three times; the division logged the reports and scheduled a repair but never sent a crew. Silas drove through the intersection without slowing.",
+        "Teresa, approaching on Dune Road, slowed but did not stop at the dark signal and was broadsided by Silas. She was not wearing her seat belt. She suffered a fractured pelvis and a head injury. Her total damages are about $600,000, of which roughly $250,000 are economic. Silas's blood-alcohol level, tested an hour after the crash, was 0.14.",
+        "In September 2025 Teresa sued Rhonda and Silas for negligence. Their joint answer pleads Teresa's comparative fault (failing to stop at the dark signal and failing to wear a seat belt) and the fault of Seagrape County, a nonparty, identified by name. Teresa has not yet contacted the county. Her lawyer also wants to add claims for punitive damages against both defendants and has asked you for advice."
+      ],
+      "calls": [
+        "Is Rhonda liable to Teresa, and are there any limits on her liability? Discuss.",
+        "How will fault be allocated at trial, and how will the allocation affect Teresa's recovery against Rhonda and Silas? Discuss.",
+        "May Teresa recover from Seagrape County, and what must she do before suing it? Discuss.",
+        "May Teresa recover punitive damages from Silas or Rhonda, and how must she proceed? Discuss."
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Dangerous instrumentality: Rhonda's vicarious liability",
+          "rules": [
+            "fl-torts.florida-doctrines.dangerous-instrumentality"
+          ],
+          "points": 3,
+          "mustSay": [
+            "An owner who voluntarily entrusts a motor vehicle to another is vicariously liable for the operator's negligence",
+            "Rhonda's lack of fault (no reason to expect drinking) is irrelevant; this is not negligent entrustment",
+            "Silas's drinking did not convert the car or exceed consent amounting to theft"
+          ],
+          "conclusion": "Rhonda is vicariously liable for Silas's negligent driving."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Statutory limits for a natural-person lender",
+          "rules": [
+            "fl-torts.florida-doctrines.dangerous-instrumentality-limits"
+          ],
+          "points": 2,
+          "mustSay": [
+            "A natural person who lends a vehicle to a permissive user is liable up to $100,000 per person for bodily injury",
+            "Because Silas is uninsured (any coverage reaching him is under $500,000), Rhonda is liable for up to an additional $500,000 in economic damages only"
+          ],
+          "conclusion": "Rhonda's exposure is capped at $100,000 plus up to $500,000 of Teresa's economic damages."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "Modified comparative fault and the seat belt",
+          "rules": [
+            "fl-torts.negligence-and-fault.modified-comparative-fault",
+            "fl-torts.negligence-and-fault.plaintiff-conduct-defenses"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Action filed after March 24, 2023, so the greater-than-50% bar applies",
+            "Teresa's failure to stop at a dark signal is comparative fault; she recovers nothing only if found more than 50% at fault",
+            "Seat-belt nonuse is evidence of comparative negligence if defendants show it contributed to her injuries; it is not negligence per se"
+          ],
+          "conclusion": "Teresa's recovery will be reduced by her share of fault and barred only if that share exceeds 50%."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "Fabre apportionment to the county and several liability",
+          "rules": [
+            "fl-torts.negligence-and-fault.fabre-nonparty",
+            "fl-torts.negligence-and-fault.joint-several-abolished"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Defendants properly pleaded and identified the county, so its fault goes on the verdict form if they prove it by a preponderance",
+            "Judgment against each defendant is based on its percentage of fault, not joint and several liability",
+            "Rhonda's vicarious liability is for Silas's share; neither defendant pays the county's share"
+          ],
+          "conclusion": "The jury will apportion fault among Silas, the county and Teresa; Teresa recovers Silas's share from Silas and (within the caps) Rhonda, and must look to the county for its share."
+        },
+        {
+          "id": "i5",
+          "call": 3,
+          "label": "Sovereign immunity: operational function and caps",
+          "rules": [
+            "fl-torts.immunity-and-limits.planning-operational",
+            "fl-torts.immunity-and-limits.sovereign-waiver-caps"
+          ],
+          "points": 3,
+          "mustSay": [
+            "Maintaining an existing traffic signal is an operational function, not a planning-level decision",
+            "The county had notice of the outage and failed to repair it",
+            "Recovery is capped at $200,000 per person ($300,000 per incident); no punitive damages or pre-judgment interest; excess only by claim bill"
+          ],
+          "conclusion": "The county is not immune for failing to repair the signal, but Teresa's recovery against it is capped."
+        },
+        {
+          "id": "i6",
+          "call": 3,
+          "label": "Presuit notice to the county",
+          "rules": [
+            "fl-torts.immunity-and-limits.sovereign-notice",
+            "fl-torts.immunity-and-limits.employee-immunity"
+          ],
+          "points": 2,
+          "mustSay": [
+            "Written claim to the county within 3 years of accrual (notice to the Department of Financial Services is not required for a county)",
+            "Suit only after written denial or 6 months without final disposition",
+            "County employees are not proper personal defendants absent bad faith, malice or wanton conduct"
+          ],
+          "conclusion": "Teresa must present a written claim to the county and wait for denial or the 6-month period before suing."
+        },
+        {
+          "id": "i7",
+          "call": 4,
+          "label": "Punitive damages: procedure, standard and caps",
+          "rules": [
+            "fl-torts.immunity-and-limits.punitive-pleading",
+            "fl-torts.immunity-and-limits.punitive-standard-caps"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Punitive damages may be added only by motion for leave to amend with a record or proffered showing of a reasonable basis; no financial-worth discovery before leave",
+            "Clear and convincing evidence that the defendant was personally guilty of intentional misconduct or gross negligence",
+            "Driving at 0.14 BAC and 20 mph over the limit can support gross negligence against Silas; the cap does not apply to an intoxicated defendant",
+            "Rhonda was not personally at fault; vicarious owner liability does not support punitive damages against her"
+          ],
+          "conclusion": "Teresa may seek leave to add a punitive claim against Silas, uncapped because of his intoxication, but not against Rhonda."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Rule. Under Florida's dangerous instrumentality doctrine (Southern Cotton Oil Co. v. Anderson), the owner of a motor vehicle who voluntarily entrusts it to another is vicariously liable for injuries caused by the operator's negligent use. Liability does not depend on the owner's own negligence, and it ends only if the vehicle was stolen or converted or was in the hands of an independent repair shop.",
+            "Application. Rhonda owned the convertible and voluntarily lent it to Silas. Silas drove drunk and speeding through a dark intersection, plainly negligent conduct. Rhonda's belief that Silas would not drink matters to a negligent-entrustment claim, not to vicarious liability. Drinking at the concert did not turn Silas's permitted use into theft or conversion; he was using the car for the very trip Rhonda authorized.",
+            "Limits. Because Rhonda is a natural person who lent the car to a permissive user, § 324.021(9)(b)3. caps her liability at $100,000 per person and $300,000 per incident for bodily injury (and $50,000 for property damage). Because Silas has no insurance of his own (and any coverage reaching him through Rhonda's $100,000 policy is below $500,000), Rhonda is liable for up to an additional $500,000, but only for economic damages, reduced by any amounts actually recovered from Silas or insurance covering him. Teresa's economic damages are about $250,000, so the additional layer could reach her economic losses in full, subject to the fault allocation discussed below.",
+            "Conclusion. Rhonda is vicariously liable for Silas's negligence, limited to $100,000 for bodily injury plus up to $500,000 of Teresa's economic damages."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Comparative fault. Teresa filed suit after March 24, 2023, so § 768.81(6) applies: if she is found greater than 50% at fault for her own harm she recovers nothing; otherwise her damages are reduced by her percentage. Failing to stop at a dark signal is evidence of her negligence: a driver approaching an intersection whose traffic lights are inoperative must stop as at a stop intersection (§ 316.1235). Her failure to wear a seat belt is not negligence per se, but under § 316.614(10) it may be considered as comparative negligence if the defendants prove that nonuse contributed to her injuries. Given Silas's intoxication and speed, a jury is unlikely to place more than half the fault on Teresa, so her recovery will probably be reduced, not barred.",
+            "Nonparty fault. Under Fabre v. Marin and § 768.81(3), the jury apportions fault among all who contributed to the injury, including nonparties. The defendants pleaded the county's fault as an affirmative defense and identified it by name, so the county goes on the verdict form if they prove its fault by a preponderance of the evidence. Its failure to repair a reported outage for ten days is strong evidence of fault.",
+            "Several liability. Judgment is entered against each party according to its percentage of fault, not jointly and severally. Rhonda's liability is purely vicarious, so she answers for Silas's share (within her statutory limits), not for the county's. For example, if the jury found Silas 65%, the county 20% and Teresa 15% at fault, Teresa would recover 65% of $600,000 ($390,000) from Silas, with Rhonda vicariously liable for that amount up to her caps. The county's 20% would not be recoverable from either defendant; Teresa would have to pursue the county directly.",
+            "Conclusion. Teresa's own fault reduces her award and bars it only above 50%; the county's share is allocated away from Rhonda and Silas, so Teresa should pursue the county as well."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Waiver and planning versus operational. Section 768.28 waives the county's immunity to the extent a private person would be liable, but planning-level policy decisions remain immune (Commercial Carrier Corp. v. Indian River County). Under Trianon Park, once a government builds or installs property such as a traffic signal, it has an operational duty to maintain it. Seagrape County's failure to repair a signal it had installed, after three reports over ten days, is operational negligence, not a discretionary policy choice.",
+            "Notice. Before suing, Teresa must present a written claim to the county within 3 years after the claim accrued; because the defendant is a county, she need not also present it to the Department of Financial Services. She may not file suit until the county denies the claim in writing or 6 months pass without final disposition, which is a deemed denial, and she must then sue within the limitations period § 768.28 sets. Her claim against the county should name the county, not the traffic-division employees, who are personally immune for negligence within the scope of their employment.",
+            "Caps. Teresa can recover from the county no more than $200,000 (the per-person cap under § 768.28(5) for claims arising on or after October 1, 2011; the per-incident cap is $300,000), with no punitive damages or pre-judgment interest. A larger judgment may be entered, but the excess could be paid only by a legislative claim bill. The caps were not raised: a 2026 bill to increase them was vetoed, so the $200,000/$300,000 figures govern this May 2025 crash.",
+            "Conclusion. The county is not immune, but Teresa must first present a written notice of claim and await denial, and her recovery is capped."
+          ]
+        },
+        {
+          "call": 4,
+          "text": [
+            "Procedure. Under § 768.72(1), Teresa may not simply add a punitive count to her complaint. She must move for leave to amend and make a reasonable showing, through record evidence or a proffer, that provides a reasonable basis for punitive damages. Until the court grants leave, she may not take discovery of the defendants' financial worth.",
+            "Standard against Silas. Punitive damages require clear and convincing evidence that the defendant was personally guilty of intentional misconduct or gross negligence — conduct so reckless or wanting in care that it showed conscious disregard of or indifference to the safety of others (§§ 768.72(2), 768.725). Driving at a 0.14 blood-alcohol level, 20 mph over the limit, through a darkened intersection without slowing is strong evidence of conscious disregard for others' safety, and his promise to be the designated driver shows he knew the risk. Ordinarily punitive damages are capped at the greater of three times compensatory damages or $500,000 (§ 768.73), but under § 768.736 the caps do not apply to a defendant who was under the influence of alcohol to the extent his normal faculties were impaired or who had a blood-alcohol level of 0.08 or higher.",
+            "Rhonda. Punitive damages require that the defendant be personally guilty of the misconduct. Rhonda's liability is purely vicarious under the dangerous instrumentality doctrine, and she had no reason to expect Silas to drink, so there is no basis for punitive damages against her.",
+            "Conclusion. Teresa should move for leave to add a punitive claim against Silas, supported by a proffer of the blood test, speed and intersection evidence; the cap would not apply. She has no viable punitive claim against Rhonda."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fl-torts.e02",
+      "title": "Aisle Seven",
+      "minutes": 60,
+      "topics": [
+        "fl-torts.florida-doctrines",
+        "fl-torts.wrongful-death",
+        "fl-torts.negligence-and-fault"
+      ],
+      "facts": [
+        "Sunny Mart operates a supermarket in Ocala, Florida. For at least a month before the events below, a refrigerated dairy case in aisle seven had been leaking water onto the floor. Employees had placed towels around its base on at least four occasions, and a work order to repair the case had been open for three weeks. No warning cone was placed in the aisle.",
+        "In October 2025 Valencia, age 58, was shopping at Sunny Mart with her daughter, Marisa, age 34. Water from the dairy case had spread several feet into the aisle; the puddle had shopping-cart tracks and footprints running through it. Valencia, wearing flip-flops and reading her shopping list, stepped into the water, slipped, and struck her head on the tile floor. Marisa, walking a few steps behind, saw her mother fall and knelt beside her as she lost consciousness. Marisa was not touched or injured in the fall.",
+        "Valencia died three days later of a brain hemorrhage. The hospital billed $210,000; Valencia's health insurer paid $85,000 in full satisfaction, and the insurer has a contractual right of reimbursement from any tort recovery. Valencia's estate paid $12,000 for her funeral. Valencia had worked as a bookkeeper earning $60,000 a year. She is survived by her husband, Arturo; Marisa, who is married and self-supporting; and her son, Benito, age 23, a graduate student who lived at home and whom Valencia supported.",
+        "Within two weeks after the fall, Marisa began suffering insomnia and panic attacks, and her physician diagnosed a stress-induced stomach ulcer that required treatment. Arturo has been appointed personal representative of Valencia's estate. Sunny Mart contends that it did not know about the water that day and that Valencia caused her own fall."
+      ],
+      "calls": [
+        "Is Sunny Mart liable for Valencia's fall? Discuss.",
+        "Who must bring the action for Valencia's death, and what damages may be recovered, and by whom? Discuss.",
+        "May Marisa recover for her own emotional distress? Discuss."
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "call": 1,
+          "label": "Transitory foreign substance: actual or constructive knowledge",
+          "rules": [
+            "fl-torts.florida-doctrines.transitory-foreign-substance",
+            "fl-torts.florida-doctrines.premises-invitees"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Valencia was a business invitee owed reasonable care to maintain the premises and warn of concealed dangers",
+            "Under § 768.0755 the plaintiff must prove the business had actual or constructive knowledge of the substance and should have remedied it",
+            "Constructive knowledge by length of time: spread puddle with cart tracks and footprints",
+            "Constructive (and arguably actual) knowledge by regularity: repeated leaks, towels, open work order"
+          ],
+          "conclusion": "The evidence supports a finding that Sunny Mart knew or should have known of the water and failed to remedy or warn."
+        },
+        {
+          "id": "i2",
+          "call": 1,
+          "label": "Valencia's comparative fault",
+          "rules": [
+            "fl-torts.negligence-and-fault.modified-comparative-fault"
+          ],
+          "points": 2,
+          "mustSay": [
+            "Inattention and footwear are comparative fault that reduce recovery",
+            "Under the post-2023 rule, recovery is barred only if Valencia is found more than 50% at fault, which is unlikely on these facts"
+          ],
+          "conclusion": "Valencia's fault will likely reduce, not bar, the recovery."
+        },
+        {
+          "id": "i3",
+          "call": 2,
+          "label": "Personal representative brings a single action",
+          "rules": [
+            "fl-torts.wrongful-death.action-and-parties"
+          ],
+          "points": 2,
+          "mustSay": [
+            "Valencia's personal-injury claim abates on her death from the injury; the wrongful-death action replaces it",
+            "Arturo, as personal representative, sues for all survivors and the estate and must identify every beneficiary in the complaint",
+            "Defenses that would have applied against Valencia, including her comparative fault, reduce the recovery"
+          ],
+          "conclusion": "Arturo, as personal representative, must bring one wrongful-death action for the survivors and the estate."
+        },
+        {
+          "id": "i4",
+          "call": 2,
+          "label": "Survivors' damages",
+          "rules": [
+            "fl-torts.wrongful-death.survivor-damages"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Arturo (spouse): lost support and services, companionship and protection, mental pain and suffering",
+            "Benito (23) is a 'minor child' under the Act (under 25): lost support, parental companionship, instruction and guidance, mental pain and suffering",
+            "Marisa (34) is an adult child and a spouse survives: no companionship or pain-and-suffering damages; lost support only if she can show any",
+            "The medical-negligence limit in § 768.21(8) does not apply to a premises case"
+          ],
+          "conclusion": "Arturo and Benito recover economic and non-economic damages; Marisa recovers, at most, lost support and services."
+        },
+        {
+          "id": "i5",
+          "call": 2,
+          "label": "Estate damages and medical-expense evidence",
+          "rules": [
+            "fl-torts.wrongful-death.estate-damages",
+            "fl-torts.negligence-and-fault.medical-expense-evidence",
+            "fl-torts.immunity-and-limits.collateral-source"
+          ],
+          "points": 3,
+          "mustSay": [
+            "The estate recovers medical and funeral expenses paid by or charged against it, lost earnings from injury to death, and net accumulations because a spouse and lineal descendants survive",
+            "Under § 768.0427 evidence of the paid hospital bill is limited to the $85,000 actually paid, not the $210,000 billed",
+            "No collateral-source setoff for the insurer's payment because the insurer has a reimbursement right"
+          ],
+          "conclusion": "The estate recovers the $12,000 funeral expense, the $85,000 medical expense (subject to the insurer's reimbursement), three days' lost earnings and lost net accumulations."
+        },
+        {
+          "id": "i6",
+          "call": 3,
+          "label": "Impact rule and the Champion exception",
+          "rules": [
+            "fl-torts.florida-doctrines.impact-rule",
+            "fl-torts.florida-doctrines.champion-exception"
+          ],
+          "points": 4,
+          "mustSay": [
+            "Florida's impact rule bars purely emotional damages from negligence without an impact; Marisa suffered no impact",
+            "Champion v. Gray exception: close family member, involvement in the event, and a discernible physical injury or illness caused by the psychic trauma",
+            "Marisa is Valencia's daughter, saw the fall and stayed with her, and developed a diagnosed stomach ulcer within two weeks",
+            "Insomnia and panic attacks alone would not suffice; the physical illness is what satisfies Champion"
+          ],
+          "conclusion": "Marisa may recover for her own emotional distress under the Champion exception; Sunny Mart pays only its percentage of fault if it pleads and proves Valencia's share."
+        }
+      ],
+      "model": [
+        {
+          "call": 1,
+          "text": [
+            "Duty. Valencia was a business invitee. Sunny Mart owed her a duty to use reasonable care to keep the premises reasonably safe and to warn of concealed dangers it knew or should have known about.",
+            "Knowledge. Because Valencia slipped on a transitory foreign substance in a business establishment, § 768.0755 requires proof that Sunny Mart had actual or constructive knowledge of the dangerous condition and should have taken action to remedy it. Constructive knowledge may be shown by circumstantial evidence that the condition existed long enough that the store, exercising ordinary care, should have known of it, or that the condition occurred with regularity and was therefore foreseeable. Both routes are available. The water had spread several feet into the aisle and showed cart tracks and footprints, indicating it had been there for some time. And the leak was recurring: employees had placed towels at the case at least four times in a month and a repair order had been open for three weeks, which shows the condition occurred regularly and arguably that the store actually knew the case leaked. Sunny Mart's claim that it did not know about the water that day does not defeat constructive knowledge.",
+            "Breach and causation. Despite that knowledge, Sunny Mart neither fixed the case, cleaned the aisle, nor placed a warning cone. The water caused Valencia's fall, head injury and death.",
+            "Comparative fault. Valencia's flip-flops and her attention to her shopping list are evidence of comparative negligence. Because the action will be filed after March 24, 2023, § 768.81(6) applies. Defenses good against Valencia apply to the wrongful-death claim (§ 768.20), and § 768.81(6) exempts only medical-negligence wrongful-death actions, so the better reading is that the claimants recover nothing only if Valencia is found more than 50% at fault. Given the store's repeated notice and failure to warn, a jury is likely to assign her a minority share, which will reduce the damages proportionally.",
+            "Conclusion. Sunny Mart is likely liable, with damages reduced by Valencia's percentage of fault."
+          ]
+        },
+        {
+          "call": 2,
+          "text": [
+            "Who sues. When an injury causes death, the injured person's own claim abates and is replaced by a wrongful-death action brought by the personal representative for the benefit of the survivors and the estate (§§ 768.19–768.20). Arturo, as personal representative, must bring a single action and identify all potential beneficiaries — himself, Benito, Marisa and the estate — in the complaint. Defenses good against Valencia, including her comparative fault, reduce the recovery.",
+            "Survivors. Under § 768.21, each survivor may recover the value of lost support and services. Arturo, as the surviving spouse, may also recover for loss of companionship and protection and for his mental pain and suffering. The Act defines 'minor children' as children under 25 (§ 768.18), so Benito, at 23, may recover for lost support and for lost parental companionship, instruction and guidance and his mental pain and suffering. Marisa, at 34, is an adult child; because Valencia left a surviving spouse, Marisa may not recover companionship or pain-and-suffering damages, and as a self-supporting adult she likely has little or no lost support. The medical-negligence limitation in § 768.21(8) is irrelevant because this is a premises-liability death, not medical negligence.",
+            "Estate. The personal representative recovers for the estate Valencia's lost earnings from the date of injury to death (three days' wages, less any support attributed to survivors), medical and funeral expenses that were charged against the estate or paid by or on behalf of Valencia (to the extent survivors do not recover them), and — because Valencia's survivors include a spouse and lineal descendants — the loss of prospective net accumulations, meaning the portion of her expected future earnings she would have saved and left to her estate, reduced to present value.",
+            "Medical-expense evidence and setoff. Under § 768.0427, evidence of past medical expenses that have been satisfied is limited to the amount actually paid, so the jury will hear $85,000, not the $210,000 billed. Because the health insurer holds a reimbursement right, its payment is not a collateral source deducted under § 768.76; the estate recovers it and must reimburse the insurer.",
+            "Conclusion. Arturo, as personal representative, sues for everyone. Arturo and Benito recover economic and non-economic damages; Marisa recovers at most lost support; and the estate recovers the funeral and medical expenses, lost earnings to death and lost net accumulations, all reduced by Valencia's comparative fault."
+          ]
+        },
+        {
+          "call": 3,
+          "text": [
+            "Impact rule. Florida retains the impact rule: a plaintiff may not recover for emotional distress caused by another's negligence unless she suffered a physical impact. Marisa was not touched in the incident, so she must fit an exception.",
+            "Champion exception. Under Champion v. Gray and Zell v. Meek, a plaintiff without an impact may recover for psychic trauma caused by the negligent death or serious injury of a close family member if (1) the trauma causes a discernible physical injury or illness, (2) the plaintiff was involved in the event, by seeing or hearing it or arriving at the scene shortly afterward, and (3) the plaintiff had a close personal relationship with the directly injured person. Marisa is Valencia's daughter, watched her fall a few steps away, and stayed with her as she lost consciousness. Within two weeks she developed a physician-diagnosed stress-induced stomach ulcer requiring treatment, a discernible physical illness caused by the trauma and manifesting within a short time. Her insomnia and panic attacks, standing alone, would not be enough; the ulcer is what brings her within the exception.",
+            "Effect of Valencia's fault. Marisa's own fault is not at issue, so the greater-than-50% bar does not threaten her claim. But liability is several only, and Valencia's inattention contributed to the fall that traumatized Marisa. If Sunny Mart pleads Valencia's fault as a nonparty (Fabre) and proves it, the jury may assign part of the fault for Marisa's injury to Valencia, and Sunny Mart will pay only its own percentage.",
+            "Conclusion. Marisa may recover for her own emotional distress and its physical consequences under the Champion exception, though Sunny Mart will pay only its percentage of fault if Valencia's share is properly pleaded and proved."
+          ]
+        }
+      ]
+    }
+  ]
+}

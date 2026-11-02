@@ -1,0 +1,333 @@
+{
+ "subject": "fl-evidence",
+ "essays": [
+  {
+   "id": "fl-evidence.e01",
+   "title": "Shots at the Boat Ramp",
+   "minutes": 60,
+   "topics": [
+    "fl-evidence.relevance-and-character",
+    "fl-evidence.hearsay",
+    "fl-evidence.witnesses-and-impeachment"
+   ],
+   "facts": [
+    "Corbin Hale is charged in Citrus County with second-degree murder for shooting Lyle Pruitt at a public boat ramp. Hale admits the shooting but says Pruitt came at him with a fillet knife after an argument over a blocked trailer. No knife was found at the scene. Hale's pretrial motion for stand-your-ground immunity was denied, and he will argue self-defense to the jury.",
+    "The defense plans to call (a) Rita Moss, who has run the bait shop at the ramp for twenty years, to testify that Pruitt had a reputation among local fishermen as a violent man who settled disputes with his fists; and (b) Hale himself, to testify that two months before the shooting he watched Pruitt break a man's jaw in a dispute over a parking space, and that a friend later told Hale that Pruitt had once stabbed someone in Georgia.",
+    "In response, the State plans to call (c) Pruitt's pastor, who will testify that Pruitt had a reputation in his church and neighborhood as a peaceable man; and (d) Hale's former neighbor, who will testify that three years ago Hale pointed a pistol at him during an argument over a property line. The State gave written notice of item (d) twenty days before trial and argues that it shows Hale's 'readiness to use a gun' and his intent.",
+    "Pruitt's girlfriend, Dana Voss, was sitting in Pruitt's truck. About a minute after the shot, she called 911, screaming and crying: 'He just shot Lyle! Lyle was walking back to the truck! Send somebody!' Forty minutes later, at the sheriff's office, a detective took a recorded, question-and-answer statement from Dana in which she said Pruitt 'never had anything in his hands.' Dana has since moved to Portugal, has refused requests to return, and is beyond the reach of a subpoena. The State offers the 911 recording and the station-house recording.",
+    "Hale will testify. His record shows: a 2015 adjudication of guilt for grand theft, a felony; a 2021 plea of no contest to felony battery, for which the court withheld adjudication and imposed probation; and a 2023 misdemeanor DUI conviction."
+   ],
+   "calls": [
+    "Discuss the admissibility of items (a) through (d).",
+    "Discuss the admissibility of the 911 recording and the station-house recording.",
+    "Explain how, if at all, the State may impeach Hale with his record, and what the jury may learn."
+   ],
+   "issues": [
+    {
+     "id": "i1",
+     "call": 1,
+     "label": "Victim's reputation for violence (item a)",
+     "rules": [
+      "fl-evidence.relevance-and-character.character-generally",
+      "fl-evidence.relevance-and-character.method-of-proof"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Character evidence is generally inadmissible to prove conduct in conformity (§ 90.404(1))",
+      "The accused may offer a pertinent trait of the victim, and violence is pertinent to who was the aggressor in a self-defense case",
+      "Florida permits proof only by reputation (§ 90.405); Moss's testimony is reputation in a relevant community",
+      "Admissible"
+     ],
+     "conclusion": "Moss's reputation testimony is admissible to show Pruitt was the first aggressor."
+    },
+    {
+     "id": "i2",
+     "call": 1,
+     "label": "Hale's knowledge of Pruitt's prior violent acts (item b)",
+     "rules": [
+      "fl-evidence.relevance-and-character.character-generally",
+      "fl-evidence.hearsay.definition"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Specific acts of the victim known to the defendant are not offered as character evidence but to show the reasonableness of the defendant's fear",
+      "The defendant's knowledge at the time of the shooting is the key foundation",
+      "The friend's report about the Georgia stabbing is not hearsay when offered to show its effect on Hale, not its truth; a limiting instruction may be requested",
+      "Section 90.403 still applies"
+     ],
+     "conclusion": "Hale may describe the jaw-breaking he witnessed and the stabbing report he heard, to show the reasonableness of his fear, with a limiting instruction on the report."
+    },
+    {
+     "id": "i3",
+     "call": 1,
+     "label": "State's rebuttal with the victim's peaceful reputation (item c)",
+     "rules": [
+      "fl-evidence.relevance-and-character.character-generally",
+      "fl-evidence.relevance-and-character.method-of-proof"
+     ],
+     "points": 2,
+     "mustSay": [
+      "Once the accused offers the victim's violent character, the prosecution may rebut it",
+      "In a homicide case, the State may also offer the victim's peacefulness to rebut evidence that the victim was the aggressor",
+      "Proof by reputation is the permitted method"
+     ],
+     "conclusion": "The pastor's reputation testimony is admissible in rebuttal."
+    },
+    {
+     "id": "i4",
+     "call": 1,
+     "label": "Hale's prior gun-pointing incident (item d)",
+     "rules": [
+      "fl-evidence.relevance-and-character.williams-rule",
+      "fl-evidence.relevance-and-character.character-generally"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Williams rule: collateral acts are admissible only if relevant to a material fact other than propensity",
+      "'Readiness to use a gun' is propensity; intent to shoot is not genuinely disputed because Hale admits the shooting and claims justification",
+      "Attacking the victim's character does not open the door to the defendant's character in Florida, and in any event character must be shown by reputation, not specific acts",
+      "Timely notice does not cure irrelevance; the act would also risk becoming a feature of the trial and fail § 90.403"
+     ],
+     "conclusion": "The prior incident should be excluded as propensity evidence."
+    },
+    {
+     "id": "i5",
+     "call": 2,
+     "label": "The 911 recording",
+     "rules": [
+      "fl-evidence.hearsay.spontaneous-and-excited",
+      "fl-evidence.hearsay.confrontation"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Offered for its truth, so it is hearsay",
+      "Excited utterance: startling event, made about a minute later while Dana was screaming and crying, before time to reflect (spontaneous-statement exception may also apply)",
+      "Nontestimonial under Davis because its primary purpose was to get help for an ongoing emergency, so the Confrontation Clause does not bar it",
+      "Admissible even though Dana is unavailable"
+     ],
+     "conclusion": "The 911 recording is admissible as an excited utterance and is nontestimonial."
+    },
+    {
+     "id": "i6",
+     "call": 2,
+     "label": "The station-house recording",
+     "rules": [
+      "fl-evidence.hearsay.confrontation",
+      "fl-evidence.hearsay.definition",
+      "fl-evidence.hearsay.spontaneous-and-excited"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Made forty minutes later in structured questioning, so the excitement exception is doubtful",
+      "Testimonial: a structured police interview whose primary purpose is to establish past facts for prosecution",
+      "Dana is unavailable but Hale never had an opportunity to cross-examine her, so Crawford bars it",
+      "Florida has no residual exception, and the statement is not a prior inconsistent statement because Dana does not testify"
+     ],
+     "conclusion": "The station-house recording is inadmissible."
+    },
+    {
+     "id": "i7",
+     "call": 3,
+     "label": "Impeachment of Hale with his record",
+     "rules": [
+      "fl-evidence.witnesses-and-impeachment.prior-convictions"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Grand theft qualifies both as a felony and as a crime of dishonesty; no balancing and no ten-year limit in a criminal case",
+      "The withheld-adjudication battery is not a 'conviction' for § 90.610 purposes",
+      "The DUI misdemeanor neither exceeds one year nor involves dishonesty, so it is excluded",
+      "Procedure: ask whether Hale has been convicted of a felony or crime of dishonesty and how many times; if he truthfully answers 'once,' the inquiry stops and the crime is not named; if he denies, the State may introduce a certified judgment"
+     ],
+     "conclusion": "The jury may learn only that Hale has one prior qualifying conviction, unless he denies it or opens the door."
+    }
+   ],
+   "model": [
+    {
+     "call": 1,
+     "text": [
+      "Item (a): Moss's reputation testimony. Under section 90.404(1), character evidence is inadmissible to prove action in conformity, but section 90.404(1)(b) allows the accused to offer evidence of a pertinent trait of the victim's character. When the defendant claims self-defense, the victim's violent character is pertinent to who was the first aggressor. Section 90.405 permits proof only by reputation. Moss has run the bait shop at the ramp for twenty years and will describe Pruitt's reputation among local fishermen, a community large and stable enough for a reputation to form. Hale does not need to have known of that reputation, because it is offered to show Pruitt's conduct, not Hale's state of mind. The testimony is admissible.",
+      "Item (b): Hale's knowledge of specific violent acts. Specific acts are not a permitted way to prove the victim's character. But when a defendant who claims self-defense knew of the victim's prior violent acts, those acts are admissible for a different purpose: to show the reasonableness of the defendant's fear when he used deadly force. Hale personally saw Pruitt break a man's jaw two months earlier, so that testimony is admissible on his state of mind. The friend's report of a Georgia stabbing is also admissible for that purpose because it is offered not to prove the stabbing happened but to show what Hale had heard, which is not hearsay under section 90.801. The State may request a limiting instruction, and the court retains section 90.403 discretion over remote or inflammatory details.",
+      "Item (c): the pastor's rebuttal. Section 90.404(1)(b) allows the prosecution to rebut evidence of the victim's character offered by the accused and, in a homicide case, to offer evidence of the victim's peacefulness to rebut evidence that the victim was the aggressor. Both triggers are present. The pastor will testify to Pruitt's reputation in his church and neighborhood, the permitted method under section 90.405. The testimony is admissible.",
+      "Item (d): the gun-pointing incident. Under the Williams rule, codified in section 90.404(2)(a), evidence of another act is admissible only if it is relevant to prove a material fact in issue, and never when it is relevant solely to character or propensity. The State's theory, Hale's 'readiness to use a gun,' is propensity by another name. Intent is not genuinely disputed: Hale admits he shot Pruitt deliberately and claims justification, so the prior act adds nothing on intent except the forbidden inference that Hale is violent. Nor can the State call this rebuttal character evidence. Florida has no counterpart to FRE 404(a)(2)(B)(ii), so attacking Pruitt's character did not open the door to Hale's, and even when a defendant's character is admissible it must be proved by reputation, not specific acts. Timely notice under section 90.404(2)(d) does not cure irrelevance, and an unrelated armed confrontation would risk becoming a feature of the trial and fail section 90.403. The court should exclude item (d)."
+     ]
+    },
+    {
+     "call": 2,
+     "text": [
+      "The 911 recording. Dana's statement that Hale shot Lyle while Lyle was walking back to the truck is offered for its truth and is hearsay. It fits the excited-utterance exception in section 90.803(2): a shooting is a startling event, Dana spoke about a minute later, and her screaming and crying show she was still under the stress of excitement and had no time to contrive or misrepresent. It may also qualify as a spontaneous statement under section 90.803(1) because she described the event immediately afterward. Both exceptions apply regardless of availability. Because Dana does not testify, the Confrontation Clause must also be considered. Under Davis v. Washington, a 911 call made to get help for an ongoing emergency is nontestimonial. Dana was calling for help about a minute after a shooting, with Lyle wounded and the armed shooter's next move unknown, so her primary purpose was to meet an ongoing emergency. The recording is admissible.",
+      "The station-house recording. This statement was made forty minutes later, at the sheriff's office, in a question-and-answer interview with a detective. The time, place and format make it unlikely Dana was still under the stress of the event, so the excited-utterance exception is doubtful. More decisively, the statement is testimonial: structured police questioning after the emergency has ended, designed to establish past facts for prosecution, is the core of what Crawford v. Washington covers. Dana is unavailable, but Hale never had an opportunity to cross-examine her, so the Sixth Amendment and Article I, section 16 of the Florida Constitution bar the statement. Florida has no residual exception that could rescue it, and it cannot be a prior inconsistent statement because Dana does not testify. The recording is inadmissible."
+     ]
+    },
+    {
+     "call": 3,
+     "text": [
+      "Under section 90.610, any witness, including the accused, may be impeached with a conviction for a crime punishable by more than one year or for a crime involving dishonesty or false statement. Florida applies no balancing test and has no ten-year limit in criminal cases. The 2015 grand theft conviction qualifies on both grounds: it is a felony, and Florida treats theft as a crime of dishonesty. The 2021 felony battery does not qualify because adjudication was withheld; for impeachment purposes, a 'conviction' requires an adjudication of guilt. The 2023 DUI is a misdemeanor that does not involve dishonesty, so it cannot be used.",
+      "The method is limited. The prosecutor may ask Hale whether he has ever been convicted of a felony or a crime involving dishonesty and, if so, how many times. If Hale truthfully answers 'yes, once,' the inquiry ends: the State may not name the crime or describe its facts unless Hale opens the door, for example by minimizing the conviction or claiming a spotless record. If Hale denies the conviction or gives the wrong number, the State may prove it by introducing a certified copy of the judgment. The jury will therefore learn only that Hale has one prior qualifying conviction, and it may be instructed to consider it only on his credibility."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fl-evidence.e02",
+   "title": "The Railing at Harbor Lights",
+   "minutes": 60,
+   "topics": [
+    "fl-evidence.relevance-and-character",
+    "fl-evidence.privileges",
+    "fl-evidence.hearsay",
+    "fl-evidence.experts"
+   ],
+   "facts": [
+    "Joan Mercer was a guest at the Harbor Lights Hotel in Destin. While she leaned against the wooden railing of a third-floor walkway, the railing gave way and she fell to the pool deck, breaking her pelvis. She sued Harbor Lights Hospitality, LLC, the hotel operator, for negligence in a Florida circuit court. Harbor Lights denies negligence and also denies that it controlled the walkway, contending that the walkway is a common element maintained by the building's condominium association.",
+    "Within a week of the fall, Harbor Lights' maintenance staff replaced every wooden railing on the third floor with steel railings. Immediately after the fall, the hotel's general manager, Paul Okafor, knelt beside Mercer and said: 'I'm so sorry this happened to you. Don't worry, we'll cover your hospital bills. I told the owners last month that this railing was rotten, and they wouldn't spend the money.'",
+    "Harbor Lights' maintenance workers fill out a daily inspection log every morning, as required by company policy. The entry for the morning before the fall, made by a maintenance worker who has since left the company, reads: 'Rail 3B: wobbly, wood soft at base. Monitor.' The day after the fall, Harbor Lights' general counsel asked the risk manager to obtain a confidential account of the railing's history for counsel's use in anticipated litigation. The risk manager directed the maintenance chief, who is responsible for the railings, to write a memo, which he sent only to the general counsel. Mercer has requested both the log and the memo in discovery.",
+    "Mercer has retained Dr. Ana Whitfield, a structural engineer. Dr. Whitfield did not examine the removed railing, which was discarded. She reviewed photographs taken before and after the fall, the inspection log, and the hotel's maintenance records, and she interviewed a former Harbor Lights housekeeper, who told her that 'everyone knew the third-floor rails were rotten.' She will testify that wood rot at the base caused the railing to fail. Harbor Lights has moved to exclude her opinion, and plans to cross-examine her with a well-known engineering handbook stating that wood decay cannot reliably be diagnosed from photographs alone. Mercer's counsel intends to have Dr. Whitfield tell the jury what the housekeeper said."
+   ],
+   "calls": [
+    "Discuss the admissibility of the railing replacement and of Okafor's statements.",
+    "Discuss whether Mercer may obtain and use the inspection log and the maintenance chief's memo.",
+    "Discuss the admissibility and permissible scope of Dr. Whitfield's testimony and the use of the engineering handbook."
+   ],
+   "issues": [
+    {
+     "id": "i1",
+     "call": 1,
+     "label": "Subsequent remedial measure: the steel railings",
+     "rules": [
+      "fl-evidence.relevance-and-character.policy-exclusions",
+      "fl-evidence.relevance-and-character.unfair-prejudice"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Measures taken after the event that would have made the harm less likely are inadmissible to prove negligence or culpable conduct (§ 90.407)",
+      "They may be admitted for another purpose such as ownership or control when that is disputed",
+      "Harbor Lights disputes control of the walkway, so the replacement is admissible on control, with a limiting instruction and § 90.403 review"
+     ],
+     "conclusion": "The replacement is inadmissible to prove negligence but admissible to prove control, which Harbor Lights disputes."
+    },
+    {
+     "id": "i2",
+     "call": 1,
+     "label": "Okafor's statements: sympathy, offer to pay, and admission of fault",
+     "rules": [
+      "fl-evidence.relevance-and-character.policy-exclusions",
+      "fl-evidence.hearsay.admissions"
+     ],
+     "points": 3,
+     "mustSay": [
+      "'I'm so sorry this happened' is an expression of sympathy inadmissible in a civil action under § 90.4026",
+      "The offer to pay hospital bills is inadmissible to prove liability under § 90.409",
+      "The statement about warning the owners that the railing was rotten is a statement of fault and notice, not protected by the sympathy statute",
+      "It is admissible against Harbor Lights as an agent's statement concerning a matter within the scope of employment, made during the relationship (§ 90.803(18)(d))"
+     ],
+     "conclusion": "Only the fault-and-notice portion of Okafor's statement is admissible; the sympathy and offer to pay are excluded."
+    },
+    {
+     "id": "i3",
+     "call": 2,
+     "label": "The maintenance chief's memo",
+     "rules": [
+      "fl-evidence.privileges.corporate-clients",
+      "fl-evidence.privileges.lawyer-client"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Corporate employee communications are tested under the Deason five-part test",
+      "The memo was made only because counsel sought it, at a superior's direction, to obtain legal advice, on a subject within the chief's duties, and sent only to counsel",
+      "It is privileged; the underlying facts remain discoverable by deposing the chief"
+     ],
+     "conclusion": "The memo is privileged and need not be produced."
+    },
+    {
+     "id": "i4",
+     "call": 2,
+     "label": "The daily inspection log",
+     "rules": [
+      "fl-evidence.hearsay.records",
+      "fl-evidence.hearsay.admissions",
+      "fl-evidence.privileges.corporate-clients"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Not privileged: prepared in the ordinary course of business, not because of contemplated legal services",
+      "Hearsay offered for its truth, but admissible as a business record: made at or near the time by a person with knowledge, kept in a regularly conducted activity as a regular practice",
+      "Foundation by custodian or other qualified witness, or by certification with advance notice; the author's departure does not matter",
+      "The entry also qualifies as an agent's admission; the observation 'wobbly, wood soft' is a factual observation, not an expert opinion barred by the business-records opinion limit"
+     ],
+     "conclusion": "The log is discoverable and admissible as a business record and as an admission."
+    },
+    {
+     "id": "i5",
+     "call": 3,
+     "label": "Reliability of Dr. Whitfield's opinion under Daubert",
+     "rules": [
+      "fl-evidence.experts.daubert-standard"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Section 90.702 applies Daubert: sufficient facts or data, reliable principles and methods, reliable application",
+      "The court is gatekeeper for all expert testimony; Frye general acceptance is no longer the test",
+      "Failure to examine the railing goes to whether her data are sufficient; reliance on photographs, the log and maintenance records may suffice if engineers reasonably rely on such materials",
+      "Close questions are often resolved by admitting the opinion and leaving weaknesses to cross-examination"
+     ],
+     "conclusion": "The court must conduct a Daubert analysis; the opinion is likely admissible if the hotel's own records corroborate the photographic analysis, with its weaknesses left to cross-examination."
+    },
+    {
+     "id": "i6",
+     "call": 3,
+     "label": "Disclosing the housekeeper's statement",
+     "rules": [
+      "fl-evidence.experts.bases-of-opinion",
+      "fl-evidence.hearsay.definition"
+     ],
+     "points": 2,
+     "mustSay": [
+      "An expert may rely on inadmissible facts of a type reasonably relied on by experts in the field (§ 90.704)",
+      "The proponent may not disclose otherwise inadmissible facts to the jury unless their probative value in evaluating the opinion substantially outweighs their prejudicial effect",
+      "A housekeeper's gossip that 'everyone knew' is hearsay, unlikely to be the kind of data engineers rely on, and highly prejudicial; the expert may not act as a conduit"
+     ],
+     "conclusion": "Dr. Whitfield may not repeat the housekeeper's statement on direct."
+    },
+    {
+     "id": "i7",
+     "call": 3,
+     "label": "Cross-examination with the engineering handbook",
+     "rules": [
+      "fl-evidence.experts.learned-treatise"
+     ],
+     "points": 2,
+     "mustSay": [
+      "A treatise may be used to cross-examine an expert if she recognizes it as authoritative or the court so finds (§ 90.706)",
+      "Florida has no learned-treatise hearsay exception; the passage impeaches but is not substantive evidence"
+     ],
+     "conclusion": "Harbor Lights may use the handbook to impeach Dr. Whitfield, but the jury may not treat it as proof of its contents."
+    }
+   ],
+   "model": [
+    {
+     "call": 1,
+     "text": [
+      "Railing replacement. Under section 90.407, evidence of measures taken after an event that, if taken before, would have made the harm less likely is inadmissible to prove negligence or culpable conduct. Replacing the wooden railings with steel ones is a classic remedial measure, so Mercer cannot use it to argue that Harbor Lights knew the railings were defective. The statute does not bar the evidence when offered for another purpose, such as ownership or control, if that issue is disputed. Harbor Lights contends that the condominium association, not the hotel, controlled the walkway; the fact that Harbor Lights' own staff replaced the railings within a week is strong evidence that it did control them. The court should admit the evidence on control, give a limiting instruction on request, and confirm under section 90.403 that the danger of unfair prejudice does not substantially outweigh its probative value on that disputed issue.",
+      "Okafor's statements. Okafor's words fall into three parts, each analyzed separately. First, 'I'm so sorry this happened to you' is a statement expressing sympathy relating to the pain or suffering of a person involved in an accident, inadmissible in a civil action under section 90.4026. Second, 'we'll cover your hospital bills' is an offer to pay medical expenses, inadmissible under section 90.409 to prove liability. Third, 'I told the owners last month that this railing was rotten, and they wouldn't spend the money' is not an expression of sympathy; it is a statement of fault and prior notice, which section 90.4026 does not protect. It is hearsay if offered for its truth, but it is admissible against Harbor Lights under section 90.803(18)(d) as a statement by its agent concerning a matter within the scope of his employment, made during the employment. As general manager, Okafor was responsible for reporting maintenance problems to ownership. The court should admit the third sentence and redact the first two."
+     ]
+    },
+    {
+     "call": 2,
+     "text": [
+      "The memo. Whether a corporate employee's communication is protected by the lawyer-client privilege in section 90.502 is decided under Southern Bell v. Deason. The communication must (1) not have been made but for the contemplation of legal services, (2) be made at the direction of a corporate superior, (3) be requested by the superior so the corporation could obtain legal advice, (4) relate to the legal services and to matters within the employee's duties, and (5) not be disseminated beyond those who need to know. The memo was created only because general counsel requested it for anticipated litigation; the risk manager directed the maintenance chief to write it; the railings are within the chief's duties; and it went only to general counsel. Every element is met, so the memo is privileged and Harbor Lights need not produce it. The privilege protects the communication, not the facts, so Mercer may depose the maintenance chief about what he knows of the railing's condition.",
+      "The inspection log. The log fails the first Deason element because it was made in the ordinary course of business under company policy, not because legal services were contemplated, so it is not privileged and must be produced. At trial the entry is hearsay if offered to prove the rail was wobbly and soft, but it is admissible as a business record under section 90.803(6): it was made the morning before the fall by a maintenance worker with personal knowledge, kept in the course of the hotel's regular inspections, and making it was a regular practice. A custodian or other qualified witness, or a certification or declaration served with reasonable advance written notice, can lay the foundation; the author's departure is irrelevant. Florida admits opinions in business records only if they would be admissible from a live witness, but 'wobbly, wood soft at base' is a factual observation any lay inspector could make under section 90.701. The entry is independently admissible as a statement by Harbor Lights' employee concerning a matter within the scope of his employment under section 90.803(18)(d)."
+     ]
+    },
+    {
+     "call": 3,
+     "text": [
+      "Daubert. Since 2019, section 90.702 has required the trial court to act as gatekeeper for all expert testimony under Daubert, not Frye. Dr. Whitfield must be qualified (a structural engineer plainly is), and her opinion must be based on sufficient facts or data, be the product of reliable principles and methods, and reflect a reliable application of those methods to the facts. Harbor Lights' strongest argument is sufficiency of data: she never examined the railing and relied on photographs, which the handbook says cannot reliably diagnose decay. Mercer will respond that the railing's destruction was not her fault, that engineers routinely rely on photographs and maintenance records, and that her conclusion is corroborated by the hotel's own log entry describing soft wood at the base the day before the failure. If Mercer establishes through testimony that this methodology is accepted engineering practice and Dr. Whitfield explains how she applied it, the court is likely to admit the opinion and leave the lack of a physical examination to cross-examination and the handbook. If she cannot explain a method beyond intuition, the court should exclude it.",
+      "The housekeeper's statement. Under section 90.704, an expert may base an opinion on facts or data that are not admissible if they are of a type reasonably relied on by experts in the field. A housekeeper's report that 'everyone knew' the rails were rotten is unlikely to be the type of data structural engineers rely on to diagnose wood failure. Even if it were, section 90.704 forbids the proponent to disclose otherwise inadmissible facts to the jury unless their probative value in helping the jury evaluate the opinion substantially outweighs their prejudicial effect. The statement is double hearsay offered for its truth on the central notice issue, and repeating it would make the expert a conduit for inadmissible evidence. Dr. Whitfield may not repeat it on direct.",
+      "The handbook. Under section 90.706, statements in a published treatise or handbook may be used to cross-examine an expert if she recognizes it as authoritative or, despite her nonrecognition, the court finds it authoritative and relevant. Harbor Lights may confront Dr. Whitfield with the passage on photographic diagnosis once that foundation is laid. Florida has no learned-treatise hearsay exception, so the passage impeaches her opinion but is not substantive evidence that photographs are unreliable, and the handbook may not be read during Harbor Lights' own expert's direct examination."
+     ]
+    }
+   ]
+  }
+ ]
+}
