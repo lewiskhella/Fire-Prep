@@ -178,8 +178,11 @@ def uninstall(app: Path, dry: bool, backup_name: str) -> int:
     if not stamps:
         sys.exit("no backup found; nothing to undo")
     stamp_dir = stamps[0]  # the first install holds the original files
-    created_file = stamp_dir / "CREATED.txt"
-    created = [l for l in created_file.read_text(encoding="utf-8").splitlines() if l] if created_file.exists() else []
+    created = []  # everything any install run created (later runs may add files)
+    for st in stamps:
+        f = st / "CREATED.txt"
+        if f.exists():
+            created += [l for l in f.read_text(encoding="utf-8").splitlines() if l and l not in created]
     for f in sorted(stamp_dir.rglob("*")):
         if f.is_file() and f.name != "CREATED.txt":
             rel = f.relative_to(stamp_dir)
@@ -192,6 +195,14 @@ def uninstall(app: Path, dry: bool, backup_name: str) -> int:
         print(f"  remove      {rel}")
         if not dry and target.exists():
             shutil.rmtree(target) if target.is_dir() else target.unlink()
+    if not dry:
+        # Retire this backup set so a later install starts a fresh one.
+        retired = root.with_name(f"{backup_name}.undone-{time.strftime('%Y%m%d-%H%M%S')}")
+        n = 1
+        while retired.exists():
+            n += 1
+            retired = root.with_name(f"{backup_name}.undone-{time.strftime('%Y%m%d-%H%M%S')}-{n:02d}")
+        root.rename(retired)
     print("Restored the files from before the first install.")
     return 0
 

@@ -1,0 +1,33 @@
+/* Where Florida differs (#/florida/differences) — on the shared Ruled tokens. */
+.fd-tools { display: flex; gap: var(--s3); align-items: center; }
+.fd-bar {
+  display: flex; align-items: center; gap: var(--s2); margin: 0 0 var(--s3);
+  border: 1.5px solid var(--hair-strong); border-radius: var(--radius); background: var(--sheet-raised); padding: 0 var(--s3);
+}
+.fd-bar svg { width: 18px; height: 18px; color: var(--ink-3); flex: none; }
+.fd-bar:focus-within { border-color: var(--margin); }
+.fd-search { flex: 1; min-width: 0; border: 0; background: none; padding: 12px 0; font-size: var(--fs-body); outline: none; }
+.fd-chips { margin-bottom: var(--s5); }
+.fd-chips .chip { white-space: normal; }
+.fd-subject { margin: 0 0 var(--s6); }
+.fd-subject-head {
+  display: flex; align-items: center; gap: var(--s2); font-family: var(--serif); font-weight: 500; font-size: var(--fs-h3);
+  margin: 0 0 var(--s3); padding-bottom: var(--s2); border-bottom: 2px solid var(--tab, var(--margin));
+}
+.fd-item { padding: var(--s3) 0; border-bottom: 1px solid var(--hair); max-width: calc(var(--measure) + 8ch); }
+.fd-item-head { display: flex; gap: var(--s3); align-items: baseline; flex-wrap: wrap; }
+.fd-rule { font-family: var(--serif); font-size: 1.12rem; font-weight: 600; color: var(--ink); text-decoration: none; }
+.fd-rule:hover { text-decoration: underline; text-decoration-color: var(--margin); }
+.fd-split { margin: var(--s2) 0 0; font-family: var(--serif); font-size: calc(var(--fs-body) * var(--reading-scale, 1)); line-height: 1.6; }
+.fd-label { display: inline-block; margin-right: var(--s2); padding: 1px 6px; border-radius: 2px; background: var(--margin-wash); color: var(--margin); }
+.fd-more { margin-top: var(--s2); font-size: var(--fs-small); color: var(--ink-2); }
+.fd-more summary { cursor: pointer; color: var(--ink-3); }
+.fd-more p { font-family: var(--serif); font-size: var(--fs-ui); margin: var(--s2) 0 0; }
+.fd-more .small { font-family: var(--mono); font-size: var(--fs-micro); }
+.fl-shelf-link { margin-left: auto; font-family: var(--sans); font-size: var(--fs-small); font-weight: 500; color: var(--margin); text-decoration: none; }
+.fl-shelf-link:hover { text-decoration: underline; }
+@media print {
+  .fd-bar, .fd-chips, .fd-tools, .fd-more summary { display: none; }
+  .fd-more { display: block; }
+  .fd-item { break-inside: avoid; }
+}

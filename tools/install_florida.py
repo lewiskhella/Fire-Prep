@@ -15,6 +15,9 @@ What it does (every changed file is backed up to <app>/.florida-backup/<time>/):
   * app/js/views/outlines.js    a "Florida Part A" shelf in the binder
   * app/js/views/welcome.js     labels Florida subjects in onboarding
   * app/js/lib/planner.js       study-time weights for the Florida subjects
+  * app/js/views/fl-differences.js + css/florida.css (new): "Where Florida differs", every
+                                rule whose outline notes a Florida departure (#/florida/differences),
+                                linked from the Florida shelf; main.js route; index.html stylesheet
   * app/js/views/mbe.js         an "All Florida Part A" pool in MBE Drills
                                 (#/mbe?subjects=fl&count=100&mode=exam = a timed Part A set)
 Then it runs the validator on the Florida subjects.
@@ -30,7 +33,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import installkit as kit  # noqa: E402
-from installkit import REPO, InsertAfterLine, JsonEdit, Replace  # noqa: E402
+from installkit import REPO, InsertAfterLine, InsertBefore, JsonEdit, Replace  # noqa: E402
 
 BACKUP = ".florida-backup"
 PACK = REPO / "florida"
@@ -103,7 +106,7 @@ PATCHES = [
         ("    h('div.grid.three', mee.map(card)));",
          "    mee.length ? h('h2.section', 'Tested on the MEE only', h('span.count', mee.length)) : null,\n"
          "    mee.length ? h('div.grid.three', mee.map(card)) : null,\n"
-         "    fla.length ? h('h2.section', 'Florida Part A', h('span.count', fla.length)) : null,\n"
+         "    fla.length ? h('h2.section', 'Florida Part A', h('span.count', fla.length), h('a.fl-shelf-link', { href: '#/florida/differences' }, 'Where Florida differs →')) : null,\n"
          "    fla.length ? h('div.grid.three', fla.map(card)) : null);"),
         ("    h('h2.section', 'Tested on the MEE only', h('span.count', mee.length)),\n", ""),
     ]),
@@ -121,6 +124,10 @@ PATCHES = [
          "      ...(flIds.length ? [h('button.chip', { type: 'button', 'aria-pressed': flIds.every(id => chosen.has(id)) && chosen.size === flIds.length ? 'true' : 'false', "
          "onclick: () => { chosen.clear(); flIds.forEach(id => chosen.add(id)); paint(); } }, 'All Florida Part A')] : []),"),
     ]),
+    InsertBefore("app/js/main.js", "'/florida/differences'", "route #/florida/differences", "route('*'",
+                 "route('/florida/differences', () => import('./views/fl-differences.js'));\n"),
+    InsertAfterLine("app/index.html", "css/florida.css", "Florida stylesheet link", 'href="css/views.css"',
+                    '  <link rel="stylesheet" href="css/florida.css">\n'),
     InsertAfterLine("app/js/lib/planner.js", "'fl-wills'", "Florida study-time weights",
                     "'conflict-of-laws': 0.45,", WEIGHTS),
 ]
@@ -157,6 +164,7 @@ def main(argv=None):
     if not subjects:
         sys.exit("the Florida pack has no subjects yet (florida/content/subjects/ is empty)")
     copies = [(f"florida/content/subjects/{sid}", f"content/subjects/{sid}") for sid in subjects]
+    copies += [("app/js/views/fl-differences.js", "app/js/views/fl-differences.js"), ("app/css/florida.css", "app/css/florida.css")]
     code = kit.install(app, args.dry_run, copies, PATCHES, BACKUP)
     if not args.dry_run:
         print("\nValidating the Florida subjects:")

@@ -8,7 +8,10 @@ in the cloud, packaged so one command installs them into that folder.
 472 rules, 180 multiple-choice questions and 24 one-hour essays with model answers. One
 command installs them. Then set **Settings → jurisdiction** to "Florida" and the app shows the
 MBE subjects plus Florida Part A and hides the UBE-only ones. Drills, essays, recall and the
-planner all include the Florida subjects. Open questions the authors flagged for an attorney's
+planner all include the Florida subjects. **Where Florida differs** (linked from the Florida shelf)
+gathers the 181 rules where Florida departs from the MBE/majority rule into one searchable,
+printable list. MBE Drills gains an **All Florida Part A** pool, so a timed 100-question Part A set is
+one click away. Open questions the authors flagged for an attorney's
 check are in [`florida/REVIEW-NOTES.md`](florida/REVIEW-NOTES.md).
 
 **Lectures (§ 11).** It turns the transcripts of your Florida Bar
@@ -96,6 +99,7 @@ app/js/lib/lectures.js       loads content/lectures/*; per-device prefs (ruled:l
 app/js/lib/lectures-core.js  pure search/format helpers (shared, unit-tested)
 app/js/ui/lecture-links.js   "On tape" box for outline topics
 app/css/lectures.css         styles on the app's shared tokens
+app/js/views/fl-differences.js + app/css/florida.css   "Where Florida differs" page
 tools/lectures.py            command-line tool
 tools/lecturelib/            parsers, tagger, index builder, media server, Florida taxonomy
 tools/install_lectures.py    installs the above into the app folder

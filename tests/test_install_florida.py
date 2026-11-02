@@ -48,7 +48,8 @@ class FloridaInstallerTests(unittest.TestCase):
         self.tmp = Path(tempfile.mkdtemp())
         self.app = self.tmp / "app-root"
         files = {"app/js/lib/content.js": CONTENT_JS, "app/js/views/outlines.js": OUTLINES_JS, "tools/validate_content.py": VALIDATOR,
-                 "app/js/lib/planner.js": PLANNER, "app/js/views/welcome.js": WELCOME, "app/js/views/mbe.js": MBE_JS, "content/catalog.json": json.dumps(CATALOG)}
+                 "app/js/lib/planner.js": PLANNER, "app/js/views/welcome.js": WELCOME, "app/js/views/mbe.js": MBE_JS,
+                 "app/js/main.js": "route('/', x);\nroute('*', y);\n", "app/index.html": '<link rel="stylesheet" href="css/views.css">\n', "content/catalog.json": json.dumps(CATALOG)}
         for rel, text in files.items():
             p = self.app / rel
             p.parent.mkdir(parents=True, exist_ok=True)
@@ -63,6 +64,7 @@ class FloridaInstallerTests(unittest.TestCase):
         self._repo = fl.kit.REPO
         fl.kit.REPO = self.tmp  # copies resolve against the temp tree
         (self.tmp / "florida").symlink_to(self.pack)
+        (self.tmp / "app").symlink_to(ROOT / "app")
 
     def tearDown(self):
         fl.PACK, fl.validate, fl.kit.REPO = self._pack, self._validate, self._repo
@@ -89,17 +91,26 @@ class FloridaInstallerTests(unittest.TestCase):
         self.assertEqual(outlines.count("'Tested on the MEE only'"), 1)
         self.assertIn("'fl-wills': 0.9", (self.app / "app/js/lib/planner.js").read_text())
         self.assertIn("includes('FL')", (self.app / "app/js/views/welcome.js").read_text())
+        self.assertIn("'/florida/differences'", (self.app / "app/js/main.js").read_text())
+        self.assertIn("css/florida.css", (self.app / "app/index.html").read_text())
+        self.assertTrue((self.app / "app/js/views/fl-differences.js").exists())
         mbe = (self.app / "app/js/views/mbe.js").read_text()
         self.assertIn("pre.includes('fl') ? flIds", mbe)
         self.assertIn("'All Florida Part A'", mbe)
 
         code, out = self.run_inst()
         self.assertEqual(code, 0, out)
-        self.assertEqual(out.count("unchanged"), 7, out)
+        self.assertEqual(out.count("unchanged"), 9, out)
 
         self.run_inst("--uninstall")
         self.assertEqual((self.app / "app/js/lib/content.js").read_text(), CONTENT_JS)
         self.assertEqual(json.loads((self.app / "content/catalog.json").read_text()), CATALOG)
+        self.assertFalse((self.app / "content/subjects/fl-wills").exists())
+        self.assertFalse((self.app / "app/js/views/fl-differences.js").exists())
+        # Install again after an uninstall: a fresh backup set, and a second uninstall still restores.
+        self.run_inst()
+        self.run_inst("--uninstall")
+        self.assertEqual((self.app / "app/js/lib/content.js").read_text(), CONTENT_JS)
         self.assertFalse((self.app / "content/subjects/fl-wills").exists())
 
 
