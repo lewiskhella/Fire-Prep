@@ -73,7 +73,7 @@
      "id": "fl-professional-responsibility.client-relationship.fee-division",
      "title": "Dividing fees between firms and referral fees",
      "weight": 3,
-     "rule": "Lawyers in different firms may divide a fee only if the total fee is not clearly excessive and either the division is in proportion to the services each performs, or, by written agreement with the client, each lawyer assumes joint legal responsibility for the representation and agrees to be available for consultation with the client. In personal-injury contingent-fee cases, the lawyer with primary responsibility must receive at least 75% of the total fee and the lawyer with secondary responsibility no more than 25%, unless the court approves a different division.",
+     "rule": "Lawyers in different firms may divide a fee only if the total fee is not clearly excessive and either the division is in proportion to the services each performs, or, by written agreement with the client, each lawyer assumes joint legal responsibility for the representation and agrees to be available for consultation with the client. In personal-injury contingent-fee cases, the lawyer with primary responsibility must receive at least 75% of the total fee and the lawyer with secondary responsibility no more than 25%; a share above 25% is presumed clearly excessive unless both lawyers accept substantially equal active participation and the court authorizes the larger division.",
      "exceptions": [
       "The 25% limit does not apply where two or more firms accept substantially equal active participation, but the division must then be authorized by the court"
      ],
@@ -85,13 +85,14 @@
      "id": "fl-professional-responsibility.client-relationship.withdrawal",
      "title": "Declining, withdrawing and protecting the client on exit",
      "weight": 2,
-     "rule": "A lawyer must decline or withdraw if the representation will result in a violation of the Rules or other law, if the lawyer's physical or mental condition materially impairs the representation, or if the lawyer is discharged. A lawyer may withdraw for other reasons, such as when withdrawal can be done without material adverse effect on the client, the client persists in conduct the lawyer reasonably believes is criminal or fraudulent, or the client fails substantially to pay after warning, but must obtain the tribunal's permission when its rules require it and must continue if ordered to do so.",
+     "rule": "A lawyer must decline or withdraw if the representation will result in a violation of the Rules or other law, if the lawyer's physical or mental condition materially impairs the representation, if the lawyer is discharged, or if the client persists in a course of action involving the lawyer's services that the lawyer reasonably believes is criminal or fraudulent, or has used the lawyer's services to commit a crime or fraud, unless the client agrees to disclose and rectify it. A lawyer may withdraw for other reasons, such as when withdrawal can be done without material adverse effect on the client, the client insists on action the lawyer considers repugnant or imprudent, or the client fails substantially to pay after warning, but must obtain the tribunal's permission when its rules require it and must continue if ordered to do so.",
      "elements": [
       "On termination, give reasonable notice, allow time to obtain other counsel, surrender papers and property the client is entitled to, and refund any unearned advance fee or expense",
       "The lawyer may retain papers only to the extent other law (such as a valid lien) permits"
      ],
+     "split": "ABA Model Rule 1.16(b)(2)–(3) treats a client's persistence in crime or fraud involving the lawyer's services, or past use of those services for a crime or fraud, as grounds for permissive withdrawal. Florida's Rule 4-1.16(a)(4)–(5) makes withdrawal mandatory in both situations unless the client agrees to disclose and rectify the crime or fraud.",
      "trap": "A client may discharge a lawyer at any time, with or without cause. A lawyer discharged without cause from a contingent-fee case recovers the reasonable value of services (quantum meruit), capped by the contract fee and payable only if the contingency occurs; the lawyer cannot insist on continuing.",
-     "authority": "R. Regulating Fla. Bar 4-1.16; Rosenberg v. Levin, 409 So. 2d 1016 (Fla. 1982)"
+     "authority": "R. Regulating Fla. Bar 4-1.16(a)–(d); Rosenberg v. Levin, 409 So. 2d 1016 (Fla. 1982)"
     }
    ]
   },
@@ -160,7 +161,7 @@
      "id": "fl-professional-responsibility.trust-accounting.records",
      "title": "Records, reconciliations and sanctions",
      "weight": 2,
-     "rule": "A lawyer must keep minimum trust accounting records, including deposit records, cancelled checks or their equivalent, bank statements, and a separate ledger for each client or matter, and must retain them for at least six years. The lawyer must regularly reconcile the trust account and compare the reconciled balance with the total of the individual client ledgers, and is responsible for trust-account compliance even when a nonlawyer employee keeps the books.",
+     "rule": "A lawyer must keep minimum trust accounting records, including deposit records, cancelled checks or their equivalent, bank statements, and a separate ledger for each client or matter, and must retain them for at least six years. The lawyer must reconcile the trust account at least monthly, must also compare the reconciled balance with the total of the individual client ledgers, and is responsible for trust-account compliance even when a nonlawyer employee keeps the books.",
      "tip": "On an essay, misappropriation of client funds, even if the lawyer intended to repay, is usually treated as warranting disbarment absent strong mitigation.",
      "trap": "Delegating bookkeeping to staff does not delegate responsibility; failure to supervise the person who embezzled from trust is itself a violation.",
      "authority": "R. Regulating Fla. Bar 5-1.2; 4-5.3"
@@ -284,7 +285,7 @@
      "id": "fl-professional-responsibility.advocacy-and-advertising.candor",
      "title": "Candor toward the tribunal and client perjury",
      "weight": 3,
-     "rule": "A lawyer may not knowingly make a false statement of fact or law to a tribunal or fail to correct a false statement of material fact previously made, fail to disclose directly adverse controlling authority not disclosed by opposing counsel, or offer evidence the lawyer knows is false. If the lawyer, the client or a witness the lawyer called has offered material evidence the lawyer later learns is false, the lawyer must take reasonable remedial measures, including, if necessary, disclosure to the tribunal, even if the information is otherwise confidential; these duties continue to the conclusion of the proceeding.",
+     "rule": "A lawyer may not knowingly make a false statement of fact or law to a tribunal or fail to correct a false statement of material fact previously made, fail to disclose directly adverse controlling authority not disclosed by opposing counsel, or offer evidence the lawyer knows is false. If the lawyer, the client or a witness the lawyer called has offered material evidence the lawyer later learns is false, the lawyer must take reasonable remedial measures, including, if necessary, disclosure to the tribunal, even if the information is otherwise confidential; under Florida's rule these duties continue beyond the conclusion of the proceeding.",
      "elements": [
       "First, remonstrate privately with the client and urge correction",
       "If that fails, seek to withdraw if withdrawal will remedy the problem",
@@ -294,6 +295,7 @@
       "A criminal defendant's right to testify does not let the lawyer present testimony the lawyer knows is false; Florida's rule states that a lawyer may not offer known false testimony in narrative form unless the tribunal orders it",
       "A lawyer may refuse to offer evidence (other than a criminal defendant's own testimony) that the lawyer reasonably believes is false"
      ],
+     "split": "ABA Model Rule 3.3(c) ends the candor duties at the conclusion of the proceeding. Florida's Rule 4-3.3(d) says they continue beyond the conclusion of the proceeding and apply even if compliance requires revealing information otherwise protected by Rule 4-1.6. Florida also adds that a lawyer may not present known false testimony in narrative form unless the tribunal orders it.",
      "trap": "'Knows' means actual knowledge, which may be inferred from circumstances; a mere suspicion that the client is lying does not trigger the remedial duty.",
      "authority": "R. Regulating Fla. Bar 4-3.3"
     },
@@ -363,7 +365,7 @@
      "exceptions": [
       "No targeted letter may be sent if the lawyer knows the person is represented in the matter, the person has said he or she does not want such communications, the communication involves coercion, duress or harassment, or the person's physical, emotional or mental state makes reasonable judgment unlikely"
      ],
-     "split": "The ABA Model Rules permit targeted letters to accident victims at any time if properly labeled. Florida's 30-day moratorium was upheld in Florida Bar v. Went For It, Inc.",
+     "split": "ABA Model Rule 7.3 bans only live person-to-person solicitation, so targeted letters to accident victims are permitted at any time (unless the recipient has asked not to be contacted or the letter involves coercion, duress or harassment), with no waiting period, labeling or filing requirement. Florida's 30-day moratorium was upheld in Florida Bar v. Went For It, Inc.",
      "authority": "R. Regulating Fla. Bar 4-7.18(b); Florida Bar v. Went For It, Inc., 515 U.S. 618 (1995)"
     },
     {
@@ -465,8 +467,10 @@
      "rule": "A lawyer or firm may not share legal fees with a nonlawyer, form a partnership with a nonlawyer if any of its activities consist of the practice of law, or practice in a for-profit entity in which a nonlawyer owns an interest or directs the lawyer's professional judgment. A person who pays the lawyer to represent someone else may not direct or regulate the lawyer's professional judgment.",
      "exceptions": [
       "Payments to a deceased lawyer's estate under an agreement, and the purchase price of a law practice sold under the rules",
-      "Including nonlawyer employees in a compensation or retirement plan, even one based on profits, as long as it is not tied to particular fees"
+      "Including nonlawyer employees in a qualified pension, profit-sharing or retirement plan",
+      "Paying nonlawyer employees bonuses for work performed, including extraordinary effort on a particular case or over a period, but never a bonus based on cases or clients the employee brings to the firm"
      ],
+     "split": "ABA Model Rule 5.4(a)(3) lets nonlawyer employees share in any compensation or retirement plan based on profits. Florida's Rule 4-5.4(a) instead allows qualified pension, profit-sharing and retirement plans and work-based bonuses, and expressly forbids bonuses based on cases or clients the nonlawyer brings in.",
      "trap": "Paying a paralegal a bonus of 10 percent of the fee in each case the paralegal brings in is both fee sharing with a nonlawyer and payment for recommending the lawyer.",
      "authority": "R. Regulating Fla. Bar 4-5.4"
     },
@@ -475,8 +479,8 @@
      "title": "Pro bono public service",
      "weight": 1,
      "rule": "Each Florida Bar member in good standing should, as part of the member's professional responsibility, render pro bono legal services to the poor; the rule's aspirational goal is at least 20 hours a year or, alternatively, a contribution of $350 to a legal aid organization.",
-     "trap": "Pro bono service is aspirational, not mandatory; failing to meet the goal is not by itself a disciplinary violation.",
-     "split": "ABA Model Rule 6.1 sets an aspirational 50 hours per year; Florida's goal is 20 hours or $350.",
+     "split": "ABA Model Rule 6.1 sets an aspirational 50 hours per year and has no reporting requirement; Florida's goal is 20 hours or $350, and every member must report annually.",
+     "trap": "Pro bono service is aspirational, not mandatory; failing to meet the goal is not by itself a disciplinary violation. What is mandatory is the annual report, on the dues statement, of whether the member met the goal.",
      "authority": "R. Regulating Fla. Bar 4-6.1"
     }
    ]

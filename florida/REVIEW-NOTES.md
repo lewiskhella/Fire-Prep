@@ -312,3 +312,45 @@ relying on the pack for anything beyond study.
   - Rule 3.260 jury waiver.
 - **Recent change (q015):** capital sentencing by an 8-of-12 vote (2023). The 2023 expansion for child sexual battery is not covered. Sexual battery has no rule yet.
 - **Cases cited by name and year only:** Dennis, Love, Owen, Almeida, Traylor, Ramirez.
+
+---
+
+# Independent review (round 2)
+
+A fresh reviewer per subject answered every question blind, re-checked every rule, and worked
+through the notes above. Where marked, they checked current statutes and 2025–26 bill status online.
+
+## fl-real-property: reviewed
+
+- **Blind check:** 15/15.
+- **Corrected:**
+  - § 695.01 lease wording.
+  - Rent withholding is limited to § 83.51(1) failures (outline and e02).
+  - The § 95.18 sequence (taxes within 1 year, return within 30 days of payment; outline and q015).
+  - Bartram's statement.
+  - The homestead election: 6 months after death, during the spouse's lifetime, not extendable (Samad v. Pla).
+  - Snyder v. Davis wording.
+  - The MRTA exceptions list is now a selection.
+- **Confirmed:**
+  - 2024 Amendment 5 indexing; the March 1 deadline; $500,000 portability.
+  - The 6-month election (the 2-year figure came from the elective share).
+  - § 695.26 witness addresses (since 1/1/2024).
+  - Termination notices.
+  - Air conditioning not required (the 2026 bills died).
+  - Foreclosure timing; § 702.06; association-lien safe harbor.
+- **Still uncertain:** extra days for a mailed 3-day notice (not stated in the content).
+- **Added:** spotters s01 and s02.
+
+## fl-torts: reviewed
+
+- **Blind check:** 15/15.
+- **Corrected:**
+  - § 768.0427 now "must include", with the 120% Medicare / 170% Medicaid benchmarks.
+  - The CPTED performer detail removed.
+  - § 768.075 trespasser rules expanded (24-hour definition; felony protection).
+  - The medical-negligence wrongful-death limit: the 2025 repeal was vetoed and HB 6003 (2026) died.
+  - e01: the § 324.021 layer; the § 316.1235 dark signal.
+  - e02 call 3: the Fabre treatment.
+- **Confirmed online:** § 768.28 caps unchanged at $200,000/$300,000. HB 145 (2026) would have raised them but was vetoed on 6/30/2026. Notice periods unchanged.
+- **Still uncertain:** the >50% bar for wrongful-death claimants (e02 calls it the better reading).
+- **Added:** spotters s01 and s02.

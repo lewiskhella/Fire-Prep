@@ -90,7 +90,7 @@
           "weight": 2,
           "rule": "In an action against the owner or operator of property by a person lawfully on the property who was injured by a third party's criminal act, the trier of fact must consider the fault of all persons who contributed to the injury, including the criminal actor. An owner of multifamily residential property that substantially implements the statutory security measures is entitled to a presumption against liability for criminal acts of third parties on the premises.",
           "elements": [
-            "Measures listed in § 768.0706 include a security camera system at entry and exit points, lighting of parking areas and common areas, deadbolts and window and sliding-door locks, locked pool-area gates, door viewers, a crime-prevention-through-environmental-design (CPTED) assessment by law enforcement, and crime-deterrence training for employees"
+            "Measures listed in § 768.0706 include a security camera system at entry and exit points, lighting of parking areas and common areas, deadbolts and window and sliding-door locks, locked pool-area gates, door viewers, a current crime-prevention-through-environmental-design (CPTED) assessment, and crime-deterrence training for employees"
           ],
           "split": "Before HB 837 the Florida Supreme Court held that a negligent defendant could not apportion fault to an intentional tortfeasor (Merrill Crossings Assocs. v. McDonald, 705 So. 2d 560 (Fla. 1997)). Section 768.0701 now requires apportionment to the criminal actor in these property cases.",
           "trap": "Leaving the assailant off the verdict form in a post-2023 negligent-security case.",
@@ -100,10 +100,10 @@
           "id": "fl-torts.negligence-and-fault.medical-expense-evidence",
           "title": "Evidence of medical damages (§ 768.0427)",
           "weight": 2,
-          "rule": "In personal-injury and wrongful-death actions, evidence of past medical expenses that have been paid is limited to the amounts actually paid, regardless of the source. Evidence of unpaid and future charges is limited by a statutory formula tied to the claimant's health coverage (or, for an uninsured claimant or one on Medicare or Medicaid, to a percentage of those programs' rates), and the medical damages awarded may not exceed the amounts paid plus the amounts needed to satisfy unpaid charges and reasonable future care.",
+          "rule": "In personal-injury and wrongful-death actions, evidence of past medical expenses that have been paid is limited to the amounts actually paid, regardless of the source. Evidence offered to prove unpaid and future medical charges must include the amounts measured by the claimant's health coverage (or, for an uninsured claimant or one on Medicare or Medicaid, by statutory Medicare/Medicaid benchmarks), and the medical damages awarded may not exceed the amounts paid plus the amounts needed to satisfy unpaid charges and reasonable future care.",
           "elements": [
             "Paid bills: amount actually paid",
-            "Unpaid bills and future care: amounts measured by the claimant's coverage or the statutory Medicare/Medicaid benchmarks",
+            "Unpaid bills and future care: evidence must include the amount the claimant's coverage would pay or, for an uninsured, Medicare or Medicaid claimant, 120% of the Medicare rate (170% of the Medicaid rate if there is no Medicare rate)",
             "Treatment under a letter of protection: claimant must disclose the letter, itemized coded billing, any sale of the receivable to a factoring company, and whether the attorney referred the claimant to the provider"
           ],
           "split": "Under the traditional collateral-source evidentiary rule, many states let the jury hear the full billed amount. Florida now limits the evidence to amounts paid or the statutory measures.",
@@ -167,10 +167,10 @@
           "id": "fl-torts.florida-doctrines.premises-licensees-trespassers",
           "title": "Uninvited licensees and trespassers",
           "weight": 2,
-          "rule": "To an uninvited licensee (one who enters for his or her own convenience without invitation) the owner owes a duty to refrain from willful or wanton misconduct and to warn of known dangers not open to ordinary observation once the licensee's presence is known. By statute, to an undiscovered trespasser the owner owes only a duty to refrain from intentional misconduct; to a discovered trespasser (whose presence was actually known within the 24 hours before the injury) the owner must also refrain from gross negligence and warn of known dangerous conditions not readily observable.",
+          "rule": "To an uninvited licensee (one who enters for his or her own convenience without invitation) the owner owes a duty to refrain from willful or wanton misconduct and to warn of known dangers not open to ordinary observation once the licensee's presence is known. By statute, to an undiscovered trespasser (whose actual presence was not detected within the 24 hours before the injury) the owner owes only a duty to refrain from intentional misconduct and has no duty to warn; to a discovered trespasser (whose presence was actually known within the 24 hours before the injury) the owner must also refrain from gross negligence and warn of known dangerous conditions not readily observable.",
           "exceptions": [
             "The attractive-nuisance doctrine for child trespassers is preserved",
-            "Additional statutory protection for owners against trespassers injured while intoxicated or while committing a felony on the property (§ 768.075)"
+            "Additional statutory protection for owners against trespassers injured while intoxicated and against persons injured while committing or attempting a felony on the property (§ 768.075)"
           ],
           "trap": "Applying the reasonable-care standard to a trespasser.",
           "authority": "Fla. Stat. § 768.075; Wood v. Camp, 284 So. 2d 691 (Fla. 1973)"
@@ -248,7 +248,7 @@
           "id": "fl-torts.immunity-and-limits.sovereign-waiver-caps",
           "title": "Waiver of sovereign immunity and the caps",
           "weight": 3,
-          "rule": "The State and its agencies and subdivisions (including counties, municipalities and school boards) are liable in tort to the same extent as a private person under like circumstances, but not for punitive damages or pre-judgment interest. Under § 768.28(5) as amended in 2011, payment is capped at $200,000 per person and $300,000 per incident; a judgment may be entered above the caps, but the excess can be paid only through a claim bill passed by the Legislature.",
+          "rule": "The State and its agencies and subdivisions (including counties, municipalities and school boards) are liable in tort to the same extent as a private person under like circumstances, but not for punitive damages or pre-judgment interest. Under § 768.28(5), for claims arising on or after October 1, 2011, payment is capped at $200,000 per person and $300,000 per incident; a judgment may be entered above the caps, but the excess can be paid only through a claim bill passed by the Legislature.",
           "elements": [
             "Governmental entity within § 768.28",
             "Tort a private person would be liable for under like circumstances",
@@ -256,7 +256,7 @@
             "Statutory notice and presuit requirements satisfied"
           ],
           "split": "The federal analogue (the FTCA) has no per-claim cap. Florida's waiver is capped and excludes punitive damages and pre-judgment interest.",
-          "tip": "Bills to raise the caps have been filed in recent sessions; confirm the figures that apply to the date the claim accrued.",
+          "tip": "The caps have not changed since 2011. A 2026 bill (HB 145) that would have raised them for later-accruing claims passed the Legislature but was vetoed on June 30, 2026, so use $200,000/$300,000.",
           "trap": "Awarding punitive damages against a city, or ordering the city to pay a $1 million verdict without a claim bill.",
           "authority": "Fla. Stat. § 768.28(1), (5)"
         },
@@ -525,7 +525,7 @@
           "title": "Medical-negligence limitation on non-economic damages",
           "weight": 2,
           "rule": "In a wrongful-death action arising from medical negligence, adult children of the decedent may not recover the companionship and pain-and-suffering damages otherwise available to children, and parents of an adult decedent may not recover pain-and-suffering damages.",
-          "trap": "Assuming the limit has been repealed. A 2025 repeal bill passed the Legislature but was vetoed, so the limitation remains in the statute; check for any later amendment.",
+          "trap": "Assuming the limit has been repealed. A 2025 repeal bill passed the Legislature but was vetoed, and a 2026 repeal bill passed the House but died in the Senate, so the limitation remains in the statute.",
           "tip": "The limit applies only to medical negligence as defined in § 766.106(1); in a car-crash death in which the decedent left no surviving spouse, adult children may recover these damages.",
           "authority": "Fla. Stat. § 768.21(8)"
         }

@@ -312,7 +312,7 @@
         "Deny the motion, solely because the mortgage lien survives until 5 years after the 2040 maturity date."
       ],
       "answer": 0,
-      "explanation": "A foreclosure action is subject to a 5-year limitations period. Under Bartram v. U.S. Bank, when an earlier foreclosure is dismissed, the parties return to their pre-acceleration positions, and each later default gives rise to a new cause of action with its own 5-year period. Owen's defaults within the five years before the 2025 filing support a timely action, so the motion should be denied.",
+      "explanation": "A foreclosure action is subject to a 5-year limitations period. Under Bartram v. U.S. Bank, when an earlier foreclosure is dismissed, the parties return to their pre-acceleration positions, and each later default gives rise to a new cause of action with its own 5-year period. Owen's continuing defaults after the 2016 dismissal, including those within the five years before the 2025 filing, support a timely action, so the motion should be denied.",
       "whyNot": [
         "",
         "Bartram rejected the argument that an acceleration in a dismissed suit starts a single, permanent limitations clock.",
@@ -361,7 +361,7 @@
         "No, because adverse possession in Florida requires 20 years of possession."
       ],
       "answer": 2,
-      "explanation": "A claimant without color of title proceeds under § 95.18, which requires 7 years of continued adverse possession plus a return filed with the property appraiser within 1 year after entering possession, payment of outstanding taxes and matured special assessments within that year, and payment of the taxes for the rest of the period. Juno satisfied the possession elements but filed no return and paid no taxes, so she cannot acquire title.",
+      "explanation": "A claimant without color of title proceeds under § 95.18, which requires 7 years of continued adverse possession plus payment of all outstanding taxes and matured special-improvement-lien installments within 1 year after entering possession, a return filed with the property appraiser within 30 days after that payment, and payment of the taxes for the rest of the period. Juno satisfied the possession elements but filed no return and paid no taxes (the investor paid them), so she cannot acquire title.",
       "whyNot": [
         "Open, continuous and exclusive possession is necessary but not sufficient without color of title; the statutory return and tax payments are also required.",
         "Limiting the claim to land actually possessed is correct for a without-color claimant, but the claim still fails entirely for lack of the return and tax payments.",

@@ -29,7 +29,7 @@
      "title": "Six-month residency",
      "weight": 3,
      "rule": "To obtain a dissolution, at least one party must have resided in Florida for six months before the petition is filed. Residency must be corroborated, for example by a valid Florida driver license or identification card, voter registration card, or the testimony or affidavit of a third party.",
-     "tip": "The six months is measured back from the filing date, not from the hearing date. A petitioner who files after five months must dismiss and refile (or amend once eligible).",
+     "tip": "The six months is measured back from the filing date, not from the hearing date. A petition filed before the six months have run is premature and subject to dismissal; the petitioner can refile once eligible.",
      "trap": "Only one spouse needs the residency, and it can be the respondent. The petitioner's own uncorroborated testimony is not enough.",
      "authority": "Fla. Stat. §§ 61.021, 61.052(2)"
     },
@@ -204,7 +204,7 @@
      "id": "fl-family-law.property-and-alimony.modification",
      "title": "Modifying or ending alimony",
      "weight": 3,
-     "rule": "Modifiable alimony may be changed on proof of a substantial change in circumstances that was not contemplated at the time of the judgment and that is sufficient, material, involuntary and permanent in nature. The court may also reduce or terminate alimony on written findings that the recipient is in a supportive relationship, and the 2023 law lets an obligor seek modification based on a reasonable, good-faith retirement.",
+     "rule": "Modifiable alimony may be changed on proof of a substantial change in circumstances that was not contemplated at the time of the judgment and that is sufficient, material, involuntary and permanent in nature. The court may also reduce or terminate alimony on written findings that the recipient is in a supportive relationship, and the 2023 law expressly lets an obligor seek modification or termination based on his or her reasonable retirement.",
      "elements": [
       "Supportive relationship factors include whether the couple hold themselves out as married, share a residence, pool assets or income, and support each other",
       "The obligor proving a supportive relationship carries the burden by a preponderance of the evidence"
@@ -213,6 +213,7 @@
       "Bridge-the-gap alimony is not modifiable",
       "An alimony provision in a settlement agreement that is expressly nonmodifiable, or a lump-sum award, cannot be modified"
      ],
+     "tip": "The 2023 reform bars new permanent awards but did not terminate or convert permanent awards entered before July 1, 2023. Those awards remain in force and change only through a § 61.14 modification, for example on an involuntary substantial change, a supportive relationship, or the obligor's reasonable retirement.",
      "trap": "A voluntary drop in income (quitting a job, taking a lower-paying one by choice) is not a qualifying change; it is self-induced.",
      "authority": "Fla. Stat. § 61.14(1); Pimm v. Pimm, 601 So. 2d 534 (Fla. 1992)"
     }
@@ -244,7 +245,7 @@
      "id": "fl-family-law.children.best-interests",
      "title": "Best interests and the equal time-sharing presumption",
      "weight": 3,
-     "rule": "Time-sharing is decided by the best interests of the child, evaluated under the statutory factors and without regard to the sex of the parent or child. Since July 1, 2023, there is a rebuttable presumption that equal time-sharing is in the child's best interests; a party opposing equal time-sharing must prove by a preponderance of the evidence that it is not in the child's best interests. Unless the parents agree to a schedule that the court approves, the court must evaluate all the statutory factors and make written findings when it creates or modifies a time-sharing schedule.",
+     "rule": "Time-sharing is decided by the best interests of the child, evaluated under the statutory factors; neither parent is favored because of his or her sex. Since July 1, 2023, there is a rebuttable presumption that equal time-sharing is in the child's best interests; a party opposing equal time-sharing must prove by a preponderance of the evidence that it is not in the child's best interests. Unless the parents agree to a schedule that the court approves, the court must evaluate all the statutory factors and make specific written findings of fact when it creates or modifies a time-sharing schedule.",
      "elements": [
       "Each parent's demonstrated capacity to facilitate a close and continuing relationship with the other parent, honor the schedule, and be reasonable about changes",
       "Each parent's capacity to put the child's needs ahead of the parent's own",
@@ -533,7 +534,7 @@
      "id": "fl-family-law.dependency.tpr-standard",
      "title": "Termination: proof, best interests and least restrictive means",
      "weight": 3,
-     "rule": "To terminate parental rights the Department must prove (1) at least one statutory ground by clear and convincing evidence, (2) that termination is in the manifest best interests of the child under the statutory factors, and (3) that termination is the least restrictive means of protecting the child from serious harm.",
+     "rule": "To terminate parental rights the Department must prove, each by clear and convincing evidence, (1) at least one statutory ground, (2) that termination is in the manifest best interests of the child under the statutory factors, and (3) that termination is the least restrictive means of protecting the child from serious harm.",
      "elements": [
       "Manifest best interests factors include the child's safety and well-being, the parent's capacity to care for the child, the child's bond with the parent and with the current caregiver, the child's preferences, and the likelihood of an older child remaining in long-term foster care",
       "Least restrictive means ordinarily requires that the Department first offered the parent services or a case plan, unless the conduct was so egregious that services would be futile"

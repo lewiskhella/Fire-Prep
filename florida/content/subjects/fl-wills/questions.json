@@ -238,7 +238,7 @@
         "Pete in fee simple, because a surviving spouse takes homestead whenever a devise of it fails."
       ],
       "answer": 1,
-      "explanation": "Because Nora was survived by a spouse and a minor child, the homestead was not subject to devise at all (Art. X, § 4(c); § 732.4015), so the gift to Rae is void. Under § 732.401 the homestead descends: with a surviving spouse and descendants, Pete takes a life estate with a vested remainder in Nora's descendants per stirpes (Quinn and Rae equally), unless within 2 years he elects an undivided one-half interest as tenant in common with the descendants.",
+      "explanation": "Because Nora was survived by a spouse and a minor child, the homestead was not subject to devise at all (Art. X, § 4(c); § 732.4015), so the gift to Rae is void. Under § 732.401 the homestead descends: with a surviving spouse and descendants, Pete takes a life estate with a vested remainder in Nora's descendants per stirpes (Quinn and Rae equally), unless within 6 months after Nora's death he elects an undivided one-half interest as tenant in common with the descendants.",
       "whyNot": [
         "No devise of homestead is valid when the owner leaves a spouse and a minor child, even a devise to a descendant.",
         "",
@@ -360,7 +360,7 @@
         "Strike the claim unless Fran proves that the personal representative fraudulently concealed the estate."
       ],
       "answer": 1,
-      "explanation": "A creditor who is known or reasonably ascertainable must be served with the notice, and such a creditor has until the later of 3 months after publication or 30 days after service (§§ 733.2121, 733.702). Fran was never served, so her 30-day period never began, consistent with the due-process rule of Tulsa Professional Collection Services v. Pope. Her claim remains subject to the 2-year bar of § 733.710, but she filed well within it.",
+      "explanation": "A creditor who is known or reasonably ascertainable must be served with the notice, and such a creditor has until the later of 3 months after publication or 30 days after service (§§ 733.2121, 733.702). Fran was never served, so her 30-day period never began, consistent with the due-process rule of Tulsa Professional Collection Services v. Pope; the Florida Supreme Court so held in Jones v. Golden (2015), and an unserved creditor need not move for an extension. Her claim remains subject to the 2-year bar of § 733.710, but she filed well within it.",
       "whyNot": [
         "The 3-month period alone binds only creditors who were not entitled to service; Fran was reasonably ascertainable.",
         "",

@@ -1,0 +1,252 @@
+{
+  "subject": "fl-wills",
+  "spotters": [
+    {
+      "id": "fl-wills.s01",
+      "title": "The house on Palmetto Lane",
+      "intro": "Read the facts and flag every Florida wills, spousal-rights and homestead issue. Some details are there only to tempt you.",
+      "segments": [
+        {
+          "t": "Walter Lane, a Florida domiciliary, owned a house on Palmetto Lane in Sarasota, titled in his name alone. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "In 2016, while unmarried, he signed a typed will at his lawyer's office leaving 'my house and all the rest of my property' to his adult daughter, Fay. Two paralegals watched him sign and then signed as witnesses in his presence and in each other's presence. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "Fay had been adopted by Walter and his first wife when she was an infant. "
+        },
+        {
+          "t": "In 2017 Walter married Dora. A week before the wedding Dora signed, in front of a notary and no one else, a one-page statement waiving 'all rights in Walter's estate.' ",
+          "issues": [
+            "e"
+          ]
+        },
+        {
+          "t": "Dora had moved to Sarasota from Ohio a year before the wedding and has lived in Florida ever since. "
+        },
+        {
+          "t": "Walter and Dora lived together in the Palmetto Lane house, and their son, Eli, was born there in 2018. Walter never changed his will, which does not mention Dora or Eli. ",
+          "issues": [
+            "c",
+            "d"
+          ]
+        },
+        {
+          "t": "In 2025, after an argument with Fay, Walter telephoned his lawyer from home and told her to 'shred the old will.' She fed the original into the shredder at her office that afternoon. ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "Walter died last month, survived by Dora, Eli (now 8) and Fay. Dora and Eli still live in the house. ",
+          "issues": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "t": "The lawyer kept a photocopy of the signed will, and both paralegals clearly remember the signing. ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "Apart from the house, Walter's probate estate is a $300,000 brokerage account. A finance company holding a $40,000 judgment against Walter has asked the personal representative to sell the house to pay it.",
+          "issues": [
+            "g"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Devise of homestead barred by a surviving spouse and minor child",
+          "rules": [
+            "fl-wills.homestead.protected-homestead",
+            "fl-wills.homestead.devise-restriction"
+          ],
+          "explain": "The house was Walter's residence, owned by him as a natural person, so it is protected homestead. Because he was survived by both a spouse and a minor child, Art. X, § 4(c) barred any devise of it, so the gift of the house to Fay fails."
+        },
+        {
+          "id": "b",
+          "label": "Descent of the homestead and Dora's election",
+          "rules": [
+            "fl-wills.homestead.descent"
+          ],
+          "explain": "Under § 732.401 Dora takes a life estate with a vested remainder in Walter's descendants, Fay and Eli, per stirpes. She may instead elect an undivided one-half interest as tenant in common, but only within 6 months after Walter's death; Fay shares the remainder even though she is an adult child of an earlier marriage."
+        },
+        {
+          "id": "c",
+          "label": "Pretermitted spouse",
+          "rules": [
+            "fl-wills.spousal-and-family-protection.pretermitted-spouse",
+            "fl-wills.intestacy.spouse-share"
+          ],
+          "explain": "Walter married Dora after making the will, the will does not provide for her or show an intent to omit her, and her waiver failed. She therefore takes her intestate share of the probate estate, which is one-half because Fay is Walter's descendant but not Dora's."
+        },
+        {
+          "id": "d",
+          "label": "Pretermitted child",
+          "rules": [
+            "fl-wills.spousal-and-family-protection.pretermitted-child"
+          ],
+          "explain": "Eli was born after the will and is not provided for in it. The exception for a will leaving substantially everything to the omitted child's other parent does not apply because the will benefits Fay, so Eli takes an intestate share by abatement of the devise to Fay."
+        },
+        {
+          "id": "e",
+          "label": "Defective premarital waiver",
+          "rules": [
+            "fl-wills.spousal-and-family-protection.waiver"
+          ],
+          "explain": "Section 732.702 requires a waiver signed by a Florida resident to be signed in the presence of two subscribing witnesses. A notarized statement with no witnesses does not qualify, so Dora keeps all of her spousal rights; lack of financial disclosure would not have mattered for a waiver signed before marriage."
+        },
+        {
+          "id": "f",
+          "label": "Attempted revocation by physical act; proof of a destroyed will",
+          "rules": [
+            "fl-wills.execution-and-revocation.revocation"
+          ],
+          "explain": "Destruction by someone other than the testator revokes a will only if done in the testator's presence and at his direction, and the lawyer shredded it at her office while Walter was at home. The will was not revoked, and its terms can be established by one disinterested witness because a correct copy exists."
+        },
+        {
+          "id": "g",
+          "label": "Creditor protection of homestead at death",
+          "rules": [
+            "fl-wills.homestead.creditor-exemption"
+          ],
+          "explain": "The homestead exemption inures to Walter's spouse and heirs, so protected homestead is not an estate asset available to pay his general creditors. The finance company must look to the brokerage account."
+        }
+      ]
+    },
+    {
+      "id": "fl-wills.s02",
+      "title": "Aunt Hazel's will",
+      "intro": "Flag every Florida will-construction and administration issue. Not every unusual fact matters.",
+      "segments": [
+        {
+          "t": "Hazel Ortiz, a Florida domiciliary who never married and had no children, signed her will in 2019 in a hospital room while recovering from knee surgery. She signed at the end, and two nurses who watched her sign then signed as witnesses in her presence and in each other's presence. "
+        },
+        {
+          "t": "Her neighbor, a retired schoolteacher, had typed the will from Hazel's handwritten notes. "
+        },
+        {
+          "t": "The will leaves 'my Boston Whaler boat' to her friend Lou, $40,000 to her stepson, Kyle, and the residue to her brother, Sam, and her sister, Ruth, in equal shares. ",
+          "issues": [
+            "a",
+            "b",
+            "c"
+          ]
+        },
+        {
+          "t": "It names Hazel's lifelong friend Nell, who lives in Georgia, as personal representative. ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "Kyle died in 2023, survived by his daughter, Mina. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "Sam died in 2024, survived by his son, Theo. ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "Later in 2024, while Hazel was incapacitated after a stroke, her agent under a durable power of attorney sold the boat for $30,000 and deposited the money in Hazel's checking account. ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "Hazel died this year. In her desk was a typed list giving her jewelry to Ruth and her car to Mina; the list is unsigned, and the will does not mention it. ",
+          "issues": [
+            "d"
+          ]
+        },
+        {
+          "t": "Her probate estate is $120,000 in cash plus the jewelry and the car. Debts and administration expenses total $70,000, and the will says nothing about how they are to be paid. ",
+          "issues": [
+            "e"
+          ]
+        },
+        {
+          "t": "The personal representative published a notice to creditors but did not mail a copy to the hospital that treated Hazel during her final two weeks, although its unpaid bill was in Hazel's mail.",
+          "issues": [
+            "g"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Lapse of the gift to a stepchild",
+          "rules": [
+            "fl-wills.construction.anti-lapse",
+            "fl-wills.construction.failure-and-residue"
+          ],
+          "explain": "Florida's anti-lapse statute protects only devisees who are grandparents or descendants of grandparents of the testator, and a stepson is neither. Kyle's $40,000 gift lapses even though Mina survives, and it falls into the residue."
+        },
+        {
+          "id": "b",
+          "label": "Sale of the specifically devised boat during incapacity",
+          "rules": [
+            "fl-wills.construction.ademption-extinction"
+          ],
+          "explain": "A specific devise ordinarily adeems when the item is gone, but § 732.606 gives the specific devisee a general pecuniary devise equal to the net sale price when an agent under a durable power of attorney sold the property while the testator was incapacitated. Lou takes $30,000."
+        },
+        {
+          "id": "c",
+          "label": "Anti-lapse for a sibling's residuary share",
+          "rules": [
+            "fl-wills.construction.anti-lapse",
+            "fl-wills.construction.failure-and-residue"
+          ],
+          "explain": "Sam is a descendant of Hazel's grandparents and the residuary gift has no words of survivorship, so Theo takes Sam's half of the residue per stirpes. Only if anti-lapse did not apply would Sam's share pass to Ruth as the other residuary devisee."
+        },
+        {
+          "id": "d",
+          "label": "Unsigned tangible-property list",
+          "rules": [
+            "fl-wills.construction.extrinsic-documents"
+          ],
+          "explain": "A § 732.515 list can dispose of tangible personal property only if the will refers to it and the testator signed it, and an unmentioned document cannot be incorporated by reference. The list is ineffective, so the jewelry and car pass under the residuary clause."
+        },
+        {
+          "id": "e",
+          "label": "Order of abatement",
+          "rules": [
+            "fl-wills.construction.abatement"
+          ],
+          "explain": "With no contrary direction, debts and expenses are paid first from the residue, then from general devises, and last from specific ones. The $70,000 comes entirely out of the residue, so Lou's $30,000 pecuniary devise is paid in full and Ruth and Theo share what is left."
+        },
+        {
+          "id": "f",
+          "label": "Nonresident nominee as personal representative",
+          "rules": [
+            "fl-wills.administration.personal-representative"
+          ],
+          "explain": "A nonresident may serve only if related to the decedent in a listed way, such as a lineal relative, sibling, niece or nephew. Nell, an unrelated Georgia resident, is not qualified despite the nomination, so preference passes to the person selected by a majority in interest of the beneficiaries or to a qualified devisee."
+        },
+        {
+          "id": "g",
+          "label": "Unserved ascertainable creditor and claim priority",
+          "rules": [
+            "fl-wills.administration.creditor-claims",
+            "fl-wills.administration.priority-of-claims"
+          ],
+          "explain": "The hospital was reasonably ascertainable but never served, so the 3-month and 30-day periods never ran against it and it may file a claim until 2 years after death. If the estate cannot pay everything, its charges for the last 60 days of Hazel's final illness rank in class 4."
+        }
+      ]
+    }
+  ]
+}

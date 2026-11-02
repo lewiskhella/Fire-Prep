@@ -37,11 +37,11 @@
       "choices": [
         "The articles of incorporation did not expressly impose liability on directors for negligent decisions.",
         "The business judgment rule bars all review of a board decision made at a duly convened meeting.",
-        "Under § 607.0831 they are not personally liable for damages unless the breach amounted to conscious disregard of the corporation's best interests or willful misconduct, or fell within another statutory category.",
+        "Under § 607.0831 they are not personally liable for damages unless the breach amounted to conscious disregard of the corporation's best interests or willful or intentional misconduct, or fell within another statutory category.",
         "A derivative plaintiff may recover only equitable relief, not money damages, against directors."
       ],
       "answer": 2,
-      "explanation": "Florida's § 607.0831 automatically shields directors from monetary liability for any decision or failure to act unless the director breached a duty and the breach falls within a listed category: a crime, an improper personal benefit, an unlawful distribution, conscious disregard or willful misconduct (in a suit by or for the corporation or by a shareholder), or recklessness or bad faith (in a third-party suit). A hasty, poorly informed decision by disinterested directors is negligent at worst, so the shield applies. No charter provision is required.",
+      "explanation": "Florida's § 607.0831 automatically shields directors from monetary liability for any decision or failure to act unless the director breached a duty and the breach falls within a listed category: a crime, an improper personal benefit, an unlawful distribution, conscious disregard or willful or intentional misconduct (in a suit by or for the corporation or by a shareholder), or recklessness or bad faith (in a third-party suit). A hasty, poorly informed decision by disinterested directors is negligent at worst, so the shield applies. No charter provision is required.",
       "whyNot": [
         "Liability does not depend on the articles imposing it; the point is that Florida's shield is statutory and applies even though the articles are silent.",
         "The business judgment rule is a presumption, not an absolute bar; it can be rebutted, for example, by self-dealing or bad faith.",
@@ -101,24 +101,25 @@
       "id": "fl-business-entities.q005",
       "topic": "fl-business-entities.corporations",
       "rules": [
+        "fl-business-entities.corporations.formation",
         "fl-business-entities.corporations.promoters"
       ],
-      "difficulty": 1,
-      "stem": "Before filing articles of incorporation, Theo signed a two-year lease for a storefront 'on behalf of Coquina Coffee, Inc., a corporation to be formed.' The landlord knew the corporation did not yet exist and did not agree to release Theo. Coquina Coffee, Inc. was incorporated a week later, moved into the storefront, and paid rent for six months. It then stopped paying and has no assets. The landlord sues Theo for the unpaid rent.",
+      "difficulty": 2,
+      "stem": "Theo planned to open a coffee bar. Before any articles of incorporation had been filed, and knowing that none had been, he signed a two-year storefront lease as 'Coquina Coffee, Inc., by Theo Marsh, President.' The landlord assumed the corporation already existed and never agreed to release Theo. Coquina Coffee, Inc. was incorporated a week later, moved into the storefront, and paid rent for six months. It then stopped paying and has no assets. The landlord sues Theo for the unpaid rent.",
       "call": "Is Theo personally liable on the lease?",
       "choices": [
         "No, because the corporation adopted the lease by occupying the premises and paying rent, which released Theo.",
-        "Yes, because a promoter remains liable on a pre-incorporation contract unless there is a novation or the other party agreed to look only to the corporation.",
-        "No, because the landlord knew the corporation had not yet been formed.",
+        "Yes, because a person who acts for a corporation knowing it has not been formed is liable for obligations incurred while so acting to a party who did not also know, and the corporation's later adoption did not release him without a novation.",
+        "No, because Coquina Coffee, Inc. was incorporated within days and then operated as a corporation, so it was at least a de facto corporation.",
         "Yes, but only for rent that accrued before the corporation was formed."
       ],
       "answer": 1,
-      "explanation": "A promoter who contracts for a corporation not yet formed is personally liable unless the other party agreed to rely solely on the corporation. The corporation became liable by impliedly adopting the lease (occupying and paying rent), but adoption adds the corporation as an obligor; only a novation, which requires the landlord's agreement, releases the promoter. The landlord never agreed to release Theo.",
+      "explanation": "Under § 607.0204, persons who purport to act as or on behalf of a corporation knowing that there was no incorporation are jointly and severally liable for liabilities created while so acting, except to a person who also knew there was no incorporation. Theo knew no articles had been filed and the landlord did not, so the exception does not help him; the common-law result is the same, because one who contracts for a principal he knows does not exist becomes a party to the contract. Coquina's occupancy and rent payments adopted the lease and made the corporation liable too, but adoption adds an obligor; only a novation, which the landlord never agreed to, would release Theo.",
       "whyNot": [
-        "Adoption makes the corporation liable but does not release the promoter; that requires a novation.",
+        "Adoption makes the corporation liable but does not release Theo; that requires a novation to which the landlord agrees.",
         "",
-        "The landlord's knowledge that the corporation did not exist does not show an agreement to look only to the corporation; the promoter remains liable.",
-        "The promoter's liability covers the whole contract, not just the pre-incorporation period, absent a novation."
+        "Florida keys this liability to actual knowledge that no corporation existed; a person who knew there was no incorporation is not protected by a filing made after he signed.",
+        "The lease obligation was created when Theo signed it, so his liability covers the whole lease, not just the pre-incorporation period."
       ]
     },
     {
@@ -210,7 +211,7 @@
         "Jonah has dissociated and is entitled to a buyout of his interest at the greater of liquidation or going-concern value."
       ],
       "answer": 1,
-      "explanation": "A Florida LLC member has the power to dissociate at any time by express will. Dissociation ends the member's right to participate in management, and the member holds any transferable interest only as a transferee, entitled to whatever distributions the LLC makes. The LLC does not dissolve, and chapter 605 has no default buyout obligation.",
+      "explanation": "A Florida LLC member has the power to dissociate at any time by express will. Under the default rules a withdrawal before the company's winding up is complete is wrongful, so Jonah may also owe damages his withdrawal causes. Dissociation ends the member's right to participate in management, and the member holds any transferable interest only as a transferee, entitled to whatever distributions the LLC makes. The LLC does not dissolve, and chapter 605 has no default buyout obligation.",
       "whyNot": [
         "A member's dissociation does not dissolve a Florida LLC.",
         "",

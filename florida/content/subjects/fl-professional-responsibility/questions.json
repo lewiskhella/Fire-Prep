@@ -114,11 +114,11 @@
     "Yes, as long as the total fee charged to each client is not clearly excessive."
    ],
    "answer": 0,
-   "explanation": "Rule 4-5.4 prohibits sharing legal fees with a nonlawyer, and Rule 4-7.17 bars giving anything of value to a person for recommending the lawyer's services. A bonus measured by the fee in each case the employee brings in is both. Nonlawyer staff may share in a general compensation or retirement plan, even one based on firm profits, but not in payments tied to particular fees or referrals.",
+   "explanation": "Rule 4-5.4 prohibits sharing legal fees with a nonlawyer, and Rule 4-7.17 bars giving anything of value to a person for recommending the lawyer's services. A bonus measured by the fee in each case the employee brings in is both. Florida's Rule 4-5.4(a) also speaks to this directly: nonlawyer employees may be included in a qualified pension, profit-sharing or retirement plan and may receive bonuses for work performed, but a bonus may not be based on cases or clients the nonlawyer brings to the firm.",
    "whyNot": [
     "",
     "Client consent does not cure fee sharing with a nonlawyer or paying for referrals.",
-    "A general profit-based plan is allowed, but this bonus is tied to the fee in specific cases Gwen brought in, which makes it fee sharing and payment for referrals.",
+    "That is the ABA Model Rule 5.4(a)(3) formulation. Florida permits qualified pension, profit-sharing and retirement plans and work-based bonuses, but expressly bars a bonus based on cases or clients the nonlawyer brings in, which is exactly what Gwen receives.",
     "The reasonableness of the total fee is irrelevant to whether part of it may be shared with a nonlawyer."
    ]
   },
@@ -356,7 +356,7 @@
     "Continue the trial but avoid referring to the false testimony in closing argument."
    ],
    "answer": 1,
-   "explanation": "When a lawyer's client has offered material evidence the lawyer comes to know is false, Rule 4-3.3 requires reasonable remedial measures: remonstrate with the client, seek withdrawal if that will remedy the problem, and if necessary disclose to the tribunal. The duty continues to the conclusion of the proceeding and overrides the confidentiality rule.",
+   "explanation": "When a lawyer's client has offered material evidence the lawyer comes to know is false, Rule 4-3.3 requires reasonable remedial measures: remonstrate with the client, seek withdrawal if that will remedy the problem, and if necessary disclose to the tribunal. Under Florida's Rule 4-3.3(d), the duty continues even beyond the conclusion of the proceeding and applies even if compliance requires disclosing information otherwise protected by Rule 4-1.6.",
    "whyNot": [
     "The candor duty applies even if compliance requires disclosure of information otherwise protected by Rule 4-1.6.",
     "",

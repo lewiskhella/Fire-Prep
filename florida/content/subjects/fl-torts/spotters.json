@@ -1,0 +1,254 @@
+{
+  "subject": "fl-torts",
+  "spotters": [
+    {
+      "id": "fl-torts.s01",
+      "title": "Last Call at the Driftwood",
+      "intro": "Flag every Florida tort issue in these facts. Some details are there only to distract.",
+      "segments": [
+        {
+          "t": "Celia, a twenty-year-old college sophomore, spent a Saturday evening celebrating the end of exams at the Driftwood, a waterfront bar in Port Saltmarsh, Florida. "
+        },
+        {
+          "t": "The bartender, who knew Celia's age from a class they took together, served her five rum drinks without asking for identification. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "The bar's manager later said Celia never seemed drunk. Around midnight she left, insisting she was fine to drive. "
+        },
+        {
+          "t": "Celia drove home in an SUV owned by her employer, Brightline Florist, Inc., which let her use it for deliveries and personal errands; she was not making a delivery that night. ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "Brightline points out that Celia had a spotless driving record when it hired her. "
+        },
+        {
+          "t": "At a city intersection where a storm had knocked the stop sign flat three weeks earlier, a hazard residents had twice reported to the city's public-works office, Celia, traveling about 10 miles per hour over the limit, rolled through without stopping and struck a car driven by Dmitri. ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "Dmitri was reading a text message at the moment of impact and was not wearing his seat belt. ",
+          "issues": [
+            "d"
+          ]
+        },
+        {
+          "t": "His wife, Elena, driving behind him in her own car, saw the crash, ran to Dmitri and found him unconscious. She was not touched. In the following month she had nightmares and lost her appetite, but she developed no physical illness and saw no doctor. ",
+          "issues": [
+            "e"
+          ]
+        },
+        {
+          "t": "Dmitri suffered a shattered wrist and a concussion that kept him out of work for four months; his damages total $400,000. In 2026 he sued Celia and Brightline for negligence. Their answer pleads Dmitri's comparative fault and names the City of Port Saltmarsh as a nonparty at fault. ",
+          "issues": [
+            "d",
+            "f"
+          ]
+        },
+        {
+          "t": "Dmitri has not presented any claim to the city, and his lawyer wants to add the city as a defendant next week. ",
+          "issues": [
+            "g"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Dram shop: knowing service to an underage patron",
+          "rules": [
+            "fl-torts.florida-doctrines.dram-shop"
+          ],
+          "explain": "Section 768.125 generally shields sellers of alcohol, but not one who willfully and unlawfully serves a person under the lawful drinking age. The bartender knew Celia was 20, so the Driftwood may be liable; whether she looked intoxicated is beside the point."
+        },
+        {
+          "id": "b",
+          "label": "Dangerous instrumentality: corporate owner",
+          "rules": [
+            "fl-torts.florida-doctrines.dangerous-instrumentality",
+            "fl-torts.florida-doctrines.dangerous-instrumentality-limits"
+          ],
+          "explain": "Brightline voluntarily entrusted its vehicle to Celia, so it is vicariously liable for her negligent driving without any proof of its own fault, even though she was on a personal trip rather than a delivery. The statutory caps for an owner who lends a car protect only natural persons, so they do not limit a corporate owner like Brightline."
+        },
+        {
+          "id": "c",
+          "label": "City's liability for an unrepaired stop sign",
+          "rules": [
+            "fl-torts.immunity-and-limits.planning-operational",
+            "fl-torts.immunity-and-limits.sovereign-waiver-caps"
+          ],
+          "explain": "Maintaining an existing traffic sign is an operational function, so the city is not immune for leaving a reported, flattened sign unrepaired. Any recovery against it is capped at $200,000 per person and $300,000 per incident, with no punitive damages."
+        },
+        {
+          "id": "d",
+          "label": "Dmitri's comparative fault and the seat belt",
+          "rules": [
+            "fl-torts.negligence-and-fault.modified-comparative-fault",
+            "fl-torts.negligence-and-fault.plaintiff-conduct-defenses"
+          ],
+          "explain": "Texting while driving is comparative fault; because the suit was filed after March 24, 2023, Dmitri recovers nothing only if found more than 50% at fault. Seat-belt nonuse is not negligence per se but may be considered as comparative negligence if the defendants show it contributed to his injuries."
+        },
+        {
+          "id": "e",
+          "label": "Elena's emotional distress: impact rule and Champion",
+          "rules": [
+            "fl-torts.florida-doctrines.impact-rule",
+            "fl-torts.florida-doctrines.champion-exception"
+          ],
+          "explain": "Elena suffered no impact, so she must fit the Champion v. Gray exception. She is a close relative who witnessed the event, but nightmares and appetite loss without a discernible physical injury or illness do not satisfy it."
+        },
+        {
+          "id": "f",
+          "label": "Fabre apportionment and several liability",
+          "rules": [
+            "fl-torts.negligence-and-fault.fabre-nonparty",
+            "fl-torts.negligence-and-fault.joint-several-abolished"
+          ],
+          "explain": "The defendants pleaded and identified the city, so if they prove its fault by a preponderance the jury will assign it a share. Judgment against each defendant follows its own percentage, and Brightline's vicarious liability covers only Celia's share, so Dmitri must look to the city for the city's share."
+        },
+        {
+          "id": "g",
+          "label": "Presuit notice before suing the city",
+          "rules": [
+            "fl-torts.immunity-and-limits.sovereign-notice"
+          ],
+          "explain": "Dmitri cannot sue the city until he presents a written claim to it (within 3 years of accrual) and the claim is denied in writing or 6 months pass without final disposition. Because the defendant is a municipality, he need not also present the claim to the Department of Financial Services."
+        }
+      ]
+    },
+    {
+      "id": "fl-torts.s02",
+      "title": "A Long Day at Splash Cove",
+      "intro": "Flag every Florida tort issue in these facts. Not every detail matters.",
+      "segments": [
+        {
+          "t": "Splash Cove is a private water park in Gulf Haven, Florida, owned by Cove Attractions, Inc.; it draws thousands of visitors on summer weekends. "
+        },
+        {
+          "t": "The company's majority shareholder is a former county commissioner. "
+        },
+        {
+          "t": "In early 2025 a state inspector warned the park's general manager in writing that lifeguard staffing on the lazy river was unsafe. To cut payroll, the manager halved the lifeguard staff anyway. ",
+          "issues": [
+            "e"
+          ]
+        },
+        {
+          "t": "On a crowded day in June 2025, Lena, a schoolteacher visiting with her two nephews, slipped near the snack bar on a smear of spilled sunscreen that had footprints tracked through it; a lifeguard had walked past the spot twice in the previous hour without cleaning it. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "Lena broke her ankle and missed six weeks of summer tutoring work. The hospital billed $30,000, and her health plan paid $9,000 in full satisfaction. ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "Busy with other work, Lena plans to file suit in August 2027. ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "That afternoon Tomas, age 70, drowned in the lazy river while the only lifeguard on duty there was on a personal phone call; witnesses say he struggled for nearly a minute before another guest pulled him out. Tomas's wife died years ago; he is survived by a son, 40, and a daughter, 26, both self-supporting. ",
+          "issues": [
+            "d",
+            "f"
+          ]
+        },
+        {
+          "t": "The son wants to file suit in his own name. ",
+          "issues": [
+            "d"
+          ]
+        },
+        {
+          "t": "After closing that night, Kai, age 19, climbed the locked perimeter fence to swim. No one knew he was there. He dove into the wave pool, which had been drained to three feet for maintenance and whose depth markers were covered by tarps, and broke his neck. ",
+          "issues": [
+            "g"
+          ]
+        },
+        {
+          "t": "Kai's parents say he was an honor student and a strong swimmer. "
+        },
+        {
+          "t": "Tomas's family wants punitive damages against Cove Attractions. ",
+          "issues": [
+            "e"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Transitory foreign substance: constructive knowledge",
+          "rules": [
+            "fl-torts.florida-doctrines.transitory-foreign-substance",
+            "fl-torts.florida-doctrines.premises-invitees"
+          ],
+          "explain": "Under § 768.0755 Lena must prove the park actually or constructively knew of the sunscreen. Footprints tracked through it and a lifeguard who passed twice support constructive knowledge from the length of time it was there."
+        },
+        {
+          "id": "b",
+          "label": "Evidence of paid medical bills",
+          "rules": [
+            "fl-torts.negligence-and-fault.medical-expense-evidence",
+            "fl-torts.immunity-and-limits.collateral-source"
+          ],
+          "explain": "Under § 768.0427, evidence of past medical expenses that have been satisfied is limited to the amount actually paid, so the jury hears $9,000, not the $30,000 billed. Any collateral-source setoff is a separate post-verdict question under § 768.76."
+        },
+        {
+          "id": "c",
+          "label": "Two-year negligence limitations period",
+          "rules": [
+            "fl-torts.immunity-and-limits.limitations-periods"
+          ],
+          "explain": "Lena's claim accrued in June 2025, after March 24, 2023, so the 2-year negligence period applies. A suit filed in August 2027 is too late."
+        },
+        {
+          "id": "d",
+          "label": "Wrongful death: the personal representative's single action",
+          "rules": [
+            "fl-torts.wrongful-death.action-and-parties"
+          ],
+          "explain": "Tomas's death gives rise to one wrongful-death action brought by his personal representative for all survivors and the estate. The son may not sue in his own name; he is a beneficiary to be identified in the personal representative's complaint."
+        },
+        {
+          "id": "e",
+          "label": "Punitive damages against the corporation",
+          "rules": [
+            "fl-torts.immunity-and-limits.punitive-pleading",
+            "fl-torts.immunity-and-limits.punitive-standard-caps"
+          ],
+          "explain": "The manager's decision to cut lifeguards despite a written safety warning can support corporate punitive liability as the company's own gross negligence, proved by clear and convincing evidence. The claim must be added by leave of court on a record or proffered showing, and if the jury finds the conduct was motivated solely by unreasonable financial gain with its danger known to a managing agent, the cap rises to the greater of four times compensatory damages or $2 million."
+        },
+        {
+          "id": "f",
+          "label": "Survivors' damages when there is no spouse",
+          "rules": [
+            "fl-torts.wrongful-death.survivor-damages",
+            "fl-torts.wrongful-death.medical-negligence-limit"
+          ],
+          "explain": "With no surviving spouse, all of Tomas's children, including adult children, may recover for lost parental companionship, instruction and guidance and for mental pain and suffering. The medical-negligence limit on adult children's recovery does not apply to a drowning at a water park."
+        },
+        {
+          "id": "g",
+          "label": "Undiscovered trespasser",
+          "rules": [
+            "fl-torts.florida-doctrines.premises-licensees-trespassers"
+          ],
+          "explain": "Kai entered without invitation and no one detected him, so he was an undiscovered trespasser to whom the park owed only a duty to refrain from intentional misconduct, with no duty to warn. At 19 he is not a child for attractive-nuisance purposes, so the drained pool supports no claim."
+        }
+      ]
+    }
+  ]
+}

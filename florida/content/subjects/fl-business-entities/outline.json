@@ -37,9 +37,10 @@
             "Corporation's liability depends on post-formation adoption",
             "Promoter released only by novation"
           ],
-          "tip": "Essay pattern: promoter signs a lease 'on behalf of XYZ Corp., a corporation to be formed,' the corporation later uses the premises, then defaults. Answer: the corporation is liable by implied adoption, and the promoter remains liable absent a novation.",
+          "tip": "Essay pattern: promoter signs a lease 'on behalf of XYZ Corp., a corporation to be formed,' the corporation later uses the premises, then defaults. Answer: the corporation is liable by implied adoption, and the promoter remains liable under the common-law rule absent a novation; then deal with the § 607.0204 exception, because the landlord knew the corporation did not yet exist.",
           "trap": "Treating the corporation's adoption as a release of the promoter. Adoption adds the corporation as an obligor; it does not substitute it.",
-          "authority": "Florida common law; see Fla. Stat. § 607.0204"
+          "authority": "Florida common law; Restatement (Third) of Agency § 6.04; Fla. Stat. § 607.0204",
+          "split": "Florida's § 607.0204 separately makes anyone who acts for a corporation knowing that it has not been formed liable for obligations incurred while so acting, but it excepts liability to a person who also knew there was no corporation. The statute does not say whether it displaces the common-law promoter rule, so when the other party knowingly contracted with a 'corporation to be formed,' argue the common-law rule (liability unless that party agreed to look only to the corporation) and address the statutory exception."
         },
         {
           "id": "fl-business-entities.corporations.veil-piercing",
@@ -108,7 +109,7 @@
           "id": "fl-business-entities.corporations.duty-of-care",
           "title": "Duty of care, business judgment and the § 607.0831 shield",
           "weight": 3,
-          "rule": "A director must act in good faith, in a manner the director reasonably believes to be in the best interests of the corporation, and with the care a reasonable person in a like position would use under similar circumstances, and may rely in good faith on information and reports from officers, employees, professionals, and board committees reasonably believed to be reliable and competent. Under § 607.0831 a director is not personally liable for monetary damages to the corporation or any other person for any statement, vote, decision, or failure to act regarding corporate management or policy unless the director breached or failed to perform those duties and the breach constitutes one of the statutory forms of serious misconduct.",
+          "rule": "A director must act in good faith and in a manner the director reasonably believes to be in the best interests of the corporation, and, when becoming informed for a decision or attending to oversight, must use the care that an ordinarily prudent person in a like position would reasonably believe appropriate under similar circumstances; a director may rely in good faith on information and reports from officers, employees, professionals, and board committees reasonably believed to be reliable and competent. Under § 607.0831 a director is not personally liable for monetary damages to the corporation or any other person for any statement, vote, decision, or failure to act regarding corporate management or policy unless the director breached or failed to perform those duties and the breach constitutes one of the statutory forms of serious misconduct.",
           "elements": [
             "A violation of criminal law, unless the director had reasonable cause to believe the conduct was lawful or no reasonable cause to believe it unlawful",
             "A transaction from which the director derived an improper personal benefit, directly or indirectly",
@@ -133,7 +134,7 @@
             "Safe harbor 3: the transaction is fair to the corporation when approved"
           ],
           "exceptions": [
-            "Interested directors may be counted toward a quorum at the board meeting that approves the transaction.",
+            "Board approval must come from a majority of the qualified (disinterested) directors, which is effective even if they are fewer than a quorum of the board; a shareholder approval counts only the votes of shares not owned or controlled by the interested director.",
             "A corporation that rejects an opportunity after full disclosure frees the director to take it."
           ],
           "tip": "Remedies for breach include rescission, damages and disgorgement or a constructive trust over the opportunity. Note that the § 607.0831 shield does not help a director who received an improper personal benefit.",
@@ -198,7 +199,7 @@
             "Filing of articles of merger or share exchange with the Department of State"
           ],
           "exceptions": [
-            "Short-form merger: a parent that owns at least 80 percent of the outstanding shares of each class of a subsidiary may merge the subsidiary into itself without a vote of either corporation's shareholders.",
+            "Short-form merger: a parent that owns shares carrying at least 80 percent of the voting power of each class and series of a subsidiary's outstanding shares may merge the subsidiary into itself (or into another qualifying subsidiary) without a vote of the subsidiary's shareholders, but must notify them within 10 days after the merger takes effect; the minority's protection is appraisal.",
             "The surviving corporation's shareholders need not vote on a merger that does not materially change their shares or the articles and does not dilute their voting power beyond the statutory limit."
           ],
           "split": "Delaware's short-form threshold is 90 percent; Florida's is 80 percent.",
@@ -331,10 +332,11 @@
           "id": "fl-business-entities.llcs.dissociation",
           "title": "Dissociation of a member",
           "weight": 2,
-          "rule": "A member has the power to dissociate at any time, rightfully or wrongfully, by express will. Dissociation is wrongful if it breaches an express provision of the operating agreement or occurs in specified circumstances before the company's activities are completed, and a wrongfully dissociating member is liable to the LLC and the other members for damages caused. On dissociation the member's management rights and fiduciary duties as a member end (except as to matters arising before dissociation), the member holds any transferable interest only as a transferee, and the LLC does not dissolve and is not required to buy out the interest.",
+          "rule": "A member has the power to dissociate at any time, rightfully or wrongfully, by express will. Dissociation is wrongful if it breaches an express provision of the operating agreement or if, before the company's winding up is completed, the member withdraws by express will, is expelled by court order, or becomes a debtor in bankruptcy; a wrongfully dissociating member is liable to the LLC (and, subject to the statute, to the other members) for damages caused. On dissociation the member's management rights and fiduciary duties as a member end (except as to matters arising before dissociation), the member holds any transferable interest only as a transferee, and the LLC does not dissolve and is not required to buy out the interest.",
           "split": "Unlike a general partnership, where a dissociated partner without dissolution generally receives a mandatory buyout, a dissociated LLC member in Florida has no statutory right to be paid the value of the interest; the member simply keeps the distribution rights as a transferee.",
           "trap": "Awarding a dissociated LLC member a buyout of fair value. That is a partnership remedy, not an LLC default.",
-          "authority": "Fla. Stat. §§ 605.0601, 605.0602, 605.0603"
+          "authority": "Fla. Stat. §§ 605.0601, 605.0602, 605.0603",
+          "tip": "Under the default rules every voluntary withdrawal before winding up is wrongful, so the withdrawing member keeps only transferee rights and may owe damages. The operating agreement can change both results."
         },
         {
           "id": "fl-business-entities.llcs.dissolution",
@@ -390,7 +392,7 @@
             "If not, the firm is bound only with actual authority from the other partners"
           ],
           "exceptions": [
-            "A filed statement of partnership authority can grant authority (conclusive in favor of good-faith purchasers for value) or limit authority to transfer real property once a certified copy is recorded in the county records."
+            "A filed statement of partnership authority may grant or limit a partner's authority. A grant is conclusive in favor of a person who gives value without knowledge to the contrary (for a transfer of partnership real property, only if a certified copy of the filed statement is recorded in that county's official records). A filed limitation is notice to non-partners only of a limit on authority to transfer real property, and only once a certified copy is recorded in that county."
           ],
           "trap": "Holding the firm not bound because the partners privately voted to restrict the partner's authority. A secret limitation does not bind a third party who lacked knowledge or notice of it.",
           "authority": "Fla. Stat. §§ 620.8301, 620.8303"

@@ -76,7 +76,7 @@
           "id": "fl-real-property.homestead.devise-restrictions",
           "title": "Restrictions on devise",
           "weight": 3,
-          "rule": "Homestead is not subject to devise if the owner is survived by a spouse or a minor child, except that it may be devised to the spouse if there is no minor child. If no spouse or minor child survives, the owner may devise it to anyone, and the creditor exemption passes to the owner's heirs.",
+          "rule": "Homestead is not subject to devise if the owner is survived by a spouse or a minor child, except that it may be devised to the spouse if there is no minor child. If no spouse or minor child survives, the owner may devise it to anyone; when it passes to a person within the class of the owner's heirs, the creditor exemption inures to that person.",
           "elements": [
             "Survived by a minor child: no devise at all, not even to the spouse",
             "Survived by a spouse and no minor child: may devise only to the spouse (outright)",
@@ -95,7 +95,7 @@
           "id": "fl-real-property.homestead.invalid-devise-descent",
           "title": "What happens when a devise of homestead fails",
           "weight": 2,
-          "rule": "A homestead not devised as the constitution permits descends as intestate property, except that if the owner leaves a spouse and descendants, the spouse takes a life estate with a vested remainder to the descendants in being at death, per stirpes. Instead of the life estate, the spouse may elect to take an undivided one-half interest as a tenant in common, with the other half vesting in the descendants; the election must be made within 6 months after the death.",
+          "rule": "A homestead not devised as the constitution permits descends as intestate property, except that if the owner leaves a spouse and descendants, the spouse takes a life estate with a vested remainder to the descendants in being at death, per stirpes. Instead of the life estate, the spouse may elect to take an undivided one-half interest as a tenant in common, with the other half vesting in the descendants; the election must be made within 6 months after the death and during the spouse's lifetime, and the court has no general power to extend that deadline.",
           "tip": "Typical facts: a will leaves the house to the decedent's adult child from a first marriage; the second spouse survives. The devise fails; the spouse gets a life estate (or elects a one-half tenancy in common) and the descendants take the remainder.",
           "trap": "Treating a failed homestead devise as passing under the residuary clause. It passes outside the will under § 732.401.",
           "authority": "Fla. Stat. § 732.401"
@@ -158,7 +158,7 @@
           "id": "fl-real-property.conveyancing.recording-notice-act",
           "title": "Florida's notice recording statute",
           "weight": 3,
-          "rule": "Florida has a pure notice recording act: an unrecorded conveyance, transfer, mortgage, or lease for more than one year is not good against creditors or subsequent purchasers for valuable consideration who take without notice. A later bona fide purchaser prevails over the earlier unrecorded interest even if the later purchaser records second or never records.",
+          "rule": "Florida has a pure notice recording act: an unrecorded conveyance, transfer or mortgage of real property, or lease for a term of 1 year or longer, is not good against creditors or subsequent purchasers for valuable consideration who take without notice. A later bona fide purchaser prevails over the earlier unrecorded interest even if the later purchaser records second or never records.",
           "elements": [
             "Subsequent purchaser (or creditor)",
             "Paid valuable consideration (a donee or devisee is not protected)",
@@ -196,7 +196,7 @@
           "id": "fl-real-property.conveyancing.mrta-exceptions",
           "title": "Interests MRTA does not extinguish",
           "weight": 2,
-          "rule": "MRTA does not cut off interests specifically identified in the muniments of title (a general reference such as 'subject to restrictions of record' is not enough; there must be a specific reference such as book and page), interests preserved by a notice recorded within the 30-year period, rights of a person in possession while the possession continues, interests arising from transactions recorded after the root, easements that are in use, or the State's title to sovereignty submerged lands.",
+          "rule": "Among the § 712.03 exceptions, MRTA does not cut off interests specifically identified in the muniments of title (a general reference such as 'subject to restrictions of record' is not enough; there must be a specific reference such as book and page), interests preserved by a notice recorded within the 30-year period, rights of a person in possession while the possession continues, interests arising from transactions recorded after the root, easements that are in use, or the State's title to sovereignty submerged lands.",
           "exceptions": [
             "Specific reference in the muniments of title",
             "Notice of preservation recorded under § 712.05",
@@ -252,9 +252,9 @@
           "id": "fl-real-property.landlord-tenant.tenant-remedies",
           "title": "Tenant's remedies: 7-day notice, termination or withholding",
           "weight": 3,
-          "rule": "If the landlord materially fails to comply with § 83.51(1) or material provisions of the lease, the tenant must deliver written notice specifying the noncompliance and stating an intent to terminate or to withhold rent. If the failure is not cured within 7 days after delivery, the tenant may terminate the rental agreement or withhold rent, and in an action for possession the noncompliance is a defense with rent reduced in proportion to the loss of rental value.",
+          "rule": "If the landlord materially fails to comply with § 83.51(1) or material provisions of the lease, the tenant may deliver written notice specifying the noncompliance and stating an intent to terminate; if the failure is not cured within 7 days after delivery, the tenant may terminate the rental agreement. For a material noncompliance with § 83.51(1) (codes, structure, plumbing), a tenant who delivers written notice stating an intent to withhold rent may withhold once 7 days pass without cure, and in an action for possession for nonpayment the noncompliance is a defense, with rent reduced in proportion to the loss of rental value.",
           "elements": [
-            "Material noncompliance by the landlord",
+            "Material noncompliance by the landlord (with § 83.51(1) for the withholding defense; with § 83.51(1) or material lease terms for termination)",
             "Written notice to the landlord specifying the noncompliance and the intended remedy",
             "7 days elapse after delivery without cure"
           ],
@@ -413,7 +413,7 @@
           "id": "fl-real-property.mortgages.limitations",
           "title": "Limitations and expiration of the lien",
           "weight": 2,
-          "rule": "An action to foreclose a mortgage must be brought within 5 years. When an earlier foreclosure is dismissed, each later default gives rise to a new 5-year period, so the lender may foreclose based on defaults within the 5 years before the new suit (Bartram). Separately, the lien itself terminates 5 years after the maturity date shown in the recorded mortgage, or 20 years after the mortgage's date if the maturity is not ascertainable from the record.",
+          "rule": "An action to foreclose a mortgage must be brought within 5 years. When an earlier foreclosure is dismissed without an adjudication on the merits, the parties return to the installment relationship, and each default after the dismissal gives rise to a new 5-year period, so the lender may again foreclose (and accelerate the balance) based on a post-dismissal default within the 5 years before the new suit (Bartram). Separately, the lien itself terminates 5 years after the maturity date shown in the recorded mortgage, or 20 years after the mortgage's date if the maturity is not ascertainable from the record.",
           "trap": "Holding the entire debt time-barred because the lender accelerated more than 5 years ago in a suit that was later dismissed.",
           "authority": "Fla. Stat. §§ 95.11(2)(c), 95.281; Bartram v. U.S. Bank Nat'l Ass'n, 211 So. 3d 1009 (Fla. 2016)"
         }
@@ -473,11 +473,11 @@
           "id": "fl-real-property.ownership-and-possession.adverse-possession-without-color",
           "title": "Adverse possession without color of title",
           "weight": 2,
-          "rule": "A claimant without a written instrument acquires title only to the land actually possessed after 7 years of continuous adverse possession, and only if, within 1 year after entering possession, the claimant files a return describing the property with the county property appraiser and pays all outstanding taxes and matured special-assessment installments, and then pays the taxes for each remaining year of the 7-year period. The land must be cultivated or improved, or protected by a substantial enclosure.",
+          "rule": "A claimant without a written instrument acquires title only to the land actually possessed after 7 years of continued adverse possession, and only if the claimant, within 1 year after entering possession, pays all outstanding taxes and matured installments of special improvement liens on the property; within 30 days after that payment, files a return describing the property with the county property appraiser; and then pays the taxes and matured installments for each remaining year of the 7-year period. The land must be cultivated or improved, or protected by a substantial enclosure.",
           "elements": [
             "Actual, continued possession for 7 years under a claim of title exclusive of others",
-            "Return filed with the property appraiser within 1 year of entry",
-            "All outstanding taxes and matured special assessments paid within 1 year of entry",
+            "All outstanding taxes and matured special-improvement-lien installments paid within 1 year after entry",
+            "Return filed with the property appraiser within 30 days after that payment",
             "Taxes paid for the rest of the 7 years",
             "Cultivation, improvement or substantial enclosure"
           ],

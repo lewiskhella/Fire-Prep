@@ -1,0 +1,260 @@
+{
+  "subject": "fl-real-property",
+  "spotters": [
+    {
+      "id": "fl-real-property.s01",
+      "title": "The Bungalow on Palmetto Street",
+      "intro": "Flag every Florida real-property issue in these facts. Some details are there only to distract.",
+      "segments": [
+        {
+          "t": "In 2012, while single, Paolo bought a bungalow on a 0.4-acre lot inside the City of Lake Wren, Florida. "
+        },
+        {
+          "t": "The seller signed the deed in front of two witnesses and a notary, and Paolo recorded it the following week. "
+        },
+        {
+          "t": "In 2016 Paolo married Lucia, and they made the bungalow their home; their son, Teo, was born in 2019. "
+        },
+        {
+          "t": "Paolo, who held sole title, never applied for the homestead property-tax exemption. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "In 2023, after a credit-card issuer sued him for $60,000, Paolo used a $180,000 inheritance from his aunt to pay off the bungalow's mortgage, telling a friend he wanted the money 'where the bank can't touch it.' ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "The issuer later obtained a judgment, recorded it in the county, and asked the sheriff to levy on the bungalow. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "It also served a writ of garnishment on the brokerage firm that holds an account titled 'Paolo and Lucia, husband and wife'; the account agreement says nothing about the form of ownership. ",
+          "issues": [
+            "e"
+          ]
+        },
+        {
+          "t": "In 2024 a roofer replaced the bungalow's storm-damaged roof. Paolo never paid the $14,000 invoice, and the roofer has recorded a lien and threatens to foreclose. ",
+          "issues": [
+            "g"
+          ]
+        },
+        {
+          "t": "That same year Paolo alone signed a home-equity mortgage on the bungalow in favor of Gulfside Credit to fund a food truck. Lucia did not sign it. ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "Since 2017 Paolo's neighbor, Ines, has grown vegetables on a 10-foot strip along the bungalow's back line, inside a chain-link fence she put up. Ines has no deed or other writing, has never filed anything with the property appraiser, and Paolo has paid every year's taxes on the whole lot. Ines now says the strip is hers. ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "Paolo died last month. His 2020 will leaves 'my home to my brother Dario' and everything else to Lucia. ",
+          "issues": [
+            "d"
+          ]
+        },
+        {
+          "t": "Dario points out that Paolo bought the bungalow years before he met Lucia. "
+        },
+        {
+          "t": "Lucia wants to know whether she must share the bungalow with Teo and how long she has to decide what to do. ",
+          "issues": [
+            "d"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Forced-sale exemption for the homestead",
+          "rules": [
+            "fl-real-property.homestead.forced-sale-exemption",
+            "fl-real-property.homestead.three-functions"
+          ],
+          "explain": "The bungalow is owned by a natural person, is the family residence, and sits on less than one-half acre inside a municipality, so it is exempt from forced sale and the recorded judgment creates no lien on it. Paolo's failure to apply for the tax exemption is irrelevant, because only the tax function of homestead requires an application."
+        },
+        {
+          "id": "b",
+          "label": "Moving non-exempt cash into homestead (Havoco)",
+          "rules": [
+            "fl-real-property.homestead.creditor-exceptions"
+          ],
+          "explain": "Paying off the mortgage with non-exempt money in order to keep it from a creditor does not forfeit the exemption under Havoco v. Hill. An equitable lien would require that the money itself was obtained through fraud or egregious conduct, and an inheritance was not."
+        },
+        {
+          "id": "c",
+          "label": "Mortgage of homestead without the spouse's joinder",
+          "rules": [
+            "fl-real-property.homestead.alienation-joinder"
+          ],
+          "explain": "A married owner may mortgage homestead only if the spouse joins, even when the spouse holds no title. Lucia did not sign, so the home-equity mortgage is ineffective against the homestead; the business purpose of the loan does not matter."
+        },
+        {
+          "id": "d",
+          "label": "Invalid devise of homestead; life estate or one-half election",
+          "rules": [
+            "fl-real-property.homestead.devise-restrictions",
+            "fl-real-property.homestead.invalid-devise-descent"
+          ],
+          "explain": "Because Paolo was survived by a spouse and a minor child, the homestead could not be devised at all, so the gift to Dario fails and the home passes under § 732.401. Lucia takes a life estate with a vested remainder in Teo unless, within 6 months after Paolo's death, she elects an undivided one-half interest as a tenant in common with Teo."
+        },
+        {
+          "id": "e",
+          "label": "Tenancy by the entirety in the brokerage account",
+          "rules": [
+            "fl-real-property.ownership-and-possession.tenancy-by-entirety"
+          ],
+          "explain": "Florida recognizes tenancy by the entirety in personal property, and an account titled in both spouses' names is presumed to be held by the entirety unless the account documents expressly disclaim it. A creditor of Paolo alone cannot garnish it."
+        },
+        {
+          "id": "f",
+          "label": "Adverse possession without color of title",
+          "rules": [
+            "fl-real-property.ownership-and-possession.adverse-possession-without-color"
+          ],
+          "explain": "Ines claims under no written instrument, so § 95.18 requires her to pay the taxes and file a return with the property appraiser in addition to 7 years of enclosed possession. She did neither and Paolo paid the taxes, so her claim fails despite the fence and the years of use."
+        },
+        {
+          "id": "g",
+          "label": "Roofer's lien: the repair and labor exceptions",
+          "rules": [
+            "fl-real-property.homestead.creditor-exceptions"
+          ],
+          "explain": "Obligations contracted for the repair or improvement of homestead, and for labor performed on it, are constitutional exceptions to the forced-sale exemption. The unpaid roofer may enforce its lien against the bungalow even though it is homestead."
+        }
+      ]
+    },
+    {
+      "id": "fl-real-property.s02",
+      "title": "The Other Half of the Duplex",
+      "intro": "Flag every landlord-tenant issue in these facts. Not every fact matters.",
+      "segments": [
+        {
+          "t": "Odette owns a duplex in Port Alba, Florida. She lives in one unit, which is her homestead, "
+        },
+        {
+          "t": "and since 2022 she has rented the other unit to Wes month to month, with no written lease, for $1,300 a month. Wes paid a $1,300 security deposit. "
+        },
+        {
+          "t": "Wes's unit has no air conditioning, and he complains about the heat every summer. "
+        },
+        {
+          "t": "On March 2 the supply line to Wes's toilet burst and water began seeping under the bathroom floor. ",
+          "issues": [
+            "a"
+          ]
+        },
+        {
+          "t": "That day Wes handed Odette a signed letter describing the leak and stating that he would withhold rent unless it was repaired within 7 days. Nothing was repaired, and Wes paid no rent for April. ",
+          "issues": [
+            "b"
+          ]
+        },
+        {
+          "t": "On a Friday in early April, Odette handed Wes a notice demanding the April rent or possession of the unit by the following Monday. ",
+          "issues": [
+            "c"
+          ]
+        },
+        {
+          "t": "When Wes neither paid nor left, Odette shut off the water valve to his unit 'until he pays.' Wes spent $180 on bottled water and a gym membership so he could shower. ",
+          "issues": [
+            "d"
+          ]
+        },
+        {
+          "t": "Two weeks later Odette filed an eviction action in county court. Wes's answer raises the leak, but he has paid nothing into the court registry and has not asked the court to determine the rent. ",
+          "issues": [
+            "e"
+          ]
+        },
+        {
+          "t": "The case settled and Wes stayed. On May 20, tired of the friction, Odette handed Wes a written notice to vacate by May 31. ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "Wes left on June 30, and Odette demands double rent for June. ",
+          "issues": [
+            "f"
+          ]
+        },
+        {
+          "t": "Wes left a forwarding address. On August 9 Odette sent him a certified letter stating that she would keep $600 of the deposit for a cabinet door Wes broke, and she enclosed a check for $700. ",
+          "issues": [
+            "g"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "id": "a",
+          "label": "Landlord's duty to maintain plumbing",
+          "rules": [
+            "fl-real-property.landlord-tenant.landlord-maintenance"
+          ],
+          "explain": "Section 83.51(1) requires the landlord to comply with codes or keep the plumbing in reasonable working condition. Those duties may be altered for a duplex only in writing, and there is no written lease, so the burst supply line is Odette's responsibility."
+        },
+        {
+          "id": "b",
+          "label": "Seven-day notice and rent withholding",
+          "rules": [
+            "fl-real-property.landlord-tenant.tenant-remedies"
+          ],
+          "explain": "Wes delivered written notice specifying a § 83.51(1) noncompliance and stating his intent to withhold, and 7 days passed without cure. He could withhold rent and raise the noncompliance as a defense, with rent reduced in proportion to the lost rental value."
+        },
+        {
+          "id": "c",
+          "label": "Computing the 3-day notice",
+          "rules": [
+            "fl-real-property.landlord-tenant.tenant-default-notices"
+          ],
+          "explain": "The 3-day period for a nonpayment notice excludes Saturdays, Sundays and legal holidays, so a notice delivered on a Friday cannot demand payment by the next Monday. The miscount gives Wes a challenge to the notice on which the eviction rests."
+        },
+        {
+          "id": "d",
+          "label": "Prohibited self-help: utility shutoff",
+          "rules": [
+            "fl-real-property.landlord-tenant.self-help-prohibited"
+          ],
+          "explain": "A landlord may not interrupt utilities to force payment or possession. Odette is liable for actual and consequential damages or 3 months' rent ($3,900), whichever is greater, plus costs and attorney's fees, so Wes recovers $3,900 rather than $180."
+        },
+        {
+          "id": "e",
+          "label": "Rent into the court registry",
+          "rules": [
+            "fl-real-property.landlord-tenant.eviction-registry"
+          ],
+          "explain": "A tenant who raises any defense other than payment must deposit the rent alleged due (and rent accruing during the case) into the registry or timely move to determine the rent. Wes did neither, so he waived his defenses other than payment and Odette was entitled to an immediate default for possession."
+        },
+        {
+          "id": "f",
+          "label": "Month-to-month termination notice and double rent",
+          "rules": [
+            "fl-real-property.landlord-tenant.termination-holdover"
+          ],
+          "explain": "A month-to-month tenancy ends only on written notice given at least 30 days before the end of a monthly period, so an 11-day notice did not end the tenancy on May 31. Double rent is available only against a tenant who holds over after the tenancy has properly ended, so Odette's demand fails."
+        },
+        {
+          "id": "g",
+          "label": "Late deposit-claim notice",
+          "rules": [
+            "fl-real-property.landlord-tenant.security-deposits"
+          ],
+          "explain": "A landlord who intends to claim against a deposit must send certified-mail notice within 30 days after the tenant vacates. Odette's notice came 40 days after Wes left, so she forfeited the claim against the deposit and must return the $600, though she may sue Wes separately for the broken door."
+        }
+      ]
+    }
+  ]
+}

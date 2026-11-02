@@ -219,7 +219,7 @@
           "id": "fl-trusts.trustee-duties.impartiality-income",
           "title": "Impartiality and principal and income",
           "weight": 2,
-          "rule": "When a trust has two or more beneficiaries, the trustee must act impartially in investing, managing and distributing the property, giving due regard to their respective interests (for example, an income beneficiary and a remainderman). Allocation of receipts and expenses between income and principal is governed by the trust terms and, failing that, by Florida's principal and income statute in chapter 738.",
+          "rule": "When a trust has two or more beneficiaries, the trustee must act impartially in investing, managing and distributing the property, giving due regard to their respective interests (for example, an income beneficiary and a remainderman). Allocation of receipts and expenses between income and principal is governed by the trust terms and, failing that, by Florida's Uniform Fiduciary Income and Principal Act in chapter 738, which replaced the earlier principal and income act effective January 1, 2025.",
           "elements": [
             "Ordinarily income: interest, cash dividends, rents",
             "Ordinarily principal: proceeds from sale of trust assets and capital gains, stock splits and stock dividends",
@@ -292,13 +292,13 @@
           "id": "fl-trusts.modification-and-creditors.revocation",
           "title": "Revocability presumption and how to revoke or amend",
           "weight": 3,
-          "rule": "Unless the terms of a trust expressly provide that it is irrevocable, the settlor may revoke or amend it; this presumption applies to trusts created under instruments executed on or after the Florida Trust Code's 2007 effective date. The settlor revokes or amends by substantially complying with a method stated in the trust or, if the trust states none, by a later will or codicil that expressly refers to the trust or specifically devises property that would otherwise pass under it, or by another writing signed by the settlor showing that intent.",
+          "rule": "Unless the terms of a trust expressly provide that it is irrevocable, the settlor may revoke or amend it; this presumption applies to trusts created under instruments executed on or after the Florida Trust Code's July 1, 2007 effective date. The settlor revokes or amends by substantially complying with a method stated in the trust or, if the trust states none, by a later will or codicil that expressly refers to the trust or specifically devises property that would otherwise pass under it, or by any other method manifesting clear and convincing evidence of the settlor's intent.",
           "exceptions": [
             "An amendment that changes the testamentary aspects of a Florida settlor's revocable trust must be executed with will formalities.",
             "A provision for the settlor's spouse becomes void upon divorce or annulment, unless the trust or judgment provides otherwise, and the trust is administered as if the former spouse died at that time."
           ],
-          "split": "Under the common-law rule still followed in some states, a trust is irrevocable unless the instrument reserves a power to revoke. Florida, following the UTC, reverses the presumption.",
-          "trap": "A residuary clause leaving 'all my property' to someone else does not revoke a revocable trust; a will revokes or amends a trust only if it expressly refers to the trust or specifically devises the trust property, and only when the trust does not supply an exclusive method.",
+          "split": "Under the common-law rule still followed in some states, a trust is irrevocable unless the instrument reserves a power to revoke. Florida, following the UTC, reverses the presumption. Unlike UTC § 602, Florida's statute opens the will and clear-and-convincing routes only when the trust provides no method; if the trust states a method, the settlor must substantially comply with it.",
+          "trap": "A residuary clause leaving 'all my property' to someone else does not revoke a revocable trust: a will revokes or amends a trust only if it expressly refers to the trust or specifically devises the trust property, and only when the trust itself provides no method of revocation or amendment.",
           "authority": "Fla. Stat. §§ 736.0602, 736.0403(2), 736.1105"
         },
         {
@@ -316,7 +316,7 @@
           "weight": 2,
           "rule": "On application of the trustee or any qualified beneficiary, a court may modify an irrevocable trust (including changing distribution terms or terminating it) if the trust's purposes have been fulfilled or have become illegal, impossible, wasteful or impracticable; if, because of circumstances the settlor did not anticipate, compliance would defeat or substantially impair a material purpose; or if a material purpose no longer exists. A court may also modify an irrevocable trust when compliance with its terms is not in the best interests of the beneficiaries, after considering the settlor's intent.",
           "exceptions": [
-            "A spendthrift clause or a term prohibiting amendment does not by itself prevent modification under these sections."
+            "A spendthrift clause does not by itself prevent judicial modification; the court weighs it as one factor."
           ],
           "tip": "Unanticipated-circumstances facts (a beneficiary's disability, a changed tax law, an asset that can no longer be managed as directed) point to § 736.04113.",
           "authority": "Fla. Stat. §§ 736.04113, 736.04115"
@@ -327,7 +327,11 @@
           "weight": 2,
           "rule": "After the settlor's death, the trustee and all qualified beneficiaries may by unanimous agreement modify an irrevocable trust without going to court, subject to statutory exclusions. A trustee may terminate a trust worth less than $50,000 after notice to the qualified beneficiaries if the value no longer justifies the cost of administration, and a court may modify or terminate an uneconomic trust of any size. A court may reform a trust, even an unambiguous one, to correct a mistake of fact or law in expression or inducement proved by clear and convincing evidence, and may modify it to achieve the settlor's tax objectives.",
           "split": "Under the UTC and the common-law Claflin doctrine, the focus is on whether all beneficiaries consent and whether termination would defeat a material purpose. On the Florida exam, analyze modification under Florida's specific statutes (§§ 736.0412, 736.04113, 736.04115) rather than the UTC consent provision.",
-          "authority": "Fla. Stat. §§ 736.0412, 736.0414, 736.0415, 736.0416"
+          "authority": "Fla. Stat. §§ 736.0412, 736.0414, 736.0415, 736.0416",
+          "exceptions": [
+            "A spendthrift clause or a term prohibiting amendment or revocation does not by itself prevent nonjudicial modification.",
+            "Some trusts are excluded from nonjudicial modification by statute, including trusts that became irrevocable before 2001 and trusts with charitable interests for which a charitable deduction was allowed."
+          ]
         },
         {
           "id": "fl-trusts.modification-and-creditors.decanting",
@@ -363,7 +367,8 @@
           ],
           "split": "UTC § 504 allows a child or spouse with a support order to compel a distribution when the trustee has abused its discretion or failed to follow a standard. Florida's statute does not allow any creditor, including a support claimant, to compel a discretionary distribution.",
           "trap": "An ordinary tort or contract judgment creditor is not an exception creditor and cannot reach a beneficiary's interest in a spendthrift trust at all.",
-          "authority": "Fla. Stat. §§ 736.0503, 736.0504"
+          "authority": "Fla. Stat. §§ 736.0503, 736.0504; Bacardi v. White, 463 So. 2d 218 (Fla. 1985); Berlinger v. Casselberry, 133 So. 3d 961 (Fla. 2d DCA 2013)",
+          "tip": "Florida courts allow a former spouse with an alimony judgment to garnish discretionary distributions when the trustee chooses to make them (Berlinger), while § 736.0504 still bars compelling the trustee to distribute."
         },
         {
           "id": "fl-trusts.modification-and-creditors.settlor-death",

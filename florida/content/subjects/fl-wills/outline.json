@@ -184,13 +184,13 @@
           "id": "fl-wills.execution-and-revocation.revocation",
           "title": "Revocation by writing or by act; lost wills",
           "weight": 3,
-          "rule": "A will or codicil is revoked by a later will or codicil executed with the required formalities that expressly revokes it or is inconsistent with it (to the extent of the inconsistency). It is also revoked when the testator, or another person in the testator's presence and at the testator's direction, burns, tears, cancels, defaces, obliterates or destroys it with the intent and for the purpose of revocation.",
+          "rule": "A will or codicil is revoked by a later will or codicil that expressly revokes it or is inconsistent with it (to the extent of the inconsistency), or by another writing declaring the revocation, but only if the later instrument is executed with the formalities required for a will. It is also revoked when the testator, or another person in the testator's presence and at the testator's direction, burns, tears, cancels, defaces, obliterates or destroys it with the intent and for the purpose of revocation.",
           "exceptions": [
             "When an original will last known to be in the testator's possession cannot be found at death, a rebuttable presumption arises that the testator destroyed it with intent to revoke.",
             "A lost or destroyed will that was not revoked may be established: its specific content must be proved by two disinterested witnesses, or by one disinterested witness if a correct copy is produced."
           ],
           "trap": "Destruction by another person outside the testator's presence is not a valid revocation even if the testator asked for it.",
-          "tip": "An unwitnessed written note saying the will is revoked does nothing; revocation by writing requires a will or codicil executed with full formalities.",
+          "tip": "An unwitnessed written note saying the will is revoked does nothing; revocation by writing requires a will, codicil or other writing executed with full will formalities.",
           "authority": "Fla. Stat. §§ 732.505, 732.506, 733.207"
         },
         {
@@ -208,7 +208,7 @@
           "weight": 3,
           "rule": "Any will provision in favor of a spouse becomes void when the marriage is dissolved or annulled, and the will is administered as if the former spouse died at the time of the dissolution, unless the will or the judgment expressly provides otherwise. Beneficiary designations of a former spouse in many nonprobate assets (life insurance, retirement accounts, POD/TOD accounts) made before the divorce are likewise void, and revocable-trust provisions for the former spouse are treated the same way.",
           "exceptions": [
-            "The rule does not apply if the will, a court order or the marital settlement agreement expressly provides otherwise.",
+            "For the will itself, the rule yields only if the will or the dissolution judgment expressly provides otherwise; for nonprobate designations under § 732.703, a court order or a written agreement between the former spouses that provides otherwise also controls.",
             "Federal law (for example ERISA) may preempt the nonprobate-designation statute for employer plans.",
             "A later marriage, or the birth or adoption of a child, never revokes a will; the pretermitted spouse and child statutes apply instead."
           ],
@@ -275,7 +275,7 @@
           "weight": 2,
           "rule": "The election must be filed by the earlier of 6 months after service of the notice of administration on the spouse (or the spouse's attorney-in-fact or guardian) or 2 years after the decedent's death; the court may extend the time for good cause if a petition is filed within that period. Property passing to the spouse from the elective estate is credited first, and the unsatisfied balance is contributed by the other recipients of elective-estate property, starting with the probate estate and revocable trusts.",
           "exceptions": [
-            "Property passing to the spouse in a qualifying elective share trust (spouse receives all income for life, can require the property to be made productive, and no one else can receive distributions during the spouse's life) is credited at only 50% of its value."
+            "Property passing to the spouse in a qualifying elective share trust (spouse receives all income for life, can require the property to be made productive, and no one else can receive distributions during the spouse's life) is credited at only 50% of its value; the credit rises to 80% if the trust also gives a qualifying power to invade principal for the spouse's health, support and maintenance, and to 100% if the spouse also holds a general power of appointment exercisable alone."
           ],
           "trap": "A spouse who misses the deadline loses the right; the 2-year outside limit runs from death even if no notice of administration was ever served.",
           "authority": "Fla. Stat. §§ 732.2025, 732.2075, 732.2095, 732.2135"
@@ -284,7 +284,7 @@
           "id": "fl-wills.spousal-and-family-protection.waiver",
           "title": "Waiver of spousal rights",
           "weight": 3,
-          "rule": "A spouse may waive the elective share, intestate share, pretermitted share, homestead, exempt property, family allowance and preference to serve as personal representative, wholly or partly, before or after marriage, by a written contract or waiver signed by the waiving party in the presence of two subscribing witnesses. If signed after marriage, each spouse must make fair disclosure of his or her estate; no disclosure is required for a waiver signed before marriage, and no consideration beyond the agreement itself is needed.",
+          "rule": "A spouse may waive the elective share, intestate share, pretermitted share, homestead, exempt property, family allowance and preference in appointment as personal representative of an intestate estate, wholly or partly, before or after marriage, by a written contract or waiver signed by the waiving party in the presence of two subscribing witnesses. If signed after marriage, each spouse must make fair disclosure of his or her estate; no disclosure is required for a waiver signed before marriage, and no consideration beyond the agreement itself is needed.",
           "elements": [
             "Written agreement or waiver",
             "Signed by the waiving spouse",
@@ -411,7 +411,11 @@
             "No spouse: passes to descendants, or to other heirs, under § 732.103"
           ],
           "trap": "Do not apply the § 732.102 one-half rule to the homestead. Even if all children are the spouse's own children, the spouse does not take homestead in fee when there are descendants; the spouse gets the life estate or the one-half tenancy in common.",
-          "authority": "Fla. Stat. § 732.401"
+          "authority": "Fla. Stat. § 732.401; Samad v. Pla, 267 So. 3d 476 (Fla. 2d DCA 2019)",
+          "exceptions": [
+            "The spouse's attorney-in-fact or guardian of the property may elect only with court approval, and the petition for approval must itself be filed within the same 6 months and during the spouse's lifetime."
+          ],
+          "tip": "The 6-month deadline is strict: it cannot be extended for excusable neglect or under the general probate rules on enlarging time, so a spouse who misses it keeps only the life estate."
         },
         {
           "id": "fl-wills.homestead.lifetime-transfer",
@@ -553,7 +557,7 @@
           "id": "fl-wills.administration.venue-deposit-ancillary",
           "title": "Venue, deposit of the will, and ancillary administration",
           "weight": 2,
-          "rule": "Venue for probate is the county where the decedent was domiciled; for a nondomiciliary, any county where the decedent's property is located, or if none, where a debtor of the decedent resides. Anyone holding the original will must deposit it with the clerk of the court having venue within 10 days after learning of the testator's death, and a will is not effective to prove title to property until admitted to probate in Florida.",
+          "rule": "Venue for probate is the county where the decedent was domiciled; for a nondomiciliary, any county where the decedent's property is located, or if none, where a debtor of the decedent resides. Anyone holding the original will must deposit it with the clerk of the court having venue within 10 days after learning of the testator's death, and a will is ineffective to prove title to, or the right to possess, the testator's property until it is admitted to probate in Florida or in the state where the decedent was domiciled.",
           "exceptions": [
             "When a nonresident dies leaving Florida property, ancillary administration is opened in Florida; the personal representative named in the will for Florida property, or else the foreign (domiciliary) personal representative, is entitled to ancillary letters if qualified to serve in Florida."
           ],
@@ -605,9 +609,9 @@
             "Neither period prevents enforcement of a mortgage, security interest or other lien against the encumbered property.",
             "A claim may proceed to the extent covered by the decedent's casualty (liability) insurance."
           ],
-          "split": "Due process requires actual notice, not just publication, to known or reasonably ascertainable creditors before a nonclaim statute can bar them (Tulsa Professional Collection Services v. Pope, 485 U.S. 478 (1988)); Florida's 30-days-after-service rule implements that requirement.",
-          "trap": "A known creditor who was never served is not barred at 3 months, but is still barred at 2 years after death.",
-          "authority": "Fla. Stat. §§ 733.2121, 733.702, 733.710"
+          "split": "Due process requires actual notice, not just publication, to known or reasonably ascertainable creditors before a nonclaim statute can bar them (Tulsa Professional Collection Services v. Pope, 485 U.S. 478 (1988)); Florida's 30-days-after-service rule implements that requirement, and Jones v. Golden (Fla. 2015) resolved a district split by holding that the short periods never run against an unserved known or reasonably ascertainable creditor.",
+          "trap": "A known or reasonably ascertainable creditor who was never served is not barred at 3 months and need not ask for an extension, because the 3-month/30-day period never starts to run against it; it is still barred 2 years after death.",
+          "authority": "Fla. Stat. §§ 733.2121, 733.702, 733.710; Jones v. Golden, 176 So. 3d 242 (Fla. 2015)"
         },
         {
           "id": "fl-wills.administration.objections-to-claims",
