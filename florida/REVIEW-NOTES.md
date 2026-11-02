@@ -256,3 +256,59 @@ relying on the pack for anything beyond study.
 - **Defamation and products:** 5-day presuit notice for media defendants; Aubin and design defect (q014).
 - **Essays:** e02 call 3 (the daughter's recovery and her mother's comparative fault); e01 call 2 (dark signal treated as an all-way stop).
 - **Added topic:** `fl-torts.wrongful-death`, now in the lecture taxonomy.
+
+## fl-evidence
+
+- **Character and similar-fact evidence:**
+  - No counterpart to FRE 404(a)(2)(B)(ii).
+  - Williams rule (q001): clear-and-convincing proof; acquitted crimes excluded (State v. Perkins); 10-day notice (§ 90.404(2)(d)).
+  - Sexual-offense propensity: no civil counterpart to FRE 415; McLean factors (q002).
+  - § 90.406 covers only an organization's routine practice.
+  - § 90.407's reach to product defects is left open.
+- **Witnesses:**
+  - Dead Man's Statute repealed in 2005.
+  - Prior inconsistent statements: foundation first; a sworn police statement is not an "other proceeding".
+  - Conviction impeachment (q004, q005, e01): withheld adjudication, pardons, remoteness.
+  - Florida has not adopted FRE 801(d)(1)(B)(ii).
+- **Experts:**
+  - Daubert adopted in 2019 (q007, e02). Whether Florida adopted the 2023 FRE 702 text is not stated.
+  - No FRE 704(b) counterpart.
+- **Hearsay:**
+  - Dying declarations in civil and criminal trials; corroboration only for exculpatory penal-interest statements; State v. Lopez (2008) (q010).
+  - Child hearsay at age "16 or less"; emotional-harm unavailability (q011).
+  - Public records and investigative findings.
+- **Privileges:**
+  - § 90.504(3) spousal exceptions (q012).
+  - Deason elements.
+  - Statutory section numbers.
+- **Documents:** § 90.953(1) carve-out (q014); § 90.956 notice.
+
+## fl-criminal
+
+- **Crimes:**
+  - § 782.04(3) second-degree felony murder; the enumerated-felony list is partial (q001).
+  - Theft tiers of $750 / $20k / $100k (e02).
+  - First-degree arson of one's own dwelling.
+  - Conspiracy with only an undercover officer (q006).
+  - Renunciation and factual impossibility (q007).
+  - § 777.03 relative exemptions.
+- **Recent changes (q009, e01, q010):** stand-your-ground immunity (2017 burden on the State; Love 2019; Dennis 2010); the castle-doctrine exceptions.
+- **Defenses:**
+  - Entrapment: Munoz burden; Glosson objective entrapment.
+  - Duress is no defense to homicide.
+  - Rule 3.216 notice timing (left out).
+- **Search and seizure:**
+  - Consent after police illegality.
+  - Rodriguez (2015) and inevitable discovery.
+  - Art. I, § 12 conformity and the § 23 privacy clause (q012).
+- **Rules of criminal procedure:**
+  - Rule 3.133(b) adversary preliminary hearing.
+  - Recent pretrial-release legislation (§§ 903.046, 907.041; q014).
+  - Indictment for first-degree murder.
+  - Rule 3.220 deadlines.
+  - Speedy-trial demand timeline and recapture (q013, e02).
+  - Rule 3.170(l).
+  - Rule 3.850/3.851 limits.
+  - Rule 3.260 jury waiver.
+- **Recent change (q015):** capital sentencing by an 8-of-12 vote (2023). The 2023 expansion for child sexual battery is not covered. Sexual battery has no rule yet.
+- **Cases cited by name and year only:** Dennis, Love, Owen, Almeida, Traylor, Ramirez.

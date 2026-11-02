@@ -1,0 +1,320 @@
+{
+ "subject": "fl-criminal",
+ "essays": [
+  {
+   "id": "fl-criminal.e01",
+   "title": "Shots on the Second-Floor Walkway",
+   "minutes": 60,
+   "topics": [
+    "fl-criminal.defenses",
+    "fl-criminal.homicide-and-person",
+    "fl-criminal.search-seizure-confessions"
+   ],
+   "facts": [
+    "Cole Brandt and Wes Darrow lived in neighboring second-floor apartments in an Ocala complex and had argued for weeks about loud music. At about 11 p.m. one night, after Cole had been drinking beer for several hours at home, Wes pounded on Cole's door. Cole opened it and stepped onto the shared exterior walkway. Wes shoved Cole against the railing and said, 'Turn it down or I'll kill you.' Cole went back into his apartment, took his lawfully owned handgun from a drawer, and walked back out onto the walkway.",
+    "Wes was by then standing about fifteen feet away at the top of the stairs, unarmed, still yelling. Cole fired twice. One bullet struck Wes in the back and killed him. A neighbor, Priya, who watched from her window, will testify that Wes had turned and taken a step down the stairs when Cole fired. Cole will testify that Wes was facing him and 'reached toward his waistband.' No weapon was found on or near Wes.",
+    "Cole called 911. Deputies arrived, handcuffed Cole, and put him in the back of a locked patrol car. Without giving Miranda warnings, a deputy leaned into the car and asked, 'So what happened?' Cole said, 'He threatened me, so I got my gun and shot him.' At the sheriff's office, a detective read Cole complete Miranda warnings. Cole said, 'I want a lawyer. I'm not saying anything else. But he had it coming.' The detective replied, 'I understand, but just tell me one thing: why did you go back outside?' Cole answered, 'I wanted to scare him off for good.'",
+    "The State has charged Cole by information with second-degree murder. Cole has moved to dismiss on the ground of stand-your-ground immunity and has moved to suppress all three statements."
+   ],
+   "calls": [
+    "Discuss the procedure and burden of proof on Cole's immunity motion, and how the court is likely to rule.",
+    "If the case goes to trial, what homicide offenses may the jury consider, and how will self-defense be handled?",
+    "Discuss the admissibility of each of Cole's statements."
+   ],
+   "issues": [
+    {
+     "id": "i1",
+     "call": 1,
+     "label": "Immunity procedure and burden",
+     "rules": [
+      "fl-criminal.defenses.stand-your-ground-immunity",
+      "fl-criminal.florida-rules.pretrial-motions"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Section 776.032 grants immunity from prosecution to a person who uses force as permitted by sections 776.012, 776.013 or 776.031",
+      "Raised by a pretrial motion to dismiss; the defendant is entitled to an evidentiary hearing where the judge resolves disputed facts, and a traverse does not defeat it",
+      "Once Cole makes a prima facie claim, the State must overcome immunity by clear and convincing evidence (2017 amendment)"
+     ],
+     "conclusion": "The judge holds an evidentiary hearing and must grant immunity unless the State proves by clear and convincing evidence that Cole's use of deadly force was not justified."
+    },
+    {
+     "id": "i2",
+     "call": 1,
+     "label": "Was Cole's deadly force justified?",
+     "rules": [
+      "fl-criminal.defenses.justifiable-force",
+      "fl-criminal.defenses.castle-doctrine",
+      "fl-criminal.defenses.initial-aggressor"
+     ],
+     "points": 4,
+     "mustSay": [
+      "Deadly force is justified only if Cole reasonably believed it necessary to prevent imminent death or great bodily harm or a forcible felony",
+      "No duty to retreat: Cole was in a place he had a right to be and was not engaged in criminal activity (drinking at home and lawful gun ownership are not criminal activity)",
+      "The castle-doctrine presumption does not apply because Wes was not unlawfully and forcibly entering Cole's dwelling when Cole fired",
+      "Wes was the initial aggressor, but by the time of the shooting he was unarmed, fifteen feet away, and (per Priya and the wound in his back) turning to leave, so the threat was not imminent",
+      "Cole's retrieval of the gun and return to the walkway, and the absence of any weapon, support the State's showing"
+     ],
+     "conclusion": "The State can likely prove by clear and convincing evidence that Cole's belief in an imminent threat was unreasonable, so immunity should be denied."
+    },
+    {
+     "id": "i3",
+     "call": 2,
+     "label": "Homicide offenses available to the jury",
+     "rules": [
+      "fl-criminal.homicide-and-person.second-degree-murder",
+      "fl-criminal.homicide-and-person.manslaughter",
+      "fl-criminal.homicide-and-person.first-degree-murder",
+      "fl-criminal.defenses.voluntary-intoxication"
+     ],
+     "points": 4,
+     "mustSay": [
+      "Second-degree murder: an act imminently dangerous and evincing a depraved mind (ill will, hatred, spite or evil intent, indifference to life); weeks of hostility, retrieving a gun and shooting an unarmed man in the back support it",
+      "Manslaughter by act is a necessarily lesser offense and requires only an intentional act causing death, not intent to kill",
+      "First-degree premeditated murder is not available on this information; it would require an indictment, although the facts (time to reflect while retrieving the gun) could support premeditation",
+      "Cole's drinking is not admissible to negate intent or state of mind (§ 775.051)"
+     ],
+     "conclusion": "The jury may consider second-degree murder and the lesser offense of manslaughter; Cole's intoxication is irrelevant as a defense."
+    },
+    {
+     "id": "i4",
+     "call": 2,
+     "label": "Self-defense at trial",
+     "rules": [
+      "fl-criminal.defenses.stand-your-ground-immunity",
+      "fl-criminal.defenses.justifiable-force"
+     ],
+     "points": 2,
+     "mustSay": [
+      "Denial of immunity does not bar a self-defense claim at trial",
+      "Once evidence of self-defense is presented, the State must prove beyond a reasonable doubt that Cole did not act in lawful self-defense",
+      "The jury is instructed that Cole had no duty to retreat if he was not engaged in criminal activity and was in a place he had a right to be"
+     ],
+     "conclusion": "Cole may present self-defense at trial, and the State must disprove it beyond a reasonable doubt."
+    },
+    {
+     "id": "i5",
+     "call": 3,
+     "label": "The patrol-car statement",
+     "rules": [
+      "fl-criminal.search-seizure-confessions.miranda-custody"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Custody: handcuffed and locked in a patrol car after a shooting; under the four Florida factors a reasonable person would not feel free to leave",
+      "Interrogation: 'So what happened?' directed at the suspect is express questioning likely to elicit an incriminating response, not general on-the-scene questioning of bystanders",
+      "No warnings, so the statement is excluded from the State's case-in-chief",
+      "If voluntary, it may be used to impeach Cole if he testifies inconsistently"
+     ],
+     "conclusion": "The patrol-car statement must be suppressed from the State's case-in-chief but may be used for impeachment."
+    },
+    {
+     "id": "i6",
+     "call": 3,
+     "label": "The station-house statements",
+     "rules": [
+      "fl-criminal.search-seizure-confessions.invocation-and-voluntariness"
+     ],
+     "points": 3,
+     "mustSay": [
+      "'I want a lawyer. I'm not saying anything else' is an unambiguous invocation of counsel and silence",
+      "'But he had it coming' was volunteered in the same breath, not the product of interrogation, so it is admissible",
+      "The detective's follow-up question violated Edwards; Cole did not initiate further discussion, so 'I wanted to scare him off for good' is inadmissible in the case-in-chief",
+      "That answer, if voluntary, may be used to impeach Cole"
+     ],
+     "conclusion": "'He had it coming' is admissible; the answer about going back outside must be suppressed from the case-in-chief."
+    }
+   ],
+   "model": [
+    {
+     "call": 1,
+     "text": [
+      "Procedure. Section 776.032 provides that a person who uses force as permitted by sections 776.012, 776.013 or 776.031 is justified and immune from criminal prosecution, which includes being charged and prosecuted. Under Dennis v. State, the defendant raises immunity by a pretrial motion to dismiss and is entitled to an evidentiary hearing at which the judge, not the jury, resolves disputed facts; unlike a Rule 3.190(c)(4) motion, the motion is not defeated by a State traverse. Under the 2017 amendment, once Cole makes a prima facie claim of self-defense immunity, the State bears the burden of overcoming it by clear and convincing evidence. Cole's testimony that Wes threatened to kill him, shoved him, and reached toward his waistband is enough for a prima facie claim, so the burden shifts to the State.",
+      "Merits. Under section 776.012(2), a person may use deadly force only if he reasonably believes it necessary to prevent imminent death or great bodily harm to himself or another, or the imminent commission of a forcible felony. Cole had no duty to retreat: the shared walkway outside his own apartment is a place he had a right to be, and neither drinking at home nor carrying a lawfully owned gun is criminal activity. The castle-doctrine presumption in section 776.013 does not help him, because when he fired, Wes was not unlawfully and forcibly entering or attempting to enter Cole's dwelling; he was fifteen feet away at the top of the stairs. Wes was the initial aggressor when he shoved Cole and threatened him, which keeps Cole from being barred under section 776.041, but justification still depends on an imminent threat at the moment of the shooting.",
+      "The State's evidence on that point is strong. Cole had retreated safely into his apartment, chose to arm himself and come back out, and then shot an unarmed man who was fifteen feet away. Priya saw Wes turn and step down the stairs, the fatal bullet entered Wes's back, and no weapon was found to support Cole's claim that Wes reached for his waistband. A judge weighing this evidence is likely to find, by clear and convincing evidence, that a reasonable person in Cole's position would not have believed deadly force necessary to prevent imminent death or great bodily harm. The motion should be denied."
+     ]
+    },
+    {
+     "call": 2,
+     "text": [
+      "Second-degree murder. Section 782.04(2) defines second-degree murder as an unlawful killing by an act imminently dangerous to another and evincing a depraved mind regardless of human life, without premeditated design. A depraved mind exists when a person of ordinary judgment would know the act is reasonably certain to kill or do serious bodily injury, it is done from ill will, hatred, spite or an evil intent, and it shows indifference to human life. Firing a handgun twice at a person fifteen feet away is imminently dangerous. Weeks of hostility, the decision to retrieve the gun after the confrontation had ended, and shooting Wes in the back as he turned away support a finding of ill will. The State can prove second-degree murder.",
+      "Manslaughter. Manslaughter by act under section 782.07 is a necessarily lesser offense of second-degree murder, and the jury will be instructed on it. It requires only that Cole intentionally committed the act that caused death, not an intent to kill (State v. Montgomery). If the jury believes Cole acted from fear or sudden anger rather than ill will, it may return manslaughter.",
+      "First-degree murder and intoxication. The facts could support premeditation, because Cole had time to reflect while retrieving the gun, and his statement that he wanted to 'scare him off for good' could be read as evidence of design. But the jury may not convict of an offense greater than the one charged, and first-degree murder, a capital crime, could be charged only by grand-jury indictment under Article I, section 15. Cole's beer drinking is irrelevant to his defense: under section 775.051, evidence of voluntary intoxication is not admissible to show that he lacked any required intent.",
+      "Self-defense at trial. Denial of immunity does not prevent Cole from asserting self-defense at trial. Once he presents evidence that he acted in self-defense, the State must prove beyond a reasonable doubt that he did not, and the jury will be instructed that he had no duty to retreat if he was not engaged in criminal activity and was in a place he had a right to be. The same evidence that likely defeats immunity (the wound in the back, the distance, the lack of a weapon, Priya's testimony) will be the State's answer at trial, but the jury makes that determination under the higher standard."
+     ]
+    },
+    {
+     "call": 3,
+     "text": [
+      "Patrol-car statement. Miranda warnings are required before custodial interrogation. Florida evaluates custody under four factors: the manner in which police summoned the suspect, the purpose, place and manner of the questioning, the extent to which the suspect was confronted with evidence of guilt, and whether he was told he was free to leave. Cole was handcuffed and locked in a patrol car at the scene of a fatal shooting, and no one told him he could leave; a reasonable person would understand he was under arrest. 'So what happened?' was a question directed at the suspected shooter and reasonably likely to elicit an incriminating response, so it was interrogation, not general on-the-scene questioning. Because no warnings were given, the statement must be suppressed from the State's case-in-chief. Nothing suggests coercion, so if the statement is voluntary the State may use it to impeach Cole if he testifies inconsistently.",
+      "'But he had it coming.' After complete warnings, Cole said, 'I want a lawyer. I'm not saying anything else.' That is an unambiguous invocation of both the right to counsel and the right to silence, unlike the equivocal remarks that Davis and State v. Owen allow police to disregard. The sentence 'But he had it coming' came in the same breath, before any further question. Miranda protects against compelled answers to interrogation, not volunteered statements, so this remark is admissible.",
+      "'I wanted to scare him off for good.' Once Cole invoked counsel, Edwards v. Arizona barred further interrogation until counsel was present unless Cole himself initiated further communication. He did not; the detective did, with a question designed to elicit an incriminating answer. The answer must be suppressed from the State's case-in-chief. If it was otherwise voluntary, it may be used to impeach Cole if he testifies at trial that he went outside only because he feared for his life."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fl-criminal.e02",
+   "title": "Laptops in the Toolbox",
+   "minutes": 60,
+   "topics": [
+    "fl-criminal.search-seizure-confessions",
+    "fl-criminal.property-crimes",
+    "fl-criminal.florida-rules"
+   ],
+   "facts": [
+    "On the evening of January 5, 2026, someone pried open the doors of three locked cars in the staff parking lot of a Panama City middle school and took a school-issued laptop from each. Each laptop was worth about $900 and bore a metal tag reading 'Property of Bay Point Middle School' with an asset number. The school reported the thefts, and the sheriff's office circulated the asset numbers to patrol deputies the next morning.",
+    "At 2 p.m. on January 6, Deputy Ruiz stopped Dex Morrow's pickup truck because its registration had expired. While standing at the driver's window, Ruiz saw on the passenger seat a laptop bearing a Bay Point Middle School asset tag whose number matched the circulated list. Ruiz arrested Dex, handcuffed him, and placed him in the patrol car. Ruiz then took the keys from the ignition, unlocked a toolbox bolted in the truck bed, and found two more tagged laptops and a flat-blade pry tool. Detectives later obtained a warrant to search Dex's phone and found a January 6 text from Dex to an acquaintance: 'Got 3 laptops, $200 each, cash only.'",
+    "Dex was held in the county jail and taken before a judge for first appearance at 4 p.m. on January 7. He made no statements while in custody. The judge found probable cause and set a monetary bond that Dex could not post. The State filed an information charging three counts of burglary of a conveyance, three counts of grand theft, and one count of dealing in stolen property. Dex filed a notice of discovery.",
+    "On April 20, defense counsel moved for a continuance to retain an expert; the court granted it and reset trial for July 13. On July 1, Dex filed a notice of expiration of speedy-trial time. At the July 13 trial, the State called a crime-laboratory tool-mark examiner, who was not on the State's witness list and whose report had never been disclosed, to testify that pry marks on two of the cars' door frames were made by the tool found in Dex's toolbox. Defense counsel objected that the witness had not been disclosed. The judge overruled the objection without further inquiry, and the examiner testified."
+   ],
+   "calls": [
+    "Discuss whether the laptops, the pry tool and the text message should be suppressed.",
+    "Discuss the property offenses of which Dex may be convicted.",
+    "Discuss Dex's procedural claims based on the timing of his first appearance, the speedy-trial rule, and the undisclosed witness."
+   ],
+   "issues": [
+    {
+     "id": "i1",
+     "call": 1,
+     "label": "The stop and the laptop in plain view",
+     "rules": [
+      "fl-criminal.search-seizure-confessions.conformity-clause",
+      "fl-criminal.search-seizure-confessions.warrant-exceptions"
+     ],
+     "points": 2,
+     "mustSay": [
+      "Florida applies Fourth Amendment law under the conformity clause of Article I, section 12",
+      "An expired registration gives probable cause for a traffic stop",
+      "Plain view: Ruiz was lawfully at the window, and the asset tag matching the stolen list made the laptop's incriminating character immediately apparent, giving probable cause to arrest and seize it"
+     ],
+     "conclusion": "The stop, the seizure of the laptop on the seat, and Dex's arrest were lawful."
+    },
+    {
+     "id": "i2",
+     "call": 1,
+     "label": "Search of the locked toolbox and the phone",
+     "rules": [
+      "fl-criminal.search-seizure-confessions.warrant-exceptions",
+      "fl-criminal.search-seizure-confessions.exclusionary-rule"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Search incident to arrest does not justify it: Dex was secured in the patrol car, and the truck bed is not the passenger compartment (Gant)",
+      "The automobile exception does: probable cause that the truck contained evidence of the burglaries (the other two laptops, tools) permits a warrantless search of every part of the vehicle and any container, locked or not, that could hold that evidence",
+      "The phone's contents were searched under a warrant, as Riley requires",
+      "No illegality, so nothing is fruit of the poisonous tree"
+     ],
+     "conclusion": "None of the evidence should be suppressed."
+    },
+    {
+     "id": "i3",
+     "call": 2,
+     "label": "Burglary of a conveyance",
+     "rules": [
+      "fl-criminal.property-crimes.burglary",
+      "fl-criminal.property-crimes.theft"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Burglary is entering a conveyance with intent to commit an offense therein; prying open a car door and reaching inside is an entry, and no breaking or nighttime is required",
+      "Identity is circumstantial: unexplained possession of recently stolen property supports an inference of guilt, together with the pry tool and tool-mark evidence",
+      "Unoccupied conveyance, not armed and no assault: a third-degree felony for each car"
+     ],
+     "conclusion": "The State can likely prove three counts of burglary of a conveyance."
+    },
+    {
+     "id": "i4",
+     "call": 2,
+     "label": "Grand theft versus dealing in stolen property",
+     "rules": [
+      "fl-criminal.property-crimes.theft",
+      "fl-criminal.property-crimes.dealing-in-stolen-property",
+      "fl-criminal.trial-rights.double-jeopardy"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Each $900 laptop meets the $750 grand-theft threshold, so each theft is third-degree grand theft",
+      "Dealing: 'traffic' includes possessing property with intent to sell it, and the text offering the laptops for sale shows that intent; Dex knew or should have known they were stolen",
+      "Section 812.025: theft and dealing arising from one scheme involving the same property may both be charged, but the jury may convict of one or the other, not both"
+     ],
+     "conclusion": "Dex may be convicted of grand theft or dealing in stolen property as to the laptops, but not both."
+    },
+    {
+     "id": "i5",
+     "call": 3,
+     "label": "Late first appearance",
+     "rules": [
+      "fl-criminal.florida-rules.first-appearance"
+     ],
+     "points": 2,
+     "mustSay": [
+      "Rule 3.130 requires first appearance within 24 hours of arrest; 26 hours violated the rule",
+      "The 48-hour probable-cause determination under Rule 3.133 was timely",
+      "No dismissal or suppression without prejudice; Dex made no statements during the delay"
+     ],
+     "conclusion": "The two-hour violation gives Dex no remedy."
+    },
+    {
+     "id": "i6",
+     "call": 3,
+     "label": "Speedy trial",
+     "rules": [
+      "fl-criminal.florida-rules.speedy-trial"
+     ],
+     "points": 3,
+     "mustSay": [
+      "Felony trial within 175 days of arrest without demand; that period would have ended about June 30",
+      "Dex's own April 20 continuance waived the 175-day period, so the notice of expiration is ineffective and should be stricken",
+      "Even a valid notice would lead to a hearing and recapture period, not immediate discharge",
+      "The constitutional (Barker v. Wingo) claim fails because the delay is attributable to the defense"
+     ],
+     "conclusion": "Dex is not entitled to discharge."
+    },
+    {
+     "id": "i7",
+     "call": 3,
+     "label": "Undisclosed tool-mark examiner and the Richardson inquiry",
+     "rules": [
+      "fl-criminal.florida-rules.discovery"
+     ],
+     "points": 3,
+     "mustSay": [
+      "After Dex filed a notice of discovery, the State had to disclose its witnesses and expert reports; the examiner was a discovery violation",
+      "The court had to conduct a Richardson inquiry: willful or inadvertent, trivial or substantial, and whether the defense was procedurally prejudiced",
+      "Failure to inquire is reversible unless the appellate court finds beyond a reasonable doubt that the defense was not procedurally prejudiced (Schopp)",
+      "The tool-mark evidence tied Dex to the break-ins and the defense could not depose or rebut the examiner, so prejudice is likely and a new trial is the probable result"
+     ],
+     "conclusion": "Admitting the examiner's testimony without a Richardson hearing is likely reversible error requiring a new trial."
+    }
+   ],
+   "model": [
+    {
+     "call": 1,
+     "text": [
+      "Stop and plain view. Under Article I, section 12 of the Florida Constitution, search-and-seizure questions are decided in conformity with the Fourth Amendment as interpreted by the United States Supreme Court. Driving with an expired registration is a traffic violation that gives probable cause for a stop, regardless of the deputy's subjective motives. From his lawful position at the driver's window, Ruiz saw a laptop bearing a school asset tag whose number matched the circulated list of stolen property. Under the plain-view doctrine, he was lawfully positioned, had lawful access, and the item's incriminating character was immediately apparent. That gave probable cause to seize the laptop and to arrest Dex for theft.",
+      "Toolbox. The search of the locked toolbox cannot be justified as incident to arrest. Under Arizona v. Gant, police may search a vehicle's passenger compartment incident to arrest only if the arrestee is unsecured and within reaching distance, or it is reasonable to believe evidence of the offense of arrest is inside; and that exception never reaches the truck bed. Dex was handcuffed in the patrol car. The search is valid under the automobile exception, however. Ruiz had probable cause to believe the truck contained evidence of the burglaries: one of three stolen laptops was on the seat, so the others and the tools used to break into the cars were likely nearby. Probable cause permits a warrantless search of any part of the vehicle, and of any container, locked or not, that could hold the objects of the search. A toolbox could hold laptops and a pry tool.",
+      "Phone. Under Riley v. California, the digital contents of a cell phone generally require a warrant, and detectives obtained one. Because the stop, the seizure, the toolbox search and the phone search were all lawful, there is no primary illegality and nothing to exclude as fruit of the poisonous tree. The motion to suppress should be denied."
+     ]
+    },
+    {
+     "call": 2,
+     "text": [
+      "Burglary of a conveyance. Under section 810.02, burglary includes entering a conveyance, which includes a car, with intent to commit an offense therein. Florida requires no breaking and no nighttime, but here the doors were pried open and the laptops removed from inside, which necessarily involved an entry by some part of the body or an instrument. The question is identity. Section 812.022 permits the inference that a person in unexplained possession of recently stolen property knew it was stolen, and Dex had all three laptops the day after the thefts. The pry tool in his toolbox, and (if properly admitted) tool-mark evidence linking it to the door frames, strengthen the inference that he committed the break-ins. The cars were unoccupied and Dex was not armed, so each count is a third-degree felony.",
+      "Grand theft. Under section 812.014, theft is knowingly obtaining or using the property of another with intent to deprive the owner temporarily or permanently. Each laptop was worth about $900, above the $750 threshold, so each taking is third-degree grand theft.",
+      "Dealing in stolen property. Under section 812.019, a person who traffics in property he knows or should know was stolen commits a second-degree felony. 'Traffic' includes possessing or controlling property with intent to sell or dispose of it. Dex's text offering three laptops for $200 each, cash only, shows intent to sell, and his possession of tagged school laptops at a fraction of their value shows he knew or should have known they were stolen.",
+      "Section 812.025. When a single scheme or course of conduct involves both theft and dealing in the same property, the State may charge both, but the jury may return a guilty verdict on one or the other, not both. The court should instruct the jury accordingly. If the jury convicts on both, the court must vacate one of the convictions. Dex therefore faces convictions for the three burglaries and either the grand thefts or the dealing count."
+     ]
+    },
+    {
+     "call": 3,
+     "text": [
+      "First appearance. Rule 3.130 requires that an arrested person be brought before a judge within 24 hours of arrest. Dex was arrested at 2 p.m. on January 6 and first appeared at 4 p.m. on January 7, about two hours late. The judge's probable-cause finding came within the 48 hours Rule 3.133 allows for a warrantless arrest, so that rule was satisfied. A violation of the first-appearance rule does not require dismissal or suppression unless the defendant shows prejudice, such as a confession induced by the delay. Dex made no statements and shows no prejudice, so he has no remedy.",
+      "Speedy trial. Under Rule 3.191, a felony defendant must be brought to trial within 175 days of arrest without any demand. Measured from January 6, the period would have run at the end of June. But Dex requested and obtained a continuance on April 20 to retain an expert. A defense continuance waives the speedy-trial period, so the State was no longer bound by the 175-day limit, and Dex's July 1 notice of expiration is ineffective and should be stricken. Even if the period had run, the remedy would not be immediate discharge: the court would hold a hearing within 5 days and order trial within the 10-day recapture period. Dex's constitutional speedy-trial claim under Barker v. Wingo also fails because a six-month delay caused largely by the defense is neither presumptively prejudicial nor attributable to the State.",
+      "Undisclosed witness. Because Dex filed a notice of discovery, Rule 3.220 required the State to disclose the names of persons with relevant information and the reports of experts. Calling an undisclosed tool-mark examiner was a discovery violation. When a violation is brought to its attention, the trial court must conduct a Richardson inquiry into whether the violation was willful or inadvertent, trivial or substantial, and whether it procedurally prejudiced the defense in preparing for trial; remedies range from a continuance to exclusion. The judge overruled the objection with no inquiry. Under State v. Schopp, that failure is reversible unless the appellate court can say beyond a reasonable doubt that the defense was not procedurally prejudiced. The defense had no opportunity to depose the examiner, review the report, or retain a rebuttal expert, and the testimony supplied the strongest link between Dex and the break-ins. An appellate court is unlikely to find the error harmless, so Dex should obtain a new trial on at least the burglary counts."
+     ]
+    }
+   ]
+  }
+ ]
+}

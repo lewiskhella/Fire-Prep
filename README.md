@@ -4,7 +4,14 @@ The Ruled app (website, study app and content library) lives on the Mac in
 `/Volumes/Extreme Pro/Bar Prep App`. This repository holds add-ons built for it
 in the cloud, packaged so one command installs them into that folder.
 
-**First add-on: Lectures (§ 11).** It turns the transcripts of your Florida Bar
+**Florida Part A pack.** 12 Florida subjects written in the app's own format: 69 topics,
+472 rules, 180 multiple-choice questions and 24 one-hour essays with model answers. One
+command installs them. Then set **Settings → jurisdiction** to "Florida" and the app shows the
+MBE subjects plus Florida Part A and hides the UBE-only ones. Drills, essays, recall and the
+planner all include the Florida subjects. Open questions the authors flagged for an attorney's
+check are in [`florida/REVIEW-NOTES.md`](florida/REVIEW-NOTES.md).
+
+**Lectures (§ 11).** It turns the transcripts of your Florida Bar
 lecture videos into a searchable library inside the app:
 
 - Every lecture is cut into ~75-second passages. Each passage is tagged with the
@@ -24,7 +31,8 @@ lecture videos into a searchable library inside the app:
 # 1. Get this repo onto the Mac (or download the ZIP from GitHub)
 git clone https://github.com/lewiskhella/Fire-Prep.git ~/Fire-Prep
 
-# 2. Add the Lectures section and tools to the app (backs up every file it touches)
+# 2. Install the add-ons (each backs up every file it touches; --uninstall reverses it)
+python3 ~/Fire-Prep/tools/install_florida.py  "/Volumes/Extreme Pro/Bar Prep App"
 python3 ~/Fire-Prep/tools/install_lectures.py "/Volumes/Extreme Pro/Bar Prep App"
 
 # 3. Index the transcripts (run from the app folder; re-run as more finish transcribing)
@@ -42,7 +50,7 @@ python3 tools/lectures.py serve-media --root "/path/to/the videos"
 open http://localhost:4321/app/#/lectures
 ```
 
-Undo the install with `python3 ~/Fire-Prep/tools/install_lectures.py "/Volumes/Extreme Pro/Bar Prep App" --uninstall`.
+Undo either install by running the same command with `--uninstall`.
 
 Only the Python 3 standard library is needed (the Mac's stock `python3` works). No npm, no build step.
 
@@ -70,11 +78,15 @@ re-processes transcripts that changed.
 
 ## Florida
 
-`tools/lecturelib/taxonomies/florida.json` lists the Florida Part A subjects and topics
-used for tagging, with ids such as `fl-wills.spousal-and-family-protection`. It is a
-keyword list for tagging, not legal content. Check the subject list against the Florida
-Board of Bar Examiners' current study guide. [`docs/FLORIDA-TRACK.md`](docs/FLORIDA-TRACK.md)
-proposes how to add a Florida exam track to the app, using these same ids.
+`florida/content/subjects/fl-*/` holds the Florida subjects. `florida/catalog-florida.json` holds their
+catalog entries. `tools/install_florida.py` copies them in, adds them to the catalog, and makes the
+validator accept the `FL` exam tag. It also adds a Florida Part A shelf to the binder, planner
+weights, and the jurisdiction switch, then runs the validator.
+
+The topic ids match `tools/lecturelib/taxonomies/florida.json`, so Florida lectures link straight to
+Florida outline topics. The pack was written from general legal knowledge and checked against the
+app's validator. It has not had a full attorney review: work through `florida/REVIEW-NOTES.md`,
+which lists every point the authors were unsure of or that turns on a recent change.
 
 ## Repository layout
 
@@ -87,6 +99,9 @@ app/css/lectures.css         styles on the app's shared tokens
 tools/lectures.py            command-line tool
 tools/lecturelib/            parsers, tagger, index builder, media server, Florida taxonomy
 tools/install_lectures.py    installs the above into the app folder
+tools/install_florida.py     installs the Florida pack and the jurisdiction switch
+tools/installkit.py          shared backup/patch/uninstall code for the installers
+florida/                     Florida subjects, catalog entries, REVIEW-NOTES.md
 tests/                       python3 -m unittest discover -s tests
                              node --test tests/lectures-core.test.mjs
 docs/                        INTEGRATION.md (data contract, manual install), FLORIDA-TRACK.md

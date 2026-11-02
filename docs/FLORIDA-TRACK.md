@@ -1,4 +1,11 @@
-# Proposal: a Florida exam track for Ruled
+# The Florida exam track
+
+> **Status: built.** Steps 1–3 below are implemented by `tools/install_florida.py` and the
+> content in `florida/`. The jurisdiction switch is `profile.jurisdiction`: "Florida" means
+> MBE + Florida Part A, any other value means the UBE, and blank shows everything. Step 4,
+> the authoring loop, is how to grow and correct the pack from the lectures. The original
+> proposal follows.
+
 
 Ruled is built for the UBE: MBE, MEE and MPT across 14 subjects. Florida is not a UBE
 jurisdiction. Its General Bar Examination pairs a Florida-specific **Part A** with
