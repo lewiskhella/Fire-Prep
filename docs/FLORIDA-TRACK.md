@@ -6,12 +6,10 @@
 > the authoring loop, is how to grow and correct the pack from the lectures. The original
 > proposal follows.
 
-
 Ruled is built for the UBE: MBE, MEE and MPT across 14 subjects. Florida is not a UBE
 jurisdiction. Its General Bar Examination pairs a Florida-specific **Part A** with
 **Part B**, the MBE. There is no MEE or MPT. Your Florida Bar lectures cover the
-Florida material, so this is how the app could grow a Florida track. It is a proposal:
-nothing in this repo changes the app's catalog or content.
+Florida material, so the app gets a Florida track.
 
 > **Confirm before building.** Check the exam's format, timing, subject list and any
 > move to NCBE's NextGen exam against the Florida Board of Bar Examiners' current
