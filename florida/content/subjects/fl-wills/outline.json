@@ -206,7 +206,7 @@
           "id": "fl-wills.execution-and-revocation.divorce",
           "title": "Revocation by divorce; marriage and births do not revoke",
           "weight": 3,
-          "rule": "Any will provision in favor of a spouse becomes void when the marriage is dissolved or annulled, and the will is administered as if the former spouse died at the time of the dissolution, unless the will or the judgment expressly provides otherwise. Beneficiary designations of a former spouse in many nonprobate assets (life insurance, retirement accounts, POD/TOD accounts) made before the divorce are likewise void, and revocable-trust provisions for the former spouse are treated the same way.",
+          "rule": "Any will provision that affects the testator's spouse (a gift to the spouse or a nomination of the spouse as a fiduciary) becomes void when the marriage is dissolved or annulled, and the will is administered as if the former spouse died at the time of the dissolution, unless the will or the judgment expressly provides otherwise. Beneficiary designations of a former spouse in many nonprobate assets (life insurance, retirement accounts, POD/TOD accounts) made before the divorce are likewise void, and revocable-trust provisions for the former spouse are treated the same way.",
           "exceptions": [
             "For the will itself, the rule yields only if the will or the dissolution judgment expressly provides otherwise; for nonprobate designations under § 732.703, a court order or a written agreement between the former spouses that provides otherwise also controls.",
             "Federal law (for example ERISA) may preempt the nonprobate-designation statute for employer plans.",

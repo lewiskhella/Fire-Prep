@@ -35,7 +35,7 @@
      "rule": "Evidence of a person's character or character trait is inadmissible to prove that the person acted in conformity with it on a particular occasion, subject to narrow exceptions for the accused, the victim and witnesses.",
      "exceptions": [
       "The accused may offer evidence of a pertinent trait of his or her own character, and the prosecution may rebut it.",
-      "The accused may offer evidence of a pertinent trait of the victim's character, and the prosecution may rebut it.",
+      "The accused may offer evidence of a pertinent trait of the victim's character, and the prosecution may rebut it (subject to the rape-shield statute, section 794.022, in sexual-offense cases).",
       "In a homicide case, the prosecution may offer evidence of the victim's peaceful character to rebut evidence that the victim was the first aggressor.",
       "A witness's character for truthfulness may be shown as provided in sections 90.608–.610."
      ],
@@ -63,12 +63,12 @@
       "The State proves by clear and convincing evidence that the defendant committed the collateral act.",
       "Probative value is not substantially outweighed by unfair prejudice under section 90.403, and the collateral act does not become a 'feature' of the trial.",
       "In a criminal case, the State furnishes the defendant, no fewer than 10 days before trial, a written statement of the acts it intends to offer, described with the particularity required of a charging document.",
-      "On request, the court instructs the jury on the limited purpose when the evidence is received and in the final charge."
+      "When the evidence is received, the court on request instructs the jury on its limited purpose; after the close of the evidence, the jury must be instructed on that limited purpose and told that the defendant cannot be convicted of a charge not included in the indictment or information."
      ],
      "split": "The concept matches FRE 404(b), but Florida case law adds requirements the federal rule lacks: proof of the collateral act by clear and convincing evidence (federal courts need only evidence sufficient for a jury to find it, under Huddleston), and a bar on using a crime of which the defendant was acquitted (federal courts may admit it, under Dowling).",
      "tip": "When the State offers a collateral crime to prove identity, the charged and collateral crimes must share identifiable points of similarity so unusual that they work like a fingerprint. Generic features such as a handgun, a mask or a nighttime robbery are not enough. Florida courts treat the wrongful admission of collateral-crime evidence as presumptively harmful, subject to harmless-error review.",
      "trap": "The rule cuts both ways: a defendant may offer 'reverse Williams-rule' evidence that another person committed similar crimes, to show that person committed the charged offense. The same relevance and similarity standards apply.",
-     "authority": "Fla. Stat. § 90.404(2)(a), (d); Williams v. State, 110 So. 2d 654 (Fla. 1959)"
+     "authority": "Fla. Stat. § 90.404(2)(a), (d); Williams v. State, 110 So. 2d 654 (Fla. 1959); State v. Perkins, 349 So. 2d 161 (Fla. 1977)"
     },
     {
      "id": "fl-evidence.relevance-and-character.sexual-offense-propensity",
@@ -97,7 +97,7 @@
      "id": "fl-evidence.relevance-and-character.policy-exclusions",
      "title": "Remedial measures, compromise, medical payments, sympathy and pleas",
      "weight": 2,
-     "rule": "Florida excludes several kinds of relevant evidence for policy reasons: subsequent remedial measures offered to prove negligence or culpable conduct; offers to compromise, and statements made in negotiations, offered to prove liability or the value of a claim; offers or payment of medical expenses offered to prove liability; statements or gestures expressing sympathy about an accident, in a civil action; and withdrawn guilty pleas, nolo contendere pleas and offers to plead, together with statements made in connection with them.",
+     "rule": "Florida excludes several kinds of relevant evidence for policy reasons: subsequent remedial measures offered to prove negligence, the existence of a product defect, or culpable conduct; offers to compromise, and statements made in negotiations, offered to prove liability or the value of a claim; offers or payment of medical expenses offered to prove liability; statements or gestures expressing sympathy about an accident, in a civil action; and withdrawn guilty pleas, nolo contendere pleas and offers to plead, together with statements made in connection with them.",
      "exceptions": [
       "Remedial measures may be admitted for another purpose, such as ownership, control, feasibility of precautions if disputed, or impeachment.",
       "A statement of fault made together with an expression of sympathy is not protected by section 90.4026 and may be admitted as a party admission.",
@@ -152,7 +152,7 @@
       "A prior inconsistent statement is substantive evidence, not hearsay, only if the declarant testifies, is subject to cross-examination, and the statement was given under oath subject to the penalty of perjury at a trial, hearing or other proceeding or in a deposition."
      ],
      "split": "FRE 613(b) lets the foundation be laid before or after the extrinsic evidence, as long as the witness eventually has a chance to explain or deny. Florida requires the confrontation first, and if the witness admits the statement, extrinsic proof is excluded.",
-     "tip": "Florida courts read 'other proceeding' narrowly: a sworn statement given to police or a prosecutor during an investigation generally does not qualify, so it can be used only to impeach.",
+     "tip": "Florida courts read 'other proceeding' narrowly: a sworn statement given during a police interrogation does not qualify (State v. Delgado-Santos, 497 So. 2d 1199 (Fla. 1986)), so it can be used only to impeach.",
      "trap": "An unsworn statement to police is not substantive evidence, even if written and signed. It shows only that the witness has said different things.",
      "authority": "Fla. Stat. §§ 90.614, 90.801(2)(a)"
     },
@@ -175,12 +175,12 @@
       "In a civil trial, a conviction so remote in time that it has no bearing on the witness's present character is inadmissible.",
       "Juvenile adjudications are inadmissible for this purpose.",
       "A pending appeal or a pardon does not make the conviction inadmissible, though the pendency of an appeal may be shown.",
-      "A 'conviction' requires an adjudication of guilt; a plea followed by a withhold of adjudication generally does not qualify."
+      "A 'conviction' means an adjudication of guilt or judgment of conviction by the trial court, so a guilty or no-contest plea followed by a withhold of adjudication does not qualify."
      ],
      "split": "FRE 609 requires a balancing test before admitting felony convictions (stricter when the witness is the accused), presumptively excludes convictions more than ten years old, and excludes certain pardoned convictions. Florida has no balancing test, no ten-year rule in criminal cases, and does not exclude pardoned convictions.",
      "tip": "Method matters. The examiner asks whether the witness has been convicted of a felony or a crime of dishonesty and, if so, how many times. If the witness answers truthfully, the inquiry ends; the names and facts of the crimes may not be brought out unless the witness opens the door. If the witness denies or understates the number, the opponent may prove the convictions with certified copies of the judgments.",
      "trap": "A misdemeanor qualifies only if it involves dishonesty or false statement. Florida treats theft, including petit theft, as a crime of dishonesty; simple battery or DUI does not qualify.",
-     "authority": "Fla. Stat. § 90.610"
+     "authority": "Fla. Stat. § 90.610; State v. McFadden, 772 So. 2d 1209 (Fla. 2000)"
     },
     {
      "id": "fl-evidence.witnesses-and-impeachment.prior-consistent-and-identification",
@@ -234,7 +234,7 @@
      "split": "Florida followed Frye (general acceptance in the relevant scientific community) for decades. The Legislature amended section 90.702 to adopt Daubert in 2013. The Florida Supreme Court first declined to adopt the amendment as a rule and, in DeLisle v. Crane Co. (2018), held it an unconstitutional intrusion on the Court's rulemaking power; in 2019 the Court reversed course and adopted the Daubert amendment as a rule of court. Under Frye, 'pure opinion' based on an expert's own experience escaped scrutiny; under Daubert and Kumho Tire, every expert opinion, scientific or not, must pass the reliability gate.",
      "tip": "'Generally accepted in the relevant scientific community' is the Frye test. Under Daubert it is only one reliability factor, alongside testing, peer review and publication, and the known or potential error rate.",
      "trap": "Do not argue that an experience-based opinion is exempt from the gatekeeping inquiry because it is 'pure opinion'; that exemption belonged to the Frye era.",
-     "authority": "Fla. Stat. § 90.702; In re Amendments to the Florida Evidence Code (Fla. 2019)"
+     "authority": "Fla. Stat. § 90.702; DeLisle v. Crane Co., 258 So. 3d 1219 (Fla. 2018); In re Amendments to the Florida Evidence Code, 278 So. 3d 551 (Fla. 2019)"
     },
     {
      "id": "fl-evidence.experts.bases-of-opinion",
@@ -337,14 +337,14 @@
       "Public records setting out an office's activities, or matters observed under a legal duty to report, are admissible, but in criminal cases matters observed by police and other law enforcement personnel are excluded.",
       "Recorded recollection: a record made or adopted by the witness when the matter was fresh, which correctly reflects knowledge the witness once had but can no longer recall well enough to testify fully, may be read into evidence but is received as an exhibit only if offered by the adverse party."
      ],
-     "split": "Florida's limit on opinions and diagnoses in business records is stricter than FRE 803(6), which lists opinions and diagnoses among the contents a qualifying record may contain without a separate cross-reference to the opinion rules.",
+     "split": "Florida's limit on opinions and diagnoses in business records is stricter than FRE 803(6), which lists opinions and diagnoses among the contents a qualifying record may contain without a separate cross-reference to the opinion rules. Florida's public-records exception also has no counterpart to FRE 803(8)(A)(iii), which admits factual findings from a legally authorized investigation in civil cases and against the government in criminal cases.",
      "authority": "Fla. Stat. §§ 90.803(5), (6), (8), 90.902(11)"
     },
     {
      "id": "fl-evidence.hearsay.unavailable-declarant",
      "title": "Exceptions requiring unavailability",
      "weight": 3,
-     "rule": "A declarant is unavailable if exempted by privilege, if the declarant persistently refuses to testify despite a court order, testifies to a lack of memory, cannot attend because of death or then-existing illness or infirmity, or is absent and the proponent could not procure attendance by process or other reasonable means. Unavailability does not count if the proponent procured it to prevent the declarant from testifying. If the declarant is unavailable, Florida admits former testimony, dying declarations, statements against interest and statements of personal or family history.",
+     "rule": "A declarant is unavailable if exempted by a ruling on privilege, if the declarant persists in refusing to testify despite a court order, has a lack of memory of the subject matter that destroys his or her effectiveness as a witness, cannot be present or testify because of death or then-existing physical or mental illness or infirmity, or is absent and the proponent could not procure attendance or testimony by process or other reasonable means. Unavailability does not count if the proponent procured it to prevent the declarant from testifying. If the declarant is unavailable, the exceptions that apply include former testimony, dying declarations, statements against interest and statements of personal or family history.",
      "elements": [
       "Former testimony: testimony at a hearing or in a deposition taken in compliance with law, if the party against whom it is offered (or, in a civil case, a predecessor in interest or person with a similar interest) had an opportunity and similar motive to develop it.",
       "Dying declaration: in any civil or criminal trial, a statement made while the declarant reasonably believed death was imminent, concerning the physical cause or instrumentalities of what the declarant believed to be impending death or the circumstances surrounding it.",
@@ -358,7 +358,7 @@
      "id": "fl-evidence.hearsay.child-victim",
      "title": "Child-victim hearsay",
      "weight": 3,
-     "rule": "An out-of-court statement by a child victim with a physical, mental, emotional or developmental age of 16 or less, describing child abuse, neglect, sexual abuse or an unlawful sexual act performed in the presence of, with, by or on the child, is admissible if the court finds in a hearing outside the jury's presence that the time, content and circumstances of the statement provide sufficient safeguards of reliability, and the child either testifies or is unavailable as a witness, in which case there must also be other corroborative evidence of the abuse or offense.",
+     "rule": "An out-of-court statement by a child victim with a physical, mental, emotional or developmental age of 17 or less, describing child abuse, neglect, sexual abuse or an unlawful sexual act performed in the presence of, with, by or on the child, is admissible if the court finds in a hearing outside the jury's presence that the time, content and circumstances of the statement provide sufficient safeguards of reliability, and the child either testifies or is unavailable as a witness, in which case there must also be other corroborative evidence of the abuse or offense.",
      "elements": [
       "A hearing outside the jury's presence, with specific findings on the record",
       "Reliability, considering factors such as the child's age and maturity, the nature and duration of the abuse, the child's relationship to the offender, and the reliability of the assertion and of the child",
@@ -366,8 +366,8 @@
       "In a criminal case, notice to the defendant no later than 10 days before trial"
      ],
      "split": "There is no federal counterpart. Under the Federal Rules such a statement must fit a general exception or the residual exception, which Florida does not have.",
-     "tip": "Confrontation applies separately. A child's statements in a forensic interview arranged with law enforcement are typically testimonial and cannot come in under section 90.803(23) if the child does not testify and the defendant had no prior opportunity to cross-examine. Statements to a parent are usually nontestimonial.",
-     "authority": "Fla. Stat. § 90.803(23)"
+     "tip": "The age ceiling was 11 until 2013 and 16 until July 1, 2024; it is now 17, measured when the statement was made. Confrontation applies separately. A child's statements in a forensic interview arranged with law enforcement are typically testimonial and cannot come in under section 90.803(23) if the child does not testify and the defendant had no prior opportunity to cross-examine. Statements to a parent are usually nontestimonial.",
+     "authority": "Fla. Stat. § 90.803(23); ch. 2024-71, Laws of Fla."
     },
     {
      "id": "fl-evidence.hearsay.confrontation",
@@ -413,7 +413,7 @@
       "A communication relevant to an issue concerning a document the lawyer attested as a witness.",
       "Joint clients, in a later action between them, as to communications on a matter of common interest."
      ],
-     "tip": "The privilege belongs to the client and survives the client's death, when the personal representative may claim it. It protects communications, not the underlying facts. A client's description of a crime already committed is fully privileged; the crime-fraud exception reaches only services sought to further a crime or fraud.",
+     "tip": "A 'client' includes a person who consults a lawyer with a view to obtaining legal services, even if no lawyer is retained or paid. The privilege belongs to the client and survives the client's death, when the personal representative may claim it. It protects communications, not the underlying facts. A client's description of a crime already committed is fully privileged; the crime-fraud exception reaches only services sought to further a crime or fraud.",
      "authority": "Fla. Stat. § 90.502"
     },
     {
@@ -455,9 +455,9 @@
      "id": "fl-evidence.privileges.waiver",
      "title": "Waiver of privilege",
      "weight": 2,
-     "rule": "A person who holds a privilege waives it by voluntarily disclosing, or consenting to disclosure of, any significant part of the matter or communication. A disclosure that is itself privileged is not a waiver, and privileged matter disclosed under compulsion or without an opportunity to claim the privilege is inadmissible against the holder.",
+     "rule": "A person who holds a privilege waives it by voluntarily disclosing, or consenting to disclosure of, any significant part of the matter or communication. A disclosure that is itself privileged is not a waiver, and privileged matter whose disclosure was erroneously compelled by the court, or made without an opportunity to claim the privilege, is inadmissible against the holder.",
      "tip": "Many privilege questions are resolved by a statutory exception rather than waiver: putting one's mental condition in issue, suing one's former lawyer, or a dispute between joint clients.",
-     "authority": "Fla. Stat. §§ 90.507, 90.510"
+     "authority": "Fla. Stat. §§ 90.507, 90.508"
     }
    ]
   },
@@ -488,7 +488,7 @@
      "weight": 2,
      "rule": "To prove the contents of a writing, recording or photograph, the original is required, except as otherwise provided by statute. A duplicate is admissible to the same extent as an original unless (1) the original is a negotiable instrument, a security, or another writing evidencing a right to the payment of money that is transferred by delivery in the ordinary course of business; (2) a genuine question is raised about the authenticity of the original; or (3) it would be unfair to admit the duplicate in place of the original.",
      "exceptions": [
-      "Other evidence of contents is admissible if all originals are lost or destroyed (unless the proponent lost or destroyed them in bad faith), cannot be obtained by judicial process, are in the opponent's control after the opponent was put on notice, or relate only to a collateral matter."
+      "Other evidence of contents is admissible if all originals are lost or destroyed (unless the proponent lost or destroyed them in bad faith), cannot be obtained in Florida by any judicial process, are in the opponent's control after the opponent was put on notice, or relate only to a collateral matter."
      ],
      "split": "FRE 1003 has no negotiable-instrument exclusion. Florida's exclusion matters in note-enforcement and mortgage-foreclosure cases, where the holder ordinarily must produce the original note.",
      "trap": "The rule applies only when a party seeks to prove the contents of the writing. A witness may testify from personal knowledge about an event even though the event was also recorded.",

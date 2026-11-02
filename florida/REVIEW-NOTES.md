@@ -354,3 +354,31 @@ through the notes above. Where marked, they checked current statutes and 2025–
 - **Confirmed online:** § 768.28 caps unchanged at $200,000/$300,000. HB 145 (2026) would have raised them but was vetoed on 6/30/2026. Notice periods unchanged.
 - **Still uncertain:** the >50% bar for wrongful-death claimants (e02 calls it the better reading).
 - **Added:** spotters s01 and s02.
+
+## fl-wills: reviewed
+
+- **Blind check:** 15/15.
+- **Corrected:**
+  - Revocation by another signed writing with will formalities (§ 732.505(2)).
+  - Divorce revocation (§§ 732.507(2), 732.703 nonprobate designations).
+  - Elective share trust credit: 50% / 80% / 100% tiers.
+  - Waiver wording on the personal-representative preference.
+  - Homestead election: strict 6 months, agent/guardian needs court approval (Samad v. Pla); q010 fixed.
+  - § 733.103 title proof.
+  - Unserved known creditors are not barred until 2 years (Jones v. Golden, 2015; q015, e02).
+  - e02 objection date moved inside the § 733.705 window, and the analysis rewritten.
+- **Confirmed:** every other numeric and statutory item in the notes above.
+- **Still uncertain:** the intestate per stirpes generation (the content takes no position).
+- **Added:** spotters s01 and s02.
+
+## fl-trusts: reviewed
+
+- **Blind check:** 15/15.
+- **Corrected:**
+  - § 736.0602 revocation when the trust is silent: by will or by clear and convincing evidence. A method the trust does provide controls even if not expressly exclusive.
+  - Judicial modification wording.
+  - § 736.0412 exceptions.
+  - Bacardi v. White and Berlinger v. Casselberry added (garnishment once distributed).
+  - Chapter 738 is now the Uniform Fiduciary Income and Principal Act (effective 1/1/2025); q013 wording.
+- **Still uncertain:** "wasteful" as a cy pres ground; Florida authority on secret trusts.
+- **Added:** spotters s01 and s02.

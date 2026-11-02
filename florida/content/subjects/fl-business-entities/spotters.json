@@ -128,47 +128,47 @@
       "intro": "A Destin fishing-charter business moves from an informal partnership to an LLC. Flag each segment that raises a partnership, LLC or agency issue.",
       "segments": [
         {
-          "t": "Dev and Lucia began running fishing charters out of Destin in 2023. They signed nothing, each put in $15,000, made decisions together, and split the profits equally. ",
+          "t": "Dev and Lucia began running fishing charters out of Destin in 2023. They signed nothing and told friends they were 'just seeing how it goes,' but each put in $15,000, they set trips and prices together at a weekly meeting, and they split the profits equally. ",
           "issues": [
             "a"
           ]
         },
         {
-          "t": "They registered the fictitious name 'D&L Charters' with the Division of Corporations. "
+          "t": "They registered the fictitious name 'D&L Charters' with the Division of Corporations and printed it on their brochures. "
         },
         {
-          "t": "Without asking Lucia, Dev bought a $9,000 sonar system for the charter boat on credit from Marine Electronics, which has not been paid. ",
+          "t": "Without asking Lucia, Dev bought a $9,000 sonar system for the charter boat on credit from Marine Electronics, signing the invoice 'D&L Charters, by Dev.' The invoice has never been paid, and Marine Electronics has now sued both Dev and Lucia. ",
           "issues": [
             "b"
           ]
         },
         {
-          "t": "In 2025 they formed D&L Charters, LLC. Its articles state that it is manager-managed and name Lucia as sole manager; Dev and a new investor, Marco, are members with no management role. "
+          "t": "In 2025 they formed D&L Charters, LLC and transferred the boat and gear to it. Its articles state that it is manager-managed and name Lucia as sole manager; Dev and a new investor, Marco, who paid $50,000 for a one-third interest, are members with no management role. "
         },
         {
-          "t": "Dev then signed a $40,000 engine-overhaul contract in the LLC's name with Harbor Marine, whose owner had read the articles. Lucia had never authorized it. ",
+          "t": "Dev then signed a $40,000 engine-overhaul contract in the LLC's name with Harbor Marine, whose owner had read the articles. Lucia had never authorized it and learned of it only when the invoice arrived. ",
           "issues": [
             "c"
           ]
         },
         {
-          "t": "Marco opened his own charter business at the next dock and began taking D&L customers, using no LLC property or information. ",
+          "t": "The operating agreement says nothing about competition. Marco opened his own charter business at the next dock and began taking D&L customers, using no LLC property or information. ",
           "issues": [
             "d"
           ]
         },
         {
-          "t": "Beau, a deckhand employed by the LLC, drove the LLC's pickup truck to buy bait. On the way back he spent an hour at a bar ten miles off his route, then rear-ended a car while driving back toward the dock. ",
+          "t": "Beau, a deckhand employed by the LLC, was sent by the LLC's dock supervisor to drive the LLC's pickup truck to the bait shop and come straight back. On the way back he spent an hour at a bar ten miles off his route, then rear-ended a car while driving back toward the dock. ",
           "issues": [
             "e",
             "f"
           ]
         },
         {
-          "t": "Lucia was on vacation in North Carolina that week. "
+          "t": "Lucia was on vacation in North Carolina that week and did not know Beau had the truck. "
         },
         {
-          "t": "Separately, a creditor holding a $150,000 personal judgment against Dev asked the court to order a foreclosure sale of Dev's interest in the LLC. ",
+          "t": "Separately, a creditor holding a $150,000 personal judgment against Dev asked the court to order a foreclosure sale of Dev's interest in the LLC, pointing out that the LLC has made no distributions. ",
           "issues": [
             "g"
           ]
