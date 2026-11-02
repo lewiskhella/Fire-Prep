@@ -14,7 +14,9 @@ What it does (every changed file is backed up to <app>/.florida-backup/<time>/):
                                 any other jurisdiction hides Florida; blank shows all
   * app/js/views/outlines.js    a "Florida Part A" shelf in the binder
   * app/js/views/welcome.js     labels Florida subjects in onboarding
-  * app/js/lib/planner.js       study-time weights for the Florida subjects
+  * app/js/lib/planner.js       study-time weights for the Florida subjects, and (via the new
+                                lib/florida-plan.js) a Florida calendar: Part A question sets and
+                                three-essay Part A simulations instead of MPT/MEE work
   * app/js/views/fl-differences.js + css/florida.css (new): "Where Florida differs", every
                                 rule whose outline notes a Florida departure (#/florida/differences),
                                 linked from the Florida shelf; main.js route; index.html stylesheet
@@ -128,6 +130,14 @@ PATCHES = [
                  "route('/florida/differences', () => import('./views/fl-differences.js'));\n"),
     InsertAfterLine("app/index.html", "css/florida.css", "Florida stylesheet link", 'href="css/views.css"',
                     '  <link rel="stylesheet" href="css/florida.css">\n'),
+    Replace("app/js/lib/planner.js", "floridaize", "Florida calendar (Part A sets/essays instead of MPT/MEE)", [
+        ("export function buildPlan(profile, subjects, today = new Date()) {",
+         "import { floridaize } from './florida-plan.js';\n\n"
+         "export function buildPlan(profile, subjects, today = new Date()) {\n"
+         "  return floridaize(buildPlanBase(profile, subjects, today), profile, subjects);\n"
+         "}\n\n"
+         "function buildPlanBase(profile, subjects, today = new Date()) {"),
+    ]),
     InsertAfterLine("app/js/lib/planner.js", "'fl-wills'", "Florida study-time weights",
                     "'conflict-of-laws': 0.45,", WEIGHTS),
 ]
@@ -164,7 +174,8 @@ def main(argv=None):
     if not subjects:
         sys.exit("the Florida pack has no subjects yet (florida/content/subjects/ is empty)")
     copies = [(f"florida/content/subjects/{sid}", f"content/subjects/{sid}") for sid in subjects]
-    copies += [("app/js/views/fl-differences.js", "app/js/views/fl-differences.js"), ("app/css/florida.css", "app/css/florida.css")]
+    copies += [("app/js/views/fl-differences.js", "app/js/views/fl-differences.js"), ("app/css/florida.css", "app/css/florida.css"),
+               ("app/js/lib/florida-plan.js", "app/js/lib/florida-plan.js")]
     code = kit.install(app, args.dry_run, copies, PATCHES, BACKUP)
     if not args.dry_run:
         print("\nValidating the Florida subjects:")

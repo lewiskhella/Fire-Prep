@@ -32,7 +32,7 @@ OUTLINES_JS = """  const mbe = subs.filter(s => s.meta.group === 'mbe');
 }
 """
 VALIDATOR = 'EXAMS = {"MBE", "MEE"}\nprint("  TOTAL")\n'
-PLANNER = "const BASE_WEIGHT = {\n  'family-law': 0.65, 'secured-transactions': 0.7, 'conflict-of-laws': 0.45,\n};\n"
+PLANNER = "const BASE_WEIGHT = {\n  'family-law': 0.65, 'secured-transactions': 0.7, 'conflict-of-laws': 0.45,\n};\nexport function buildPlan(profile, subjects, today = new Date()) {\n  return 1;\n}\n"
 WELCOME = "h('span.muted.smallcaps', s.exams.includes('MBE') ? ' MBE + MEE' : ' MEE')"
 MBE_JS = """  const mbeIds = subs.filter(s => s.meta.exams.includes('MBE')).map(s => s.id);
   const chosen = new Set(pre.includes('mbe') ? mbeIds : pre.length ? pre : mbeIds);
@@ -89,7 +89,10 @@ class FloridaInstallerTests(unittest.TestCase):
         outlines = (self.app / "app/js/views/outlines.js").read_text()
         self.assertIn("'Florida Part A'", outlines)
         self.assertEqual(outlines.count("'Tested on the MEE only'"), 1)
-        self.assertIn("'fl-wills': 0.9", (self.app / "app/js/lib/planner.js").read_text())
+        planner = (self.app / "app/js/lib/planner.js").read_text()
+        self.assertIn("'fl-wills': 0.9", planner)
+        self.assertIn("return floridaize(buildPlanBase(profile, subjects, today), profile, subjects);", planner)
+        self.assertTrue((self.app / "app/js/lib/florida-plan.js").exists())
         self.assertIn("includes('FL')", (self.app / "app/js/views/welcome.js").read_text())
         self.assertIn("'/florida/differences'", (self.app / "app/js/main.js").read_text())
         self.assertIn("css/florida.css", (self.app / "app/index.html").read_text())
@@ -100,7 +103,7 @@ class FloridaInstallerTests(unittest.TestCase):
 
         code, out = self.run_inst()
         self.assertEqual(code, 0, out)
-        self.assertEqual(out.count("unchanged"), 9, out)
+        self.assertEqual(out.count("unchanged"), 10, out)
 
         self.run_inst("--uninstall")
         self.assertEqual((self.app / "app/js/lib/content.js").read_text(), CONTENT_JS)
